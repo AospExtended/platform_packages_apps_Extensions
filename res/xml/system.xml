@@ -27,6 +27,12 @@
             android:icon="@drawable/ic_general_tweaks"
             android:title="@string/general_tweaks_title" />
 
+          <Preference
+            android:key="animations"
+            android:fragment="org.aospextended.extensions.Animations"
+	    android:icon="@drawable/ic_animations"
+            android:title="@string/animations_title" />
+
          <Preference
             android:key="weather"
             android:fragment="org.aospextended.extensions.Weather"

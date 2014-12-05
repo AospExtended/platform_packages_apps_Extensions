@@ -27,15 +27,11 @@
             android:layout="@layout/preference_lockscreen_ui"
             android:title="@string/lockscreen_ui_title" />
 
-          <PreferenceScreen
-            android:key="lockscreen_targets"
-            android:title="@string/lockscreen_targets_message"
-            android:layout="@layout/preference_lockscreen_targets" >
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-               android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
-         </PreferenceScreen>
+         <PreferenceScreen
+            android:key="lockscreen_shortcuts"
+            android:fragment="org.aospextended.extensions.LockscreenShortcuts"
+            android:layout="@layout/preference_lockscreen_shortcuts"
+            android:title="@string/lockscreen_shortcuts" />
 
 </PreferenceScreen>
 

@@ -89,4 +89,18 @@
         <item>2</item>
     </string-array>
 
+    <!-- Power menu entries -->
+    <string-array name="power_menu_actions_array" translatable="false">
+        <item>power</item>
+        <item>reboot</item>
+        <item>screenshot</item>
+        <item>airplane</item>
+        <item>users</item>
+        <item>settings</item>
+        <item>lockdown</item>
+        <item>voiceassist</item>
+        <item>assist</item>
+        <item>silent</item>
+    </string-array>
+
 </resources>

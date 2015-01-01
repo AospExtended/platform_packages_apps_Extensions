@@ -19,4 +19,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quick_settings_title">
 
+     <PreferenceCategory
+        android:key="quick_settings_general_category"
+        android:title="@string/general_category">
+
+        <org.aospextended.support.preference.SecureSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

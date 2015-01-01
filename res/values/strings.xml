@@ -79,7 +79,11 @@
     <string name="edit_hint">Value</string>
     <string name="seek_value_edit_label">Set value</string>
 
-
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+
 </resources>

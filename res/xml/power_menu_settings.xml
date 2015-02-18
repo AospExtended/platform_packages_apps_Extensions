@@ -19,11 +19,6 @@
     xmlns:pure="http://schemas.android.com/apk/res-auto" >
 
     <CheckBoxPreference
-        android:key="power"
-        android:title="@string/power_menu_power_title"
-        android:defaultValue="true" />
-
-    <CheckBoxPreference
         android:key="reboot"
         android:title="@string/power_menu_reboot_title"
         android:defaultValue="true" />

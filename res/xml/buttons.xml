@@ -38,6 +38,12 @@
         android:key="volume_category"
         android:title="@string/volume_category">
 
+        <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="org.aospextended.extensions.fragments.VolumeStepsFragment" />
+
     <org.aospextended.support.preference.SystemSettingSwitchPreference
 	android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"

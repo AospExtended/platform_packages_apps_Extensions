@@ -38,8 +38,31 @@
         android:key="volume_category"
         android:title="@string/volume_category">
 
+<<<<<<< HEAD
     <org.aospextended.support.preference.SystemSettingSwitchPreference
 	android:key="volume_button_music_control"
+=======
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        />    
+
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="org.aospextended.extensions.fragments.VolumeStepsFragment" />
+
+    <org.aospextended.extensions.preference.SystemSettingListPreference
+        android:key="systemui_plugin_volume"
+        android:title="@string/volume_panel"
+        android:entries="@array/volume_panel_entries"
+        android:entryValues="@array/volume_panel_values"
+        android:defaultValue="@string/volume_panel_aosp_val" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+>>>>>>> e722317a (Live Volume Steps [3/3])
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false"

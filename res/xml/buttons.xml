@@ -43,6 +43,12 @@
         android:title="@string/volume_panel_on_left_title"
         />    
 
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="org.aospextended.extensions.fragments.VolumeStepsFragment" />
+
     <org.aospextended.extensions.preference.SystemSettingListPreference
         android:key="systemui_plugin_volume"
         android:title="@string/volume_panel"

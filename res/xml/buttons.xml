@@ -34,5 +34,15 @@
 
     </PreferenceCategory>
 
+   <PreferenceCategory
+        android:key="volume_category"
+        android:title="@string/volume_category">
+
+    <org.aospextended.support.preference.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

@@ -45,4 +45,11 @@
             android:icon="@drawable/ic_settings_appops"
             android:title="@string/app_ops_category" />
 
+         <PreferenceScreen
+            android:key="systemappremover"
+            android:fragment="org.aospextended.extensions.SystemappRemover"
+            android:icon="@drawable/ic_systemappremover"
+            android:title="@string/system_app_remover" />
+
+
 </PreferenceScreen>

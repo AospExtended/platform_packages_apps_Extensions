@@ -45,4 +45,10 @@
             android:layout="@layout/preference_buttons"
             android:title="@string/buttons_title" />
 
+         <PreferenceScreen
+            android:key="systemappremover"
+            android:fragment="org.aospextended.extensions.SystemappRemover"
+            android:layout="@layout/preference_systemappremover"
+            android:title="@string/system_app_remover" />
+
 </PreferenceScreen>

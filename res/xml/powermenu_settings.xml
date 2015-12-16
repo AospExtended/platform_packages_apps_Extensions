@@ -24,6 +24,11 @@
         android:defaultValue="false" />
 
     <SwitchPreference
+        android:key="screenrecord"
+        android:title="@string/power_menu_screenrecord_title"
+        android:defaultValue="false" />
+
+    <SwitchPreference
         android:key="torch"
         android:title="@string/power_menu_torch_title"
         android:defaultValue="false" />

@@ -34,6 +34,23 @@
 
     </PreferenceCategory>
 
+        <!-- Hide Lockscreen clock & date -->
+        <PreferenceCategory
+            android:key="hide_lockscreen_items_category"
+            android:title="@string/hide_lockscreen_items_title" />
+
+         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_clock"
+            android:title="@string/hide_lockscreen_clock_title"
+            android:defaultValue="true" />
+
+         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_date"
+            android:title="@string/hide_lockscreen_date_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="lockscreen_ui_music_category"
         android:title="@string/music_category">

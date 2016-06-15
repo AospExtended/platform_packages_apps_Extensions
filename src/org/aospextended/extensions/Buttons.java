@@ -171,6 +171,12 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     }
 
     @Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+
+
+    @Override
     public void onResume() {
         super.onResume();
     }

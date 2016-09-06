@@ -17,8 +17,8 @@
 package org.aospextended.extensions;
 
 import android.content.Context;
-import android.preference.SwitchPreference;
 import android.provider.Settings;
+import android.support.v14.preference.SwitchPreference;
 import android.util.AttributeSet;
 
 public class GlobalSettingSwitchPreference extends SwitchPreference {
@@ -54,11 +54,5 @@ public class GlobalSettingSwitchPreference extends SwitchPreference {
         }
         return Settings.Global.getInt(getContext().getContentResolver(),
                 getKey(), defaultReturnValue ? 1 : 0) != 0;
-    }
-
-    protected boolean isPersisted() {
-        // Using getString instead of getInt so we can simply check for null
-        // instead of catching an exception. (All values are stored as strings.)
-        return Settings.Global.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }

@@ -17,8 +17,8 @@
 package org.aospextended.extensions;
 
 import android.content.Context;
-import android.preference.SwitchPreference;
 import android.provider.Settings;
+import android.support.v14.preference.SwitchPreference;
 import android.util.AttributeSet;
 
 public class SecureSettingSwitchPreference extends SwitchPreference {

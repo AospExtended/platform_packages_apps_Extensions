@@ -20,10 +20,10 @@ package org.aospextended.extensions.privacyguard;
 
 import android.os.Bundle;
 import android.provider.Settings;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceFragment;
-import android.preference.SwitchPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.PreferenceFragment;
+import android.support.v14.preference.SwitchPreference;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,9 +47,7 @@ public class PrivacyGuardPrefs extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.privacy_guard_prefs);
 
         mPrivacyGuardDefault = (SwitchPreference) findPreference(KEY_PRIVACY_GUARD_DEFAULT);
@@ -64,7 +62,7 @@ public class PrivacyGuardPrefs extends SettingsPreferenceFragment implements
     public View onCreateView(LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
         final View view = super.onCreateView(inflater, container, savedInstanceState);
-        final ListView list = (ListView) view.findViewById(android.R.id.list);
+        final ViewGroup list = (ViewGroup) getListView().getParent();
         // our container already takes care of the padding
         int paddingTop = list.getPaddingTop();
         int paddingBottom = list.getPaddingBottom();

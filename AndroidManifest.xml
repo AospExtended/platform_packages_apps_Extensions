@@ -41,6 +41,7 @@
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true">
 
+        <!-- Privacy settings (dashboard) -->
         <activity
             android:name=".PrivacySettings"
             android:label="@string/privacy_settings_title">
@@ -54,6 +55,21 @@
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_privacy" />
         </activity>
+
+        <!-- Button settings (dashboard) -->
+        <activity-alias
+            android:name=".input.ButtonSettings"
+            android:label="@string/button_pref_title">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_buttons" />
+        </activity-alias>
 
         <activity android:name=".PartsActivity">
             <intent-filter>

@@ -20,11 +20,14 @@ import android.app.ActionBar;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.util.Log;
 
 import org.aospextended.extensions.notificationlight.BatteryLightSettings;
 import org.aospextended.extensions.notificationlight.NotificationLightSettings;
 
 public class PartsActivity extends PreferenceActivity {
+
+    public static final String TAG = "PartsActivity";
 
     public static final String EXTRA_PART = "part";
     public static final String EXTRA_FRAGMENT_ARG_KEY = ":settings:fragment_args_key";
@@ -47,11 +50,15 @@ public class PartsActivity extends PreferenceActivity {
                 return;
             }
             String part = keys[1];
+            Log.d(TAG, "Launching fragment: " + partExtra);
+
             SettingsPreferenceFragment fragment = null;
             if (part.equals(FRAGMENT_NOTIFICATION_LIGHTS)) {
                 fragment = new NotificationLightSettings();
             } else if (part.equals(FRAGMENT_BATTERY_LIGHTS)) {
                 fragment = new BatteryLightSettings();
+            } else {
+                Log.d(TAG, "Unknown fragment: " + part);
             }
 
             mActionBar = getActionBar();
@@ -69,7 +76,4 @@ public class PartsActivity extends PreferenceActivity {
             }
         }
     }
-
-
 }
-

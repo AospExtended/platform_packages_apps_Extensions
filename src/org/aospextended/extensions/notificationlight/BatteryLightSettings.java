@@ -29,8 +29,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import org.aospextended.extensions.R;
-import org.aospextended.extensions.SettingsPreferenceFragment;
 import org.aospextended.extensions.SystemSettingSwitchPreference;
+
+import com.android.settings.SettingsPreferenceFragment;
+
 
 public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

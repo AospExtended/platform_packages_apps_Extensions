@@ -26,10 +26,9 @@
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
-    <!-- Privacy settings header item -->
-    <string name="privacy_settings_title">Privacy</string>
-    <string name="privacy_guard_manager_title">Privacy Guard</string>
+
     <!-- Privacy Guard -->
+    <string name="privacy_guard_manager_title">Privacy Guard</string>
     <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
     <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
     <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
@@ -99,7 +98,7 @@
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
 
     <!-- Button settings -->
-    <string name="button_pref_title">Buttons</string>
+    <string name="buttons_pref_title">Buttons</string>
     <string name="hardware_keys_power_key_title">Power button</string>
     <string name="hardware_keys_home_key_title">Home button</string>
     <string name="hardware_keys_back_key_title">Back button</string>

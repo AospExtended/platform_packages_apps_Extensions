@@ -30,7 +30,9 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import org.aospextended.extensions.R;
-import org.aospextended.extensions.SettingsPreferenceFragment;
+
+import com.android.settings.SettingsPreferenceFragment;
+
 
 public class PrivacyGuardPrefs extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {

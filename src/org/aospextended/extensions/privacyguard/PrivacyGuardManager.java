@@ -53,7 +53,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import org.aospextended.extensions.R;
-import org.aospextended.extensions.SettingsPreferenceFragment;
+
+import com.android.settings.SettingsPreferenceFragment;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

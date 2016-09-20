@@ -45,6 +45,8 @@ import com.android.internal.util.aospextended.ScreenType;
 import org.aospextended.extensions.R;
 import org.aospextended.extensions.SettingsPreferenceFragment;
 import org.aospextended.extensions.Utils;
+import com.android.settings.SettingsPreferenceFragment;
+
 
 import static android.provider.Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED;
 

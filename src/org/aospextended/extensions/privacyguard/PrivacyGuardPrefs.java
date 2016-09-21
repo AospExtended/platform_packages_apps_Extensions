@@ -31,6 +31,7 @@ import android.widget.ListView;
 
 import org.aospextended.extensions.R;
 
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 
 
@@ -71,6 +72,12 @@ public class PrivacyGuardPrefs extends SettingsPreferenceFragment implements
         list.setPadding(0, paddingTop, 0, paddingBottom);
         return view;
     }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
+    }
+
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {

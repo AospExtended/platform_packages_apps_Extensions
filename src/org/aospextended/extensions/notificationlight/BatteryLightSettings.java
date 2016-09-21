@@ -31,6 +31,7 @@ import android.view.MenuItem;
 import org.aospextended.extensions.R;
 import org.aospextended.extensions.SystemSettingSwitchPreference;
 
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 
 
@@ -97,6 +98,11 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     public void onResume() {
         super.onResume();
         refreshDefault();
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
     }
 
     private void refreshDefault() {

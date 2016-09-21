@@ -54,6 +54,7 @@ import android.widget.TextView;
 
 import org.aospextended.extensions.R;
 
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.ArrayList;
@@ -143,6 +144,11 @@ public class PrivacyGuardManager extends SettingsPreferenceFragment
         scheduleAppsLoad();
 
         setHasOptionsMenu(true);
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
     }
 
     @Override

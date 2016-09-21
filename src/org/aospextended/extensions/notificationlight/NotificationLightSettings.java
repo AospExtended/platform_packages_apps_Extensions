@@ -49,6 +49,7 @@ import org.aospextended.extensions.PackageListAdapter;
 import org.aospextended.extensions.PackageListAdapter.PackageItem;
 import org.aospextended.extensions.R;
 
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.ArrayList;
@@ -184,6 +185,11 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         refreshDefault();
         refreshCustomApplicationPrefs();
         getActivity().invalidateOptionsMenu();
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
     }
 
     private void refreshDefault() {

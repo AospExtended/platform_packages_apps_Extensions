@@ -40,11 +40,14 @@ import android.view.WindowManagerGlobal;
 
 import java.util.List;
 
+
 import com.android.internal.util.aospextended.ScreenType;
 
 import org.aospextended.extensions.R;
 import org.aospextended.extensions.SettingsPreferenceFragment;
 import org.aospextended.extensions.Utils;
+
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 
 
@@ -396,6 +399,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (incallHomeBehavior == Settings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER);
             mHomeAnswerCall.setChecked(homeButtonAnswersCall);
         }
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
     }
 
     private ListPreference initActionList(String key, int value) {

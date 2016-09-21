@@ -17,5 +17,6 @@
 <resources>
     <color name="background_tab_pressed">#1AFFFFFF</color>
     <color name="theme_accent">#ff009688</color>
+    <color name="action_picker_fab_background">@color/theme_accent</color>
 </resources>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+<!--  Copyright (C) 2014-2016 AospExtended ROM Project
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -15,12 +15,15 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 
-<resources>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/navigation_category"
+    android:layout="@layout/tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <color name="white">#FFF</color>
-    <color name="background_tab_pressed">#1AFFFFFF</color>
-    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
-    <color name="icon_tint_color">@color/material_deep_teal_500</color>
-    <color name="theme_accent">#ff009688</color>
-    <color name="action_picker_fab_background">@color/theme_accent</color>
-</resources>
+     <Preference
+        android:key="navigation_options"
+        android:fragment="org.aospextended.extensions.dui.NavbarSettings"
+        android:layout="@layout/preference_navigation"
+        android:title="@string/navigationbar_settings_title" />
+</PreferenceScreen>

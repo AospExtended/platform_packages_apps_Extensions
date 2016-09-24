@@ -23,6 +23,7 @@
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
     <string name="choose_app">Choose app</string>
+    <string name="general_category">General</string>
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
@@ -181,5 +182,10 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
 
 </resources>

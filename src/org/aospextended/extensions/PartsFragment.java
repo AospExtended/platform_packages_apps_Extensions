@@ -56,6 +56,7 @@ import java.util.List;
 
 import org.aospextended.extensions.tabs.System;
 import org.aospextended.extensions.PagerSlidingTabStrip;
+import org.aospextended.extensions.tabs.StatusBar;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -170,7 +171,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-            frags[0] = new System();
+            frags[0] = new StatusBar();
+            frags[1] = new System();
         }
 
         @Override
@@ -192,6 +194,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
+                    getString(R.string.status_bar_category),
                     getString(R.string.system_category)};
         return titleString;
     }

@@ -54,6 +54,9 @@
     <!-- Lockscreen general category -->
     <string name="general_category">General</string>
 
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
+
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Statusbar Items</string>
 

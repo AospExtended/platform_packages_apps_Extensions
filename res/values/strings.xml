@@ -79,4 +79,7 @@
     <string name="edit_hint">Value</string>
     <string name="seek_value_edit_label">Set value</string>
 
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
 </resources>

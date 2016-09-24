@@ -376,6 +376,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     }
 
     @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
 
@@ -401,8 +406,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     }
 
     @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.EXTENSIONS;
+    public void onPause() {
+        super.onPause();
     }
 
     private ListPreference initActionList(String key, int value) {

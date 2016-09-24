@@ -147,11 +147,6 @@ public class PrivacyGuardManager extends SettingsPreferenceFragment
     }
 
     @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.EXTENSIONS;
-    }
-
-    @Override
     public void onViewStateRestored(Bundle savedInstanceState) {
         super.onViewStateRestored(savedInstanceState);
     }
@@ -165,6 +160,19 @@ public class PrivacyGuardManager extends SettingsPreferenceFragment
     }
 
     @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        // rebuild the list; the user might have changed settings inbetween
+        scheduleAppsLoad();
+    }
+
+    @Override
     public void onPause() {
         super.onPause();
 
@@ -174,14 +182,6 @@ public class PrivacyGuardManager extends SettingsPreferenceFragment
         mSavedFirstVisiblePosition = mAppsList.getFirstVisiblePosition();
         View firstChild = mAppsList.getChildAt(0);
         mSavedFirstItemOffset = (firstChild == null) ? 0 : firstChild.getTop();
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        // rebuild the list; the user might have changed settings inbetween
-        scheduleAppsLoad();
     }
 
     @Override

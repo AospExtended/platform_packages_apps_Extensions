@@ -58,7 +58,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.aospextended.extensions.util.ColorUtils;
-import org.aospextended.extensions.SystemSettingSwitchPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 public class NotificationLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, ApplicationLightPreference.ItemLongClickListener {

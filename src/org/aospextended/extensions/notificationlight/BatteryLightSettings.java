@@ -29,7 +29,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import org.aospextended.extensions.R;
-import org.aospextended.extensions.SystemSettingSwitchPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;

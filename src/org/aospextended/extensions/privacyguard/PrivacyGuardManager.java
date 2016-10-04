@@ -53,12 +53,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import org.aospextended.extensions.R;
-
+import org.aospextended.extensions.SettingsPreferenceFragment;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class PrivacyGuardManager extends Fragment
+public class PrivacyGuardManager extends SettingsPreferenceFragment
         implements OnItemClickListener, OnItemLongClickListener,
                    LoaderManager.LoaderCallbacks<List<PrivacyGuardManager.AppInfo>> {
 

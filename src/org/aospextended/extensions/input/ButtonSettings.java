@@ -44,7 +44,6 @@ import java.util.List;
 import com.android.internal.util.aospextended.ScreenType;
 
 import org.aospextended.extensions.R;
-import org.aospextended.extensions.SettingsPreferenceFragment;
 import org.aospextended.extensions.Utils;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;

@@ -31,6 +31,12 @@
         android:key="volume_category"
         android:title="@string/volume_rocker">
 
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="sysui_show_full_zen"
+        android:title="@string/tuner_full_zen_title"
+        android:summary="@string/tuner_full_zen_summary"
+        android:defaultValue="false"/>
+
     <SwitchPreference
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"

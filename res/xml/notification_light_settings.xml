@@ -61,7 +61,7 @@
             android:title="@string/notification_light_screen_on"
             android:dependency="notification_light_pulse" />
 
-        <org.asopextended.extensions.SystemSettingSwitchPreference
+        <org.aospextended.extensions.SystemSettingSwitchPreference
             android:key="allow_lights"
             android:title="@string/notification_light_zen_mode"
             android:dependency="notification_light_pulse"

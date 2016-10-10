@@ -25,6 +25,7 @@
     <string name="cancel">Cancel</string>
     <string name="choose_app">Choose app</string>
     <string name="general_category">General</string>
+    <string name="gestures_category">Gestures</string>
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
@@ -51,5 +52,10 @@
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double-tap on the status bar or top third and bottom shortcut area of the lock screen to turn off the display</string>
+
 
 </resources>

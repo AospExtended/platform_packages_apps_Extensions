@@ -48,4 +48,8 @@
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Misc Extensions</string>
 
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
 </resources>

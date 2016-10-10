@@ -188,4 +188,7 @@
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
 
+    <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Misc Extensions</string>
+
 </resources>

@@ -19,6 +19,12 @@
     <PreferenceCategory
         android:key="misc_extensions_general_category"
         android:title="@string/general_category">
+    
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="status_bar_notif_count"
+        android:title="@string/status_bar_notif_count_title"
+        android:summary="@string/status_bar_notif_count_summary"
+        android:defaultValue="false" />
 
     </PreferenceCategory>
 

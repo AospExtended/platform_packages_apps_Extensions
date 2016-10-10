@@ -47,16 +47,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.aospextended.extensions.tabs.System;
-import org.aospextended.extensions.PagerSlidingTabStrip;
-import org.aospextended.extensions.tabs.StatusBar;
-import org.aospextended.extensions.tabs.Lockscreen;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.aospextended.extensions.tabs.System;
+import org.aospextended.extensions.PagerSlidingTabStrip;
+import org.aospextended.extensions.tabs.StatusBar;
+import org.aospextended.extensions.tabs.Recents;
+import org.aospextended.extensions.tabs.Lockscreen;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -172,8 +174,9 @@ public class PartsFragment extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new StatusBar();
-	        frags[1] = new Lockscreen();
-            frags[2] = new System();
+            frags[1] = new Recents();
+	    frags[2] = new Lockscreen();
+            frags[3] = new System();
         }
 
         @Override
@@ -196,6 +199,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
                     getString(R.string.status_bar_category),
+                    getString(R.string.recents_category),
                     getString(R.string.lockscreen_category),
                     getString(R.string.system_category)};
         return titleString;

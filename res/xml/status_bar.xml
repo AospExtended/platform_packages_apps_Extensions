@@ -27,4 +27,10 @@
             android:layout="@layout/preference_quick_settings"
             android:title="@string/quick_settings_title" />
 
+         <PreferenceScreen
+            android:key="misc_extensions"
+            android:fragment="org.aospextended.extensions.statusbar.MiscExtensions"
+            android:layout="@layout/preference_misc_extensions"
+            android:title="@string/misc_extensions_title" />
+
 </PreferenceScreen>

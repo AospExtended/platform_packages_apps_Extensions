@@ -184,6 +184,8 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
+    <string name="powermenu_lockscreen_summary">Show power menu on the lock screen</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>

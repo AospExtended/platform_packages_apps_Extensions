@@ -34,7 +34,7 @@
     <!-- Extensions categories -->
     <string name="recents_category">Recents</string>
     <string name="status_bar_category">Status Bar</string>
-    <string name="notifications_panel__category">Notifications Panel</string>
+    <string name="notifications_panel_category">Notifications Panel</string>
     <string name="system_category">System</string>
 
     <!-- App info dialog -->
@@ -199,6 +199,9 @@
 
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
 
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>

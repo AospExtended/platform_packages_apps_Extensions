@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2016 AospExtended ROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -11,17 +11,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<PreferenceScreen
+<PreferenceScreen 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/notifications_panel_category"
-    android:layout="@layout/tab"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/notifications_title">
 
-         <PreferenceScreen
-            android:key="notifications"
-            android:fragment="org.aospextended.extensions.Notifications"
-            android:layout="@layout/preference_notifications"
-            android:title="@string/notifications_title" />
+    <PreferenceCategory
+        android:key="notifications_general_category"
+        android:title="@string/general_category">
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

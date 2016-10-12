@@ -33,6 +33,7 @@
     <!-- Extensions categories -->
     <string name="recents_category">Recents</string>
     <string name="status_bar_category">Status Bar</string>
+    <string name="notifications_panel__category">Notifications Panel</string>
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
 

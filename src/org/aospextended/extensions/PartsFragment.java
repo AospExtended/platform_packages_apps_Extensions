@@ -59,6 +59,7 @@ import org.aospextended.extensions.PagerSlidingTabStrip;
 import org.aospextended.extensions.tabs.StatusBar;
 import org.aospextended.extensions.tabs.Recents;
 import org.aospextended.extensions.tabs.Lockscreen;
+import org.aospextended.extensions.tabs.NotificationsPanel;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -174,9 +175,10 @@ public class PartsFragment extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new StatusBar();
-            frags[1] = new Recents();
-	    frags[2] = new Lockscreen();
-            frags[3] = new System();
+            frags[1] = new NotificationsPanel();
+            frags[2] = new Recents();
+	    frags[3] = new Lockscreen();
+            frags[4] = new System();
         }
 
         @Override
@@ -199,6 +201,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
                     getString(R.string.status_bar_category),
+                    getString(R.string.notifications_panel_category),
                     getString(R.string.recents_category),
                     getString(R.string.lockscreen_category),
                     getString(R.string.system_category)};

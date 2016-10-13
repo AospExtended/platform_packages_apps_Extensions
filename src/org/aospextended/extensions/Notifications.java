@@ -50,7 +50,10 @@ import com.android.settings.Utils;
 public class Notifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
+    private static final String DISABLE_IMMERSIVE_MESSAGE = "disable_immersive_message";
+
     private SwitchPreference mForceExpanded;
+    private SwitchPreference mDisableIM;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,6 +70,11 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                 FORCE_EXPANDED_NOTIFICATIONS, 0);
         mForceExpanded.setChecked(ForceExpanded != 0);
 
+        mDisableIM = (SwitchPreference) findPreference(DISABLE_IMMERSIVE_MESSAGE);
+        mDisableIM.setOnPreferenceChangeListener(this);
+        int DisableIM = Settings.System.getInt(getContentResolver(),
+                DISABLE_IMMERSIVE_MESSAGE, 0);
+        mDisableIM.setChecked(DisableIM != 0);
 
     }
 
@@ -85,6 +93,11 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
             if (preference == mForceExpanded) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(), FORCE_EXPANDED_NOTIFICATIONS,
+                    value ? 1 : 0);
+            return true;
+          } else if (preference == mDisableIM) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), DISABLE_IMMERSIVE_MESSAGE,
                     value ? 1 : 0);
             return true;
           }

@@ -20,7 +20,7 @@
         android:key="general_tweaks_general_category"
         android:title="@string/general_category">
 
-        <com.aospextended.extensions.preference.SystemSettingSwitchPreference
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
             android:summary="@string/toast_icon_summary"

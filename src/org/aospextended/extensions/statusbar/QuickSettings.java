@@ -27,6 +27,7 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.ListPreference;
+import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
@@ -44,6 +45,7 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.internal.util.du.DuUtils;
 import com.android.settings.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
@@ -54,6 +56,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
     private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
     private static final String PREF_COLUMNS = "qs_columns";
+    private static final String PREF_QS_DATA_ADVANCED = "qs_data_advanced";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -61,6 +64,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mRowsPortrait;
     private ListPreference mRowsLandscape;
     private ListPreference mQsColumns;
+    private SwitchPreference mQsDataAdvanced;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -120,6 +124,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mQsColumns.setSummary(mQsColumns.getEntry());
         mQsColumns.setOnPreferenceChangeListener(this);
 
+        mQsDataAdvanced = (SwitchPreference) findPreference(PREF_QS_DATA_ADVANCED);
+        mQsDataAdvanced.setOnPreferenceChangeListener(this);
+        if (DuUtils.isWifiOnly(getActivity())) {
+            prefSet.removePreference(mQsDataAdvanced);
+        } else {
+        mQsDataAdvanced.setChecked((Settings.Secure.getInt(resolver,
+                Settings.Secure.QS_DATA_ADVANCED, 0) == 1));
+        }
     }
 
     @Override
@@ -177,6 +189,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.QS_COLUMNS, intValue);
             preference.setSummary(mQsColumns.getEntries()[index]);
+            return true;
+        } else if  (preference == mQsDataAdvanced) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.QS_DATA_ADVANCED, checked ? 1:0);
             return true;
         }
         return false;

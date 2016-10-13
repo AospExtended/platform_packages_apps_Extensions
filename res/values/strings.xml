@@ -527,9 +527,10 @@
     <string name="tuner_full_zen_summary">Show a do not disturb switch in the volume panel</string>
 
     <!-- Quick settings tiles columns and rows config -->
-    <string name="qs_layout_category">Rows and columns</string>
+    <string name="qs_layout_category">QS tiles layout</string>
     <string name="qs_rows_portrait_title">Rows (portrait)</string>
     <string name="qs_rows_landscape_title">Rows (landscape)</string>
     <string name="qs_columns_title">Columns</string>
+    <string name="sysui_qqs_count_title">Small QS tiles</string>
 
 </resources>

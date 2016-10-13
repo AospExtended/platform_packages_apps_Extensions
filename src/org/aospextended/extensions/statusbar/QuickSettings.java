@@ -57,6 +57,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
     private static final String PREF_COLUMNS = "qs_columns";
     private static final String PREF_QS_DATA_ADVANCED = "qs_data_advanced";
+    private static final String KEY_SYSUI_QQS_COUNT = "sysui_qqs_count_key";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -65,6 +66,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mRowsLandscape;
     private ListPreference mQsColumns;
     private SwitchPreference mQsDataAdvanced;
+    private ListPreference mSysuiQqsCount;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -132,6 +134,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mQsDataAdvanced.setChecked((Settings.Secure.getInt(resolver,
                 Settings.Secure.QS_DATA_ADVANCED, 0) == 1));
         }
+
+        mSysuiQqsCount = (ListPreference) findPreference(KEY_SYSUI_QQS_COUNT);
+        int SysuiQqsCount = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QQS_COUNT, 5);
+        mSysuiQqsCount.setValue(Integer.toString(SysuiQqsCount));
+        mSysuiQqsCount.setSummary(mSysuiQqsCount.getEntry());
+        mSysuiQqsCount.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -194,6 +203,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             boolean checked = ((SwitchPreference)preference).isChecked();
             Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.QS_DATA_ADVANCED, checked ? 1:0);
+        } else if (preference == mSysuiQqsCount) {
+            String SysuiQqsCount = (String) objValue;
+            int SysuiQqsCountValue = Integer.parseInt(SysuiQqsCount);
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.QQS_COUNT, SysuiQqsCountValue);
+            int SysuiQqsCountIndex = mSysuiQqsCount.findIndexOfValue(SysuiQqsCount);
+            mSysuiQqsCount.setSummary(mSysuiQqsCount.getEntries()[SysuiQqsCountIndex]);
             return true;
         }
         return false;

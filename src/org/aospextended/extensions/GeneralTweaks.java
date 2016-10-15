@@ -30,6 +30,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
@@ -48,6 +49,10 @@ import com.android.settings.Utils;
 
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+
+    private ListPreference mMsob;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +61,12 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mMsob = (ListPreference) findPreference(PREF_MEDIA_SCANNER_ON_BOOT);
+        mMsob.setValue(String.valueOf(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT, 0)));
+        mMsob.setSummary(mMsob.getEntry());
+        mMsob.setOnPreferenceChangeListener(this);
 
     }
 
@@ -70,7 +81,15 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mMsob) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.MEDIA_SCANNER_ON_BOOT,
+                    Integer.valueOf(String.valueOf(newValue)));
+            mMsob.setValue(String.valueOf(newValue));
+            mMsob.setSummary(mMsob.getEntry());
+            return true;
+          }
         return false;
     }
 }

@@ -31,6 +31,12 @@
         android:summary="@string/disable_immersive_message_summary"
         android:persistent="false" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="flashlight_notification"
+        android:title="@string/flashlight_notification_title"
+        android:summary="@string/flashlight_notification_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

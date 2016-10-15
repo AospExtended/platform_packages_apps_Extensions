@@ -51,7 +51,9 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
     private static final String DISABLE_IMMERSIVE_MESSAGE = "disable_immersive_message";
+    private static final String FLASHLIGHT_NOTIFICATION = "flashlight_notification";
 
+    private SwitchPreference mFlashlightNotification;
     private SwitchPreference mForceExpanded;
     private SwitchPreference mDisableIM;
 
@@ -63,6 +65,15 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mFlashlightNotification = (SwitchPreference) findPreference(FLASHLIGHT_NOTIFICATION);
+        mFlashlightNotification.setOnPreferenceChangeListener(this);
+        if (!Utils.deviceSupportsFlashLight(getActivity())) {
+            prefScreen.removePreference(mFlashlightNotification);
+        } else {
+        mFlashlightNotification.setChecked((Settings.System.getInt(resolver,
+                Settings.System.FLASHLIGHT_NOTIFICATION, 0) == 1));
+        }
 
         mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
         mForceExpanded.setOnPreferenceChangeListener(this);
@@ -100,7 +111,12 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
             Settings.System.putInt(getContentResolver(), DISABLE_IMMERSIVE_MESSAGE,
                     value ? 1 : 0);
             return true;
-          }
+          } else if  (preference == mFlashlightNotification) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                   Settings.System.FLASHLIGHT_NOTIFICATION, checked ? 1:0);
+            return true;
+        }
         return false;
     }
 }

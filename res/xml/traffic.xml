@@ -51,7 +51,7 @@
         android:title="@string/network_traffic_hidearrow"
         android:summary="@string/network_traffic_hidearrow_summary"
         android:dependency="network_traffic_state"
-        android:defaultValue="false" /
+        android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"

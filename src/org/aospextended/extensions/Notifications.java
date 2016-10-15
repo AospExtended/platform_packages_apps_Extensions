@@ -64,7 +64,7 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         addPreferencesFromResource(R.xml.notifications);
 
         final ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefSet = getPreferenceScreen();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mFlashlightNotification = (SwitchPreference) findPreference(FLASHLIGHT_NOTIFICATION);
         mFlashlightNotification.setOnPreferenceChangeListener(this);

@@ -48,6 +48,10 @@ import com.android.settings.Utils;
 
 public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String IMMERSIVE_RECENTS = "immersive_recents";
+ 
+    private ListPreference mImmersiveRecents;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +60,12 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mImmersiveRecents = (ListPreference) findPreference(IMMERSIVE_RECENTS);
+        mImmersiveRecents.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.IMMERSIVE_RECENTS, 0)));
+        mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
+        mImmersiveRecents.setOnPreferenceChangeListener(this);
 
     }
 
@@ -70,7 +80,15 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mImmersiveRecents) {
+            Settings.System.putInt(getContentResolver(), Settings.System.IMMERSIVE_RECENTS,
+                    Integer.valueOf((String) newValue));
+            mImmersiveRecents.setValue(String.valueOf(newValue));
+            mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
+            return true;
+        }
         return false;
     }
 }

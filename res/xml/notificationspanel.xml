@@ -19,6 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
          <PreferenceScreen
+            android:key="quick_settings"
+            android:fragment="org.aospextended.extensions.statusbar.QuickSettings"
+            android:layout="@layout/preference_quick_settings"
+            android:title="@string/quick_settings_title" />
+
+         <PreferenceScreen
             android:key="notifications"
             android:fragment="org.aospextended.extensions.Notifications"
             android:layout="@layout/preference_notifications"

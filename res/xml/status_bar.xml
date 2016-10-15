@@ -18,14 +18,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/status_bar_category"
-    android:layout="@layout/tab"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-         <PreferenceScreen
-            android:key="quick_settings"
-            android:fragment="org.aospextended.extensions.statusbar.QuickSettings"
-            android:layout="@layout/preference_quick_settings"
-            android:title="@string/quick_settings_title" />
 
          <PreferenceScreen
             android:key="misc_extensions"

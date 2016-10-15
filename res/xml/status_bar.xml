@@ -21,7 +21,13 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
+          <PreferenceScreen
+            android:key="statusbarclock"
+            android:fragment="org.aospextended.extensions.StatusbarClock"
+            android:layout="@layout/preference_statusbarclock"
+            android:title="@string/status_bar_clock" />
+
+         <PreferenceScreen
             android:key="traffic"
             android:fragment="org.aospextended.extensions.Traffic"
             android:layout="@layout/preference_traffic"

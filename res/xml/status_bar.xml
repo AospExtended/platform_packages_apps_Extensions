@@ -19,7 +19,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/status_bar_category"
 
-         <Preference
+          <PreferenceScreen
+            android:key="statusbarclock"
+            android:fragment="org.aospextended.extensions.StatusbarClock"
+            android:layout="@layout/preference_statusbarclock"
+            android:title="@string/status_bar_clock" />
+
+         <PreferenceScreen
             android:key="traffic"
             android:fragment="org.aospextended.extensions.Traffic"
             android:layout="@layout/preference_traffic"

@@ -40,6 +40,7 @@
     <string name="notifications_panel_category">Notifications Panel</string>
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
+    <string name="statusbar_items_category">Statusbar items</string>
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>

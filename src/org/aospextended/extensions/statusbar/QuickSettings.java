@@ -178,7 +178,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                     tileAnimationInterpolator, UserHandle.USER_CURRENT);
             updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
             return true;
-+        } else if (preference == mRowsPortrait) {
+        } else if (preference == mRowsPortrait) {
             intValue = Integer.valueOf((String) objValue);
             index = mRowsPortrait.findIndexOfValue((String) objValue);
             Settings.Secure.putInt(getContentResolver(),

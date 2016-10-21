@@ -42,6 +42,7 @@
     <string name="lockscreen_category">Lockscreen</string>
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="navigation_category">Navigation</string>
+    <string name="breathing_notifications_category">Breathing Notifications</string>
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>
@@ -365,5 +366,14 @@
     <!-- Advanced data tile -->
     <string name="qs_advanced_data_title">Advanced data tile</string>
     <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+
+    <!-- Breathing Notifications -->
+    <string name="breathing_notifications_title">Breathing notifications</string>
+    <string name="missed_call_breath_title">Breathing Missed Call</string>
+    <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
+    <string name="voicemail_breath_title">Breathing Voicemail</string>
+    <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
+    <string name="sms_breath_title">Breathing SMS</string>
+    <string name="sms_breath_summary">Will give your SMS notifications a breathing effect in the statusbar</string>
 
 </resources>

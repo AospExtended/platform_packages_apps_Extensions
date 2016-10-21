@@ -40,4 +40,28 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="breathing_notifications"
+        android:title="@string/breathing_notifications_category">
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="missed_call_breath"
+        android:title="@string/missed_call_breath_title"
+        android:summary="@string/missed_call_breath_summary"
+        android:persistent="false"/>
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="voicemail_breath"
+        android:title="@string/voicemail_breath_title"
+        android:summary="@string/voicemail_breath_summary"
+        android:persistent="false"/>
+  
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="sms_breath"
+        android:title="@string/sms_breath_title"
+        android:summary="@string/sms_breath_summary"
+        android:persistent="false"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -206,6 +206,12 @@
         android:title="@string/hardware_keys_volume_keys_title" >
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="sysui_show_full_zen"
+        android:title="@string/tuner_full_zen_title"
+        android:summary="@string/tuner_full_zen_summary"
+        android:defaultValue="false"/>
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="volume_wake_screen"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />

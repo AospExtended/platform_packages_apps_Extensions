@@ -205,7 +205,7 @@
         android:key="volume_keys"
         android:title="@string/hardware_keys_volume_keys_title" >
 
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
         android:key="sysui_show_full_zen"
         android:title="@string/tuner_full_zen_title"
         android:summary="@string/tuner_full_zen_summary"

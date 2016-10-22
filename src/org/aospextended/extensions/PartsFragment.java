@@ -60,6 +60,7 @@ import org.aospextended.extensions.tabs.StatusBar;
 import org.aospextended.extensions.tabs.Recents;
 import org.aospextended.extensions.tabs.NotificationsPanel;
 import org.aospextended.extensions.tabs.Navigation;
+import org.aospextended.extensions.tabs.Lockscreen;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -178,7 +179,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
             frags[1] = new NotificationsPanel();
             frags[2] = new Navigation();
             frags[3] = new Recents();
-            frags[4] = new System();
+	    frags[4] = new Lockscreen();
+            frags[5] = new System();
         }
 
         @Override
@@ -204,6 +206,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
                     getString(R.string.notifications_panel_category),
                     getString(R.string.navigation_category),
                     getString(R.string.recents_category),
+                    getString(R.string.lockscreen_category),
                     getString(R.string.system_category)};
         return titleString;
     }

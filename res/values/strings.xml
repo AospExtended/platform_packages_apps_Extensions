@@ -40,6 +40,7 @@
     <string name="system_category">System</string>
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="navigation_category">Navigation</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
     <string name="nightmode_category">Night mode</string>
 

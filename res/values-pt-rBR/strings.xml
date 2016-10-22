@@ -6,9 +6,6 @@
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-	 
-          http://www.apache.org/licenses/LICENSE-2.0
-		  
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -38,6 +35,8 @@
   <string name="system_category">Sistema</string>
   <string name="statusbar_items_category">Itens da barra de status</string>
   <string name="navigation_category">Navegação</string>
+  <string name="breathing_notifications_category">Efeito de respiração nas notificações</string>
+  <string name="nightmode_category">Modo noturno</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
   <string name="extensions_dialog_message">Se você encontrar um bug com alguma dessas configurações, postar na seção de relatórios de bugs de nossa página de Google +. Você DEVE incluir o seguinte quando postar um relatório de bug: \n\n1. Um logcat ou last_kmsg\n2. Kernels e mods utilizados\n3. Informações úteis\n\nSe você não reportar corretamente, NÃO espere que as coisas sejam corrigidas.</string>
@@ -79,6 +78,11 @@
   <string name="pulse_speed_normal">Normal</string>
   <string name="pulse_speed_slow">Devagar</string>
   <string name="pulse_speed_very_slow">Muito Lento</string>
+  <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">Controle de Brilho</string>
+  <string name="qs_brightness_slider_summary">Ativar/ Desativar o controle de brilho nas Configurações Rápidas</string>
+  <string name="brightness_icon_title">Ícone de Brilho </string>
+  <string name="brightness_icon_summary">Ativar desativar o ícone de brilho existente ao lado do controle deslizante de brilho</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Luz da bateria</string>
   <string name="battery_low_pulse_title">Pulsar quando a bateria estiver fraca</string>
@@ -236,8 +240,6 @@
   <string name="qs_set_animation_style">%1$s</string>
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
-  <!-- Option to show brightness bar in quick settings -->
-  <string name="show_brightness">Mostrar o controle deslizante de brilho</string>
   <!-- MediaScanner behavior on boot -->
   <string name="media_scanner_on_boot_title">Comportamento do MediaScanner no boot</string>
   <string name="media_scanner_on_boot_enabled">Pesquisar mídia</string>
@@ -448,4 +450,27 @@
   <string name="smartbar_config_backup_error_toast">Erro ao salvar o perfil da Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Erro ao restaurar o perfil da SmartBar</string>
   <string name="navbar_buttons_alpha_title">Transparência do botão</string>
+  <!-- QuickSettings haptic feedback -->
+  <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
+  <string name="quick_settings_vibrate_summary">Vibrar ao tocar as tiles</string>
+  <!-- Advanced data tile -->
+  <string name="qs_advanced_data_title">Ajuste rápido de dados</string>
+  <string name="qs_advanced_data_summary">Habilitar um toque para ativar e desativar os dados</string>
+   <!-- Breathing Notifications -->
+  <string name="breathing_notifications_title">Efeito de respiração nas notificações</string>
+  <string name="missed_call_breath_title">Efeito de respiração nas notificações de Chamada Perdida</string>
+  <string name="missed_call_breath_summary">Vai dar suas a notificações de chamadas perdidas um efeito de respiração na barra de status</string>
+  <string name="voicemail_breath_title">Efeito de respiração nas notificações de Correio de Voz</string>
+  <string name="voicemail_breath_summary">Vai dar a suas notificações de caixa postal um efeito de respiração na barra de status</string>
+  <string name="sms_breath_title">Respiração nas SMS</string>
+  <string name="sms_breath_summary">Vai dar suas notificações SMS um efeito de respiração na barra de status</string>
+  <!-- Do not disturb switch in volume panel -->
+  <string name="tuner_full_zen_title">Interruptor não pertube</string>
+  <string name="tuner_full_zen_summary">Exibe o interruptor não perturbe no painel de volume</string>
+  <!-- Quick settings tiles columns and rows config -->
+  <string name="qs_layout_category">Layout dos ajustes rápidos</string>
+  <string name="qs_rows_portrait_title">Linhas (vertical)</string>
+  <string name="qs_rows_landscape_title">Linhas (horizontal)</string>
+  <string name="qs_columns_title">Colunas</string>
+  <string name="sysui_qqs_count_title">Ajustes rápidos pequenos</string>
 </resources>

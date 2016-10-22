@@ -37,6 +37,12 @@
             android:layout="@layout/preference_statusbarclock"
             android:title="@string/status_bar_clock" />
 
+         <Preference
+            android:key="battery_style_pref"
+            android:fragment="org.aospextended.extensions.BatterySettings"
+            android:layout="@layout/preference_battery_settings"
+            android:title="@string/status_bar_battery_title" />
+
          <PreferenceScreen
             android:key="traffic"
             android:fragment="org.aospextended.extensions.Traffic"

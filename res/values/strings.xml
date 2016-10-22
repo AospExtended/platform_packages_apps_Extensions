@@ -533,4 +533,7 @@
     <string name="qs_columns_title">Columns</string>
     <string name="sysui_qqs_count_title">Small QS tiles</string>
 
+    <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
+    <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
+
 </resources>

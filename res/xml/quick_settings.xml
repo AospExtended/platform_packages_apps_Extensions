@@ -55,7 +55,13 @@
         android:summary="@string/qs_advanced_data_summary"
         android:defaultValue="false" />
 
-        </PreferenceCategory>
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="qs_wifi_easy_toggle"
+        android:title="@string/qs_wifi_easy_toggle_title"
+        android:summary="@string/qs_wifi_easy_toggle_summary"
+        android:defaultValue="false" />
+       
+     </PreferenceCategory>
 
      <PreferenceCategory
         android:key="qs_layout_category"

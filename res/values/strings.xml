@@ -220,6 +220,9 @@
     <!-- Recents UI -->
     <string name="recents_ui_title">Recents UI</string>
 
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
+
     <!-- Show notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
@@ -544,5 +547,9 @@
     <!-- CM Lockscreen shortcuts -->
     <string name="lockscreen_targets_summary">View or change lock screen shortcuts</string>
     <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
+
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
 </resources>

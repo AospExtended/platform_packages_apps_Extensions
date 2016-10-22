@@ -541,4 +541,8 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>  
 
+    <!-- CM Lockscreen shortcuts -->
+    <string name="lockscreen_targets_summary">View or change lock screen shortcuts</string>
+    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
+
 </resources>

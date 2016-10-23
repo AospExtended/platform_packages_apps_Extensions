@@ -36,6 +36,7 @@
   <string name="system_category">Sistema</string>
   <string name="statusbar_items_category">Elementos de la barra de estado</string>
   <string name="navigation_category">Barra de navegación</string>
+  <string name="lockscreen_category">Pantalla de desbloqueo</string>
   <string name="breathing_notifications_category">Efecto Respiración en Notificaciones</string>
   <string name="nightmode_category">Modo nocturno</string>
   <!-- App info dialog -->
@@ -194,6 +195,8 @@
   <string name="notifications_title">Notificaciones</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Interfaz de usuario de recientes</string>
+  <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">UI de la pantalla de bloqueo</string>
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
   <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes</string>
@@ -474,4 +477,32 @@
   <string name="qs_rows_landscape_title">Filas (horizontal)</string>
   <string name="qs_columns_title">Columnas</string>
   <string name="sysui_qqs_count_title">Ajustes rápidos pequeños</string>
+  <string name="qs_wifi_easy_toggle_title">Interruptor rápido de WiFi</string>
+  <string name="qs_wifi_easy_toggle_summary">Una pulsación hace que se active o desactive el WiFi en lugar de ir a las opciones</string>
+  <!-- statusbar brightness control -->
+  <string name="status_bar_toggle_brightness">Control de brillo</string>
+  <string name="status_bar_toggle_brightness_summary">Ajusta el brillo deslizando el dedo en la barra de estado</string>
+  <!-- CM Lockscreen shortcuts -->
+  <string name="lockscreen_targets_summary">Ver o cambiar los accesos directos de la pantalla de bloqueo</string>
+  <string name="lockscreen_targets_message">Atajos de la pantalla de bloqueo</string>
+  <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+  <string name="double_tap_sleep_anywhere_title">Pulse dos veces para apagar la pantalla</string>
+  <string name="double_tap_sleep_anywhere_summary">Toque dos veces en cualquier punto de la pantalla de bloqueo para poner el dispositivo a dormir</string>
+  <!-- Battery styles -->
+  <string name="battery_title">Batería</string>
+  <string name="status_bar_battery_title">Icono de batería</string>
+  <string name="status_bar_battery_summary">Definir estilo del indicador de la batería en la barra de estado</string>
+  <string name="battery_style_title">Estilo</string>
+  <string name="battery_percent_title">Mostrar porcentaje</string>
+  <string name="battery_percent_none">Nunca</string>
+  <string name="battery_percent_always">Siempre</string>
+  <string name="battery_percent_expanded">Expandido</string>
+  <string name="statusbar_percent_inside_title">Posición del porcentaje</string>
+  <string name="statusbar_percent_inside_summary">Mostrar el porcentaje encima del icono de batería</string>
+  <string name="statusbar_charging_image_title">Indicador de carga</string>
+  <string name="statusbar_category_charging_title">Cargando</string>
+  <string name="statusbar_charging_image_summary">Mostrar el indicador de carga. Oculta el porcentaje</string>
+  <string name="statusbar_battery_charging_color_title">Color</string>
+  <string name="statusbar_battery_charging_color_enable_title">Colores mientras se está cargando</string>
+  <string name="battery_enable_title">Mostrar batería</string>
 </resources>

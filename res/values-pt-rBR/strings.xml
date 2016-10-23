@@ -488,4 +488,24 @@
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
   <string name="double_tap_sleep_anywhere_title">Toque duplo na tela de bloqueio</string>
   <string name="double_tap_sleep_anywhere_summary">Toque duplo na tela de bloqueio para desligar a tela</string>
+
+  <!-- Battery styles -->
+  <string name="battery_title">Bateria</string>
+  <string name="status_bar_battery_title">Ícones da bateria</string>
+  <string name="status_bar_battery_summary">Definir estilos do ícone da bateria na barra de status</string>
+  <string name="battery_style_title">Estilo</string>
+  <string name="battery_percent_title">Mostrar porcentagem</string>
+  <string name="battery_percent_none">Nunca</string>
+  <string name="battery_percent_always">Sempre</string>
+  <string name="battery_percent_expanded">Expandido</string>
+  <string name="statusbar_percent_inside_title">Sobreposição da porcentagem</string>
+  <string name="statusbar_percent_inside_summary">Exibir porcentagem sobre a imagem da bateria</string>
+  <string name="statusbar_charging_image_title">Indicador de carregamento</string>
+  <string name="statusbar_category_charging_title">Carregamento</string>
+  <string name="statusbar_charging_image_summary">Mostrar indicador durante o carregamento. Isto oculta a sobreposição de porcentagem</string>
+  <string name="statusbar_battery_charging_color_title">Cor</string>
+  <string name="statusbar_battery_charging_color_enable_title">Cor durante carregamento</string>
+  <string name="statusbar_battery_charging_color_enable_summary"></string>
+  <string name="battery_enable_title">Mostrar bateria</string>
+
 </resources>

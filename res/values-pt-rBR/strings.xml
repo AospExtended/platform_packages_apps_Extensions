@@ -35,6 +35,7 @@
   <string name="system_category">Sistema</string>
   <string name="statusbar_items_category">Itens da barra de status</string>
   <string name="navigation_category">Navegação</string>
+  <string name="lockscreen_category">Tela de bloqueio</string>
   <string name="breathing_notifications_category">Efeito de respiração nas notificações</string>
   <string name="nightmode_category">Modo noturno</string>
   <!-- App info dialog -->
@@ -193,6 +194,7 @@
   <string name="notifications_title">Notificações</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Recentes</string>
+  <string name="lockscreen_ui_title">Tela de bloqueio</string>
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">Mostrar a contagem de notificação</string>
   <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
@@ -473,4 +475,17 @@
   <string name="qs_rows_landscape_title">Linhas (horizontal)</string>
   <string name="qs_columns_title">Colunas</string>
   <string name="sysui_qqs_count_title">Ajustes rápidos pequenos</string>
+
+  <string name="qs_wifi_easy_toggle_title">Seletor WiFi</string>
+  <string name="qs_wifi_easy_toggle_summary">Faz com que um toque alterne entre WiFi ligado ou desligado em vez de levá-lo para as configurações</string>
+  <!-- statusbar brightness control -->
+  <string name="status_bar_toggle_brightness">Controle de brilho</string>
+  <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando através da barra de status</string>  
+  <!-- CM Lockscreen shortcuts -->
+  <string name="lockscreen_targets_summary">Visualizar ou alterar os atalhos da tela de bloqueio</string>
+  <string name="lockscreen_targets_message">Atalhos na telha de bloqueio</string>
+
+  <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+  <string name="double_tap_sleep_anywhere_title">Toque duplo na tela de bloqueio</string>
+  <string name="double_tap_sleep_anywhere_summary">Toque duplo na tela de bloqueio para desligar a tela</string>
 </resources>

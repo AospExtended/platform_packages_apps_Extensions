@@ -23,6 +23,7 @@ import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.os.Bundle;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
@@ -33,6 +34,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -49,6 +51,10 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
             "status_bar_ticker_text_color";
     private static final String ICON_COLOR =
             "status_bar_ticker_icon_color";
+    private static final String STATUS_BAR_TICKER_FONT_STYLE =
+            "status_bar_ticker_font_style";
+    private static final String STATUS_BAR_TICKER_FONT_SIZE  =
+            "status_bar_ticker_font_size";
 
     private static final int WHITE                  = 0xffffffff;
     private static final int VRTOXIN_BLUE           = 0xff1976D2;
@@ -59,6 +65,8 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
     private SwitchPreference mShowTicker;
     private ColorPickerPreference mTextColor;
     private ColorPickerPreference mIconColor;
+    private CustomSeekBarPreference mTickerFontSize;
+    private ListPreference mTickerFontStyle;
 
     private ContentResolver mResolver;
 
@@ -113,8 +121,22 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
             mIconColor.setSummary(hexColor);
             mIconColor.setResetColors(WHITE, WHITE);
             mIconColor.setOnPreferenceChangeListener(this);
+
+            mTickerFontSize =
+                     (CustomSeekBarPreference) findPreference(STATUS_BAR_TICKER_FONT_SIZE);
+            mTickerFontSize.setValue(Settings.System.getInt(getActivity().getContentResolver(),
+                      Settings.System.STATUS_BAR_TICKER_FONT_SIZE, 14));
+            mTickerFontSize.setOnPreferenceChangeListener(this);
+  
+            mTickerFontStyle = (ListPreference) findPreference(STATUS_BAR_TICKER_FONT_STYLE);
+            mTickerFontStyle.setOnPreferenceChangeListener(this);
+            mTickerFontStyle.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                    .getContentResolver(), Settings.System.STATUS_BAR_TICKER_FONT_STYLE, 0)));
+            mTickerFontStyle.setSummary(mTickerFontStyle.getEntry());
         } else {
+            removePreference("status_bar_ticker_font_size");
             removePreference(CAT_COLORS);
+            removePreference("status_bar_ticker_font_style");
         }
 
         setHasOptionsMenu(true);
@@ -166,6 +188,18 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
                     intHex);
             preference.setSummary(hex);
             return true;
+        } else if (preference == mTickerFontSize) {
+             int width = ((Integer)newValue).intValue();
+              Settings.System.putInt(getActivity().getContentResolver(),
+                      Settings.System.STATUS_BAR_TICKER_FONT_SIZE, width);
+              return true;
+        } else if (preference == mTickerFontStyle) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mTickerFontStyle.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_TICKER_FONT_STYLE, val);
+            mTickerFontStyle.setSummary(mTickerFontStyle.getEntries()[index]);
+            return true;
         }
         return false;
     }
@@ -204,6 +238,10 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
                         public void onClick(DialogInterface dialog, int which) {
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.STATUS_BAR_SHOW_TICKER, 0);
+                           Settings.System.putInt(getOwner().mResolver,
+                                    Settings.System.STATUS_BAR_TICKER_FONT_SIZE, 14);
+                            Settings.System.putInt(getOwner().mResolver,
+                                    Settings.System.STATUS_BAR_TICKER_FONT_STYLE, 0);
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.STATUS_BAR_TICKER_TEXT_COLOR,
                                     WHITE);
@@ -218,6 +256,10 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
                         public void onClick(DialogInterface dialog, int which) {
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.STATUS_BAR_SHOW_TICKER, 1);
+                            Settings.System.putInt(getOwner().mResolver,
+                                    Settings.System.STATUS_BAR_TICKER_FONT_SIZE, 16);
+                            Settings.System.putInt(getOwner().mResolver,
+                                    Settings.System.STATUS_BAR_TICKER_FONT_STYLE, 24);
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.STATUS_BAR_TICKER_TEXT_COLOR,
                                     VRTOXIN_BLUE);

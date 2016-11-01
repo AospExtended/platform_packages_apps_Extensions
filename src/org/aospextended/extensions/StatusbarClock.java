@@ -17,8 +17,6 @@
 package org.aospextended.extensions;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.pm.PackageManager;
@@ -28,7 +26,6 @@ import android.preference.EditTextPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import android.support.v14.preference.PreferenceFragment;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
@@ -39,21 +36,19 @@ import android.widget.EditText;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
-import com.android.settings.Utils;
 
 import java.util.Date;
 
 public class StatusbarClock extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    private static final String TAG = "StatusbarClock";
-
-    private static final String PREF_ENABLE = "clock_style";
+    private static final String PREF_CLOCK_STYLE = "clock_style";
     private static final String PREF_AM_PM_STYLE = "status_bar_am_pm";
     private static final String PREF_CLOCK_DATE_DISPLAY = "clock_date_display";
     private static final String PREF_CLOCK_DATE_STYLE = "clock_date_style";
     private static final String PREF_CLOCK_DATE_POSITION = "clock_date_position";
     private static final String PREF_CLOCK_DATE_FORMAT = "clock_date_format";
     private static final String STATUS_BAR_CLOCK = "status_bar_show_clock";
+    private static final String STATUS_BAR_CLOCK_SECONDS = "status_bar_clock_seconds";
 
     public static final int CLOCK_DATE_STYLE_LOWERCASE = 1;
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
@@ -66,6 +61,7 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
     private ListPreference mClockDatePosition;
     private ListPreference mClockDateFormat;
     private SwitchPreference mStatusBarClock;
+    private SwitchPreference mStatusBarClockSeconds;
 
     private boolean mCheckPreferences;
 
@@ -93,7 +89,7 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
             return null;
         }
 
-        mClockStyle = (ListPreference) findPreference(PREF_ENABLE);
+        mClockStyle = (ListPreference) findPreference(PREF_CLOCK_STYLE);
         mClockStyle.setOnPreferenceChangeListener(this);
         mClockStyle.setValue(Integer.toString(Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.STATUSBAR_CLOCK_STYLE,
@@ -142,11 +138,17 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
 
         parseClockDateFormats();
 
-        mStatusBarClock = (SwitchPreference) prefSet.findPreference(STATUS_BAR_CLOCK);
+        mStatusBarClock = (SwitchPreference) findPreference(STATUS_BAR_CLOCK);
         mStatusBarClock.setChecked((Settings.System.getInt(
                 getActivity().getApplicationContext().getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarClock.setOnPreferenceChangeListener(this);
+
+        mStatusBarClockSeconds = (SwitchPreference) findPreference(STATUS_BAR_CLOCK_SECONDS);
+        mStatusBarClockSeconds.setChecked((Settings.System.getInt(
+                getActivity().getApplicationContext().getContentResolver(),
+                Settings.System.STATUS_BAR_CLOCK_SECONDS, 0) == 1));
+        mStatusBarClockSeconds.setOnPreferenceChangeListener(this);
 
         boolean mClockDateToggle = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.STATUSBAR_CLOCK_DATE_DISPLAY, 0) != 0;
@@ -217,6 +219,11 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
                     Settings.System.STATUS_BAR_CLOCK,
                     (Boolean) newValue ? 1 : 0);
             return true;
+        } else if (preference == mStatusBarClockSeconds) {
+            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+                    Settings.System.STATUS_BAR_CLOCK_SECONDS,
+                    (Boolean) newValue ? 1 : 0);
+            return true;
         } else if (preference == mClockDateFormat) {
             int index = mClockDateFormat.findIndexOfValue((String) newValue);
 
@@ -234,7 +241,7 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
                 }
                 alert.setView(input);
 
-                alert.setPositiveButton(R.string.menu_save, new DialogInterface.OnClickListener() {
+                alert.setPositiveButton(R.string.save, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialogInterface, int whichButton) {
                         String value = input.getText().toString();
                         if (value.equals("")) {
@@ -247,7 +254,7 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
                     }
                 });
 
-                alert.setNegativeButton(R.string.menu_cancel,
+                alert.setNegativeButton(R.string.cancel,
                     new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialogInterface, int which) {
                         return;

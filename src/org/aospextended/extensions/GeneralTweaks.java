@@ -50,8 +50,10 @@ import com.android.settings.Utils;
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+    private static final String SCREENSHOT_TYPE = "screenshot_type";
 
     private ListPreference mMsob;
+    private ListPreference mScreenshotType;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -68,6 +70,12 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mMsob.setSummary(mMsob.getEntry());
         mMsob.setOnPreferenceChangeListener(this);
 
+        mScreenshotType = (ListPreference) findPreference(SCREENSHOT_TYPE);
+        int mScreenshotTypeValue = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SCREENSHOT_TYPE, 0);
+        mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
+        mScreenshotType.setSummary(mScreenshotType.getEntry());
+        mScreenshotType.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -88,6 +96,14 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
                     Integer.valueOf(String.valueOf(newValue)));
             mMsob.setValue(String.valueOf(newValue));
             mMsob.setSummary(mMsob.getEntry());
+            return true;
+        } else if  (preference == mScreenshotType) {
+            int mScreenshotTypeValue = Integer.parseInt(((String) newValue).toString());
+            mScreenshotType.setSummary(
+                    mScreenshotType.getEntries()[mScreenshotTypeValue]);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SCREENSHOT_TYPE, mScreenshotTypeValue);
+            mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
             return true;
           }
         return false;

@@ -18,7 +18,13 @@
 
     <PreferenceCategory
         android:key="general_tweaks_general_category"
-        android:title="@string/general_category">
+        android:title="@string/general_category"
+
+        <ListPreference
+            android:entries="@array/screenshot_type_entries"
+            android:entryValues="@array/screenshot_type_values"
+            android:key="screenshot_type"
+            android:title="@string/screenshot_type_title" />
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="toast_icon"

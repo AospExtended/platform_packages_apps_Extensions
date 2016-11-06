@@ -20,12 +20,6 @@
         android:key="general_tweaks_general_category"
         android:title="@string/general_category"
 
-        <ListPreference
-            android:entries="@array/screenshot_type_entries"
-            android:entryValues="@array/screenshot_type_values"
-            android:key="screenshot_type"
-            android:title="@string/screenshot_type_title" />
-
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
@@ -40,5 +34,27 @@
             android:persistent="false" />
 
     </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="screenshot_options"
+            android:title="@string/screenshot_options_category" >
+
+        <ListPreference
+            android:entries="@array/screenshot_type_entries"
+            android:entryValues="@array/screenshot_type_values"
+            android:key="screenshot_type"
+            android:title="@string/screenshot_type_title" />
+
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="screenshot_delay"
+            android:title="@string/screenshot_delay_title"
+            android:summary="@string/screenshot_delay_summary"
+            settings:max="10000"
+            settings:min="100"
+            settings:interval="100"
+            settings:units="ms"
+            android:persistent="false" />
+
+        </PreferenceCategory>
 
 </PreferenceScreen>

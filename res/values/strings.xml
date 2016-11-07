@@ -25,6 +25,7 @@
     <string name="choose_app">Choose app</string>
     <string name="general_category">General</string>
     <string name="gestures_category">Gestures</string>
+    <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
     <string name="animations_category">Tile animations</string>
@@ -479,6 +480,9 @@
 
     <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
     <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
+
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Display music visualizer</string>
 
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">Lockscreen clock font</string>

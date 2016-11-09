@@ -270,24 +270,16 @@
   <string name="network_traffic_hidearrow">Ocultar las flechas</string>
   <string name="network_traffic_hidearrow_summary">Ocultar las flechas de los indicadores de tráfico</string>
   <!-- Statusbar Clock options -->
-  <string name="status_bar_title">Barra de estado</string>
-  <string name="status_bar_style_title">Estilo</string>
   <string name="status_bar_clock">Reloj &amp; Fecha</string>
   <string name="clock_title_enable">Posición</string>
-  <string name="clock_enabled">Activado</string>
-  <string name="clock_disabled">Desactivado</string>
-  <string name="status_bar_clock_style_reset">Restablecer color</string>
   <string name="status_bar_show_clock_title">Mostrar reloj &amp; fecha</string>
+  <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
   <string name="status_bar_am_pm_info">Formato de 24 horas habilitado</string>
-  <string name="enable_clock_weekday">Día de la semana</string>
-  <string name="enable_clock_weekday_summary">Día abreviado antes de la hora</string>
   <string name="right_clock">Reloj en la derecha</string>
   <string name="center_clock">Reloj Centrado</string>
   <string name="left_clock">Reloj a la izquierda</string>
-  <string name="dont_show">No mostrar</string>
   <string name="clock_date_display">Fecha</string>
-  <string name="clock_date_display_summary">Muestra fecha personalizada antes del reloj</string>
   <string name="clock_date_style">Estilo de la fecha</string>
   <string name="clock_date_position">Posición de la fecha</string>
   <string name="clock_date_format">Formato de la fecha</string>
@@ -295,18 +287,14 @@
   <string name="clock_date_string_edittext_summary">Introducir texto</string>
   <string name="clock_date_right">A la derecha de la hora</string>
   <string name="clock_date_left">A la izquierda de la hora</string>
-  <string name="am_pm_clock_normal">Tamaño de la letra normal</string>
-  <string name="am_pm_clock_small">Tamaño de la letra pequeña</string>
-  <string name="am_pm_clock_none">No mostrar</string>
-  <string name="clock_date_display_none">No mostrar</string>
-  <string name="clock_date_display_small">Tamaño de letra pequeña</string>
-  <string name="clock_date_display_normal">Tamaño de la letra normal</string>
-  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_am_pm_date_normal">Normal</string>
+  <string name="clock_am_pm_date_small">Pequeño</string>
+  <string name="clock_am_pm_date_none">Oculto</string>
   <string name="clock_date_style_lowercase">Minúsculas</string>
   <string name="clock_date_style_uppercase">Mayúsculas</string>
   <string name="clock_date_format_custom">Formato personalizado de java</string>
-  <string name="default_string">Por defecto</string>
-  <string name="reset">Reestablecer</string>
+  <string name="cancel">Cancelar</string>
+  <string name="save">Guardar</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selección de color</string>
   <string name="press_color_to_apply">Pulsa abajo para aplicar el color</string>
@@ -505,4 +493,12 @@
   <string name="statusbar_battery_charging_color_title">Color</string>
   <string name="statusbar_battery_charging_color_enable_title">Colores mientras se está cargando</string>
   <string name="battery_enable_title">Mostrar batería</string>
+  <!-- Optional screenshot type -->
+  <string name="screenshot_type_title">Tipo de captura de pantalla</string>
+  <string name="screenshot_type_fullscreen">Tomar captura de pantalla completa</string>
+  <string name="screenshot_type_partial">Seleccionar el área donde quieres tomar la captura</string>
+  <!-- Screenshot delay -->
+  <string name="screenshot_options_category">Opciones de captura de pantalla</string>
+  <string name="screenshot_delay_title">Retraso de captura de pantalla</string>
+  <string name="screenshot_delay_summary">Ajustar el tiempo para tomar la captura de pantalla</string>
 </resources>

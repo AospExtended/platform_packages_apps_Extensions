@@ -508,4 +508,14 @@
   <string name="statusbar_battery_charging_color_enable_summary"></string>
   <string name="battery_enable_title">Mostrar bateria</string>
 
+  <!-- Optional screenshot type -->
+  <string name="screenshot_type_title">Tipo de captura de tela</string>
+  <string name="screenshot_type_fullscreen">Tirar captura de tela inteira</string>
+  <string name="screenshot_type_partial">Arraste a seleção na área que você deseja tirar uma captura de tela</string>
+
+  <!-- Screenshot delay -->
+  <string name="screenshot_options_category">Opções de captura de tela</string>
+  <string name="screenshot_delay_title">Atraso de captura de tela</string>
+  <string name="screenshot_delay_summary">Ajustar o tempo para quando a captura de tela é realizada</string>
+
 </resources>

@@ -81,7 +81,7 @@
         settings:max="7"
         settings:min="1"
         settings:units=""
-        android:persistent="false"
+        android:persistent="false" />
     
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="qs_rows_landscape"

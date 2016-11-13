@@ -60,6 +60,12 @@
         android:title="@string/qs_wifi_easy_toggle_title"
         android:summary="@string/qs_wifi_easy_toggle_summary"
         android:defaultValue="false" />
+
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="qs_bt_easy_toggle"
+        android:title="@string/qs_bt_easy_toggle_title"
+        android:summary="@string/qs_bt_easy_toggle_summary"
+        android:defaultValue="false" />
        
      </PreferenceCategory>
 

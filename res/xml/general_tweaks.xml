@@ -33,6 +33,12 @@
             android:entryValues="@array/media_scanner_on_boot_values"
             android:persistent="false" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="disable_fc_notifications"
+            android:title="@string/disable_fc_notifications_title"
+            android:summary="@string/disable_fc_notifications_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
         <PreferenceCategory

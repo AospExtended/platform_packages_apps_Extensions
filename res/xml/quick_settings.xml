@@ -49,6 +49,12 @@
         android:summary="@string/quick_settings_vibrate_summary"
         android:defaultValue="false"/>
 
+
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="lockscreen_qs_disabled"
+        android:title="@string/lockscreen_qs_disabled_title"
+        android:summary="@string/lockscreen_qs_disabled_summary" />
+
     <org.aospextended.extensions.preference.SecureSettingSwitchPreference
         android:key="qs_data_advanced"
         android:title="@string/qs_advanced_data_title"

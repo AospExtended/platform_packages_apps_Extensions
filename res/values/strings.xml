@@ -518,4 +518,8 @@
     <string name="screenshot_delay_title">Screenshot delay</string>
     <string name="screenshot_delay_summary">Adjust the time for when a screenshot is captured</string>
 
+    <!-- Disabling FC notifications -->
+    <string name="disable_fc_notifications_title">Diable FC Notifications</string>
+    <string name="disable_fc_notifications_summary">This will hide all force close notificaitons</string>
+
 </resources>

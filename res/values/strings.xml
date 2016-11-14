@@ -33,6 +33,10 @@
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Icon</string>
+    <string name="color_title">Color</string>
+    <string name="colors_title">Colors</string>
 
     <!-- Extensions categories -->
     <string name="recents_category">Recents</string>
@@ -449,5 +453,10 @@
     <string name="lockscreen_qs_disabled_title">No QS when secured</string>
     <string name="lockscreen_qs_disabled_summary">Disable quick settings tiles on secured lockscreen</string>
 
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_title">Status Bar Ticker</string>
+    <string name="ticker_screen_summary">Customize the ticker style</string>
+    <string name="ticker_summary">Enable the old status bar ticker</string>
 
 </resources>

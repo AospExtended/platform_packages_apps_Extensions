@@ -29,6 +29,10 @@
   <string name="dlg_ok">De acuerdo</string>
   <string name="loading">Cargando\u2026</string>
   <string name="reset">Reestablecer</string>
+  <string name="text_title">Texto</string>
+  <string name="icon_title">Icono</string>
+  <string name="color_title">Color</string>
+  <string name="colors_title">Colores</string>
   <!-- Extensions categories -->
   <string name="recents_category">Recientes</string>
   <string name="status_bar_category">Barra de Estado</string>
@@ -467,6 +471,34 @@
   <string name="sysui_qqs_count_title">Ajustes rápidos pequeños</string>
   <string name="qs_wifi_easy_toggle_title">Interruptor rápido de WiFi</string>
   <string name="qs_wifi_easy_toggle_summary">Una pulsación hace que se active o desactive el WiFi en lugar de ir a las opciones</string>
+  <!-- Lockscreen clock fonts -->
+  <string name="lock_clock_font_title">Fuente del reloj en pantalla de bloqueo</string>
+  <string name="lock_clock_font_summary">Cambiar la fuente por defecto del reloj</string>
+  <string name="lock_clock_font_normal">Roboto</string>
+  <string name="lock_clock_font_bold">Roboto Bold</string>
+  <string name="lock_clock_font_italic">Roboto Italic</string>
+  <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (por defecto)</string>
+  <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
+  <string name="lock_clock_font_thin_normal">Roboto Thin</string>
+  <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
+  <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
+  <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+  <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
+  <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+  <string name="lock_clock_font_medium_normal">Roboto Medium</string>
+  <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
+  <string name="lock_clock_font_black_normal">Roboto Black</string>
+  <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+  <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
+  <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+  <string name="lock_clock_font_dancingscript">DancingScript</string>
+  <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+  <string name="lock_clock_font_comingsoon">ComingSoon</string>
+  <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+  <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+  <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+  <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Control de brillo</string>
   <string name="status_bar_toggle_brightness_summary">Ajusta el brillo deslizando el dedo en la barra de estado</string>
@@ -501,4 +533,34 @@
   <string name="screenshot_options_category">Opciones de captura de pantalla</string>
   <string name="screenshot_delay_title">Retraso de captura de pantalla</string>
   <string name="screenshot_delay_summary">Ajustar el tiempo para tomar la captura de pantalla</string>
+  <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Deshabilitar notificaciones de forzar cierre</string>
+  <string name="disable_fc_notifications_summary">Esto ocultará todas las notificaciones de forzar cierre</string>
+  <!-- Lockscreen Torch toggle -->
+  <string name="keyguard_torch_title">Linterna con la pantalla apagada</string>
+  <string name="keyguard_torch_summary">Una pulsación larga con la pantalla apagada encenderá la linterna</string>
+  <!-- Wakelock blocker -->
+  <string name="wakelockblocker_category">Bloqueador de wakelocks</string>
+  <string name="wakelock_blocker_summary">Bloquear wakelocks del sistema</string>
+  <string name="wakelock_blocker_save">Guardar</string>
+  <string name="wakelock_list_header">Wakelocks disponibles</string>
+  <string name="wakelock_blocker_reload">Recargar</string>
+  <string name="wakelock_blocker_warning_title">Proceda con precaución</string>
+  <string name="wakelock_blocker_warning">Bloquear wakelocks puede causar inestabilidad, cierres forzados o perdida de información</string>
+  <!-- Lockscreen cover art -->
+  <string name="media_art_title">Portada de albúm en la pantalla de bloqueo</string>
+  <string name="media_art_summary">Activar la caratula del albúm en la pantalla de bloqueo</string>
+  <!-- BT easy toggle -->
+  <string name="qs_bt_easy_toggle_title">Ajuste rápido de Bluetooth</string>
+  <string name="qs_bt_easy_toggle_summary">Activar Bluetooth con un toque en lugar de mostrar las opciones</string>
+  <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Ajustes rápidos en la pantalla de bloqueo</string>
+  <string name="lockscreen_qs_disabled_summary">Deshabilitar los ajuestes rápidos en la pantalla de bloqueo</string>
+  <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_title">Ticker en la barra de estado</string>
+  <string name="ticker_screen_summary">Personalizar el estilo del ticker</string>
+  <string name="ticker_summary">Activar el ticker antiguo</string>
+  <string name="ticker_font_style_title">Estilo de fuente</string>
+  <string name="ticker_font_size_title">Tamaño de funte</string>
 </resources>

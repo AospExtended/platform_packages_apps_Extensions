@@ -97,6 +97,8 @@
         android:entryValues="@array/weather_condition_icon_values"
         android:dependency="lock_screen_show_weather" />
 
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="weather_cat_notifications"
         android:title="@string/weather_cat_notifications_title">
@@ -117,7 +119,51 @@
             android:persistent="false"
             android:dependency="lock_screen_show_weather" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="more_cat_lock_clock"
+        android:title="@string/lock_clock_title">
+
+        <PreferenceScreen
+            android:key="lock_clock_clock_section"
+            android:title="@string/lock_clock_clock_section_title"
+            android:summary="@string/lock_clock_clock_section_summary" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences"
+                android:targetPackage="com.cyanogenmod.lockclock" >
+                <extra android:name=":android:show_fragment"
+                    android:value="com.cyanogenmod.lockclock.preference.ClockPreferences" />
+            </intent>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="lock_clock_weather_section"
+            android:title="@string/lock_clock_weather_section_title"
+            android:summary="@string/lock_clock_weather_section_summary" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences"
+                android:targetPackage="com.cyanogenmod.lockclock" >
+                <extra android:name=":android:show_fragment"
+                    android:value="com.cyanogenmod.lockclock.preference.WeatherPreferences" />
+            </intent>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="lock_clock_calendar_section"
+            android:title="@string/lock_clock_calendar_section_title"
+            android:summary="@string/lock_clock_calendar_section_summary" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences"
+                android:targetPackage="com.cyanogenmod.lockclock" >
+                <extra android:name=":android:show_fragment"
+                    android:value="com.cyanogenmod.lockclock.preference.CalendarPreferences" />
+            </intent>
+        </PreferenceScreen>
     </PreferenceCategory>
+
 
     <PreferenceCategory
         android:key="lockscreen_ui_music_category"

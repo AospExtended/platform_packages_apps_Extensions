@@ -48,6 +48,12 @@
             android:title="@string/traffic_category" />
 
          <PreferenceScreen
+            android:key="ticker"
+            android:fragment="org.aospextended.extensions.StatusBarTickerSettings"
+            android:layout="@layout/preference_ticker"
+            android:title="@string/ticker_screen_title" />
+
+         <PreferenceScreen
             android:key="misc_extensions"
             android:fragment="org.aospextended.extensions.statusbar.MiscExtensions"
             android:layout="@layout/preference_misc_extensions"

@@ -57,7 +57,7 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
             "status_bar_ticker_font_size";
 
     private static final int WHITE                  = 0xffffffff;
-    private static final int VRTOXIN_BLUE           = 0xff1976D2;
+    private static final int BLUE           = 0xff1976D2;
 
     private static final int MENU_RESET = Menu.FIRST;
     private static final int DLG_RESET  = 0;
@@ -108,7 +108,7 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
             mTextColor.setNewPreviewColor(intColor);
             hexColor = String.format("#%08x", (0xffffffff & intColor));
             mTextColor.setSummary(hexColor);
-            mTextColor.setResetColors(WHITE, VRTOXIN_BLUE);
+            mTextColor.setNewPreviewColor(intColor);
             mTextColor.setOnPreferenceChangeListener(this);
 
             mIconColor =
@@ -117,9 +117,9 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
                     Settings.System.STATUS_BAR_TICKER_ICON_COLOR,
                     WHITE); 
             mIconColor.setNewPreviewColor(intColor);
-            hexColor = String.format("#%08x", (0xffffffff & intColor));
+            String iconHexColor = String.format("#%08x", (0xffffffff & intColor));
             mIconColor.setSummary(hexColor);
-            mIconColor.setResetColors(WHITE, WHITE);
+            mIconColor.setSummary(iconHexColor);
             mIconColor.setOnPreferenceChangeListener(this);
 
             mTickerFontSize =
@@ -231,9 +231,9 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
                 case DLG_RESET:
                     return new AlertDialog.Builder(getActivity())
                     .setTitle(R.string.reset)
-                    .setMessage(R.string.reset_color_title)
+                    .setMessage(R.string.reset_colors)
                     .setNegativeButton(R.string.cancel, null)
-                    .setNeutralButton(R.string.reset_android_title,
+                    .setNeutralButton(R.string.reset_android,
                             new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             Settings.System.putInt(getOwner().mResolver,
@@ -262,10 +262,10 @@ public class StatusBarTickerSettings extends SettingsPreferenceFragment implemen
                                     Settings.System.STATUS_BAR_TICKER_FONT_STYLE, 24);
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.STATUS_BAR_TICKER_TEXT_COLOR,
-                                    VRTOXIN_BLUE);
+                                    BLUE);
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.STATUS_BAR_TICKER_ICON_COLOR,
-                                    VRTOXIN_BLUE);
+                                    BLUE);
                             getOwner().refreshSettings();
                         }
                     })

@@ -35,6 +35,8 @@
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
+    <string name="reset_colors">Reset colors</string>
+    <string name="reset_android">Android</string>
     <string name="text_title">Text</string>
     <string name="icon_title">Icon</string>
     <string name="color_title">Color</string>
@@ -513,6 +515,7 @@
     <string name="wakelock_blocker_reload">Reload</string>
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
 
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Media cover art</string>

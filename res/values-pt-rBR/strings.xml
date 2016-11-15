@@ -305,6 +305,8 @@
   <string name="clock_date_format_custom">Formato personalizado em java</string>
   <string name="default_string">Predefinido</string>
   <string name="reset">Resetar</string>
+  <string name="reset_colors">Resetar cores</string>
+  <string name="reset_android">Android</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selecionador de Cor</string>
   <string name="press_color_to_apply">Selecione a cor para aplicar</string>
@@ -517,5 +519,49 @@
   <string name="screenshot_options_category">Opções de captura de tela</string>
   <string name="screenshot_delay_title">Atraso de captura de tela</string>
   <string name="screenshot_delay_summary">Ajustar o tempo para quando a captura de tela é realizada</string>
+
+  <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Desativar Notificações Forçadas</string>
+  <string name="disable_fc_notifications_summary">Isto irá esconder todas as notificações de fechamento forçado</string>
+
+  <!-- Lockscreen Torch toggle -->
+  <string name="keyguard_torch_title">Lanterna na tela de bloqueio</string>
+  <string name="keyguard_torch_summary">Toque longo no botão power enquanto a tela estiver desligada para ligar a lanterna</string>
+
+  <!-- Wakelock blocker -->
+  <string name="wakelockblocker_category">Bloqueador de Wakelock</string>
+  <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
+  <string name="wakelock_blocker_save">Salvar</string>
+  <string name="wakelock_list_header">Wakelocks disponíveis</string>
+  <string name="wakelock_blocker_reload">Recarregar</string>
+  <string name="wakelock_blocker_warning_title">Proceda com cautela</string>
+  <string name="wakelock_blocker_warning">Bloqueio Wakelocks têm o potencial de causar instabilidade, travamentos ou perda de dados</string>
+  <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
+     
+  <!-- Lockscreen cover art -->
+  <string name="media_art_title">Capa do álbum da mídia</string>
+  <string name="media_art_summary">Ativar capa do álbum na tela de bloqueio</string>
+
+  <!-- BT easy toggle -->
+  <string name="qs_bt_easy_toggle_title">Bluetooth alternância fácil</string>
+  <string name="qs_bt_easy_toggle_summary">Faz com que um clique vai alterne entre Bluetooth ligado ou desligado em vez de levar para as configurações</string>
+
+  <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Sem QS quando bloqueado</string>
+  <string name="lockscreen_qs_disabled_summary">Desabilitar configurações rápidas na tela de bloqueio protegida</string>
+
+  <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_title">Ticker da Barra de status</string>
+  <string name="ticker_screen_summary">Personalizar o estilo de ticker</string>
+  <string name="ticker_summary">Ativar o ticker antigo da barra de status</string>
+  <string name="ticker_font_style_title">Estilo da fonte</string>
+  <string name="ticker_font_size_title">Tamanho da fonte</string>
+
+  <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">Itens da telha de bloqueio</string>
+  <string name="hide_lockscreen_clock_title">Mostrar relógio na tela de bloqueio</string>
+  <string name="hide_lockscreen_date_title">Mostrar data na tela de bloqueio</string>
+  <string name="hide_lockscreen_alarm_title">Mostrar alarme na tela de bloqueio</string>
 
 </resources>

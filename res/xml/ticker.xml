@@ -43,12 +43,12 @@
          <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="status_bar_ticker_text_color"
             android:title="@string/text_title"
-            android:defaultValue="#ffffffff" />
+            android:defaultValue="0xffffffff" />
 
          <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="status_bar_ticker_icon_color"
             android:title="@string/icon_title"
-            android:defaultValue="#ffffffff" />
+            android:defaultValue="0xffffffff" />
 
 	</PreferenceCategory>
 </PreferenceScreen>

@@ -705,5 +705,9 @@
     <string name="systemui_recents_mem_display_summaryOn">RAM bar enabled</string>
     <string name="systemui_recents_mem_display_summaryOff">RAM bar disabled</string>
 
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hidden apps</string>
+    <string name="hide_from_recents_add_app">Add App</string>
+    <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
 </resources>
 

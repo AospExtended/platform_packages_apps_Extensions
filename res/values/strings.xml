@@ -1093,6 +1093,12 @@
     <string name="systemui_restart_message">For all changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
 
     <string name="lockscreen_weather_footer_warning">Avoid using Lockscreen weather along with custom Lockscreen clock styles, specially on lower DPI as clock might cut out of screen.</string>
+ 
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hidden apps</string>
+    <string name="hide_from_recents_add_app">Add App</string>
+    <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
+
 
 </resources>
 

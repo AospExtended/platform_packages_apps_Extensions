@@ -62,6 +62,17 @@
 
     </PreferenceCategory>
 
+
+    <PreferenceScreen
+        android:key="hide_app_from_recents"
+        android:title="@string/hide_apps_from_recents_title"
+        android:summary="@string/hide_apps_from_recents_summary" >
+        <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="com.android.settings"
+        android:targetClass="org.aospextended.extensions.preference.HAFRAppListActivity" />
+    </PreferenceScreen>
+
+
     <PreferenceCategory
         android:key="slim_recents"
         android:title="@string/slim_recents_title">

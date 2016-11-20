@@ -16,6 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
   <string name="extensions_title">Extensiones</string>
+  <string name="music_category">Música</string>
   <string name="add">Añadir</string>
   <string name="advanced">Avanzado</string>
   <string name="cancel">Cancelar</string>
@@ -563,4 +564,48 @@
   <string name="ticker_summary">Activar el ticker antiguo</string>
   <string name="ticker_font_style_title">Estilo de fuente</string>
   <string name="ticker_font_size_title">Tamaño de funte</string>
+  <!-- lock screen visualizer -->
+  <string name="lockscreen_visualizer_title">Mostar virtualizador de música</string>
+  <!-- Lockscreen weather -->
+  <string name="display_category_weather_title">Opciones de clima</string>
+  <string name="lock_screen_weather_settings_title">Clima</string>
+  <string name="weather_cat_notifications_title">Notificaciones</string>
+  <string name="weather_show_weather_title">Mostrar clima</string>
+  <string name="weather_show_weather_summary">Activa para mostar información acerca del clima</string>
+  <string name="weather_show_location_title">Mostrar ubicación</string>
+  <string name="weather_show_location_summary">ctiva para mostar la ubicación</string>
+  <string name="weather_show_timestamp_title">Mostrar fecha y hora</string>
+  <string name="weather_show_timestamp_summary">Activa para mostar la fecha y la hora</string>
+  <string name="weather_condition_icon_title">Icono de clima</string>
+  <string name="weather_condition_icon_dlg_title">Escoge un icono para mostar el clima</string>
+  <string name="weather_condition_icon_monochrome_title">Monocroma</string>
+  <string name="weather_condition_icon_colored_title">Coloreado</string>
+  <string name="weather_condition_icon_vclouds_title">VClouds</string>
+  <string name="icons_title">Iconos</string>
+  <string name="position_right_title">Derecha</string>
+  <string name="position_centered_title">Centrado</string>
+  <string name="hidden_title">Oculto</string>
+  <string name="weather_hide_panel_title">Esconder el panel del clima</string>
+  <string name="weather_hide_panel_dlg_title">Tiempo para esconder el panel del clima</string>
+  <string name="weather_hide_panel_auto_title">Automaticamente</string>
+  <string name="weather_hide_panel_custom_title">Personalizado</string>
+  <string name="weather_hide_panel_never_title">Nunca</string>
+  <string name="weather_hide_panel_auto_summary">El panel se ocultará cuando se sobrepase el limite de notificaciones máximo</string>
+  <string name="weather_hide_panel_custom_summary">El panel se ocultará cuando se sobrepase el limite de notificaciones seleccionado</string>
+  <string name="weather_hide_panel_never_summary">No se ocultará el panel</string>
+  <string name="weather_number_of_notifications_title">Numero de notificaciones</string>
+  <!-- Lock clock -->
+  <string name="lock_clock_title">Widget de reloj</string>
+  <string name="lock_clock_summary">Ver o cambiar como se muetra el widget</string>
+  <string name="lock_clock_clock_section_title">Reloj y alarma</string>
+  <string name="lock_clock_clock_section_summary">Ver o cambiar como se muetra el reloj del widget</string>
+  <string name="lock_clock_weather_section_title">Panel del clima</string>
+  <string name="lock_clock_weather_section_summary">Ver o cambiar como se muetra el clima del widget</string>
+  <string name="lock_clock_calendar_section_title">Eventos del calendario</string>
+  <string name="lock_clock_calendar_section_summary">Ver o cambiar como se muetra el calendario del widget</string>     
+  <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">Elementos de la pantalla de bloqueo</string>
+  <string name="hide_lockscreen_clock_title">Mostrar el reloj</string>
+  <string name="hide_lockscreen_date_title">Mostrar la fecha</string>
+  <string name="hide_lockscreen_alarm_title">Mostrar la alarma</string>   
 </resources>

@@ -35,15 +35,21 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
+
 public class CarrierLabel extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener {
 
     private static final String SHOW_CARRIER_LABEL = "status_bar_show_carrier";
     private static final String CUSTOM_CARRIER_LABEL = "custom_carrier_label";
+    private static final String STATUS_BAR_CARRIER_COLOR = "status_bar_carrier_color";
+
+    static final int DEFAULT_STATUS_CARRIER_COLOR = 0xffffffff;
 
     private PreferenceScreen mCustomCarrierLabel;
     private ListPreference mShowCarrierLabel;
     private String mCustomCarrierLabelText;
+    private ColorPickerPreference mCarrierColorPicker;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,6 +60,9 @@ public class CarrierLabel extends SettingsPreferenceFragment
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
+        int intColor;
+        String hexColor;
+
         mShowCarrierLabel = (ListPreference) findPreference(SHOW_CARRIER_LABEL);
         int showCarrierLabel = Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_SHOW_CARRIER, 1);
@@ -62,6 +71,14 @@ public class CarrierLabel extends SettingsPreferenceFragment
         mShowCarrierLabel.setOnPreferenceChangeListener(this);
 
         mCustomCarrierLabel = (PreferenceScreen) findPreference(CUSTOM_CARRIER_LABEL);
+
+        mCarrierColorPicker = (ColorPickerPreference) findPreference(STATUS_BAR_CARRIER_COLOR);
+            mCarrierColorPicker.setOnPreferenceChangeListener(this);
+            intColor = Settings.System.getInt(resolver,
+                    Settings.System.STATUS_BAR_CARRIER_COLOR, DEFAULT_STATUS_CARRIER_COLOR);
+            hexColor = String.format("#%08x", (0xffffffff & intColor));
+            mCarrierColorPicker.setSummary(hexColor);
+            mCarrierColorPicker.setNewPreviewColor(intColor);
         if (TelephonyManager.getDefault().isMultiSimEnabled()) {
             prefSet.removePreference(mCustomCarrierLabel);
         } else {
@@ -94,6 +111,14 @@ public class CarrierLabel extends SettingsPreferenceFragment
                 STATUS_BAR_SHOW_CARRIER, showCarrierLabel);
             mShowCarrierLabel.setSummary(mShowCarrierLabel.getEntries()[index]);
             return true;
+         } else if (preference == mCarrierColorPicker) {
+                String hex = ColorPickerPreference.convertToARGB(
+                        Integer.valueOf(String.valueOf(newValue)));
+                preference.setSummary(hex);
+                int intHex = ColorPickerPreference.convertToColorInt(hex);
+                Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+                        Settings.System.STATUS_BAR_CARRIER_COLOR, intHex);
+                return true;
          }
          return false;
     }

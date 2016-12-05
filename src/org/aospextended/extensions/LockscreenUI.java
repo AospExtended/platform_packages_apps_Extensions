@@ -44,6 +44,7 @@ import android.text.TextUtils;
 import android.view.View;
 
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import com.android.settings.R;
@@ -55,6 +56,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+    private static final String LOCKSCREEN_CHARGING = "lockscreen_charging_current";
     private static final String PREF_CONDITION_ICON =
             "weather_condition_icon";
     private static final String PREF_HIDE_WEATHER =
@@ -67,6 +69,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final int MONOCHROME_ICON = 0;
 
     private ListPreference mLockClockFonts;
+    private SystemSettingSwitchPreference mLockscreenCharging;
     private ListPreference mConditionIcon;
     private ListPreference mHideWeather;
     private CustomSeekBarPreference mNumberOfNotifications;
@@ -83,6 +86,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         mResolver = getActivity().getContentResolver();
         PreferenceScreen prefs = getPreferenceScreen();
+        Resources resources = getResources();
 
         // Remove the lock clock preference if its not installed
         if (!isPackageInstalled("com.cyanogenmod.lockclock")) {
@@ -118,6 +122,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
                 resolver, Settings.System.LOCK_CLOCK_FONTS, 4)));
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
+
+        mLockscreenCharging = (SystemSettingSwitchPreference) findPreference(LOCKSCREEN_CHARGING);
+        if (!resources.getBoolean(R.bool.showCharging)) {
+            prefScreen.removePreference(mLockscreenCharging);
+        }
 
     }
 

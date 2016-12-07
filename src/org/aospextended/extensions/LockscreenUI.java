@@ -44,7 +44,6 @@ import android.text.TextUtils;
 import android.view.View;
 
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
-import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import com.android.settings.R;
@@ -69,7 +68,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final int MONOCHROME_ICON = 0;
 
     private ListPreference mLockClockFonts;
-    private SystemSettingSwitchPreference mLockscreenCharging;
+    private SwitchPreference mLockscreenCharging;
     private ListPreference mConditionIcon;
     private ListPreference mHideWeather;
     private CustomSeekBarPreference mNumberOfNotifications;
@@ -123,9 +122,13 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
 
-        mLockscreenCharging = (SystemSettingSwitchPreference) findPreference(LOCKSCREEN_CHARGING);
+        mLockscreenCharging = (SwitchPreference) findPreference(LOCKSCREEN_CHARGING);
         if (!resources.getBoolean(R.bool.showCharging)) {
             prefScreen.removePreference(mLockscreenCharging);
+        } else {
+        mLockscreenCharging.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CHARGING_CURRENT, 0) == 1));
+        mLockscreenCharging.setOnPreferenceChangeListener(this);
         }
 
     }
@@ -184,6 +187,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.LOCK_SCREEN_WEATHER_NUMBER_OF_NOTIFICATIONS,
             numberOfNotifications);
+            return true;
+        } else if (preference == mLockscreenCharging) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.LOCKSCREEN_CHARGING_CURRENT, value ? 1 : 0);
             return true;
         }
         return false;

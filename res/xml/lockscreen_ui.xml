@@ -64,11 +64,10 @@
             android:title="@string/hide_lockscreen_alarm_title"
             android:defaultValue="true" />
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+    <SwitchPreference
         android:key="lockscreen_charging_current"
         android:title="@string/lockscreen_charging_current_title"
         android:summary="@string/lockscreen_charging_current_summary"
-        android:defaultValue="false" 
         android:persistent="false"/>
 
     </PreferenceCategory>

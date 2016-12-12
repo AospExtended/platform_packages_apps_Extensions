@@ -20,6 +20,16 @@
         android:key="notifications_general_category"
         android:title="@string/general_category">
 
+    <PreferenceScreen
+       android:key="systemui_tuner_pnc"
+       android:title="@string/power_notification_controls_title"
+       android:summary="@string/power_notification_controls_summary" >
+       <intent
+           android:action="android.intent.action.MAIN"
+           android:targetPackage="com.android.systemui"
+           android:targetClass="com.android.systemui.tuner.PNCActivity" />
+    </PreferenceScreen>
+
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="force_expanded_notifications"
         android:title="@string/force_expanded_notifications_title"

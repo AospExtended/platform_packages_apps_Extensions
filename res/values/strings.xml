@@ -103,6 +103,10 @@
     <string name="toast_icon_title">Toast icon</string>
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
 
+    <!-- Power notification controls -->
+    <string name="power_notification_controls_title">Power notification controls</string>
+    <string name="power_notification_controls_summary">Select importance level for notifications</string>
+
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>

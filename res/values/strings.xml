@@ -714,5 +714,8 @@
     <string name="hide_from_recents_add_app">Add App</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
 
+    <!-- fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 </resources>
 

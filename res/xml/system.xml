@@ -27,12 +27,6 @@
             android:title="@string/general_tweaks_title" />   
 
          <PreferenceScreen
-            android:key="button_settings"
-            android:fragment="org.aospextended.extensions.input.ButtonSettings"
-            android:layout="@layout/preference_buttons"
-            android:title="@string/buttons_pref_title" />
-
-         <PreferenceScreen
             android:key="privacy_guard"
             android:fragment="org.aospextended.extensions.privacyguard.PrivacyGuardManager"
             android:layout="@layout/preference_privacy_guard"

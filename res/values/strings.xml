@@ -50,7 +50,6 @@
     <string name="navigation_category">Navigation</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
-    <string name="nightmode_category">Night mode</string>
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>

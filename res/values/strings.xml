@@ -51,6 +51,7 @@
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="navigation_category">Navigation</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
+    <string name="build_tweaks_summary_title">Extend your device!</string>
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>

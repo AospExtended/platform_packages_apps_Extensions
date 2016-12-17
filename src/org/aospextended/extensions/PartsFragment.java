@@ -50,6 +50,7 @@ import android.widget.Toast;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.settings.dashboard.SummaryLoader;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -210,8 +211,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
                     getString(R.string.system_category)};
         return titleString;
     }
-    
-        private static class SummaryProvider implements SummaryLoader.SummaryProvider {
+
+    private static class SummaryProvider implements SummaryLoader.SummaryProvider {
 
         private final Context mContext;
         private final SummaryLoader mSummaryLoader;

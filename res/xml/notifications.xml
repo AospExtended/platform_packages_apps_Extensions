@@ -39,4 +39,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="headsup_notifications_category"
+        android:title="@string/headsup_category">
+
+     <PreferenceScreen
+        android:key="heads_up_settings"
+        android:title="@string/headsup_settings_title"
+        android:fragment="org.aospextended.extensions.HeadsUpSettings"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

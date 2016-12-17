@@ -548,4 +548,11 @@
     <string name="nav_bar_dynamic_title">Dynamic navbar color</string>
     <string name="nav_bar_dynamic_summary">Enables the navbar to adapt app\'s primary dark color. Restart your desired app to see effect.</string>
 
+    <!-- Heads up settings -->
+    <string name="headsup_category">HeadsUp Settings</string>
+    <string name="headsup_settings_title">Heads up notifications</string>
+    <string name="summary_heads_up_enabled">Heads up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Heads up notifications are disabled</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
+
 </resources>

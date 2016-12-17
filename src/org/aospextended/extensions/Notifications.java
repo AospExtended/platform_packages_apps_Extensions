@@ -52,10 +52,12 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
     private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
     private static final String DISABLE_IMMERSIVE_MESSAGE = "disable_immersive_message";
     private static final String FLASHLIGHT_NOTIFICATION = "flashlight_notification";
+    private static final String KEY_HEADS_UP_SETTINGS = "heads_up_settings";
 
     private SwitchPreference mFlashlightNotification;
     private SwitchPreference mForceExpanded;
     private SwitchPreference mDisableIM;
+    private PreferenceScreen mHeadsUp;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -87,7 +89,15 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                 DISABLE_IMMERSIVE_MESSAGE, 0);
         mDisableIM.setChecked(DisableIM != 0);
 
+        mHeadsUp = (PreferenceScreen) findPreference(KEY_HEADS_UP_SETTINGS);
+
     }
+
+     private boolean getUserHeadsUpState() {
+         return Settings.Global.getInt(getContentResolver(),
+                Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED,
+                Settings.Global.HEADS_UP_ON) != 0;
+      }
 
     @Override
     protected int getMetricsCategory() {
@@ -97,6 +107,8 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
     @Override
     public void onResume() {
         super.onResume();
+        mHeadsUp.setSummary(getUserHeadsUpState()
+                ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
     }
 
     @Override

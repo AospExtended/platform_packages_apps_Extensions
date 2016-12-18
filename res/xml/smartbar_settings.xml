@@ -64,4 +64,15 @@
         android:summary="@string/one_handed_mode_summary"
         android:defaultValue="true" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="navbar_tint_switch"
+        android:title="@string/navbar_tint_switch"
+        android:defaultValue="false" />
+    
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="navbar_button_color"
+        android:title="@string/navbar_button_color"
+        android:defaultValue="0xffffffff"
+        android:dependency="navbar_tint_switch"/>
+
 </PreferenceScreen>

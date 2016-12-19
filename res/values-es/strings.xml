@@ -608,4 +608,34 @@
   <string name="hide_lockscreen_clock_title">Mostrar el reloj</string>
   <string name="hide_lockscreen_date_title">Mostrar la fecha</string>
   <string name="hide_lockscreen_alarm_title">Mostrar la alarma</string>   
+  <!-- Navbar dynamic color -->
+  <string name="nav_bar_dynamic_title">Color de barra de navegación dinámico</string>
+  <string name="nav_bar_dynamic_summary">Adapta la barra de navegación a color obscuro primario de las apps. Reinicia la aplicación para ver los cambios.</string>
+  <string name="build_tweaks_summary_title">¡Extiende tu dispositivo!</string>
+  <!-- Heads up settings -->
+  <string name="headsup_category">Opciones de notificaciones emergentes</string>
+  <string name="headsup_settings_title">Notificaciones emergentes</string>
+  <string name="summary_heads_up_enabled">Las notificaciones emergentes están activadas</string>
+  <string name="summary_heads_up_disabled">Las notificaciones emergentes están desactivadas</string>
+  <string name="heads_up_disabled_notice">Para activar notificaciones interactivas en la pantalla, activa las notificaciones emergentes.</string>   
+  <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Tiempo activo</string>
+  <string name="heads_up_time_out_summary">La notificación se mostrará por <xliff:g id="number">%d</xliff:g> segundos</string>
+  <string name="heads_up_time_out_2sec">2 segundos</string>
+  <string name="heads_up_time_out_4sec">4 segundos</string>
+  <string name="heads_up_time_out_5sec">5 segundos</string>
+  <string name="heads_up_time_out_6sec">6 segundos</string>
+  <string name="heads_up_time_out_8sec">8 segundos</string>
+  <string name="heads_up_time_out_10sec">10 segundos</string> 
+  <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Tiempo desactivado</string>
+  <string name="heads_up_snooze_summary_one_minute">Mover hacia arriba la notificación emergente desactivará las notificaciones de la app por 1 minuto</string>
+  <string name="heads_up_snooze_summary">Mover hacia arriba la notificación emergente desactivará las notificaciones de la app por <xliff:g id="number">%d</xliff:g> minutos</string>
+  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_1min">1 minuto</string>
+  <string name="heads_up_snooze_3min">3 minutos</string>
+  <string name="heads_up_snooze_5min">5 minutos</string>
+  <string name="heads_up_snooze_10min">10 minutos</string>
+  <string name="heads_up_snooze_15min">15 minutos</string>
+  <string name="heads_up_snooze_20min">20 minutos</string>   
 </resources>

@@ -27,4 +27,10 @@
             android:layout="@layout/preference_general_tweaks"
             android:title="@string/general_tweaks_title" />   
 
+         <PreferenceScreen
+            android:key="buttons"
+            android:fragment="org.aospextended.extensions.Buttons"
+            android:layout="@layout/preference_buttons"
+            android:title="@string/buttons_title" />
+
 </PreferenceScreen>

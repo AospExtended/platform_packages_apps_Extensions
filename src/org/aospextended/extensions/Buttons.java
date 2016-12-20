@@ -152,6 +152,11 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
     }
 
+     @Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+
     @Override
     protected int getMetricsCategory() {
         return MetricsEvent.EXTENSIONS;

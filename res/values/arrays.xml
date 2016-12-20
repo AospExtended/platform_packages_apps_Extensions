@@ -449,4 +449,18 @@
         <item>900000</item>
         <item>1200000</item>
     </string-array>
+
+    <!-- PowerMenu entries -->
+    <string-array name="power_menu_actions_array" translatable="false">
+        <item>power</item>
+        <item>restart</item>
+        <item>screenshot</item>
+        <item>airplane</item>
+        <item>users</item>
+        <item>settings</item>
+        <item>lockdown</item>
+        <item>assist</item>
+        <item>voiceassist</item>
+        <item>silent</item>
+    </string-array>
 </resources>

@@ -596,5 +596,10 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    
+    <string name="volume_category">Volume Rocker</string>
+    <!-- Volume Key Rotation -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
 
 </resources>

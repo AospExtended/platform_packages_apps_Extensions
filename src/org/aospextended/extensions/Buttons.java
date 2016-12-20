@@ -30,12 +30,21 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.HashMap;
 
 import java.util.Locale;
 import android.text.TextUtils;
@@ -48,6 +57,11 @@ import com.android.settings.Utils;
 
 public class Buttons extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    // volume rocker reorient
+    private static final String SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
+
+    private SwitchPreference mSwapVolumeButtons;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +69,15 @@ public class Buttons extends SettingsPreferenceFragment implements OnPreferenceC
         addPreferencesFromResource(R.xml.buttons);
 
         final ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefSet = getPreferenceScreen();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        final Resources res = getResources();
+
+        // volume rocker reorient
+        mSwapVolumeButtons = (SwitchPreference) findPreference(SWAP_VOLUME_BUTTONS);
+        mSwapVolumeButtons.setOnPreferenceChangeListener(this);
+        int swapVolumeButtons = Settings.System.getInt(getContentResolver(),
+                SWAP_VOLUME_BUTTONS, 0);
+        mSwapVolumeButtons.setChecked(swapVolumeButtons != 0);
 
     }
 
@@ -71,6 +93,12 @@ public class Buttons extends SettingsPreferenceFragment implements OnPreferenceC
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mSwapVolumeButtons) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), SWAP_VOLUME_BUTTONS,
+                    value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 }

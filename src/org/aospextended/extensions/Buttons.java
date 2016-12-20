@@ -57,10 +57,11 @@ import com.android.settings.Utils;
 
 public class Buttons extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    // volume rocker reorient
     private static final String SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
+    private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
 
     private SwitchPreference mSwapVolumeButtons;
+    private SwitchPreference mVolumeRockerWake;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,12 +73,17 @@ public class Buttons extends SettingsPreferenceFragment implements OnPreferenceC
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
 
-        // volume rocker reorient
         mSwapVolumeButtons = (SwitchPreference) findPreference(SWAP_VOLUME_BUTTONS);
         mSwapVolumeButtons.setOnPreferenceChangeListener(this);
         int swapVolumeButtons = Settings.System.getInt(getContentResolver(),
                 SWAP_VOLUME_BUTTONS, 0);
         mSwapVolumeButtons.setChecked(swapVolumeButtons != 0);
+
+        mVolumeRockerWake = (SwitchPreference) findPreference(VOLUME_ROCKER_WAKE);
+        mVolumeRockerWake.setOnPreferenceChangeListener(this);
+        int volumeRockerWake = Settings.System.getInt(getContentResolver(),
+                VOLUME_ROCKER_WAKE, 0);
+        mVolumeRockerWake.setChecked(volumeRockerWake != 0);
 
     }
 
@@ -96,6 +102,11 @@ public class Buttons extends SettingsPreferenceFragment implements OnPreferenceC
         if (preference == mSwapVolumeButtons) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(), SWAP_VOLUME_BUTTONS,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mVolumeRockerWake) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(), VOLUME_ROCKER_WAKE,
                     value ? 1 : 0);
             return true;
         }

@@ -51,6 +51,7 @@ import com.android.internal.utils.du.DUActionUtils;
 
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
 
+    private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
     private static final String SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
@@ -76,6 +77,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private SwitchPreference mVolumeRockerWake;
     private SwitchPreference mVolumeRockerMusicControl;
     private SwitchPreference mHwKeyDisable;
+    private ListPreference mBacklightTimeout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -122,6 +124,8 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
+        mBacklightTimeout =
+                (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
 
         // back key
         if (!hasBackKey) {
@@ -146,6 +150,19 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         // search/assist key
         if (!hasAssistKey) {
             prefScreen.removePreference(assistCategory);
+        }
+
+        // Backlight
+        if (hasMenuKey || hasHomeKey) {
+            if (mBacklightTimeout != null) {
+        	mBacklightTimeout.setOnPreferenceChangeListener(this);
+        	int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                	Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+        	mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+        	mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+            }
+        } else {
+            prefScreen.removePreference(mBacklightTimeout);
         }
 
         mSwapVolumeButtons = (SwitchPreference) findPreference(SWAP_VOLUME_BUTTONS);
@@ -207,10 +224,20 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
                     value ? 1 : 0);
             return true;
         } else if (preference == mHwKeyDisable) {
-            boolean value = (Boolean) newValue;
+            boolean value = (Boolean) objValue;
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
+            return true;
+        } else if (preference == mBacklightTimeout) {
+            String BacklightTimeout = (String) objValue;
+            int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, BacklightTimeoutValue);
+            int BacklightTimeoutIndex = mBacklightTimeout
+                    .findIndexOfValue(BacklightTimeout);
+            mBacklightTimeout
+                    .setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
             return true;
         }
         return false;

@@ -43,19 +43,19 @@
         android:summary="@string/volume_keys_control_media_stream_summary"
         android:defaultValue="false" />
 
-    <SwitchPreference
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary" />
 
-    <SwitchPreference
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false"
         android:disableDependentsState="true" />
 
-    <SwitchPreference
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_music_controls"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
@@ -75,8 +75,7 @@
     <SwitchPreference
         android:key="button_brightness"
         android:title="@string/button_brightness_title"
-        android:persistent="false"
-        android:dependency="hardware_keys_disable" />
+        android:persistent="false" />
 
     <ListPreference
         android:dialogTitle="@string/backlight_timeout_title"
@@ -84,8 +83,7 @@
         android:entryValues="@array/backlight_timeout_values"
         android:key="backlight_timeout"
         android:persistent="false"
-        android:title="@string/backlight_timeout_title"
-        android:dependency="hardware_keys_disable" />
+        android:title="@string/backlight_timeout_title"/>
 
     </PreferenceCategory>
 

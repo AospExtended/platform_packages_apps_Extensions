@@ -29,7 +29,7 @@
 
    <PreferenceCategory
         android:key="volume_category"
-        android:title="@string/volume_rocker">
+        android:title="@string/volume_category">
 
     <org.aospextended.extensions.preference.SecureSettingSwitchPreference
         android:key="sysui_show_full_zen"

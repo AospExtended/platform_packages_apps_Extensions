@@ -48,6 +48,7 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.DUActionUtils;
+import org.aospextended.extensions.dui.ActionFragment;
 
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
 
@@ -198,6 +199,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
 
+    }
     }
 
      @Override

@@ -44,7 +44,7 @@
         android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="swap_volume_buttons"
+        android:key="swap_volume_keys_on_rotation"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary" />
 

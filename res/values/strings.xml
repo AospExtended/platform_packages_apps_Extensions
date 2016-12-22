@@ -700,5 +700,10 @@
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
+    <string name="systemui_recents_mem_display_summaryOn">RAM bar enabled</string>
+    <string name="systemui_recents_mem_display_summaryOff">RAM bar disabled</string>
+
 </resources>
 

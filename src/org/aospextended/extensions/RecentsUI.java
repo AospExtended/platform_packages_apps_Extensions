@@ -30,6 +30,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
@@ -45,6 +46,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+
 
 public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -100,8 +102,8 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
             mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
             return true;
         } else if (preference == mRecentsClearAllLocation) {
-            int location = Integer.valueOf((String) objValue);
-            int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
+            int location = Integer.valueOf((String) newValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) newValue);
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);

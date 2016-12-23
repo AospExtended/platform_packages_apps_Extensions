@@ -55,7 +55,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
-    private static final String SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
+    private static final String SWAP_VOLUME_BUTTONS = "swap_volume_keys_on_rotation";
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
     public static final String VOLUME_ROCKER_MUSIC_CONTROLS = "volume_rocker_music_controls";
 

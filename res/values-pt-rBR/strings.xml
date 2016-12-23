@@ -29,7 +29,7 @@
   <string name="weather_category">Configurações de Clima</string>
   <string name="security_category">Segurança</string>
   <string name="hardware_category">Hardware</string>
-  <string name="animations_category">Animações de telha</string>
+  <string name="animations_category">Animações das configurações rápidas</string>
   <string name="traffic_category">Indicadores do tráfego</string>
   <string name="dlg_ok">Ok</string>
   <string name="loading">Carregando\u2026</string>
@@ -121,13 +121,13 @@
   <string name="immersive_recents_statusbar">Apenas Barra de status</string>
   <string name="immersive_recents_navbar">Apenas Barra de navegação</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tile_animation_style_title">Estilo de animação de telhas</string>
-  <string name="qs_tile_animation_duration_title">Duração de animação de telhas</string>
-  <string name="qs_tile_animation_interpolator_title">Interpolador de animação de telhas</string>
+  <string name="qs_tile_animation_style_title">Estilo de animação das configurações rápidas</string>
+  <string name="qs_tile_animation_duration_title">Duração de animação das configurações rápidas</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolador de animação das configurações rápidas</string>
   <string name="qs_tile_animation_style_off">Sem animação</string>
   <string name="qs_tile_animation_style_flip">Inverter</string>
   <string name="qs_tile_animation_style_rotate">Rotação</string>
-  <string name="qs_tile_animation_duration_low">baixo</string>
+  <string name="qs_tile_animation_duration_low">Baixo</string>
   <string name="qs_tile_animation_duration_default">Padrão</string>
   <string name="qs_tile_animation_duration_fast">Rápida</string>
   <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
@@ -343,7 +343,7 @@
   <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
   <string name="quick_settings_vibrate_summary">Vibrar ao tocar as tiles</string>
   <!-- Advanced data tile -->
-  <string name="qs_advanced_data_title">Telha de dados avançados</string>
+  <string name="qs_advanced_data_title">Dados avançados nas configurações rápidas</string>
   <string name="qs_advanced_data_summary">Permitir uma ação de toque para habilitar ou desabilitar dados</string>
   <!-- Do not disturb switch in volume panel -->
   <string name="tuner_full_zen_title">Interruptor não pertube</string>
@@ -360,13 +360,13 @@
   <string name="tuner_full_zen_title">Interruptor não pertube</string>
   <string name="tuner_full_zen_summary">Exibe o interruptor não perturbe no painel de volume</string>
   <!-- Quick settings tiles columns and rows config -->
-  <string name="qs_layout_category">Layout de telhas QS</string>
+  <string name="qs_layout_category">Layout das configurações rápidas</string>
   <string name="qs_rows_portrait_title">Linhas (retrato)</string>
   <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
   <string name="qs_columns_title">Colunas</string>
   <string name="sysui_qqs_count_title">Ajustes rápidos pequenos</string>
   <string name="qs_wifi_easy_toggle_title">Wi-Fi fácil alternância</string>
-  <string name="qs_wifi_easy_toggle_summary">Faz com que um clique girará WiFi ligado ou desligado em vez de levá-lo para as configurações</string>
+  <string name="qs_wifi_easy_toggle_summary">Faz com que um clique alterne entre WiFi ligado ou desligado em vez de levá-lo para as configurações</string>
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Exibir visualizador de música</string>
   <!-- Lockscreen clock fonts -->
@@ -464,16 +464,16 @@
   <string name="wakelock_list_header">Wakelocks disponíveis</string>
   <string name="wakelock_blocker_reload">Recarregar</string>
   <string name="wakelock_blocker_warning_title">Proceda com cautela</string>
-  <string name="wakelock_blocker_warning">Bloqueio Wakelocks têm o potencial de causar instabilidade, travamentos ou perda de dados</string>
+  <string name="wakelock_blocker_warning">Bloquear Wakelocks têm o potencial de causar instabilidade, travamentos ou perda de dados</string>
   <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
   <!-- Lockscreen cover art -->
   <string name="media_art_title">Mostrar capa do album de música</string>
   <string name="media_art_summary">Habilitar a arte da capa de mídia na tela de bloqueio</string>
   <!-- BT easy toggle -->
   <string name="qs_bt_easy_toggle_title">Bluetooth fácil alternância</string>
-  <string name="qs_bt_easy_toggle_summary">Faz com que um clique vai virar Bluetooth ligado ou desligado em vez de levá-lo para as configurações</string>
+  <string name="qs_bt_easy_toggle_summary">Faz com que um clique alterne entre Bluetooth ligado ou desligado em vez de levá-lo para as configurações</string>
   <!-- Disable QS on secure Lockscreen -->
-  <string name="lockscreen_qs_disabled_title">Sem QS quando bloqueado</string>
+  <string name="lockscreen_qs_disabled_title">Sem configurações rápidas quando bloqueado</string>
   <string name="lockscreen_qs_disabled_summary">Desabilitar configurações rápidas na tela de bloqueio protegida</string>
   <!-- Status Bar Ticker -->
   <string name="ticker_screen_title">Ticker de notificação</string>
@@ -483,7 +483,7 @@
   <string name="ticker_font_style_title">Estilo da fonte</string>
   <string name="ticker_font_size_title">Tamanho da fonte</string>
   <!-- Hide Lockscreen clock, date & alarm -->
-  <string name="hide_lockscreen_items_title">Itens da telha de bloqueio</string>
+  <string name="hide_lockscreen_items_title">Itens da tela de bloqueio</string>
   <string name="hide_lockscreen_clock_title">Relógio</string>
   <string name="hide_lockscreen_date_title">Data</string>
   <string name="hide_lockscreen_alarm_title">Mostrar alarme na tela de bloqueio</string>
@@ -531,7 +531,7 @@
   <string name="power_menu_lockdown_title">Bloqueio do dispositivo</string>
   <string name="power_menu_bug_report_title">Reportar problema</string>
   <string name="power_menu_sound_title">Painel de som</string>
-  <string name="power_menu_bug_report_disabled">O relatório de erros está desativado nas opções de programador</string>
+  <string name="power_menu_bug_report_disabled">O relatório de erros está desativado nas opções de desenvolvedor</string>
   <string name="volume_category">Botões de Volume</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Reorientar</string>
@@ -581,8 +581,8 @@
   <string name="show_carrier_keyguard">Portador do teclado</string>
   <string name="show_carrier_statusbar">Operadora na barra de status</string>
   <string name="show_carrier_enabled">Ativado</string>
-  <string name="status_bar_carrier_color">Cor do nome de operadora</string>
-  <string name="status_bar_carrier_size">Tamanhi do texto nome de operadora</string>
+  <string name="status_bar_carrier_color">Cor do nome</string>
+  <string name="status_bar_carrier_size">Tamanho do texto</string>
   <!-- Battery customizations -->
   <string name="status_bar_battery_style_category">Bateria</string>
   <string name="status_bar_battery_style_title">Estilo do status da bateria</string>
@@ -598,8 +598,8 @@
   <string name="status_bar_battery_percentage_text_next">Próximo ao ícone</string>
   <string name="status_bar_battery_style_tile_title">Estilo personalizado da telha de bateria</string>
   <string name="status_bar_battery_style_tile_summary">Permitem definir o mesmo estilo de ícone escolhido para a barra de status da bateria</string>
-  <string name="status_bar_charge_color_title">StatusBar ícone de bateria cor de carregamento</string>
-  <string name="force_charge_battery_text_title">Por cento de carga de bateria de StatusBar</string>
+  <string name="status_bar_charge_color_title">Cor de carregamento do ícone de bateria</string>
+  <string name="force_charge_battery_text_title">Por cento de carga de bateria</string>
   <string name="force_charge_battery_text_summary_on">Mostra a porcentagem da bateria fora o ícone durante o carregamento</string>
   <string name="force_charge_battery_text_summary_off">Mostra a porcentagem da bateria fora o ícone durante o carregamento</string>
   <string name="text_charging_symbol_title">Símbolo de carregamento perto da porcentagem</string>
@@ -610,7 +610,7 @@
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Botão de limpar todos</string>
   <string name="show_clear_all_recents_button_summary">Mostrar limpar todos</string>
-  <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Todo\"</string>
+  <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Tudo\"</string>
   <string name="recents_clear_all_location_top_right">Superior Direito</string>
   <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
   <string name="recents_clear_all_location_top_center">Superior central</string>

@@ -49,7 +49,7 @@
   <string name="navigation_category">Navegação</string>
   <string name="lockscreen_category">Tela de bloqueio</string>
   <string name="breathing_notifications_category">Efeito de respiração nas notificações</string>
-  <string name="build_tweaks_summary_title">Estenda seu dispositivo!</string>
+  <string name="build_tweaks_summary_title">Estenda seu dispositivo</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
   <string name="extensions_dialog_message">Se você encontrar um bug com alguma dessas configurações, postar na seção de relatórios de bugs de nossa página de Google +. Você DEVE incluir o seguinte quando postar um relatório de bug: \n\n1. Um logcat ou last_kmsg\n2. Kernels e mods utilizados\n3. Informações úteis\n\nSe você não reportar corretamente, NÃO espere que as coisas sejam corrigidas.</string>
@@ -77,7 +77,7 @@
   <string name="brightness_icon_title">Ícone de Brilho </string>
   <string name="brightness_icon_summary">Ativar desativar o ícone de brilho existente ao lado do controle deslizante de brilho</string>
   <!-- Quick Settings -->
-  <string name="quick_settings_title">Ajustes rápidos</string>
+  <string name="quick_settings_title">Configurações rápidas</string>
   <string name="status_bar_quick_qs_pulldown_title">Puxar rápido para baixo</string>
   <string name="status_bar_quick_qs_pulldown_summary">Canto direito da barra de status faz baixar o painel de Configurações Rápidas</string>
   <!-- Misc Extensions -->
@@ -121,9 +121,9 @@
   <string name="immersive_recents_statusbar">Apenas Barra de status</string>
   <string name="immersive_recents_navbar">Apenas Barra de navegação</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tile_animation_style_title">Estilo de animação das configurações rápidas</string>
-  <string name="qs_tile_animation_duration_title">Duração de animação das configurações rápidas</string>
-  <string name="qs_tile_animation_interpolator_title">Interpolador de animação das configurações rápidas</string>
+  <string name="qs_tile_animation_style_title">Estilo de animação</string>
+  <string name="qs_tile_animation_duration_title">Duração de animação</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolador de animação</string>
   <string name="qs_tile_animation_style_off">Sem animação</string>
   <string name="qs_tile_animation_style_flip">Inverter</string>
   <string name="qs_tile_animation_style_rotate">Rotação</string>
@@ -498,7 +498,7 @@
   <string name="heads_up_disabled_notice">Para permitir que aplicativos exibam notificações interativas em uma janela pop-up, habilite as notificações Heads Up.</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tempo limite</string>
-  <string name="heads_up_time_out_summary">Mostrar notificação por<xliff:g id="number">%d</xliff:g> segundos</string>
+  <string name="heads_up_time_out_summary">Mostrar notificação por <xliff:g id="number">%d</xliff:g> segundos</string>
   <string name="heads_up_time_out_2sec">2 segundos</string>
   <string name="heads_up_time_out_4sec">4 segundos</string>
   <string name="heads_up_time_out_5sec">5 segundos</string>

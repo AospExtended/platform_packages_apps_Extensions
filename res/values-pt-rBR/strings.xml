@@ -491,11 +491,11 @@
   <string name="nav_bar_dynamic_title">Barra de navegação dinâmica</string>
   <string name="nav_bar_dynamic_summary">Permite que a barra de navegação se adapte a cor escura primária do app. Reinicie seu aplicativo desejado para ver o efeito.</string>
   <!-- Heads up settings -->
-  <string name="headsup_category">Configurações de notificações HeadsUp</string>
-  <string name="headsup_settings_title">Notificações HeadsUp</string>
-  <string name="summary_heads_up_enabled">Notificações HeadsUp estão habilitadas</string>
-  <string name="summary_heads_up_disabled">Notificações HeadsUp estão desabilitadas</string>
-  <string name="heads_up_disabled_notice">Para permitir que aplicativos exibam notificações interativas em uma janela pop-up, habilite HeadsUp.</string>
+  <string name="headsup_category">Configurações de notificações Heads Up</string>
+  <string name="headsup_settings_title">Notificações Heads Up</string>
+  <string name="summary_heads_up_enabled">Notificações Heads Up estão habilitadas</string>
+  <string name="summary_heads_up_disabled">Notificações Heads Up estão desabilitadas</string>
+  <string name="heads_up_disabled_notice">Para permitir que aplicativos exibam notificações interativas em uma janela pop-up, habilite as notificações Heads Up.</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tempo limite</string>
   <string name="heads_up_time_out_summary">Mostrar notificação por<xliff:g id="number">%d</xliff:g> segundos</string>
@@ -507,8 +507,8 @@
   <string name="heads_up_time_out_10sec">10 segundos</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Silenciar temporariamente</string>
-  <string name="heads_up_snooze_summary_one_minute">Desliza para cima sobre a notificação Heads-Up e esse aplicativo irá dormir por 1 minuto</string>
-  <string name="heads_up_snooze_summary">Desliza para cima sobre a notificação Heads-Up e esse aplicativo irá dormir por <xliff:g id="number">%d </xliff:g> minutos</string>
+  <string name="heads_up_snooze_summary_one_minute">Desliza para cima sobre a notificação Heads Up e esse aplicativo irá dormir por 1 minuto</string>
+  <string name="heads_up_snooze_summary">Desliza para cima sobre a notificação Heads Up e esse aplicativo irá dormir por <xliff:g id="number">%d </xliff:g> minutos</string>
   <string name="heads_up_snooze_disabled_summary">Tempo da Soneca está desativado</string>
   <string name="heads_up_snooze_1min">1 minuto</string>
   <string name="heads_up_snooze_3min">3 minutos</string>

@@ -19,23 +19,25 @@
         android:key="battery_bar_list"
         android:title="@string/battery_bar"
         android:entries="@array/battery_bar_entries"
-        android:entryValues="@array/battery_bar_values" />
+        android:entryValues="@array/battery_bar_values"
+        android:persistent="false" />
 
     <ListPreference
         android:key="battery_bar_no_navbar_list"
         android:title="@string/battery_bar_no_navbar"
         android:entries="@array/battery_bar_no_navbar_entries"
-        android:entryValues="@array/battery_bar_no_navbar_values" />
+        android:entryValues="@array/battery_bar_no_navbar_values"
+        android:persistent="false" />
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="battery_bar_color"
         android:title="@string/battery_bar_color"
-        android:defaultValue="0xffffffff" />
+        android:defaultValue="0xffffff" />
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="battery_bar_battery_low_color"
         android:title="@string/battery_bar_battery_low_color"
-        android:defaultValue="0xffffffff" />
+        android:defaultValue="0xffffff" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="battery_bar_enable_charging_color"
@@ -45,7 +47,7 @@
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="battery_bar_charging_color"
         android:title="@string/battery_bar_charging_color"
-        android:defaultValue="0xffffffff"
+        android:defaultValue="0xffffff"
         android:dependency="battery_bar_enable_charging_color" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
@@ -66,13 +68,15 @@
         android:key="battery_bar_style"
         android:title="@string/battery_bar_style_title"
         android:entries="@array/battery_bar_style_entries"
-        android:entryValues="@array/battery_bar_style_values" />
+        android:entryValues="@array/battery_bar_style_values"
+        android:persistent="false" />
 
     <ListPreference
         android:key="battery_bar_thickness"
         android:title="@string/battery_bar_thickness_title"
         android:entries="@array/battery_bar_thickness_entries"
-        android:entryValues="@array/battery_bar_thickness_values" />
+        android:entryValues="@array/battery_bar_thickness_values"
+        android:persistent="false" />
 
     <SwitchPreference
         android:key="battery_bar_animate"

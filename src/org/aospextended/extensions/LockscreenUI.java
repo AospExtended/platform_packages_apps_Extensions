@@ -55,7 +55,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
-    private static final String LOCKSCREEN_CHARGING = "lockscreen_charging_current";
+    private static final String LOCKSCREEN_CHARGING = "lockscreen_battery_info";
     private static final String PREF_CONDITION_ICON =
             "weather_condition_icon";
     private static final String PREF_HIDE_WEATHER =
@@ -127,7 +127,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             prefScreen.removePreference(mLockscreenCharging);
         } else {
         mLockscreenCharging.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_CHARGING_CURRENT, 0) == 1));
+                Settings.System.LOCKSCREEN_BATTERY_INFO, 0) == 1));
         mLockscreenCharging.setOnPreferenceChangeListener(this);
         }
 
@@ -191,7 +191,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         } else if (preference == mLockscreenCharging) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.LOCKSCREEN_CHARGING_CURRENT, value ? 1 : 0);
+                    Settings.System.LOCKSCREEN_BATTERY_INFO, value ? 1 : 0);
             return true;
         }
         return false;

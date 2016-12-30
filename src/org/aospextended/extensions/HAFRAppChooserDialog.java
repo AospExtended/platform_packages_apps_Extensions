@@ -13,7 +13,6 @@ import android.widget.ProgressBar;
 import android.widget.AdapterView.OnItemClickListener;
 
 import com.android.settings.R;
-import org.aospextended.extensions.R;
 
 public abstract class HAFRAppChooserDialog extends Dialog {
 

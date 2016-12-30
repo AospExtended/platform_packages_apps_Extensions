@@ -32,11 +32,11 @@
         android:summary="@string/keyguard_torch_summary"
         android:defaultValue="false" />
 
-    <SwitchPreference
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
-        android:persistent="false" />
+        android:defaultValue="true" />
 
     </PreferenceCategory>
 

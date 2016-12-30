@@ -22,7 +22,6 @@ import android.view.MenuItem;
 import android.widget.ListView;
 
 import com.android.settings.R;
-import org.aospextended.extensions.R;
 
 public class HAFRAppListActivity extends Activity {
 

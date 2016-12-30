@@ -22,7 +22,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.settings.R;
-import org.aospextended.extensions.R;
 
 public abstract class HAFRAppChooserAdapter extends BaseAdapter implements Filterable {
 

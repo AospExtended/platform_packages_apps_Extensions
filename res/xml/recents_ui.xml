@@ -55,8 +55,8 @@
         android:title="@string/hide_apps_from_recents_title"
         android:summary="@string/hide_apps_from_recents_summary" >
              <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.aospextended.extensions"
-                 android:targetClass="org.aospextended.extensionsHAFRAppListActivity" />
+                 android:targetPackage="com.android.settings"
+                 android:targetClass="org.aospextended.extensions.HAFRAppListActivity" />
      </PreferenceScreen>
 
     </PreferenceCategory>

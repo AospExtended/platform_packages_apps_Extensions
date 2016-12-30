@@ -43,7 +43,6 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
-import android.hardware.fingerprint.FingerprintManager;
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -57,7 +56,6 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_CHARGING = "lockscreen_battery_info";
-    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String PREF_CONDITION_ICON =
             "weather_condition_icon";
     private static final String PREF_HIDE_WEATHER =
@@ -71,8 +69,6 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private ListPreference mLockClockFonts;
     private SwitchPreference mLockscreenCharging;
-    private SwitchPreference mFingerprintVib;
-    private FingerprintManager mFingerprintManager;
     private ListPreference mConditionIcon;
     private ListPreference mHideWeather;
     private CustomSeekBarPreference mNumberOfNotifications;
@@ -133,16 +129,6 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mLockscreenCharging.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_BATTERY_INFO, 0) == 1));
         mLockscreenCharging.setOnPreferenceChangeListener(this);
-        }
-
-        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
-        mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
-        if (!mFingerprintManager.isHardwareDetected()){
-            prefScreen.removePreference(mFingerprintVib);
-        } else {
-        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
-        mFingerprintVib.setOnPreferenceChangeListener(this);
         }
 
     }
@@ -206,11 +192,6 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.LOCKSCREEN_BATTERY_INFO, value ? 1 : 0);
-            return true;
-        } else if (preference == mFingerprintVib) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
             return true;
         }
         return false;

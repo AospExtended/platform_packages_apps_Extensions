@@ -91,6 +91,9 @@
     <!-- Blur -->
     <string name="blur_title">Blur</string>
 
+    <!-- Animations -->
+    <string name="animations_title">Animations</string>
+
     <!-- Carrier Label -->
     <string name="carrierlabel_title">Carrier Label</string>
 

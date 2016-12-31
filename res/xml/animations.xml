@@ -16,6 +16,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/animations_title">
 
+     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="disable_transition_animations"
+        android:title="@string/disable_animations"
+        android:summary="@string/disable_animations_summary"
+        android:defaultValue="false" />
+
      <PreferenceCategory
         android:title="@string/system_animations">
 

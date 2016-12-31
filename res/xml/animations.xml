@@ -19,6 +19,14 @@
      <PreferenceCategory
         android:title="@string/system_animations">
 
+	<ListPreference
+	    android:key="pref_scrollingcache"
+	    android:dialogTitle="@string/pref_scrollingcache_title"
+	    android:title="@string/pref_scrollingcache_title"
+	    android:summary="@string/pref_scrollingcache_summary"
+	    android:entries="@array/entries_scrollingcache"
+	    android:entryValues="@array/values_scrollingcache" />
+
         <SwitchPreference
             android:key="animation_no_override"
             android:title="@string/title_animation_no_override"
@@ -90,7 +98,6 @@
             android:defaultValue="0" />
 
       </PreferenceCategory>
-
 
       <PreferenceCategory
         android:title="@string/toast">

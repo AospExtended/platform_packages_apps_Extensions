@@ -34,10 +34,10 @@
             android:title="@string/blur_title" />
 
           <PreferenceScreen
- +            android:key="animations"
- +            android:fragment="org.aospextended.extensions.Animations"
- +            android:layout="@layout/preference_animations"
- +            android:title="@string/animations_title" />
+            android:key="animations"
+            android:fragment="org.aospextended.extensions.Animations"
+            android:layout="@layout/preference_animations"
+            android:title="@string/animations_title" />
 
          <PreferenceScreen
             android:key="buttons"

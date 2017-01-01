@@ -39,6 +39,13 @@
             android:summary="@string/disable_fc_notifications_summary"
             android:defaultValue="false" />
 
+        <!-- Headset -->
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+                android:key="headset_connect_player"
+                android:title="@string/headset_connect_player_title"
+                android:summary="@string/headset_connect_player_summary"
+                android:defaultValue="false" />
+
     </PreferenceCategory>
 
         <PreferenceCategory

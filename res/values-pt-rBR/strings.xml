@@ -131,13 +131,13 @@
   <string name="immersive_recents_statusbar">Apenas Barra de status</string>
   <string name="immersive_recents_navbar">Apenas Barra de navegação</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tile_animation_style_title">Estilo de animação de telhas</string>
+  <string name="qs_tile_animation_style_title">Estilo de animação das configurações rápidas</string>
   <string name="qs_tile_animation_duration_title">Duração de animação das configurações rápidas</string>
   <string name="qs_tile_animation_interpolator_title">Interpolador de animação das configurações rápidas</string>
   <string name="qs_tile_animation_style_off">Sem animação</string>
   <string name="qs_tile_animation_style_flip">Inverter</string>
   <string name="qs_tile_animation_style_rotate">Rotação</string>
-  <string name="qs_tile_animation_duration_low">baixo</string>
+  <string name="qs_tile_animation_duration_low">Baixo</string>
   <string name="qs_tile_animation_duration_default">Padrão</string>
   <string name="qs_tile_animation_duration_fast">Rápida</string>
   <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
@@ -624,7 +624,7 @@
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Botão de limpar todos</string>
   <string name="show_clear_all_recents_button_summary">Mostrar limpar todos</string>
-  <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Todo\"</string>
+  <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Tudo\"</string>
   <string name="recents_clear_all_location_top_right">Superior Direito</string>
   <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
   <string name="recents_clear_all_location_top_center">Superior central</string>

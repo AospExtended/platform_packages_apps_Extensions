@@ -382,7 +382,7 @@
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Fontes do Relógio de bloqueio</string>
   <string name="lock_clock_font_summary">Alterar a fonte padrão do widget de relógio na tela de bloqueio</string>
-  <string name="lock_clock_font_normal">Normal</string>
+  <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Roboto Negrito</string>
   <string name="lock_clock_font_italic">Roboto itálico</string>
   <string name="lock_clock_font_bold_italic">Roboto negrito itálico</string>
@@ -397,9 +397,9 @@
   <string name="lock_clock_font_medium_normal">Roboto médio</string>
   <string name="lock_clock_font_medium_italic">Roboto Medium Italico</string>
   <string name="lock_clock_font_black_normal">Roboto preto</string>
-  <string name="lock_clock_font_black_italic">Itálico Preto</string>
+  <string name="lock_clock_font_black_italic">Roboto Itálico Preto</string>
   <string name="lock_clock_font_condensed_light_normal">Roboto Condensado Leve</string>
-  <string name="lock_clock_font_condensed_light_italic">Condensado Itálico fino</string>
+  <string name="lock_clock_font_condensed_light_italic">Roboto Condensado Itálico Fino</string>
   <string name="lock_clock_font_dancingscript">DancingScript</string>
   <string name="lock_clock_font_dancingscript_bold">DancingScript Negrito</string>
   <string name="lock_clock_font_comingsoon">Em breve</string>

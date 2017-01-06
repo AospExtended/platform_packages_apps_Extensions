@@ -1058,6 +1058,9 @@
     <string name="qs_running_services_title">Running Services Icon</string>
     <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
 
+    <string name="qs_edit_title">Edit Icon</string>
+    <string name="qs_edit_summary">Disable the tile edit icon in the footer</string>
+
     <!-- Wallpaper tint -->
     <string name="wallpaper_tint_power_menu">Power menu background tint</string>
     <string name="wallpaper_tint_recents">Recents background tint</string>

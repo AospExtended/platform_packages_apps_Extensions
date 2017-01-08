@@ -854,4 +854,39 @@
   <string name="headset_connect_player_title">Avvio app musicale</string>
   <string name="headset_connect_player_summary">Avvia l\'applicazione musicale predefinita quando viene collegato l\'auricolare</string>
 
+  <!-- QS Header Icons -->
+  <string name="qs_settings_icon_title">Scorciatoia impostazioni</string>
+  <string name="qs_settings_icon_summary">Disabilita la scorciatoia delle impostazioni nell\'intestazione</string>
+  <string name="qs_edit_title">Modifica icona</string>
+  <string name="qs_edit_summary">Disabilita l\'icona di modifica dei tile nell\'intestazione</string>
+  <string name="qs_multiuser_switch_title">Icona cambio utente</string>
+  <string name="qs_multiuser_switch_summary">Disabilita l\'icona cambio utente nell\'intestazione</string>
+  <string name="qs_expand_indicator_title">Indicatore espansione</string>
+  <string name="qs_expand_indicator_summary">Disabilita l\'indicatore di espansione nell\'intestazione</string>
+    
+  <!-- Center Date + Time in header -->
+  <string name="qs_date_time_center_title">Centra data e ora</string>
+  <string name="qs_date_time_center_summary">Richiede una o più icone per essere disabilitato</string>
+  
+    <!-- Battery Bar fragment -->
+    <string name="battery_bar_title">Barra batteria</string>
+    <string name="battery_bar">Posizione barra batteria</string>
+    <string name="battery_bar_no_navbar">Posizione barra batteria</string>
+    <string name="battery_bar_color">Colore barra batteria</string>
+    <string name="battery_bar_charging_color">Colore in carica</string>
+    <string name="battery_bar_battery_low_color">Colore batteria scarica</string>
+    <string name="battery_bar_cat">Stile barra batteria</string>
+    <string name="battery_bar_style_title">Allineamento barra batteria</string>
+    <string name="battery_bar_thickness_title">Spessore barra batteria</string>
+    <string name="battery_bar_animate_title">Animazione di ricarica</string>
+    <string name="battery_bar_style_regular">Regolare</string>
+    <string name="battery_bar_style_center_mirrored">Al centro-specchiato</string>
+    <string name="battery_bar_style_reversed">Invertito</string>
+    <string name="battery_bar_use_charging_color">Colore di ricarica personalizzato</string>
+    <string name="battery_bar_blend_color_title">Mescola i colori</string>
+    <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
+    <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuoto: red &#8592; verde &#8592; blue &#8592; rosso</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuoto: red &#8594; verde &#8594; blue &#8594; rosso</string>
+
 </resources>

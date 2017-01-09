@@ -746,4 +746,36 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_title">Iniciar o aplicativo de música</string>
   <string name="headset_connect_player_summary">Iniciar o aplicativo de música padrão quando o fone for conectado</string>
+  <!-- QS Header Icons -->
+  <string name="qs_settings_icon_title">Atalho de configurações</string>
+  <string name="qs_settings_icon_summary">Desativar o atalho de configurações no cabeçalho</string>
+  <string name="qs_edit_title">Editar o ícone</string>
+  <string name="qs_edit_summary">Desativar o icone de edição das configurações rápidas no cabeçalho</string>
+  <string name="qs_multiuser_switch_title">Interruptor de multi-usuário</string>
+  <string name="qs_multiuser_switch_summary">Desativar o interruptor de multi usuário no cabeçalho</string>
+  <string name="qs_expand_indicator_title">Indicador de expansão</string>
+  <string name="qs_expand_indicator_summary">Desabilitar o indicador de expansão no cabeçalho</string>
+  <!-- Center Date + Time in header -->
+  <string name="qs_date_time_center_title">Centralizar data e hora</string>
+  <string name="qs_date_time_center_summary">Requer que um ou mais ícones sejam desativados</string>
+  <!-- Battery Bar fragment -->
+  <string name="battery_bar_title">Barra de bateria</string>
+  <string name="battery_bar">Localização da Barra de bateria</string>
+  <string name="battery_bar_no_navbar">Localização da Barra de bateria</string>
+  <string name="battery_bar_color">Cor da barra de bateria</string>
+  <string name="battery_bar_charging_color">Cor de carregamento da barra de bateria</string>
+  <string name="battery_bar_battery_low_color">Cor de bateria fraca da barra de bateria</string>
+  <string name="battery_bar_cat">Estilo da barra da bateria</string>
+  <string name="battery_bar_style_title">Alinhamento da barra</string>
+  <string name="battery_bar_thickness_title">Espessura da barra de bateria</string>
+  <string name="battery_bar_animate_title">Animação de carregamento</string>
+  <string name="battery_bar_style_regular">Normal</string>
+  <string name="battery_bar_style_center_mirrored">Centro-espelhado</string>
+  <string name="battery_bar_style_reversed">Invertido</string>
+  <string name="battery_bar_use_charging_color">Custom charging color</string>
+  <string name="battery_bar_blend_color_title">Mistura de cores</string>
+  <string name="battery_bar_blend_color_summary">Misturar cores correspondente a porcentagem da bateria</string>
+  <string name="battery_bar_blend_color_reverse_title">Inverter a direção de cor</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vazio: vermelho &#8592; verde &#8592; azul &#8592; vermelho</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vazio: vermelho &#8594; verde &#8594; azul &#8594; vermelho</string>
 </resources>

@@ -175,12 +175,15 @@
   <string name="camera_double_tap_power_gesture_desc">Abre la cámara rápidamente sin desbloquear la pantalla</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Menú de apagado</string>
+  <string name="power_menu_title_summary">Ver o cambiar las opciones del menú de apagado</string>   
   <string name="power_menu_reboot_title">Reiniciar</string>
   <string name="power_menu_screenshot_title">Capturar pantalla</string>
   <string name="power_menu_airplane_title">Modo avión</string>
   <string name="power_menu_users_title">Selector de Usuario</string>
   <string name="power_menu_voice_title">Búsqueda por voz</string>
   <string name="power_menu_search_title">Búsqueda</string>
+  <string name="power_menu_torch_title">Antorcha</string>   
+  <string name="power_menu_screenrecord_title">Grabar pantalla</string>   
   <string name="power_menu_settings_title">Atajo de configuración</string>
   <string name="power_menu_lockdown_title">Bloqueo de dispositivo</string>
   <string name="power_menu_bug_report_title">Informe de fallo</string>
@@ -202,6 +205,17 @@
   <string name="recents_ui_title">Interfaz de usuario de recientes</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">UI de la pantalla de bloqueo</string>
+  <!-- Buttons -->
+  <string name="buttons_title">Botones</string>
+
+  <!-- Blur -->
+  <string name="blur_title">Desenfoque</string>
+
+  <!-- Animations -->
+  <string name="animations_title">Animaciones</string>
+
+  <!-- Carrier Label -->
+  <string name="carrierlabel_title">Nombre de operadora</string>   
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
   <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes</string>
@@ -617,7 +631,7 @@
   <string name="headsup_settings_title">Notificaciones emergentes</string>
   <string name="summary_heads_up_enabled">Las notificaciones emergentes están activadas</string>
   <string name="summary_heads_up_disabled">Las notificaciones emergentes están desactivadas</string>
-  <string name="heads_up_disabled_notice">Para activar notificaciones interactivas en la pantalla, activa las notificaciones emergentes.</string>   
+  <string name="heads_up_disabled_notice">Para activar notificaciones interactivas en la pantalla, activa las notificaciones emergentes</string>   
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tiempo activo</string>
   <string name="heads_up_time_out_summary">La notificación se mostrará por <xliff:g id="number">%d</xliff:g> segundos</string>
@@ -638,4 +652,251 @@
   <string name="heads_up_snooze_10min">10 minutos</string>
   <string name="heads_up_snooze_15min">15 minutos</string>
   <string name="heads_up_snooze_20min">20 minutos</string>   
+  <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Información de carga</string>
+  <string name="lockscreen_battery_info_summary">Mostrar la carga máxima, voltaje y temperatura de la batería mientras carga</string>
+  <!-- Battery customizations -->
+  <string name="status_bar_battery_style_category">Batería</string>
+  <string name="status_bar_battery_style_title">Estilo de batería</string>
+  <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+  <string name="status_bar_battery_style_icon_landscape">Icon horizontal</string>
+  <string name="status_bar_battery_style_circle">Circulo</string>
+  <string name="status_bar_battery_style_bigcircle">Circulo grande</string>
+  <string name="status_bar_battery_style_circle_full">Circulo completo</string>
+  <string name="status_bar_battery_style_text">Solo texto</string>
+  <string name="status_bar_battery_style_hidden">Oculto</string>
+  <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+  <string name="status_bar_battery_percentage_default">Oculto</string>
+  <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+  <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+  <string name="status_bar_battery_style_tile_title">Estilo de batería personalizado</string>
+  <string name="status_bar_battery_style_tile_summary">Permitir el estilo de batería seleccionado en la barra de estado</string>
+  <string name="status_bar_charge_color_title">Seleccionar color del icono mientras se carga</string>
+  <string name="force_charge_battery_text_title">Mostrar el porcentaje cuando se carga</string>
+  <string name="force_charge_battery_text_summary_on">Mostrar el porcentaje fuera del icono mientras carga</string>
+  <string name="force_charge_battery_text_summary_off">Mostrar el porcentaje dentra del icono mientras carga</string>
+  <string name="text_charging_symbol_title">Simbolo junto al porcentaje</string>
+  <string name="text_charging_symbol_dialog">Mostrar un simbolo junto al porcentaje mientras se carga</string>
+  <string name="text_charging_symbol_default">Desactivado</string>
+  <string name="text_charging_symbol_flash">Relámpago</string>
+  <string name="text_charging_symbol_tilde">Tilde</string>   
+  <!-- Custom carrier label and position -->
+  <string name="carrier_label_settings_title">Nombre de operadora</string>
+  <string name="carrier_label_settings_summary">Personalizar el nombre de operadora</string>
+  <string name="custom_carrier_label_title">Nombre de operadora personalizado</string>
+  <string name="custom_carrier_label_explain">Por favor escriba un nuevo nombre. Deja en blanco para conservar el nombre por defecto.</string>
+  <string name="custom_carrier_label_notset">No se ha escrito un nombre personalizado</string>
+  <string name="show_carrier_title">Nombre de operadora</string>
+  <string name="show_carrier_disabled">Oculto</string>
+  <string name="show_carrier_keyguard">Solo en pantalla de bloqueo</string>
+  <string name="show_carrier_statusbar">Solo en barra de estado</string>
+  <string name="show_carrier_enabled">Pantalla de bloqueo y barra de estado</string>
+  <string name="status_bar_carrier_color">Color de nombre de operadora</string>
+  <string name="status_bar_carrier_size">Tamaño de nombre de operadora</string>   
+  <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Controles de notificaciones</string>
+  <string name="power_notification_controls_summary">Seleccionar el niver de importancia de las notificaciones</string>   
+  <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Botón de borrar todo</string>
+  <string name="show_clear_all_recents_button_summary">Mostrar botón de borrar todo</string>
+  <string name="recents_clear_all_location_title">Ubicación del botón</string>
+  <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
+  <string name="recents_clear_all_location_top_left">Arriba a la izquierda</string>
+  <string name="recents_clear_all_location_top_center">Arriba al centro</string>
+  <string name="recents_clear_all_location_bottom_right">Abajo a la derecha</string>
+  <string name="recents_clear_all_location_bottom_left">Abajo a la izquierda</string>
+  <string name="recents_clear_all_location_bottom_center">Abajo al centro</string>
+
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Mostrar barra de memoria</string>
+  <string name="systemui_recents_mem_display_summaryOn">Barra de RAM activada</string>
+  <string name="systemui_recents_mem_display_summaryOff">Barra de RAM desactivada</string>
+
+  <!-- Hide Apps from Recents -->
+  <string name="hide_apps_from_recents_title">Apps ocultas</string>
+  <string name="hide_from_recents_add_app">Añadir apps</string>
+  <string name="hide_apps_from_recents_summary">Elegir que apps ocultar de recientes</string>
+
+    <!-- fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibración de huella dactilar</string>
+  <string name="fprint_sucess_vib_summary">Vibrar al autencicar la huella dactilar </string>
+
+    <!-- XOSP Blur personalizations -->
+  <string name="settings_blur_cat">Desenfoque</string>
+  <string name="blurred_status_bar_expanded_enabled_pref">Desenfoque en el fondo de la barra de estado</string>
+  <string name="blurred_status_bar_expanded_enabled_pref_summary">Mostrar desenfoque al deslizar la barra de estado</string>
+  <string name="translucent_notifications_pref">Notificaciones traslúcidas</string>
+  <string name="translucent_notifications_pref_summary">Hacer el fondo de las notificaciones traslúcido</string>
+  <string name="translucent_quick_settings_pref">Desenfoque en la barra de estado expandida</string>
+  <string name="translucent_quick_settings_pref_summary">Desenfoque en el fondo de la barra de estado expandida</string>
+  <string name="transluency_level_universal">Nivel de traslucencia</string>
+  <string name="blurred_recent_app_enabled_pref">Desenfoque en recientes</string>
+  <string name="blurred_recent_app_enabled_pref_summary">Desenfoque en el fondo de recientes</string>
+
+  <string name="blur_light_color">Filtro de color de imagen clara</string>
+  <string name="blur_dark_color">Filtro de color de imagen oscura</string>
+  <string name="blur_mixed_color">Filtro de imagen mixta</string>
+
+  <string name="blur_notice">Acerca de Desenfoque...</string>
+  <string name="blur_notice_summary">Las personalizaciones del desenfoque se desactivan durante la vista del bloqueo de teclado. ¡Sólo las notificaciones translúcidas están habilitadas!</string>
+  <string name="blur_colors_notice">¿Qué están haciendo estos colores?</string>
+  <string name="blur_colors_notice_summary">Estos colores son los que tintan el fondo del desenfoque. En lugar del gris, ahora puedes escpger los colores que quieras. \n xisten filtros de colores: Uno para fondos ligeros, uno para fondos oscuros y uno para fondos ligeros/oscuros. \n Entontes, ¿cómo funcionan estos colores? \n Simple, como dicen los títulos, el filtro de luz se utilizará para fondos más claros, filtro oscuro para fondos oscuros y el filtro mixto uno se usará para fondos no demasiado oscuros, pero tampoco demasiado claros. \n Estos colores son usados para el fondo de la barra de estado y recientes </string>   
+  <string name="blur_expstatus_cat">Barra de estado extendida </string>
+  <string name="blur_notifications_cat">Notificaciones</string>
+  <string name="blur_qs_cat">Ajustes rápidos</string>
+  <string name="blur_recents_cat">Aplicaciones recientes</string>
+  <string name="blur_colors_cat">Filtros de color de desenfoque</string>
+  <string name="blur_notices_cat">Avisos</string>
+  <string name="blurred_scale">Escala de desenfoque</string>
+  <string name="blurred_scale_summary">Calidad de desenfoque de imagen</string>
+  <string name="blurred_radius">Radio de desenfoque</string>
+  <string name="blurred_radius_summary">Cantidad de desenfoque</string>
+  <string name="blur_cat_notice">Aviso</string>
+  <string name="blur_cat_notice_summary">Las personalizaciones del desenfoque se desactivan durante la vista del bloqueo de teclado. ¡Sólo las notificaciones translúcidas están habilitadas!</string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_title">Animaciones</string>
+  <string name="system_animation_title">Animaciones de sistema</string>
+  <string name="activity_open_title">Animación de abrir actividad</string>
+  <string name="activity_close_title">Animación de cerrar actividad</string>
+  <string name="task_open_title">Animación de abrir tarea</string>
+  <string name="task_open_behind_title">Animación atrás de abrir tarea</string>
+  <string name="task_close_title">Animación de cerrar tarea</string>
+  <string name="task_move_to_front_title">Animación de mover al frente</string>
+  <string name="task_move_to_back_title">Animación de mover hacia atrás</string>
+  <string name="wallpaper_open_title">Animación de abrir fondo de pantalla</string>
+  <string name="wallpaper_close_title">Animación de cerrar fondo de pantalla</string>
+  <string name="wallpaper_intra_open_title">Animación de abrir fondo de pantalla</string>
+  <string name="wallpaper_intra_close_title">Animación de cerrar fondo de pantalla</string>
+  <string name="animation_duration_title">Duración de la animación</string>
+  <string name="title_animation_no_override">Evitar que la aplicación reemplace</string>
+  <string name="summary_animation_no_override">Evitar que la aplicación reemplace las animaciones</string>
+  <string name="animation_duration_default">Por defecto</string>
+  <!-- Toast Animation -->
+  <string name="toast_animation_title">Animación de notificación flotante</string>
+  <string name="toast_none_animation">Ninguno</string>
+  <string name="toast_default_animation">Por defecto</string>
+  <string name="toast_fade_animation">Desvanecer</string>
+  <string name="toast_SlideRight_animation">Deslizar a la derecha</string>
+  <string name="toast_SlideLeft_animation">Deslizar a la izquierda</string>
+  <string name="toast_Xylon_animation">Xylon</string>
+  <string name="toast_Toko_animation">Toko</string>
+  <string name="toast_Tn_animation">Tn</string>
+  <string name="toast_Honami_animation">Honami</string>
+  <string name="toast_FastFade_animation">Desvanecimiento rápido</string>
+  <string name="toast_GrowFade_animation">Desvanecimiento creciente</string>
+  <string name="toast_GrowFadeCenter_animation">Desvanecimiento creciente en el centro</string>
+  <string name="toast_GrowFadeBottom_animation">Desvanecimiento creciente abajo</string>
+  <string name="toast_Translucent_animation">Translúcido</string>
+  <string name="toast_SlideLeftRight_animation">Deslizar de izquierda a derecha</string>
+  <string name="toast_SlideRightLeft_animation">Deslizar de derecha a izquierda</string>
+  <!-- ListView animation -->
+  <string name="listview_animation_title">Animación de vista de lista</string>
+  <string name="listview_off">Por defecto</string>
+  <string name="listview_wave_left">Ola (izquierda)</string>
+  <string name="listview_wave_right">Ola (derecha)</string>
+  <string name="listview_alpha">Alfa</string>
+  <string name="listview_scale">Escala</string>
+  <string name="listview_stack_top">Pila (arriba)</string>
+  <string name="listview_stack_bottom">Pila (parte inferior)</string>
+  <string name="listview_unfold">Desplegar</string>
+  <string name="listview_fold">Doble</string>
+  <string name="listview_translate_left">Trasladar (izquierda)</string>
+  <string name="listview_translate_right">Trasladar (derecha)</string>
+  <!-- ListView interpolator -->
+  <string name="listview_interpolator_title">Interpolador de vista de lista</string>
+  <string name="listview_accelerate_interpolator">Acelerar</string>
+  <string name="listview_decelerate_interpolator">Desacelerar</string>
+  <string name="listview_accelerate_decelerate_interpolator">Acelerar y desacelerar</string>
+  <string name="listview_anticipate_interpolator">Anticipar</string>
+  <string name="listview_overshoot_interpolator">Overshoot</string>
+  <string name="listview_anticipate_overshoot_interpolator">Anticipar y adelantar</string>
+  <string name="listview_bounce_interpolator">Rebotar</string>
+  <!-- Disable animations -->
+  <string name="disable_animations">Desactivar animaciones</string>
+  <string name="disable_animations_summary">Desactiva animaciones de transición como por ejemplo al lanzar una app</string>
+  <!-- Option to enable/disable scrolling cache -->
+  <string name="pref_scrollingcache_title">Caché de desplazamiento</string>
+  <string name="pref_scrollingcache_summary">Caché de desplazamiento puede mejorar el rendimiento de desplazamiento a costa de memoria</string>
+  <string name="pref_scrollingcache_force_enable">Activación forzosa</string>
+  <string name="pref_scrollingcache_default_enable">Activar por defecto</string>
+  <string name="pref_scrollingcache_default_disable">Desactivar por defecto</string>
+  <string name="pref_scrollingcache_force_disable">Desactivación forzosa</string>
+  <!-- Three finger swipe screenshot -->
+  <string name="three_finger_gesture">Captura de pantalla con tres dedos</string>
+  <string name="three_finger_gesture_summary">Deslizar tres dedos por la pantalla para captura de pantalla</string>
+  <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Lanzar la aplicación música</string>
+  <string name="headset_connect_player_summary">Lanzar la aplicación de música por defecto cuando el auricular está conectado</string>
+  <!-- QS Header Icons -->
+  <string name="qs_settings_icon_title">Acceso directo de configuración</string>
+  <string name="qs_settings_icon_summary">Deshabilitar el acceso directo de configuración en la cabecera</string>
+  <string name="qs_edit_title">Editar icono</string>
+  <string name="qs_edit_summary">Desactivar el icono de edición de ajustes rápidos en la cabecera</string>
+  <string name="qs_multiuser_switch_title">Interruptor de múltiples usuarios</string>
+  <string name="qs_multiuser_switch_summary">Desactivar el interruptor de múltiples usuarios en la cabecera</string>
+  <string name="qs_expand_indicator_title">Indicador de ampliar</string>
+  <string name="qs_expand_indicator_summary">Desactivar el indicador de expansión en la cabecera</string>
+  <!-- Center Date + Time in header -->
+  <string name="qs_date_time_center_title">Hora y fecha centrados</string>
+  <string name="qs_date_time_center_summary">Requiere uno o más iconos para desactivar</string>
+  <!-- Battery Bar fragment -->
+  <string name="battery_bar_title">Barra de la batería</string>
+  <string name="battery_bar">Ubicación de la barra de batería</string>
+  <string name="battery_bar_no_navbar">Ubicación de la barra de batería</string>
+  <string name="battery_bar_color">Color de la barra de batería</string>
+  <string name="battery_bar_charging_color">Color de la barra de batería al cargar</string>
+  <string name="battery_bar_battery_low_color">Color de la barra de batería al estar baja</string>
+  <string name="battery_bar_cat">Estilo de barra de batería</string>
+  <string name="battery_bar_style_title">Alineación de la barra de batería</string>
+  <string name="battery_bar_thickness_title">Espesor de la barra de batería</string>
+  <string name="battery_bar_animate_title">Animación de carga</string>
+  <string name="battery_bar_style_regular">Regular</string>
+  <string name="battery_bar_style_center_mirrored">Centro-reflejada</string>
+  <string name="battery_bar_style_reversed">Invertida</string>
+  <string name="battery_bar_use_charging_color">Color de la barra de batería al cargar personalizado</string>
+  <string name="battery_bar_blend_color_title">Mezcla de colores</string>
+  <string name="battery_bar_blend_color_summary">Mezcla colores de lleno/vacío correspondiente al porcentaje de la batería</string>
+  <string name="battery_bar_blend_color_reverse_title">Dirección de color inverso</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Completo → vacio: rojo ← verde ← azul ← rojo</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Completo → vacio: rojo → verde → azul → rojo</string>
+  <string name="battery_bar_hide">Ocultar</string>
+  <string name="battery_bar_statusbar">Barra de estado</string>
+  <string name="battery_bar_navbar_top">Parte superior de la barra de navegación</string>
+  <string name="battery_bar_navbar_bottom">Parte inferior de la barra de navegación</string>
+  <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Encendido con los botones de volumen</string>
+  <string name="volume_rocker_wake_summary">Las teclas de volumen activarán el dispositivo</string>
+  <string name="volume_category">Control de volumen</string>
+  <string name="volume_category">Control de volumen</string>
+  <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Control de reproducción</string>
+  <string name="volume_rocker_music_controls_summary">Cuando la pantalla está apagada, mantener presionadas las teclas de volumen cambiará las pistas de música</string>
+  <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Las teclas de volumen controlan de volumen multimedia</string>
+  <string name="volume_keys_control_media_stream_summary">Las teclas de volumen controlan el flujo de medios</string>
+  <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">Control de volumen</string>
+  <string name="hardware_keys_home_key_title">Botón de inicio</string>
+  <string name="hardware_keys_menu_key_title">Botón de menú</string>
+  <string name="hardware_keys_assist_key_title">Botón de búsqueda</string>
+  <string name="hardware_keys_appswitch_key_title">Botón Resumen</string>
+  <string name="hardware_keys_back_key_title">Botón atrás</string>
+  <string name="hardware_keys_double_tap_summary">Seleccionar acción de doble toque</string>
+  <string name="hardware_keys_single_tap_summary">Seleccionar acción de un toque</string>
+  <string name="hardware_keys_long_press_summary">Seleccionar acción de pulsación larga</string>
+  <string name="hardware_keys_single_tap_title">Acción de un toque</string>
+  <string name="hardware_keys_long_press_title">Acción de pulsación larga</string>
+  <string name="hardware_keys_double_tap_title">Acción de doble toque</string>
+  <string name="hardware_keys_category">Botones de navegación</string>
+  <string name="hardware_keys_disable_title">Deshabilitar botones de navegación</string>
+  <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Tiempo de espera de luz de fondo de botones</string>
+  <string name="backlight_timeout_on">Permitido siempre</string>
+  <string name="backlight_timeout_default">5 segundos (predeterminado)</string>
+  <string name="backlight_timeout_10s">10 seg</string>
+  <string name="backlight_timeout_15s">15 seg</string>
+  <string name="backlight_timeout_20s">20 seg</string>
+  <string name="backlight_timeout_30s">30 seg</string>
+  <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Activar luz de fondo</string>
 </resources>

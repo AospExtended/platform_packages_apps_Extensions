@@ -659,7 +659,7 @@
   <string name="blur_notice">Sobre o recurso de desfoque</string>
   <string name="blur_notice_summary">Personalizações de desfoque estão desativadas na tela bloqueio. Somente notificações translúcidas estão habilitadas</string>
   <string name="blur_colors_notice">O que fazem estas cores?</string>
-  <string name="blur_colors_notice_summary">Personaliza as cores padrões do desfoque de fundo. Em vez do cinza normal, você agora pode escolher as cores da maneira que você gosta. \n\nSão três filtros de cor: uma usada para fundos brancos, outra para fundos escuros e outra para fundos brancos e escuros. \n\nComo isso funciona ? \n\nSimples, como o título diz, o filtro de luz branco será usado para fundos mais leves, filtros escuros para fundos escuros e o filtro misto será usado para fundos não muito escuro, mas também não muito claro. \n\nEssas cores são usadas para barra de status e aplicativos recentes. </string>
+  <string name="blur_colors_notice_summary">Personaliza as cores padrões do desfoque de fundo. Em vez do cinza normal, você agora pode escolher as cores da maneira que você gosta. \n\nSão três filtros de cor: uma usada para fundos brancos, outra para fundos escuros e outra para fundos brancos e escuros.</string>
   <string name="blur_expstatus_cat">Barra de status expandida </string>
   <string name="blur_notifications_cat">Notificações</string>
   <string name="blur_qs_cat">Painel de Configurações Rápidas</string>
@@ -772,7 +772,7 @@
   <string name="battery_bar_style_regular">Normal</string>
   <string name="battery_bar_style_center_mirrored">Centro-espelhado</string>
   <string name="battery_bar_style_reversed">Invertido</string>
-  <string name="battery_bar_use_charging_color">Custom charging color</string>
+  <string name="battery_bar_use_charging_color">Cor personalizada durante o carregamento</string>
   <string name="battery_bar_blend_color_title">Mistura de cores</string>
   <string name="battery_bar_blend_color_summary">Misturar cores correspondente a porcentagem da bateria</string>
   <string name="battery_bar_blend_color_reverse_title">Inverter a direção de cor</string>

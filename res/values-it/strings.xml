@@ -888,5 +888,9 @@
     <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuoto: red &#8592; verde &#8592; blue &#8592; rosso</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuoto: red &#8594; verde &#8594; blue &#8594; rosso</string>
-
+    <string name="battery_bar_hide">Nascondi</string>
+    <string name="battery_bar_statusbar">Barra di stato</string>
+    <string name="battery_bar_navbar_top">Sopra la barra di navigazione</string>
+    <string name="battery_bar_navbar_bottom">Sotto la barra di navigazione</string>
+	
 </resources>

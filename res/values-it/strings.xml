@@ -37,9 +37,10 @@
   <string name="icon_title">Icona</string>
   <string name="color_title">Colore</string>
   <string name="colors_title">Colori</string>
-
+  <string name="qs_header_title">Intestazione impostazioni rapide</string>
+	
   <!-- Extensions categories -->
-  <string name="recents_category">Recenti</string>
+  <string name="recents_category">Pannello recenti</string>
   <string name="status_bar_category">Barra di stato</string>
   <string name="notifications_panel_category">Pannello notifiche</string>
   <string name="system_category">Sistema</string>
@@ -109,7 +110,7 @@
   <string name="blur_title">Sfocatura</string>
 
   <!-- Animations -->
-  <string name="animations_title">Animationi</string>
+  <string name="animations_title">Animazioni</string>
 
   <!-- Carrier Label -->
   <string name="carrierlabel_title">Etichetta operatore</string>
@@ -119,8 +120,8 @@
   <string name="status_bar_notif_count_summary">Mostra il numero di notifiche in sospeso</string>
 
   <!-- Double tap-to-sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Doppio tocco per spegnere lo schermo</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
+  <string name="double_tap_to_sleep_title">Doppio tocco per spegnere lo schermo</string>
+  <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     
   <!-- Toast Icons -->
   <string name="toast_icon_title">Icona toast</string>
@@ -146,7 +147,7 @@
   <string name="immersive_recents_title">Recenti immersivi</string>
   <string name="immersive_recents_summary">Cambia la visualizzazione della schermata dei recenti</string>
   <string name="immersive_recents_dialog_title">Seleziona l\'aspetto dei recenti</string>
-  <string name="immersive_recents_default">Predefinita</string>
+  <string name="immersive_recents_default">Predefinito</string>
   <string name="immersive_recents_fullscreen">Schermo intero</string>
   <string name="immersive_recents_statusbar">Solo barra di stato</string>
   <string name="immersive_recents_navbar">Solo barra di navigazione</string>
@@ -159,7 +160,7 @@
   <string name="qs_tile_animation_style_flip">Capovolgi</string>
   <string name="qs_tile_animation_style_rotate">Ruota</string>
   <string name="qs_tile_animation_duration_low">Bassa</string>
-  <string name="qs_tile_animation_duration_default">Predefinita</string>
+  <string name="qs_tile_animation_duration_default">Predefinito</string>
   <string name="qs_tile_animation_duration_fast">Veloce</string>
   <string name="qs_tile_animation_interpolator_linearInterpolator">Lineare</string>
   <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelera</string>
@@ -213,7 +214,7 @@
   <string name="clock_date_display">Data</string>
   <string name="clock_date_style">Stile data</string>
   <string name="clock_date_position">Posizione data</string>
-  <string name="clock_date_format">Formato data format</string>
+  <string name="clock_date_format">Formato data</string>
   <string name="clock_date_string_edittext_title">Deve essere nel formato data es. MM/dd/yy</string>
   <string name="clock_date_string_edittext_summary">Immettere la stringa</string>
   <string name="clock_date_right">A destra dell\'ora</string>
@@ -415,7 +416,7 @@
   <string name="sysui_qqs_count_title">Tile piccoli</string>
 
   <string name="qs_wifi_easy_toggle_title">WiFi attivo al tocco</string>
-  <string name="qs_wifi_easy_toggle_summary">Fa in modo che con un clic verrà attivato o disattivato il Wi-Fi invece di entrare nelle impostazioni</string>
+  <string name="qs_wifi_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Wi-Fi invece di entrare nelle impostazioni</string>
 
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Mostra visualizzatore musica</string>
@@ -482,11 +483,11 @@
   <string name="lock_clock_title">Widget orologio</string>
   <string name="lock_clock_summary">Visualizzare o modificare come il \'cLock\' Home visualizzerà il widget</string>
   <string name="lock_clock_clock_section_title">Orologio e sveglia</string>
-  <string name="lock_clock_clock_section_summary">Visualizzare o modificare come l\'orologio del \'cLock\' Home  visualizzerà il widget</string>
+  <string name="lock_clock_clock_section_summary">Visualizzare o modificare come l\'orologio del \'cLock\' Home visualizzerà il widget</string>
   <string name="lock_clock_weather_section_title">Pannello meteo</string>
-  <string name="lock_clock_weather_section_summary">Visualizzare o modificare come il tempo del \'cLock\' Home  visualizzerà il widget</string>
+  <string name="lock_clock_weather_section_summary">Visualizzare o modificare come il meteo del \'cLock\' Home visualizzerà il widget</string>
   <string name="lock_clock_calendar_section_title">Calendario eventi</string>
-  <string name="lock_clock_calendar_section_summary">Visualizzare o modificare come il calendario del \'cLock\' Home  visualizzerà il widget</string>
+  <string name="lock_clock_calendar_section_summary">Visualizzare o modificare come il calendario del \'cLock\' Home visualizzerà il widget</string>
 
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
@@ -535,7 +536,7 @@
 
   <!-- BT easy toggle -->
   <string name="qs_bt_easy_toggle_title">Bluetooth attivo al tocco</string>
-  <string name="qs_bt_easy_toggle_summary">Fa in modo che con un clic verrà attivato o disattivato il Bluetooth invece di entrare nelle impostazioni</string>
+  <string name="qs_bt_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Bluetooth invece di entrare nelle impostazioni</string>
 
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide</string>
@@ -557,7 +558,7 @@
 
   <!-- Navbar dynamic color -->
   <string name="nav_bar_dynamic_title">Colore barra di navigazione dinamico</string>
-  <string name="nav_bar_dynamic_summary">Attiva/Disattiva questo pulsante per adattarsi al colore scuso primario delle applicazioni. Riavvia l\'applicazione desiderata per vedere l\'effetto</string>
+  <string name="nav_bar_dynamic_summary">Attiva o disattiva questo pulsante per adattare la barra di navigazione al colore scuro primario delle applicazioni. Riavvia l\'applicazione desiderata per vedere l\'effetto</string>
 
   <!-- Heads up settings -->
   <string name="headsup_category">Impostazioni Heads Up</string>
@@ -619,8 +620,8 @@
   <string name="volume_rocker_music_controls_summary">Quando lo schermo è spento, la lunga pressione dei tasti del volume cambieranno le tracce musicali</string>
 
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Tasti del volume controllano il volume multimediale</string>
-  <string name="volume_keys_control_media_stream_summary">Forza i tasti del volume per il controllo del flusso multimediale</string>
+  <string name="volume_keys_control_media_stream_title">Controllo multimediale tasti volume</string>
+  <string name="volume_keys_control_media_stream_summary">Forza i tasti del volume per controllare il flusso multimediale</string>
 
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
@@ -666,10 +667,10 @@
   <string name="show_carrier_statusbar">Solo barra di stato</string>
   <string name="show_carrier_enabled">Schermata di blocco &amp; Barra di Stato</string>
   <string name="status_bar_carrier_color">Colore etichetta operatore</string>
-  <string name="status_bar_carrier_size">Carrier label size</string>
+  <string name="status_bar_carrier_size">Dimensione testo etichetta operatore</string>
 
   <!-- Battery customizations -->
-  <string name="Carrier label size">Batteria</string>
+  <string name="status_bar_battery_style_category">Batteria</string>
   <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
   <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
   <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
@@ -678,23 +679,6 @@
   <string name="status_bar_battery_style_circle_full">Cerchio completo</string>
   <string name="status_bar_battery_style_text">Testo</string>
   <string name="status_bar_battery_style_hidden">Nascosta</string>
-	
-  <string name="status_bar_battery_percentage_title">Battery percentage</string>
-  <string name="status_bar_battery_percentage_default">Hidden</string>
-  <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-  <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-  <string name="status_bar_battery_style_tile_title">Custom battery tile style</string>
-  <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
-  <string name="status_bar_charge_color_title">Set statusbar battery icon color when charging</string>
-  <string name="force_charge_battery_text_title">Show percentage near battery when charging</string>
-  <string name="force_charge_battery_text_summary_on">Show the battery percentage outside the icon when charging</string>
-  <string name="force_charge_battery_text_summary_off">Show the battery percentage inside the icon when charging</string>
-  <string name="text_charging_symbol_title">Charging symbol near percentage text</string>
-  <string name="text_charging_symbol_dialog">Show a symbol near percentage text outside the battery icon when charging</string>
-  <string name="text_charging_symbol_default">Disabled</string>
-  <string name="text_charging_symbol_flash">Flash</string>
-  <string name="text_charging_symbol_tilde">Tilde</string>
-	
   <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
   <string name="status_bar_battery_percentage_default">Nascosta</string>
   <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
@@ -790,12 +774,12 @@
   <string name="animation_duration_title">Durata animazione</string>
   <string name="title_animation_no_override">Previeni sovrascrizioni dalle app</string>
   <string name="summary_animation_no_override">Impedisci alle app di sovrascrivere le animazioni di sistema</string>
-  <string name="animation_duration_default">Predefinita</string>
+  <string name="animation_duration_default">Predefinito</string>
 
   <!-- Toast Animation -->
   <string name="toast_animation_title">Animazione toast</string>
   <string name="toast_none_animation">Nessuna</string>
-  <string name="toast_default_animation">Predefinita</string>
+  <string name="toast_default_animation">Predefinito</string>
   <string name="toast_fade_animation">Dissolvenza</string>
   <string name="toast_SlideRight_animation">Scorri a destra</string>
   <string name="toast_SlideLeft_animation">Scorri a sinistra</string>
@@ -886,11 +870,10 @@
     <string name="battery_bar_blend_color_title">Mescola i colori</string>
     <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
     <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
-    <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuoto: red &#8592; verde &#8592; blue &#8592; rosso</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuoto: red &#8594; verde &#8594; blue &#8594; rosso</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuoto: rosso &#8592; verde &#8592; blue &#8592; rosso</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuoto: rosso &#8594; verde &#8594; blue &#8594; rosso</string>
     <string name="battery_bar_hide">Nascondi</string>
     <string name="battery_bar_statusbar">Barra di stato</string>
     <string name="battery_bar_navbar_top">Sopra la barra di navigazione</string>
     <string name="battery_bar_navbar_bottom">Sotto la barra di navigazione</string>
-	
 </resources>

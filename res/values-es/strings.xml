@@ -899,4 +899,24 @@
   <string name="backlight_timeout_30s">30 seg</string>
   <!-- Enable keys backlight-->
   <string name="button_brightness_title">Activar luz de fondo</string>
+  <!-- QS headers -->
+  <string name="qs_header_category">Cabecera de ajustes rápidos</string>
+  <string name="status_bar_custom_header_title">Imágen de cabecera personalizada</string>
+  <string name="status_bar_custom_header_summary">Activar la cabecera personalizada</string>
+  <string name="daylight_header_pack_title">Paquete de imágenes de cabecera</string>
+  <string name="status_bar_custom_header_shadow_title">Sombra en la imagen de cabecera</string>
+  <string name="status_bar_custom_header_shadow_summary">Mejora la visibilidad en imágenes claras</string>
+  <string name="static_header_provider" translatable="false">static</string>
+  <string name="daylight_header_provider" translatable="false">daylight</string>
+  <string name="static_header_provider_title">Estático</string>
+  <string name="daylight_header_provider_title">Dinámico</string>
+  <string name="custom_header_provider_title">Proveedor de cabecera</string>
+  <string name="custom_header_browse_title">Buscar cabeceras personalizadas instaladas</string>
+  <string name="custom_header_browse_summary">Pulsación larga en cualquier imágen para el modo estático</string>   
+  
+  <string name="smartbar_doubletap_sleep_title">Doble toque para apagar la pantalla</string>
+  <string name="smartbar_doubletap_sleep_summary">Doble toque en áreas vacias de la barra de navegación para apagar la pantalla</string>
+  
+  <string name="one_handed_mode_title">Modo de un solo lado</string>
+  <string name="one_handed_mode_summary">Deslizar el dedo sobre la barra de navegación para activar el modo de un solo lado</string>   
 </resources>

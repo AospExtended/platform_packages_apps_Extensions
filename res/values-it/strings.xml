@@ -37,8 +37,7 @@
   <string name="icon_title">Icona</string>
   <string name="color_title">Colore</string>
   <string name="colors_title">Colori</string>
-  <string name="qs_header_title">Intestazione impostazioni rapide</string>
-	
+  	
   <!-- Extensions categories -->
   <string name="recents_category">Pannello recenti</string>
   <string name="status_bar_category">Barra di stato</string>
@@ -52,7 +51,8 @@
   <string name="system_animations">Animazione di sistema</string>
   <string name="toast">Toast</string>
   <string name="listview">Visualizzazione elenco</string>
-
+  <string name="qs_header_title">Intestazione impostazioni rapide</string>
+	
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Aiutaci ad aiutare voi!</string>
   <string name="extensions_dialog_message">Se trovate un bug con una qualsiasi di queste impostazioni, postate nella sezione Bug report della nostra pagina Google+. È NECESSARIO includere quanto segue durante l\'invio di una segnalazione di bug:\n\n1. Un logcat o un last_kmsg\n2. Kernel e mods usato\n3. Informazioni utili\n\nSe non si riesce a riferire qualcosa in modo adeguato, non aspettatevi cose risolte.</string>
@@ -60,11 +60,11 @@
 
   <!-- Privacy Guard -->
   <string name="privacy_guard_manager_title">Privacy Guard</string>
+  <string name="privacy_guard_switch_label">Abilita Privacy Guard</string>
   <string name="privacy_guard_dlg_title">Attivare Privacy Guard?</string>
   <string name="privacy_guard_dlg_text">Quando Privacy Guard è attivo, l\'app non sarà in grado di accedere ai dati personali come contatti, messaggi o lista chiamate.</string>
   <string name="privacy_guard_dlg_system_app_text">Quando Privacy Guard è attivo per un\'app di sistema, essa non sarà in grado di accedere o di fornire dati personali. Questo può causare problemi in alcune app.</string>
   <string name="privacy_guard_default_title">Attivo per impostazione predefinita</string>
-  <string name="privacy_guard_default_summary_on">Privacy Guard è attivo</string>
   <string name="privacy_guard_default_summary">Attiva in modo automatico per le nuove app installate</string>
   <string name="privacy_guard_manager_summary">Gestisci quali app hanno accesso ai tuoi dati personali</string>
   <string name="privacy_guard_no_user_apps">Nessun\'app installata</string>
@@ -870,10 +870,24 @@
     <string name="battery_bar_blend_color_title">Mescola i colori</string>
     <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
     <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
-    <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuoto: rosso &#8592; verde &#8592; blue &#8592; rosso</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuoto: rosso &#8594; verde &#8594; blue &#8594; rosso</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Completo &#8594; vuoto: rosso &#8592; verde &#8592; blu &#8592; rosso</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Completo &#8594; vuoto: rosso &#8594; verde &#8594; blu &#8594; rosso</string>
     <string name="battery_bar_hide">Nascondi</string>
     <string name="battery_bar_statusbar">Barra di stato</string>
     <string name="battery_bar_navbar_top">Sopra la barra di navigazione</string>
     <string name="battery_bar_navbar_bottom">Sotto la barra di navigazione</string>
+	
+    <!-- QS headers -->
+    <string name="qs_header_category">Opzioni intestazione impostaioni rapide</string>
+    <string name="status_bar_custom_header_title">Immagine intestazione personalizzata</string>
+    <string name="status_bar_custom_header_summary">Abilita immagine nell\'intestazione del pannello notifiche</string>
+    <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
+    <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
+    <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
+    <string name="static_header_provider_title">Statico</string>
+    <string name="daylight_header_provider_title">Dinamico</string>
+    <string name="custom_header_provider_title">Provider intestazione</string>
+    <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
+    <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
+
 </resources>

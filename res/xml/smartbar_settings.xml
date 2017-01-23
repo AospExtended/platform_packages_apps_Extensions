@@ -52,5 +52,10 @@
         settings:units=""
         android:persistent="false" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="smartbar_doubletap_sleep"
+        android:title="@string/smartbar_doubletap_sleep_title"
+        android:summary="@string/smartbar_doubletap_sleep_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>

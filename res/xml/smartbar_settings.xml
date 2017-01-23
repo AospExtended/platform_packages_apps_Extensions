@@ -58,4 +58,10 @@
         android:summary="@string/smartbar_doubletap_sleep_summary"
         android:defaultValue="true" />
 
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="one_handed_mode_ui"
+        android:title="@string/one_handed_mode_title"
+        android:summary="@string/one_handed_mode_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

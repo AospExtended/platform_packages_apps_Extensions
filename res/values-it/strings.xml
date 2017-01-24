@@ -98,7 +98,7 @@
   <string name="notifications_title">Notifiche</string>
 
   <!-- Recents UI -->
-  <string name="recents_ui_title">Recenti UI</string>
+  <string name="recents_ui_title">Recenti</string>
 
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Schermata di blocco UI</string>
@@ -495,7 +495,7 @@
 
   <!-- CM Lockscreen shortcuts -->
   <string name="lockscreen_targets_summary">Personalizza i collegamenti in basso a destra e sinistra nella schermata di blocco</string>
-  <string name="lockscreen_targets_message">Collegamenti schermata di blocco</string>
+  <string name="lockscreen_targets_message">Collegamenti angoli inferiori</string>
 
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
   <string name="double_tap_sleep_anywhere_title">Doppio tocco per sospensione</string>
@@ -890,4 +890,9 @@
     <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
 
+    <string name="smartbar_doubletap_sleep_title">Doppio tocco per sospendere</string>
+    <string name="smartbar_doubletap_sleep_summary">Tocca due volte sugli spazi vuoti della barra di navigazione per spegnere lo schermo</string>
+
+    <string name="one_handed_mode_title">Modalità una mano</string>
+    <string name="one_handed_mode_summary">Consente di attivare la modalità una mano strisciando sulla barra di navigazione</string>
 </resources>

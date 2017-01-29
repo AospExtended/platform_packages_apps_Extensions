@@ -351,6 +351,8 @@
     <string name="pulse_custom_fudge_factor">Sanity level</string>
     <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
     <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="fling_lavalamp_color_from">Lava Lamp start color</string>
+    <string name="fling_lavalamp_color_to">Lava Lamp end color</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
@@ -911,5 +913,7 @@
 
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+
+
 
 </resources>

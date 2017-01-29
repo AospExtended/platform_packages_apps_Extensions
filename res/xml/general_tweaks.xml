@@ -85,6 +85,11 @@
         <PreferenceCategory
             android:key="wakelockblocker_options"
             android:title="@string/wakelockblocker_category" >
+
+         <Preference
+             android:id="@+id/alarm_blocker"
+             android:title="@string/alarm_blocker"
+             android:fragment="org.aospextended.extensions.AlarmBlocker" />
        
          <Preference
             android:key="wakelockblocker"

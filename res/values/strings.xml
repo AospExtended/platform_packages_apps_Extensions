@@ -821,6 +821,16 @@
     <string name="disable_animations">Disable animations</string>
     <string name="disable_animations_summary">Disables transition animations such as when launching an app</string>
 
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker_title">Enable</string>
+    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_save">Save</string>
+    <string name="alarm_list_header">Available alarms</string>
+    <string name="alarm_blocker_reload">Reload</string>
+    <string name="alarm_blocker_warning_title">Proceed with caution</string>
+    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
     <!-- Option to enable/disable scrolling cache -->
     <string name="pref_scrollingcache_title">Scrolling cache</string>
     <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>

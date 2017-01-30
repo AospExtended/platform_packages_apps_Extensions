@@ -420,6 +420,8 @@
   <string name="pulse_custom_fudge_factor">Nivel de cordura</string>
   <string name="lavamp_solid_speed_title">Velocidad de lámpara de lava</string>
   <string name="pulse_solid_dimen_category">Ajustes del modo de lineas solidas</string>
+  <string name="fling_lavalamp_color_from">Color de inicio</string>
+  <string name="fling_lavalamp_color_to">Color del final</string>   
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Ancho de la barra</string>
   <string name="pulse_custom_div">Espacio de la barra</string>

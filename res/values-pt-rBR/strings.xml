@@ -782,4 +782,24 @@
   <string name="battery_bar_statusbar">Barra de status</string>
   <string name="battery_bar_navbar_top">Topo da barra de navegação</string>
   <string name="battery_bar_navbar_bottom">Em baixo da barra de navegação</string>
+
+  <!-- QS headers -->
+  <string name="qs_header_category">Opções de cabeçalho nas configurações rápidas</string>
+  <string name="status_bar_custom_header_title">Imagem de cabeçalho personalizado</string>
+  <string name="status_bar_custom_header_summary">Ativar imagem no cabeçalho do painel de notificação</string>
+  <string name="daylight_header_pack_title">Pacote de imagens do cabeçalho</string>
+  <string name="status_bar_custom_header_shadow_title">Sombra de imagem de cabeçalho</string>
+  <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade nas imagens claras</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Estático</string>
+  <string name="daylight_header_provider_title">Dinâmico</string>
+  <string name="custom_header_provider_title">Provedor de cabeçalho</string>
+  <string name="custom_header_browse_title">Procurar cabeçalhos instalados</string>
+  <string name="custom_header_browse_summary">Toque longo em qualquer imagem para usar para o modo estático</string>
+
+  <string name="smartbar_doubletap_sleep_title">Toque duplo para desligar a tela</string>
+  <string name="smartbar_doubletap_sleep_summary">Toque duas vezes em alguma área vazia da barra de navegação para desligar a tela</string>
+
+  <string name="one_handed_mode_title">Modo para uma mão</string>
+  <string name="one_handed_mode_summary">Permite percorrer na barra de navegação para habilitar o modo de uma mão</string>
 </resources>

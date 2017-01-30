@@ -338,6 +338,8 @@
   <string name="pulse_custom_fudge_factor">Livello di buon senso</string>
   <string name="lavamp_solid_speed_title">Velocità Lampada di Lava</string>
   <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
+  <string name="fling_lavalamp_color_from">Colore avvio lampada di lava</string>
+  <string name="fling_lavalamp_color_to">Colore finale lampada di lava</string>
 
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Larghezza barra</string>

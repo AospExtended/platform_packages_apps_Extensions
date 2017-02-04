@@ -85,4 +85,10 @@
         android:entryValues="@array/lock_clock_fonts_values"
         android:persistent="false" />	
 
+          <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="keyguard_show_clock"
+            android:title="@string/keyguard_statusbar_clock_title"
+            android:summary="@string/keyguard_statusbar_clock_summary" />
+
+
 </PreferenceScreen>

@@ -838,6 +838,8 @@
   <string name="qs_multiuser_switch_summary">Desactivar el interruptor de múltiples usuarios en la cabecera</string>
   <string name="qs_expand_indicator_title">Indicador de ampliar</string>
   <string name="qs_expand_indicator_summary">Desactivar el indicador de expansión en la cabecera</string>
+  <string name="qs_running_services_title">Icono de servicios en ejecución</string>
+  <string name="qs_running_services_summary">Deshabilitar el icono en la cabecera</string>   
   <!-- Center Date + Time in header -->
   <string name="qs_date_time_center_title">Hora y fecha centrados</string>
   <string name="qs_date_time_center_summary">Requiere uno o más iconos para desactivar</string>
@@ -921,4 +923,21 @@
   
   <string name="one_handed_mode_title">Modo de un solo lado</string>
   <string name="one_handed_mode_summary">Deslizar el dedo sobre la barra de navegación para activar el modo de un solo lado</string>   
+  <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">@null</string>
+  <string name="screen_state_toggles_title">Acciones de suspensión</string>
+  <string name="screen_state_toggles_enable_title">Activar</string>
+  <string name="screen_state_toggles_enable_summary">Las acciones se ejecutarán cuando se apague la pantalla. Cuando se encienda, el estado previo se conservará.</string>
+  <string name="screen_state_toggles_mobile_title">Redes moviles</string>
+  <string name="screen_state_toggles_location_title">Ubicación</string>
+  <string name="screen_state_toggles_twog">Cambiar a 2G</string>
+  <string name="screen_state_toggles_twog_summary">El tipo de red se cambiará a 2G con la pantalla apagada</string>
+  <string name="screen_state_toggles_gps">Desactivar GPS</string>
+  <string name="screen_state_toggles_gps_summary">El servicio de GPS se desactivará con la pantlla apagada</string>
+  <string name="screen_state_toggles_mobile_data">Desactivar datos moviles</string>
+  <string name="screen_state_toggles_mobile_data_summary">Los datos moviles se desactivarán con la pantalla apagada</string>
+  <string name="screen_state_off_delay_title">Demora de las acciones con la pantalla apagada</string>
+  <string name="screen_state_off_delay_summary">Número de segundos antes de realizar las acciones despues de apagar la pantalla</string>
+  <string name="screen_state_on_delay_title">Demora de las acciones con la pantlla encendida</string>
+  <string name="screen_state_on_delay_summary">>Número de segundos antes de restaurar el estado despues de encender la pantalla</string>   
 </resources>

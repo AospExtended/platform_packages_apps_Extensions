@@ -843,6 +843,8 @@
   <!-- QS Header Icons -->
   <string name="qs_settings_icon_title">Scorciatoia impostazioni</string>
   <string name="qs_settings_icon_summary">Disabilita la scorciatoia delle impostazioni nell\'intestazione</string>
+  <string name="qs_running_services_title">Icona servizi in esecuzione</string>
+  <string name="qs_running_services_summary">Disabilita l\'icona servizi in esecuzione nell\'intestazione</string>
   <string name="qs_edit_title">Modifica icona</string>
   <string name="qs_edit_summary">Disabilita l\'icona di modifica dei tile nell\'intestazione</string>
   <string name="qs_multiuser_switch_title">Icona cambio utente</string>
@@ -897,4 +899,22 @@
 
     <string name="one_handed_mode_title">Modalità una mano</string>
     <string name="one_handed_mode_summary">Consente di attivare la modalità una mano strisciando sulla barra di navigazione</string>
+
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Sospendi le azioni</string>
+    <string name="screen_state_toggles_enable_title">Abilita</string>
+    <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite su schermo spento. Nella schermata dello stato precedente verrà ripristinato.</string>
+    <string name="screen_state_toggles_mobile_title">Reti mobili</string>
+    <string name="screen_state_toggles_location_title">Posizione</string>
+    <string name="screen_state_toggles_twog">Cambia in 2G</string>
+    <string name="screen_state_toggles_twog_summary">Modalità rete passerà a 2G su schermo spento</string>
+    <string name="screen_state_toggles_gps">Disabilita GPS</string>
+    <string name="screen_state_toggles_gps_summary">Il servizio di localizzazione GPS verrà disabilitato su schermo spento</string>
+    <string name="screen_state_toggles_mobile_data">Disabilita dati mobili</string>
+    <string name="screen_state_toggles_mobile_data_summary">I dati mobili saranno disabilitati su schermo spento</string>
+    <string name="screen_state_off_delay_title">Ritardo azioni a schermo spento</string>
+    <string name="screen_state_off_delay_summary">Numero di secondi di attesa prima di eseguire le azioni dopo schermo spento</string>
+    <string name="screen_state_on_delay_title">Ritardo azioni a schermo acceso</string>
+    <string name="screen_state_on_delay_summary">Numero di secondi di attesa prima di eseguire le azioni con schermo acceso</string>
 </resources>

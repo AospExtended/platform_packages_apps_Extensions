@@ -77,6 +77,12 @@
         android:summary="@string/qqs_scroll_summary"
         android:defaultValue="false"/>
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="qs_running_services_toggle"
+            android:title="@string/qs_running_services_title"
+            android:summary="@string/qs_running_services_summary"
+            android:defaultValue="false" />
+
         <Preference
             android:key="qs_headers"
             android:fragment="org.aospextended.extensions.Header"

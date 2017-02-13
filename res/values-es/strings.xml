@@ -940,4 +940,7 @@
   <string name="screen_state_off_delay_summary">Número de segundos antes de realizar las acciones despues de apagar la pantalla</string>
   <string name="screen_state_on_delay_title">Demora de las acciones con la pantlla encendida</string>
   <string name="screen_state_on_delay_summary">>Número de segundos antes de restaurar el estado despues de encender la pantalla</string>   
+  <string name="qs_tile_title_visibility_title">Títulos de ajustes rápidos</string>
+  <string name="qs_tile_title_visibility_summary_on">Los títulos son visibles</string>
+  <string name="qs_tile_title_visibility_summary_off">Los títulos no son visibles</string>
 </resources>

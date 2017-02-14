@@ -917,4 +917,8 @@
     <string name="screen_state_off_delay_summary">Numero di secondi di attesa prima di eseguire le azioni dopo schermo spento</string>
     <string name="screen_state_on_delay_title">Ritardo azioni a schermo acceso</string>
     <string name="screen_state_on_delay_summary">Numero di secondi di attesa prima di eseguire le azioni con schermo acceso</string>
+	
+    <string name="qs_tile_title_visibility_title">Titoli tile</string>
+    <string name="qs_tile_title_visibility_summary_on">I titoli dei tile sono visibili</string>
+    <string name="qs_tile_title_visibility_summary_off">I titoli dei tile sono invisibili</string>
 </resources>

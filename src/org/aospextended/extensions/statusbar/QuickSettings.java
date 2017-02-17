@@ -60,6 +60,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String PREF_COLUMNS = "qs_layout_columns";
+    private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
+    private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
     private static final String DEFAULT_HEADER_PACKAGE = "com.android.systemui";
     private static final String CUSTOM_HEADER_IMAGE_SHADOW = "status_bar_custom_header_shadow";
@@ -72,6 +74,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mDaylightHeaderPack;
     private ListPreference mHeaderProvider;
     private CustomSeekBarPreference mQsColumns;
+    private CustomSeekBarPreference mRowsPortrait;
+    private CustomSeekBarPreference mRowsLandscape;
     private CustomSeekBarPreference mHeaderShadow;
     private PreferenceScreen mHeaderBrowse;
     private String mDaylightHeaderProvider;
@@ -117,6 +121,19 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_LAYOUT_COLUMNS, 3);
         mQsColumns.setValue(columnsQs / 1);
         mQsColumns.setOnPreferenceChangeListener(this);
+
+       mRowsPortrait = (CustomSeekBarPreference) findPreference(PREF_ROWS_PORTRAIT);
+        int rowsPortrait = Settings.System.getInt(resolver,
+                Settings.System.QS_ROWS_PORTRAIT, 3);
+        mRowsPortrait.setValue(rowsPortrait / 1);
+        mRowsPortrait.setOnPreferenceChangeListener(this);
+
+        defaultValue = getResources().getInteger(com.android.internal.R.integer.config_qs_num_rows_landscape_default);
+        mRowsLandscape = (CustomSeekBarPreference) findPreference(PREF_ROWS_LANDSCAPE);
+        int rowsLandscape = Settings.System.getInt(resolver,
+                Settings.System.QS_ROWS_LANDSCAPE, defaultValue);
+        mRowsLandscape.setValue(rowsLandscape / 1);
+        mRowsLandscape.setOnPreferenceChangeListener(this);
 
         String settingHeaderPackage = Settings.System.getString(getContentResolver(),
                 Settings.System.STATUS_BAR_DAYLIGHT_HEADER_PACK);
@@ -204,6 +221,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int qsColumns = (Integer) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.QS_LAYOUT_COLUMNS, qsColumns * 1);
+            return true;
+        } else if (preference == mRowsPortrait) {
+            int rowsPortrait = (Integer) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_ROWS_PORTRAIT, rowsPortrait * 1);
+            return true;
+        } else if (preference == mRowsLandscape) {
+            int rowsLandscape = (Integer) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_ROWS_LANDSCAPE, rowsLandscape * 1);
             return true;
         } else if (preference == mDaylightHeaderPack) {
             String value = (String) objValue;

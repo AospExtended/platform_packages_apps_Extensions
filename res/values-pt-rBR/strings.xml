@@ -374,7 +374,8 @@
   <string name="qs_rows_portrait_title">Linhas (retrato)</string>
   <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
   <string name="qs_columns_title">Colunas</string>
-  <string name="sysui_qqs_count_title">Ajustes rápidos pequenos</string>
+  <string name="qqs_scroll_title">Rolagem nas QS pequenas</string>
+  <string name="qqs_scroll_summary">Permitir rolagem nas configurações rápidas pequenas</string>
   <string name="qs_wifi_easy_toggle_title">Alternador fácil do WiFi</string>
   <string name="qs_wifi_easy_toggle_summary">Faz com que um clique alterne entre WiFi ligado ou desligado ao invés de levá-lo para as configurações</string>
   <!-- lock screen visualizer -->

@@ -484,8 +484,10 @@
   <string name="qs_layout_category">Diseño de ajustes rápidos</string>
   <string name="qs_rows_portrait_title">Filas (vertical)</string>
   <string name="qs_rows_landscape_title">Filas (horizontal)</string>
+  <string name="qqs_scroll_title">Desplazamiento de ajustes rápidos pequeños</string>
+  <string name="qqs_scroll_summary">Permitir el desplazamiento de los ajustes rápidos pequeños</string>
   <string name="qs_columns_title">Columnas</string>
-  <string name="sysui_qqs_count_title">Ajustes rápidos pequeños</string>
+  <string name="qs_small_tiles_title">Ajustes rápidos pequeños</string>
   <string name="qs_wifi_easy_toggle_title">Interruptor rápido de WiFi</string>
   <string name="qs_wifi_easy_toggle_summary">Una pulsación hace que se active o desactive el WiFi en lugar de ir a las opciones</string>
   <!-- Lockscreen clock fonts -->

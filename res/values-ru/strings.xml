@@ -767,7 +767,7 @@
     <string name="blurred_radius_summary">Количество размытия</string>
 
     <string name="blur_cat_notice">Извещения</string>
-    <string name="blur_cat_notice_summary">Настройки размытия отключены во время Keyguard! Только прозрачность уведомлений включена!<</string>
+    <string name="blur_cat_notice_summary">Настройки размытия отключены во время Keyguard! Только прозрачность уведомлений включена!</string>
 
     <!-- AOKP custom system animations -->
     <string name="animation_title">Анимация</string>  

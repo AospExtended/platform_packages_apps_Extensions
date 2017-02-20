@@ -64,11 +64,13 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             "weather_number_of_notifications";
     private static final String KEY_LOCK_CLOCK =
             "lock_clock";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
     private static final int MONOCHROME_ICON = 0;
 
     private ListPreference mLockClockFonts;
     private SwitchPreference mLockscreenCharging;
+    private SwitchPreference mFpKeystore;
     private ListPreference mConditionIcon;
     private ListPreference mHideWeather;
     private CustomSeekBarPreference mNumberOfNotifications;
@@ -131,6 +133,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mLockscreenCharging.setOnPreferenceChangeListener(this);
         }
 
+        mFpKeystore = (SwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
+        mFpKeystore.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FP_UNLOCK_KEYSTORE, 0) == 1));
+        mFpKeystore.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -181,6 +188,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             Settings.System.putInt(mResolver,
                     Settings.System.LOCK_SCREEN_WEATHER_HIDE_PANEL, intValue);
             updatePreference();
+            return true;
+        } else if (preference == mFpKeystore) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FP_UNLOCK_KEYSTORE, value ? 1 : 0);
             return true;
         } else if (preference == mNumberOfNotifications) {
             int numberOfNotifications = (Integer) newValue;

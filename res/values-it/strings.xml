@@ -919,6 +919,11 @@
     <string name="screen_state_on_delay_summary">Numero di secondi di attesa prima di eseguire le azioni con schermo acceso</string>
 	
     <string name="qs_tile_title_visibility_title">Titoli tile</string>
-    <string name="qs_tile_title_visibility_summary_on">I titoli dei tile sono visibili</string>
-    <string name="qs_tile_title_visibility_summary_off">I titoli dei tile sono invisibili</string>
+    <string name="qs_tile_title_visibility_summary_on">Titoli tile visibili</string>
+    <string name="qs_tile_title_visibility_summary_off">Titoli tile invisibili</string>
+	
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Sblocco FP</string>
+    <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con l\'impronta digitale dopo il riavvio senza PIN/Password/Sequenza\ Nota: a proprio rischio!</string>
+
 </resources>

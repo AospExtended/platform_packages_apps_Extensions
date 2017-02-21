@@ -332,6 +332,9 @@
   <string name="smartbar_button_animation_summary">Definir o estilo da animação dos botões primários quando são pressionados</string>
   <string name="smartbar_button_animation_ripple">Ondulação</string>
   <string name="smartbar_button_animation_spring">Primavera</string>
+  <string name="smartbar_button_animation_pixel">Pixel (todos os botões)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (apenas o botão home)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (apenas o botão home) e ondulação</string>
   <string name="smartbar_factory_reset_title">Redefinir para padrão</string>
   <string name="smartbar_factory_reset_confirm">Tem certeza de que deseja redefinir a Smartbar para configurações padrão?</string>
   <string name="smartbar_ime_action_title">Ações do método de entrada</string>

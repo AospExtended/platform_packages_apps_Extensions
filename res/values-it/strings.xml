@@ -312,9 +312,9 @@
   <string name="fling_logo_custom_logo_pick_title">Icona del logo personalizzata</string>
   <string name="fling_logo_custom_logo_image_pick_title">Immagine del logo personalizzata</string>
   <string name="fling_logo_custom_logo_reset_title">Ripristina icona logo</string>
-  <string name="fling_show_ripple_title">Mostra increspatura</string>
-  <string name="fling_show_ripple_summary">Effetto increspatura al tocco</string>
-  <string name="fling_ripple_color">Colore increspatura</string>
+  <string name="fling_show_ripple_title">Mostra ondulazione</string>
+  <string name="fling_show_ripple_summary">Effetto ondulazione al tocco</string>
+  <string name="fling_ripple_color">Colore ondulazione</string>
   <string name="fling_longpress_timeout_label_left">Meno ritardo</string>
   <string name="fling_longpress_timeout_label_right">Più ritardo</string>
   <string name="fling_longpress_title">Ritardo pressione prolungata</string>
@@ -367,6 +367,9 @@
   <string name="smartbar_button_animation_summary">Imposta lo stile di animazione dei pulsanti principali quando vengono premuti</string>
   <string name="smartbar_button_animation_ripple">Ondulazione</string>
   <string name="smartbar_button_animation_spring">Rimbalzo</string>
+  <string name="smartbar_button_animation_pixel">Pixel (tutti i pulsanti)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (solo il pulsante Home)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (solo il pulsante Home) e ondulazione</string>
   <string name="smartbar_factory_reset_title">Ripristina a predefinito</string>
   <string name="smartbar_factory_reset_confirm">Sei sicuro di voler ripristinare Smart Bar alle impostazioni di fabbrica?</string>
   <string name="smartbar_ime_action_title">Azioni metodo di inserimento</string>
@@ -415,7 +418,8 @@
   <string name="qs_rows_portrait_title">Righe (verticale)</string>
   <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
   <string name="qs_columns_title">Colonne</string>
-  <string name="sysui_qqs_count_title">Tile piccoli</string>
+  <string name="qqs_scroll_title">Scorrimento tile piccoli</string>
+  <string name="qqs_scroll_summary">Permette lo scorrimento dei tile piccoli delle impostazioni rapide</string>
 
   <string name="qs_wifi_easy_toggle_title">WiFi attivo al tocco</string>
   <string name="qs_wifi_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Wi-Fi invece di entrare nelle impostazioni</string>
@@ -455,6 +459,7 @@
   <!-- Lockscreen weather -->
   <string name="display_category_weather_title">Opzioni meteo schermata di blocco</string>
   <string name="lock_screen_weather_settings_title">Opzioni Meteo</string>
+  <string name="weather_cat_notifications_title">Notifiche</string>
   <string name="weather_show_weather_title">Visualizza Meteo</string>
   <string name="weather_show_weather_summary">Abilita per mostrare le informazioni meteo</string>
   <string name="weather_show_location_title">Mostra posizione</string>

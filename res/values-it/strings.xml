@@ -2,10 +2,13 @@
   <!--
      Copyright (C) 2015 The CyanogenMod Project
      Copyright (C) 2016 AospExtended ROM Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -47,7 +50,7 @@
   <string name="navigation_category">Navigazione</string>
   <string name="lockscreen_category">Schermata di blocco</string>
   <string name="breathing_notifications_category">Notifiche lampeggianti</string>
-  <string name="build_tweaks_summary_title">Estendi il dispositivo!</string>
+  <string name="build_tweaks_summary_title">Espandi il tuo dispositivo!</string>
   <string name="system_animations">Animazione di sistema</string>
   <string name="toast">Toast</string>
   <string name="listview">Visualizzazione elenco</string>
@@ -101,7 +104,7 @@
   <string name="recents_ui_title">Recenti</string>
 
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">Schermata di blocco UI</string>
+  <string name="lockscreen_ui_title">Schermata di blocco</string>
 
   <!-- Buttons -->
   <string name="buttons_title">Pulsanti</string>
@@ -129,7 +132,7 @@
 
   <!-- Power notification controls -->
   <string name="power_notification_controls_title">Comandi di accensione notifica</string>
-  <string name="power_notification_controls_summary">Selezionare il livello di importanza per le notifiche</string>
+  <string name="power_notification_controls_summary">Seleziona il livello d\'importanza per le tue notifiche</string>
 
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Forza notifiche estese</string>
@@ -178,7 +181,7 @@
   <string name="media_scanner_on_boot_title">Comportamento scansione multimediale all\'avvio</string>
   <string name="media_scanner_on_boot_enabled">Scansione multimediale</string>
   <string name="media_scanner_on_boot_ask">Chiedi alla scansione (notifica)</string>
-  <string name="media_scanner_on_boot_disabled">Non eseguire la scansione media</string>
+  <string name="media_scanner_on_boot_disabled">Non eseguire la scansione multimediale</string>
 
   <!-- Network traffic -->
   <string name="network_traffic_title">Traffico di rete</string>
@@ -251,7 +254,7 @@
   <string name="info_pref_note_title">Note</string>
   <string name="smartbar_interface">SmartBar</string>
   <string name="icon_pack_picker_dialog_title">Pacchetti icone</string>
-  <string name="invalid_icon_from_uri">Impossibile caricare l\'immagine dal provider di contenuti</string>
+  <string name="invalid_icon_from_uri">Impossibile caricare l\'immagine dal provider dei contenuti</string>
   <string name="picker_activities">Attività</string>
   <string name="select_custom_app_title">Seleziona un\'app personalizzata</string>
   <string name="select_custom_activity_title">Seleziona un\'attività personalizzata</string>
@@ -263,7 +266,7 @@
   <string name="choose_action_title">Scegli azione</string>
   <string name="action_entry_default_action">Impostazioni predefinite</string>
   <string name="action_entry_select_app">Seleziona un\'applicazione</string>
-  <string name="action_entry_custom_action">Seleziona azione personalizzata</string>
+  <string name="action_entry_custom_action">Seleziona un\'azione</string>
   
   <!-- Fling -->
   <string name="fling_settings">Impostazioni Fling</string>
@@ -336,7 +339,7 @@
   <string name="pulse_advanced_category">Avanzate</string>
   <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
   <string name="pulse_custom_fudge_factor">Livello di buon senso</string>
-  <string name="lavamp_solid_speed_title">Velocità Lampada di Lava</string>
+  <string name="lavamp_solid_speed_title">Velocità lampada di lava</string>
   <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
   <string name="fling_lavalamp_color_from">Colore avvio lampada di lava</string>
   <string name="fling_lavalamp_color_to">Colore finale lampada di lava</string>
@@ -411,7 +414,7 @@
 
   <!-- Do not disturb switch in volume panel -->
   <string name="tuner_full_zen_title">Interruttore non disturbare</string>
-  <string name="tuner_full_zen_summary">Mostra un interruttore non disturbare nel pannello del volume</string>
+  <string name="tuner_full_zen_summary">Mostra l\'interruttore non disturbare nel pannello del volume</string>
 
   <!-- Quick settings tiles columns and rows config -->
   <string name="qs_layout_category">Disposizione tile impostazioni rapide</string>
@@ -425,7 +428,7 @@
   <string name="qs_wifi_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Wi-Fi invece di entrare nelle impostazioni</string>
 
   <!-- lock screen visualizer -->
-  <string name="lockscreen_visualizer_title">Mostra visualizzatore musica</string>
+  <string name="lockscreen_visualizer_title">Mostra visualizzatore musicale</string>
 
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Opzioni caratteri</string>
@@ -488,13 +491,13 @@
 
   <!-- Lock clock -->
   <string name="lock_clock_title">Widget orologio</string>
-  <string name="lock_clock_summary">Visualizzare o modificare come il \'cLock\' Home visualizzerà il widget</string>
+  <string name="lock_clock_summary">Visualizza o modifica la modalità di visualizzazione del widget cLock</string>
   <string name="lock_clock_clock_section_title">Orologio e sveglia</string>
-  <string name="lock_clock_clock_section_summary">Visualizzare o modificare come l\'orologio del \'cLock\' Home visualizzerà il widget</string>
+  <string name="lock_clock_clock_section_summary">Visualizza o modifica la modalità di visualizzazione del widget orologio e sveglia</string>
   <string name="lock_clock_weather_section_title">Pannello meteo</string>
-  <string name="lock_clock_weather_section_summary">Visualizzare o modificare come il meteo del \'cLock\' Home visualizzerà il widget</string>
+  <string name="lock_clock_weather_section_summary">Visualizza o modifica la modalità di visualizzazione del widget meteo</string>
   <string name="lock_clock_calendar_section_title">Calendario eventi</string>
-  <string name="lock_clock_calendar_section_summary">Visualizzare o modificare come il calendario del \'cLock\' Home visualizzerà il widget</string>
+  <string name="lock_clock_calendar_section_summary">Visualizza o modifica la modalità di visualizzazione del widget calendario eventi</string>
 
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
@@ -664,10 +667,10 @@
 
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">Etichetta operatore</string>
-  <string name="carrier_label_settings_summary">Etichetta operatore personalizzata</string>
-  <string name="custom_carrier_label_title">Etichetta operatore personalizzata</string>
+  <string name="carrier_label_settings_summary">Personalizzazione dell\'etichetta operatore</string>
+  <string name="custom_carrier_label_title">Personalizza l\'etichetta operatore</string>
   <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare a quello predefinito.</string>
-  <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata al momento impostato</string>
+  <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata al momento impostata</string>
   <string name="show_carrier_title">Mostra etichetta operatore</string>
   <string name="show_carrier_disabled">Disabilitato</string>
   <string name="show_carrier_keyguard">Solo schermata di blocco</string>
@@ -730,12 +733,12 @@
   <!-- XOSP Blur personalizations -->
   <string name="settings_blur_cat">Personalizzazioni di sfocatura</string>
   <string name="blurred_status_bar_expanded_enabled_pref">Sfocatura sfondo barra di stato</string>
-  <string name="blurred_status_bar_expanded_enabled_pref_summary">Sfoca lo sfondo quando si tira giù la barra di stato</string>
-  <string name="translucent_notifications_pref">Notifiche semitrasparenti</string>
-  <string name="translucent_notifications_pref_summary">Imposta lo sfondo della notifica semitrasparente</string>
-  <string name="translucent_quick_settings_pref">Barra di stato espansa semitrasparente</string>
-  <string name="translucent_quick_settings_pref_summary">Rendi trasparente lo sfondo delle impostazioni rapide</string>
-  <string name="transluency_level_universal">Livello di trasparenza</string>
+  <string name="blurred_status_bar_expanded_enabled_pref_summary">Sfoca lo sfondo della barra di stato quando si tira giù</string>
+  <string name="translucent_notifications_pref">Notifiche sfocate</string>
+  <string name="translucent_notifications_pref_summary">Imposta lo sfondo delle notifiche sfocato</string>
+  <string name="translucent_quick_settings_pref">Sfocatura barra di stato espansa</string>
+  <string name="translucent_quick_settings_pref_summary">Rendi sfocato lo sfondo delle impostazioni rapide</string>
+  <string name="transluency_level_universal">Livello di sfocatura</string>
   <string name="blurred_recent_app_enabled_pref">Applicazioni recenti sfocate</string>
   <string name="blurred_recent_app_enabled_pref_summary">Sfoca lo sfondo delle applicazioni recenti</string>
 
@@ -744,7 +747,7 @@
   <string name="blur_mixed_color">Filtro colore immagine mista</string>
 
   <string name="blur_notice">Info sulla funzione di sfocatura</string>
-  <string name="blur_notice_summary">Le personalizzazioni di sfocatura sono disabilitate quando è visualizzata la tastiera! Solo le notifiche traslucide sono abilitate!</string>
+  <string name="blur_notice_summary">Le personalizzazioni di sfocatura sono disabilitate quando viene visualizzata la tastiera! Solo la sfocatura delle notifiche sono abilitate!</string>
   <string name="blur_colors_notice">Cosa fanno questi colori?</string>
   <string name="blur_colors_notice_summary">Questi colori sono la tinta dei colori di sfondo della sfocatura. Anziché il normale grigio, è ora possibile scegliere il colore che più preferisci. \n Ci sono 3 filtri colore: Uno usato per sfondi chiari, uno usato per sfondi scuri e uno usato per sfondi misti. \n Ma come lavorano questi colori? \n Semplice, come il titolo dice, il filtro chiaro viene usato sugli sfondi più chiari, il filtro scuro viene usato sugli sfondi più scuri e il filtro misto viene usato nelle situazioni in cui lo sfondo non è ne troppo chiaro e ne troppo scuro. \n Questi colori sono usati sia nella barra di stato che nel pannello delle applicazioni recenti </string>
 
@@ -752,7 +755,7 @@
   <string name="blur_notifications_cat">Notifiche</string>
   <string name="blur_qs_cat">Impostazioni rapide</string>
   <string name="blur_recents_cat">Applicazioni recenti</string>
-  <string name="blur_colors_cat">Filtri colore sfocatura</string>
+  <string name="blur_colors_cat">Filtro colore sfocatura</string>
   <string name="blur_notices_cat">Avvisi</string>
 
   <string name="blurred_scale">Scala sfocatura</string>
@@ -866,15 +869,15 @@
     <string name="battery_bar">Posizione barra batteria</string>
     <string name="battery_bar_no_navbar">Posizione barra batteria</string>
     <string name="battery_bar_color">Colore barra batteria</string>
-    <string name="battery_bar_charging_color">Colore in carica</string>
+    <string name="battery_bar_charging_color">Colore di ricarica</string>
     <string name="battery_bar_battery_low_color">Colore batteria scarica</string>
     <string name="battery_bar_cat">Stile barra batteria</string>
     <string name="battery_bar_style_title">Allineamento barra batteria</string>
     <string name="battery_bar_thickness_title">Spessore barra batteria</string>
     <string name="battery_bar_animate_title">Animazione di ricarica</string>
     <string name="battery_bar_style_regular">Regolare</string>
-    <string name="battery_bar_style_center_mirrored">Al centro-specchiato</string>
-    <string name="battery_bar_style_reversed">Invertito</string>
+    <string name="battery_bar_style_center_mirrored">Centrata e specchiata</string>
+    <string name="battery_bar_style_reversed">Invertita</string>
     <string name="battery_bar_use_charging_color">Colore di ricarica personalizzato</string>
     <string name="battery_bar_blend_color_title">Mescola i colori</string>
     <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
@@ -889,7 +892,7 @@
     <!-- QS headers -->
     <string name="qs_header_category">Opzioni intestazione impostaioni rapide</string>
     <string name="status_bar_custom_header_title">Immagine intestazione personalizzata</string>
-    <string name="status_bar_custom_header_summary">Abilita immagine nell\'intestazione del pannello notifiche</string>
+    <string name="status_bar_custom_header_summary">Abilita un\'immagine nell\'intestazione del pannello delle notifiche</string>
     <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
     <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
     <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
@@ -915,11 +918,11 @@
     <string name="screen_state_toggles_twog">Cambia in 2G</string>
     <string name="screen_state_toggles_twog_summary">Modalità rete passerà a 2G su schermo spento</string>
     <string name="screen_state_toggles_gps">Disabilita GPS</string>
-    <string name="screen_state_toggles_gps_summary">Il servizio di localizzazione GPS verrà disabilitato su schermo spento</string>
+    <string name="screen_state_toggles_gps_summary">Il servizio di localizzazione GPS verrà disabilitato a schermo spento</string>
     <string name="screen_state_toggles_mobile_data">Disabilita dati mobili</string>
-    <string name="screen_state_toggles_mobile_data_summary">I dati mobili saranno disabilitati su schermo spento</string>
+    <string name="screen_state_toggles_mobile_data_summary">I dati mobili saranno disabilitati a schermo spento</string>
     <string name="screen_state_off_delay_title">Ritardo azioni a schermo spento</string>
-    <string name="screen_state_off_delay_summary">Numero di secondi di attesa prima di eseguire le azioni dopo schermo spento</string>
+    <string name="screen_state_off_delay_summary">Numero di secondi di attesa prima di eseguire le azioni dopo lo spegnimento dello schermo</string>
     <string name="screen_state_on_delay_title">Ritardo azioni a schermo acceso</string>
     <string name="screen_state_on_delay_summary">Numero di secondi di attesa prima di eseguire le azioni con schermo acceso</string>
 	

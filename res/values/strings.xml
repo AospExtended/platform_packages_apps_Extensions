@@ -350,6 +350,9 @@
     <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
     <string name="pulse_custom_fudge_factor">Sanity level</string>
     <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
+    <string name="pulse_solid_units_count">Solid lines count</string>
+    <string name="pulse_solid_lines_count">Solid lines count</string>
+    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
     <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
     <string name="fling_lavalamp_color_from">Lava Lamp start color</string>
     <string name="fling_lavalamp_color_to">Lava Lamp end color</string>
@@ -380,6 +383,9 @@
     <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
     <string name="smartbar_button_animation_ripple">Ripple</string>
     <string name="smartbar_button_animation_spring">Spring</string>
+    <string name="smartbar_button_animation_pixel">Pixel (all buttons)</string>
+    <string name="smartbar_button_animation_pixel_home">Pixel (Home button only)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Home button only) and Ripple</string>
     <string name="smartbar_factory_reset_title">Reset to stock</string>
     <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
     <string name="smartbar_ime_action_title">Input method actions</string>
@@ -942,5 +948,10 @@
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">FP unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+
+    <!-- Wired headset ringtone audio focus -->
+    <string name="wired_ringtone_focus_mode_title">Where to play ringtones from</string>
+    <string name="wired_ringtone_focus_mode_dynamic">Wired headset if connected and playing music</string>
+    <string name="wired_ringtone_focus_mode_stock">Speakerphone and headset (default)</string>
 
 </resources>

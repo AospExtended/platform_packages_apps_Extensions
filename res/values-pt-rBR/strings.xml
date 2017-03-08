@@ -53,6 +53,8 @@
   <string name="system_animations">Animações do Sistema</string>
   <string name="toast">Aviso na tela</string>
   <string name="listview">ListView</string>
+  <string name="qs_header_title">Cabeçalho das configurações rápidas</string>
+  <string name="qs_omnijaws_category">Clima nas configurações rápidas</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
   <string name="extensions_dialog_message">Se você encontrar um bug com alguma dessas configurações, postar na seção de relatórios de bugs de nossa página de Google +. Você DEVE incluir o seguinte quando postar um relatório de bug: \n\n1. Um logcat ou last_kmsg\n2. Kernels e mods utilizados\n3. Informações úteis\n\nSe você não reportar corretamente, NÃO espere que as coisas sejam corrigidas.</string>
@@ -842,4 +844,11 @@
   <string name="wired_ringtone_focus_mode_title">Reproduzir ringtones via</string>
   <string name="wired_ringtone_focus_mode_dynamic">Fones de ouvido com fio, se conectado e reproduzindo música</string>
   <string name="wired_ringtone_focus_mode_stock">Alto-falante e fones de ouvido (padrão)</string>
+
+  <!-- OmniJaws -->
+  <string name="weather_config_title">Previsão do Tempo</string>
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Previsão do tempo do cabeçalho</string>
+  <string name="header_weather_summary">Habilitar painel do tempo no cabeçalho</string>
+  <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>   
 </resources>

@@ -957,4 +957,11 @@
   <string name="wired_ringtone_focus_mode_title">Dónde reproducir el tono de llamada</string>
   <string name="wired_ringtone_focus_mode_dynamic">Audífonos conectados y reproduciendo música</string>
   <string name="wired_ringtone_focus_mode_stock">Altavoz y audífonos (por defecto)</string>   
+  <string name="qs_omnijaws_category">Ajuste rápido de clima</string>
+  <!-- OmniJaws -->
+  <string name="weather_config_title">Ajustes del clima</string>
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Vista de clima en la cabecera</string>
+  <string name="header_weather_summary">Activar clima en el panel de notificaciones</string>
+  <string name="weather_icon_pack_title">Paquete de iconos de estado</string>   
 </resources>

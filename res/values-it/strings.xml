@@ -55,6 +55,7 @@
   <string name="toast">Toast</string>
   <string name="listview">Visualizzazione elenco</string>
   <string name="qs_header_title">Intestazione impostazioni rapide</string>
+  <string name="qs_omnijaws_category">Tile meteo impostazioni rapide</string>
 	
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Aiutaci ad aiutare voi!</string>
@@ -79,6 +80,13 @@
   <string name="privacy_guard_advanced_settings_title">Avanzate</string>
   <string name="privacy_guard_notification_title">Mostra notifica</string>
  
+  <!-- OmniJaws -->
+  <string name="weather_config_title">Ipostazioni meteo</string>
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Visualizza meteo su intestazione</string>
+  <string name="header_weather_summary">Abilita la visualizzazione del meteo nell\'intestazione del pannello di notifica</string>
+  <string name="weather_icon_pack_title">Icon pack meteo</string>
+	
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Cursore luminosità</string>
   <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
@@ -721,8 +729,8 @@
   
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Mostra utilizzo memoria</string>
-  <string name="systemui_recents_mem_display_summaryOn">Barra RAM abilitata</string>
-  <string name="systemui_recents_mem_display_summaryOff">Barra RAM disabilitata</string>
+  <string name="systemui_recents_mem_display_summaryOn">Barra memoria ram abilitata</string>
+  <string name="systemui_recents_mem_display_summaryOff">Barra memoria ram disabilitata</string>
 
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">App nascoste</string>
@@ -901,7 +909,7 @@
     <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
     <string name="static_header_provider_title">Statico</string>
     <string name="daylight_header_provider_title">Dinamico</string>
-    <string name="custom_header_provider_title">Provider intestazione</string>
+    <string name="custom_header_provider_title">Scelta intestazione</string>
     <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
 

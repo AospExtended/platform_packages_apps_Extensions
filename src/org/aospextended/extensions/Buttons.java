@@ -24,6 +24,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.os.UserHandle;
+import android.os.Handler;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.support.v7.preference.Preference;
@@ -49,6 +50,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.DUActionUtils;
 import org.aospextended.extensions.dui.ActionFragment;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
 
@@ -80,7 +82,9 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private SwitchPreference mVolumeRockerMusicControl;
     private SwitchPreference mHwKeyDisable;
     private ListPreference mBacklightTimeout;
-    private SwitchPreference mButtonBrightness;
+    private CustomSeekBarPreference mButtonBrightness;
+
+    private Handler mHandler;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -130,8 +134,9 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         mBacklightTimeout =
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
         mButtonBrightness =
-                (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+                (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
 
+        mHandler = new Handler();
         // back key
         if (!hasBackKey) {
             prefScreen.removePreference(backCategory);
@@ -167,9 +172,10 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         	mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
             }
             if (mButtonBrightness != null) {
-        	mButtonBrightness.setChecked((Settings.System.getInt(getContentResolver(),
-            	    Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
-        	mButtonBrightness.setOnPreferenceChangeListener(this);
+                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                                Settings.System.BUTTON_BRIGHTNESS, 255);
+                mButtonBrightness.setValue(ButtonBrightness / 1);
+                mButtonBrightness.setOnPreferenceChangeListener(this);
         } else {
             prefScreen.removePreference(mBacklightTimeout);
             prefScreen.removePreference(mButtonBrightness);
@@ -251,9 +257,9 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
                     .setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
             return true;
         } else if (preference == mButtonBrightness) {
-            boolean value = (Boolean) objValue;
+            int value = (Integer) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
+                    Settings.System.BUTTON_BRIGHTNESS, value * 1);
             return true;
         }
         return false;

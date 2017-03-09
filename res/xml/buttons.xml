@@ -72,9 +72,12 @@
          android:key="hardware_keys_disable"
         android:title="@string/hardware_keys_disable_title" />
 
-    <SwitchPreference
+    <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="button_brightness"
         android:title="@string/button_brightness_title"
+        android:max="255"
+        settings:min="0"
+        settings:units=""
         android:persistent="false" />
 
     <ListPreference
@@ -83,7 +86,7 @@
         android:entryValues="@array/backlight_timeout_values"
         android:key="backlight_timeout"
         android:persistent="false"
-        android:title="@string/backlight_timeout_title"/>
+        android:title="@string/backlight_timeout_title" />
 
     </PreferenceCategory>
 

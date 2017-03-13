@@ -57,6 +57,8 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
     private static final String SMS_BREATH = "sms_breath";
     private static final String BREATHING_NOTIFICATIONS = "breathing_notifications";
     private static final String PREF_STATUS_BAR_WEATHER = "status_bar_weather";
+    private static final String PREF_CATEGORY_INDICATORS = "misc_extensions_general_category";
+    private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
 
     private SwitchPreference mMissedCallBreath;
     private SwitchPreference mVoicemailBreath;
@@ -72,6 +74,8 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        PreferenceCategory categoryIndicators = (PreferenceCategory) prefSet.findPreference(PREF_CATEGORY_INDICATORS);
 
         mMissedCallBreath = (SwitchPreference) findPreference(MISSED_CALL_BREATH);
         mVoicemailBreath = (SwitchPreference) findPreference(VOICEMAIL_BREATH);
@@ -103,19 +107,22 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
             prefSet.removePreference(mBreathingNotifications);
         }
 
-       // Status bar weather
-       mStatusBarWeather = (ListPreference) findPreference(PREF_STATUS_BAR_WEATHER);
-       int temperatureShow = Settings.System.getIntForUser(resolver,
-               Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP, 0,
-               UserHandle.USER_CURRENT);
-       mStatusBarWeather.setValue(String.valueOf(temperatureShow));
-       if (temperatureShow == 0) {
-           mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
-       } else {
-           mStatusBarWeather.setSummary(mStatusBarWeather.getEntry());
-       }
-          mStatusBarWeather.setOnPreferenceChangeListener(this);
-
+        // Status bar weather
+        mStatusBarWeather = (ListPreference) prefSet.findPreference(PREF_STATUS_BAR_WEATHER);
+        if (mStatusBarWeather != null && (!DuUtils.isPackageInstalled(getActivity(),WEATHER_SERVICE_PACKAGE))) {
+            categoryIndicators.removePreference(mStatusBarWeather);
+        } else {
+            int temperatureShow = Settings.System.getIntForUser(resolver,
+                Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP, 0,
+                UserHandle.USER_CURRENT);
+            mStatusBarWeather.setValue(String.valueOf(temperatureShow));
+            if (temperatureShow == 0) {
+                mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
+            } else {
+                mStatusBarWeather.setSummary(mStatusBarWeather.getEntry());
+            }
+            mStatusBarWeather.setOnPreferenceChangeListener(this);
+        }
     }
 
     @Override

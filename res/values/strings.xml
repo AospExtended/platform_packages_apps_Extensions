@@ -932,6 +932,6 @@
 
     <!-- QS Easy Toggle -->
     <string name="qs_easy_toggle_title">Advanced QS Easy Toggle</string>
-    <string name="qs_easy_toggle_summary">Enable one tap action to enable or disable mobile data, wifi, and bluetooth</string>
+    <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, wifi, location and bluetooth</string>
 
 </resources>

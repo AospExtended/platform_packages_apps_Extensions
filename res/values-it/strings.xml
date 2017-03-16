@@ -81,9 +81,9 @@
   <string name="privacy_guard_notification_title">Mostra notifica</string>
  
   <!-- OmniJaws -->
-  <string name="weather_config_title">Ipostazioni meteo</string>
+  <string name="weather_config_title">Impostazioni meteo</string>
   <string name="weather_config_summary"></string>
-  <string name="header_weather_title">Visualizza meteo su intestazione</string>
+  <string name="header_weather_title">Visualizza meteo sull\' intestazione</string>
   <string name="header_weather_summary">Abilita la visualizzazione del meteo nell\'intestazione del pannello di notifica</string>
   <string name="weather_icon_pack_title">Icon pack meteo</string>
 	
@@ -131,7 +131,7 @@
   <string name="status_bar_notif_count_summary">Mostra il numero di notifiche in sospeso</string>
 
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Doppio tocco per spegnere lo schermo</string>
+  <string name="double_tap_to_sleep_title">Doppio tocco per sospendere</string>
   <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     
   <!-- Toast Icons -->
@@ -255,7 +255,7 @@
   <string name="navbar_mode">Modalità navigazione</string>
   <string name="navbar_visibility">Abilita barra di navigazione</string>
   <string name="navigationbar_settings_title">Barra di navigazione</string>
-  <string name="navigationbar_settings_summary">Personalizza stile e comportamento navigazione</string>
+  <string name="navigationbar_settings_summary">Personalizza lo stile e il comportamento della navigazione</string>
   <string name="navbar_general_title">Avanzate</string>
   <string name="navigation_bar_left_title">Modalità mancino</string>
   <string name="navigation_bar_left_summary">Posiziona la barra di navigazione sul lato sinistro dello schermo in modalità orizzontale</string>
@@ -442,8 +442,8 @@
   <string name="lockscreen_visualizer_title">Mostra visualizzatore musicale</string>
 
   <!-- Lockscreen clock fonts -->
-  <string name="lock_clock_font_title">Opzioni caratteri</string>
-  <string name="lock_clock_font_summary">Modifica il carattere predefinito del widget dell\'orologio nella schermata di blocco</string>
+  <string name="lock_clock_font_title">Opzioni dei caratteri</string>
+  <string name="lock_clock_font_summary">Modifica il carattere predefinito del widget orologio della schermata di blocco</string>
   <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Roboto grassetto</string>
   <string name="lock_clock_font_italic">Roboto corsivo</string>
@@ -475,13 +475,13 @@
   <string name="lock_screen_weather_settings_title">Opzioni Meteo</string>
   <string name="weather_cat_notifications_title">Notifiche</string>
   <string name="weather_show_weather_title">Visualizza Meteo</string>
-  <string name="weather_show_weather_summary">Abilita per mostrare le informazioni meteo</string>
+  <string name="weather_show_weather_summary">Abilita per la visualizzazione delle informazioni meteo</string>
   <string name="weather_show_location_title">Mostra posizione</string>
-  <string name="weather_show_location_summary">Abilita per mostrare la posizione</string>
+  <string name="weather_show_location_summary">Abilita per la visualizzazione della posizione</string>
   <string name="weather_show_timestamp_title">Mostra aggiornamento</string>
-  <string name="weather_show_timestamp_summary">Abilita per mostrare data e ora</string>
+  <string name="weather_show_timestamp_summary">Abilita per la visualizzazione della data e ora</string>
   <string name="weather_condition_icon_title">Icona condizioni</string>
-  <string name="weather_condition_icon_dlg_title">Scegli un\'icona per mostrare la condizione meteo</string>
+  <string name="weather_condition_icon_dlg_title">Scegli un\'icona per la visualizzazione delle condizioni meteo</string>
   <string name="weather_condition_icon_monochrome_title">Monocromatiche</string>
   <string name="weather_condition_icon_colored_title">Colorate</string>
   <string name="weather_condition_icon_vclouds_title">VClouds</string>
@@ -519,7 +519,7 @@
   <string name="lockscreen_targets_message">Collegamenti angoli inferiori</string>
 
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
-  <string name="double_tap_sleep_anywhere_title">Doppio tocco per sospensione</string>
+  <string name="double_tap_sleep_anywhere_title">Doppio tocco per sospendere</string>
   <string name="double_tap_sleep_anywhere_summary">Doppio tocco sulla schermata di blocco per sospendere il dispositivo</string>
 
   <!-- Optional screenshot type -->
@@ -612,7 +612,7 @@
 
   <!-- Power menu customization -->
   <string name="power_menu_title">Menù alimentazione</string>
-  <string name="power_menu_title_summary">Visualizzare o modificare le voci del menù alimentazione</string>
+  <string name="power_menu_title_summary">Visualizza o modifica le voci del menù alimentazione</string>
   <string name="power_menu_reboot_title">Riavvio</string>
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_screenrecord_title">Registra schermo</string>

@@ -44,10 +44,4 @@
             android:layout="@layout/preference_buttons"
             android:title="@string/buttons_title" />
 
-         <PreferenceScreen
-            android:key="privacy_guard"
-            android:fragment="org.aospextended.extensions.privacyguard.PrivacyGuardManager"
-            android:layout="@layout/preference_privacy_guard"
-            android:title="@string/privacy_guard_manager_title" />
-
 </PreferenceScreen>

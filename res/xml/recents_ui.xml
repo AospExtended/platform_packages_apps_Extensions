@@ -73,7 +73,7 @@
 
         <PreferenceScreen
             android:key="slim_recent_panel"
-            android:fragment="org.aospextended.extensions.preference.SlimRecentPanel"
+            android:fragment="org.aospextended.extensions.SlimRecentPanel"
             android:title="@string/slim_recents_settings_title"
             android:summary="@string/slim_recents_settings_summary"
             android:dependency="use_slim_recents"

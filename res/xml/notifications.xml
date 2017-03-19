@@ -47,6 +47,12 @@
         android:summary="@string/flashlight_notification_summary"
         android:defaultValue="false" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="dnd_when_call"
+        android:title="@string/dnd_when_call_title"
+        android:summary="@string/dnd_when_call_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -63,21 +63,9 @@
         android:summary="@string/lockscreen_qs_disabled_summary" />
 
     <org.aospextended.extensions.preference.SecureSettingSwitchPreference
-        android:key="qs_data_advanced"
-        android:title="@string/qs_advanced_data_title"
-        android:summary="@string/qs_advanced_data_summary"
-        android:defaultValue="false" />
-
-    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
-        android:key="qs_wifi_easy_toggle"
-        android:title="@string/qs_wifi_easy_toggle_title"
-        android:summary="@string/qs_wifi_easy_toggle_summary"
-        android:defaultValue="false" />
-
-    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
-        android:key="qs_bt_easy_toggle"
-        android:title="@string/qs_bt_easy_toggle_title"
-        android:summary="@string/qs_bt_easy_toggle_summary"
+        android:key="qs_easy_toggle"
+        android:title="@string/qs_easy_toggle_title"
+        android:summary="@string/qs_easy_toggle_summary"
         android:defaultValue="false" />
        
      </PreferenceCategory>

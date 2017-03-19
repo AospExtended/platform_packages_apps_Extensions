@@ -937,4 +937,7 @@
     <string name="qs_easy_toggle_title">Advanced QS Easy Toggle</string>
     <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, wifi, location and bluetooth</string>
 
+    <string name="dnd_when_call_title">Do not Disturb</string>
+    <string name="dnd_when_call_summary">Enable Do not Disturb when call active</string>
+
 </resources>

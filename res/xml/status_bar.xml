@@ -47,17 +47,11 @@
             android:layout="@layout/preference_traffic"
             android:title="@string/traffic_category" />
 
-    <PreferenceScreen
-        android:fragment="org.aospextended.extensions.CarrierLabel"
-        android:key="carrier_label"
-        android:layout="@layout/preference_carrierlabel"
-        android:title="@string/carrierlabel_title"/>
-
-         <PreferenceScreen
-            android:key="ticker"
-            android:fragment="org.aospextended.extensions.StatusBarTickerSettings"
-            android:layout="@layout/preference_ticker"
-            android:title="@string/ticker_screen_title" />
+        <PreferenceScreen
+            android:fragment="org.aospextended.extensions.CarrierLabel"
+            android:key="carrier_label"
+            android:layout="@layout/preference_carrierlabel"
+            android:title="@string/carrierlabel_title"/>
 
          <PreferenceScreen
             android:key="misc_extensions"

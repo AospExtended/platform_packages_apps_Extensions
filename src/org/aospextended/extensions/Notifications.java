@@ -53,11 +53,13 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
     private static final String DISABLE_IMMERSIVE_MESSAGE = "disable_immersive_message";
     private static final String FLASHLIGHT_NOTIFICATION = "flashlight_notification";
     private static final String KEY_HEADS_UP_SETTINGS = "heads_up_settings";
+    private static final String STATUS_BAR_SHOW_TICKER = "status_bar_show_ticker";
 
     private SwitchPreference mFlashlightNotification;
     private SwitchPreference mForceExpanded;
     private SwitchPreference mDisableIM;
     private PreferenceScreen mHeadsUp;
+    private SwitchPreference mShowTicker;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,6 +92,12 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         mDisableIM.setChecked(DisableIM != 0);
 
         mHeadsUp = (PreferenceScreen) findPreference(KEY_HEADS_UP_SETTINGS);
+
+        mShowTicker = (SwitchPreference) findPreference(STATUS_BAR_SHOW_TICKER);
+        mShowTicker.setOnPreferenceChangeListener(this);
+        int ShowTicker = Settings.System.getInt(getContentResolver(),
+                STATUS_BAR_SHOW_TICKER, 0);
+        mShowTicker.setChecked(ShowTicker != 0);
 
     }
 
@@ -127,6 +135,11 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
             boolean checked = ((SwitchPreference)preference).isChecked();
             Settings.System.putInt(getActivity().getContentResolver(),
                    Settings.System.FLASHLIGHT_NOTIFICATION, checked ? 1:0);
+            return true;
+        } else if (preference == mShowTicker) {
+            boolean value = (Boolean) newValue;
+            Settings.Global.putInt(getContentResolver(), STATUS_BAR_SHOW_TICKER,
+                    value ? 1 : 0);
             return true;
         }
         return false;

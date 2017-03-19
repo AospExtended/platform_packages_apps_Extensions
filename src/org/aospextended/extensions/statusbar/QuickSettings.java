@@ -64,6 +64,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_COLUMNS = "qs_layout_columns";
     private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
     private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
+    private static final String PREF_QS_EASY_TOGGLE = "qs_easy_toggle";
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
     private static final String DEFAULT_HEADER_PACKAGE = "com.android.systemui";
     private static final String CUSTOM_HEADER_IMAGE_SHADOW = "status_bar_custom_header_shadow";
@@ -79,6 +80,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
     private ListPreference mDaylightHeaderPack;
+    private SwitchPreference mEasyToggle;
     private ListPreference mHeaderProvider;
     private ListPreference mWeatherIconPack;
     private CustomSeekBarPreference mQsColumns;
@@ -143,6 +145,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_ROWS_LANDSCAPE, defaultValue);
         mRowsLandscape.setValue(rowsLandscape / 1);
         mRowsLandscape.setOnPreferenceChangeListener(this);
+
+        mEasyToggle = (SwitchPreference) findPreference(PREF_QS_EASY_TOGGLE);
+        mEasyToggle.setOnPreferenceChangeListener(this);
+        mEasyToggle.setChecked((Settings.Secure.getInt(resolver,
+                Settings.Secure.QS_EASY_TOGGLE, 0) == 1));
 
         String settingHeaderPackage = Settings.System.getString(getContentResolver(),
                 Settings.System.STATUS_BAR_DAYLIGHT_HEADER_PACK);
@@ -283,6 +290,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             Settings.System.putInt(getContentResolver(),
                     Settings.System.STATUS_BAR_CUSTOM_HEADER_SHADOW, headerShadow);
             return true;
+         } else if  (preference == mEasyToggle) {
+             boolean checked = ((SwitchPreference)preference).isChecked();
+              Settings.Secure.putInt(getActivity().getContentResolver(),
+                   Settings.Secure.QS_EASY_TOGGLE, checked ? 1:0);
+             return true;
          } else if (preference == mHeaderProvider) {
             String value = (String) objValue;
             Settings.System.putString(getContentResolver(),

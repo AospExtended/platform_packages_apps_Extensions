@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015 The CyanogenMod Project
-     Copyright (C) 2016 AospExtended ROM Project
+     Copyright (C) 2017 AospExtended ROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -398,10 +398,6 @@
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
 
-    <!-- Advanced data tile -->
-    <string name="qs_advanced_data_title">Advanced data tile</string>
-    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
-
     <!-- Do not disturb switch in volume panel -->
     <string name="tuner_full_zen_title">Do not disturb switch</string>
     <string name="tuner_full_zen_summary">Show a do not disturb switch in the volume panel</string>
@@ -426,9 +422,6 @@
     <string name="qs_columns_title">Columns</string>
     <string name="qqs_scroll_title">Scroll small QS tiles</string>
     <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
-
-    <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
-    <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
 
     <!-- lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Display music visualizer</string>
@@ -545,10 +538,6 @@
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
-
-    <!-- BT easy toggle -->
-    <string name="qs_bt_easy_toggle_title">Bluetooth easy toggle</string>
-    <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
 
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">No QS when secured</string>
@@ -943,5 +932,9 @@
     <string name="wired_ringtone_focus_mode_title">Where to play ringtones from</string>
     <string name="wired_ringtone_focus_mode_dynamic">Wired headset if connected and playing music</string>
     <string name="wired_ringtone_focus_mode_stock">Speakerphone and headset (default)</string>
+
+    <!-- QS Easy Toggle -->
+    <string name="qs_easy_toggle_title">Advanced QS Easy Toggle</string>
+    <string name="qs_easy_toggle_summary">Enable one tap action to enable or disable mobile data, wifi, and bluetooth</string>
 
 </resources>

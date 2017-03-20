@@ -137,6 +137,7 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
            if (preference == mMissedCallBreath) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getContentResolver(), MISSED_CALL_BREATH,

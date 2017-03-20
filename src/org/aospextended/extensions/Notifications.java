@@ -137,7 +137,7 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                    Settings.System.FLASHLIGHT_NOTIFICATION, checked ? 1:0);
             return true;
         } else if (preference == mShowTicker) {
-            boolean value = (Boolean) newValue;
+            boolean value = (Boolean) objValue;
             Settings.Global.putInt(getContentResolver(), STATUS_BAR_SHOW_TICKER,
                     value ? 1 : 0);
             return true;

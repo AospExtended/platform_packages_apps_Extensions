@@ -61,4 +61,24 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="slim_recents"
+        android:title="@string/slim_recents_title">
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="use_slim_recents"
+            android:title="@string/use_slim_recents_title"
+            android:summary="@string/use_slim_recents_summary"
+            android:defaultValue="false" />
+
+        <PreferenceScreen
+            android:key="slim_recent_panel"
+            android:fragment="org.aospextended.extensions.preference.SlimRecentPanel"
+            android:title="@string/slim_recents_settings_title"
+            android:summary="@string/slim_recents_settings_summary"
+            android:dependency="use_slim_recents"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

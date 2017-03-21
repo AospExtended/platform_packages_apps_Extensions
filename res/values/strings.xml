@@ -586,6 +586,8 @@
     <!-- Power menu customization -->
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_title_summary">View or change power menu entries</string>
+    <string name="power_category">Power menu options</string>
+    <string name="actions_category">Power menu items</string>
     <string name="power_menu_reboot_title">Restart</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
@@ -599,6 +601,8 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu on secure lock screen</string>
     
     <string name="volume_category">Volume Rocker</string>
     <!-- Volume Key Rotation -->

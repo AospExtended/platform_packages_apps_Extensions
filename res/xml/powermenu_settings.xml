@@ -13,6 +13,21 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="power_category"
+        android:title="@string/power_category" >
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_enable_power_menu"
+            android:title="@string/lockscreen_enable_power_menu_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="action_category"
+        android:title="@string/actions_category" >
+
     <SwitchPreference
         android:key="restart"
         android:title="@string/power_menu_reboot_title"
@@ -72,5 +87,7 @@
         android:key="silent"
         android:title="@string/power_menu_sound_title"
         android:defaultValue="true" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

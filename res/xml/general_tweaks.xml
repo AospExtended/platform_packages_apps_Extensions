@@ -121,6 +121,18 @@
 
         </PreferenceCategory>
 
+        <PreferenceCategory
+            android:key="screenstate_options"
+            android:title="@string/screen_state_toggles_title" >
+
+
+     <Preference
+        android:key="screenstate_category"
+        android:title="@string/screen_state_toggles_title" 
+        android:fragment="org.aospextended.extensions.ScreenStateToggles" />
+
+       </PreferenceCategory>
+
     <PreferenceCategory
         android:key="light_category"
         android:title="@string/light_category">

@@ -46,5 +46,7 @@
         <attr name="pstsTextAlpha" format="float" />
         <attr name="pstsTextSelectedAlpha" format="float" />
     </declare-styleable>
+    
+        <attr name="preferenceBackgroundColor" format="color" />
 
 </resources>

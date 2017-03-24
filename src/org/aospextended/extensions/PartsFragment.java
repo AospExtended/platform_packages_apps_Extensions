@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks;
+package org.aospextended.extensions;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -47,12 +47,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.dirtyunicorns.dutweaks.tabs.System;
-import com.dirtyunicorns.dutweaks.tabs.Lockscreen;
-import com.dirtyunicorns.dutweaks.tabs.StatusBar;
-import com.dirtyunicorns.dutweaks.tabs.Navigation;
-import com.dirtyunicorns.dutweaks.tabs.MultiTasking;
-import com.dirtyunicorns.dutweaks.PagerSlidingTabStrip;
+import org.aospextended.extensions.tabs.System;
+import org.aospextended.extensions.PagerSlidingTabStrip;
+import org.aospextended.extensions.tabs.StatusBar;
+import org.aospextended.extensions.tabs.Lockscreen;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -60,7 +58,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DirtyTweaks extends SettingsPreferenceFragment {
+public class PartsFragment extends SettingsPreferenceFragment {
 
     private static final int MENU_HELP  = 0;
 
@@ -74,7 +72,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContainer = container;
 
-        View view = inflater.inflate(R.layout.dirtytweaks, container, false);
+        View view = inflater.inflate(R.layout.extensions, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.pager);
         mTabs = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
         StatusBarAdapter StatusBarAdapter = new StatusBarAdapter(getFragmentManager());
@@ -97,7 +95,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.DIRTYTWEAKS;
+        return MetricsEvent.EXTENSIONS;
     }
 
     @Override
@@ -108,8 +106,8 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_HELP, 0, R.string.dirtytweaks_dialog_title)
-                .setIcon(R.drawable.ic_dirtytweaks_info)
+        menu.add(0, MENU_HELP, 0, R.string.extensions_dialog_title)
+                .setIcon(R.drawable.ic_extensions_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
@@ -119,7 +117,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
                 Toast.makeText(getActivity(),
-                (R.string.dirtytweaks_dialog_toast),
+                (R.string.extensions_dialog_toast),
                 Toast.LENGTH_LONG).show();
                 return true;
             default:
@@ -148,8 +146,8 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
             switch (id) {
                 case MENU_HELP:
                     return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.dirtytweaks_dialog_title)
-                    .setMessage(R.string.dirtytweaks_dialog_message)
+                    .setTitle(R.string.extensions_dialog_title)
+                    .setMessage(R.string.extensions_dialog_message)
                     .setCancelable(false)
                     .setNegativeButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {
@@ -173,11 +171,9 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-            frags[0] = new System();
-            frags[1] = new Lockscreen();
-            frags[2] = new StatusBar();
-            frags[3] = new Navigation();
-            frags[4] = new MultiTasking();
+            frags[0] = new StatusBar();
+	        frags[1] = new Lockscreen();
+            frags[2] = new System();
         }
 
         @Override
@@ -199,12 +195,38 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-                    getString(R.string.system_category),
+                    getString(R.string.status_bar_category),
                     getString(R.string.lockscreen_category),
-                    getString(R.string.statusbar_category),
-                    getString(R.string.navigation_category),
-                    getString(R.string.multitasking_category)};
+                    getString(R.string.system_category)};
         return titleString;
     }
+    
+        private static class SummaryProvider implements SummaryLoader.SummaryProvider {
+
+        private final Context mContext;
+        private final SummaryLoader mSummaryLoader;
+
+        public SummaryProvider(Context context, SummaryLoader summaryLoader) {
+            mContext = context;
+            mSummaryLoader = summaryLoader;
+        }
+
+        @Override
+        public void setListening(boolean listening) {
+            if (listening) {
+                mSummaryLoader.setSummary(this, mContext.getString(R.string.build_tweaks_summary_title));
+            }
+        }
+    }
+
+    public static final SummaryLoader.SummaryProviderFactory SUMMARY_PROVIDER_FACTORY
+            = new SummaryLoader.SummaryProviderFactory() {
+        @Override
+        public SummaryLoader.SummaryProvider createSummaryProvider(Activity activity,
+                                                                   SummaryLoader summaryLoader) {
+            return new SummaryProvider(activity, summaryLoader);
+        }
+    };
+
 }
 

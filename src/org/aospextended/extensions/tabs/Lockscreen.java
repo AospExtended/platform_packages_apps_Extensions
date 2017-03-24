@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.tabs;
+package org.aospextended.extensions.tabs;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -34,22 +34,23 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class StatusBar extends SettingsPreferenceFragment implements
+public class Lockscreen extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "StatusBar";
+    
+    private static final String TAG = "Lockscreen";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.statusbar);
+        addPreferencesFromResource(R.xml.lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.DIRTYTWEAKS;
+        return MetricsEvent.EXTENSIONS;
     }
 
     @Override
@@ -68,4 +69,3 @@ public class StatusBar extends SettingsPreferenceFragment implements
     }
 
 }
-

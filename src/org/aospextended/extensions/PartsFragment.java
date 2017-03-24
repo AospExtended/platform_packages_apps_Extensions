@@ -179,9 +179,9 @@ public class PartsFragment extends SettingsPreferenceFragment {
             frags[0] = new StatusBar();
             frags[1] = new NotificationsPanel();
             frags[2] = new Navigation();
-            frags[2] = new Recents();
-	    frags[3] = new Lockscreen();
-            frags[4] = new System();
+            frags[3] = new Recents();
+	    frags[4] = new Lockscreen();
+            frags[5] = new System();
         }
 
         @Override

@@ -17,11 +17,18 @@
 package org.aospextended.extensions;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.content.res.Configuration;
+import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.EditTextPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -36,6 +43,7 @@ import android.widget.EditText;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 import java.util.Date;
 
@@ -43,6 +51,8 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
 
     private static final String PREF_CLOCK_STYLE = "clock_style";
     private static final String PREF_AM_PM_STYLE = "status_bar_am_pm";
+    private static final String PREF_FONT_STYLE = "statusbar_clock_font_style";
+    private static final String PREF_STATUS_BAR_CLOCK_FONT_SIZE  = "statusbar_clock_font_size";
     private static final String PREF_CLOCK_DATE_DISPLAY = "clock_date_display";
     private static final String PREF_CLOCK_DATE_STYLE = "clock_date_style";
     private static final String PREF_CLOCK_DATE_POSITION = "clock_date_position";
@@ -57,6 +67,8 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
     private ListPreference mClockStyle;
     private ListPreference mClockAmPmStyle;
     private ListPreference mClockDateDisplay;
+    private ListPreference mFontStyle;
+    private CustomSeekBarPreference mStatusBarClockFontSize;
     private ListPreference mClockDateStyle;
     private ListPreference mClockDatePosition;
     private ListPreference mClockDateFormat;
@@ -79,6 +91,7 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
         }
 
         addPreferencesFromResource(R.xml.statusbarclock);
+        final ContentResolver resolver = getActivity().getContentResolver();
         prefSet = getPreferenceScreen();
 
         PackageManager pm = getPackageManager();
@@ -123,6 +136,9 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
                 0)));
         mClockDateStyle.setSummary(mClockDateStyle.getEntry());
 
+        mFontStyle = (ListPreference) findPreference(PREF_FONT_STYLE);
+        mStatusBarClockFontSize = (CustomSeekBarPreference) findPreference(PREF_STATUS_BAR_CLOCK_FONT_SIZE);
+
         mClockDatePosition = (ListPreference) findPreference(PREF_CLOCK_DATE_POSITION);
         mClockDatePosition.setOnPreferenceChangeListener(this);
         mClockDatePosition.setValue(Integer.toString(Settings.System.getInt(getActivity()
@@ -137,6 +153,16 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
         }
 
         parseClockDateFormats();
+
+        int fontStyle = Settings.System.getInt(resolver,
+                Settings.System.STATUSBAR_CLOCK_FONT_STYLE, 0);
+        mFontStyle.setValue(String.valueOf(fontStyle));
+        mFontStyle.setSummary(mFontStyle.getEntry());
+        mFontStyle.setOnPreferenceChangeListener(this);
+
+        mStatusBarClockFontSize.setValue(Settings.System.getInt(resolver,
+                Settings.System.STATUSBAR_CLOCK_FONT_SIZE, 14));
+        mStatusBarClockFontSize.setOnPreferenceChangeListener(this);
 
         mStatusBarClock = (SwitchPreference) findPreference(STATUS_BAR_CLOCK);
         mStatusBarClock.setChecked((Settings.System.getInt(
@@ -163,6 +189,7 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         if (!mCheckPreferences) {
             return false;
         }
@@ -199,12 +226,24 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
             }
             return true;
         } else if (preference == mClockDateStyle) {
-            int val = Integer.parseInt((String) newValue);
+            int val = Integer.valueOf((String) newValue);
             int index = mClockDateStyle.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUSBAR_CLOCK_DATE_STYLE, val);
             mClockDateStyle.setSummary(mClockDateStyle.getEntries()[index]);
             parseClockDateFormats();
+            return true;
+        } else if (preference == mFontStyle) {
+            int val = Integer.valueOf((String) newValue);
+            int index = mFontStyle.findIndexOfValue((String) newValue);
+            Settings.System.putInt(resolver,
+                    Settings.System.STATUSBAR_CLOCK_FONT_STYLE, val);
+            mFontStyle.setSummary(mFontStyle.getEntries()[index]);
+            return true;
+        } else if (preference == mStatusBarClockFontSize) {
+            int size = (Integer) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.STATUSBAR_CLOCK_FONT_SIZE, size);
             return true;
         } else if (preference == mClockDatePosition) {
             int val = Integer.parseInt((String) newValue);

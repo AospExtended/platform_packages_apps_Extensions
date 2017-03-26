@@ -217,6 +217,8 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+    <string name="clock_font_style_title">Font</string>
+    <string name="clock_font_size_title">Font size</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

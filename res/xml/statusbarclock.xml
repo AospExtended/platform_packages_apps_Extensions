@@ -55,6 +55,14 @@
         android:entryValues="@array/clock_date_style_values"
         android:dependency="status_bar_show_clock" />
 
+    <org.aospextended.extensions.preference.CustomSeekBarPreference
+        android:key="statusbar_clock_font_size"
+        android:title="@string/clock_font_size_title"
+        android:max="23"
+        settings:min="4"
+        settings:units="dp"
+        android:persistent="false" />
+
     <ListPreference
         android:key="clock_date_position"
         android:title="@string/clock_date_position"
@@ -68,5 +76,12 @@
         android:entries="@array/clock_date_format_entries_values"
         android:entryValues="@array/clock_date_format_entries_values"
         android:dependency="status_bar_show_clock" />
+
+    <ListPreference
+        android:key="statusbar_clock_font_style"
+        android:title="@string/clock_font_style_title"
+        android:entries="@array/lock_clock_fonts_entries"
+        android:entryValues="@array/lock_clock_fonts_values"
+        android:persistent="false" />	
 
 </PreferenceScreen>

@@ -17,8 +17,8 @@
     android:title="@string/recents_ui_title">
 
     <PreferenceCategory
-        android:key="recents_ui_general_category"
-        android:title="@string/general_category">
+        android:key="recents_ui_aosp_recents_category"
+        android:title="@string/aosp_recents_category">
 
       <org.aospextended.extensions.preference.SystemSettingSwitchPreference
            android:key="systemui_recents_mem_display"

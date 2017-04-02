@@ -80,6 +80,12 @@
             settings:units="ms"
             android:persistent="false" />
 
+         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="screenshot_crop_and_share"
+            android:title="@string/screenshot_crop_and_share_title"
+            android:summary="@string/screenshot_crop_and_share_summary"
+            android:defaultValue="false" />
+
         </PreferenceCategory>
 
         <PreferenceCategory

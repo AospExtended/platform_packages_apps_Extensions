@@ -17,11 +17,13 @@
 package org.aospextended.extensions;
 
 import android.content.Context;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.UserInfo;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
@@ -42,10 +44,11 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PowerMenuSettings extends SettingsPreferenceFragment {
+public class PowerMenuSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String ACTION_CATEGORY = "action_category";
     private static final String POWER_CATEGORY = "power_category";
+    private static final String POWER_MENU_ONTHEGO_ENABLED = "power_menu_onthego_enabled";
     // power items
 
     private SwitchPreference mRebootPref;
@@ -60,6 +63,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
     private SwitchPreference mVoicePref;
     private SwitchPreference mBugReportPref;
     private SwitchPreference mSilentPref;
+    private SwitchPreference mOnTheGoPowerMenu;
 
     Context mContext;
     private ArrayList<String> mLocalUserConfig = new ArrayList<String>();
@@ -123,6 +127,11 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
             } else if (action.equals(GLOBAL_ACTION_KEY_SILENT)) {
                 mSilentPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_SILENT);
             }
+
+        mOnTheGoPowerMenu = (SwitchPreference) findPreference(POWER_MENU_ONTHEGO_ENABLED);
+        mOnTheGoPowerMenu.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.POWER_MENU_ONTHEGO_ENABLED, 0) == 1));
+        mOnTheGoPowerMenu.setOnPreferenceChangeListener(this);
         }
 
         getUserConfig();
@@ -210,6 +219,17 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
     public void onResume() {
         super.onResume();
         updatePreferences();
+    }
+
+     @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mOnTheGoPowerMenu) {
+            boolean value = ((Boolean)newValue).booleanValue();
+            Settings.System.putInt(getContentResolver(), Settings.System.POWER_MENU_ONTHEGO_ENABLED, value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 
     @Override

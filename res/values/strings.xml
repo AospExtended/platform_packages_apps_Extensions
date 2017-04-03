@@ -378,11 +378,12 @@
     <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Home button only) and Ripple</string>
     <string name="smartbar_factory_reset_title">Reset to stock</string>
     <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
-    <string name="smartbar_ime_action_title">Input method actions</string>
-    <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing</string>
+    <string name="smartbar_ime_action_title">Input method and media actions</string>
+    <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing or music is playing</string>
     <string name="smartbar_ime_action_none">None</string>
     <string name="smartbar_ime_action_arrows">Input arrows</string>
     <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
+    <string name="smartbar_ime_action_dynamic">Input/media arrows</string>
     <string name="smartbar_backup_current_config_title">Save profile</string>
     <string name="smartbar_restore_config_title">Restore profile</string>
     <string name="smartbar_config_name_edit_dialog_title">Smartbar profile name</string>
@@ -595,6 +596,7 @@
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
     <string name="power_menu_torch_title">Flashlight</string>
+    <string name="power_menu_onthego_title">On-The-Go Mode</string>
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_users_title">User switcher</string>
     <string name="power_menu_search_title">Search</string>
@@ -641,8 +643,8 @@
     <string name="hardware_keys_single_tap_title">Single tap action</string>
     <string name="hardware_keys_long_press_title">Long press action</string>
     <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_category">Navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable navigation buttons</string>
+    <string name="hardware_keys_category">Hardware buttons</string>
+    <string name="hardware_keys_disable_title">Disable hardware buttons</string>
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
@@ -992,5 +994,16 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Show roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <string name="screenshot_crop_and_share_title">Screenshot crop &amp; share</string>
+    <string name="screenshot_crop_and_share_summary">Show an editor window after taking a screenshot in order to do some operations like cropping, saving or sharing it</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
 
 </resources>

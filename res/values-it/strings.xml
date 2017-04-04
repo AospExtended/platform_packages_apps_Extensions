@@ -808,9 +808,20 @@
   <string name="listview_anticipate_overshoot_interpolator">Anticipa e supera</string>
   <string name="listview_bounce_interpolator">Rimbalzo</string>
 
+  <!-- Disable animations -->
   <string name="disable_animations">Disabilita animazioni</string>
   <string name="disable_animations_summary">Disabilita le animazioni di transizione come ad esempio quando lanci un\'app</string>
   
+  <!-- Alarm blocker -->
+  <string name="alarm_blocker">Blocco degli allarm</string>
+  <string name="alarm_blocker_title">Abilita</string>
+  <string name="alarm_blocker_summary">Blocca gli allarmi mentre lo schermo è spento</string>
+  <string name="alarm_blocker_save">Salva</string>
+  <string name="alarm_list_header">Allarmi disponibili</string>
+  <string name="alarm_blocker_reload">Ricarica</string>
+  <string name="alarm_blocker_warning_title">Procedi con cautela</string>
+  <string name="alarm_blocker_warning">Il blocco allarmi hanno il potenziale di causare instabilità, crash o perdita di dati.</string>
+	
   <!-- Option to enable/disable scrolling cache -->
   <string name="pref_scrollingcache_title">Scrolling cache</string>
   <string name="pref_scrollingcache_summary">Scrolling cache può migliorare le prestazioni dello scorrimento a discapito della memoria</string>
@@ -967,5 +978,16 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mostra sul bordo sinistro</string>
     <string name="recent_panel_lefty_mode_summary">Mostra il pannello delle applicazioni recenti sul bordo sinistro</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Mostra indicatore roaming</string>
+    <string name="roaming_indicator_icon_summary">Mostra sul display l\'indicatore roaming sull\'icona del segnale quando si è in modalità roaming</string>
+
+    <string name="screenshot_crop_and_share_title">Prendi uno Screenshot &amp; condividi</string>
+    <string name="screenshot_crop_and_share_summary">Mostra una finestra delle modifiche dopo aver catturato uno screenshot per fare alcune operazioni come il ritaglio, salva o condividi</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Mostra lo stato della batteria Bluetooth</string>
+    <string name="bluetooth_battery_summary">Mostra lo stato della batteria del dispositivo Bluetooth attualmente collegato, se disponibile.</string>
 
 </resources>

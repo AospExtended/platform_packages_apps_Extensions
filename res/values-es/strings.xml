@@ -168,7 +168,8 @@
   <string name="power_menu_users_title">Selector de Usuario</string>
   <string name="power_menu_voice_title">Búsqueda por voz</string>
   <string name="power_menu_search_title">Búsqueda</string>
-  <string name="power_menu_torch_title">Antorcha</string>   
+  <string name="power_menu_torch_title">Antorcha</string>
+  <string name="power_menu_onthego_title">Modo On-The-Go</string>   
   <string name="power_menu_screenrecord_title">Grabar pantalla</string>   
   <string name="power_menu_settings_title">Atajo de configuración</string>
   <string name="power_menu_lockdown_title">Bloqueo de dispositivo</string>
@@ -322,6 +323,7 @@
   <string name="info_pref_note_title">Nota</string>
   <string name="smartbar_interface">SmartBar</string>
   <string name="icon_pack_picker_dialog_title">Paquete de iconos</string>
+  <string name="image_exceeds_max_allowed_size">La imágen no debe pasar los 512x512 pixeles</string>   
   <string name="invalid_icon_from_uri">No se puede cargar la imagen desde el proveedor de contenido</string>
   <string name="picker_activities">Actividades</string>
   <string name="select_custom_app_title">Aplicación personalizada</string>
@@ -410,6 +412,7 @@
   <string name="pulse_solid_dimen_category">Ajustes del modo de lineas solidas</string>
   <string name="fling_lavalamp_color_from">Color de inicio</string>
   <string name="fling_lavalamp_color_to">Color del final</string>   
+  <string name="pulse_custom_buttons_opacity_title">Opacidad de los botones en Pulse</string>   
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Ancho de la barra</string>
   <string name="pulse_custom_div">Espacio de la barra</string>
@@ -439,8 +442,8 @@
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (solo el botón de casa) y Onda</string>    
   <string name="smartbar_factory_reset_title">Restablecer a valores por defecto</string>
   <string name="smartbar_factory_reset_confirm">¿Está seguro que desea restablecer Smartbar a los valores por defecto?</string>
-  <string name="smartbar_ime_action_title">Acciones de método de entrada</string>
-  <string name="smartbar_ime_action_summary">Establecer qué botones a mostrar cuando se muestra el teclado</string>
+  <string name="smartbar_ime_action_title">Acciones de método de entrada o control multimedia</string>
+  <string name="smartbar_ime_action_summary">Elegir qué botones mostrar cuando se usa el teclado o se reproduce música</string>
   <string name="smartbar_ime_action_none">Nignuno</string>
   <string name="smartbar_ime_action_arrows">Flechas de entrada</string>
   <string name="smartbar_ime_action_switcher">Selector de teclado</string>
@@ -608,7 +611,11 @@
   <string name="hide_lockscreen_items_title">Elementos de la pantalla de bloqueo</string>
   <string name="hide_lockscreen_clock_title">Mostrar el reloj</string>
   <string name="hide_lockscreen_date_title">Mostrar la fecha</string>
-  <string name="hide_lockscreen_alarm_title">Mostrar la alarma</string>   
+  <string name="hide_lockscreen_alarm_title">Mostrar la alarma</string>
+     
+  <string name="clock_font_style_title">Reloj</string>
+  <string name="clock_font_size_title">Tamaño de fuente</string>   
+  
   <!-- Navbar dynamic color -->
   <string name="nav_bar_dynamic_title">Color de barra de navegación dinámico</string>
   <string name="nav_bar_dynamic_summary">Adapta la barra de navegación a color obscuro primario de las apps. Reinicia la aplicación para ver los cambios.</string>
@@ -985,5 +992,25 @@
  
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <string name="recent_panel_lefty_mode_title">Mostrar a la izquierda</string>
-  <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aplicaciones recientes a la izquierda</string>   
+  <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aplicaciones recientes a la izquierda</string>  
+  <!-- Alarm blocker -->
+  <string name="alarm_blocker">Bloqueador de alarmas</string>
+  <string name="alarm_blocker_title">Activar</string>
+  <string name="alarm_blocker_summary">Bloquear alarmas con la pantalla apagada</string>
+  <string name="alarm_blocker_save">Guardar</string>
+  <string name="alarm_list_header">Alarmas disponobles</string>
+  <string name="alarm_blocker_reload">Recargar</string>
+  <string name="alarm_blocker_warning_title">Proceda con precaución</string>
+  <string name="alarm_blocker_warning">Bloquear alarmas puede causar inestabilidad, cierres o perdida de datos.</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Mostrar indicador de Roaming</string>
+  <string name="roaming_indicator_icon_summary">Mostrar indicador de Roaming en el icono de red de datos</string>
+  
+  <string name="aosp_recents_category">Recientes de AOSP</string>   
+     
+  <string name="screenshot_crop_and_share_title">Recortar y compartir captura</string>
+  <string name="screenshot_crop_and_share_summary">Mostrar un editor despúes de la captura de pantalla para recortar, guardar o compartirla.</string>  
+  <!-- Bluetooth status -->
+  <string name="bluetooth_battery_title">Mostrar batería por Bluetooth</string>
+  <string name="bluetooth_battery_summary">Mostrar la batería del dispositivo conectado, si está disponible.</string>   
 </resources>

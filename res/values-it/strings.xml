@@ -335,7 +335,8 @@
   <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
   <string name="fling_lavalamp_color_from">Colore avvio lampada di lava</string>
   <string name="fling_lavalamp_color_to">Colore finale lampada di lava</string>
-
+  <string name="pulse_custom_buttons_opacity_title">Trasparenza dei pulsanti in modalità Pulse</string>
+	
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Larghezza barra</string>
   <string name="pulse_custom_div">Spaziatura della barra</string>
@@ -372,6 +373,7 @@
   <string name="smartbar_ime_action_none">Niente</string>
   <string name="smartbar_ime_action_arrows">Frecce direzionali</string>
   <string name="smartbar_ime_action_switcher">Cambia tastiera</string>
+  <string name="smartbar_ime_action_dynamic">Frecce immissione/multimedia</string>
   <string name="smartbar_backup_current_config_title">Salva profilo</string>
   <string name="smartbar_restore_config_title">Ripristinare il profilo</string>
   <string name="smartbar_config_name_edit_dialog_title">Nome del profilo SmartBar</string>
@@ -459,7 +461,6 @@
   <string name="position_right_title">Destra</string>
   <string name="position_centered_title">Centrato</string>
   <string name="hidden_title">Nascosta</string>
-  <string name="weather_cat_notifications_title">Notifiche</string>
   <string name="weather_hide_panel_title">Nascondi pannello meteo</string>
   <string name="weather_hide_panel_dlg_title">Scegliere quando il pannello Meteo dovrebbe essere nascosto</string>
   <string name="weather_hide_panel_auto_title">Automatico</string>
@@ -585,6 +586,7 @@
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_screenrecord_title">Registra schermo</string>
   <string name="power_menu_torch_title">Torcia</string>
+  <string name="power_menu_onthego_title">Modalità On-The-Go</string>
   <string name="power_menu_airplane_title">Modalità aereo</string>
   <string name="power_menu_users_title">Cambio utente</string>
   <string name="power_menu_search_title">Ricerca</string>
@@ -594,7 +596,8 @@
   <string name="power_menu_bug_report_title">Segnalazione bug</string>
   <string name="power_menu_sound_title">Pannello suoni</string>
   <string name="power_menu_bug_report_disabled">La segnalazione bug è disattivata nelle impostazioni di sviluppo</string>
-    
+  <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_enable_power_menu_title">Mostra il menu di spegnimento nella schermata di blocco</string>
   <string name="volume_category">Volume bilanciato</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Riorienta</string>

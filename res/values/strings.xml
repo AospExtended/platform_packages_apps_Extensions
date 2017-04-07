@@ -942,6 +942,11 @@
     <string name="fp_unlock_keystore_title">FP unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 
+    <!-- Status bar notification ticker -->
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+
     <!-- Wired headset ringtone audio focus -->
     <string name="wired_ringtone_focus_mode_title">Where to play ringtones from</string>
     <string name="wired_ringtone_focus_mode_dynamic">Wired headset if connected and playing music</string>

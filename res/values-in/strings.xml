@@ -784,7 +784,7 @@
     <string name="blurred_radius_summary">Jumlah Blur</string>
 
     <string name="blur_cat_notice">Pemberitahuan</string>
-    <string name="blur_cat_notice_summary">Blur personalisasi dimatikan selama Pengaman tombol! Hanya Pemberitahuan tembus dihidupkan!</string>
+    <string name="blur_cat_notice_summary">Blur personalisasi dimatikan selama Pengaman tombol view! Hanya Pemberitahuan Tembus diaktifkan!</string>
 
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animasi</string>  

@@ -174,7 +174,7 @@
     <string name="network_traffic_title">Datový provoz</string>
     <string name="show_network_traffic_state">Zobrazení datového provozu na stavové liště</string>
     <string name="show_network_traffic_unit">Zobrazit jednotky</string>
-    <string name="show_network_traffic_frequency">Interval aktualizacel</string>
+    <string name="show_network_traffic_frequency">Interval aktualizace</string>
     <string name="show_network_traffic_disable">Vypnuto</string>
     <string name="show_network_traffic_up">Odchozí data</string>
     <string name="show_network_traffic_down">Příchozí data</string>
@@ -214,9 +214,9 @@
     <string name="clock_am_pm_date_none">Skryté</string>
     <string name="clock_date_style_lowercase">Malá písmena</string>
     <string name="clock_date_style_uppercase">Velká písmena</string>
-    <string name="clock_date_format_custom">Vlastní formát java</string>
+    <string name="clock_date_format_custom">Vlastní formát Java</string>
     <string name="cancel">Zrušit</string>
-    <string name="save">Ulo6it</string>
+    <string name="save">Uložit</string>
     <string name="clock_font_style_title">Písmo</string>
     <string name="clock_font_size_title">Velikost písma</string>
 
@@ -255,7 +255,7 @@
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Vybrat akci</string>
     <string name="action_entry_default_action">Výchozí nastavení</string>
-    <string name="action_entry_select_app">Vybrat aplikac</string>
+    <string name="action_entry_select_app">Vybrat aplikaci</string>
     <string name="action_entry_custom_action">Vybrat vlastní akci</string>
 
     <string name="action_value_default_action" translatable="false">default</string>

@@ -863,11 +863,11 @@
     <string name="qs_multiuser_switch_title">Přepínač více uživatelů</string>
     <string name="qs_multiuser_switch_summary">Zakázat přepínač více uživatelů v záhlaví</string>
     <string name="qs_expand_indicator_title">Indikátor rozšíření</string>
-    <string name="qs_expand_indicator_summary">Zakázat indikátor rozšířenít v záhlaví</string>
+    <string name="qs_expand_indicator_summary">Zakázat indikátor rozšíření v záhlaví</string>
 
     <!-- Center Date + Time in header -->
     <string name="qs_date_time_center_title">Vycentrovat datum a čas</string>
-    <string name="qs_date_time_center_summary">yžaduje vypnutí jedné nebo více ikon</string>
+    <string name="qs_date_time_center_summary">Vyžaduje vypnutí jedné nebo více ikon</string>
 
     <!-- Battery Bar fragment -->
     <string name="battery_bar_title">Pruh baterie</string>
@@ -888,7 +888,7 @@
     <string name="battery_bar_blend_color_summary">Smíchání barvy odpovídající procentu baterie - plné/prázdné</string>
     <string name="battery_bar_blend_color_reverse_title">Pořadí barev</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Nabito → vybito: červená ← zelená ← modrá ← červená</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Full → empty: červená → zelená → modrá → červená</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Nabito → vybito: červená → zelená → modrá → červená</string>
     <string name="battery_bar_hide">Skrýt</string>
     <string name="battery_bar_statusbar">Stavová lišta</string>
     <string name="battery_bar_navbar_top">V horní části navigační lišty</string>

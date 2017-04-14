@@ -961,4 +961,65 @@
     <string name="wired_ringtone_focus_mode_dynamic">Headset kabel jika terhubung dan bermain musik</string>
     <string name="wired_ringtone_focus_mode_stock">Speakerphone dan headset (bawaan)</string>
 
+    <!-- QS Easy Toggle -->
+    <string name="qs_easy_toggle_title">QS Mudah Beralih</string>
+    <string name="qs_easy_toggle_summary">Hidupkan satu kali ketukan untuk tindakan hidup/matikan data seluler, wifi, lokasi dan bluetooth</string>
+
+    <string name="dnd_when_call_title">Jangan Ganggu</string>
+    <string name="dnd_when_call_summary">Hidupkan mode jangan ganggu saat melakukan panggilan</string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_title">Cuaca statusbar</string>
+    <string name="statusbar_weather_summary">Konfigurasi dari Setelan QS/Cuaca.</string>
+    <string name="statusbar_weather_dialog_title">Gaya cuaca statusbar</string>
+    <string name="status_bar_weather_hidden">Tersembunyi</string>
+    <string name="status_bar_temperature_image_show_scale">Tampilkan suhu dengan skala dan gambar</string>
+    <string name="status_bar_temperature_image_hide_scale">Tampilkan suhu dengan gambar tanpa skala</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Tampilkan suhu dengan skala</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Tampilkan suhu tanpa skala</string>
+    <string name="status_bar_show_image">Tampilkan gambar</string>
+
+    <!-- Slim Recent panel -->
+    <string name="slim_recents_title">Slim recents</string>
+    <string name="use_slim_recents_title">Gunakan untuk alternatif terkini</string>
+    <string name="use_slim_recents_summary">Gunakan slim recents bukan recent tampilan bawaan</string>
+    <string name="slim_recents_settings_title">Setelan Slim recent</string>
+    <string name="slim_recents_settings_summary">Lihat setelan untuk slim recents</string>
+    <string name="recent_panel_category">Panel apl slim recent</string>
+    <string name="show_running_tasks_title">Hanya tampilkan apl yang berjalan</string>
+    <string name="recents_max_apps_title">Maks apl ditampilkan</string>
+    <string name="recent_panel_scale_title">Ukuran</string>
+    <string name="recent_panel_expanded_mode_title">Mode diperluas</string>
+    <string name="recent_panel_expanded_mode_summary">Perluas tampilan mode tugas terkini</string>
+    <string name="recent_panel_expanded_mode_auto">Otomatis (bawaan)</string>
+    <string name="recent_panel_expanded_mode_always">Selalu</string>
+    <string name="recent_panel_expanded_mode_never">Jangan pernah</string>
+    <string name="recent_panel_show_topmost_title">Tampilkan tugas teratas</string>
+    <string name="recent_panel_show_topmost_summary">Jangan tampilkan tugas teratas di laman terkini</string>
+    <string name="recent_panel_bg_color_title">Warna latar panel</string>
+    <string name="recent_card_bg_color_title">Warna latar kartu</string>
+    <string name="recent_reset_title">Kembalikan warna ke standar</string>
+    <string name="recent_reset_confirm">Apa anda yakin ingin mengembalikan warna Slim Recent ke standar?</string>
+    <string name="default_auto_string">Bawaan (berdasarkan apl)</string>
+    <string name="slim_icon_pack_title">Paket Ikon</string>
+    <string name="slim_icon_pack_summary">Terapkan paket ikon khusus untuk apl di panel</string>
+    <string name="no_iconpacks_summary">Tidak ada paket ikon terpasang</string>
+    <string name="dialog_pick_iconpack_title">Pilih paket ikon</string>
+    <string name="default_iconpack_title">Ikon bawaan</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Tampilkan di tepi kiri</string>
+    <string name="recent_panel_lefty_mode_summary">Tampilkan panel aplikasi baru pada tepi kiri</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Tampilkan indikator jelajah</string>
+    <string name="roaming_indicator_icon_summary">Tampilan jelajah indikator dalam ikon sinyal ketika dalam mode jelajah</string>
+
+    <string name="screenshot_crop_and_share_title">Pangkas screenshot &amp; bagikan</string>
+    <string name="screenshot_crop_and_share_summary">Tampilkan jendela editor setelah mengambil screenshot untuk melakukan beberapa operasi seperti memotong, menyimpan atau berbagi</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Tampilkan status baterai bluetooth</string>
+    <string name="bluetooth_battery_summary">Tampilkan status baterai untuk perangkat bluetooth yang terhubung saat ini, jika tersedia.</string>
+
 </resources>

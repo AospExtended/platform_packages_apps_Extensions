@@ -59,7 +59,7 @@
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Bantu kami membantu anda!</string>
-    <string name="extensions_dialog_message">Jika anda menemukan bug dengan setelan ini, posting di Laporan Bug bagian dari laman Google+ kami. Anda harus menyertakan berikut ini ketika posting laporan bug:\n\n1. A logcat atau last_kmsg\n2. Kernel dan mods yang digunakan\n3. Informasi yang membantu\n\nJika laporan anda tidak bisa memenuhi hal tersebut, JANGAN mengharapkan ada hal-hal yang akan diperbaiki.</string>
+    <string name="extensions_dialog_message">Jika anda menemukan bug dengan setelan ini, posting di Laporan Bug bagian dari laman Google+ kami. Anda harus menyertakan berikut ini ketika posting laporan bug:\n\n1. Sebuah logcat atau last_kmsg\n2. Kernel dan mods yang digunakan\n3. Informasi yang membantu\n\nJika laporan anda tidak bisa memenuhi hal tersebut, JANGAN mengharapkan ada hal-hal yang akan diperbaiki.</string>
     <string name="extensions_dialog_toast">BACALAH HAL INI SELURUHNYA!</string>
 
     <!-- Privacy Guard -->
@@ -654,7 +654,7 @@
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info pengisian baterai</string>
-    <string name="lockscreen_battery_info_summary">Tampilan rincian pengisian maks arus dan tegangan dan suhu baterai pada layar kunci saat pengisian</string>
+    <string name="lockscreen_battery_info_summary">Tampilan rincian pengisian maks arus dan tegangan serta suhu baterai pada layar kunci saat pengisian</string>
 
     <!-- Hardware button navigation -->
     <string name="hardware_keys_volume_keys_title">Volume rocker</string>
@@ -701,7 +701,7 @@
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Baterai</string>
     <string name="status_bar_battery_style_title">Gaya status baterai</string>
-    <string name="status_bar_battery_style_icon_portrait">Ikon potrer</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
     <string name="status_bar_battery_style_icon_landscape">Ikon lanskap</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="status_bar_battery_style_bigcircle">Lingkaran Besar</string>
@@ -713,7 +713,7 @@
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <string name="status_bar_battery_style_tile_title">Gaya ikon baterai khusus juga</string>
-    <string name="status_bar_battery_style_tile_summary">Memungkinkan untuk mengatur gaya ikon sama  yangdipilih untuk baterai status bar</string>
+    <string name="status_bar_battery_style_tile_summary">Memungkinkan untuk mengatur gaya ikon sama dengan yang dipilih untuk baterai statusbar</string>
     <string name="status_bar_charge_color_title">Setel ikon status bar baterai warna saat pengisian</string>
     <string name="force_charge_battery_text_title">Tampilan persentase baterai saat pengisian</string>
     <string name="force_charge_battery_text_summary_on">Tampilkan persentase di luar baterai saat pengisian</string>
@@ -789,7 +789,7 @@
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animasi</string>  
     <string name="system_animation_title">Animasi sistem</string>
-    <string name="activity_open_title">Aktivitas membukan aplikasi</string>
+    <string name="activity_open_title">Aktivitas membuka aplikasi</string>
     <string name="activity_close_title">Aktivitas menutup aplikasi</string>
     <string name="task_open_title">Animasi membuka tugas</string>
     <string name="task_open_behind_title">Animasi membuka tugas latar</string>

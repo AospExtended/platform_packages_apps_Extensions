@@ -18,263 +18,263 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- General app strings -->
-    <string name="extensions_title">Extensions</string>
-    <string name="add">Add</string>
-    <string name="advanced">Advanced</string>
-    <string name="cancel">Cancel</string>
-    <string name="choose_app">Choose app</string>
-    <string name="general_category">General</string>
-    <string name="gestures_category">Gestures</string>
-    <string name="music_category">Music</string>
-    <string name="weather_category">Lockscreen weather</string>
-    <string name="security_category">Security</string>
-    <string name="hardware_category">Hardware</string>
-    <string name="animations_category">Tile animations</string>
-    <string name="traffic_category">Traffic indicators</string>
-    <string name="dlg_ok">OK</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="reset">Reset</string>
-    <string name="reset_colors">Reset colors</string>
+    <string name="extensions_title">Ekstensi</string>
+    <string name="add">Tambah</string>
+    <string name="advanced">Lanjutan</string>
+    <string name="cancel">Batal</string>
+    <string name="choose_app">Pilih apl</string>
+    <string name="general_category">Umum</string>
+    <string name="gestures_category">Gerakan</string>
+    <string name="music_category">Musik</string>
+    <string name="weather_category">Cuaca di Layar Kunci</string>
+    <string name="security_category">Keamanan</string>
+    <string name="hardware_category">Perangkat keras</string>
+    <string name="animations_category">Animasi ikon</string>
+    <string name="traffic_category">Indikator lalu lintas</string>
+    <string name="dlg_ok">OKE</string>
+    <string name="loading">Memuat\u2026</string>
+    <string name="reset">Kembalikan</string>
+    <string name="reset_colors">Kembalikan warna</string>
     <string name="reset_android">Android</string>
-    <string name="text_title">Text</string>
-    <string name="icon_title">Icon</string>
-    <string name="color_title">Color</string>
-    <string name="colors_title">Colors</string>
+    <string name="text_title">Teks</string>
+    <string name="icon_title">Ikon</string>
+    <string name="color_title">Warna</string>
+    <string name="colors_title">Warna</string>
 
     <!-- Extensions categories -->
-    <string name="recents_category">Recents</string>
+    <string name="recents_category">Terkini</string>
     <string name="status_bar_category">Status Bar</string>
-    <string name="notifications_panel_category">Notifications Panel</string>
-    <string name="system_category">System</string>
-    <string name="statusbar_items_category">Statusbar items</string>
-    <string name="navigation_category">Navigation</string>
-    <string name="lockscreen_category">Lockscreen</string>
-    <string name="breathing_notifications_category">Breathing Notifications</string>
-    <string name="build_tweaks_summary_title">Extend your device!</string>
-    <string name="system_animations">System Animations</string>
+    <string name="notifications_panel_category">Panel Notifikasi</string>
+    <string name="system_category">Sistem</string>
+    <string name="statusbar_items_category">Item Statusbar</string>
+    <string name="navigation_category">Navigasi</string>
+    <string name="lockscreen_category">Layar Kunci</string>
+    <string name="breathing_notifications_category">Jeda Notifikasi</string>
+    <string name="build_tweaks_summary_title">Oprek perangkat anda!</string>
+    <string name="system_animations">Animasi Sistem</string>
     <string name="toast">Toast</string>
     <string name="listview">ListView</string>
-    <string name="qs_header_title">Quick settings header</string>
-    <string name="qs_omnijaws_category">Weather QS tile</string>
+    <string name="qs_header_title">Setelan Cepat atas</string>
+    <string name="qs_omnijaws_category">Ikon Cuaca QS</string>
 
     <!-- App info dialog -->
-    <string name="extensions_dialog_title">Help us help you!</string>
-    <string name="extensions_dialog_message">If you find a bug with any of these settings, post in the Bug Reports section of our Google+ page. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
-    <string name="extensions_dialog_toast">READ THE WHOLE THING!</string>
+    <string name="extensions_dialog_title">Bantu kami membantu anda!</string>
+    <string name="extensions_dialog_message">Jika anda menemukan bug dengan setelan ini, posting di Laporan Bug bagian dari laman Google+ kami. Anda harus menyertakan berikut ketika posting laporan bug:\n\n1. A logcat atau last_kmsg\n2. Kernel dan mods yang digunakan\n3. Informasi yang membantu\n\nJika anda gagal untuk melaporkan hal tersebut, JANGAN mengharapkan ada hal-hal yang akan diperbaiki.</string>
+    <string name="extensions_dialog_toast">BACALAH HAL INI SELURUHNYA!</string>
 
     <!-- Privacy Guard -->
-    <string name="privacy_guard_manager_title">Privacy Guard</string>
-    <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
-    <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
-    <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
-    <string name="privacy_guard_dlg_system_app_text">When enabling Privacy Guard for a built-in app, the app will not be able to access or provide personal data. This may cause other apps to misbehave.</string>
-    <string name="privacy_guard_default_title">Enabled by default</string>
-    <string name="privacy_guard_default_summary">Enable by default for newly-installed apps</string>
-    <string name="privacy_guard_manager_summary">Manage which apps have access to your personal data</string>
-    <string name="privacy_guard_no_user_apps">No apps are installed</string>
-    <string name="privacy_guard_help_title">Help</string>
-    <string name="privacy_guard_reset_title">Reset</string>
-    <string name="privacy_guard_reset_text">Reset permissions?</string>
-    <string name="privacy_guard_help_text">In this screen you can choose which apps Privacy Guard should be active for by simply tapping on them. Selected apps will not be able to access your personal data such as contacts, messages or call logs. Long pressing an app\'s entry opens its app details screen.\n\nBuilt-in apps are not shown by default but can be revealed by selecting the respective menu option.</string>
-    <string name="privacy_guard_manager_show_system_apps">Show built-in apps</string>
-    <string name="privacy_guard_advanced_settings_title">Advanced</string>
-    <string name="privacy_guard_notification_title">Show notification</string>
+    <string name="privacy_guard_manager_title">Penjaga Privasi</string>
+    <string name="privacy_guard_switch_label">Hidupkan Penjaga Privasi</string>
+    <string name="privacy_guard_dlg_title">Hidupkan Penjaga Privasi?</string>
+    <string name="privacy_guard_dlg_text">Ketika Penjaga Privasi dihidupkan, aplikasi tidak akan dapat mengakses data pribadi seperti kontak, pesan atau log panggilan.</string>
+    <string name="privacy_guard_dlg_system_app_text">Saat menghidupkan Penjaga Privasi untuk aplikasi built-in, aplikasi tidak akan dapat mengakses atau memberikan data pribadi. Hal ini dapat menyebabkan aplikasi lain untuk berbuat jahat.</string>
+    <string name="privacy_guard_default_title">Hidupkan pada pengaturan standar</string>
+    <string name="privacy_guard_default_summary">Hidupkan secara standar untuk aplikasi baru diinstal</string>
+    <string name="privacy_guard_manager_summary">Kelola aplikasi mana memiliki akses ke data pribadi anda</string>
+    <string name="privacy_guard_no_user_apps">Tidak ada aplikasi terpasang</string>
+    <string name="privacy_guard_help_title">Bantuan</string>
+    <string name="privacy_guard_reset_title">Kembalikan</string>
+    <string name="privacy_guard_reset_text">Kembalikan perizinan?</string>
+    <string name="privacy_guard_help_text">Pada layar Penjaga Privasi ini anda dapat memilih aplikasi yang mana yang harus hidup, untuk menghidupkan hanya tekan mereka. Aplikasi yang dipilih tidak akan dapat mengakses data pribadi anda seperti kontak, pesan atau log panggilan. Tekan lama aplikasi untuk membuka rincian aplikasi.\n\nAplikasi Built-in tidak ditampilkan secara standar, tetapi dapat terungkap dengan memilih opsi menu di atas.</string>
+    <string name="privacy_guard_manager_show_system_apps">Lihat apl built-in</string>
+    <string name="privacy_guard_advanced_settings_title">Lanjutan</string>
+    <string name="privacy_guard_notification_title">Tampilkan notifikasi</string>
 
     <!-- OmniJaws -->
-    <string name="weather_config_title">Weather settings</string>
+    <string name="weather_config_title">Setelan cuaca</string>
     <string name="weather_config_summary"></string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
+    <string name="header_weather_summary">Hidupkan notifikasi di atas pemberitahuan panel</string>
+    <string name="weather_icon_pack_title">Keadaan paket ikon</string>
 
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_title">Brightness slider</string>
-    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_brightness_slider_title">Penggeser kecerahan</string>
+    <string name="qs_brightness_slider_summary">Tampilkan penggeser kecerahan pada panel setelan cepat</string>
 
-    <string name="brightness_icon_title">Brightness icon </string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+    <string name="brightness_icon_title">Ikon kecerahan</string>
+    <string name="brightness_icon_summary">Tampilkan sebuah ikon kecewahan di samping kiri penggeser kecerahan untuk sesuaikan kecerahan otomatis</string>
 
     <!-- Quick Settings -->
-    <string name="quick_settings_title">Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_settings_title">Setelan Cepat</string>
+    <string name="status_bar_quick_qs_pulldown_title">Keruntuhan cepat</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Menarik tepi kanan status bar ke bawah untuk Setelan Cepat</string>
 
     <!-- Misc Extensions -->
-    <string name="misc_extensions_title">Misc Extensions</string>
+    <string name="misc_extensions_title">Ekstensi Lainnya</string>
 
     <!-- General Tweaks -->
-    <string name="general_tweaks_title">General Tweaks</string>
+    <string name="general_tweaks_title">Tweak Umum</string>
 
     <!-- Notifications -->
-    <string name="notifications_title">Notifications</string>
+    <string name="notifications_title">Notifikasi</string>
 
     <!-- Recents UI -->
-    <string name="recents_ui_title">Recents UI</string>
+    <string name="recents_ui_title">UI Terkini</string>
 
     <!-- Lockscreen UI -->
-    <string name="lockscreen_ui_title">Lockscreen UI</string>
+    <string name="lockscreen_ui_title">UI Layar Kunci</string>
 
     <!-- Buttons -->
-    <string name="buttons_title">Buttons</string>
+    <string name="buttons_title">Tombol</string>
 
     <!-- Blur -->
     <string name="blur_title">Blur</string>
 
     <!-- Animations -->
-    <string name="animations_title">Animations</string>
+    <string name="animations_title">Animasi</string>
 
     <!-- Carrier Label -->
-    <string name="carrierlabel_title">Carrier Label</string>
+    <string name="carrierlabel_title">Label Operator</string>
 
     <!-- Show notification count -->
-    <string name="status_bar_notif_count_title">Show notification count</string>
-    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="status_bar_notif_count_title">Tampilkan hitungan notifikasi</string>
+    <string name="status_bar_notif_count_summary">Menampilkan nomor dari notifikasi tertunda</string>
 
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double-tap on the status bar or top third and bottom shortcut area of the lock screen to turn off the display</string>
+    <string name="double_tap_to_sleep_title">Ketuk dua kali tidur</string>
+    <string name="double_tap_to_sleep_summary">Ketuk dua kali di statusbar atas atau ketiga pintasan bawah di area saat layar terkunci untuk mematikan layar</string>
     
      <!-- Toast Icons -->
-    <string name="toast_icon_title">Toast icon</string>
-    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+    <string name="toast_icon_title">Ikon toast</string>
+    <string name="toast_icon_summary">Menampilkan ikon sesuai apl dengan toast</string>
 
     <!-- Power notification controls -->
-    <string name="power_notification_controls_title">Power notification controls</string>
-    <string name="power_notification_controls_summary">Select importance level for notifications</string>
+    <string name="power_notification_controls_title">Kontrol kekuatan notifikasi</string>
+    <string name="power_notification_controls_summary">Pilih tingkat kepentingan untuk notifikasi</string>
 
     <!-- Force expanded notifications -->
-    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
-    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+    <string name="force_expanded_notifications_title">Paksa Perluas Notifikasi</string>
+    <string name="force_expanded_notifications_summary">Tersedia hanya untuk aplikasi yang mendukung pemberitahuan diperluas</string>
 
     <!-- Disabling immersive mode messages -->
-    <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
-    <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+    <string name="disable_immersive_message_title">Matikan Immersive Mode Pesan</string>
+    <string name="disable_immersive_message_summary">Ini akan menyembunyikan semua Immersive Mode Pesan</string>
 
     <!-- Flashlight notification -->
-    <string name="flashlight_notification_title">Flashlight notification</string>
-    <string name="flashlight_notification_summary">Enable notification for when the flashlight is on</string>
+    <string name="flashlight_notification_title">Notifikasi senter</string>
+    <string name="flashlight_notification_summary">Hidupkan notifikasi untuk senter saat hidup</string>
 
     <!-- Immersive Recents -->
-    <string name="immersive_recents_title">Immersive Recents</string>
-    <string name="immersive_recents_summary">Change the view of the recents screen</string>
-    <string name="immersive_recents_dialog_title">Select recents view</string>
-    <string name="immersive_recents_default">Default</string>
-    <string name="immersive_recents_fullscreen">Fullscreen</string>
-    <string name="immersive_recents_statusbar">Statusbar only</string>
-    <string name="immersive_recents_navbar">Navbar only</string>
-
+    <string name="immersive_recents_title">Immersive Terkini</string>
+    <string name="immersive_recents_summary">Mengubah tampilan layar terkini</string>
+    <string name="immersive_recents_dialog_title">Pilih tampilan terkini</string>
+    <string name="immersive_recents_default">Bawaan</string>
+    <string name="immersive_recents_fullscreen">Layar penuh</string>
+    <string name="immersive_recents_statusbar">Statusbar saja</string>
+    <string name="immersive_recents_navbar">Navisgasibar saja</string>
+	
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_style_title">Tiles animation style</string>
-    <string name="qs_tile_animation_duration_title">Tiles animation duration</string>
-    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
-    <string name="qs_tile_animation_style_off">No animation</string>
-    <string name="qs_tile_animation_style_flip">Flip</string>
-    <string name="qs_tile_animation_style_rotate">Rotate</string>
-    <string name="qs_tile_animation_duration_low">Low</string>
-    <string name="qs_tile_animation_duration_default">Default</string>
-    <string name="qs_tile_animation_duration_fast">Fast</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_style_title">Gaya animasi tiles</string>
+    <string name="qs_tile_animation_duration_title">Durasi animasi tiles</string>
+    <string name="qs_tile_animation_interpolator_title">Animasi interpolar tiles</string>
+    <string name="qs_tile_animation_style_off">Tidak ada animasi</string>
+    <string name="qs_tile_animation_style_flip">Membalik</string>
+    <string name="qs_tile_animation_style_rotate">Berputar</string>
+    <string name="qs_tile_animation_duration_low">Lambat</string>
+    <string name="qs_tile_animation_duration_default">Standar</string>
+    <string name="qs_tile_animation_duration_fast">Cepat</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Berbaris</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Mempercepat</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Memperlambat</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Mempercepat melambat</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Melambung</string>
     <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticsipasi</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antisipasi overshoot</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
     <!-- MediaScanner behavior on boot -->
-    <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
-    <string name="media_scanner_on_boot_enabled">Scan media</string>
-    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
-    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
+    <string name="media_scanner_on_boot_title">Memndai Media ketika boot</string>
+    <string name="media_scanner_on_boot_enabled">Pemindai media</string>
+    <string name="media_scanner_on_boot_ask">Tanya untuk memindai (notifikasi)</string>
+    <string name="media_scanner_on_boot_disabled">Jangan memindai media</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
-    <string name="show_network_traffic_500">500 ms</string>
-    <string name="show_network_traffic_1000">1000 ms</string>
-    <string name="show_network_traffic_1500">1500 ms</string>
-    <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
+    <string name="network_traffic_title">Lalu lintas jaringan</string>
+    <string name="show_network_traffic_state">Status bar monitor lalu lintas</string>
+    <string name="show_network_traffic_unit">Menampilkan unit</string>
+    <string name="show_network_traffic_frequency">Interval pembaruan</string>
+    <string name="show_network_traffic_disable">Dimatikan</string>
+    <string name="show_network_traffic_up">Keluar</string>
+    <string name="show_network_traffic_down">Masuk</string>
+    <string name="show_network_traffic_all">Keluar dan masuk</string>
+    <string name="show_network_traffic_bit">Bits per detik</string>
+    <string name="show_network_traffic_byte">Bytes per detik</string>
+    <string name="show_network_traffic_500">500 md</string>
+    <string name="show_network_traffic_1000">1000 md</string>
+    <string name="show_network_traffic_1500">1500 md</string>
+    <string name="show_network_traffic_2000">2000 md</string>
+    <string name="network_traffic_autohide">Sembunyikan otomatis</string>
+    <string name="network_traffic_autohide_summary">Sembunyikan monitor lalu lintas saat tidak ada aktivitas</string>
+    <string name="network_traffic_autohide_threshold">Ambang batas tidak aktif</string>
+    <string name="network_traffic_hidearrow">Sembunyikan panah</string>
+    <string name="network_traffic_hidearrow_summary">Sembunyikan panah pada indikator lalu lintas</string>
 
     <!-- Statusbar Clock options -->
-    <string name="status_bar_clock">Clock &amp; Date</string>
-    <string name="clock_title_enable">Alignment</string>
-    <string name="status_bar_show_clock_title">Show clock &amp; date</string>
-    <string name="status_bar_clock_seconds_title">Show seconds</string>
+    <string name="status_bar_clock">Jam &amp; Tanggal</string>
+    <string name="clock_title_enable">Tata letak</string>
+    <string name="status_bar_show_clock_title">Tampilkan jam &amp; tanggal</string>
+    <string name="status_bar_clock_seconds_title">Tampilkan detik</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="right_clock">Right clock</string>
-    <string name="center_clock">Center clock</string>
-    <string name="left_clock">Left clock</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
+    <string name="status_bar_am_pm_info">24-jam hidup</string>
+    <string name="right_clock">Jam dikanan</string>
+    <string name="center_clock">Jam ditengah</string>
+    <string name="left_clock">Jam dikiri</string>
+    <string name="clock_date_display">Tanggal</string>
+    <string name="clock_date_style">Gaya tanggal</string>
+    <string name="clock_date_position">Posisi tanggal</string>
+    <string name="clock_date_format">Format tanggal</string>
+    <string name="clock_date_string_edittext_title">Harus sesuai format tanggal contoh. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Masukkan string</string>
+    <string name="clock_date_right">Dikanan jam</string>
+    <string name="clock_date_left">Dikiri Jam</string>
     <string name="clock_am_pm_date_normal">Normal</string>
-    <string name="clock_am_pm_date_small">Small</string>
-    <string name="clock_am_pm_date_none">Hidden</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
+    <string name="clock_am_pm_date_small">Kecil</string>
+    <string name="clock_am_pm_date_none">Tersembunyi</string>
+    <string name="clock_date_style_lowercase">Huruf kecil</string>
+    <string name="clock_date_style_uppercase">Huruf besar</string>
+    <string name="clock_date_format_custom">Format kostum</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Pemilih Warna</string>
+    <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Bawaan</string>
 
     <!-- Navigation Bar -->
-    <string name="navbar_interface_title">Interface</string>
-    <string name="navbar_size">Bar size</string>
-    <string name="navbar_mode">Navigation mode</string>
-    <string name="navbar_visibility">Enable navigation bar</string>
-    <string name="navigationbar_settings_title">Navigation bar</string>
-    <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-    <string name="navbar_general_title">Advanced</string>
-    <string name="navigation_bar_left_title">Left-handed mode</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-    <string name="info_pref_note_title">Note</string>
-    <string name="smartbar_interface">SmartBar</string>
-    <string name="icon_pack_picker_dialog_title">Icon packs</string>
-    <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="default_string">Default</string>
-    <string name="reset">Reset</string>
+    <string name="navbar_interface_title">Antarmuka</string>
+    <string name="navbar_size">Ukuran bar</string>
+    <string name="navbar_mode">Mode navigasi</string>
+    <string name="navbar_visibility">Hidupkan navigasi bar</string>
+    <string name="navigationbar_settings_title">Navigasi bar</string>
+    <string name="navigationbar_settings_summary">Sesuaikan gaya navigasi dan prilaku</string>
+    <string name="navbar_general_title">Lanjutan</string>
+    <string name="navigation_bar_left_title">Mode satu tangan</string>
+    <string name="navigation_bar_left_summary">Tempatkan navigasi bar di sisi kiri layar dalam mode lanskap</string>
+    <string name="info_pref_note_title">Catatan</string>
+    <string name="smartbar_interface">Bar pintar</string>
+    <string name="icon_pack_picker_dialog_title">Paket ikon</string>
+    <string name="invalid_icon_from_uri">Tidak dapat memuat gambar dari penyedian konten</string>
+    <string name="picker_activities">Aktivitas</string>
+    <string name="select_custom_app_title">Pilih kostum aplikasi</string>
+    <string name="select_custom_activity_title">Pilih aktivitas kostum</string>
+    <string name="profile_applist_title">Aplikasi</string>
+    <string name="default_string">Bawaan</string>
+    <string name="reset">Kembalikan</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
+    <string name="choose_action_title">Pilih tindakan</string>
+    <string name="action_entry_default_action">Setelan bawaan</string>
+    <string name="action_entry_select_app">Pilih aplikasi</string>
+    <string name="action_entry_custom_action">Pilih tindakan kostum</string>
 
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
@@ -287,96 +287,95 @@
     <string name="action_value_menu" translatable="false">task_menu</string>
 
     <!-- Fling -->
-    <string name="fling_settings">Fling settings</string>
+    <string name="fling_settings">Setelan fling</string>
     <string name="fling_interface">Fling</string>
-    <string name="fling_enable_title">Enable Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
-    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
-    <string name="fling_def_summary">No action set</string>
-    <string name="fling_swipe_actions">Swipe gestures</string>
-    <string name="fling_tap_actions">Tap gestures</string>
-    <string name="fling_short_swipe_right">Right short swipe</string>
-    <string name="fling_short_swipe_left">Left short swipe</string>
-    <string name="fling_long_swipe_right">Right long swipe</string>
-    <string name="fling_long_swipe_left">Left long swipe</string>
-    <string name="fling_right_up_swipe">Right side swipe up</string>
-    <string name="fling_left_up_swipe">Left side swipe up</string>
-    <string name="fling_single_tap">Single tap right</string>
-    <string name="fling_double_tap">Double tap right</string>
-    <string name="fling_long_press">Long press right</string>
-    <string name="fling_single_left_tap">Single tap left</string>
-    <string name="fling_double_left_tap">Double tap left</string>
-    <string name="fling_long_left_press">Long press left</string>
-    <string name="long_swipe_portrait_title">Portrait</string>
-    <string name="long_swipe_landscape_title">Landscape</string>
-    <string name="portrait_right_swipe_title">Portrait right swipe</string>
-    <string name="portrait_left_swipe_title">Portrait left swipe</string>
-    <string name="landscape_right_swipe_title">Landscape right swipe</string>
-    <string name="landscape_left_swipe_title">Landscape left swipe</string>
-    <string name="vertical_up_swipe_title">Vertical up swipe</string>
-    <string name="vertical_down_swipe_title">Vertical down swipe</string>
-    <string name="up_swipe_title">Up swipe</string>
-    <string name="down_swipe_title">Down swipe</string>
-    <string name="long_swipe_reset">Reset</string>
-    <string name="fling_advanced">Advanced</string>
-    <string name="fling_long_swipe_title">Long swipe thresholds</string>
-    <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
-    <string name="fling_trails_enable_title">Enable gesture trails</string>
-    <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
-    <string name="fling_trails_color_title">Trail color</string>
-    <string name="fling_trails_width_title">Trail width</string>
-    <string name="fling_appearance">Appearance</string>
-    <string name="fling_show_logo_title">Show Fling logo</string>
-    <string name="fling_animate_logo_title">Animate logo</string>
-    <string name="fling_animate_logo_summary">Logo animates on touch events</string>
-    <string name="fling_logo_color">Logo color</string>
-    <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
-    <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
-    <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
-    <string name="fling_show_ripple_title">Show ripple</string>
-    <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
-    <string name="fling_ripple_color">Ripple color</string>
-    <string name="fling_longpress_timeout_label_left">Less delay</string>
-    <string name="fling_longpress_timeout_label_right">More delay</string>
-    <string name="fling_longpress_title">Long press delay</string>
-    <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
+    <string name="fling_enable_title">Hidupkan fling</string>
+    <string name="fling_back_home_policy">Kembali dan Beranda diminta untuk diatur setiap saat. Untuk mengubah tugas Kembali atau Beranda, tetapkan tugas yang diinginkan pertama</string>
+    <string name="fling_split_bar_policy">Ketika hanya kanan atau tindakan kiri ditugaskan, tindakan berlaku untuk bar penuh</string>
+    <string name="fling_def_summary">Tidak ada tindakan disetel</string>
+    <string name="fling_swipe_actions">Gerakan menggesek</string>
+    <string name="fling_tap_actions">Ketuk gerakan</string>
+    <string name="fling_short_swipe_right">Menggesek singkat kekanan</string>
+    <string name="fling_short_swipe_left">Menggesek singkat kekiri</string>
+    <string name="fling_long_swipe_right">Menggesek penjang kekanan</string>
+    <string name="fling_long_swipe_left">Menggesek penjang kekiri</string>
+    <string name="fling_right_up_swipe">Menggesek sisi kanan ke atas</string>
+    <string name="fling_left_up_swipe">Menggesek sisi kanan ke bawah</string>
+    <string name="fling_single_tap">Ketuk sekali dikanan</string>
+    <string name="fling_double_tap">Ketuk ganda dikanan</string>
+    <string name="fling_long_press">Ketukan panjang dikanan</string>
+    <string name="fling_single_left_tap">Ketukan sekali dikiri</string>
+    <string name="fling_double_left_tap">Ketukan ganda dikiri</string>
+    <string name="fling_long_left_press">Ketukan panjang dikiri</string>
+    <string name="long_swipe_portrait_title">Potret</string>
+    <string name="long_swipe_landscape_title">Landskap</string>
+    <string name="portrait_right_swipe_title">Gesek kekanan saat potret</string>
+    <string name="portrait_left_swipe_title">Gesek kekiri saat potret</string>
+    <string name="landscape_right_swipe_title">Gesek kekanan saat landskap</string>
+    <string name="landscape_left_swipe_title">Gesek kekiri saat landskap</string>
+    <string name="vertical_up_swipe_title">Gesek keatas vertikal</string>
+    <string name="vertical_down_swipe_title">Gesek kebawah vertikal</string>
+    <string name="up_swipe_title">Gesek keatas</string>
+    <string name="down_swipe_title">Gesek kebawah</string>
+    <string name="long_swipe_reset">Kembalikan</string>
+    <string name="fling_advanced">Lanjutan</string>
+    <string name="fling_long_swipe_title">Batas gesekan panjang</string>
+    <string name="fling_long_swipe_summary">Fine tune ambang menggesek panjang berdasarkan persentase dari lebar atau tinggi antarmuka fling</string>
+    <string name="fling_trails_enable_title">Hidupkan jejak gerakan</string>
+    <string name="fling_trails_enable_summary">Tampilkan jejak gerakan menggesek</string>
+    <string name="fling_trails_color_title">Warna jejak</string>
+    <string name="fling_trails_width_title">Tinggi jejak</string>
+    <string name="fling_appearance">Penampilan</string>
+    <string name="fling_show_logo_title">Tampilkan logo fling</string>
+    <string name="fling_animate_logo_title">Animasi logo</string>
+    <string name="fling_animate_logo_summary">Animasikan logo tiap menekan sentuhan</string>
+    <string name="fling_logo_color">Warna logo</string>
+    <string name="fling_logo_custom_logo_pick_title">Logo ikon kostum</string>
+    <string name="fling_logo_custom_logo_image_pick_title">Logo ikon gambar</string>
+    <string name="fling_logo_custom_logo_reset_title">Kembalikan logo ikon</string>
+    <string name="fling_show_ripple_title">Tampilkan desir</string>
+    <string name="fling_show_ripple_summary">Efek desir saat peristiwa sentuhan</string>
+    <string name="fling_ripple_color">Warna desir</string>
+    <string name="fling_longpress_timeout_label_left">Sedikit delay</string>
+    <string name="fling_longpress_timeout_label_right">Lebih banyak delay</string>
+    <string name="fling_longpress_title">Lama delay tekanan</string>
+    <string name="fling_longpress_summary">Menambah atau mengurangi waktu yang dibutuhkan untuk menjalankan tekan lama</string>
 
     <!-- Pulse navigation bar music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer on the navigation bar when music plays. Pulse does not work with some audio sources when listening on device speaker</string>
+    <string name="pulse_help_policy_notice_title">Tentang Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse adalah equalizer grafis audio yang brilian di bar navigasi ketika musik dimainkan. Pulsa tidak bekerja dengan beberapa sumber audio ketika mendengarkan pada speaker perangkat</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
-    <string name="fling_show_pulse_title">Show Pulse</string>
-    <string name="fling_show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="fling_pulse_color">Pulse color</string>
-    <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
-    <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
-    <string name="pulse_advanced_category">Advanced</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
-    <string name="pulse_solid_units_count">Solid lines count</string>
-    <string name="pulse_solid_lines_count">Solid lines count</string>
-    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
-    <string name="fling_lavalamp_color_from">Lava Lamp start color</string>
-    <string name="fling_lavalamp_color_to">Lava Lamp end color</string>
+    <string name="pulse_settings_summary">Equalizer grafis audio di navigasi</string>
+    <string name="fling_show_pulse_title">Tampilkan Pulse</string>
+    <string name="fling_show_pulse_summary">Equalizer grafis audio di bar navigasi</string>
+    <string name="pulse_render_mode_title">Mode Render</string>
+    <string name="pulse_render_mode_fading_bars">Blok memudar</string>
+    <string name="pulse_render_mode_solid_lines">Garis padat</string>
+    <string name="fling_pulse_color">Warna Pulse</string>
+    <string name="eos_fling_lavalamp_title">Hidupkan Lampu Lava</string>
+    <string name="eos_fling_lavalamp_summary">Pulse menjiwai lampu lava warna gaya campuran yang halus</string>
+    <string name="pulse_advanced_category">Lanjutan</string>
+    <string name="pulse_legacy_mode_advanced_category">Mode setelan blok memudar</string>
+    <string name="pulse_custom_fudge_factor">Tingkat sanity</string>
+    <string name="lavamp_solid_speed_title">Kecepatan lampu lava</string>
+    <string name="pulse_solid_units_count">Menghitung garis padat</string>
+    <string name="pulse_solid_units_opacity">Kegelapan garis padat</string>
+    <string name="pulse_solid_dimen_category">Mode setelan garis padat</string>
+    <string name="fling_lavalamp_color_from">Awal warna lampu lava</string>
+    <string name="fling_lavalamp_color_to">Akhir warna lampu lava</string>
 
     <!-- Pulse config -->
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_custom_dimen">Lebar bar</string>
+    <string name="pulse_custom_div">Jarak bar</string>
+    <string name="pulse_filled_block_size">Ukuran blok</string>
+    <string name="pulse_empty_block_size">Jarak blok</string>
 
     <!-- Navbar height -->
-    <string name="navigation_bar_size_title">Bar size</string>
-    <string name="portrait_title">Portrait height</string>
-    <string name="land_vert_title">Landscape width</string>
-    <string name="land_hor_title">Landscape height</string>
-    <string name="positive_done">Done</string>
+    <string name="navigation_bar_size_title">Ukuran bar</string>
+    <string name="portrait_title">Tinggi potret</string>
+    <string name="land_vert_title">Lebar lanskap</string>
+    <string name="land_hor_title">Tinggi lanskap</string>
+    <string name="positive_done">Selesai</string>
 
     <!-- SmartBar -->
     <string name="smartbar_category">Smartbar</string>
@@ -411,108 +410,108 @@
     <string name="smartbar_config_backup_error_toast">Error saving Smartbar profile</string>
     <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
     <string name="navbar_buttons_alpha_title">Button transparency</string>
-
-    <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+	
+	<!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Getar saat disentuh</string>
+    <string name="quick_settings_vibrate_summary">Bergetar saat menyentuh ikon tile</string>
 
     <!-- Advanced data tile -->
-    <string name="qs_advanced_data_title">Advanced data tile</string>
-    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+    <string name="qs_advanced_data_title">Tile data lanjutan</string>
+    <string name="qs_advanced_data_summary">Hidupkan tindakan sekali ketuk untuk hidupkan atau mematikan data</string>
 
     <!-- Do not disturb switch in volume panel -->
-    <string name="tuner_full_zen_title">Do not disturb switch</string>
-    <string name="tuner_full_zen_summary">Show a do not disturb switch in the volume panel</string>
+    <string name="tuner_full_zen_title">Tombol jangan ganggu</string>
+    <string name="tuner_full_zen_summary">Tampilkan tombol beralih jangan ganggu pada panel volume</string>
 
     <!-- Breathing Notifications -->
-    <string name="breathing_notifications_title">Breathing notifications</string>
-    <string name="missed_call_breath_title">Breathing Missed Call</string>
-    <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
-    <string name="voicemail_breath_title">Breathing Voicemail</string>
-    <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
+    <string name="breathing_notifications_title">Breathing notifikasi</string>
+    <string name="missed_call_breath_title">Breathing Panggilan tak terjawab</string>
+    <string name="missed_call_breath_summary">Akan memberikan pemberitahuan panggilan tidak terjawab breathing di status bar</string>
+    <string name="voicemail_breath_title">Breathing Pesan Suara</string>
+    <string name="voicemail_breath_summary">Akan memberikan pemberitahuan pesan suara breathing di status bar</string>
     <string name="sms_breath_title">Breathing SMS</string>
-    <string name="sms_breath_summary">Will give your SMS notifications a breathing effect in the statusbar</string>
+    <string name="sms_breath_summary">Akan memberikan pemberitahuan SMS breathing di status bar</string>
 
     <!-- Do not disturb switch in volume panel -->
-    <string name="tuner_full_zen_title">Do not disturb switch</string>
-    <string name="tuner_full_zen_summary">Show a do not disturb switch in the volume panel</string>
+    <string name="tuner_full_zen_title">Tombol jangan ganttu</string>
+    <string name="tuner_full_zen_summary">Tampilkan tombol beralih jangan ganggu pada panel volume</string>
 
     <!-- Quick settings tiles columns and rows config -->
-    <string name="qs_layout_category">QS tiles layout</string>
-    <string name="qs_rows_portrait_title">Rows (portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (landscape)</string>
-    <string name="qs_columns_title">Columns</string>
-    <string name="qqs_scroll_title">Scroll small QS tiles</string>
-    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
+    <string name="qs_layout_category">Tata letak ikon QS</string>
+    <string name="qs_rows_portrait_title">Baris (portret)</string>
+    <string name="qs_rows_landscape_title">Baris (lanskap)</string>
+    <string name="qs_columns_title">Kolom</string>
+    <string name="qqs_scroll_title">Gulir ikon kecil QS</string>
+    <string name="qqs_scroll_summary">Memungkinkan bergulir melalui ikon kecil QS</string>
 
-    <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
-    <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
+    <string name="qs_wifi_easy_toggle_title">WiFi beralih mudah</string>
+    <string name="qs_wifi_easy_toggle_summary">Membuatnya begitu satu kali ketuk akan menghidupkan WiFi atau mematikan bukan membawa ke setelan</string>
 
     <!-- lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Display music visualizer</string>
-
+    <string name="lockscreen_visualizer_title">Tampilkan visualisasi musik</string>
+   
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_title">Font jam layar kunci</string>
+    <string name="lock_clock_font_summary">Rubah bawaan font widget jam di layar kunci</string>
     <string name="lock_clock_font_normal">Roboto</string>
-    <string name="lock_clock_font_bold">Roboto Bold</string>
-    <string name="lock_clock_font_italic">Roboto Italic</string>
-    <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
-    <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
-    <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
+    <string name="lock_clock_font_bold">Roboto Tebal</string>
+    <string name="lock_clock_font_italic">Roboto Miring</string>
+    <string name="lock_clock_font_bold_italic">Roboto Tebal Miring</string>
+    <string name="lock_clock_font_light_normal">Roboto Standar (bawaan)</string>
+    <string name="lock_clock_font_light_italic">Roboto Standar Miring</string>
     <string name="lock_clock_font_thin_normal">Roboto Thin</string>
-    <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
+    <string name="lock_clock_font_thin_italic">Roboto Thin Miring</string>
     <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
-    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
-    <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_bold">Roboto Condensed Tebal</string>
+    <string name="lock_clock_font_condensed_italic">Roboto Condensed Miring</string>
+    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Tebal Miring</string>
     <string name="lock_clock_font_medium_normal">Roboto Medium</string>
-    <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
+    <string name="lock_clock_font_medium_italic">Roboto Medium Miring</string>
     <string name="lock_clock_font_black_normal">Roboto Black</string>
-    <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
-    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+    <string name="lock_clock_font_black_italic">Roboto Black Miring</string>
+    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Standar</string>
+    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Standar Miring</string>
     <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Tebal</string>
     <string name="lock_clock_font_comingsoon">ComingSoon</string>
     <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Miring</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Tebal</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Tebal Miring</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Lockscreen weather options</string>
-    <string name="lock_screen_weather_settings_title">Weather</string>
-    <string name="weather_cat_notifications_title">Notifications</string>
-    <string name="weather_show_weather_title">Show weather</string>
-    <string name="weather_show_weather_summary">Enable to show weather information</string>
-    <string name="weather_show_location_title">Show location</string>
-    <string name="weather_show_location_summary">Enable to show the location</string>
-    <string name="weather_show_timestamp_title">Show timestamp</string>
-    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
-    <string name="weather_condition_icon_title">Condition icon</string>
-    <string name="weather_condition_icon_dlg_title">Choose an icon for displaying the weather condition</string>
-    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
-    <string name="weather_condition_icon_colored_title">Colored</string>
-    <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">Icons</string>
-    <string name="position_right_title">Right</string>
-    <string name="position_centered_title">Centered</string>
-    <string name="hidden_title">Hidden</string>
-    <string name="weather_hide_panel_title">Hide weather panel</string>
-    <string name="weather_hide_panel_dlg_title">Choose when the weather panel should be hidden</string>
-    <string name="weather_hide_panel_auto_title">Auto</string>
-    <string name="weather_hide_panel_custom_title">Custom</string>
-    <string name="weather_hide_panel_never_title">Never</string>
-    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lock screen</string>
-    <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
-    <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
-    <string name="weather_number_of_notifications_title">Number of notifications</string>
+    <string name="display_category_weather_title">Opsi cuaca di layar kunci</string>
+    <string name="lock_screen_weather_settings_title">Cuaca</string>
+    <string name="weather_cat_notifications_title">Notifikasi</string>
+    <string name="weather_show_weather_title">Tampilkan Cuaca</string>
+    <string name="weather_show_weather_summary">Hidupkan untuk menampilkan informasi cuaca</string>
+    <string name="weather_show_location_title">Tampilkan Lokasi</string>
+    <string name="weather_show_location_summary">Hidupkan untuk menampilkan lokasi</string>
+    <string name="weather_show_timestamp_title">Tampilkan informasi waktu</string>
+    <string name="weather_show_timestamp_summary">Hidupkan untuk menampilkan timestamp</string>
+    <string name="weather_condition_icon_title">Condisi ikon</string>
+    <string name="weather_condition_icon_dlg_title">Pilih ikon untuk menampilkan kondisi cuaca</string>
+    <string name="weather_condition_icon_monochrome_title">Satu warna</string>
+    <string name="weather_condition_icon_colored_title">Berwarna</string>
+    <string name="weather_condition_icon_vclouds_title">VAwan</string>
+    <string name="icons_title">Ikon</string>
+    <string name="position_right_title">Kanan</string>
+    <string name="position_centered_title">Berpusat</string>
+    <string name="hidden_title">Tersembunyi</string>
+    <string name="weather_hide_panel_title">Sembunyikan panel cuaca</string>
+    <string name="weather_hide_panel_dlg_title">Memilih ketika panel cuaca harus disembunyikan</string>
+    <string name="weather_hide_panel_auto_title">Otomatis</string>
+    <string name="weather_hide_panel_custom_title">Kustom</string>
+    <string name="weather_hide_panel_never_title">Jangan pernah</string>
+    <string name="weather_hide_panel_auto_summary">Panel cuaca akan disembunyikan ketika pemberitahuan terlihat akan mencapai pemberitahuan diperbolehkan maksimal pada layar kunci</string>
+    <string name="weather_hide_panel_custom_summary">Panel cuaca akan tersembunyi ketika pemberitahuan terlihat akan mencapai jumlah yang dipilih pemberitahuan</string>
+    <string name="weather_hide_panel_never_summary">Panel cuaca tidak akan disembunyikan</string>
+    <string name="weather_number_of_notifications_title">Jumlah pemberitahuan</string>
 
     <!-- Lock clock -->
-    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_title">Widget jam</string>
     <string name="lock_clock_summary">View or change how the \'cLock\' Home  widget will display</string>
-    <string name="lock_clock_clock_section_title">Clock and alarm</string>
+    <string name="lock_clock_clock_section_title">Jam dan alarm</string>
     <string name="lock_clock_clock_section_summary">View or change how the clock of the \'cLock\' Home  widget will display</string>
     <string name="lock_clock_weather_section_title">Weather panel</string>
     <string name="lock_clock_weather_section_summary">View or change how the weather of the \'cLock\' Home  widget will display</string>
@@ -599,25 +598,25 @@
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> detik</string>
+    <string name="heads_up_time_out_2sec">2 detik</string>
+    <string name="heads_up_time_out_4sec">4 detik</string>
+    <string name="heads_up_time_out_5sec">5 detik</string>
+    <string name="heads_up_time_out_6sec">6 detik</string>
+    <string name="heads_up_time_out_8sec">8 detik</string>
+    <string name="heads_up_time_out_10sec">10 detik</string>
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 menit</string>
+    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> menit</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_3min">3 minutes</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_1min">1 menit</string>
+    <string name="heads_up_snooze_3min">3 menit</string>
+    <string name="heads_up_snooze_5min">5 menit</string>
+    <string name="heads_up_snooze_10min">10 menit</string>
+    <string name="heads_up_snooze_15min">15 menit</string>
+    <string name="heads_up_snooze_20min">20 menit</string>
 
     <!-- Power menu customization -->
     <string name="power_menu_title">Power menu</string>
@@ -635,8 +634,8 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    
     <string name="volume_category">Volume Rocker</string>
+
     <!-- Volume Key Rotation -->
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
@@ -676,11 +675,11 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_default">5 det (bawaan)</string>
+    <string name="backlight_timeout_10s">10 det</string>
+    <string name="backlight_timeout_15s">15 det</string>
+    <string name="backlight_timeout_20s">20 det</string>
+    <string name="backlight_timeout_30s">30 det</string>
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Backlight</string>

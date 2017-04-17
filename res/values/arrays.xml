@@ -344,12 +344,18 @@
         <item>@string/smartbar_button_animation_ripple</item>
         <item>@string/smartbar_button_animation_spring</item>
         <item>@string/qs_tile_animation_style_flip</item>
+        <item>@string/smartbar_button_animation_pixel</item>
+        <item>@string/smartbar_button_animation_pixel_home</item>
+      <item>@string/smartbar_button_animation_pixel_home_ripple</item>
     </string-array>
 
     <string-array name="smartbar_button_animation_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 
     <string-array name="smartbar_ime_action_entries">
@@ -717,6 +723,17 @@
     <string-array name="custom_header_provider_values" translatable="false">
         <item>@string/daylight_header_provider</item>
         <item>@string/static_header_provider</item>
+    </string-array>
+
+   <!-- Wired headset ringtone audio focus -->
+    <string-array name="wired_ringtone_focus_mode_entries">
+        <item>@string/wired_ringtone_focus_mode_dynamic</item>
+        <item>@string/wired_ringtone_focus_mode_stock</item>
+    </string-array>
+
+    <string-array name="wired_ringtone_focus_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 
 </resources>

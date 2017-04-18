@@ -554,7 +554,9 @@
   <string name="summary_heads_up_enabled">Le notifiche Heads up sono abilitate</string>
   <string name="summary_heads_up_disabled">Le notifiche Heads up sono disabilitate</string>
   <string name="heads_up_disabled_notice">Per consentire alle applicazioni di visualizzare le notifiche interattive in una finestra pop-up sullo schermo, abilita Heads up.</string>
-
+  <string name="always_headsup_dialer_title">Forza heads up per il dialer</string>
+   <string name="always_headsup_dialer_summary">Mostra le notifiche heads up per il dialer anche se sono spente questo per evitare che il dialer funzioni a schermo intero sulle chiamate in arrivo</string>
+	
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tempo di visualizzazione</string>
   <string name="heads_up_time_out_summary">Le notifiche saranno mostrate per <xliff:g id="number">%d</xliff:g> secondi</string>
@@ -637,7 +639,7 @@
   
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">Tempo di illuminazione pulsanti</string>
-  <string name="backlight_timeout_on">Abilitato sempre</string>
+  <string name="backlight_timeout_on">Abilita sempre</string>
   <string name="backlight_timeout_default">5 secondi (predefinito)</string>
   <string name="backlight_timeout_10s">10 secondi</string>
   <string name="backlight_timeout_15s">15 secondi</string>
@@ -657,7 +659,7 @@
   <string name="show_carrier_disabled">Disabilitato</string>
   <string name="show_carrier_keyguard">Solo schermata di blocco</string>
   <string name="show_carrier_statusbar">Solo barra di stato</string>
-  <string name="show_carrier_enabled">Schermata di blocco &amp; Barra di Stato</string>
+  <string name="show_carrier_enabled">Schermata di blocco e barra di stato</string>
   <string name="status_bar_carrier_color">Colore etichetta operatore</string>
   <string name="status_bar_carrier_size">Dimensione testo etichetta operatore</string>
 
@@ -675,13 +677,13 @@
   <string name="status_bar_battery_percentage_default">Nascosta</string>
   <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
   <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
-  <string name="status_bar_battery_style_tile_title">Stile tile batteria personalizzato</string>
+  <string name="battery_tile_style_title">Stile del tile batteria</string>
   <string name="status_bar_battery_style_tile_summary">Permette di impostare lo stesso stile di icona della batteria scelta per la barra di stato</string>
   <string name="status_bar_charge_color_title">Colore dell\'icona della batteria in carica</string>
   <string name="force_charge_battery_text_title">Percentuale di carica della batteria</string>
   <string name="force_charge_battery_text_summary_on">Visualizza la percentuale della batteria fuori l\'icona durante la carica</string>
   <string name="force_charge_battery_text_summary_off">Visualizza la percentuale di carica della batteria all\'interno dell\'icona durante la ricarica</string>
-  <string name="text_charging_symbol_title">Simbolo della ricarica accanto al testo della percentuale</string>
+  <string name="text_charging_symbol_title">Simbolo di ricarica accanto al testo percentuale</string>
   <string name="text_charging_symbol_dialog">Visualizza un simbolo accanto al testo della percentuale della batteria fuori l\'icona durante la carica</string>
   <string name="text_charging_symbol_default">Disattivato</string>
   <string name="text_charging_symbol_flash">Fulmine</string>
@@ -816,7 +818,7 @@
   <string name="disable_animations_summary">Disabilita le animazioni di transizione come ad esempio quando lanci un\'app</string>
   
   <!-- Alarm blocker -->
-  <string name="alarm_blocker">Blocco degli allarm</string>
+  <string name="alarm_blocker">Blocco degli allarmi</string>
   <string name="alarm_blocker_title">Abilita</string>
   <string name="alarm_blocker_summary">Blocca gli allarmi mentre lo schermo è spento</string>
   <string name="alarm_blocker_save">Salva</string>
@@ -846,7 +848,7 @@
   <string name="qs_settings_icon_summary">Disabilita la scorciatoia delle impostazioni nell\'intestazione</string>
   <string name="qs_running_services_title">Icona servizi in esecuzione</string>
   <string name="qs_running_services_summary">Disabilita l\'icona servizi in esecuzione nell\'intestazione</string>
-  <string name="qs_edit_title">Modifica icona</string>
+  <string name="qs_edit_title">Icona di modifica</string>
   <string name="qs_edit_summary">Disabilita l\'icona di modifica dei tile nell\'intestazione</string>
   <string name="qs_multiuser_switch_title">Icona cambio utente</string>
   <string name="qs_multiuser_switch_summary">Disabilita l\'icona cambio utente nell\'intestazione</string>
@@ -891,7 +893,7 @@
     <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
     <string name="static_header_provider_title">Statico</string>
     <string name="daylight_header_provider_title">Dinamico</string>
-    <string name="custom_header_provider_title">Scelta intestazione</string>
+    <string name="custom_header_provider_title">Tipo intestazione</string>
     <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
 
@@ -905,7 +907,7 @@
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Sospendi le azioni</string>
     <string name="screen_state_toggles_enable_title">Abilita</string>
-    <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite su schermo spento. Nella schermata dello stato precedente verrà ripristinato.</string>
+    <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite a schermo spento. Verrà ripristinato alla schermata dello stato precedente.</string>
     <string name="screen_state_toggles_mobile_title">Reti mobili</string>
     <string name="screen_state_toggles_location_title">Posizione</string>
     <string name="screen_state_toggles_twog">Cambia in 2G</string>
@@ -941,7 +943,7 @@
 
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Meteo barra di stato</string>
-    <string name="statusbar_weather_summary">Configura dalle impostazioni delle impostazioni rapide/Meteo.</string>
+    <string name="statusbar_weather_summary">Configura lo stile del meteo che verrà visualizzato nella barra di stato.</string>
     <string name="statusbar_weather_dialog_title">Stile meteo barra di stato</string>
     <string name="status_bar_weather_hidden">Nascondi meteo</string>
     <string name="status_bar_temperature_image_show_scale">Mostra temperatura con scala e immagine</string>

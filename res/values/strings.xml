@@ -766,10 +766,10 @@
     <string name="blur_dark_color">Dark image color filter</string>
     <string name="blur_mixed_color">Mixed image color filter</string>
 
-    <string name="blur_notice">About Blur...</string>
+    <string name="blur_notice">About Blur!</string>
     <string name="blur_notice_summary">Blur personlizations are disabled during Keyguard view! Only Translucent Notifications are enabled!</string>
     <string name="blur_colors_notice">What are these colors doing?</string>
-    <string name="blur_colors_notice_summary">These colors are the ones tiniting the BlurBackground. Instead of the normal Grey, you can now choose the colors in the way you like. \n There are three color filters: One used for light backgrounds, one used for Dark backgrounds and one used for light/dark backgrounds. \n So how are these colors working?? \n Simple, as the titles say, the Light filter will be used for Lighter backgrounds, Dark filter for dark backgrounds and the mixed filter one will be used for backgrounds not too dark but neither too light. \n These colors are used for both BlurBackgrounds: StatusBar one and RecentsApps one </string>
+    <string name="blur_colors_notice_summary">These colors are the ones tiniting the BlurBackground. Instead of the normal Grey, you can now choose the colors in the way you like. There are three color filters: One used for light backgrounds, one used for Dark backgrounds and one used for light/dark backgrounds. So how are these colors working? Simple, as the titles say, the Light filter will be used for Lighter backgrounds, Dark filter for dark backgrounds and the mixed filter one will be used for backgrounds not too dark but neither too light. These colors are used for both BlurBackgrounds: StatusBar one and RecentsApps one </string>
 
     <string name="blur_expstatus_cat">Expanded StatusBar </string>
     <string name="blur_notifications_cat">Notifications</string>

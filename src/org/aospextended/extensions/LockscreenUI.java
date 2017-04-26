@@ -62,6 +62,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import com.android.internal.util.du.DuUtils;
 import android.hardware.fingerprint.FingerprintManager;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
@@ -236,7 +237,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     }
 
     private boolean isOmniJawsServiceInstalled() {
-         return DevelopmentSettings.isPackageInstalled(getActivity(), WEATHER_SERVICE_PACKAGE);
+         return DuUtils.isPackageInstalled(getActivity(), WEATHER_SERVICE_PACKAGE);
      }
 
     public void initweather() {

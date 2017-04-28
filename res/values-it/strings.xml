@@ -932,6 +932,11 @@
     <string name="fp_unlock_keystore_title">Sblocco FP</string>
     <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con l\'impronta digitale dopo il riavvio senza PIN/Password/Sequenza\ Nota: a proprio rischio!</string>
 
+    <!-- Status bar notification ticker -->
+    <string name="ticker_disabled">Nessun ticker</string>
+    <string name="ticker_enabled">Ticker di notifica</string>
+    <string name="ticker_media_enabled">Ticker di notifiche e musica</string>
+	
     <!-- Wired headset ringtone audio focus -->
     <string name="wired_ringtone_focus_mode_title">Dove riprodurre la musica</string>
     <string name="wired_ringtone_focus_mode_dynamic">Se collegato un auricolare con cavo riproduci la musica</string>
@@ -997,5 +1002,15 @@
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Visualizza lo stato della batteria Bluetooth</string>
     <string name="bluetooth_battery_summary">Visualizza lo stato della batteria del dispositivo Bluetooth attualmente collegato, se disponibile.</string>
+
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Controllo cursore con tasti</string>
+    <string name="volbtn_cursor_control_off">Disattivato</string>
+    <string name="volbtn_cursor_control_on">I pulsanti volume su/giù spostano il cursore nel testo a sinistra/destra</string>
+    <string name="volbtn_cursor_control_on_reverse">I pulsanti volume su/giù spostano il cursore nel testo a destra/sinistra</string>
+
+    <!-- Keyguard Statusbar Clock -->
+    <string name="keyguard_statusbar_clock_title">Orologio barra di stato della schermata di blocco</string>
+    <string name="keyguard_statusbar_clock_summary">Visualizza l\'orologio nella barra di stato della schermata di blocco sul lato sinistro</string>
 
 </resources>

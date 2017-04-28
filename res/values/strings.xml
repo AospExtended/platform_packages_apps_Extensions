@@ -999,4 +999,10 @@
     <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
 
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Volume key cursor control</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
 </resources>

@@ -60,6 +60,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private static final String SWAP_VOLUME_BUTTONS = "swap_volume_keys_on_rotation";
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
     public static final String VOLUME_ROCKER_MUSIC_CONTROLS = "volume_rocker_music_controls";
+    private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -83,6 +84,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private SwitchPreference mHwKeyDisable;
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
+    private ListPreference mVolumeKeyCursorControl;
 
     private Handler mHandler;
 
@@ -91,6 +93,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.buttons);
 
+        final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         final boolean needsNavbar = DUActionUtils.hasNavbarByDefault(getActivity());
@@ -199,6 +202,11 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
                 VOLUME_ROCKER_MUSIC_CONTROLS, 0);
         mVolumeRockerMusicControl.setChecked(volumeRockerMusicControl != 0);
 
+        int cursorControlAction = Settings.System.getInt(resolver,
+                Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
+        mVolumeKeyCursorControl = initActionList(KEY_VOLUME_KEY_CURSOR_CONTROL,
+                cursorControlAction);
+
         // let super know we can load ActionPreferences
         onPreferenceScreenLoaded(ActionConstants.getDefaults(ActionConstants.HWKEYS));
 
@@ -222,6 +230,22 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     public void onResume() {
         super.onResume();
     }
+
+    private ListPreference initActionList(String key, int value) {
+        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
+        list.setValue(Integer.toString(value));
+        list.setSummary(list.getEntry());
+        list.setOnPreferenceChangeListener(this);
+        return list;
+    }
+
+    private void handleActionListChange(ListPreference pref, Object newValue, String setting) {
+        String value = (String) newValue;
+        int index = pref.findIndexOfValue(value);
+        pref.setSummary(pref.getEntries()[index]);
+        Settings.System.putInt(getActivity().getContentResolver(), setting, Integer.valueOf(value));
+    }
+  
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -260,6 +284,10 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             int value = (Integer) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BUTTON_BRIGHTNESS, value * 1);
+            return true;
+        } else if (preference == mVolumeKeyCursorControl) {
+            handleActionListChange(mVolumeKeyCursorControl, objValue,
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL);
             return true;
         }
         return false;

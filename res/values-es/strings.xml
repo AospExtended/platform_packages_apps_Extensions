@@ -21,6 +21,7 @@
   <string name="advanced">Avanzado</string>
   <string name="cancel">Cancelar</string>
   <string name="choose_app">Seleccionar aplicación</string>
+  <string name="weather_category">Clima en Pantalla de bloqueo</string>   
   <string name="general_category">General</string>
   <string name="gestures_category">Gestos</string>
   <string name="security_category">Seguridad</string>
@@ -44,7 +45,8 @@
   <string name="lockscreen_category">Pantalla de desbloqueo</string>
   <string name="breathing_notifications_category">Efecto Respiración en Notificaciones</string>
   <string name="nightmode_category">Modo nocturno</string>
-  <string name="qs_omnijaws_category">Ajuste rápido de clima</string>   
+  <string name="qs_omnijaws_category">Ajuste rápido de clima</string>
+  <string name="qs_header_title">Cabecera de ajustes rápidos</string>   
   <!-- App info dialog -->
   <string name="extensions_dialog_title">¡Ayúdanos a ayudarte!</string>
   <string name="extensions_dialog_message">Si usted encuentra un error con cualquiera de estas opciones, publicar en la sección de informes de errores de nuestra página de Google+. DEBE incluir lo siguiente al publicar un informe de error: \n\n1. Un logcat o last_kmsg\n2. Kernel y mods usados\n3. Información útil \n\nSi falla en publicar esto, no espere a que el error sea corregido.</string>
@@ -421,10 +423,12 @@
   <!-- Navbar height -->
   <string name="navigation_bar_size_title">Tamaño de la barra</string>
   <string name="portrait_title">Altura en vertical</string>
-  <string name="land_vert_title">Ancho en apaisado</string>
-  <string name="land_hor_title">Altura en apaisado</string>
+  <string name="land_vert_title">Ancho en horizontal</string>
+  <string name="land_hor_title">Altura en horizontal</string>
   <string name="positive_done">Aceptar</string>
   <!-- SmartBar -->
+  <string name="navbar_tint_switch">Color en lo botones</string>
+  <string name="navbar_button_color">Botones de navegación</string>   
   <string name="smartbar_category">SmartBar</string>
   <string name="smartbar_settings_title">Ajustes de SmartBar</string>
   <string name="smartbar_editor_title">Conmutar editor de botones</string>
@@ -447,6 +451,7 @@
   <string name="smartbar_ime_action_none">Nignuno</string>
   <string name="smartbar_ime_action_arrows">Flechas de entrada</string>
   <string name="smartbar_ime_action_switcher">Selector de teclado</string>
+  <string name="smartbar_ime_action_dynamic">Teclado/Multimedia</string>   
   <string name="smartbar_backup_current_config_title">Guardar perfil</string>
   <string name="smartbar_restore_config_title">Restaurar perfil</string>
   <string name="smartbar_config_name_edit_dialog_title">Perfiles de Smartbar</string>
@@ -527,6 +532,7 @@
   <string name="battery_percent_expanded">Expandido</string>
   <string name="statusbar_percent_inside_title">Posición del porcentaje</string>
   <string name="statusbar_percent_inside_summary">Mostrar el porcentaje encima del icono de batería</string>
+  <string name="battery_tile_style_title">Estilo de batería en ajustes rápidos</string>   
   <string name="statusbar_charging_image_title">Indicador de carga</string>
   <string name="statusbar_category_charging_title">Cargando</string>
   <string name="statusbar_charging_image_summary">Mostrar el indicador de carga. Oculta el porcentaje</string>
@@ -598,6 +604,7 @@
   <string name="weather_hide_panel_custom_summary">El panel se ocultará cuando se sobrepase el limite de notificaciones seleccionado</string>
   <string name="weather_hide_panel_never_summary">No se ocultará el panel</string>
   <string name="weather_number_of_notifications_title">Numero de notificaciones</string>
+  <string name="weather_icon_pack_title">Paquete de iconos</string>   
   <!-- Lock clock -->
   <string name="lock_clock_title">Widget de reloj</string>
   <string name="lock_clock_summary">Ver o cambiar como se muetra el widget</string>
@@ -613,7 +620,7 @@
   <string name="hide_lockscreen_date_title">Mostrar la fecha</string>
   <string name="hide_lockscreen_alarm_title">Mostrar la alarma</string>
      
-  <string name="clock_font_style_title">Reloj</string>
+  <string name="clock_font_style_title">Fuente</string>
   <string name="clock_font_size_title">Tamaño de fuente</string>   
   
   <!-- Navbar dynamic color -->
@@ -626,6 +633,8 @@
   <string name="summary_heads_up_enabled">Las notificaciones emergentes están activadas</string>
   <string name="summary_heads_up_disabled">Las notificaciones emergentes están desactivadas</string>
   <string name="heads_up_disabled_notice">Para activar notificaciones interactivas en la pantalla, activa las notificaciones emergentes</string>   
+  <string name="always_headsup_dialer_title">Forzar notificaciones emrgentes para llamadas</string>
+  <string name="always_headsup_dialer_summary">Mostrar una notificación emergente para evitar la pantalla completa de llamada</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tiempo activo</string>
   <string name="heads_up_time_out_summary">La notificación se mostrará por <xliff:g id="number">%d</xliff:g> segundos</string>
@@ -824,7 +833,7 @@
   <!-- QS Header Icons -->
   <string name="qs_settings_icon_title">Acceso directo de configuración</string>
   <string name="qs_settings_icon_summary">Deshabilitar el acceso directo de configuración en la cabecera</string>
-  <string name="qs_edit_title">Editar icono</string>
+  <string name="qs_edit_title">Icono Editar</string>
   <string name="qs_edit_summary">Desactivar el icono de edición de ajustes rápidos en la cabecera</string>
   <string name="qs_multiuser_switch_title">Interruptor de múltiples usuarios</string>
   <string name="qs_multiuser_switch_summary">Desactivar el interruptor de múltiples usuarios en la cabecera</string>
@@ -1012,5 +1021,12 @@
   <string name="screenshot_crop_and_share_summary">Mostrar un editor despúes de la captura de pantalla para recortar, guardar o compartirla.</string>  
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Mostrar batería por Bluetooth</string>
-  <string name="bluetooth_battery_summary">Mostrar la batería del dispositivo conectado, si está disponible.</string>   
+  <string name="bluetooth_battery_summary">Mostrar la batería del dispositivo conectado, si está disponible.</string>
+  <!-- Keyguard Statusbar Clock -->
+  <string name="keyguard_statusbar_clock_title">Reloj en pantalla de bloqueo</string>
+  <string name="keyguard_statusbar_clock_summary">Mostrar el reloj al lado izquiero en la pantalla de bloqueo (barra de estado)</string>
+  <!-- Status bar notification ticker -->
+  <string name="ticker_disabled">Sin ticker</string>
+  <string name="ticker_enabled">Notificaciones</string>
+  <string name="ticker_media_enabled">Notificaciones y música</string>   
 </resources>

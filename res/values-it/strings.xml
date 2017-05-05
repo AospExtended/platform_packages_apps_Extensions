@@ -65,7 +65,11 @@
 
   <!-- OmniJaws -->
   <string name="weather_config_title">Impostazioni meteo</string>
-  	
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Visualizza meteo sull\'intestazione</string>
+  <string name="header_weather_summary">Abilita la visualizzazione del meteo sull\'intestazione del pannello delle notifiche</string>
+  <string name="weather_icon_pack_title">Pacchetto icone meteo</string>
+	
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Cursore luminosità</string>
   <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>

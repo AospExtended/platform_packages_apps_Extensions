@@ -1007,4 +1007,10 @@
     <string name="keyguard_statusbar_clock_title">Keyguard statusbar clock</string>
     <string name="keyguard_statusbar_clock_summary">Show the left statusbar clock on the keyguard</string>
 
+    <!-- Aosp cards and grid recents -->
+    <string name="recents_type_title">Recents Style</string>
+    <string name="recents_stock">Cards</string>
+    <string name="recents_grid">Grid</string>
+
 </resources>
+

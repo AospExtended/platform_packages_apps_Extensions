@@ -562,7 +562,7 @@
   <string name="summary_heads_up_disabled">Le notifiche heads up sono disabilitate</string>
   <string name="heads_up_disabled_notice">Per consentire alle applicazioni di visualizzare le notifiche interattive in una finestra pop-up sullo schermo, abilita heads up.</string>
   <string name="always_headsup_dialer_title">Forza heads up per il dialer</string>
-   <string name="always_headsup_dialer_summary">Mostra le notifiche heads up per il dialer anche se sono spente questo per evitare che il dialer funzioni a schermo intero sulle chiamate in arrivo</string>
+  <string name="always_headsup_dialer_summary">Mostra le notifiche heads up per il dialer anche se sono spente questo per evitare che il dialer funzioni a schermo intero sulle chiamate in arrivo</string>
 	
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tempo di visualizzazione</string>
@@ -966,12 +966,12 @@
 
     <!-- Slim Recent panel -->
     <string name="slim_recents_title">Recenti slim</string>
-    <string name="use_slim_recents_title">Usa recenti slim</string>
-    <string name="use_slim_recents_summary">Utilizza recenti slim anziché la visualizzazione predefinita</string>
+    <string name="use_slim_recents_title">Usa i recenti slim</string>
+    <string name="use_slim_recents_summary">Utilizza i recenti slim anziché la visualizzazione predefinita</string>
     <string name="slim_recents_settings_title">Impostazioni recenti slim</string>
-    <string name="slim_recents_settings_summary">Visualizza le impostazioni per recenti slim</string>
+    <string name="slim_recents_settings_summary">Visualizza le impostazioni per i recenti slim</string>
     <string name="recent_panel_category">Pannello app recenti slim</string>
-    <string name="show_running_tasks_title">Mostra solo le applicazioni in esecuzione</string>
+    <string name="show_running_tasks_title">Mostra solo app in esecuzione</string>
     <string name="recents_max_apps_title">Applicazioni massime consentite</string>
     <string name="recent_panel_scale_title">Dimensione</string>
     <string name="recent_panel_expanded_mode_title">Modalità espansa</string>
@@ -987,9 +987,9 @@
     <string name="recent_reset_confirm">Sei sicuro di voler ripristinare il colore predefinito dei recenti Slim?</string>
     <string name="default_auto_string">Predefinito (basato app)</string>
     <string name="slim_icon_pack_title">Pacchetto icone</string>
-    <string name="slim_icon_pack_summary">Applicare un paccehtto icone personalizzato per le applicazioni del pannello</string>
+    <string name="slim_icon_pack_summary">Applica un paccehtto icone personalizzato per le applicazioni del pannello</string>
     <string name="no_iconpacks_summary">Nessun pacchetto icone installato</string>
-    <string name="dialog_pick_iconpack_title">Scegli paccehtto icone</string>
+    <string name="dialog_pick_iconpack_title">Scegli pacchetto icone</string>
     <string name="default_iconpack_title">Icone predefinite</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->

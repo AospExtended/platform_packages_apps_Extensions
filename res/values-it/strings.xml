@@ -97,6 +97,9 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Schermata di blocco</string>
 
+  <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Scorciatoie schermata di blocco</string>
+	
   <!-- Buttons -->
   <string name="buttons_title">Pulsanti</string>
 
@@ -457,17 +460,6 @@
   <string name="weather_show_weather_summary">Abilita per la visualizzazione delle informazioni meteo</string>
   <string name="weather_show_location_title">Mostra posizione</string>
   <string name="weather_show_location_summary">Abilita per la visualizzazione della posizione</string>
-  <string name="weather_show_timestamp_title">Mostra aggiornamento</string>
-  <string name="weather_show_timestamp_summary">Abilita per la visualizzazione della data e ora</string>
-  <string name="weather_condition_icon_title">Icona condizioni</string>
-  <string name="weather_condition_icon_dlg_title">Scegli un\'icona per la visualizzazione delle condizioni meteo</string>
-  <string name="weather_condition_icon_monochrome_title">Monocromatiche</string>
-  <string name="weather_condition_icon_colored_title">Colorate</string>
-  <string name="weather_condition_icon_vclouds_title">VClouds</string>
-  <string name="icons_title">Icone</string>
-  <string name="position_right_title">Destra</string>
-  <string name="position_centered_title">Centrato</string>
-  <string name="hidden_title">Nascosta</string>
   <string name="weather_hide_panel_title">Nascondi pannello meteo</string>
   <string name="weather_hide_panel_dlg_title">Scegliere quando il pannello Meteo dovrebbe essere nascosto</string>
   <string name="weather_hide_panel_auto_title">Automatico</string>
@@ -477,17 +469,10 @@
   <string name="weather_hide_panel_custom_summary">Il pannello meteo sarà nascosto quando le notifiche visibili raggiungeranno il numero di notifiche scelto</string>
   <string name="weather_hide_panel_never_summary">Il pannello meteo non sarà nascosto</string>
   <string name="weather_number_of_notifications_title">Numero di notifiche</string>
-
-  <!-- Lock clock -->
-  <string name="lock_clock_title">Widget orologio</string>
-  <string name="lock_clock_summary">Visualizza o modifica la modalità di visualizzazione del widget cLock</string>
-  <string name="lock_clock_clock_section_title">Orologio e sveglia</string>
-  <string name="lock_clock_clock_section_summary">Visualizza o modifica la modalità di visualizzazione del widget orologio e sveglia</string>
-  <string name="lock_clock_weather_section_title">Pannello meteo</string>
-  <string name="lock_clock_weather_section_summary">Visualizza o modifica la modalità di visualizzazione del widget meteo</string>
-  <string name="lock_clock_calendar_section_title">Calendario eventi</string>
-  <string name="lock_clock_calendar_section_summary">Visualizza o modifica la modalità di visualizzazione del widget calendario eventi</string>
-
+  <string name="weather_config_title">Impostazioni del servizio</string>
+  <string name="weather_icon_pack_title">Pacchetto icone condizioni</string>
+  <string name="lock_clock_title">Servizio meteo</string>
+	
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
   <string name="status_bar_toggle_brightness_summary">Regola la luminosità facendo scorrere il dito sulla barra di stato</string>
@@ -1006,25 +991,19 @@
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Visualizza lo stato della batteria Bluetooth</string>
     <string name="bluetooth_battery_summary">Visualizza lo stato della batteria del dispositivo Bluetooth attualmente collegato, se disponibile.</string>
-
-    <!-- Volume key cursor control -->
-    <string name="volbtn_cursor_control_title">Controllo cursore con tasti</string>
-    <string name="volbtn_cursor_control_off">Disattivato</string>
-    <string name="volbtn_cursor_control_on">I pulsanti volume su/giù spostano il cursore nel testo a sinistra/destra</string>
-    <string name="volbtn_cursor_control_on_reverse">I pulsanti volume su/giù spostano il cursore nel testo a destra/sinistra</string>
-
+	
     <!-- Keyguard Statusbar Clock -->
     <string name="keyguard_statusbar_clock_title">Orologio barra di stato della schermata di blocco</string>
     <string name="keyguard_statusbar_clock_summary">Visualizza l\'orologio nella barra di stato della schermata di blocco sul lato sinistro</string>
 
-	
     <!-- Aosp cards and grid recents -->
     <string name="recents_type_title">Stile recenti</string>
     <string name="recents_stock">Carte</string>
     <string name="recents_grid">Griglia</string>
 
   <!-- Slim DSLV -->
- <string name="shortcut_action_longpress">Pressione prolungata:</string>
+  <string name="shortcut_action_none">Nessuna</string>
+  <string name="shortcut_action_longpress">Pressione prolungata:</string>
   <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolungata:</string>
   <string name="shortcut_action_select_action">Scegli azione:</string>
   <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>

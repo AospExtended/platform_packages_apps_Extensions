@@ -490,7 +490,7 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>  
 
     <!-- CM Lockscreen shortcuts -->
-    <string name="lockscreen_targets_summary">Customize the shortcut icons in the corners<</string>
+    <string name="lockscreen_targets_summary">Customize the shortcut icons in the corners</string>
     <string name="lockscreen_targets_message">Lockscreen corners shortcuts</string>
 
     <!-- Double tap gesture anywhere on the lock screen put device to sleep -->

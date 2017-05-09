@@ -47,7 +47,17 @@ import android.widget.Toast;
 
 import com.android.settings.R;
 
-public class SystemappRemover extends Fragment {
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+
+public class SystemappRemover extends SettingsPreferenceFragment {
+
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsEvent.EXTENSIONS;
+    }
+
     private final int STARTUP_DIALOG = 1;
     private final int DELETE_DIALOG = 2;
     private final int DELETE_MULTIPLE_DIALOG = 3;
@@ -95,7 +105,7 @@ public class SystemappRemover extends Fragment {
         safetyList.add("WallpaperPickerGoogle.apk");
         safetyList.add("Webview.apk");
 	 // priv-app
-        safetyList.add("AEXOTA.apk");
+        safetyList.add("Updates.apk");
         safetyList.add("ContactsProvider.apk");
         safetyList.add("DefaultContainerService.apk");
         safetyList.add("DocumentsUI.apk");

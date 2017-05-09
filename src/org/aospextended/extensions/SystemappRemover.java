@@ -93,34 +93,34 @@ public class SystemappRemover extends SettingsPreferenceFragment {
         // create arraylist of apps not to be removed
         final ArrayList<String> safetyList = new ArrayList<String>();
 	 // app
-        safetyList.add("Bluetooth.apk");
-        safetyList.add("BluetoothExt.apk");
-        safetyList.add("CertInstaller.apk");
-        safetyList.add("DrmProvider.apk");
-        safetyList.add("DownloadProviderUi.apk");
-        safetyList.add("PackageInstaller.apk");
-        safetyList.add("Superuser.apk");
-        safetyList.add("TelephonyProvider.apk");
-        safetyList.add("OmniJaws.apk");
-        safetyList.add("WallpaperPickerGoogle.apk");
-        safetyList.add("Webview.apk");
+        safetyList.add("Bluetooth");
+        safetyList.add("BluetoothExt");
+        safetyList.add("CertInstaller");
+        safetyList.add("DrmProvider");
+        safetyList.add("DownloadProviderUi");
+        safetyList.add("PackageInstaller");
+        safetyList.add("Superuser");
+        safetyList.add("TelephonyProvider");
+        safetyList.add("OmniJaws");
+        safetyList.add("WallpaperPickerGoogle");
+        safetyList.add("Webview");
 	 // priv-app
-        safetyList.add("Updates.apk");
-        safetyList.add("ContactsProvider.apk");
-        safetyList.add("DefaultContainerService.apk");
-        safetyList.add("DocumentsUI.apk");
-        safetyList.add("DownloadProvider.apk");
-        safetyList.add("FusedLocation.apk");
-        safetyList.add("Keyguard.apk");
-        safetyList.add("MediaProvider.apk");
-        safetyList.add("ProxyHandler.apk");
-        safetyList.add("Settings.apk");
-        safetyList.add("SettingsProvider.apk");
-        safetyList.add("SystemUI.apk");
-        safetyList.add("TeleService.apk");
-        safetyList.add("OmniStyle.apk");
-        safetyList.add("ThemeInterfacer.apk");
-        safetyList.add("Turbo.apk");
+        safetyList.add("Updates");
+        safetyList.add("ContactsProvider");
+        safetyList.add("DefaultContainerService");
+        safetyList.add("DocumentsUI");
+        safetyList.add("DownloadProvider");
+        safetyList.add("FusedLocation");
+        safetyList.add("Keyguard");
+        safetyList.add("MediaProvider");
+        safetyList.add("ProxyHandler");
+        safetyList.add("Settings");
+        safetyList.add("SettingsProvider");
+        safetyList.add("SystemUI");
+        safetyList.add("TeleService");
+        safetyList.add("OmniStyle");
+        safetyList.add("ThemeInterfacer");
+        safetyList.add("Turbo");
 
        // create arraylist from /system/app and /system/priv-app content
         File system = new File(systemPath);

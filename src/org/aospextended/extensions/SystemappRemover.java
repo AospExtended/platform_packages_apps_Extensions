@@ -447,7 +447,7 @@ private String[] combine(String[] a, String[] b) {
             for (String appName : params) {
       		String odexAppName = appName.replaceAll(".apk$", ".odex");
                 String basePath = systemPath;
-                 File app = new File(systemPath);
+                 File app = new File(systemPath + appName);
 
                 if( ! app.exists() )
                     basePath = systemPrivPath;

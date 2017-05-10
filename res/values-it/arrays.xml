@@ -1,0 +1,8 @@
+<resources>
+    
+ <string-array name="slimsizer_profile_array">
+        <item >Carica profilo</item>
+        <item >Salva profilo</item>
+    </string-array>
+
+</resources>

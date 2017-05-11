@@ -48,6 +48,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.utils.TelephonyUtils;
 
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -56,6 +57,7 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
     private static final String SCREENSHOT_DELAY = "screenshot_delay";
     private static final String WIRED_RINGTONE_FOCUS_MODE = "wired_ringtone_focus_mode";
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     private CustomSeekBarPreference mScreenshotDelay;
     private ListPreference mMsob;
@@ -104,6 +106,11 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
         mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
         mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+			prefSet.removePreference(incallVibCategory);
+        }
     }
 
     @Override

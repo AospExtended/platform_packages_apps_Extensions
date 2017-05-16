@@ -1180,5 +1180,10 @@
     <string name="sizer_message_noselect">Nothing selected.</string>
     <string name="system_app_remover">System App Remover</string>
 
+   <!-- Grid recents screen pinning toggle -->
+    <string name="grid_recents_pinning_title">Show screen pinning icon in grid style recents</string>
+    <string name="grid_recents_pinning_summaryOn">Screen pinning icon will be shown in grid style recents if screen pinning is enabled from security settings</string>
+    <string name="grid_recents_pinning_summaryOff">Screen pinning icon will be hidden in grid style recents even if screen pinning is enabled from security settings</string>  
+
 </resources>
 

@@ -28,6 +28,14 @@
             android:entryValues="@array/recents_type_title_values"/>
 
       <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+           android:key="grid_recents_pinning"
+           android:title="@string/grid_recents_pinning_title"
+           android:summaryOn="@string/grid_recents_pinning_summaryOn"
+           android:summaryOff="@string/grid_recents_pinning_summaryOff"
+           android:defaultValue="true" />
+
+
+      <org.aospextended.extensions.preference.SystemSettingSwitchPreference
            android:key="systemui_recents_mem_display"
            android:title="@string/systemui_recents_mem_display_title"
            android:summaryOn="@string/systemui_recents_mem_display_summaryOn"

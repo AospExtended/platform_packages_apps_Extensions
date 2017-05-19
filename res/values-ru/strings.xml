@@ -268,15 +268,15 @@
     <string name="action_entry_select_app">Выбрать приложение</string>
     <string name="action_entry_custom_action">Выбрать действие</string>
 
-    <string name="action_value_default_action" translatable="false">по умолчанию</string>
-    <string name="action_value_select_app" translatable="false">приложение</string>
-    <string name="action_value_custom_action" translatable="false">настроить</string>
-    <string name="action_value_back" translatable="false">назад</string>
-    <string name="action_value_home" translatable="false">домой</string>
-    <string name="action_value_search_assist" translatable="false">ассистент</string>
-    <string name="action_value_recent_apps" translatable="false">запущенные</string>
-    <string name="action_value_voice_search" translatable="false">голосовой поиск</string>
-    <string name="action_value_menu" translatable="false">меню</string>
+    <string name="action_value_default_action">по умолчанию</string>
+    <string name="action_value_select_app">приложение</string>
+    <string name="action_value_custom_action">настроить</string>
+    <string name="action_value_back">назад</string>
+    <string name="action_value_home">домой</string>
+    <string name="action_value_search_assist">ассистент</string>
+    <string name="action_value_recent_apps">запущенные</string>
+    <string name="action_value_voice_search">голосовой поиск</string>
+    <string name="action_value_menu">меню</string>
 
     <!-- Fling -->
     <string name="fling_settings">Настройки Скольжения</string>
@@ -899,8 +899,8 @@
     <string name="daylight_header_pack_title">Пакет картинок для заголовка</string>
     <string name="status_bar_custom_header_shadow_title">Тень картинки заголовка</string>
     <string name="status_bar_custom_header_shadow_summary">Для лучшего восприятия на ярких картинках</string>
-    <string name="static_header_provider" translatable="false">статический</string>
-    <string name="daylight_header_provider" translatable="false">дневное освещение</string>
+    <string name="static_header_provider">статический</string>
+    <string name="daylight_header_provider">дневное освещение</string>
     <string name="static_header_provider_title">Статический</string>
     <string name="daylight_header_provider_title">Динамический</string>
     <string name="custom_header_provider_title">Провайдер заголовков</string>

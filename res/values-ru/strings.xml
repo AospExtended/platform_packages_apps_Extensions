@@ -27,7 +27,7 @@
     <string name="gestures_category">Жесты</string>
     <string name="music_category">Музыка</string>
     <string name="weather_category">Погода на экране блокировки</string>
-    <string name="security_category">Безопсность</string>
+    <string name="security_category">Безопасность</string>
     <string name="hardware_category">Оборудование</string>
     <string name="animations_category">Анимация плитки</string>
     <string name="traffic_category">Индикация трафика</string>
@@ -261,6 +261,12 @@
     <string name="profile_applist_title">Приложения</string>
     <string name="default_string">По умолчанию</string>
     <string name="reset">Сброс</string>
+     
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <string name="choose_action_title">Выбрать действие</string>
+    <string name="action_entry_default_action">Настройки по умолчанию</string>
+    <string name="action_entry_select_app">Выбрать приложение</string>
+    <string name="action_entry_custom_action">Выбрать действие</string>
 
     <!-- Fling -->
     <string name="fling_settings">Настройки Скольжения</string>

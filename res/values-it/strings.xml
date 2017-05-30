@@ -1167,7 +1167,7 @@
 
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Icona blocco schermo nei recenti a griglia</string>
-  <string name="grid_recents_pinning_summaryOn">L\icona del blocco schermo verrà mostrata nei recenti a griglia se il blocco schermo è abilitato dalle impostazioni di protezione</string>
+  <string name="grid_recents_pinning_summaryOn">L\'icona del blocco schermo verrà mostrata nei recenti a griglia se il blocco schermo è abilitato dalle impostazioni di protezione</string>
   <string name="grid_recents_pinning_summaryOff">L\'icona del blocco schermo verrà nascosta nei recenti a griglia anche se il blocco schermo schermo è abilitato dalle impostazioni di protezione</string>  
 
 </resources>

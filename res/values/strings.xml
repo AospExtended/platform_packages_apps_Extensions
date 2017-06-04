@@ -1184,5 +1184,9 @@
     <string name="grid_recents_pinning_summaryOn">Screen pinning icon will be shown in grid style recents if screen pinning is enabled from security settings</string>
     <string name="grid_recents_pinning_summaryOff">Screen pinning icon will be hidden in grid style recents even if screen pinning is enabled from security settings</string>  
 
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Home button when ringing</string>
+    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+
 </resources>
 

@@ -60,6 +60,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private static final String SWAP_VOLUME_BUTTONS = "swap_volume_keys_on_rotation";
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
     public static final String VOLUME_ROCKER_MUSIC_CONTROLS = "volume_rocker_music_controls";
+    private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -83,6 +84,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private SwitchPreference mHwKeyDisable;
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
+    private ListPreference mVolumeKeyCursorControl;
 
     private Handler mHandler;
 
@@ -91,7 +93,13 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.buttons);
 
+        final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        int cursorControlAction = Settings.System.getInt(resolver,
+                Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
+        mVolumeKeyCursorControl = initActionList(KEY_VOLUME_KEY_CURSOR_CONTROL,
+                cursorControlAction);
 
         final boolean needsNavbar = DUActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
@@ -166,10 +174,10 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         if (hasMenuKey || hasHomeKey) {
             if (mBacklightTimeout != null) {
         	mBacklightTimeout.setOnPreferenceChangeListener(this);
-        	int BacklightTimeout = Settings.System.getInt(getContentResolver(),
-                	Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
-        	mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
-        	mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+	        int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+        	        Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+	        mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+	        mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
             }
             if (mButtonBrightness != null) {
                 int ButtonBrightness = Settings.System.getInt(getContentResolver(),
@@ -223,6 +231,21 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         super.onResume();
     }
 
+    private ListPreference initActionList(String key, int value) {
+        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
+        list.setValue(Integer.toString(value));
+        list.setSummary(list.getEntry());
+        list.setOnPreferenceChangeListener(this);
+        return list;
+    }
+
+    private void handleActionListChange(ListPreference pref, Object newValue, String setting) {
+        String value = (String) newValue;
+        int index = pref.findIndexOfValue(value);
+        pref.setSummary(pref.getEntries()[index]);
+        Settings.System.putInt(getActivity().getContentResolver(), setting, Integer.valueOf(value));
+    }
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mSwapVolumeButtons) {
@@ -239,6 +262,10 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(), VOLUME_ROCKER_MUSIC_CONTROLS,
                     value ? 1 : 0);
+            return true;
+        } else if (preference == mVolumeKeyCursorControl) {
+            handleActionListChange(mVolumeKeyCursorControl, objValue,
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL);
             return true;
         } else if (preference == mHwKeyDisable) {
             boolean value = (Boolean) objValue;
@@ -265,3 +292,4 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         return false;
     }
 }
+

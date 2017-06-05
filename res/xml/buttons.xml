@@ -31,6 +31,14 @@
         android:key="volume_category"
         android:title="@string/volume_category">
 
+    <ListPreference
+        android:key="volume_key_cursor_control"
+        android:dialogTitle="@string/volbtn_cursor_control_title"
+        android:title="@string/volbtn_cursor_control_title"
+        android:entries="@array/volbtn_cursor_control_entries"
+        android:entryValues="@array/volbtn_cursor_control_values"
+        android:persistent="false" />
+
     <org.aospextended.extensions.preference.SecureSettingSwitchPreference
         android:key="sysui_show_full_zen"
         android:title="@string/tuner_full_zen_title"

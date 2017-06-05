@@ -176,7 +176,13 @@
   <string name="media_scanner_on_boot_enabled">Scansione multimediale</string>
   <string name="media_scanner_on_boot_ask">Chiedi alla scansione (notifica)</string>
   <string name="media_scanner_on_boot_disabled">Non eseguire la scansione multimediale</string>
-
+	
+ <!-- Volume key cursor control -->
+ <string name="volbtn_cursor_control_title">Controllo cursore con tasti</string>
+ <string name="volbtn_cursor_control_off">Disabilitato</string>
+ <string name="volbtn_cursor_control_on">I tasti del volume su/giù spostano il cursore a sinistra/destra</string>
+ <string name="volbtn_cursor_control_on_reverse">I tasti del volume su/giù spostano il cursore a destra/sinistra</string>
+	
   <!-- Network traffic -->
   <string name="network_traffic_title">Traffico di rete</string>
   <string name="show_network_traffic_state">Indicatore traffico di rete nella barra di stato</string>

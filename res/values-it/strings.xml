@@ -33,6 +33,7 @@
   <string name="traffic_category">Indicatori di traffico</string>
   <string name="aosp_recents_category">Recenti AOSP</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Attenzione</string>
   <string name="loading">Caricamento\u2026</string>
   <string name="reset">Ripristina</string>
   <string name="reset_colors">Ripristina i colori</string>
@@ -839,15 +840,20 @@
 
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_title">Avvio app musicale</string>
-  <string name="headset_connect_player_summary">Avvia l\'applicazione musicale predefinita quando viene collegato l\'auricolare</string>
+  <string name="headset_connect_player_disabled">Disabilitato</string>
+  <string name="headset_connect_player_wired">Quando è collegato l\'auricolare con cavo</string>
+  <string name="headset_connect_player_bt_no_carkit">Quando è collegato l\'auricolare BT (nessun kit per auto)</string>
+  <string name="headset_connect_player_bt">Quando è collegato l\'auricolare BT</string>
+  <string name="headset_connect_player_both_no_carkit">Quando è collegato l\'auricolare con cavo o BT (nessun kit per auto)</string>
+  <string name="headset_connect_player_both">Quando è collegato l\'auricolare con cavo o BT</string>
 
   <!-- QS Header Icons -->
   <string name="qs_settings_icon_title">Scorciatoia impostazioni</string>
   <string name="qs_settings_icon_summary">Disabilita la scorciatoia delle impostazioni nell\'intestazione</string>
   <string name="qs_running_services_title">Icona servizi in esecuzione</string>
   <string name="qs_running_services_summary">Disabilita l\'icona servizi in esecuzione nell\'intestazione</string>
-  <string name="qs_edit_title">Icona di modifica</string>
-  <string name="qs_edit_summary">Disabilita l\'icona di modifica dei tile nell\'intestazione</string>
+  <string name="qs_edit_title">Icona modifica</string>
+  <string name="qs_edit_summary">Disabilita l\'icona modifica dei tile nell\'intestazione</string>
   <string name="qs_multiuser_switch_title">Icona cambio utente</string>
   <string name="qs_multiuser_switch_summary">Disabilita l\'icona cambio utente nell\'intestazione</string>
   <string name="qs_expand_indicator_title">Indicatore espansione</string>

@@ -34,6 +34,7 @@
     <string name="traffic_category">Traffic indicators</string>
     <string name="aosp_recents_category">AOSP recents</string>
     <string name="dlg_ok">OK</string>
+    <string name="attention">Attention</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
     <string name="reset_colors">Reset colors</string>

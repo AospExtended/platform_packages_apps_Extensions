@@ -265,6 +265,10 @@
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 
+    <!-- ANBI -->
+    <string name="anbi_title">Accidental touch</string>
+    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Volume keys answer</string>
     <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>

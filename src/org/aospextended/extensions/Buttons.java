@@ -61,6 +61,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
     public static final String VOLUME_ROCKER_MUSIC_CONTROLS = "volume_rocker_music_controls";
     private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
+    private static final String KEY_HOME_WAKE_SCREEN = "home_wake_screen";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -81,6 +82,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private SwitchPreference mSwapVolumeButtons;
     private SwitchPreference mVolumeRockerWake;
     private SwitchPreference mVolumeRockerMusicControl;
+    private SwitchPreference mHwKeyWakeDisable;
     private SwitchPreference mHwKeyDisable;
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
@@ -95,6 +97,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+	final Resources res = getResources();
 
         int cursorControlAction = Settings.System.getInt(resolver,
                 Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
@@ -153,7 +156,12 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         // home key
         if (!hasHomeKey) {
             prefScreen.removePreference(homeCategory);
+        } else if (hasHomeKey) {
+ 		    mHwKeyWakeDisable = (SwitchPreference) findPreference(KEY_HOME_WAKE_SCREEN);
+            if (!res.getBoolean(R.bool.config_show_homeWake)) {
+            prefScreen.removePreference(mHwKeyWakeDisable);
         }
+	}
 
         // App switch key (recents)
         if (!hasAppSwitchKey) {
@@ -169,6 +177,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         if (!hasAssistKey) {
             prefScreen.removePreference(assistCategory);
         }
+        
 
         // Backlight
         if (hasMenuKey || hasHomeKey) {

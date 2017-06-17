@@ -186,6 +186,10 @@
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
+    <!-- Home button wake up -->
+    <string name="button_wake_title">Wake up</string>
+    <string name="home_wake_summary">Pressing the home button will wake your device</string>
+
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>

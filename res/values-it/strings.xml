@@ -183,6 +183,10 @@
  <string name="volbtn_cursor_control_off">Disabilitato</string>
  <string name="volbtn_cursor_control_on">I tasti del volume su/giù spostano il cursore a sinistra/destra</string>
  <string name="volbtn_cursor_control_on_reverse">I tasti del volume su/giù spostano il cursore a destra/sinistra</string>
+
+ <!-- Home button wake up -->
+ <string name="button_wake_title">Risveglia dispositivo</string>
+ <string name="home_wake_summary">Premendo il pulsante Home verrà svegliato il dispositivo</string>
 	
   <!-- Network traffic -->
   <string name="network_traffic_title">Traffico di rete</string>

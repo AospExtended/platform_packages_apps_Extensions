@@ -96,6 +96,12 @@
         android:persistent="false"
         android:title="@string/backlight_timeout_title" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="button_backlight_on_touch_only"
+        android:title="@string/button_backlight_on_touch_only_title"
+        android:summary="@string/button_backlight_on_touch_only_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 <PreferenceCategory

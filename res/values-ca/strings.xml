@@ -95,6 +95,7 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">Començar Joc</string>
   <string name="power_menu_torch_title">Llanterna</string>
   <string name="power_menu_onthego_title">Mode On-The-Go</string>
   <!-- Power menu on secure lockscreen -->
@@ -159,4 +160,6 @@
   <string name="delete_success">Eliminat</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

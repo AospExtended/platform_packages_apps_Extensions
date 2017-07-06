@@ -18,7 +18,14 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensións</string>
+  <string name="cancel">Cancelar</string>
+  <string name="music_category">Música</string>
+  <string name="dlg_ok">Aceptar</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Recentes</string>
+  <string name="system_category">Sistema</string>
+  <string name="statusbar_items_category">Obxectos da barra de estado</string>
   <!-- App info dialog -->
   <!-- OmniJaws -->
   <!-- Quick Settings brightness slider -->
@@ -37,24 +44,44 @@
   <!-- Double tap-to-sleep -->
   <!-- Toast Icons -->
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Controis dos axustes de enerxía</string>
   <!-- Force expanded notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
   <!-- Immersive Recents -->
+  <string name="immersive_recents_default">Por defecto</string>
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_duration_default">Por defecto</string>
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
+  <string name="volbtn_cursor_control_off">Deshabilitado</string>
   <!-- Home button wake up -->
   <!-- Network traffic -->
+  <string name="show_network_traffic_disable">Deshabilitado</string>
   <!-- Statusbar Clock options -->
+  <string name="clock_am_pm_date_normal">Normal</string>
+  <string name="cancel">Cancelar</string>
   <!-- Color Picker -->
+  <string name="color_default">Por defecto</string>
   <!-- Navigation Bar -->
+  <string name="navigationbar_settings_title">Barra de navegación</string>
+  <string name="smartbar_interface">Barra intelixente de axustes rapidos</string>
+  <string name="picker_activities">Actividades</string>
+  <string name="select_custom_app_title">Seleccionar aplicativo personalizado</string>
+  <string name="select_custom_activity_title">Seleccionar actividade personalizada</string>
+  <string name="default_string">Por defecto</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Escoller acción</string>
+  <string name="action_entry_select_app">Seleccionar aplicativo</string>
   <!-- Fling -->
+  <string name="fling_interface">Lanzar</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="positive_done">Feito</string>
   <!-- SmartBar -->
+  <string name="smartbar_category">Barra intelixente de axustes rapidos</string>
+  <string name="smartbar_ime_action_none">Ningún</string>
   <!-- QuickSettings haptic feedback -->
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
@@ -62,6 +89,7 @@
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <!-- Lockscreen weather -->
+  <string name="lock_screen_weather_settings_title">O Tempo</string>
   <!-- statusbar brightness control -->
   <!-- CM Lockscreen shortcuts -->
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
@@ -79,6 +107,14 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_title">Menu de enerxía</string>
+  <string name="power_menu_reboot_title">Reiniciar</string>
+  <string name="power_menu_screenshot_title">Captura de pantalla</string>
+  <string name="power_menu_screenrecord_title">Gravación da pantalla</string>
+  <string name="power_menu_torch_title">Lanterna</string>
+  <string name="power_menu_onthego_title">Modo On-The-Go</string>
+  <string name="power_menu_search_title">Procura</string>
+  <string name="power_menu_voice_title">Procura con voz</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -89,21 +125,30 @@
   <!-- Buttons backlight timeout -->
   <!-- Enable keys backlight-->
   <!-- Custom carrier label and position -->
+  <string name="show_carrier_disabled">Deshabilitado</string>
   <!-- Battery customizations -->
+  <string name="text_charging_symbol_default">Deshabilitado</string>
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
   <!-- fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">Por defecto</string>
   <!-- Toast Animation -->
+  <string name="toast_none_animation">Ningún</string>
+  <string name="toast_default_animation">Por defecto</string>
+  <string name="toast_fade_animation">Desvanecer</string>
+  <string name="toast_Translucent_animation">Translúcido</string>
   <!-- ListView animation -->
+  <string name="listview_off">Por defecto</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Alarm blocker -->
   <!-- Option to enable/disable scrolling cache -->
   <!-- Three finger swipe screenshot -->
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_disabled">Deshabilitado</string>
   <!-- QS Header Icons -->
   <!-- Center Date + Time in header -->
   <!-- Battery Bar fragment -->
@@ -121,8 +166,27 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcut_action_none">Ningún</string>
+  <string name="shortcuts_icon_default">Por defecto</string>
+  <string name="shortcuts_icon_picker_alarm">Alarma</string>
+  <string name="shortcuts_icon_picker_help">Axuda</string>
+  <string name="shortcuts_icon_picker_music">Música</string>
+  <string name="shortcuts_icon_picker_play">Reproducir</string>
+  <string name="shortcuts_icon_picker_search">Procura</string>
+  <string name="normal_title">Normal</string>
+  <string name="help">Axuda</string>
   <!-- Lockscreen shortcuts -->
+  <string name="shortcut_action_none">Ningún</string>
+  <string name="shortcut_action_home">Inicio</string>
+  <string name="shortcut_action_back">Volver</string>
+  <string name="shortcut_action_menu">Menu</string>
+  <string name="shortcut_action_power_menu">Menu de enerxía</string>
+  <string name="shortcut_action_recent">Recentes</string>
   <!-- SlimSizer  -->
+  <string name="cancel">Cancelar</string>
+  <string name="delete_success">Borrado</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

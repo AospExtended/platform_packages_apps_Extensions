@@ -41,14 +41,18 @@
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
   <!-- Immersive Recents -->
+  <string name="immersive_recents_default">انیمیشن پیش فرض</string>
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_duration_default">انیمیشن پیش فرض</string>
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
   <!-- Home button wake up -->
   <!-- Network traffic -->
   <!-- Statusbar Clock options -->
   <!-- Color Picker -->
+  <string name="color_default">انیمیشن پیش فرض</string>
   <!-- Navigation Bar -->
+  <string name="default_string">انیمیشن پیش فرض</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
   <!-- Pulse navigation bar music visualizer -->
@@ -79,6 +83,12 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">راه اندازی مجدد</string>
+  <string name="power_menu_screenshot_title">عکس گرفتن از صفحه فعلی</string>
+  <string name="power_menu_screenrecord_title">فیلم برداری از صفحه</string>
+  <string name="power_menu_torch_title">چراغ قوه</string>
+  <string name="power_menu_onthego_title">حالت در حرکت</string>
+  <string name="power_menu_search_title">جستجو</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -96,8 +106,13 @@
   <!-- fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">انیمیشن پیش فرض</string>
   <!-- Toast Animation -->
+  <string name="toast_default_animation">انیمیشن پیش فرض</string>
+  <string name="toast_fade_animation">انیمیشن محو شونده</string>
+  <string name="toast_Translucent_animation">انیمیشن مات</string>
   <!-- ListView animation -->
+  <string name="listview_off">انیمیشن پیش فرض</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Alarm blocker -->
@@ -121,8 +136,12 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcuts_icon_default">انیمیشن پیش فرض</string>
+  <string name="shortcuts_icon_picker_search">جستجو</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

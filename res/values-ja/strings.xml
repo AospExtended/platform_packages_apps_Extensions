@@ -824,4 +824,6 @@
   <string name="system_app_remover">System App Remover</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

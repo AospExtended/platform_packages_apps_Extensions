@@ -870,4 +870,6 @@
   <string name="system_app_remover">시스템 앱 지우개</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

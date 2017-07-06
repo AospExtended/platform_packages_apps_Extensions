@@ -22,20 +22,21 @@
   <string name="add">Přidat</string>
   <string name="advanced">Pokročilé</string>
   <string name="cancel">Zrušit</string>
-  <string name="choose_app">Zvolit aplikaci</string>
+  <string name="choose_app">Vybrat aplikaci</string>
   <string name="general_category">Obecné</string>
   <string name="gestures_category">Gesta</string>
   <string name="music_category">Hudba</string>
-  <string name="weather_category">Nastavení počasí</string>
+  <string name="weather_category">Počasí zamykací obrazovky</string>
   <string name="security_category">Zabezpečení</string>
   <string name="hardware_category">Hardware</string>
   <string name="animations_category">Animace dlaždic</string>
   <string name="traffic_category">Indikátor síťového provozu</string>
   <string name="aosp_recents_category">AOSP nedávné</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Upozornění</string>
   <string name="loading">Načítání\u2026</string>
   <string name="reset">Resetovat</string>
-  <string name="reset_colors">Resetovat barvy</string>
+  <string name="reset_colors">Obnovit barvy</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Text</string>
   <string name="icon_title">Icona</string>
@@ -61,8 +62,10 @@
   <string name="extensions_dialog_message">Pokud najdete chybu v některém z těchto nastavení, popište chybu na naší stránce  G+/Reports. Zpráva musí obsahovat následující:\n\n1. Logcat nebo last_kmsg\n2. Jádro a používané vylepšení\n3. Užitečné informace\n\nPokud se něco nepodaří nahlásit adekvátně, NEČEKEJTE, že chyby budou opraveny.</string>
   <string name="extensions_dialog_toast">ČTĚTE DO KONCE!</string>
   <!-- OmniJaws -->
-  <string name="weather_config_title">Nastavení služby</string>
-  <string name="weather_icon_pack_title">Stav balíčku ikon</string>
+  <string name="weather_config_title">Nastavení počasí</string>
+  <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
+  <string name="header_weather_summary">Povolit zobrazení počasí v záhlaví panelu oznámení</string>
+  <string name="weather_icon_pack_title">Balík ikon počasí</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
   <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
@@ -71,7 +74,7 @@
   <!-- Quick Settings -->
   <string name="quick_settings_title">Rychlé nastavení</string>
   <string name="status_bar_quick_qs_pulldown_title">Rychlé vysunutí nabídky</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s okraj stavové lišty umožňuje rychlé vysunutí nabídky nastavení</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Pravý okraj stavové lišty umožňuje rychlé vysunutí nabídky nastavení</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Různé rozšíření</string>
   <!-- General Tweaks -->
@@ -79,10 +82,11 @@
   <!-- Notifications -->
   <string name="notifications_title">Oznámení</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Základní prostředí</string>
+  <string name="recents_ui_title">Uživatelské rozhraní nedávných</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Uživatelské rozhraní zamykací obrazovky</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Zkratky na zamykací obrazovce</string>
   <!-- Buttons -->
   <string name="buttons_title">Tlačítka</string>
   <!-- Blur -->
@@ -92,7 +96,7 @@
   <!-- Carrier Label -->
   <string name="carrierlabel_title">Název operátora</string>
   <!-- Show notification count -->
-  <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
+  <string name="status_bar_notif_count_title">Zobrazit počet oznámení</string>
   <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených upozornění v oznamovací oblasti</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">Dvojitým poklepáním uspat</string>
@@ -107,25 +111,25 @@
   <string name="force_expanded_notifications_title">Vynutit rozšířené oznámení</string>
   <string name="force_expanded_notifications_summary">K dispozici pouze pro aplikace, které podporují rozšířené oznámení</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Zakázat zprávy pohlcujícího režimu (immersive mód))</string>
+  <string name="disable_immersive_message_title">Zakázat zprávy pohlcujícího režimu (immersive mód)</string>
   <string name="disable_immersive_message_summary">Toto skryje všechny zprávy pohlcujícího režimu</string>
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Oznámení svítilny</string>
   <string name="flashlight_notification_summary">Povolit oznámení při zapnuté svítilně</string>
   <!-- Immersive Recents -->
   <string name="immersive_recents_title">Imerzivní nedávné</string>
-  <string name="immersive_recents_summary">Změna zobrazení \"Nedávné\"</string>
-  <string name="immersive_recents_dialog_title">Vyberte zobrazení nedávných</string>
+  <string name="immersive_recents_summary">Změna zobrazení nedávných aplikací</string>
+  <string name="immersive_recents_dialog_title">Vyberte zobrazení nedávných aplikací</string>
   <string name="immersive_recents_default">Výchozí</string>
   <string name="immersive_recents_fullscreen">Celá obrazovka</string>
   <string name="immersive_recents_statusbar">Pouze stavová lišta</string>
   <string name="immersive_recents_navbar">Pouze navigační panel</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tile_animation_style_title">Vzhled animace</string>
-  <string name="qs_tile_animation_duration_title">Délka animace</string>
+  <string name="qs_tile_animation_style_title">Styl animace dlaždic</string>
+  <string name="qs_tile_animation_duration_title">Doba trvání animace dlaždic</string>
   <string name="qs_tile_animation_interpolator_title">Interpolace animace dlaždice</string>
   <string name="qs_tile_animation_style_off">Bez animace</string>
-  <string name="qs_tile_animation_style_flip">Překlopení</string>
+  <string name="qs_tile_animation_style_flip">Překlopit</string>
   <string name="qs_tile_animation_style_rotate">Otočit</string>
   <string name="qs_tile_animation_duration_low">Nízká</string>
   <string name="qs_tile_animation_duration_default">Výchozí</string>
@@ -136,23 +140,24 @@
   <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Zrychlit a zpomalit</string>
   <string name="qs_tile_animation_interpolator_bounceInterpolator">Odrazit</string>
   <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročit</string>
-  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Předbíhání</string>
-  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Předběhnout a předletět</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Předběhnout</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Předběhnout a překročit</string>
   <string name="qs_set_animation_style">%1$s</string>
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
   <string name="media_scanner_on_boot_title">Chování skenování médií při startu</string>
   <string name="media_scanner_on_boot_enabled">Skenování médií</string>
-  <string name="media_scanner_on_boot_ask">Zeptat se po startu (oznámení)</string>
+  <string name="media_scanner_on_boot_ask">Zeptat se na skenování (oznámení)</string>
   <string name="media_scanner_on_boot_disabled">Neskenovat média</string>
   <!-- Volume key cursor control -->
-  <string name="volbtn_cursor_control_title">Ovládání kurzoru v textu</string>
-  <string name="volbtn_cursor_control_off">Vypnuto</string>
-  <string name="volbtn_cursor_control_on">Hlasitost nahoru/dolů posune kurzorem vlevo/vpravo</string>
-  <string name="volbtn_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolu posunou kurzor vpravo/vlevo</string>
+  <string name="volbtn_cursor_control_title">Ovládání kurzoru tlačítky hlasitosti</string>
+  <string name="volbtn_cursor_control_off">Zakázáno</string>
+  <string name="volbtn_cursor_control_on">Tlačítka hlasitosti nahoru/dolů posunou kurzor vlevo/vpravo</string>
+  <string name="volbtn_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolů posunou kurzor vpravo/vlevo</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Probudit zařízení</string>
+  <string name="home_wake_summary">Stisk tlačítka Domů probudí vaše zařízení</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Síťový provoz</string>
   <string name="show_network_traffic_state">Zobrazení síťového provozu na stavové liště</string>
@@ -197,6 +202,7 @@
   <string name="clock_date_style_lowercase">Malá písmena</string>
   <string name="clock_date_style_uppercase">Velká písmena</string>
   <string name="clock_date_format_custom">Vlastní formát Java</string>
+  <string name="cancel">Zrušit</string>
   <string name="save">Uložit</string>
   <string name="clock_font_style_title">Písmo</string>
   <string name="clock_font_size_title">Velikost písma</string>
@@ -211,17 +217,17 @@
   <string name="color_default">Výchozí</string>
   <!-- Navigation Bar -->
   <string name="navbar_tint_switch">Odstín navigačních tlačítek</string>
-  <string name="navbar_button_color">Tlačítka navigační lišty</string>
-  <string name="navbar_interface_title">Prostředí</string>
+  <string name="navbar_button_color">Tlačítka navigačního panelu</string>
+  <string name="navbar_interface_title">Rozhraní</string>
   <string name="navbar_size">Velikost panelu</string>
   <string name="navbar_mode">Navigační režim</string>
-  <string name="navbar_visibility">Povolit navigační lištu</string>
+  <string name="navbar_visibility">Povolit navigační panel</string>
   <string name="navigationbar_settings_title">Navigační panel</string>
   <string name="navigationbar_settings_summary">Upravit styl navigace a chování</string>
   <string name="navbar_general_title">Pokročilé</string>
   <string name="navigation_bar_left_title">Režim ovládání levou rukou</string>
   <string name="navigation_bar_left_summary">Zobrazit navigační panel na levé straně v režimu na šířku</string>
-  <string name="info_pref_note_title">Note</string>
+  <string name="info_pref_note_title">Poznámka</string>
   <string name="smartbar_interface">Chytrá lišta</string>
   <string name="icon_pack_picker_dialog_title">Balíčky ikon</string>
   <string name="image_exceeds_max_allowed_size">Obrázek nesmí překročit rozměr 512x512</string>
@@ -231,7 +237,7 @@
   <string name="select_custom_activity_title">Vybrat vlastní aktivitu</string>
   <string name="profile_applist_title">Aplikace</string>
   <string name="default_string">Výchozí</string>
-  <string name="reset">Výchozí</string>
+  <string name="reset">Obnovit</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Vybrat akci</string>
   <string name="action_entry_default_action">Výchozí nastavení</string>
@@ -252,13 +258,13 @@
   <string name="fling_long_swipe_left">Dlouhým tažením vlevo</string>
   <string name="fling_right_up_swipe">Přetažením vpravo nahoře</string>
   <string name="fling_left_up_swipe">Přetažením vlevo nahoře</string>
-  <string name="fling_single_tap">Jediným klepnutím vpravo</string>
+  <string name="fling_single_tap">Jedním klepnutím vpravo</string>
   <string name="fling_double_tap">Dvojím poklepáním vpravo</string>
   <string name="fling_long_press">Dlouhým stiskem vpravo</string>
-  <string name="fling_single_left_tap">Jediným klepnutím vlevo</string>
+  <string name="fling_single_left_tap">Jedním klepnutím vlevo</string>
   <string name="fling_double_left_tap">Dvojím poklepáním vlevo</string>
   <string name="fling_long_left_press">Dlouhým stiskem vlevo</string>
-  <string name="long_swipe_portrait_title">Portrét</string>
+  <string name="long_swipe_portrait_title">Na výšku</string>
   <string name="long_swipe_landscape_title">Na šířku</string>
   <string name="portrait_right_swipe_title">Posunutím doprava v režimu na výšku</string>
   <string name="portrait_left_swipe_title">Posunutím doleva v režimu na výšku</string>
@@ -271,7 +277,7 @@
   <string name="long_swipe_reset">Resetovat</string>
   <string name="fling_advanced">Pokročilé</string>
   <string name="fling_long_swipe_title">Dlouhým přejetím přes práh</string>
-  <string name="fling_long_swipe_summary">Vylaďte dlouhé přejetí přes práh založené na procentu šířky a výšky rozhraní Fling</string>
+  <string name="fling_long_swipe_summary">Vyladit dlouhé přejetí přes práh založené na procentu šířky a výšky rozhraní Fling</string>
   <string name="fling_trails_enable_title">Povolit stopu gesta</string>
   <string name="fling_trails_enable_summary">Zobrazit stopu při potáhnutí</string>
   <string name="fling_trails_color_title">Barva stopy</string>
@@ -297,7 +303,7 @@
   <string name="pulse_settings">Pulse</string>
   <string name="pulse_settings_summary">Grafický ekvalizér na navigačním panelu</string>
   <string name="fling_show_pulse_title">Zobrazit Pulse</string>
-  <string name="fling_show_pulse_summary">Zvukový ekvalizér v navigační liště</string>
+  <string name="fling_show_pulse_summary">Zvukový ekvalizér na navigačním panelu</string>
   <string name="pulse_render_mode_title">Režim vykreslení</string>
   <string name="pulse_render_mode_fading_bars">Vyblednutí bloků</string>
   <string name="pulse_render_mode_solid_lines">Plné čáry</string>
@@ -314,7 +320,7 @@
   <string name="pulse_solid_dimen_category">Nastavení režimu plné čáry</string>
   <string name="fling_lavalamp_color_from">Počáteční barva Lávové lampy</string>
   <string name="fling_lavalamp_color_to">Konečná barva Lávové lampy</string>
-  <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek v režimu Pulse</string>
+  <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek chytré lišty při pulsování</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Šířka pruhu</string>
   <string name="pulse_custom_div">Mezera pruhu</string>
@@ -322,7 +328,7 @@
   <string name="pulse_empty_block_size">Mezera mezi bloky</string>
   <!-- Navbar height -->
   <string name="navigation_bar_size_title">Velikost panelu</string>
-  <string name="portrait_title">Výška v režimu portrét</string>
+  <string name="portrait_title">Výška v režimu na výšku</string>
   <string name="land_vert_title">Šířka v režimu na šířku</string>
   <string name="land_hor_title">Výška v režimu na šířku</string>
   <string name="positive_done">Hotovo</string>
@@ -333,12 +339,12 @@
   <string name="smartbar_editor_summary">Stisknutím a přetažením je možné změnit pozici. Dlouhým stisknutím ukázat \"zpracovat\". Můžete změnit pozici tlačítka, pokud je zobrazeno menu.</string>
   <string name="smartbar_context_menu_position_title">Pozice kontextových tlačítek</string>
   <string name="smartbar_context_menu_position_summary">Pozice kontextových tlačítek, jako jsou tlačítka pro výběr nabídky nebo klávesnice</string>
-  <string name="smartbar_right">Napravo</string>
-  <string name="smartbar_left">Nalevo</string>
+  <string name="smartbar_right">Vpravo</string>
+  <string name="smartbar_left">Vlevo</string>
   <string name="smartbar_button_animation_title">Animace stisku tlačítka</string>
   <string name="smartbar_button_animation_summary">Nastavit styl animace hlavního tlačítka při stisknutí</string>
   <string name="smartbar_button_animation_ripple">Vlnka</string>
-  <string name="smartbar_button_animation_spring">Pramen</string>
+  <string name="smartbar_button_animation_spring">Odskok</string>
   <string name="smartbar_button_animation_pixel">Pixel (všechna tlačítka)</string>
   <string name="smartbar_button_animation_pixel_home">Pixel (pouze tlačítko Domů)</string>
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (pouze tlačítko Domů) a efekt zvlnění</string>
@@ -352,25 +358,25 @@
   <string name="smartbar_ime_action_dynamic">Šipky vstupu/médií</string>
   <string name="smartbar_backup_current_config_title">Uložit profil</string>
   <string name="smartbar_restore_config_title">Obnovit profil</string>
-  <string name="smartbar_config_name_edit_dialog_title">Název profilu Smartbar</string>
-  <string name="smartbar_config_name_edit_dialog_message">Zadejte jméno nebo ponechte prázdné</string>
-  <string name="smartbar_config_dialog_title">Profily Smartbar</string>
-  <string name="smartbar_config_backup_success_toast">Smartbar profil byl úspěšně uložen</string>
-  <string name="smartbar_config_restore_success_toast">Smartbar profil byl úspěšně obnoven</string>
-  <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu Smartbar</string>
-  <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu Smartbar</string>
+  <string name="smartbar_config_name_edit_dialog_title">Název profilu chytré lišty</string>
+  <string name="smartbar_config_name_edit_dialog_message">Zadejte název nebo ponechte prázdné</string>
+  <string name="smartbar_config_dialog_title">Profily chytré lišty</string>
+  <string name="smartbar_config_backup_success_toast">Profil chytré lišty byl úspěšně uložen</string>
+  <string name="smartbar_config_restore_success_toast">Profil chytré lišty byl úspěšně obnoven</string>
+  <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu chytré lišty</string>
+  <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu chytré lišty</string>
   <string name="navbar_buttons_alpha_title">Průhlednost tlačítka</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
-  <string name="quick_settings_vibrate_summary">Vibrovat při dotyku QS dlaždice</string>
+  <string name="quick_settings_vibrate_summary">Vibrovat při dotyku dlaždice</string>
   <!-- Do not Disturb switch in volume panel -->
   <string name="tuner_full_zen_title">Přepínač stavu Nerušit</string>
   <string name="tuner_full_zen_summary">Zobrazit přepínač stavu Nerušit v panelu hlasitosti</string>
   <!-- Breathing Notifications -->
   <string name="breathing_notifications_title">Dýchající oznámení</string>
-  <string name="missed_call_breath_title">Dýchající Zmeškané Volání</string>
+  <string name="missed_call_breath_title">Dýchající zmeškané volání</string>
   <string name="missed_call_breath_summary">Dodá oznámením o zmeškaném hovoru ve stavové liště efekt dýchání</string>
-  <string name="voicemail_breath_title">Dýchající Hlasová Schránka</string>
+  <string name="voicemail_breath_title">Dýchající hlasová schránka</string>
   <string name="voicemail_breath_summary">Dodá oznámením hlasové schránky ve stavové liště efekt dýchání</string>
   <string name="sms_breath_title">Dýchající SMS</string>
   <string name="sms_breath_summary">Dodá oznámením o přijetí sms ve stavové liště efekt dýchání</string>
@@ -382,24 +388,24 @@
   <string name="qqs_scroll_title">Rolování malých dlaždic QS</string>
   <string name="qqs_scroll_summary">Umožňuje rolování malých dlaždic QS</string>
   <!-- lock screen visualizer -->
-  <string name="lockscreen_visualizer_title">Zobrazit hudební vizualizér</string>
+  <string name="lockscreen_visualizer_title">Zobrazit hudební vizualizaci</string>
   <!-- Lockscreen clock fonts -->
-  <string name="lock_clock_font_title">Možnosti písma</string>
+  <string name="lock_clock_font_title">Styl písma hodin zamykací obrazovky</string>
   <string name="lock_clock_font_summary">Změnit písmo widgetu hodin na zamykací obrazovce</string>
   <string name="lock_clock_font_normal">Roboto</string>
-  <string name="lock_clock_font_bold">Bold</string>
-  <string name="lock_clock_font_italic">Italic</string>
-  <string name="lock_clock_font_bold_italic">Bold Italic</string>
-  <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
-  <string name="lock_clock_font_light_italic">Light Italic</string>
+  <string name="lock_clock_font_bold">Roboto Bold</string>
+  <string name="lock_clock_font_italic">Roboto Italic</string>
+  <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (výchozí)</string>
+  <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
   <string name="lock_clock_font_thin_normal">Roboto Thin</string>
-  <string name="lock_clock_font_thin_italic">Thin Italic</string>
-  <string name="lock_clock_font_condensed_normal">Condensed</string>
-  <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
-  <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
-  <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
-  <string name="lock_clock_font_medium_normal">Medium</string>
-  <string name="lock_clock_font_medium_italic">Medium Italic</string>
+  <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
+  <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
+  <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+  <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
+  <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+  <string name="lock_clock_font_medium_normal">Roboto Medium</string>
+  <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
   <string name="lock_clock_font_black_normal">Roboto Black</string>
   <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
   <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
@@ -428,18 +434,18 @@
   <string name="weather_hide_panel_custom_summary">Panel počasí bude skryt, když viditelné oznámení dosáhnou zvoleného počtu</string>
   <string name="weather_hide_panel_never_summary">Panel počasí nebude skrytý</string>
   <string name="weather_number_of_notifications_title">Počet oznámení</string>
-  <string name="weather_config_title">Nastavení služby</string>
-  <string name="weather_icon_pack_title">Stav balíčku ikon</string>
+  <string name="weather_config_title">Nastavení počasí</string>
+  <string name="weather_icon_pack_title">Balík ikon počasí</string>
   <string name="lock_clock_title">Widget hodin</string>
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Ovládání jasu</string>
   <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <!-- CM Lockscreen shortcuts -->
   <string name="lockscreen_targets_summary">Vlastní nastavení zástupců vpravo a vlevo na zamykací obrazovce</string>
-  <string name="lockscreen_targets_message">Dolní zkratky</string>
+  <string name="lockscreen_targets_message">Dolní zkratky zamykací obrazovky</string>
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
-  <string name="double_tap_sleep_anywhere_title">Klepnutím na obrazovku uzamknout zařízení</string>
-  <string name="double_tap_sleep_anywhere_summary">Dvojitým poklepání kamkoli na zamčeném displeji uspat zařízení</string>
+  <string name="double_tap_sleep_anywhere_title">Dvojitým poklepání kdekoliv uspat zařízení</string>
+  <string name="double_tap_sleep_anywhere_summary">Dvojitým poklepání kdekoliv na zamykací obrazovce uspat zařízení</string>
   <!-- Optional screenshot type -->
   <string name="screenshot_type_title">Typ snímku obrazovky</string>
   <string name="screenshot_type_fullscreen">Snímek celé obrazovky</string>
@@ -452,7 +458,7 @@
   <string name="disable_fc_notifications_title">Vypnout oznámení nuceného ukončení \'Force Close\'</string>
   <string name="disable_fc_notifications_summary">Skryje všechny oznámení při vynuceném ukončení aplikace \'Force Close\'</string>
   <!-- Lockscreen Torch toggle -->
-  <string name="keyguard_torch_title">Svítilna na zámku obrazovky</string>
+  <string name="keyguard_torch_title">Svítilna na zamykací obrazovce</string>
   <string name="keyguard_torch_summary">Dlouhým stiskem tlačítka power při vypnuté obrazovce zapnout svítilnu</string>
   <!-- Wakelock blocker -->
   <string name="wakelockblocker_category">Blokování wakelocků</string>
@@ -468,22 +474,22 @@
   <string name="media_art_summary">Povolit zobrazení obalu alba na zamčené obrazovce</string>
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Nezobrazovat rychlé nastavení při zabezpečení</string>
-  <string name="lockscreen_qs_disabled_summary">Zakázat rychlé nastavení na zabezpečené zamykací obrazovce</string>
+  <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlého nastavení na zabezpečené zamykací obrazovce</string>
   <!-- Status Bar Ticker -->
-  <string name="ticker_screen_title">Notifikační oznámení</string>
+  <string name="ticker_screen_title">Animace oznámení</string>
   <string name="ticker_title">Oznámení stavové lišty</string>
-  <string name="ticker_screen_summary">Upravit styl telegrafu ve stavové liště</string>
-  <string name="ticker_summary">Povolit starý telegraf ve stavové liště</string>
+  <string name="ticker_screen_summary">Upravit styl oznámení ve stavové liště</string>
+  <string name="ticker_summary">Povolit starý styl oznámení ve stavové liště</string>
   <string name="ticker_font_style_title">Styl písma</string>
   <string name="ticker_font_size_title">Velikost písma</string>
   <!-- Hide Lockscreen clock, date & alarm -->
   <string name="hide_lockscreen_items_title">Položky na zamykací obrazovce</string>
   <string name="hide_lockscreen_clock_title">Zobrazit hodiny na zamčené obrazovce</string>
   <string name="hide_lockscreen_date_title">Zobrazit datum na zamčené obrazovce</string>
-  <string name="hide_lockscreen_alarm_title">Zobrazit budík na zamykací obrazovce</string>
+  <string name="hide_lockscreen_alarm_title">Zobrazit budík na zamčené obrazovce</string>
   <!-- Navbar dynamic color -->
-  <string name="nav_bar_dynamic_title">Barva dynamické navigační lišty</string>
-  <string name="nav_bar_dynamic_summary">Povolit / zakázat tento přepínač k zobrazení tmavé barvy aplikace ve stavové liště. Spusťte požadovanou aplikace k zobrazení efektu</string>
+  <string name="nav_bar_dynamic_title">Barva dynamického navigačního panelu</string>
+  <string name="nav_bar_dynamic_summary">Povolit / zakázat tento přepínač k zobrazení tmavé barvy aplikace ve stavové liště. Spusťte požadovanou aplikace k zobrazení efektu.</string>
   <!-- Heads up settings -->
   <string name="headsup_category">Nastavení plovoucího oznámení</string>
   <string name="headsup_settings_title">Plovoucí oznámení</string>
@@ -494,7 +500,7 @@
   <string name="always_headsup_dialer_summary">Při příchozích hovorech zobrazit plovoucí okno číselníku (vytáčení hovoru), i když jsou plovoucí oznámení vypnuté, aby se zabránilo zobrazení číselníku přes celou obrazovku</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Časový limit</string>
-  <string name="heads_up_time_out_summary">Prohlížení oznámení bude zobrazeno na <xliff:g id="number">%d</xliff:g> sekund</string>
+  <string name="heads_up_time_out_summary">Upozornění se zobrazí na <xliff:g id="number">%d </xliff:g> vteřin</string>
   <string name="heads_up_time_out_2sec">2 sekundy</string>
   <string name="heads_up_time_out_4sec">4 sekundy</string>
   <string name="heads_up_time_out_5sec">5 sekund</string>
@@ -516,7 +522,7 @@
   <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
   <string name="power_menu_title_summary">Zobrazit nebo změnit položky nabídky tlačítka Vypnout</string>
   <string name="power_category">Možnosti nabídky tlačítka Vypnout</string>
-  <string name="actions_category">Možnosti nabídky tlačítka  Vypnout</string>
+  <string name="actions_category">Položky nabídky tlačítka Vypnout</string>
   <string name="power_menu_reboot_title">Restartovat</string>
   <string name="power_menu_screenshot_title">Snímek obrazovky</string>
   <string name="power_menu_screenrecord_title">Videozáznam obrazovky</string>
@@ -532,11 +538,11 @@
   <string name="power_menu_sound_title">Panel hlasitosti</string>
   <string name="power_menu_bug_report_disabled">Hlášení chyb je zakázáno ve vývojářském nastavení</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_enable_power_menu_title">Zobrazit Power menu na zamčené obrazovce</string>
+  <string name="lockscreen_enable_power_menu_title">Zobrazit nabídku tlačítka Vypnout na zabezpečené zamykací obrazovce</string>
   <string name="volume_category">Tlačítka hlasitosti</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Přeorientovat</string>
-  <string name="swap_volume_buttons_summary">Výměna tlačítek hlasitosti, při otočení obrazovky</string>
+  <string name="swap_volume_buttons_summary">Prohodit tlačítka hlasitosti při otočení obrazovky</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
   <string name="volume_rocker_wake_summary">Stisknutím tlačítka hlasitosti se probudí vaše zařízení</string>
@@ -547,10 +553,10 @@
   <string name="volume_keys_control_media_stream_title">Tlačítka hlasitosti ovládají hlasitost médií</string>
   <string name="volume_keys_control_media_stream_summary">Pomocí tlačítek hlasitosti ovládat streamování médií</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Informace o baterii na zamykací obrazovce</string>
+  <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
   <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
   <!-- Hardware button navigation -->
-  <string name="hardware_keys_volume_keys_title">Probudit tlačítky</string>
+  <string name="hardware_keys_volume_keys_title">Tlačítka hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
   <string name="hardware_keys_menu_key_title">Tlačítko Menu</string>
   <string name="hardware_keys_assist_key_title">Tlačítko Vyhledávání</string>
@@ -563,9 +569,9 @@
   <string name="hardware_keys_long_press_title">Akce dlouhého stisku</string>
   <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
   <string name="hardware_keys_category">Hardwarová tlačítka</string>
-  <string name="hardware_keys_disable_title">Zakázat hardwarové tlačítka</string>
+  <string name="hardware_keys_disable_title">Zakázat hardwarová tlačítka</string>
   <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Časový limit podsvícení</string>
+  <string name="backlight_timeout_title">Časový limit podsvícení tlačítek</string>
   <string name="backlight_timeout_on">Vždy povoleno</string>
   <string name="backlight_timeout_default">5 sekund (výchozí)</string>
   <string name="backlight_timeout_10s">10 sekund</string>
@@ -578,15 +584,15 @@
   <string name="carrier_label_settings_title">Název operátora</string>
   <string name="carrier_label_settings_summary">Přizpůsobit název operátora</string>
   <string name="custom_carrier_label_title">Vlastní název operátora</string>
-  <string name="custom_carrier_label_explain">Zadejte, prosím, nový název. Nechte prázdné pro navrácení k původnímu.</string>
+  <string name="custom_carrier_label_explain">Zadejte prosím nový název. Nechte prázdné pro navrácení k původnímu.</string>
   <string name="custom_carrier_label_notset">V současné době není nastaven vlastní název operátora</string>
-  <string name="show_carrier_title">Název mobilní sítě</string>
+  <string name="show_carrier_title">Název operátora</string>
   <string name="show_carrier_disabled">Zakázáno</string>
   <string name="show_carrier_keyguard">Pouze na zamčené obrazovce</string>
   <string name="show_carrier_statusbar">Pouze stavová lišta</string>
   <string name="show_carrier_enabled">Zamykací obrazovka &amp; stavová lišta</string>
-  <string name="status_bar_carrier_color">Barva popisku operátora</string>
-  <string name="status_bar_carrier_size">Velikost textu popisku operátora</string>
+  <string name="status_bar_carrier_color">Barva názvu operátora</string>
+  <string name="status_bar_carrier_size">Velikost názvu operátora</string>
   <!-- Battery customizations -->
   <string name="status_bar_battery_style_category">Baterie</string>
   <string name="status_bar_battery_style_title">Styl baterie ve stavové liště</string>
@@ -603,7 +609,7 @@
   <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
   <string name="battery_tile_style_title">Styl dlaždice baterie</string>
   <string name="status_bar_battery_style_tile_summary">Nastaví stejný styl ikony baterie ve stavové liště</string>
-  <string name="force_charge_battery_text_title">Procenta baterie ve stavové liště</string>
+  <string name="force_charge_battery_text_title">Zobrazit procenta vedle baterie při nabíjení</string>
   <string name="force_charge_battery_text_summary_on">Zobrazit procenta baterie vedle ikony při nabíjení</string>
   <string name="force_charge_battery_text_summary_off">Zobrazit procenta baterie uvnitř ikony při nabíjení</string>
   <string name="text_charging_symbol_title">Symbol nabíjení vedle procenta textu</string>
@@ -614,12 +620,12 @@
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
   <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
-  <string name="recents_clear_all_location_title">Vymazat všechna umístění</string>
+  <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
   <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
   <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
   <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
-  <string name="recents_clear_all_location_bottom_right">Dole vpravo</string>
-  <string name="recents_clear_all_location_bottom_left">Dole vlevo</string>
+  <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+  <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
   <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Zobrazit ukazatel paměti</string>
@@ -639,15 +645,15 @@
   <string name="translucent_notifications_pref">Průhledné oznámení</string>
   <string name="translucent_notifications_pref_summary">Nastavit pozadí průhledného oznámení</string>
   <string name="translucent_quick_settings_pref">Průhlednost rozšířené stavové lišty</string>
-  <string name="translucent_quick_settings_pref_summary">Zprůhlednit pozadí rychlého nastavení</string>
+  <string name="translucent_quick_settings_pref_summary">Rozostřit pozadí rozšířené stavové lišty </string>
   <string name="transluency_level_universal">Úroveň průhlednosti</string>
   <string name="blurred_recent_app_enabled_pref">Rozostřené nedávné aplikace</string>
-  <string name="blurred_recent_app_enabled_pref_summary">Rozostření pozadí aktivity nedávných aplikací</string>
+  <string name="blurred_recent_app_enabled_pref_summary">Rozostřené pozadí nedávných aplikací</string>
   <string name="blur_light_color">Světlý barevný filtr pozadí</string>
   <string name="blur_dark_color">Tmavý barevný filtr pozadí</string>
   <string name="blur_mixed_color">Smíšený barevný filtr pozadí</string>
   <string name="blur_notice">O funkci rozostření</string>
-  <string name="blur_notice_summary">Přizpůsobení rozostření je zakázáno při zobrazení klávesnice. Je povoleno pouze průsvitné oznámení!</string>
+  <string name="blur_notice_summary">Přizpůsobení rozostření je zakázáno při zobrazení klávesnice. Je povoleno pouze průsvitné oznámení.</string>
   <string name="blur_colors_notice">Co dělají tyto barvy?</string>
   <string name="blur_colors_notice_summary">Tyto barvy tónují pozadí. Namísto normální šedé můžete nyní zvolit barvy jak se vám líbí. \n Jsou tři barevné filtry: jeden pro světlé pozadí, jeden pro tmavé pozadí a jeden pro světlé/tmavé pozadí. \n Jak fungují tyto barvy?? \n Světlý filtr bude použit pro světlejší pozadí, tmavý pro tmavé pozadí a kombinovaný filtr se používá na světlé/tmavé pozadí. \n Tyto barvy se používají pro rozostření pozadí stavové lišty a nedávné aplikací </string>
   <string name="blur_expstatus_cat">Rozšířená stavová lišta </string>
@@ -676,7 +682,7 @@
   <string name="wallpaper_close_title">Animace zavření tapety</string>
   <string name="wallpaper_intra_open_title">Animace otevření nové tapety</string>
   <string name="wallpaper_intra_close_title">Animace zavření nové tapety</string>
-  <string name="animation_duration_title">Délka animace</string>
+  <string name="animation_duration_title">Doba trvání animace</string>
   <string name="title_animation_no_override">Zabránit aplikacím změnit nastavení</string>
   <string name="summary_animation_no_override">Zabránit aplikacím změnit nastavení přechodů</string>
   <string name="animation_duration_default">Výchozí</string>
@@ -709,22 +715,22 @@
   <string name="listview_stack_bottom">Zásobník (dole)</string>
   <string name="listview_unfold">Rozbalit</string>
   <string name="listview_fold">Sbalit</string>
-  <string name="listview_translate_left">Přeložení (vlevo)</string>
-  <string name="listview_translate_right">Přeložení (vpravo)</string>
+  <string name="listview_translate_left">Přeložit (vlevo)</string>
+  <string name="listview_translate_right">Přeložit (vpravo)</string>
   <!-- ListView interpolator -->
-  <string name="listview_interpolator_title">Zobrazení interpolátoru</string>
+  <string name="listview_interpolator_title">Interpolátor zobrazení seznamu</string>
   <string name="listview_accelerate_interpolator">Zrychlit</string>
   <string name="listview_decelerate_interpolator">Zpomalit</string>
   <string name="listview_accelerate_decelerate_interpolator">Zrychlit a zpomalit</string>
   <string name="listview_anticipate_interpolator">Předběhnout</string>
   <string name="listview_overshoot_interpolator">Přeletět</string>
-  <string name="listview_anticipate_overshoot_interpolator">Předvídat a překročit</string>
+  <string name="listview_anticipate_overshoot_interpolator">Předběhnout a přeletět</string>
   <string name="listview_bounce_interpolator">Odrazit</string>
   <!-- Disable animations -->
   <string name="disable_animations">Zakázat animace</string>
   <string name="disable_animations_summary">Zakázat animace při přechodech např. při spouštění aplikací</string>
   <!-- Alarm blocker -->
-  <string name="alarm_blocker">Blokátor alarmů</string>
+  <string name="alarm_blocker">Blokování alarmů</string>
   <string name="alarm_blocker_title">Povolit</string>
   <string name="alarm_blocker_summary">Blokovat alarmy při vypnuté obrazovce</string>
   <string name="alarm_blocker_save">Uložit</string>
@@ -733,18 +739,18 @@
   <string name="alarm_blocker_warning_title">Postupujte s opatrností</string>
   <string name="alarm_blocker_warning">Blokováním alarmů můžete způsobit nestabilitu, pády nebo ztrátu dat.</string>
   <!-- Option to enable/disable scrolling cache -->
-  <string name="pref_scrollingcache_title">Cache pro posun</string>
-  <string name="pref_scrollingcache_summary">Cache pro posun může zlepšit výkon na úkor úbytku paměti</string>
+  <string name="pref_scrollingcache_title">Mezipaměť rolování</string>
+  <string name="pref_scrollingcache_summary">Mezipaměť rolování může zlepšit výkon na úkor úbytku paměti</string>
   <string name="pref_scrollingcache_force_enable">Vynuceně povolit</string>
   <string name="pref_scrollingcache_default_enable">Povolit výchozí</string>
   <string name="pref_scrollingcache_default_disable">Zakázat výchozí</string>
   <string name="pref_scrollingcache_force_disable">Vynuceně zakázat</string>
   <!-- Three finger swipe screenshot -->
-  <string name="three_finger_gesture">Gesto třemi prsty</string>
+  <string name="three_finger_gesture">Snímek obrazovky třemi prsty</string>
   <string name="three_finger_gesture_summary">Snímek obrazovky přejetím tří prstů</string>
   <!-- Launch music player when headset is connected -->
-  <string name="headset_connect_player_title">Spustit hudební přehrávač</string>
-  <string name="headset_connect_player_disabled">Vypnuto</string>
+  <string name="headset_connect_player_title">Spustit aplikaci pro přehrávání hudby</string>
+  <string name="headset_connect_player_disabled">Zakázáno</string>
   <string name="headset_connect_player_wired">Když jsou připojeny kabelové sluchátka</string>
   <string name="headset_connect_player_bt_no_carkit">Když jsou připojeny Bluetooth sluchátka (ne připojení v autě)</string>
   <string name="headset_connect_player_bt">Když jsou připojeny Bluetooth sluchátka</string>
@@ -766,13 +772,13 @@
   <string name="qs_date_time_center_summary">Vyžaduje vypnutí jedné nebo více ikon</string>
   <!-- Battery Bar fragment -->
   <string name="battery_bar_title">Pruh baterie</string>
-  <string name="battery_bar">Pruh baterie</string>
+  <string name="battery_bar">Pozice pruhu baterie</string>
   <string name="battery_bar_no_navbar">Pozice pruhu baterie</string>
   <string name="battery_bar_color">Barva pruhu baterie</string>
-  <string name="battery_bar_charging_color">Barva indikátoru baterie při nabíjení</string>
-  <string name="battery_bar_battery_low_color">Barva indikátoru baterie při vybití</string>
+  <string name="battery_bar_charging_color">Barva pruhu baterie při nabíjení</string>
+  <string name="battery_bar_battery_low_color">Barva pruhu baterie při vybití</string>
   <string name="battery_bar_cat">Styl pruhu baterie</string>
-  <string name="battery_bar_style_title">Styl pruhu baterie</string>
+  <string name="battery_bar_style_title">Zarovnání pruhu baterie</string>
   <string name="battery_bar_thickness_title">Tloušťka pruhu baterie</string>
   <string name="battery_bar_animate_title">Animace nabíjení</string>
   <string name="battery_bar_style_regular">Normální</string>
@@ -800,21 +806,21 @@
   <string name="custom_header_provider_title">Operátor v záhlaví</string>
   <string name="custom_header_browse_title">Procházet nainstalované záhlaví</string>
   <string name="custom_header_browse_summary">Přidržením jakéhokoliv obrázku spustit statický režim</string>
-  <string name="smartbar_doubletap_sleep_title">Dvojím klepnutím uspat</string>
-  <string name="smartbar_doubletap_sleep_summary">Dvojím poklepáním na prázdné místo stavové lišty vypnete obrazovku</string>
+  <string name="smartbar_doubletap_sleep_title">Dvojím poklepáním uspat</string>
+  <string name="smartbar_doubletap_sleep_summary">Dvojím poklepáním na prázdné místo navigačního panelu vypnete obrazovku</string>
   <string name="one_handed_mode_title">Režim jedné ruky</string>
   <string name="one_handed_mode_summary">Umožnit zapnutí režimu jednou rukou posunutím přes navigační lištu</string>
   <!-- Screen state service -->
-  <string name="screen_state_toggles_summary">Vyberte soubor akcí, které se provedou po vypnutí obrazovky.</string>
+  <string name="screen_state_toggles_summary">\@null</string>
   <string name="screen_state_toggles_title">Akce po zhasnutí obrazovky</string>
   <string name="screen_state_toggles_enable_title">Povolit</string>
-  <string name="screen_state_toggles_enable_summary">Akce budou provedeny při vypnutí displeje. Při zapnutí a uvedení do předchozího stavu budou obnoveny.</string>
+  <string name="screen_state_toggles_enable_summary">Akce budou provedeny při vypnutí obrazovky. Při zapnutí a uvedení do předchozího stavu budou obnoveny.</string>
   <string name="screen_state_toggles_mobile_title">Mobilní sítě</string>
   <string name="screen_state_toggles_location_title">Poloha</string>
   <string name="screen_state_toggles_twog">Přepnout na 2G</string>
   <string name="screen_state_toggles_twog_summary">Režim sítě se přepne na 2G při vypnutí obrazovky</string>
   <string name="screen_state_toggles_gps">Vypnout GPS</string>
-  <string name="screen_state_toggles_gps_summary">GPS služba bude vypnuta při vypnutí displeje</string>
+  <string name="screen_state_toggles_gps_summary">GPS služba bude vypnuta při vypnutí obrazovky</string>
   <string name="screen_state_toggles_mobile_data">Vypnout mobilní data</string>
   <string name="screen_state_toggles_mobile_data_summary">Mobilní data budou vypnuta při vypnutí obrazovky</string>
   <string name="screen_state_off_delay_title">Zpoždění akcí po vypnutí obrazovky</string>
@@ -838,8 +844,8 @@
   <!-- QS Easy Toggle -->
   <string name="qs_easy_toggle_title">Rozšíření snadného přepnutí QS dlaždic</string>
   <string name="qs_easy_toggle_summary">Povolit akci jedním klepnutím: zapnout/vypnout mobilní data, wifi, polohu a bluetooth</string>
-  <string name="dnd_when_call_title">DND při volání</string>
-  <string name="dnd_when_call_summary">Automatická aktivace DND při volání</string>
+  <string name="dnd_when_call_title">Režim \"Nerušit\" při volání</string>
+  <string name="dnd_when_call_summary">Povolit režim \"Nerušit\" při volání</string>
   <!-- StatusBar weather settings -->
   <string name="statusbar_weather_title">Počasí ve stavové liště</string>
   <string name="statusbar_weather_summary">Konfigurace nastavení QS/Počasí.</string>
@@ -852,13 +858,13 @@
   <string name="status_bar_show_image">Zobrazit obrázek</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim přepínač aplikací</string>
-  <string name="use_slim_recents_title">Použít Slim přepínač aplikací</string>
+  <string name="use_slim_recents_title">Použít alternativu pro nedávné aplikace</string>
   <string name="use_slim_recents_summary">Použít Slim přepínač aplikací namísto systémového</string>
   <string name="slim_recents_settings_title">Nastavení Slim nedávných aplikací</string>
   <string name="slim_recents_settings_summary">Zobrazit nastavení pro Slim nedávné aplikace</string>
   <string name="recent_panel_category">Slim panel nedávných aplikací</string>
   <string name="show_running_tasks_title">Zobrazit pouze běžící aplikace</string>
-  <string name="recents_max_apps_title">Maximální počet povolených aplikací</string>
+  <string name="recents_max_apps_title">Maximum povolených aplikací</string>
   <string name="recent_panel_scale_title">Velikost</string>
   <string name="recent_panel_expanded_mode_title">Rozšířený režim</string>
   <string name="recent_panel_expanded_mode_summary">Režim rozšířeného náhledu nedávných aplikací</string>
@@ -893,15 +899,15 @@
   <string name="keyguard_statusbar_clock_summary">Aktivovat hodiny stavové lišty zamykací obrazovky na levé straně</string>
   <!-- Aosp cards and grid recents -->
   <string name="recents_type_title">Typ nedávných aplikací</string>
-  <string name="recents_stock">Původní AOSP</string>
+  <string name="recents_stock">Karty</string>
   <string name="recents_grid">Mřížka</string>
   <!-- Slim DSLV -->
-  <string name="shortcut_action_none">Žádné</string>
+  <string name="shortcut_action_none">Nic</string>
   <string name="shortcut_action_longpress">Dlouhý stisk:</string>
   <string name="shortcut_action_select_action_longpress">Vyberte akci pro dlouhý stisk:</string>
   <string name="shortcut_action_select_action">Vyberte akci:</string>
   <string name="shortcut_action_select_action_newaction">Vyberte novou akci:</string>
-  <string name="shortcut_action_reset">Výchozí</string>
+  <string name="shortcut_action_reset">Obnovit</string>
   <string name="shortcut_action_add">Přidat</string>
   <string name="shortcut_action_reset_message">Obnovit všechny položky na výchozí?</string>
   <string name="shortcut_action_max">Byl dosažen maximální počet zástupců</string>
@@ -914,8 +920,8 @@
   <string name="shortcut_action_help_button">tlačítko</string>
   <string name="shortcut_action_help_icon">, zatímco klepnutí na ikonu zobrazí možnosti jejího přizpůsobení</string>
   <string name="shortcut_action_help_main">Pro přidání %1$s, vyberte ikonu Přidat. Jakmile je %1$s přidán, klepnutím na řádek změníte cílovou akci%2$s\n\nPro odstranění %1$s, přejeďte řádek vodorovně vlevo nebo vpravo. Přerovnat %1$s v seznamu můžete přetažením kotvy vertikálně na levé straně.\n\nChcete-li vymazat nebo obnovit výchozí nastavení, klepněte na ikonu Obnovit.</string>
-  <string name="shortcut_action_help_delete_last_entry">Odstraněním každé %1$s v seznamu, dojde k úplnému vyřazení funkce.</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Odstranění každé %1$s v seznamu zakáže druhá vrstva kruhu.</string>
+  <string name="shortcut_action_help_delete_last_entry">Pokud odstraníte všechny %1$s v seznamu, dojde k úplnému vyřazení funkce.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Pokud odstraníte všechny %1$s v seznamu, odstraníte druhou vrstvu kruhu.</string>
   <string name="shortcuts_applications">Aplikace</string>
   <string name="shortcuts_select_custom_app_title">Vyberte vlastní aplikaci</string>
   <string name="shortcuts_icon_picker_type">Vyberte typ ikony:</string>
@@ -923,6 +929,7 @@
   <string name="shortcuts_icon_presets">Systémové ikony</string>
   <string name="shortcuts_icon_custom">Galerie</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Vyberte ikonu</string>
+  <string name="shortcuts_icon_picker_alarm">Budík</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_battery">Baterie</string>
   <string name="shortcuts_icon_picker_browser">Prohlížeč</string>
@@ -947,9 +954,10 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google+</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Nápověda</string>
   <string name="shortcuts_icon_picker_joystick">Joystick</string>
   <string name="shortcuts_icon_picker_key">Klíče/Účty</string>
-  <string name="shortcuts_icon_picker_laptop">Notebook</string>
+  <string name="shortcuts_icon_picker_laptop">Laptop</string>
   <string name="shortcuts_icon_picker_notes">Poznámky</string>
   <string name="shortcuts_icon_picker_luggage">Cestování</string>
   <string name="shortcuts_icon_picker_maps">Mapy</string>
@@ -960,11 +968,13 @@
   <string name="shortcuts_icon_picker_phone">Telefon</string>
   <string name="shortcuts_icon_picker_package">Balíček</string>
   <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
-  <string name="shortcuts_icon_picker_play">Play</string>
+  <string name="shortcuts_icon_picker_play">Přehrát</string>
   <string name="shortcuts_icon_picker_pocket">Kapsa</string>
   <string name="shortcuts_icon_picker_quicksettings">Rychlé nastavení</string>
   <string name="shortcuts_icon_picker_rss">RSS kanál</string>
   <string name="shortcuts_icon_picker_sdcard">SD karta</string>
+  <string name="shortcuts_icon_picker_search">Hledat</string>
+  <string name="shortcuts_icon_picker_sms">Zasílání zpráv</string>
   <string name="shortcuts_icon_picker_tasks">Úlohy</string>
   <string name="shortcuts_icon_picker_terminal">Terminál</string>
   <string name="shortcuts_icon_picker_transit">Tranzit</string>
@@ -974,22 +984,26 @@
   <string name="empty_title">Prázdné</string>
   <string name="normal_title">Normální</string>
   <string name="hidden_title">Skryto</string>
+  <string name="position_title">Umístění</string>
   <string name="position_right_title">Vpravo</string>
   <string name="position_centered_title">Na střed</string>
+  <string name="help">Nápověda</string>
   <string name="reset_message">Obnovit všechny položky na výchozí?</string>
   <string name="profiles_add">Přidat</string>
-  <string name="profile_choose_app">Zvolit aplikaci</string>
-  <string name="profile_reset_title">Výchozí</string>
-  <string name="choose_app">Zvolit aplikaci</string>
+  <string name="profile_choose_app">Vybrat aplikaci</string>
+  <string name="profile_reset_title">Obnovit</string>
+  <string name="show_title">Zobrazit</string>
+  <string name="choose_app">Vybrat aplikaci</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Horní zkratky</string>
   <string name="lockscreen_shortcuts_summary">Změnit zástupce přímo pod hodinami zamykací obrazovky</string>
-  <string name="lockscreen_shorcuts_longpress_title">Dlouhé stisknutí</string>
-  <string name="lockscreen_shorcuts_longpress_summary">Dlouhým stiskem otevřít aplikaci ze zkratek</string>
+  <string name="lockscreen_shorcuts_longpress_title">Dlouhý stiskt zkratek</string>
+  <string name="lockscreen_shorcuts_longpress_summary">Otevřít vlastní zkratky zámku displeje při dlouhém stistku</string>
   <string name="lockscreen_shortcuts_category">Zkratky</string>
-  <string name="shortcut_action_none">Žádné</string>
+  <string name="shortcut_action_none">Nic</string>
   <string name="shortcut_action_app">Vlastní aplikace</string>
   <string name="shortcut_action_home">Domů</string>
+  <string name="shortcut_action_back">Zpět</string>
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_ime">Otevřít přepínač IME editoru</string>
   <string name="shortcut_action_power_menu">Menu napájení</string>
@@ -1008,7 +1022,7 @@
   <string name="shortcut_action_select_action_longpress">Vyberte akci pro dlouhý stisk:</string>
   <string name="shortcut_action_select_action">Vyberte akci:</string>
   <string name="shortcut_action_select_action_newaction">Vyberte novou akci:</string>
-  <string name="shortcut_action_reset">Výchozí</string>
+  <string name="shortcut_action_reset">Obnovit</string>
   <string name="shortcut_action_add">Přidat</string>
   <string name="shortcut_action_reset_message">Obnovit všechny položky na výchozí?</string>
   <string name="shortcut_action_max">Byl dosažen maximální počet zástupců</string>
@@ -1021,20 +1035,20 @@
   <string name="shortcut_action_help_button">tlačítko</string>
   <string name="shortcut_action_help_icon">, zatímco klepnutí na ikonu zobrazí možnosti jejího přizpůsobení</string>
   <string name="shortcut_action_help_main">Pro přidání %1$s, vyberte ikonu Přidat. Jakmile je %1$s přidán, klepnutím na řádek změníte cílovou akci%2$s\n\nPro odstranění %1$s, přejeďte řádek vodorovně vlevo nebo vpravo. Přerovnat %1$s v seznamu můžete přetažením kotvy vertikálně na levé straně.\n\nChcete-li vymazat nebo obnovit výchozí nastavení, klepněte na ikonu Obnovit.</string>
-  <string name="shortcut_action_help_delete_last_entry">Odstraněním každé %1$s v seznamu, dojde k úplnému vyřazení funkce.</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Odstranění každé %1$s v seznamu zakáže druhá vrstva kruhu.</string>
+  <string name="shortcut_action_help_delete_last_entry">Pokud odstraníte všechny %1$s v seznamu, dojde k úplnému vyřazení funkce.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Pokud odstraníte všechny %1$s v seznamu, odstraníte druhou vrstvu kruhu.</string>
   <!-- SlimSizer  -->
   <string name="listsystem">seznam</string>
   <string name="sizer_title">Odstraňovač aplikací</string>
   <string name="caution">Upozornění!</string>
-  <string name="sizer_message_startup">Tento nástroj umožňuje odstranit systémové aplikace. Používejte jej s opatrností a odstraňujte pouze aplikace, které můžou být bezpečně odebrány.</string>
+  <string name="sizer_message_startup">Tento nástroj umožňuje odstranit systémové aplikace. Používejte s opatrností a odstraňte pouze ty, které víte, že můžete odstranit.</string>
   <string name="cancel">Zrušit</string>
   <string name="sizer_message_delete">Jste si jisti, že chcete odstranit tuto aplikaci?</string>
   <string name="btn_delete">Odstranit zvolené aplikace hned!</string>
   <string name="delete_progress_title">Odstraňování</string>
   <string name="delete_progress">Vybrané soubory jsou odstraňovány...</string>
-  <string name="delete_success">Odstraněno</string>
-  <string name="delete_fail">Nelze smazat</string>
+  <string name="delete_success">Smazáno</string>
+  <string name="delete_fail">Nelze odstranit</string>
   <string name="btn_profile">Profil</string>
   <string name="sizer_message_sdnowrite">Nelze zapisovat na SD kartu.</string>
   <string name="sizer_message_sdnoread">Nelze přečíst SD kartu.</string>
@@ -1043,5 +1057,16 @@
   <string name="sizer_message_noselect">Není nic vybráno.</string>
   <string name="system_app_remover">Odstraňovač systémových aplikací</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Zobrazit ikonu připnutí obrazovky v mřížkovém stylu nedávných</string>
+  <string name="grid_recents_pinning_summaryOn">Ikona připnutí obrazovky se zobrazí v mřížkovém stylu, pokud je připnutí obrazovky povoleno v nastavení zabezpečení</string>
+  <string name="grid_recents_pinning_summaryOff">Ikona připnutí obrazovky v mřížkovém stylu bude skryta, i když je povolena v nastavení zabezpečení</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Tlačítko Domů při vyzvánění</string>
+  <string name="allow_incall_home_summary">Povolit použití tlačítka Domů při vyzvánění zařízení</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Podsvícení tlačítek při dotyku</string>
+  <string name="button_backlight_on_touch_only_summary">Aktivujte podsvícení s časovým omezením pouze při stisknutí tlačítka</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
+  <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
 </resources>

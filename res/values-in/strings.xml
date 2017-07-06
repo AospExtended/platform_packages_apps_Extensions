@@ -198,6 +198,7 @@
   <string name="clock_date_style_lowercase">Huruf kecil</string>
   <string name="clock_date_style_uppercase">Huruf besar</string>
   <string name="clock_date_format_custom">Format khusus</string>
+  <string name="cancel">Batal</string>
   <string name="save">Simpan</string>
   <string name="clock_font_style_title">Font</string>
   <string name="clock_font_size_title">Ukuran font</string>
@@ -922,6 +923,7 @@
   <string name="shortcuts_icon_presets">Ikon sistem</string>
   <string name="shortcuts_icon_custom">Galeri</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Pilih ikon</string>
+  <string name="shortcuts_icon_picker_alarm">Alarm</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_battery">Baterai</string>
   <string name="shortcuts_icon_picker_browser">Perambaan</string>
@@ -946,6 +948,7 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google Plus</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Bantuan</string>
   <string name="shortcuts_icon_picker_joystick">Joystick</string>
   <string name="shortcuts_icon_picker_key">Kunci/Akun</string>
   <string name="shortcuts_icon_picker_laptop">Laptop</string>
@@ -964,6 +967,7 @@
   <string name="shortcuts_icon_picker_quicksettings">Setelan Cepat</string>
   <string name="shortcuts_icon_picker_rss">RSS feed</string>
   <string name="shortcuts_icon_picker_sdcard">SDCard</string>
+  <string name="shortcuts_icon_picker_search">Cari</string>
   <string name="shortcuts_icon_picker_tasks">Tugas</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Transit</string>
@@ -975,6 +979,7 @@
   <string name="hidden_title">Tersembunyi</string>
   <string name="position_right_title">Kanan</string>
   <string name="position_centered_title">Tengah</string>
+  <string name="help">Bantuan</string>
   <string name="reset_message">Atur ulang semua entri ke standar?</string>
   <string name="profiles_add">Tambah</string>
   <string name="profile_choose_app">Pilih aplikasi</string>
@@ -989,6 +994,7 @@
   <string name="shortcut_action_none">Tidak ada</string>
   <string name="shortcut_action_app">Aplikasi kustom</string>
   <string name="shortcut_action_home">Home</string>
+  <string name="shortcut_action_back">Kembali</string>
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_ime">Buka Pengganti Metode Masukan</string>
   <string name="shortcut_action_power_menu">Menu daya</string>
@@ -1043,4 +1049,6 @@
   <string name="system_app_remover">Penghapus aplikasi sistem</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

@@ -18,12 +18,25 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensions</string>
   <string name="add">Ajouter</string>
+  <string name="advanced">Avancée</string>
+  <string name="cancel">Annuler</string>
   <string name="choose_app">Choisir une application</string>
+  <string name="general_category">Général</string>
+  <string name="gestures_category">Gestes</string>
   <string name="music_category">Musique</string>
   <string name="weather_category">Paramètres Météo</string>
+  <string name="security_category">Sécurité</string>
+  <string name="hardware_category">Matériel</string>
+  <string name="animations_category">Animations des tuiles des réglages rapides</string>
+  <string name="traffic_category">Indicateurs de trafic</string>
+  <string name="aosp_recents_category">AOSP récents</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Attention</string>
+  <string name="loading">Chargement\u2026</string>
   <string name="reset">Réinitialiser</string>
+  <string name="reset_colors">Réinitialiser les couleurs</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Texte</string>
   <string name="icon_title">Icône</string>
@@ -32,13 +45,26 @@
   <!-- Extensions categories -->
   <string name="recents_category">Vue des applications récentes</string>
   <string name="status_bar_category">Barre d\'état</string>
+  <string name="notifications_panel_category">Panneau de notification</string>
+  <string name="system_category">Système</string>
+  <string name="lockscreen_category">Écran de verrouillage</string>
+  <string name="statusbar_items_category">Éléments de la barre d\'État</string>
   <string name="navigation_category">Navigation</string>
+  <string name="breathing_notifications_category">Notifications clignotantes</string>
+  <string name="build_tweaks_summary_title">Extension de l\'appareil !</string>
   <string name="system_animations">Animations système</string>
   <string name="toast">Notification contextuelle</string>
   <string name="listview">Liste de vues</string>
+  <string name="qs_header_title">Panneau de réglages rapide</string>
+  <string name="qs_omnijaws_category">Tuile de météo QS</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Aidez-nous à vous aider !</string>
+  <string name="extensions_dialog_message">Si vous trouvez un bug avec n’importe lequel de ces paramètres, poster dans la section rapports de bogue de notre page Google +. Vous devez inclure ce qui suit lors de la publication d’un rapport de bogue : \n\n1. Un logcat ou last_kmsg\n2. Kernel et mods Used\n3. Information\n\n utile. Si vous omettez de signaler quelque chose correctement, nous ne pourrons réparer le bug.</string>
+  <string name="extensions_dialog_toast">À LIRE ENTIÈREMENT !</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Paramètres du service</string>
+  <string name="header_weather_title">En-tête d\'affichage de la météo</string>
+  <string name="header_weather_summary">Activer le volet de notification dans l\'en-tête de l\'affichage météo</string>
   <string name="weather_icon_pack_title">Pack d’icônes Météo</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Curseur de luminosité</string>
@@ -46,27 +72,41 @@
   <string name="brightness_icon_title">Icône de luminosité </string>
   <string name="brightness_icon_summary">Afficher l\'icône de luminosité à gauche du curseur de luminosité permettant d\'ajuster automatiquement la luminosité</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Réglages Rapides</string>
   <string name="status_bar_quick_qs_pulldown_title">Menu déroulant rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Dérouler le volet des réglages rapides en balayant vers le bas le coté %1$s de la barre d\'état</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Autres extensions</string>
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Réglages généraux</string>
   <!-- Notifications -->
+  <string name="notifications_title">Notifications</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Interface Utilisateur</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Interface de l\'écran de verrouillage</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Raccourcis de l\'écran de déverrouillage</string>
   <!-- Buttons -->
+  <string name="buttons_title">Boutons</string>
   <!-- Blur -->
+  <string name="blur_title">Flou</string>
   <!-- Animations -->
+  <string name="animations_title">Animations</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Nom de l\'opérateur</string>
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">Afficher le compteur de notification</string>
   <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">Tapoter deux fois pour mettre en veille</string>
+  <string name="double_tap_to_sleep_summary">Double-cliquer sur la bar de statut ou sur le tiers supérieur et inférieur de l’écran de verrouillage pour éteindre l\'écran</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Icône des notifications contextuelles</string>
   <string name="toast_icon_summary">Afficher l\'icône de l\'application correspondant à la notification contextuelle</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Paramètres avancés des notifications</string>
+  <string name="power_notification_controls_summary">Sélectionner le niveau d\'importance des notifications</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Forcer le mode étendu des notifications</string>
   <string name="force_expanded_notifications_summary">Disponible uniquement pour les applications qui prennent en charge les notifications étendues</string>
@@ -74,6 +114,8 @@
   <string name="disable_immersive_message_title">Désactiver les messages en mode immersif</string>
   <string name="disable_immersive_message_summary">Ceci masquera tous les messages du mode immersif</string>
   <!-- Flashlight notification -->
+  <string name="flashlight_notification_title">Notification de la lampe de poche</string>
+  <string name="flashlight_notification_summary">Activer la notification lorsque la lampe de poche est en cours d\'utilisation</string>
   <!-- Immersive Recents -->
   <string name="immersive_recents_title">Applications récentes immersives</string>
   <string name="immersive_recents_summary">Apparence de l\'écran des applications récentes</string>
@@ -104,6 +146,10 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_title">Comportement de la recherche des médias au démarrage</string>
+  <string name="media_scanner_on_boot_enabled">Analyser le contenu multimédia</string>
+  <string name="media_scanner_on_boot_ask">Demander avant de démarrer la recherche (notification)</string>
+  <string name="media_scanner_on_boot_disabled">Ne pas analyser les médias</string>
   <!-- Volume key cursor control -->
   <string name="volbtn_cursor_control_title">Contrôle du curseur par les Boutons du volume</string>
   <string name="volbtn_cursor_control_off">Désactivé</string>
@@ -111,6 +157,7 @@
   <string name="volbtn_cursor_control_on_reverse">Déplacer le curseur de droite à gauche</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Réveiller l\'appareil</string>
+  <string name="home_wake_summary">Appuyer sur le bouton Accueil réveillera votre appareil</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Trafic réseau</string>
   <string name="show_network_traffic_state">Moniteur de trafic dans la barre d\'état</string>
@@ -129,18 +176,44 @@
   <string name="network_traffic_autohide">Masquer automatiquement</string>
   <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic lorsqu\'il n\'y a aucune activité</string>
   <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
+  <string name="network_traffic_hidearrow">Masquer les flèches</string>
   <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock">Heure &amp; Date</string>
+  <string name="clock_title_enable">Alignement</string>
+  <string name="status_bar_show_clock_title">Afficher l\'heure et la date</string>
   <string name="status_bar_clock_seconds_title">Afficher les secondes</string>
   <string name="status_bar_am_pm_title">Style AM/PM</string>
   <string name="status_bar_am_pm_info">Mode horloge 24 heures activée</string>
+  <string name="right_clock">Horloge à droite</string>
+  <string name="center_clock">Horloge centrée</string>
+  <string name="left_clock">Horloge à gauche</string>
+  <string name="clock_date_display">Date</string>
+  <string name="clock_date_style">Style de la date</string>
   <string name="clock_date_position">Position de la date</string>
+  <string name="clock_date_format">Format de la date</string>
+  <string name="clock_date_string_edittext_title">Le format de date doit être par exemple: MM/jj/aa</string>
+  <string name="clock_date_string_edittext_summary">Entrer la valeur</string>
   <string name="clock_date_right">À droite de l\'heure</string>
   <string name="clock_date_left">À gauche de l\'heure</string>
   <string name="clock_am_pm_date_normal">Normal</string>
+  <string name="clock_am_pm_date_small">Petit</string>
+  <string name="clock_am_pm_date_none">Masqué</string>
+  <string name="clock_date_style_lowercase">Minuscules</string>
+  <string name="clock_date_style_uppercase">Majuscule</string>
+  <string name="clock_date_format_custom">Format java personnalisé</string>
+  <string name="cancel">Annuler</string>
+  <string name="save">Sauvegarder</string>
   <string name="clock_font_style_title">Police</string>
   <string name="clock_font_size_title">Taille de la police</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Sélecteur de couleurs</string>
+  <string name="press_color_to_apply">Sélectionner la couleur ci-dessous pour appliquer</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Appliquer</string>
   <string name="color_default">Par défaut</string>
   <!-- Navigation Bar -->
   <string name="navbar_tint_switch">Couleur des boutons de navigation</string>
@@ -151,6 +224,7 @@
   <string name="navbar_visibility">Activer la barre de navigation</string>
   <string name="navigationbar_settings_title">Barre de navigation</string>
   <string name="navigationbar_settings_summary">Style et comportement de la barre de navigation</string>
+  <string name="navbar_general_title">Avancée</string>
   <string name="navigation_bar_left_title">Mode pour gaucher</string>
   <string name="navigation_bar_left_summary">Afficher la barre de navigation sur le côté gauche en mode paysage</string>
   <string name="info_pref_note_title">Note</string>
@@ -158,6 +232,9 @@
   <string name="icon_pack_picker_dialog_title">Pack d\'icônes</string>
   <string name="image_exceeds_max_allowed_size">L\'image ne doit pas excéder 512x512</string>
   <string name="invalid_icon_from_uri">Impossible de charger l\'image</string>
+  <string name="picker_activities">Activités</string>
+  <string name="select_custom_app_title">Sélectionnez une application personnalisée</string>
+  <string name="select_custom_activity_title">Sélectionnez une activité personnalisée</string>
   <string name="profile_applist_title">Applications</string>
   <string name="default_string">Par défaut</string>
   <string name="reset">Réinitialiser</string>
@@ -198,6 +275,7 @@
   <string name="up_swipe_title">Glissez vers le haut</string>
   <string name="down_swipe_title">Glissement vers le bas</string>
   <string name="long_swipe_reset">Réinitialiser</string>
+  <string name="fling_advanced">Avancée</string>
   <string name="fling_long_swipe_title">Seuil du glissement prolongé</string>
   <string name="fling_long_swipe_summary">Définir la zone de déclenchement selon un pourcentage de la hauteur ou de la largeur</string>
   <string name="fling_trails_enable_title">Activer le tracé des gestes</string>
@@ -232,6 +310,7 @@
   <string name="fling_pulse_color">Couleur de Pulse</string>
   <string name="eos_fling_lavalamp_title">Activer le filtre Lava Lamp</string>
   <string name="eos_fling_lavalamp_summary">Effet visuel de l\'égaliseur affichant un dégradé de couleur aléatoire</string>
+  <string name="pulse_advanced_category">Avancée</string>
   <string name="pulse_legacy_mode_advanced_category">Réglages du rendu en blocs</string>
   <string name="pulse_custom_fudge_factor">Niv. de sensibilité de l\'égaliseur</string>
   <string name="lavamp_solid_speed_title">Transition des couleurs Lava lamp</string>
@@ -252,6 +331,7 @@
   <string name="portrait_title">Hauteur (Portrait)</string>
   <string name="land_vert_title">Largeur (Paysage)</string>
   <string name="land_hor_title">Hauteur (Paysage)</string>
+  <string name="positive_done">Terminé</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Smart bar</string>
   <string name="smartbar_settings_title">Paramètres SmartBar</string>
@@ -290,7 +370,10 @@
   <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
   <string name="quick_settings_vibrate_summary">Vibrer lors des appuis sur les raccourcis</string>
   <!-- Do not Disturb switch in volume panel -->
+  <string name="tuner_full_zen_title">Bouton \"Ne pas déranger\"</string>
+  <string name="tuner_full_zen_summary">Afficher le bouton \"Ne pas déranger\" dans le panneau de volume</string>
   <!-- Breathing Notifications -->
+  <string name="breathing_notifications_title">Notifications clignotantes</string>
   <string name="missed_call_breath_title">Appels manqués</string>
   <string name="missed_call_breath_summary">Donnera à vos notifications d\'appels manqués un effet clignotant dans la barre d\'état</string>
   <string name="voicemail_breath_title">Messagerie Vocale</string>
@@ -302,14 +385,20 @@
   <string name="qs_rows_portrait_title">Lignes (portrait)</string>
   <string name="qs_rows_landscape_title">Lignes (paysage)</string>
   <string name="qs_columns_title">Colonnes</string>
+  <string name="qqs_scroll_title">Faire défiler les petites tuiles du réglage rapide</string>
+  <string name="qqs_scroll_summary">Permettre le défilement avec les petites tuiles du réglage rapide</string>
   <!-- lock screen visualizer -->
+  <string name="lockscreen_visualizer_title">Afficher le visualiseur de musique</string>
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Police d\'affichage</string>
   <string name="lock_clock_font_summary">Changer la police par défaut de l\'horloge sur l\'écran de verrouillage</string>
+  <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Gras</string>
   <string name="lock_clock_font_italic">Italique</string>
   <string name="lock_clock_font_bold_italic">Gras Italique</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (par défaut)</string>
   <string name="lock_clock_font_light_italic">Léger Italique</string>
+  <string name="lock_clock_font_thin_normal">Roboto Thin</string>
   <string name="lock_clock_font_thin_italic">Fin Italique</string>
   <string name="lock_clock_font_condensed_normal">Condensée</string>
   <string name="lock_clock_font_condensed_bold">Condensée Gras</string>
@@ -317,8 +406,21 @@
   <string name="lock_clock_font_condensed_bold_italic">Condensée Gras Italique</string>
   <string name="lock_clock_font_medium_normal">Moyen</string>
   <string name="lock_clock_font_medium_italic">Moyenne Italique</string>
+  <string name="lock_clock_font_black_normal">Roboto Noir</string>
+  <string name="lock_clock_font_black_italic">Roboto Noir Italique</string>
+  <string name="lock_clock_font_condensed_light_normal">Roboto condensé léger</string>
+  <string name="lock_clock_font_condensed_light_italic">Roboto condensé léger italique</string>
+  <string name="lock_clock_font_dancingscript">DancingScript</string>
+  <string name="lock_clock_font_dancingscript_bold">DancingScript Gras</string>
+  <string name="lock_clock_font_comingsoon">ComingSoon</string>
+  <string name="lock_clock_font_notoserif">NotoSerif Normale</string>
+  <string name="lock_clock_font_notoserif_italic">NotoSerif Italique</string>
+  <string name="lock_clock_font_notoserif_bold">NotoSerif Gras</string>
+  <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Gras Italique</string>
   <!-- Lockscreen weather -->
+  <string name="display_category_weather_title">Options de la météo sur l\'écran de verrouillage</string>
   <string name="lock_screen_weather_settings_title">Prévisions Météo</string>
+  <string name="weather_cat_notifications_title">Notifications</string>
   <string name="weather_show_weather_title">Afficher la météo</string>
   <string name="weather_show_weather_summary">Activer pour afficher les informations météorologiques</string>
   <string name="weather_show_location_title">Afficher la localisation</string>
@@ -334,6 +436,7 @@
   <string name="weather_number_of_notifications_title">Nombre de notifications</string>
   <string name="weather_config_title">Paramètres du service</string>
   <string name="weather_icon_pack_title">Pack d’icônes Météo</string>
+  <string name="lock_clock_title">Service de météo</string>
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Réglage de la luminosité</string>
   <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser votre doigt sur la barre d\'état</string>
@@ -358,27 +461,41 @@
   <string name="keyguard_torch_title">Lampe de poche (Écran de verrouillage)</string>
   <string name="keyguard_torch_summary">Faites un appui long sur le bouton Marche/Arrêt lorsque l\'écran est inactif pour activer la lampe de poche</string>
   <!-- Wakelock blocker -->
+  <string name="wakelockblocker_category">Bloqueur de wakelock</string>
   <string name="wakelock_blocker_summary">Système de blocage des Wakelocks</string>
+  <string name="wakelock_blocker_save">Sauvegarder</string>
   <string name="wakelock_list_header">Wakelocks disponibles</string>
   <string name="wakelock_blocker_reload">Recharger</string>
   <string name="wakelock_blocker_warning_title">Procéder avec prudence</string>
   <string name="wakelock_blocker_warning">Le blocage Wakelocks peut potentiellement causer des instabilités, des bogues, des pertes de données</string>
+  <string name="wakelock_blocker_title">Bloqueur de wakelock</string>
   <!-- Lockscreen cover art -->
   <string name="media_art_title">Affichage des métadonnées de musique</string>
   <string name="media_art_summary">Afficher la pochette de l\'album sur l\'écran de déverrouillage</string>
   <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Pas de réglages rapides lorsque l\'écran de verrouillage est sécurisé</string>
+  <string name="lockscreen_qs_disabled_summary">Désactiver les réglages rapides sur écran de verrouillage sécurisé</string>
   <!-- Status Bar Ticker -->
   <string name="ticker_screen_title">Notifications animées</string>
   <string name="ticker_title">Paramétrage de la barre d\'état</string>
   <string name="ticker_screen_summary">Personnaliser le style de ticker dans la barre d\'état</string>
   <string name="ticker_summary">Activer l\'ancien ticker dans la barre d\'état</string>
+  <string name="ticker_font_style_title">Style de police de caractère</string>
+  <string name="ticker_font_size_title">Taille de police</string>
   <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">Éléments de l\'écran de verrouillage</string>
   <string name="hide_lockscreen_clock_title">Afficher l\'horloge sur l\'écran de verrouillage</string>
   <string name="hide_lockscreen_date_title">Afficher la date sur l\'écran de verrouillage</string>
+  <string name="hide_lockscreen_alarm_title">Afficher l\'alarme sur l\'écran de verrouillage</string>
   <!-- Navbar dynamic color -->
   <string name="nav_bar_dynamic_title">Couleur dynamique</string>
   <string name="nav_bar_dynamic_summary">Activer cette option pour que la barre de navigation s\'adapte au thème sombre de l\'application. Redémarrer l\'application pour visualiser les changements</string>
   <!-- Heads up settings -->
+  <string name="headsup_category">Paramètres des notifications flottantes</string>
+  <string name="headsup_settings_title">Notifications flottantes</string>
+  <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
+  <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>
+  <string name="heads_up_disabled_notice">Pour permettre aux applications d\'afficher des notifications interactives dans une fenêtre pop-up sur votre écran, activez les notifications flottantes.</string>
   <string name="always_headsup_dialer_title">Afficher les notifications flottantes pour le téléphone</string>
   <string name="always_headsup_dialer_summary">Afficher les notifications flottantes même si les notifications flottantes sont désactivées afin d\'éviter que le numéroteur téléphonique ne s\'affiche sur tout l\'écran lors d\'un appel</string>
   <!-- Heads up timeout -->
@@ -403,10 +520,17 @@
   <string name="heads_up_snooze_20min">20 minutes</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Menu Marche/Arrêt</string>
+  <string name="power_menu_title_summary">Afficher ou modifier les entrées de menu de démarrage</string>
+  <string name="power_category">Options du menu Marche/Arrêt</string>
+  <string name="actions_category">Options du menu Marche/Arrêt</string>
+  <string name="power_menu_reboot_title">Redémarrer</string>
+  <string name="power_menu_screenshot_title">Captures d\'écran</string>
+  <string name="power_menu_screenrecord_title">Enregistrement vidéo de l\'écran</string>
   <string name="power_menu_torch_title">Lampe de poche</string>
   <string name="power_menu_onthego_title">Mode On-the-Go</string>
   <string name="power_menu_airplane_title">Mode Avion</string>
   <string name="power_menu_users_title">Changer d\'utilisateur</string>
+  <string name="power_menu_search_title">Recherche</string>
   <string name="power_menu_voice_title">Recherche vocale</string>
   <string name="power_menu_settings_title">Raccourci vers les paramètres</string>
   <string name="power_menu_lockdown_title">Verrouillage de l\'appareil</string>
@@ -415,12 +539,19 @@
   <string name="power_menu_bug_report_disabled">Le rapport de bug est désactivé dans les paramètres de développement</string>
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_enable_power_menu_title">Afficher le menu Marche/Arrêt sur l\'écran de verrouillage</string>
+  <string name="volume_category">Contrôleur de volume</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Inverser les boutons de volume</string>
   <string name="swap_volume_buttons_summary">Permute les boutons de volume +/- lorsque l’écran est tenu horizontalement</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Réveil par les boutons de volume</string>
+  <string name="volume_rocker_wake_summary">Sortir l\'appareil de la veille en appuyant sur un des boutons Volume</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Contrôle de la musique</string>
+  <string name="volume_rocker_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Les boutons de volume contrôlent le volume des sons multimédia</string>
+  <string name="volume_keys_control_media_stream_summary">Forcer les touches de volume pour contrôler le flux multimédia</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Statistiques de charge de la batterie</string>
   <string name="lockscreen_battery_info_summary">Afficher la tension de charge actuelle et la température de la batterie sur l\'écran de verrouillage pendant le chargement</string>
@@ -441,9 +572,17 @@
   <string name="hardware_keys_disable_title">Désactiver les boutons physiques</string>
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">Délai d\'extinction de l\'éclairage</string>
+  <string name="backlight_timeout_on">Toujours activé</string>
+  <string name="backlight_timeout_default">5 sec (Par défaut)</string>
+  <string name="backlight_timeout_10s">10 secondes</string>
+  <string name="backlight_timeout_15s">15 secondes</string>
+  <string name="backlight_timeout_20s">20 secondes</string>
+  <string name="backlight_timeout_30s">30 secondes</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Rétroéclairage</string>
   <!-- Custom carrier label and position -->
   <string name="carrier_label_settings_title">Nom de l\'opérateur</string>
+  <string name="carrier_label_settings_summary">Personaliser le nom de l\'opérateur</string>
   <string name="custom_carrier_label_title">Éditer le nom de l\'opérateur</string>
   <string name="custom_carrier_label_explain">Saisissez un nouveau nom. Laissez vide pour revenir au nom par défaut.</string>
   <string name="custom_carrier_label_notset">Texte non défini</string>
@@ -455,12 +594,17 @@
   <string name="status_bar_carrier_color">Couleur du texte</string>
   <string name="status_bar_carrier_size">Taille du texte</string>
   <!-- Battery customizations -->
+  <string name="status_bar_battery_style_category">Batterie</string>
   <string name="status_bar_battery_style_title">Style de la batterie</string>
   <string name="status_bar_battery_style_icon_portrait">Portrait</string>
   <string name="status_bar_battery_style_icon_landscape">Paysage</string>
   <string name="status_bar_battery_style_circle">Cercle</string>
+  <string name="status_bar_battery_style_bigcircle">Grand cercle</string>
+  <string name="status_bar_battery_style_circle_full">Cercle plein</string>
   <string name="status_bar_battery_style_text">Texte</string>
+  <string name="status_bar_battery_style_hidden">Masqué</string>
   <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+  <string name="status_bar_battery_percentage_default">Masqué</string>
   <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
   <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
   <string name="battery_tile_style_title">Type de logo dans la tuile de batterie</string>
@@ -485,6 +629,8 @@
   <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Afficher la barre d\'utilisation mémoire</string>
+  <string name="systemui_recents_mem_display_summaryOn">Barre de RAM activée</string>
+  <string name="systemui_recents_mem_display_summaryOff">Barre de RAM désactivée</string>
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">Applications masquées</string>
   <string name="hide_from_recents_add_app">Ajouter une application</string>
@@ -493,6 +639,7 @@
   <string name="fprint_sucess_vib_title">Activer le vibreur pour l’authentification</string>
   <string name="fprint_sucess_vib_summary">Vibrer en cas de succès de l\'authentification par empreintes digitales</string>
   <!-- XOSP Blur personalizations -->
+  <string name="settings_blur_cat">Flou</string>
   <string name="blurred_status_bar_expanded_enabled_pref">Effet de flou « barre d\'état »</string>
   <string name="blurred_status_bar_expanded_enabled_pref_summary">Flouter l’arrière-plan lorsque vous tirez la barre d\'état vers le bas</string>
   <string name="translucent_notifications_pref">Notifications transparentes</string>
@@ -510,6 +657,8 @@
   <string name="blur_colors_notice">Que font ces couleurs ?</string>
   <string name="blur_colors_notice_summary">Ces couleurs sont celles qui teintent le fond flouté. Au lieu du gris par défaut, vous pouvez maintenant choisir les couleurs que vous souhaitez. \n Il y a trois filtres de couleur : l\'un est utilisé pour les fonds clairs, l\'autre pour les fonds foncés et le dernier pour les fonds mixtes. \n Alors, comment fonctionnent ces couleurs ? \n C\'est simple, comme le précise les intitulés, le filtre éclaircir sera utilisé pour les fonds plus clairs, le filtre assombrir pour les fonds plus foncés et le filtre mixte pour les fonds ni trop sombres ni trop clairs. \n Ces couleurs sont utilisées à la fois pour les fonds floutés de la barre d\'état et des applications récentes </string>
   <string name="blur_expstatus_cat">Barre d\'état déroulée </string>
+  <string name="blur_notifications_cat">Notifications</string>
+  <string name="blur_qs_cat">Réglages Rapides</string>
   <string name="blur_recents_cat">Applications récentes</string>
   <string name="blur_colors_cat">Couleur des effets de flou</string>
   <string name="blur_notices_cat">Notes</string>
@@ -520,6 +669,7 @@
   <string name="blur_cat_notice">Avertissement</string>
   <string name="blur_cat_notice_summary">Les effets de flou sont désactivés sur l\'écran de verrouillage! Seules les notifications transparentes sont activées !</string>
   <!-- AOKP custom system animations -->
+  <string name="animation_title">Animations</string>
   <string name="system_animation_title">Animations système</string>
   <string name="activity_open_title">Animation au lancement d\'une activité</string>
   <string name="activity_close_title">Animation à la fermeture d\'une activité</string>
@@ -583,6 +733,7 @@
   <string name="alarm_blocker">Verrouillage d\'alarme</string>
   <string name="alarm_blocker_title">Activer</string>
   <string name="alarm_blocker_summary">Bloquer les alertes et les notifications lorsque l\'écran est éteint</string>
+  <string name="alarm_blocker_save">Sauvegarder</string>
   <string name="alarm_list_header">Alarmes disponibles</string>
   <string name="alarm_blocker_reload">Recharger</string>
   <string name="alarm_blocker_warning_title">Procéder avec prudence</string>
@@ -598,6 +749,7 @@
   <string name="three_finger_gesture">Geste avec trois doigts</string>
   <string name="three_finger_gesture_summary">Balayer l\'écran avec trois doigts pour faire une capture d\'écran</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Lancer le lecteur de musique</string>
   <string name="headset_connect_player_disabled">Désactivé</string>
   <string name="headset_connect_player_wired">Quand un casque filaire est connecté</string>
   <string name="headset_connect_player_bt_no_carkit">Quand un casque BT (sauf kits mains-libres) est connecté</string>
@@ -607,6 +759,8 @@
   <!-- QS Header Icons -->
   <string name="qs_settings_icon_title">Raccourci vers les paramètres</string>
   <string name="qs_settings_icon_summary">Désactiver le raccourci vers les paramètres dans l\'en-tête</string>
+  <string name="qs_running_services_title">Icône des services en cours d’exécution</string>
+  <string name="qs_running_services_summary">Désactiver l\'icône de modification des tuiles dans l\'en-tête</string>
   <string name="qs_edit_title">Masquer l\'icône d\'édition</string>
   <string name="qs_edit_summary">Désactiver l\'icône de modification des tuiles dans l\'en-tête</string>
   <string name="qs_multiuser_switch_title">Icône de choix d\'utilisateur</string>
@@ -617,22 +771,31 @@
   <string name="qs_date_time_center_title">Centrer la date et l\'heure</string>
   <string name="qs_date_time_center_summary">Nécessite la désactivation d\'une ou de plusieurs icones</string>
   <!-- Battery Bar fragment -->
+  <string name="battery_bar_title">Barre de batterie</string>
   <string name="battery_bar">Barre de batterie</string>
   <string name="battery_bar_no_navbar">Barre de batterie</string>
   <string name="battery_bar_color">Couleur de la barre de la batterie</string>
   <string name="battery_bar_charging_color">Couleur de la barre de batterie durant la charge</string>
   <string name="battery_bar_battery_low_color">Couleur de la barre de batterie (batterie faible)</string>
+  <string name="battery_bar_cat">Style de la barre de batterie</string>
   <string name="battery_bar_style_title">Style de barre de batterie</string>
   <string name="battery_bar_thickness_title">Épaisseur de la barre de batterie</string>
   <string name="battery_bar_animate_title">Animation de la charge de batterie</string>
   <string name="battery_bar_style_regular">Normal</string>
   <string name="battery_bar_style_center_mirrored">Centre-miroir</string>
   <string name="battery_bar_style_reversed">Inverser</string>
+  <string name="battery_bar_use_charging_color">Couleur de charge personnalisée</string>
+  <string name="battery_bar_blend_color_title">Mélange de couleurs</string>
+  <string name="battery_bar_blend_color_summary">Mélanger les couleurs pleines ou vides correspondant au pourcentage de batterie</string>
+  <string name="battery_bar_blend_color_reverse_title">Inversion de la couleur</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Plein &#8594; vide : rouge &#8592; vert &#8592; bleu &#8592; rouge</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Plein &#8594; vide : rouge &#8594; vert &#8594; bleu &#8594; rouge</string>
   <string name="battery_bar_hide">Cachée</string>
   <string name="battery_bar_statusbar">Barre d\'état</string>
   <string name="battery_bar_navbar_top">Au-dessus de la barre de navigation</string>
   <string name="battery_bar_navbar_bottom">En-dessous de la barre de navigation</string>
   <!-- QS headers -->
+  <string name="qs_header_category">Options d’en-tête des réglages rapides</string>
   <string name="status_bar_custom_header_title">Éditer l\'image de l\'en-tête</string>
   <string name="status_bar_custom_header_summary">Afficher et personnaliser l\'image d\'en-tête dans le volet de notification</string>
   <string name="daylight_header_pack_title">Pack d\'image « mode dynamique »</string>
@@ -653,6 +816,7 @@
   <string name="screen_state_toggles_enable_title">Activer</string>
   <string name="screen_state_toggles_enable_summary">Les actions seront exécutées lorsque l\'écran sera éteint. Écran allumé, l\'état précédent sera restauré.</string>
   <string name="screen_state_toggles_mobile_title">Réseaux mobiles</string>
+  <string name="screen_state_toggles_location_title">Position</string>
   <string name="screen_state_toggles_twog">Basculer vers 2G</string>
   <string name="screen_state_toggles_twog_summary">La connexion des données mobiles basculera vers la 2G à l\'extinction de l\'écran</string>
   <string name="screen_state_toggles_gps">Désactiver le GPS</string>
@@ -678,6 +842,8 @@
   <string name="wired_ringtone_focus_mode_dynamic">Casque filaire si connecté et musique en cours</string>
   <string name="wired_ringtone_focus_mode_stock">Haut-parleur et écouteurs (par défaut)</string>
   <!-- QS Easy Toggle -->
+  <string name="qs_easy_toggle_title">Réglages rapides avancés simplifiés</string>
+  <string name="qs_easy_toggle_summary">Activer ou désactiver par simple appui, les Données mobiles, le Wi-Fi, et le Bluetooth</string>
   <string name="dnd_when_call_title">En appel, ne pas déranger</string>
   <string name="dnd_when_call_summary">Activer automatiquement l\'option « Ne pas déranger » pendant les appels</string>
   <!-- StatusBar weather settings -->
@@ -709,6 +875,9 @@
   <string name="recent_panel_show_topmost_summary">Ne pas exclure la tâche au premier plan dans la vue récente</string>
   <string name="recent_panel_bg_color_title">Couleur d\'arrière-plan du panneau</string>
   <string name="recent_card_bg_color_title">Couleur d\'arrière-plan de la carte</string>
+  <string name="recent_reset_title">Réinitialiser les paramètres de couleur d\'origine</string>
+  <string name="recent_reset_confirm">Êtes-vous sûr de vouloir réinitialiser aux paramètres par défaut ?</string>
+  <string name="default_auto_string">Par défaut</string>
   <string name="slim_icon_pack_title">Pack d\'icônes</string>
   <string name="slim_icon_pack_summary">Appliquer un pack d\'icône personnalisé pour les application dans le panneau</string>
   <string name="no_iconpacks_summary">Aucun pack d\'icônes installé</string>
@@ -760,7 +929,9 @@
   <string name="shortcuts_icon_presets">Icônes système</string>
   <string name="shortcuts_icon_custom">Galerie</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Choisir l\'icône</string>
+  <string name="shortcuts_icon_picker_alarm">Alarmes</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
+  <string name="shortcuts_icon_picker_battery">Batterie</string>
   <string name="shortcuts_icon_picker_browser">Navigateur</string>
   <string name="shortcuts_icon_picker_calendar">Calendrier</string>
   <string name="shortcuts_icon_picker_camera">Appareil photo</string>
@@ -783,6 +954,7 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google+</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Aide</string>
   <string name="shortcuts_icon_picker_joystick">Manette de jeu</string>
   <string name="shortcuts_icon_picker_key">Clefs/Comptes</string>
   <string name="shortcuts_icon_picker_laptop">Ordinateur portable</string>
@@ -798,8 +970,11 @@
   <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
   <string name="shortcuts_icon_picker_play">Lecture</string>
   <string name="shortcuts_icon_picker_pocket">Poche</string>
+  <string name="shortcuts_icon_picker_quicksettings">Réglages Rapides</string>
   <string name="shortcuts_icon_picker_rss">Flux RSS</string>
   <string name="shortcuts_icon_picker_sdcard">Carte SD</string>
+  <string name="shortcuts_icon_picker_search">Recherche</string>
+  <string name="shortcuts_icon_picker_sms">Messagerie</string>
   <string name="shortcuts_icon_picker_tasks">Tâches</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Transit</string>
@@ -808,12 +983,16 @@
   <string name="shortcuts_icon_picker_unlock">Déverrouiller</string>
   <string name="empty_title">Vide</string>
   <string name="normal_title">Normal</string>
+  <string name="hidden_title">Masqué</string>
+  <string name="position_title">Position</string>
   <string name="position_right_title">Droite</string>
   <string name="position_centered_title">Centrée</string>
+  <string name="help">Aide</string>
   <string name="reset_message">Réinitialiser toutes les entrées par défaut?</string>
   <string name="profiles_add">Ajouter</string>
   <string name="profile_choose_app">Choisir une application</string>
   <string name="profile_reset_title">Réinitialiser</string>
+  <string name="show_title">Afficher</string>
   <string name="choose_app">Choisir une application</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Raccourcis supérieurs</string>
@@ -824,6 +1003,7 @@
   <string name="shortcut_action_none">Aucun(e)</string>
   <string name="shortcut_action_app">Application personnalisée</string>
   <string name="shortcut_action_home">Accueil</string>
+  <string name="shortcut_action_back">Retour</string>
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_ime">Changer la méthode de saisie</string>
   <string name="shortcut_action_power_menu">Menu Marche/Arrêt</string>
@@ -862,6 +1042,7 @@
   <string name="sizer_title">Suppression d\'applications</string>
   <string name="caution">Attention!</string>
   <string name="sizer_message_startup">Cet outil va vous permettre de supprimer des applications système. Utiliser ceci avec prudence et supprimer seulement des applications que vous connaissez.</string>
+  <string name="cancel">Annuler</string>
   <string name="sizer_message_delete">Êtes-vous sûr de vouloir supprimer cette application ?</string>
   <string name="btn_delete">Supprimez les applications sélectionnées maintenant !</string>
   <string name="delete_progress_title">Suppression</string>
@@ -876,5 +1057,16 @@
   <string name="sizer_message_noselect">Rien n\'est sélectionné.</string>
   <string name="system_app_remover">Suppression d\'applications système</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Afficher l\'icone d\'épinglage de l\'écran dans un nouveau style de grille</string>
+  <string name="grid_recents_pinning_summaryOn">L\'icône d\'épinglage de l\'écran sera affichée si l\'écran d\'épinglage est activé à partir des paramètres de sécurité</string>
+  <string name="grid_recents_pinning_summaryOff">L\'icône d\'épinglage de l\'écran sera cachée même si écran épinglage est activé à partir des paramètres de sécurité</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Bouton \"Accueil\" durant l\'appel</string>
+  <string name="allow_incall_home_summary">Permettre d’utiliser le bouton d’accueil lorsque l’appareil sonne</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Bouton tactile</string>
+  <string name="button_backlight_on_touch_only_summary">Activer le rétro-éclairage avec minuteur uniquement sur le bouton tactile</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Afficher l\'icône lorsque les données sont désactivées</string>
+  <string name="data_disabled_icon_summary">Afficher une croix à côté du signal lorsque les données sont désactivées</string>
 </resources>

@@ -1064,4 +1064,6 @@
   <!-- Incall Home button behavior-->
   <string name="allow_incall_home_title">鈴響時使用首頁鍵</string>
   <string name="allow_incall_home_summary">當裝置鈴響時允許使用首頁鍵</string>
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

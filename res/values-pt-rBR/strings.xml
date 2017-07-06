@@ -51,7 +51,7 @@
   <string name="statusbar_items_category">Itens da barra de status</string>
   <string name="navigation_category">Navegação</string>
   <string name="breathing_notifications_category">Efeito de respiração nas notificações</string>
-  <string name="build_tweaks_summary_title">Estenda seu dispositivo</string>
+  <string name="build_tweaks_summary_title">Personalizar o dispositivo</string>
   <string name="system_animations">Animações do Sistema</string>
   <string name="toast">Aviso na tela</string>
   <string name="listview">ListView</string>
@@ -82,7 +82,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Notificações</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">UI Geral</string>
+  <string name="recents_ui_title">Interface dos recentes</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Tela de bloqueio</string>
   <!-- Lockscreen Shortcuts -->
@@ -1063,4 +1063,10 @@
   <!-- Incall Home button behavior-->
   <string name="allow_incall_home_title">Botão home quando estiver tocando</string>
   <string name="allow_incall_home_summary">Permitir que o botão home seja usado quando o dispositivo estiver tocando</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Luz de fundo das teclas físicas</string>
+  <string name="button_backlight_on_touch_only_summary">Ativar a luz de fundo das teclas físicas apenas quando tocar o botão</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Mostrar ícone de dados desligados</string>
+  <string name="data_disabled_icon_summary">Mostrar um X junto do ícone de rede quando os dados estiverem desligados</string>
 </resources>

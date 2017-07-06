@@ -968,6 +968,7 @@
   <string name="shortcuts_icon_picker_quicksettings">快速设置</string>
   <string name="shortcuts_icon_picker_rss">RSS 订阅</string>
   <string name="shortcuts_icon_picker_sdcard">SD 卡</string>
+  <string name="shortcuts_icon_picker_search">搜索</string>
   <string name="shortcuts_icon_picker_sms">短信</string>
   <string name="shortcuts_icon_picker_tasks">任务</string>
   <string name="shortcuts_icon_picker_terminal">终端模拟器</string>
@@ -1050,4 +1051,6 @@
   <string name="system_app_remover">系统应用程序卸载器</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

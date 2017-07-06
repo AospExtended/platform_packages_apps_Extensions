@@ -26,13 +26,14 @@
   <string name="general_category">Общие</string>
   <string name="gestures_category">Жесты</string>
   <string name="music_category">Музыка</string>
-  <string name="weather_category">Настройки погоды</string>
+  <string name="weather_category">Погода на экране блокировки</string>
   <string name="security_category">Безопасность</string>
-  <string name="hardware_category">Оборудование</string>
-  <string name="animations_category">Анимация плитки</string>
-  <string name="traffic_category">Индикация трафика</string>
+  <string name="hardware_category">Аппаратное обеспечение</string>
+  <string name="animations_category">Стиль анимации плиток</string>
+  <string name="traffic_category">Индикатор сетевого трафика</string>
+  <string name="aosp_recents_category">Недавние AOSP</string>
   <string name="dlg_ok">OK</string>
-  <string name="attention">Attention</string>
+  <string name="attention">Внимание</string>
   <string name="loading">Загрузка\u2026</string>
   <string name="reset">Сброс</string>
   <string name="reset_colors">Сбросить цвета</string>
@@ -49,18 +50,21 @@
   <string name="lockscreen_category">Экран блокировки</string>
   <string name="statusbar_items_category">Элементы строки состояния</string>
   <string name="navigation_category">Навигация</string>
-  <string name="breathing_notifications_category">Дыщащие уведомления</string>
+  <string name="breathing_notifications_category">Уведомления с эффектом дыхания</string>
   <string name="build_tweaks_summary_title">Расширенные настройки</string>
   <string name="system_animations">Системная анимация</string>
-  <string name="toast">Всплывающее оповещение</string>
+  <string name="toast">Тост-уведомление</string>
   <string name="listview">Анимация списка</string>
   <string name="qs_header_title">Заголовок быстрых настроек</string>
+  <string name="qs_omnijaws_category">Плитка погоды</string>
   <!-- App info dialog -->
-  <string name="extensions_dialog_title">Помоги нам помочь тебе!</string>
-  <string name="extensions_dialog_message">Дружище, если ты найдешь баг при использовании наших настроек, напиши в тему баг-репортов нашего сообщества Google+. Добавь информацию в свой баг о: \n\n1. Логи из: logcat or last_kmsg\n2. Ядро и установленные моды\n3. Дополнительная инфа\n\nЕсли ты не можешь создать беш-репорт адекватного содержания, не ожидай его исправления.</string>
-  <string name="extensions_dialog_toast">ПРОЧТИ ЭТУ ПРОСТУЮ ИСТИНУ!</string>
+  <string name="extensions_dialog_title">Помогите нам помочь вам!</string>
+  <string name="extensions_dialog_message">Если Вы найдете ошибку в любых из этих настроек, сообщите в разделе багрепортов на нашей странице Google+. Вы ДОЛЖНЫ прикрепить следующее:\n\n 1. Logcat или last_kmsg\n2. используемое ядро и моды\n3. Любую полезную информацию.\n\n Если Вы не сможете адекватно сообщить о проблеме, не ждите, что мы её исправим.</string>
+  <string name="extensions_dialog_toast">ПРОЧИТАЙТЕ ЭТО ПОЛНОСТЬЮ!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Настройки службы</string>
+  <string name="header_weather_title">Вид заголовка погоды</string>
+  <string name="header_weather_summary">Включить отображение погоды в панели уведомлений</string>
   <string name="weather_icon_pack_title">Стиль значков</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Слайдер яркости</string>
@@ -82,6 +86,7 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Экран блокировки</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Ярлыки экрана блокировки</string>
   <!-- Buttons -->
   <string name="buttons_title">Кнопки</string>
   <!-- Blur -->
@@ -152,6 +157,7 @@
   <string name="volbtn_cursor_control_on_reverse">Кнопка «+» двигает курсор вправо, «-» — влево</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Пробуждать устройство</string>
+  <string name="home_wake_summary">Включать экран при нажатии кнопки «Домой»</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Сетевой трафик</string>
   <string name="show_network_traffic_state">Отображение трафика в строке состояния</string>
@@ -516,6 +522,8 @@
   <!-- Power menu customization -->
   <string name="power_menu_title">Меню питания</string>
   <string name="power_menu_title_summary">Посмотреть или изменить меню кнопки питания</string>
+  <string name="power_category">Настройка меню выключения</string>
+  <string name="actions_category">Пункты меню выключения</string>
   <string name="power_menu_reboot_title">Перезапустить</string>
   <string name="power_menu_screenshot_title">Скриншот</string>
   <string name="power_menu_screenrecord_title">Запись экрана</string>
@@ -835,6 +843,8 @@
   <string name="wired_ringtone_focus_mode_dynamic">Наушники, если они подключены и включена музыка</string>
   <string name="wired_ringtone_focus_mode_stock">Динамик и наушники (по умолчанию)</string>
   <!-- QS Easy Toggle -->
+  <string name="qs_easy_toggle_title">Расширенный переключатель быстрых настроек</string>
+  <string name="qs_easy_toggle_summary">Включение или выключение мобильного интернета, wifi и bluetooth одиночным нажатием на плитку</string>
   <string name="dnd_when_call_title">Режим \"Не беспокоить\" во время голосового вызова</string>
   <string name="dnd_when_call_summary">Автоматическое включение режима \"Не беспокоить\" во время голосовых вызовов</string>
   <!-- StatusBar weather settings -->
@@ -866,6 +876,9 @@
   <string name="recent_panel_show_topmost_summary">Показывать последнее приложение в списке недавних</string>
   <string name="recent_panel_bg_color_title">Цвет фона панели</string>
   <string name="recent_card_bg_color_title">Цвет фона карточки</string>
+  <string name="recent_reset_title">Сбросить к настройкам по умолчанию</string>
+  <string name="recent_reset_confirm">Вы уверены, что хотите вернуть настройки в первоначальное состояние?</string>
+  <string name="default_auto_string">По умолчанию</string>
   <string name="slim_icon_pack_title">Набор значков</string>
   <string name="slim_icon_pack_summary">Применить пользовательский набор значков для приложений в панели</string>
   <string name="no_iconpacks_summary">Ни одного набора значков не установлено</string>
@@ -890,7 +903,7 @@
   <string name="recents_stock">Заводской AOSP</string>
   <string name="recents_grid">Сетка</string>
   <!-- Slim DSLV -->
-  <string name="shortcut_action_none">Пусто</string>
+  <string name="shortcut_action_none">Не использовать</string>
   <string name="shortcut_action_longpress">Долгое нажатие:</string>
   <string name="shortcut_action_select_action_longpress">Выберите действие для долгого нажатия:</string>
   <string name="shortcut_action_select_action">Выберите действие:</string>
@@ -970,8 +983,9 @@
   <string name="shortcuts_icon_picker_twitter">Twitter</string>
   <string name="shortcuts_icon_picker_unlock">Разблокировка</string>
   <string name="empty_title">Пусто</string>
-  <string name="normal_title">Нормальный</string>
+  <string name="normal_title">Обычный</string>
   <string name="hidden_title">Скрыть</string>
+  <string name="position_title">Расположение</string>
   <string name="position_right_title">Справа</string>
   <string name="position_centered_title">По центру</string>
   <string name="help">Справка</string>
@@ -979,6 +993,7 @@
   <string name="profiles_add">Добавить</string>
   <string name="profile_choose_app">Выбрать приложение</string>
   <string name="profile_reset_title">Сбросить</string>
+  <string name="show_title">Показать</string>
   <string name="choose_app">Выбрать приложение</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Верхние ярлыки быстрого доступа</string>
@@ -986,7 +1001,7 @@
   <string name="lockscreen_shorcuts_longpress_title">Долгое нажатие</string>
   <string name="lockscreen_shorcuts_longpress_summary">Долгое нажатие для открытия приложений с помощью ярлыков</string>
   <string name="lockscreen_shortcuts_category">Ярлыки</string>
-  <string name="shortcut_action_none">Пусто</string>
+  <string name="shortcut_action_none">Не использовать</string>
   <string name="shortcut_action_app">Пользовательское приложение</string>
   <string name="shortcut_action_home">Домой</string>
   <string name="shortcut_action_back">Назад</string>
@@ -1043,5 +1058,16 @@
   <string name="sizer_message_noselect">Ничего не выбрано.</string>
   <string name="system_app_remover">Удаление системных приложений</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Показывать иконку закрепления экрана для недавних в виде сетки</string>
+  <string name="grid_recents_pinning_summaryOn">Иконка закрепления экрана будет отображаться при недавних в виде сетки, если закрепление экрана включено в настройках безопасности</string>
+  <string name="grid_recents_pinning_summaryOff">Иконка закрепления экрана будет скрыта при недавних в виде сетки, если закрепление экрана включено в настройках безопасности</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Кнопка \"Домой\" при звонке</string>
+  <string name="allow_incall_home_summary">Разрешить использование кнопки \"Домой\" при входящем звонке</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Касание кнопок</string>
+  <string name="button_backlight_on_touch_only_summary">Включить подсветку кнопок с таймаутом только при касании кнопок</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
+  <string name="data_disabled_icon_summary">Показывать крест над значком сети, когда передача данных отключена</string>
 </resources>

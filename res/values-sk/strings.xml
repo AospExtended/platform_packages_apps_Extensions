@@ -966,6 +966,7 @@
   <string name="shortcuts_icon_picker_quicksettings">Rychle nastavenia</string>
   <string name="shortcuts_icon_picker_rss">RSS kanál</string>
   <string name="shortcuts_icon_picker_sdcard">SD karta</string>
+  <string name="shortcuts_icon_picker_search">Hladať</string>
   <string name="shortcuts_icon_picker_tasks">Úlohy</string>
   <string name="shortcuts_icon_picker_terminal">Terminál</string>
   <string name="shortcuts_icon_picker_transit">Tranzit</string>
@@ -1047,4 +1048,6 @@
   <string name="system_app_remover">Odstraňovač systémových aplikácií</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

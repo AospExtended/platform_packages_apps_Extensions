@@ -109,8 +109,12 @@
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
   <string name="power_menu_title">पावर मेनू</string>
+  <string name="power_menu_reboot_title">बंद कर के चालू करिए</string>
+  <string name="power_menu_screenshot_title">स्क्रीनशॉट</string>
+  <string name="power_menu_screenrecord_title">स्क्रीन रिकॉर्ड</string>
   <string name="power_menu_torch_title">टॉर्च</string>
   <string name="power_menu_onthego_title">On-The-Go मोड</string>
+  <string name="power_menu_search_title">खोज</string>
   <string name="power_menu_voice_title">आवाज से खोज</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
@@ -177,6 +181,7 @@
   <string name="shortcuts_icon_picker_gallery">गैलरी</string>
   <string name="shortcuts_icon_picker_music">संगीत</string>
   <string name="shortcuts_icon_picker_play">चलायें</string>
+  <string name="shortcuts_icon_picker_search">खोज</string>
   <string name="empty_title">खाली</string>
   <string name="normal_title">सामान्य</string>
   <string name="profiles_add">जोड़ें</string>
@@ -193,4 +198,6 @@
   <string name="delete_success">हटाए गए</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

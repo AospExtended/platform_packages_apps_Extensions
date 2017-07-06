@@ -41,14 +41,18 @@
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
   <!-- Immersive Recents -->
+  <string name="immersive_recents_default">സാധാ ഗതിയിലേക്ക്</string>
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_duration_default">സാധാ ഗതിയിലേക്ക്</string>
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
   <!-- Home button wake up -->
   <!-- Network traffic -->
   <!-- Statusbar Clock options -->
   <!-- Color Picker -->
+  <string name="color_default">സാധാ ഗതിയിലേക്ക്</string>
   <!-- Navigation Bar -->
+  <string name="default_string">സാധാ ഗതിയിലേക്ക്</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
   <!-- Pulse navigation bar music visualizer -->
@@ -79,6 +83,12 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">റീസ്റ്റാർട്ട്</string>
+  <string name="power_menu_screenshot_title">സ്ക്രീൻഷോട്ട്</string>
+  <string name="power_menu_screenrecord_title">സ്‌ക്രീൻ റെക്കോർഡ്</string>
+  <string name="power_menu_torch_title">ടോർച്ച്</string>
+  <string name="power_menu_onthego_title">ഓണ്‍-ദി-ഗോ മോഡ്</string>
+  <string name="power_menu_search_title">അന്വേഷിക്കുക</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -96,8 +106,13 @@
   <!-- fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">സാധാ ഗതിയിലേക്ക്</string>
   <!-- Toast Animation -->
+  <string name="toast_default_animation">സാധാ ഗതിയിലേക്ക്</string>
+  <string name="toast_fade_animation">മാഞ്ഞു പോവുക</string>
+  <string name="toast_Translucent_animation">ട്രാൻക്ലൂസെന്റ്</string>
   <!-- ListView animation -->
+  <string name="listview_off">സാധാ ഗതിയിലേക്ക്</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Alarm blocker -->
@@ -121,8 +136,12 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcuts_icon_default">സാധാ ഗതിയിലേക്ക്</string>
+  <string name="shortcuts_icon_picker_search">അന്വേഷിക്കുക</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

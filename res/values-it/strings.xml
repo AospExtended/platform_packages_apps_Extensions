@@ -26,12 +26,12 @@
   <string name="general_category">Generale</string>
   <string name="gestures_category">Gesti</string>
   <string name="music_category">Musica</string>
-  <string name="weather_category">Impostazioni Meteo</string>
+  <string name="weather_category">Meteo schermata di blocco</string>
   <string name="security_category">Sicurezza</string>
   <string name="hardware_category">Hardware</string>
-  <string name="animations_category">Animazione Tile</string>
-  <string name="traffic_category">Indicatori di traffico</string>
-  <string name="aosp_recents_category">Recenti AOSP</string>
+  <string name="animations_category">Animazione dei tile</string>
+  <string name="traffic_category">Indicatori del traffico dati</string>
+  <string name="aosp_recents_category">App recenti AOSP</string>
   <string name="dlg_ok">OK</string>
   <string name="attention">Attenzione</string>
   <string name="loading">Caricamento\u2026</string>
@@ -51,30 +51,30 @@
   <string name="statusbar_items_category">Elementi barra di stato</string>
   <string name="navigation_category">Navigazione</string>
   <string name="breathing_notifications_category">Notifiche lampeggianti</string>
-  <string name="build_tweaks_summary_title">Espandi il tuo dispositivo!</string>
+  <string name="build_tweaks_summary_title">Estendi il tuo dispositivo!</string>
   <string name="system_animations">Animazioni di sistema</string>
   <string name="toast">Toast</string>
   <string name="listview">Visualizzazione elenco</string>
-  <string name="qs_header_title">Intestazione</string>
+  <string name="qs_header_title">Header impostazioni rapide</string>
   <string name="qs_omnijaws_category">Tile meteo</string>
   <!-- App info dialog -->
-  <string name="extensions_dialog_title">Aiutaci ad aiutare voi!</string>
-  <string name="extensions_dialog_message">Se trovate un bug con una qualsiasi di queste impostazioni, postate nella sezione Bug report della nostra pagina Google+. È NECESSARIO includere quanto segue durante l\'invio di una segnalazione di bug:\n\n1. Un logcat o un last_kmsg\n2. Kernel e mods usato\n3. Informazioni utili\n\nSe non si riesce a riferire qualcosa in modo adeguato, non aspettatevi cose risolte.</string>
+  <string name="extensions_dialog_title">Aiutaci ad aiutarti!</string>
+  <string name="extensions_dialog_message">Se trovi un bug con una qualsiasi di queste impostazioni, posta (in inglese) nella sezione \"Bug report\" della nostra pagina Google+. È NECESSARIO includere quanto segue durante l\'invio di una segnalazione di bug:\n\n1. Un logcat o un last_kmsg\n2. Kernel e mods usate\n3. Informazioni utili\n\nSe non riesci a riferire qualcosa in modo adeguato, NON aspettarti che le cose si sistemino.</string>
   <string name="extensions_dialog_toast">LEGGI TUTTO!</string>
   <!-- OmniJaws -->
-  <string name="weather_config_title">Impostazioni servizio</string>
-  <string name="header_weather_title">Visualizza meteo sull\'intestazione</string>
-  <string name="header_weather_summary">Abilita la visualizzazione del meteo sull\'intestazione del pannello delle notifiche</string>
-  <string name="weather_icon_pack_title">Pacchetto icona condizioni meteo</string>
+  <string name="weather_config_title">Impostazioni meteo</string>
+  <string name="header_weather_title">Visualizza meteo sull\'header</string>
+  <string name="header_weather_summary">Abilita la visualizzazione del meteo sull\'header del pannello delle notifiche</string>
+  <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
   <!-- Quick Settings brightness slider -->
-  <string name="qs_brightness_slider_title">Cursore luminosità</string>
-  <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
+  <string name="qs_brightness_slider_title">Slider luminosità</string>
+  <string name="qs_brightness_slider_summary">Mostra uno slider della luminosità nel pannello delle impostazioni rapide</string>
   <string name="brightness_icon_title">Icona luminosità </string>
   <string name="brightness_icon_summary">Visualizza un\'icona a sinistra dello slider per regolare la luminosità automatica</string>
   <!-- Quick Settings -->
   <string name="quick_settings_title">Impostazioni rapide</string>
-  <string name="status_bar_quick_qs_pulldown_title">Discesa rapida</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Il bordo %1$s della barra di stato mostra le impostazioni rapide</string>
+  <string name="status_bar_quick_qs_pulldown_title">Apertura rapida</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato tira giù le impostazioni rapide</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Varie estensioni</string>
   <!-- General Tweaks -->
@@ -82,7 +82,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Notifiche</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Interfaccia generale</string>
+  <string name="recents_ui_title">App recenti</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Schermata di blocco</string>
   <!-- Lockscreen Shortcuts -->
@@ -434,8 +434,8 @@
   <string name="weather_hide_panel_custom_summary">Il pannello meteo sarà nascosto quando le notifiche visibili raggiungeranno il numero di notifiche scelto</string>
   <string name="weather_hide_panel_never_summary">Il pannello meteo non sarà nascosto</string>
   <string name="weather_number_of_notifications_title">Numero di notifiche</string>
-  <string name="weather_config_title">Impostazioni servizio</string>
-  <string name="weather_icon_pack_title">Pacchetto icona condizioni meteo</string>
+  <string name="weather_config_title">Impostazioni meteo</string>
+  <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
   <string name="lock_clock_title">Servizio meteo</string>
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
@@ -1063,6 +1063,12 @@
   <string name="grid_recents_pinning_summaryOn">L\'icona del blocco schermo verrà mostrata nei recenti a griglia se il blocco schermo è abilitato dalle impostazioni di protezione</string>
   <string name="grid_recents_pinning_summaryOff">L\'icona del blocco schermo verrà nascosta nei recenti a griglia anche se il blocco schermo schermo è abilitato dalle impostazioni di protezione</string>
   <!-- Incall Home button behavior-->
-  <string name="allow_incall_home_title">Pulsante Home quando squilla</string>
-  <string name="allow_incall_home_summary">Consenti di utilizzare il pulsante Home quando il dispositivo squilla</string>
+  <string name="allow_incall_home_title">Pulsante home quando squilla</string>
+  <string name="allow_incall_home_summary">Consenti di utilizzare il pulsante home quando il dispositivo squilla</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Tocco del pulsante</string>
+  <string name="button_backlight_on_touch_only_summary">Attiva la retroilluminazione solo al tocco del pulsante</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Mostra icona dati disabilitati</string>
+  <string name="data_disabled_icon_summary">Mostra una X accanto alla barra del segnale quando i dati sono disabilitati</string>
 </resources>

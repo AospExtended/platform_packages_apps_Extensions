@@ -36,6 +36,7 @@
   <string name="attention">Atención</string>
   <string name="loading">Cargando\u2026</string>
   <string name="reset">Reestablecer</string>
+  <string name="reset_colors">Restablecer colores</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Texto</string>
   <string name="icon_title">Icono</string>
@@ -62,6 +63,8 @@
   <string name="extensions_dialog_toast">¡LEER TODO!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Ajustes de servicio</string>
+  <string name="header_weather_title">Vista del tiempo en el encabezado</string>
+  <string name="header_weather_summary">Habilitar mostrar el tiempo en la cabecera del panel de notificaciones</string>
   <string name="weather_icon_pack_title">Pack de iconos de estado</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Barra de brillo</string>
@@ -83,6 +86,7 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">UI de la pantalla de bloqueo</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Atajos de la pantalla de bloqueo</string>
   <!-- Buttons -->
   <string name="buttons_title">Botones</string>
   <!-- Blur -->
@@ -153,6 +157,7 @@
   <string name="volbtn_cursor_control_on_reverse">Volumen arriba/abajo mueve el cursor a la derecha/izquierda</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Despertar dispositivo</string>
+  <string name="home_wake_summary">Presionar el botón Inicio despertará el dispositivo</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Tráfico de red</string>
   <string name="show_network_traffic_state">Monitor de tráfico en la barra de estado</string>
@@ -979,6 +984,7 @@
   <string name="empty_title">Vacio</string>
   <string name="normal_title">Normal</string>
   <string name="hidden_title">Oculto</string>
+  <string name="position_title">Posición</string>
   <string name="position_right_title">Derecha</string>
   <string name="position_centered_title">Centrado</string>
   <string name="help">Ayuda</string>
@@ -986,6 +992,7 @@
   <string name="profiles_add">Añadir</string>
   <string name="profile_choose_app">Selecciona aplicación</string>
   <string name="profile_reset_title">Restablecer</string>
+  <string name="show_title">Mostrar</string>
   <string name="choose_app">Selecciona aplicación</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Accesos directos superiores</string>
@@ -1050,5 +1057,16 @@
   <string name="sizer_message_noselect">Nada seleccionado.</string>
   <string name="system_app_remover">Eliminador de aplicaciones del sistema</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Muestra el icono de fijar en la cuadrícula de estilos recientes</string>
+  <string name="grid_recents_pinning_summaryOn">El icono de fijar se mostrará en la cuadrícula de estilos recientes si la opción de fijar está habilitada en los ajustes de seguridad</string>
+  <string name="grid_recents_pinning_summaryOff">El icono de fijar se ocultará en la cuadrícula de estilos recientes incluso si la opción de fijar está habilitada en los ajustes de seguridad</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Botón de inicio cuando suene</string>
+  <string name="allow_incall_home_summary">Habilitar usar el boton de inicio cuando el dispositivo esté sonando</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Botones táctiles</string>
+  <string name="button_backlight_on_touch_only_summary">Activar luz de fondo con tiempo de espera sólo en el botones táctiles</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Mostrar icono de datos deshabilitados</string>
+  <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos esten deshabilitados</string>
 </resources>

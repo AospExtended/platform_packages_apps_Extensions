@@ -18,12 +18,23 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensões</string>
   <string name="add">Adicionar</string>
+  <string name="advanced">Avançado</string>
+  <string name="cancel">Cancelar</string>
   <string name="choose_app">Escolher aplicação</string>
+  <string name="general_category">Geral</string>
+  <string name="gestures_category">Gestos</string>
   <string name="music_category">Música</string>
   <string name="weather_category">Definições da meteorologia</string>
+  <string name="security_category">Segurança</string>
+  <string name="hardware_category">Hardware</string>
+  <string name="traffic_category">Indicadores de tráfego</string>
+  <string name="aosp_recents_category">AOSP recentes</string>
   <string name="dlg_ok">OK</string>
+  <string name="loading">A carregar\u2026</string>
   <string name="reset">Restaurar</string>
+  <string name="reset_colors">Repor cores</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Texto</string>
   <string name="icon_title">Ícone</string>
@@ -32,11 +43,19 @@
   <!-- Extensions categories -->
   <string name="recents_category">Aplicações recentes</string>
   <string name="status_bar_category">Barra de estado</string>
+  <string name="notifications_panel_category">Painel de notificações</string>
+  <string name="system_category">Sistema</string>
+  <string name="lockscreen_category">Ecrã de bloqueio</string>
+  <string name="statusbar_items_category">Itens da barra de estado</string>
   <string name="navigation_category">Navegação</string>
+  <string name="breathing_notifications_category">Efeito de respiração em notificações</string>
   <string name="system_animations">Animações do sistema</string>
   <string name="toast">Toast</string>
   <string name="listview">ListView</string>
+  <string name="qs_header_title">Painel de definições rápidas</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Ajude-nos a ajudá-lo!</string>
+  <string name="extensions_dialog_toast">LEIA TUDO!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Definições de serviços</string>
   <string name="weather_icon_pack_title">Conjunto de ícones</string>
@@ -46,27 +65,37 @@
   <string name="brightness_icon_title">Botão de Luminosidade adaptável </string>
   <string name="brightness_icon_summary">Mostra um ícone à esquerda do controlo deslizante de brilho para ativar a luminosidade adaptável</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Definições rápidas</string>
   <string name="status_bar_quick_qs_pulldown_title">Puxar rápido para baixo</string>
   <string name="status_bar_quick_qs_pulldown_summary">O %1$s da barra de estado faz baixar o painel de definições rápidas</string>
   <!-- Misc Extensions -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Ajustes gerais</string>
   <!-- Notifications -->
+  <string name="notifications_title">Notificações</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Interface geral</string>
   <!-- Lockscreen UI -->
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Atalhos do ecrã de bloqueio</string>
   <!-- Buttons -->
+  <string name="buttons_title">Botões</string>
   <!-- Blur -->
+  <string name="blur_title">Desfocar</string>
   <!-- Animations -->
+  <string name="animations_title">Animações</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Etiqueta da operadora</string>
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">Contagem de notificações</string>
   <string name="status_bar_notif_count_summary">Mostra o número de notificações pendentes</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">Toque duplo para desligar ecrã</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Ícone na toast</string>
   <string name="toast_icon_summary">Mostra o ícone da aplicação correspondente na toast</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Controlos de notificações do consumo de energia</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Forçar as notificações expandidas</string>
   <string name="force_expanded_notifications_summary">Apenas disponível para aplicações que oferecem suporte para notificações expandidas</string>
@@ -74,6 +103,8 @@
   <string name="disable_immersive_message_title">Desativar pop-ups no modo imersivo</string>
   <string name="disable_immersive_message_summary">Esconder todas as notificações no modo imersivo</string>
   <!-- Flashlight notification -->
+  <string name="flashlight_notification_title">Notificação de lanterna</string>
+  <string name="flashlight_notification_summary">Ativar notificação quando a lanterna está activa</string>
   <!-- Immersive Recents -->
   <string name="immersive_recents_title">Vista imersiva das aplicações recentes</string>
   <string name="immersive_recents_summary">Muda a vista do ecrã recentes</string>
@@ -104,6 +135,9 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_enabled">Pesquisa de multimédia</string>
+  <string name="media_scanner_on_boot_ask">Pedir para fazer a pesquisa (notificação)</string>
+  <string name="media_scanner_on_boot_disabled">Não pesquisar multimédia</string>
   <!-- Volume key cursor control -->
   <string name="volbtn_cursor_control_title">Controlo do cursor de teclado</string>
   <string name="volbtn_cursor_control_off">Desativada</string>
@@ -111,6 +145,7 @@
   <string name="volbtn_cursor_control_on_reverse">Volume para cima/baixo move o cursor para a direita/esquerda</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Acordar o dispositivo</string>
+  <string name="home_wake_summary">Pressionar o botão Home ligará o ecrã do seu dispositivo</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Tráfego de rede</string>
   <string name="show_network_traffic_state">Monitor do tráfego na barra de estado</string>
@@ -129,18 +164,43 @@
   <string name="network_traffic_autohide">Ocultar automaticamente</string>
   <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando não houver atividade</string>
   <string name="network_traffic_autohide_threshold">Limite de inatividade</string>
+  <string name="network_traffic_hidearrow">Ocultar as setas</string>
   <string name="network_traffic_hidearrow_summary">Esconde as setas do indicador de tráfego</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock">Relógio &amp; data</string>
+  <string name="clock_title_enable">Posicionamento</string>
+  <string name="status_bar_show_clock_title">Mostar relógio &amp; data</string>
   <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
   <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
+  <string name="right_clock">Relógio à direita</string>
+  <string name="center_clock">Relógio ao centro</string>
+  <string name="left_clock">Relógio à esquerda</string>
+  <string name="clock_date_display">Data</string>
+  <string name="clock_date_style">Estilo de data</string>
   <string name="clock_date_position">Posição da data</string>
+  <string name="clock_date_format">Formato da data</string>
+  <string name="clock_date_string_edittext_title">Deve estar num formato de data, por exemplo: MM/DD/yy</string>
+  <string name="clock_date_string_edittext_summary">Escreva os caracteres</string>
   <string name="clock_date_right">À direita do relógio</string>
   <string name="clock_date_left">À esquerda do relógio</string>
   <string name="clock_am_pm_date_normal">Normal</string>
+  <string name="clock_am_pm_date_small">Pequeno</string>
+  <string name="clock_am_pm_date_none">Oculto</string>
+  <string name="clock_date_style_lowercase">Minúsculas</string>
+  <string name="clock_date_style_uppercase">Maiúsculas</string>
+  <string name="clock_date_format_custom">Formato Java personalizado</string>
+  <string name="cancel">Cancelar</string>
+  <string name="save">Guardar</string>
   <string name="clock_font_style_title">Tipo de letra</string>
   <string name="clock_font_size_title">Tamanho da letra</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Selecionador de cores</string>
+  <string name="press_color_to_apply">Pressione a cor abaixo para aplicar</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
   <string name="color_default">Predefinida</string>
   <!-- Navigation Bar -->
   <string name="navbar_tint_switch">Cor dos botões personalizada</string>
@@ -151,6 +211,7 @@
   <string name="navbar_visibility">Ativar a barra de navegação</string>
   <string name="navigationbar_settings_title">Barra de navegação</string>
   <string name="navigationbar_settings_summary">Personaliza o comportamento e estilo da navegação</string>
+  <string name="navbar_general_title">Avançado</string>
   <string name="navigation_bar_left_title">Modo de mão esquerda</string>
   <string name="navigation_bar_left_summary">Mostrar barra de navegação no lado esquerdo no modo paisagem</string>
   <string name="info_pref_note_title">Nota</string>
@@ -158,6 +219,9 @@
   <string name="icon_pack_picker_dialog_title">Pacotes de Ícones</string>
   <string name="image_exceeds_max_allowed_size">A imagem não deve exceder os 512x512 píxeis</string>
   <string name="invalid_icon_from_uri">Não é possível carregar a imagem do fornecedor de conteúdo</string>
+  <string name="picker_activities">Atividades</string>
+  <string name="select_custom_app_title">Selecionar aplicação personalizada</string>
+  <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
   <string name="profile_applist_title">Aplicações</string>
   <string name="default_string">Predefinida</string>
   <string name="reset">Restaurar</string>
@@ -198,6 +262,7 @@
   <string name="up_swipe_title">Deslizar para cima</string>
   <string name="down_swipe_title">Deslizar para baixo</string>
   <string name="long_swipe_reset">Restaurar</string>
+  <string name="fling_advanced">Avançado</string>
   <string name="fling_long_swipe_title">Limite do deslize longo</string>
   <string name="fling_long_swipe_summary">Afinar os limites da pressão longa baseada numa percentagem de largura ou altura da interface Fling</string>
   <string name="fling_trails_enable_title">Ativar rasto dos gestos</string>
@@ -232,6 +297,7 @@
   <string name="fling_pulse_color">Cor do Pulse</string>
   <string name="eos_fling_lavalamp_title">Modo Lâmpada de Lava</string>
   <string name="eos_fling_lavalamp_summary">Animar o Pulse com uma mistura suave de cores ao estilo de uma Lâmpada de Lava</string>
+  <string name="pulse_advanced_category">Avançado</string>
   <string name="pulse_legacy_mode_advanced_category">Definições do modo de blocos desvanecentes</string>
   <string name="pulse_custom_fudge_factor">Nível de sanidade</string>
   <string name="lavamp_solid_speed_title">Velocidade da Lâmpada de Lava</string>
@@ -252,6 +318,7 @@
   <string name="portrait_title">Altura no modo retrato</string>
   <string name="land_vert_title">Largura da paisagem</string>
   <string name="land_hor_title">Altura no modo paisagem</string>
+  <string name="positive_done">Concluído</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Barra de navegação</string>
   <string name="smartbar_settings_title">Definições da barra de navegação</string>
@@ -291,6 +358,7 @@
   <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos</string>
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
+  <string name="breathing_notifications_title">Efeito de respiração em notificações</string>
   <string name="missed_call_breath_title">Nas chamadas perdidas</string>
   <string name="missed_call_breath_summary">Dar efeito de respiração às notificações de chamadas perdidas na barra de estado</string>
   <string name="voicemail_breath_title">No correio de voz</string>
@@ -319,6 +387,7 @@
   <string name="lock_clock_font_medium_italic">Itálico médio</string>
   <!-- Lockscreen weather -->
   <string name="lock_screen_weather_settings_title">Meteorologia</string>
+  <string name="weather_cat_notifications_title">Notificações</string>
   <string name="weather_show_weather_title">Mostrar meteorologia</string>
   <string name="weather_show_weather_summary">Ative para mostrar informações meteorológicas</string>
   <string name="weather_show_location_title">Mostrar localização</string>
@@ -359,6 +428,7 @@
   <string name="keyguard_torch_summary">Ligar a lanterna com pressão longa no botão de ligar/desligar com o ecrã desligado</string>
   <!-- Wakelock blocker -->
   <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
+  <string name="wakelock_blocker_save">Guardar</string>
   <string name="wakelock_list_header">Wakelocks disponíveis</string>
   <string name="wakelock_blocker_reload">Recarregar</string>
   <string name="wakelock_blocker_warning_title">Prosseguir com cautela</string>
@@ -403,10 +473,14 @@
   <string name="heads_up_snooze_20min">20 minutos</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Menu de ligar/desligar</string>
+  <string name="power_menu_reboot_title">Reiniciar</string>
+  <string name="power_menu_screenshot_title">Captura de ecrã</string>
+  <string name="power_menu_screenrecord_title">Gravação de ecrã</string>
   <string name="power_menu_torch_title">Lanterna</string>
   <string name="power_menu_onthego_title">Modo On-The-Go</string>
   <string name="power_menu_airplane_title">Modo de voo</string>
   <string name="power_menu_users_title">Mudar utilizador</string>
+  <string name="power_menu_search_title">Pesquisar</string>
   <string name="power_menu_voice_title">Pesquisa por voz</string>
   <string name="power_menu_settings_title">Atalho para as Definições</string>
   <string name="power_menu_lockdown_title">Bloqueio do dispositivo</string>
@@ -460,7 +534,9 @@
   <string name="status_bar_battery_style_icon_landscape">Ícone em modo paisagem</string>
   <string name="status_bar_battery_style_circle">Círculo</string>
   <string name="status_bar_battery_style_text">Texto</string>
+  <string name="status_bar_battery_style_hidden">Oculto</string>
   <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
+  <string name="status_bar_battery_percentage_default">Oculto</string>
   <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
   <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
   <string name="battery_tile_style_title">Estilo do mosaico da bateria</string>
@@ -493,6 +569,7 @@
   <string name="fprint_sucess_vib_title">Vibrar ao autenticar</string>
   <string name="fprint_sucess_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
   <!-- XOSP Blur personalizations -->
+  <string name="settings_blur_cat">Desfocar</string>
   <string name="blurred_status_bar_expanded_enabled_pref">Transparência do fundo da barra de estado</string>
   <string name="blurred_status_bar_expanded_enabled_pref_summary">Fazer com que o fundo da barra de estado expandida seja transparente</string>
   <string name="translucent_notifications_pref">Notificações translúcidas</string>
@@ -510,6 +587,8 @@
   <string name="blur_colors_notice">O que fazem estas cores?</string>
   <string name="blur_colors_notice_summary">Estas cores são as usadas para a transparência do fundo. Em vez do normal cinzento, pode agora escolher as cores que desejar.\nExistem três filtros de cores: um usado para fundos claros, outro para fundos escuros e outro para fundos mistos.\nEntão como funcionam estas cores?\nSimples: como indicado no título, o filtro claro é usado em fundos claros, o filtro escuro em fundos escuros e o filtro misto em fundos nem muito claros nem muito escuros.\nEstas cores são usadas para ambos os fundos transparentes: Barra de Estado e vista de aplicações recentes </string>
   <string name="blur_expstatus_cat">Barra de estado expandida </string>
+  <string name="blur_notifications_cat">Notificações</string>
+  <string name="blur_qs_cat">Definições rápidas</string>
   <string name="blur_recents_cat">Aplicações recentes</string>
   <string name="blur_colors_cat">Filtros de cor transparente</string>
   <string name="blur_notices_cat">Avisos</string>
@@ -520,6 +599,7 @@
   <string name="blur_cat_notice">Aviso</string>
   <string name="blur_cat_notice_summary">As personalizações de transparência estão desativadas durante a vista de introdução de desbloqueio. Apenas as notificações translúcidas estão ativadas!</string>
   <!-- AOKP custom system animations -->
+  <string name="animation_title">Animações</string>
   <string name="system_animation_title">Animações do sistema</string>
   <string name="activity_open_title">Animação de abertura da atividade</string>
   <string name="activity_close_title">Animação do fecho da atividade</string>
@@ -583,6 +663,7 @@
   <string name="alarm_blocker">Bloqueador de alarmes</string>
   <string name="alarm_blocker_title">Ativar</string>
   <string name="alarm_blocker_summary">Bloquear os alarmes das aplicações enquanto o ecrã estiver desligado. Nota: estes alarmes não são os despertadores!</string>
+  <string name="alarm_blocker_save">Guardar</string>
   <string name="alarm_list_header">Alarmes disponíveis</string>
   <string name="alarm_blocker_reload">Recarregar</string>
   <string name="alarm_blocker_warning_title">Prosseguir com cautela</string>
@@ -760,6 +841,7 @@
   <string name="shortcuts_icon_presets">Ícones do sistema</string>
   <string name="shortcuts_icon_custom">Galeria</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Escolher ícone</string>
+  <string name="shortcuts_icon_picker_alarm">Alarme</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_browser">Navegador</string>
   <string name="shortcuts_icon_picker_calendar">Calendário</string>
@@ -783,6 +865,7 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google +</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Ajuda</string>
   <string name="shortcuts_icon_picker_joystick">Joystick</string>
   <string name="shortcuts_icon_picker_key">Chaves/contas</string>
   <string name="shortcuts_icon_picker_laptop">Computador portátil</string>
@@ -798,8 +881,10 @@
   <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
   <string name="shortcuts_icon_picker_play">Reproduzir</string>
   <string name="shortcuts_icon_picker_pocket">Pocket</string>
+  <string name="shortcuts_icon_picker_quicksettings">Definições rápidas</string>
   <string name="shortcuts_icon_picker_rss">Feeds RSS</string>
   <string name="shortcuts_icon_picker_sdcard">Cartão SD</string>
+  <string name="shortcuts_icon_picker_search">Pesquisar</string>
   <string name="shortcuts_icon_picker_tasks">Tarefas</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Trânsito</string>
@@ -808,8 +893,10 @@
   <string name="shortcuts_icon_picker_unlock">Desbloquear</string>
   <string name="empty_title">Vazio</string>
   <string name="normal_title">Normal</string>
+  <string name="hidden_title">Oculto</string>
   <string name="position_right_title">Direita</string>
   <string name="position_centered_title">Centrado</string>
+  <string name="help">Ajuda</string>
   <string name="reset_message">Repor definições originais?</string>
   <string name="profiles_add">Adicionar</string>
   <string name="profile_choose_app">Escolher aplicação</string>
@@ -824,6 +911,7 @@
   <string name="shortcut_action_none">Nenhuma</string>
   <string name="shortcut_action_app">Aplicação personalizada</string>
   <string name="shortcut_action_home">Página Inicial</string>
+  <string name="shortcut_action_back">Recuar</string>
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_ime">Abrir alternador de IME</string>
   <string name="shortcut_action_power_menu">Menu de ligar/desligar</string>
@@ -862,6 +950,7 @@
   <string name="sizer_title">Desinstalar aplicações</string>
   <string name="caution">Cuidado!</string>
   <string name="sizer_message_startup">Esta ferramenta permiteremover aplicações de sistema. Use-a com cuidado e apague só as aplicações que tem a certeza que podem ser removidas com segurança.</string>
+  <string name="cancel">Cancelar</string>
   <string name="sizer_message_delete">Tem certeza que deseja remover esta aplicação?</string>
   <string name="btn_delete">Remover aplicações selecionadas agora!</string>
   <string name="delete_progress_title">A remover</string>
@@ -877,4 +966,6 @@
   <string name="system_app_remover">Desinstalar aplicações de sistema</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

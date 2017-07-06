@@ -79,6 +79,7 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">ಪುನರಾರಂಭಿಸಿ</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -125,4 +126,6 @@
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <!-- Backlight button touch-->
+  <!-- Data disabled icon -->
 </resources>

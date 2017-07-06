@@ -1063,6 +1063,12 @@
   <string name="grid_recents_pinning_summaryOn">L\'icona del blocco schermo verrà mostrata nei recenti a griglia se il blocco schermo è abilitato dalle impostazioni di protezione</string>
   <string name="grid_recents_pinning_summaryOff">L\'icona del blocco schermo verrà nascosta nei recenti a griglia anche se il blocco schermo schermo è abilitato dalle impostazioni di protezione</string>
   <!-- Incall Home button behavior-->
-  <string name="allow_incall_home_title">Pulsante Home quando squilla</string>
-  <string name="allow_incall_home_summary">Consenti di utilizzare il pulsante Home quando il dispositivo squilla</string>
+  <string name="allow_incall_home_title">Pulsante home quando squilla</string>
+  <string name="allow_incall_home_summary">Consenti di utilizzare il pulsante home quando il dispositivo sta squillando</string>
+  <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Tocco del pulsante</string>
+  <string name="button_backlight_on_touch_only_summary">Abilita la retroilluminazione a tempo solo al tocco del pulsante</string>
+  <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Mostra l\'icona dei dati disattivati</string>
+  <string name="data_disabled_icon_summary">Visualizza il segno di una croce accanto alla barra del segnale quando i dati sono disabilitati</string>
 </resources>

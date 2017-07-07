@@ -29,9 +29,11 @@
   <string name="weather_category">Pengaturan cuaca</string>
   <string name="security_category">Keamanan</string>
   <string name="hardware_category">Perangkat keras</string>
-  <string name="animations_category">Animasi ikon</string>
-  <string name="traffic_category">Indikator lalu lintas</string>
+  <string name="animations_category">Animasi ubin</string>
+  <string name="traffic_category">Indikator data</string>
+  <string name="aosp_recents_category">AOSP recents</string>
   <string name="dlg_ok">OKE</string>
+  <string name="attention">Perhatian</string>
   <string name="loading">Memuat\u2026</string>
   <string name="reset">Kembalikan</string>
   <string name="reset_colors">Kembalikan warna</string>
@@ -51,16 +53,16 @@
   <string name="breathing_notifications_category">Jeda Notifikasi</string>
   <string name="build_tweaks_summary_title">Oprek perangkat anda!</string>
   <string name="system_animations">Animasi Sistem</string>
-  <string name="toast">Notifikasi</string>
+  <string name="toast">Toast</string>
   <string name="listview">Tampilan Baris</string>
-  <string name="qs_header_title">Setelan Cepat atas</string>
+  <string name="qs_header_title">Penyetelan cepat header</string>
   <string name="qs_omnijaws_category">Ikon Cuaca QS</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Bantu kami membantu anda!</string>
   <string name="extensions_dialog_message">Jika anda menemukan bug dengan setelan ini, posting di Laporan Bug bagian dari laman Google+ kami. Anda harus menyertakan berikut ini ketika posting laporan bug:\n\n1. Sebuah logcat atau last_kmsg\n2. Kernel dan mods yang digunakan\n3. Informasi yang membantu\n\nJika laporan anda tidak bisa memenuhi hal tersebut, JANGAN mengharapkan ada hal-hal yang akan diperbaiki.</string>
   <string name="extensions_dialog_toast">BACALAH HAL INI SELURUHNYA!</string>
   <!-- OmniJaws -->
-  <string name="weather_config_title">Pengaturan layanan</string>
+  <string name="weather_config_title">Pengaturan cuaca</string>
   <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
   <string name="header_weather_summary">Hidupkan notifikasi di atas pemberitahuan panel</string>
   <string name="weather_icon_pack_title">Paket ikon kondisi</string>
@@ -84,6 +86,7 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">UI Layar Kunci</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Pintasan layar kunci</string>
   <!-- Buttons -->
   <string name="buttons_title">Tombol</string>
   <!-- Blur -->
@@ -96,16 +99,16 @@
   <string name="status_bar_notif_count_title">Tampilkan hitungan pemberitahuan</string>
   <string name="status_bar_notif_count_summary">Tampilkan jumlah pemberitahuan yang tertunda</string>
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Ketuk dua kali tidur</string>
+  <string name="double_tap_to_sleep_title">Ketuk dua kali untuk tidur</string>
   <string name="double_tap_to_sleep_summary">Ketuk dua kali di statusbar atas atau ketiga pintasan bawah di area saat layar terkunci untuk mematikan layar</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Ikon \'Toast\'</string>
+  <string name="toast_icon_title">Toast Ikon</string>
   <string name="toast_icon_summary">Tampilkan ikon aplikasi sesuai dengan \'toast\'</string>
   <!-- Power notification controls -->
   <string name="power_notification_controls_title">Kontrol kekuatan notifikasi</string>
   <string name="power_notification_controls_summary">Pilih tingkat kepentingan untuk notifikasi</string>
   <!-- Force expanded notifications -->
-  <string name="force_expanded_notifications_title">Paksa perluas pemberitahuan</string>
+  <string name="force_expanded_notifications_title">Perluas paksa pemberitahuan</string>
   <string name="force_expanded_notifications_summary">Tersedia hanya untuk aplikasi yang mendukung pemberitahuan diperluas</string>
   <!-- Disabling immersive mode messages -->
   <string name="disable_immersive_message_title">Menonaktifkan notifikasi ketika menggunakan layar penuh</string>
@@ -123,9 +126,9 @@
   <string name="immersive_recents_navbar">Hanya navbar</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Gaya animasi</string>
-  <string name="qs_tile_animation_duration_title">Durasi Animasi</string>
-  <string name="qs_tile_animation_interpolator_title">Interpolator animasi ubin</string>
-  <string name="qs_tile_animation_style_off">Tidak ada animasi</string>
+  <string name="qs_tile_animation_duration_title">Durasi Animasi tiles</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolator animasi tiles</string>
+  <string name="qs_tile_animation_style_off">Tanpa animasi</string>
   <string name="qs_tile_animation_style_flip">Balik</string>
   <string name="qs_tile_animation_style_rotate">Putar posisi</string>
   <string name="qs_tile_animation_duration_low">Rendah</string>
@@ -144,7 +147,7 @@
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
   <string name="media_scanner_on_boot_title">Memindai media ketika boot</string>
-  <string name="media_scanner_on_boot_enabled">Pemindai media</string>
+  <string name="media_scanner_on_boot_enabled">Memindai media</string>
   <string name="media_scanner_on_boot_ask">Tanya untuk memindai (notifikasi)</string>
   <string name="media_scanner_on_boot_disabled">Jangan memindai media</string>
   <!-- Volume key cursor control -->
@@ -154,6 +157,7 @@
   <string name="volbtn_cursor_control_on_reverse">Volume naik/turun menggerakan kursor kanan/kiri</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Bangunkan perangkat</string>
+  <string name="home_wake_summary">Menekan tombol home akan membangunkan perangkat Anda</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Lalu lintas jaringan</string>
   <string name="show_network_traffic_state">Status bar lalu lintas data</string>
@@ -430,7 +434,7 @@
   <string name="weather_hide_panel_custom_summary">Panel cuaca akan disembunyikan ketika pemberitahuan telah mencapai jumlah maksimal yang sudah ditentukan</string>
   <string name="weather_hide_panel_never_summary">Panel cuaca tidak akan tersembunyi</string>
   <string name="weather_number_of_notifications_title">Jumlah pemberitahuan</string>
-  <string name="weather_config_title">Pengaturan layanan</string>
+  <string name="weather_config_title">Pengaturan cuaca</string>
   <string name="weather_icon_pack_title">Paket ikon kondisi</string>
   <string name="lock_clock_title">Widget jam</string>
   <!-- statusbar brightness control -->
@@ -517,6 +521,8 @@
   <!-- Power menu customization -->
   <string name="power_menu_title">Power menu</string>
   <string name="power_menu_title_summary">Lihat atau rubah entri power menu</string>
+  <string name="power_category">Pilihan menu power</string>
+  <string name="actions_category">Item menu power</string>
   <string name="power_menu_reboot_title">Mulai ulang</string>
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_screenrecord_title">Rekam layar</string>
@@ -968,6 +974,7 @@
   <string name="shortcuts_icon_picker_rss">RSS feed</string>
   <string name="shortcuts_icon_picker_sdcard">SDCard</string>
   <string name="shortcuts_icon_picker_search">Cari</string>
+  <string name="shortcuts_icon_picker_sms">Pesan</string>
   <string name="shortcuts_icon_picker_tasks">Tugas</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Transit</string>
@@ -977,6 +984,7 @@
   <string name="empty_title">Kosong</string>
   <string name="normal_title">Normal</string>
   <string name="hidden_title">Tersembunyi</string>
+  <string name="position_title">Posisi</string>
   <string name="position_right_title">Kanan</string>
   <string name="position_centered_title">Tengah</string>
   <string name="help">Bantuan</string>
@@ -984,6 +992,7 @@
   <string name="profiles_add">Tambah</string>
   <string name="profile_choose_app">Pilih aplikasi</string>
   <string name="profile_reset_title">Setel ulang</string>
+  <string name="show_title">Tampilkan</string>
   <string name="choose_app">Pilih aplikasi</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Pintasan atas</string>
@@ -1048,7 +1057,16 @@
   <string name="sizer_message_noselect">Tidak ada yang dipilih.</string>
   <string name="system_app_remover">Penghapus aplikasi sistem</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Tampilkan ikon screen pinning pada recents</string>
+  <string name="grid_recents_pinning_summaryOn">Ikon screen pinning akan ditampilkan pada grid recents jika layar pin diaktifkan dari pengaturan keamanan</string>
+  <string name="grid_recents_pinning_summaryOff">Ikon screen pinning akan ditampilkan pada grid recents jika layar pin diaktifkan dari pengaturan keamanan</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Tombol Home ketika berdering</string>
+  <string name="allow_incall_home_summary">Ijinkan menggunakan tombol home saat perangkat berdering</string>
   <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Tombol sentuh</string>
+  <string name="button_backlight_on_touch_only_summary">Aktifkan lampu latar hanya saat disentuh</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
+  <string name="data_disabled_icon_summary">Tampilkan tanda silang di sebelah bar sinyal saat data dinonaktifkan</string>
 </resources>

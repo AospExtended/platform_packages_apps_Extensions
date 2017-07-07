@@ -63,18 +63,18 @@
   <string name="extensions_dialog_toast">ПРОЧИТАЙТЕ ЭТО ПОЛНОСТЬЮ!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Настройки службы</string>
-  <string name="header_weather_title">Вид заголовка погоды</string>
-  <string name="header_weather_summary">Включить отображение погоды в панели уведомлений</string>
+  <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
+  <string name="header_weather_summary">Включить отображение погоды в заголовке панели уведомлений</string>
   <string name="weather_icon_pack_title">Стиль значков</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Слайдер яркости</string>
   <string name="qs_brightness_slider_summary">Показывать слайдер яркости в панели быстрых настроек</string>
   <string name="brightness_icon_title">Значок яркости</string>
-  <string name="brightness_icon_summary">Показать значок включения авто-яркости слева от слайдера</string>
+  <string name="brightness_icon_summary">Показать значок яркости слева ползунка для регулировки уровня авто-яркости</string>
   <!-- Quick Settings -->
   <string name="quick_settings_title">Быстрые настройки</string>
   <string name="status_bar_quick_qs_pulldown_title">Быстрый доступ</string>
-  <string name="status_bar_quick_qs_pulldown_summary">%1$s край строки состояния при опускании вниз открывает панель быстрых настроек</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Правый край строки состояния вытягивает быстрые настройки</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Прочие настройки</string>
   <!-- General Tweaks -->
@@ -82,7 +82,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Уведомления</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Общие настройки интерфейса</string>
+  <string name="recents_ui_title">Интерфейс панели недавних</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Экран блокировки</string>
   <!-- Lockscreen Shortcuts -->
@@ -94,30 +94,30 @@
   <!-- Animations -->
   <string name="animations_title">Анимация</string>
   <!-- Carrier Label -->
-  <string name="carrierlabel_title">Сотовый оператор</string>
+  <string name="carrierlabel_title">Название оператора</string>
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">Показать счетчик уведомлений</string>
   <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">Двойное нажатие для сна</string>
-  <string name="double_tap_to_sleep_summary">Двойное нажатие в строке состояния приведет к выключению экрана</string>
+  <string name="double_tap_to_sleep_summary">Двойное нажатие по строке состояния, верхней или нижней части экрана блокировки, переведет устройство в спящий режим</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Значок тост-уведомления</string>
-  <string name="toast_icon_summary">Отображать значок приложения в тост-уведомлениях</string>
+  <string name="toast_icon_summary">Отображать значок соответствующего приложения на тост-уведомлениях</string>
   <!-- Power notification controls -->
   <string name="power_notification_controls_title">Тонкие настройки уведомлений</string>
   <string name="power_notification_controls_summary">Настройка важности уведомлений</string>
   <!-- Force expanded notifications -->
-  <string name="force_expanded_notifications_title">Принудительно расширять уведомления</string>
-  <string name="force_expanded_notifications_summary">Доступно только для приложений, поддерживающих расширенные уведомления</string>
+  <string name="force_expanded_notifications_title">Принудительно разворачивать уведомления</string>
+  <string name="force_expanded_notifications_summary">Доступно для приложений, которые поддерживают разворачивание уведомлений</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Отключить сообщения о режиме погружения</string>
-  <string name="disable_immersive_message_summary">Это отключит все сообщения о режиме погружения</string>
+  <string name="disable_immersive_message_title">Отключить сообщения о полноэкранном режиме</string>
+  <string name="disable_immersive_message_summary">Это отключит все сообщения о полноэкранном режиме</string>
   <!-- Flashlight notification -->
-  <string name="flashlight_notification_title">Уведомление фонарика</string>
-  <string name="flashlight_notification_summary">Показать уведомление при включенном фонарике</string>
+  <string name="flashlight_notification_title">Уведомление вспышкой</string>
+  <string name="flashlight_notification_summary">Включить уведомление вспышкой о новых сообщениях и вызовах</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Вид меню недавних приложений</string>
+  <string name="immersive_recents_title">Полноэкранные недавние</string>
   <string name="immersive_recents_summary">Изменить вид меню недавних приложений</string>
   <string name="immersive_recents_dialog_title">Выберите вид меню недавних приложений</string>
   <string name="immersive_recents_default">По умолчанию</string>
@@ -125,19 +125,19 @@
   <string name="immersive_recents_statusbar">Только строка состояния </string>
   <string name="immersive_recents_navbar">Только панель навигации</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tile_animation_style_title">Стиль анимации</string>
-  <string name="qs_tile_animation_duration_title">Длительность анимации</string>
-  <string name="qs_tile_animation_interpolator_title">Интерполяция анимации</string>
+  <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
+  <string name="qs_tile_animation_duration_title">Длительность анимации плиток</string>
+  <string name="qs_tile_animation_interpolator_title">Интерполяция анимации плиток</string>
   <string name="qs_tile_animation_style_off">Без анимации</string>
   <string name="qs_tile_animation_style_flip">Переворот</string>
   <string name="qs_tile_animation_style_rotate">Поворот</string>
   <string name="qs_tile_animation_duration_low">Медленно</string>
   <string name="qs_tile_animation_duration_default">По умолчанию</string>
-  <string name="qs_tile_animation_duration_fast">Быстрая</string>
-  <string name="qs_tile_animation_interpolator_linearInterpolator">Линейная</string>
+  <string name="qs_tile_animation_duration_fast">Быстро</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Линейно</string>
   <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
   <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
-  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорить/замедлить</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение и замедление</string>
   <string name="qs_tile_animation_interpolator_bounceInterpolator">Отскок</string>
   <string name="qs_tile_animation_interpolator_overshootInterpolator">Вылет</string>
   <string name="qs_tile_animation_interpolator_anticipateInterpolator">Ускорение</string>
@@ -146,12 +146,12 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
-  <string name="media_scanner_on_boot_title">Поведение MediaScanner при загрузке</string>
+  <string name="media_scanner_on_boot_title">Поведение сканера медиа при загрузке</string>
   <string name="media_scanner_on_boot_enabled">Сканировать медиа</string>
-  <string name="media_scanner_on_boot_ask">Запросить сканирование (уведомление)</string>
+  <string name="media_scanner_on_boot_ask">По запросу (уведомление)</string>
   <string name="media_scanner_on_boot_disabled">Не сканировать медиа</string>
   <!-- Volume key cursor control -->
-  <string name="volbtn_cursor_control_title">Управления курсором клавиатуры</string>
+  <string name="volbtn_cursor_control_title">Перемещение курсора с помощью кнопок громкости</string>
   <string name="volbtn_cursor_control_off">Выключено</string>
   <string name="volbtn_cursor_control_on">Кнопка «+» двигает курсор влево, «-» — вправо</string>
   <string name="volbtn_cursor_control_on_reverse">Кнопка «+» двигает курсор вправо, «-» — влево</string>
@@ -159,9 +159,9 @@
   <string name="button_wake_title">Пробуждать устройство</string>
   <string name="home_wake_summary">Включать экран при нажатии кнопки «Домой»</string>
   <!-- Network traffic -->
-  <string name="network_traffic_title">Сетевой трафик</string>
-  <string name="show_network_traffic_state">Отображение трафика в строке состояния</string>
-  <string name="show_network_traffic_unit">Единицы измерения</string>
+  <string name="network_traffic_title">Индикатор трафика</string>
+  <string name="show_network_traffic_state">Монитор трафика в строке состояния</string>
+  <string name="show_network_traffic_unit">Единица измерения</string>
   <string name="show_network_traffic_frequency">Интервал обновления</string>
   <string name="show_network_traffic_disable">Отключить</string>
   <string name="show_network_traffic_up">Исходящий</string>
@@ -192,16 +192,16 @@
   <string name="clock_date_style">Стиль даты</string>
   <string name="clock_date_position">Расположение даты</string>
   <string name="clock_date_format">Формат даты</string>
-  <string name="clock_date_string_edittext_title">Должно быть в формате даты напр. MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Введите строку</string>
+  <string name="clock_date_string_edittext_title">Введённое значение должно соответствовать формату даты, например: ММ/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Ввести значение</string>
   <string name="clock_date_right">Справа от часов</string>
   <string name="clock_date_left">Слева от часов</string>
   <string name="clock_am_pm_date_normal">Нормальный</string>
   <string name="clock_am_pm_date_small">Маленький</string>
   <string name="clock_am_pm_date_none">Скрыт</string>
-  <string name="clock_date_style_lowercase">нижний регистр</string>
-  <string name="clock_date_style_uppercase">ВЕРХНИЙ РЕГИСТР</string>
-  <string name="clock_date_format_custom">Настраиваемый java формат</string>
+  <string name="clock_date_style_lowercase">Строчные</string>
+  <string name="clock_date_style_uppercase">Прописные</string>
+  <string name="clock_date_format_custom">Пользовательский Java формат</string>
   <string name="cancel">Отмена</string>
   <string name="save">Сохранить</string>
   <string name="clock_font_style_title">Шрифт</string>
@@ -366,6 +366,11 @@
   <string name="smartbar_config_backup_error_toast">Ошибка при сохранении профиля Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Ошибка при восстановлении профиля Smartbar</string>
   <string name="navbar_buttons_alpha_title">Прозрачность кнопки</string>
+  <string name="smartbar_longpress_delay_title">Задержка длительного нажатия</string>
+  <string name="smartbar_longpress_delay_summary">Укажите, как долго система будет ждать, прежде чем реагировать на долгое нажатие</string>
+  <string name="smartbar_longpress_delay_default">Стандартная задержка (быстро)</string>
+  <string name="smartbar_longpress_delay_normal">Обычная задержка</string>
+  <string name="smartbar_longpress_delay_long">Большая задержка</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
   <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток быстрых настроек</string>

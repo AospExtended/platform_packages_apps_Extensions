@@ -29,6 +29,7 @@
   <string name="weather_category">Definições da meteorologia</string>
   <string name="security_category">Segurança</string>
   <string name="hardware_category">Hardware</string>
+  <string name="animations_category">Animações dos mosaicos</string>
   <string name="traffic_category">Indicadores de tráfego</string>
   <string name="aosp_recents_category">AOSP recentes</string>
   <string name="dlg_ok">OK</string>
@@ -49,15 +50,19 @@
   <string name="statusbar_items_category">Itens da barra de estado</string>
   <string name="navigation_category">Navegação</string>
   <string name="breathing_notifications_category">Efeito de respiração em notificações</string>
+  <string name="build_tweaks_summary_title">Expanda o seu dispositivo!</string>
   <string name="system_animations">Animações do sistema</string>
   <string name="toast">Toast</string>
   <string name="listview">ListView</string>
   <string name="qs_header_title">Painel de definições rápidas</string>
+  <string name="qs_omnijaws_category">Mosaico Definições Rapidas de meteorologia</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Ajude-nos a ajudá-lo!</string>
   <string name="extensions_dialog_toast">LEIA TUDO!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Definições de serviços</string>
+  <string name="header_weather_title">Exibir cabeçalho em meteorologia</string>
+  <string name="header_weather_summary">Ativar imagem no cabeçalho do painel de meteorologia</string>
   <string name="weather_icon_pack_title">Conjunto de ícones</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Controlo deslizante de brilho</string>
@@ -69,6 +74,7 @@
   <string name="status_bar_quick_qs_pulldown_title">Puxar rápido para baixo</string>
   <string name="status_bar_quick_qs_pulldown_summary">O %1$s da barra de estado faz baixar o painel de definições rápidas</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Extensões diversas</string>
   <!-- General Tweaks -->
   <string name="general_tweaks_title">Ajustes gerais</string>
   <!-- Notifications -->
@@ -76,6 +82,7 @@
   <!-- Recents UI -->
   <string name="recents_ui_title">Interface geral</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Interface de Ecrã de bloqueio</string>
   <!-- Lockscreen Shortcuts -->
   <string name="lockscreen_shortcuts">Atalhos do ecrã de bloqueio</string>
   <!-- Buttons -->
@@ -135,6 +142,7 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_title">Comportamento da pesquisa de multimédia durante o arranque</string>
   <string name="media_scanner_on_boot_enabled">Pesquisa de multimédia</string>
   <string name="media_scanner_on_boot_ask">Pedir para fazer a pesquisa (notificação)</string>
   <string name="media_scanner_on_boot_disabled">Não pesquisar multimédia</string>
@@ -201,6 +209,7 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
+  <string name="set">Definir</string>
   <string name="color_default">Predefinida</string>
   <!-- Navigation Bar -->
   <string name="navbar_tint_switch">Cor dos botões personalizada</string>
@@ -357,6 +366,8 @@
   <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
   <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos</string>
   <!-- Do not Disturb switch in volume panel -->
+  <string name="tuner_full_zen_title">Interruptor de Não Perturbar</string>
+  <string name="tuner_full_zen_summary">Mostrar um interruptor de Não Perturbar no painel de volume</string>
   <!-- Breathing Notifications -->
   <string name="breathing_notifications_title">Efeito de respiração em notificações</string>
   <string name="missed_call_breath_title">Nas chamadas perdidas</string>
@@ -370,14 +381,18 @@
   <string name="qs_rows_portrait_title">Linhas (retrato)</string>
   <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
   <string name="qs_columns_title">Colunas</string>
+  <string name="qqs_scroll_title">Deslizar os mosaicos pequenos de Definições Rápidas</string>
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Opções de tipo de letra</string>
   <string name="lock_clock_font_summary">Alterar o tipo de letra do relógio e da data no ecrã de bloqueio</string>
+  <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Negrito</string>
   <string name="lock_clock_font_italic">Itálico</string>
   <string name="lock_clock_font_bold_italic">Itálico negrito</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (predefinido)</string>
   <string name="lock_clock_font_light_italic">Itálico claro</string>
+  <string name="lock_clock_font_thin_normal">Roboto Thin</string>
   <string name="lock_clock_font_thin_italic">Itálico fino</string>
   <string name="lock_clock_font_condensed_normal">Condensado</string>
   <string name="lock_clock_font_condensed_bold">Negrito condensado</string>
@@ -385,6 +400,17 @@
   <string name="lock_clock_font_condensed_bold_italic">Itálico negrito condensado</string>
   <string name="lock_clock_font_medium_normal">Médio</string>
   <string name="lock_clock_font_medium_italic">Itálico médio</string>
+  <string name="lock_clock_font_black_normal">Roboto Black</string>
+  <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+  <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
+  <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+  <string name="lock_clock_font_dancingscript">DancingScript</string>
+  <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+  <string name="lock_clock_font_comingsoon">ComingSoon</string>
+  <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+  <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+  <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+  <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
   <!-- Lockscreen weather -->
   <string name="lock_screen_weather_settings_title">Meteorologia</string>
   <string name="weather_cat_notifications_title">Notificações</string>

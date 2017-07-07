@@ -82,7 +82,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Notificaciones</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">Interfaz de usuario general</string>
+  <string name="recents_ui_title">Interfaz de usuario de recientes</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">UI de la pantalla de bloqueo</string>
   <!-- Lockscreen Shortcuts -->

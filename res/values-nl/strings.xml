@@ -404,10 +404,14 @@
   <string name="heads_up_snooze_20min">20 minuten</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Afsluit menu</string>
+  <string name="power_menu_reboot_title">Herstarten</string>
+  <string name="power_menu_screenshot_title">Schermafdruk</string>
+  <string name="power_menu_screenrecord_title">Schermopname</string>
   <string name="power_menu_torch_title">Zaklamp</string>
   <string name="power_menu_onthego_title">Onderwegmodus</string>
   <string name="power_menu_airplane_title">Vliegtuigmodus</string>
   <string name="power_menu_users_title">Gebruiker wisselen</string>
+  <string name="power_menu_search_title">Zoeken</string>
   <string name="power_menu_voice_title">Spraakgestuurd zoeken</string>
   <string name="power_menu_settings_title">Snelkoppeling instellingen</string>
   <string name="power_menu_lockdown_title">Apparaat vergrendelen</string>
@@ -800,6 +804,7 @@
   <string name="shortcuts_icon_picker_pocket">Zak</string>
   <string name="shortcuts_icon_picker_rss">RSS feed</string>
   <string name="shortcuts_icon_picker_sdcard">SD-Kaart</string>
+  <string name="shortcuts_icon_picker_search">Zoeken</string>
   <string name="shortcuts_icon_picker_tasks">Taken</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Doorvoer</string>

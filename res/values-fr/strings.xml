@@ -366,6 +366,9 @@
   <string name="smartbar_config_backup_error_toast">Erreur lors de la sauvegarde du profil Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Erreur lors de la restauration du profil Smartbar</string>
   <string name="navbar_buttons_alpha_title">Transparence des boutons</string>
+  <string name="smartbar_longpress_delay_title">Délais de la pression longue</string>
+  <string name="smartbar_longpress_delay_normal">Délai normal</string>
+  <string name="smartbar_longpress_delay_long">Retard important</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
   <string name="quick_settings_vibrate_summary">Vibrer lors des appuis sur les raccourcis</string>
@@ -1056,6 +1059,8 @@
   <string name="sizer_message_filefail">Impossible de créer le profil.</string>
   <string name="sizer_message_noselect">Rien n\'est sélectionné.</string>
   <string name="system_app_remover">Suppression d\'applications système</string>
+  <string name="sizer_message_error">Impossible de désinstaller, vérifiez les accès root</string>
+  <string name="sizer_message_success">Succès</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Afficher l\'icone d\'épinglage de l\'écran dans un nouveau style de grille</string>
   <string name="grid_recents_pinning_summaryOn">L\'icône d\'épinglage de l\'écran sera affichée si l\'écran d\'épinglage est activé à partir des paramètres de sécurité</string>

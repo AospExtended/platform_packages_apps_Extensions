@@ -33,6 +33,7 @@
   <string name="traffic_category">Indikátor sieťovej prevádzky</string>
   <string name="aosp_recents_category">AOSP nedávne</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Upozornenie</string>
   <string name="loading">Načítavanie\u2026</string>
   <string name="reset">Resetovať</string>
   <string name="reset_colors">Resetovať farby</string>
@@ -62,6 +63,8 @@
   <string name="extensions_dialog_toast">ČÍTAJTE DO KONCA!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Nastavenie služby</string>
+  <string name="header_weather_title">Zobraziť počasie v záhlaví</string>
+  <string name="header_weather_summary">Povoliť zobrazenie počasia v záhlaví panelu upozornení</string>
   <string name="weather_icon_pack_title">Stav ikon balíčka</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
@@ -83,6 +86,7 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Uživateľské rozhranie obrazovky uzamknutia</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Skratky na obrazovke uzamknutia</string>
   <!-- Buttons -->
   <string name="buttons_title">Tlačidlá</string>
   <!-- Blur -->
@@ -153,6 +157,7 @@
   <string name="volbtn_cursor_control_on_reverse">Hlasitosť nahor/nadol presunie kurzor doprava/doľava</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">Prebudiť zariadenie</string>
+  <string name="home_wake_summary">Stlačenie tlačidla Domov prebudí vaše zariadenie</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Sieťová prevádzka</string>
   <string name="show_network_traffic_state">Zobrazenie monitor sieťovej prevádzky v stavovom riadku</string>
@@ -456,6 +461,7 @@
   <string name="keyguard_torch_title">Baterka na obrazovke uzamknutia</string>
   <string name="keyguard_torch_summary">Stlačením a podržaním tlačidla Napájanie, keď obrazovka je vypnutá, zapnete baterku</string>
   <!-- Wakelock blocker -->
+  <string name="wakelockblocker_category">Blokovanie prebudenia</string>
   <string name="wakelock_blocker_summary">Blokovanie systémových prebudení</string>
   <string name="wakelock_blocker_save">Uložiť</string>
   <string name="wakelock_list_header">Dostupné prebudenia</string>
@@ -923,6 +929,7 @@
   <string name="shortcuts_icon_presets">Systémové ikony</string>
   <string name="shortcuts_icon_custom">Galéria</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Vyberte ikonu</string>
+  <string name="shortcuts_icon_picker_alarm">Budík</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_battery">Indikátor batérie</string>
   <string name="shortcuts_icon_picker_browser">Prehliadač</string>
@@ -967,6 +974,7 @@
   <string name="shortcuts_icon_picker_rss">RSS kanál</string>
   <string name="shortcuts_icon_picker_sdcard">SD karta</string>
   <string name="shortcuts_icon_picker_search">Hladať</string>
+  <string name="shortcuts_icon_picker_sms">Odosielanie správ</string>
   <string name="shortcuts_icon_picker_tasks">Úlohy</string>
   <string name="shortcuts_icon_picker_terminal">Terminál</string>
   <string name="shortcuts_icon_picker_transit">Tranzit</string>
@@ -976,6 +984,7 @@
   <string name="empty_title">Prázdne</string>
   <string name="normal_title">Normálne</string>
   <string name="hidden_title">Skryté</string>
+  <string name="position_title">Umiestnenie</string>
   <string name="position_right_title">Vpravo</string>
   <string name="position_centered_title">V strede</string>
   <string name="help">Informácie</string>
@@ -983,6 +992,7 @@
   <string name="profiles_add">Pridať</string>
   <string name="profile_choose_app">Vyberte aplikáciu</string>
   <string name="profile_reset_title">Resetovať</string>
+  <string name="show_title">Zobraziť</string>
   <string name="choose_app">Vyberte aplikáciu</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Horné skratky</string>
@@ -1047,7 +1057,16 @@
   <string name="sizer_message_noselect">Nič nie je vybrané.</string>
   <string name="system_app_remover">Odstraňovač systémových aplikácií</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Zobraziť ikonu pripnutia obrazovky v mriežkovom štýle nedávných</string>
+  <string name="grid_recents_pinning_summaryOn">Ikona pripnutia obrazovky sa zobrazí v mriežkovom štýle, ak je pripnutie obrazovky povolené v nastaveniach zabezpečenia</string>
+  <string name="grid_recents_pinning_summaryOff">Ikona pripnutia obrazovky v mriežkovom štýle bude skrytá, aj keď je povolená v nastaveniach zabezpečenia</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Tlačidlo Domov pri prichádzajúcom hovore</string>
+  <string name="allow_incall_home_summary">Povoliť použitie tlačidla Domov pri prichádzajúcom hovore</string>
   <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Podsvietenie tlačidiel pri dotyku</string>
+  <string name="button_backlight_on_touch_only_summary">Aktivuje podsvietenie s časovým obmedzením iba pri stlačení tlačidla</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Zobraziť ikonu pri vypnutí dát</string>
+  <string name="data_disabled_icon_summary">Zobraziť znak X na ikone signálu siete, keď sú dáta vynuté</string>
 </resources>

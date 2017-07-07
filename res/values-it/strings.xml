@@ -31,7 +31,7 @@
   <string name="hardware_category">Hardware</string>
   <string name="animations_category">Animazione dei tile</string>
   <string name="traffic_category">Indicatori del traffico dati</string>
-  <string name="aosp_recents_category">App recenti AOSP</string>
+  <string name="aosp_recents_category">Recenti AOSP</string>
   <string name="dlg_ok">OK</string>
   <string name="attention">Attenzione</string>
   <string name="loading">Caricamento\u2026</string>
@@ -67,10 +67,10 @@
   <string name="header_weather_summary">Abilita la visualizzazione del meteo sull\'header del pannello delle notifiche</string>
   <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
   <!-- Quick Settings brightness slider -->
-  <string name="qs_brightness_slider_title">Slider luminosità</string>
-  <string name="qs_brightness_slider_summary">Mostra uno slider della luminosità nel pannello delle impostazioni rapide</string>
+  <string name="qs_brightness_slider_title">Cursore luminosità</string>
+  <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
   <string name="brightness_icon_title">Icona luminosità </string>
-  <string name="brightness_icon_summary">Visualizza un\'icona a sinistra dello slider per regolare la luminosità automatica</string>
+  <string name="brightness_icon_summary">Mostra un\'icona a sinistra del cursore per regolare la luminosità automatica</string>
   <!-- Quick Settings -->
   <string name="quick_settings_title">Impostazioni rapide</string>
   <string name="status_bar_quick_qs_pulldown_title">Apertura rapida</string>
@@ -82,7 +82,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Notifiche</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">App recenti</string>
+  <string name="recents_ui_title">Interfaccia recenti</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Schermata di blocco</string>
   <!-- Lockscreen Shortcuts -->
@@ -117,9 +117,9 @@
   <string name="flashlight_notification_title">Notifica torcia</string>
   <string name="flashlight_notification_summary">Attiva una notifica quando la torcia è accesa</string>
   <!-- Immersive Recents -->
-  <string name="immersive_recents_title">App recenti a schermo intero</string>
+  <string name="immersive_recents_title">Recenti immersivi</string>
   <string name="immersive_recents_summary">Cambia la visualizzazione della schermata app recenti</string>
-  <string name="immersive_recents_dialog_title">Seleziona l\'aspetto della schermata app recenti</string>
+  <string name="immersive_recents_dialog_title">Seleziona l\'aspetto dei recenti</string>
   <string name="immersive_recents_default">Predefinito</string>
   <string name="immersive_recents_fullscreen">Schermo intero</string>
   <string name="immersive_recents_statusbar">Solo barra di stato</string>
@@ -612,7 +612,7 @@
   <string name="force_charge_battery_text_title">Percentuale di carica della batteria</string>
   <string name="force_charge_battery_text_summary_on">Visualizza la percentuale della batteria fuori l\'icona durante la carica</string>
   <string name="force_charge_battery_text_summary_off">Visualizza la percentuale di carica della batteria all\'interno dell\'icona durante la ricarica</string>
-  <string name="text_charging_symbol_title">Simbolo della ricarica accanto al testo della percentuale</string>
+  <string name="text_charging_symbol_title">Simbolo di ricarica accanto al testo percentuale</string>
   <string name="text_charging_symbol_dialog">Visualizza un simbolo accanto al testo della percentuale della batteria fuori l\'icona durante la ricarica</string>
   <string name="text_charging_symbol_default">Disattivato</string>
   <string name="text_charging_symbol_flash">Fulmine</string>
@@ -761,7 +761,7 @@
   <string name="qs_settings_icon_summary">Disabilita la scorciatoia delle impostazioni nell\'intestazione</string>
   <string name="qs_running_services_title">Icona servizi in esecuzione</string>
   <string name="qs_running_services_summary">Disabilita l\'icona servizi in esecuzione nell\'intestazione</string>
-  <string name="qs_edit_title">Modifica icona</string>
+  <string name="qs_edit_title">Icona modifica</string>
   <string name="qs_edit_summary">Disabilita l\'icona di modifica dei tile nell\'intestazione</string>
   <string name="qs_multiuser_switch_title">Icona cambio utente</string>
   <string name="qs_multiuser_switch_summary">Disabilita l\'icona cambio utente nell\'intestazione</string>
@@ -776,14 +776,14 @@
   <string name="battery_bar_no_navbar">Posizione barra batteria</string>
   <string name="battery_bar_color">Colore barra batteria</string>
   <string name="battery_bar_charging_color">Colore in carica</string>
-  <string name="battery_bar_battery_low_color">Colore barra della batteria con batteria scarica</string>
+  <string name="battery_bar_battery_low_color">Colore barra con batteria scarica</string>
   <string name="battery_bar_cat">Stile barra batteria</string>
   <string name="battery_bar_style_title">Stile barra batteria</string>
   <string name="battery_bar_thickness_title">Spessore barra batteria</string>
   <string name="battery_bar_animate_title">Animazione di ricarica</string>
-  <string name="battery_bar_style_regular">Regolare</string>
-  <string name="battery_bar_style_center_mirrored">Al centro-specchiato</string>
-  <string name="battery_bar_style_reversed">Invertito</string>
+  <string name="battery_bar_style_regular">Lato sinistro</string>
+  <string name="battery_bar_style_center_mirrored">Centrata e specchiata</string>
+  <string name="battery_bar_style_reversed">Lato destro</string>
   <string name="battery_bar_use_charging_color">Colore di ricarica personalizzato</string>
   <string name="battery_bar_blend_color_title">Mescola i colori</string>
   <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
@@ -857,11 +857,11 @@
   <string name="status_bar_temperature_hide_scale_hide_image">Mostra temperatura senza scala</string>
   <string name="status_bar_show_image">Mostra immagine</string>
   <!-- Slim Recent panel -->
-  <string name="slim_recents_title">Slim recents</string>
-  <string name="use_slim_recents_title">Usa Slim Recents</string>
-  <string name="use_slim_recents_summary">Utilizza Slim Recents anziché la visualizzazione predefinita</string>
-  <string name="slim_recents_settings_title">Impostazioni Slim Recents</string>
-  <string name="slim_recents_settings_summary">Visualizza le impostazioni slim recents</string>
+  <string name="slim_recents_title">Recenti slim</string>
+  <string name="use_slim_recents_title">Usa i recenti slim</string>
+  <string name="use_slim_recents_summary">Utilizza i recenti slim anziché la visualizzazione predefinita</string>
+  <string name="slim_recents_settings_title">Impostazioni recenti slim</string>
+  <string name="slim_recents_settings_summary">Visualizza le impostazioni per i recenti slim</string>
   <string name="recent_panel_category">Pannello app recenti slim</string>
   <string name="show_running_tasks_title">Mostra solo le applicazioni in esecuzione</string>
   <string name="recents_max_apps_title">Applicazioni massime consentite</string>
@@ -898,9 +898,9 @@
   <string name="keyguard_statusbar_clock_title">Orologio nella barra di stato della schermata di blocco</string>
   <string name="keyguard_statusbar_clock_summary">Visualizza orologio nella barra di stato della schermata di blocco sul lato sinistro</string>
   <!-- Aosp cards and grid recents -->
-  <string name="recents_type_title">Tipo di attività recenti</string>
-  <string name="recents_stock">AOSP Stock</string>
-  <string name="recents_grid">Grid</string>
+  <string name="recents_type_title">Stile recenti</string>
+  <string name="recents_stock">Carte</string>
+  <string name="recents_grid">Griglia</string>
   <!-- Slim DSLV -->
   <string name="shortcut_action_none">Nessuna</string>
   <string name="shortcut_action_longpress">Pressione prolungata:</string>

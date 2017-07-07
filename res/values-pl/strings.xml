@@ -18,7 +18,9 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Rozszerzenia</string>
   <string name="add">Dodaj</string>
+  <string name="cancel">Anuluj</string>
   <string name="choose_app">Wybierz aplikację</string>
   <string name="music_category">Muzyka</string>
   <string name="weather_category">Ustawienia pogody</string>
@@ -32,6 +34,8 @@
   <!-- Extensions categories -->
   <string name="recents_category">Ostatnie</string>
   <string name="status_bar_category">Pasek stanu</string>
+  <string name="system_category">System</string>
+  <string name="statusbar_items_category">Ikony paska stanu</string>
   <string name="navigation_category">Nawigacja</string>
   <string name="system_animations">Animacje systemu</string>
   <string name="toast">Dymek</string>
@@ -67,6 +71,7 @@
   <string name="toast_icon_title">Ikona w dymku powiadomień</string>
   <string name="toast_icon_summary">Wyświetl ikonę aplikacji w dymku</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Przełącznik powiadomień zasilania</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Wymuś rozwinięte powiadomienia</string>
   <string name="force_expanded_notifications_summary">Dostępne dla aplikacji, które obsługują rozwijane powiadomienia</string>
@@ -138,6 +143,7 @@
   <string name="clock_date_right">Po prawej stronie zegara</string>
   <string name="clock_date_left">Po lewej stronie zegara</string>
   <string name="clock_am_pm_date_normal">Normalny</string>
+  <string name="cancel">Anuluj</string>
   <string name="clock_font_style_title">Czcionka</string>
   <string name="clock_font_size_title">Rozmiar czcionki</string>
   <!-- Color Picker -->
@@ -158,6 +164,9 @@
   <string name="icon_pack_picker_dialog_title">Paczki ikon</string>
   <string name="image_exceeds_max_allowed_size">Obraz nie może przekraczać 512x512</string>
   <string name="invalid_icon_from_uri">Nie można wczytać obrazu od dostawcy zawartości</string>
+  <string name="picker_activities">Aktywności</string>
+  <string name="select_custom_app_title">Wybierz niestandardową aplikację</string>
+  <string name="select_custom_activity_title">Wybierz niestandardową aktywność</string>
   <string name="profile_applist_title">Aplikacje</string>
   <string name="default_string">Domyślne</string>
   <string name="reset">Resetuj</string>
@@ -252,6 +261,7 @@
   <string name="portrait_title">Wysokość</string>
   <string name="land_vert_title">Szerokość</string>
   <string name="land_hor_title">Wysokość poziomo</string>
+  <string name="positive_done">Gotowe</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Inteligentny pasek</string>
   <string name="smartbar_settings_title">Ustawienia SmartBar</string>
@@ -403,10 +413,14 @@
   <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Menu zasilania</string>
+  <string name="power_menu_reboot_title">Uruchom ponownie</string>
+  <string name="power_menu_screenshot_title">Zrzut ekranu</string>
+  <string name="power_menu_screenrecord_title">Nagrywanie Ekranu</string>
   <string name="power_menu_torch_title">Latarka</string>
   <string name="power_menu_onthego_title">Tryb \"W ruchu\"</string>
   <string name="power_menu_airplane_title">Tryb samolotowy</string>
   <string name="power_menu_users_title">Przełącznik użytkowników</string>
+  <string name="power_menu_search_title">Szukaj</string>
   <string name="power_menu_voice_title">Wyszukiwanie głosowe</string>
   <string name="power_menu_settings_title">Ustawienia skrótów</string>
   <string name="power_menu_lockdown_title">Blokowanie urządzenia</string>
@@ -760,6 +774,7 @@
   <string name="shortcuts_icon_presets">Ikony systemowe</string>
   <string name="shortcuts_icon_custom">Galeria</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Wybierz ikonę</string>
+  <string name="shortcuts_icon_picker_alarm">Alarm</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_browser">Przeglądarka</string>
   <string name="shortcuts_icon_picker_calendar">Kalendarz</string>
@@ -783,6 +798,7 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google+</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Pomoc</string>
   <string name="shortcuts_icon_picker_joystick">Joystick</string>
   <string name="shortcuts_icon_picker_key">Klucze/Konta</string>
   <string name="shortcuts_icon_picker_laptop">Laptop</string>
@@ -800,6 +816,7 @@
   <string name="shortcuts_icon_picker_pocket">Pocket</string>
   <string name="shortcuts_icon_picker_rss">Kanał RSS</string>
   <string name="shortcuts_icon_picker_sdcard">Karta SD</string>
+  <string name="shortcuts_icon_picker_search">Szukaj</string>
   <string name="shortcuts_icon_picker_tasks">Zadania</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Przejście</string>
@@ -810,6 +827,7 @@
   <string name="normal_title">Normalny</string>
   <string name="position_right_title">Po prawej</string>
   <string name="position_centered_title">Wyśrodkowany</string>
+  <string name="help">Pomoc</string>
   <string name="reset_message">Czy zresetować wszystkie wpisy do domyślnych?</string>
   <string name="profiles_add">Dodaj</string>
   <string name="profile_choose_app">Wybierz aplikację</string>
@@ -824,6 +842,7 @@
   <string name="shortcut_action_none">Brak</string>
   <string name="shortcut_action_app">Własna aplikacja</string>
   <string name="shortcut_action_home">Strona główna</string>
+  <string name="shortcut_action_back">Wstecz</string>
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_ime">Otwórz okno zmiany metod wprowadzania</string>
   <string name="shortcut_action_power_menu">Menu zasilania</string>
@@ -862,6 +881,7 @@
   <string name="sizer_title">Usuwanie aplikacji</string>
   <string name="caution">Uwaga!</string>
   <string name="sizer_message_startup">To narzędzie pozwala na usuwanie aplikacji systemowych. Używaj ostrożnie i usuwaj aplikacje, które są bezpieczne do usunięcia.</string>
+  <string name="cancel">Anuluj</string>
   <string name="sizer_message_delete">Na pewno chcesz usunąć tę aplikację?</string>
   <string name="btn_delete">Usuń wybrane aplikacje!</string>
   <string name="delete_progress_title">Usuwanie</string>

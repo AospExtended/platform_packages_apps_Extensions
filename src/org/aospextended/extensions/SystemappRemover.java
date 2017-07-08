@@ -70,6 +70,7 @@ public class SystemappRemover extends SettingsPreferenceFragment {
     public final String systemPrivPath = "/system/priv-app/";
     protected Process superUser;
     protected DataOutputStream dos;
+    private ProgressDialog progress;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
          View view = inflater.inflate(R.layout.slim_sizer, container, false);
@@ -89,7 +90,6 @@ public class SystemappRemover extends SettingsPreferenceFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         final Button delButton = (Button) getView().findViewById(R.id.btn_delete);
-        final Button profileButton = (Button) getView().findViewById(R.id.btn_profile);
 
         // create arraylist of apps not to be removed
         final ArrayList<String> safetyList = new ArrayList<String>();
@@ -125,7 +125,7 @@ public class SystemappRemover extends SettingsPreferenceFragment {
 
        // create arraylist from /system/app and /system/priv-app content
         File system = new File(systemPath);
-	File systemPriv = new File(systemPrivPath);
+        File systemPriv = new File(systemPrivPath);
         String[] sysappArray = combine(system.list(), systemPriv.list());
         mSysApp = new ArrayList<String>(
                 Arrays.asList(sysappArray));
@@ -144,7 +144,7 @@ public class SystemappRemover extends SettingsPreferenceFragment {
         // startup dialog
         //showDialog(STARTUP_DIALOG, null, adapter);
 
-        final ListView lv = (ListView) getView().findViewById(R.string.listsystem);
+        final ListView lv = (ListView) getView().findViewById(R.id.listsystem);
         lv.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         lv.setAdapter(adapter);
 
@@ -177,14 +177,6 @@ public class SystemappRemover extends SettingsPreferenceFragment {
                 } else {
                 showDialog(DELETE_MULTIPLE_DIALOG, item, adapter);
                 }
-            }
-        });
-        // click button profile
-        profileButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // call select dialog
-                selectDialog(mSysApp, adapter);
             }
         });
     }
@@ -220,10 +212,27 @@ public class SystemappRemover extends SettingsPreferenceFragment {
                                         int id) {
                                     // action for ok
                                     // call delete
-                                    new SystemappRemover.Deleter().execute(item);
-                                      // remove list entry
-                                      adapter.remove(item);
-                                      adapter.notifyDataSetChanged();
+                                    progress = new ProgressDialog(getView().getContext());
+                                    progress.setTitle(getString(R.string.delete_progress_title));
+                                    progress.setMessage(getString(R.string.delete_progress));
+                                    progress.setCancelable(false);
+                                    progress.show();
+                                    new SystemappRemover.Deleter() {
+                                        protected void onPostExecute(Boolean result) {
+                                            try {
+                                                dos.flush();
+                                            } catch (Exception e) {
+                                                e.printStackTrace();
+                                            }
+                                            progress.dismiss();
+                                            toast(getResources().getString(result ? R.string.sizer_message_success : R.string.sizer_message_error));
+                                            if (result){
+                                                // remove list entry
+                                                adapter.remove(item);
+                                                adapter.notifyDataSetChanged();
+                                            }
+                                        }
+                                    }.execute(item);
                                 }
                             })
                     .setNegativeButton(R.string.cancel,
@@ -235,25 +244,47 @@ public class SystemappRemover extends SettingsPreferenceFragment {
                                 }
                             });
         } else if (id == DELETE_MULTIPLE_DIALOG) {
+            final ListView lv = (ListView) getView().findViewById(R.id.listsystem);
+            final SparseBooleanArray checked = lv.getCheckedItemPositions();
+            ArrayList<String> itemsList = new ArrayList<String>();
+            for (int i = lv.getCount() - 1; i > 0; i--) {
+                if (checked.get(i)) {
+                    String appName = mSysApp.get(i);
+                    itemsList.add(appName);
+                }
+            }
             alert.setMessage(R.string.sizer_message_delete)
                     .setPositiveButton(R.string.ok,
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,
                                         int id) {
-                                    final ListView lv = (ListView) getView().findViewById(R.string.listsystem);
-                                    ArrayList<String> itemsList = new ArrayList<String>();
-                                    SparseBooleanArray checked = lv.getCheckedItemPositions();
-                                    for (int i = lv.getCount() - 1; i > 0; i--) {
-                                        if (checked.get(i)) {
-                                              String appName = mSysApp.get(i);
-                                              itemsList.add(appName);
-                                              // remove list entry
-                                              lv.setItemChecked(i, false);
-                                              adapter.remove(appName);
+                                    progress = new ProgressDialog(getView().getContext());
+                                    progress.setTitle(getString(R.string.delete_progress_title));
+                                    progress.setMessage(getString(R.string.delete_progress));
+                                    progress.setCancelable(false);
+                                    progress.show();
+                                    new SystemappRemover.Deleter() {
+                                        protected void onPostExecute(Boolean result) {
+                                            try {
+                                                dos.flush();
+                                            } catch (Exception e) {
+                                                e.printStackTrace();
+                                            }
+                                            progress.dismiss();
+                                            toast(getResources().getString(result ? R.string.sizer_message_success : R.string.sizer_message_error));
+                                            if (result){
+                                                for (int i = lv.getCount() - 1; i > 0; i--) {
+                                                    if (checked.get(i)) {
+                                                        String appName = mSysApp.get(i);
+                                                        // remove list entry
+                                                        lv.setItemChecked(i, false);
+                                                        adapter.remove(appName);
+                                                    }
+                                                }
+                                                adapter.notifyDataSetChanged();
+                                            }
                                         }
-                                    }
-                                   adapter.notifyDataSetChanged();
-                                      new SystemappRemover.Deleter().execute(itemsList.toArray(new String[itemsList.size()]));
+                                    }.execute(itemsList.toArray(new String[itemsList.size()]));
                                 }
                             })
                     .setNegativeButton(R.string.cancel,
@@ -284,103 +315,6 @@ private String[] combine(String[] a, String[] b) {
                 it.remove();
             }
         }
-    }
-
-    // profile select dialog
-    private void selectDialog(final ArrayList<String> sysAppProfile,
-            final ArrayAdapter<String> adapter) {
-        AlertDialog.Builder select = new AlertDialog.Builder(getActivity());
-        select.setItems(R.array.slimsizer_profile_array,
-                new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        // The 'which' argument contains the index position
-                        // of the selected item
-                        short state = sdAvailable();
-                        File path = new File(Environment
-                                .getExternalStorageDirectory() + "/aex");
-                        File savefile = new File(path + "/systemappremover.stf");
-                        if (which == 0) {
-                            // load profile action
-                            if (state >= 1) {
-                                String profile;
-                                try {
-                                    // read savefile and create arraylist
-                                    profile = new Scanner(savefile, "UTF-8")
-                                            .useDelimiter("\\A").next();
-                                    ArrayList<String> profileState = new ArrayList<String>(
-                                            Arrays.asList(profile.split(", ")));
-                                    // create arraylist of unique entries in
-                                    // sysAppProfile (currently installed apps)
-                                    ArrayList<String> deleteList = new ArrayList<String>();
-                                    for (String item : sysAppProfile) {
-                                        if (!profileState.contains(item)) {
-                                            deleteList.add(item);
-                                        }
-                                    }
-                                    // delete all entries in deleteList
-                                     ArrayList<String> itemsList = new ArrayList<String>();
-                                     for (int i = deleteList.size() - 1; i > 0; i--) {
-                                        String item = deleteList.get(i);
-                                         itemsList.add(item);
-                                         // remove list entry
-                                         adapter.remove(item);
-                                    }
-                                    adapter.notifyDataSetChanged();
-                                    new SystemappRemover.Deleter().execute(itemsList.toArray(new String[itemsList.size()]));
-                                } catch (FileNotFoundException e) {
-                                    // TODO Auto-generated catch block
-                                    e.printStackTrace();
-                                }
-                            } else {
-                                toast(getResources().getString(
-                                        R.string.sizer_message_sdnoread));
-                            }
-                        } else if (which == 1) {
-                            // save profile action
-                            if (state == 2) {
-                                try {
-                                    // create directory if it doesnt exist
-                                    if (!path.exists()) {
-                                        path.mkdirs();
-                                    }
-                                    // create string from arraylists
-                                    String lists = sysAppProfile.toString();
-                                    lists = lists.replace("][", ",");
-                                    lists = lists.replace("[", "");
-                                    lists = lists.replace("]", "");
-                                    // delete savefile if it exists (overwrite)
-                                    if (savefile.exists()) {
-                                        savefile.delete();
-                                    }
-                                    // create savefile and output lists to it
-                                    FileWriter outstream = new FileWriter(
-                                            savefile);
-                                    BufferedWriter save = new BufferedWriter(
-                                            outstream);
-                                    save.write(lists);
-                                    save.close();
-                                    // check for success
-                                    if (savefile.exists()) {
-                                        toast(getResources()
-                                                .getString(
-                                                        R.string.sizer_message_filesuccess));
-                                    } else {
-                                        toast(getResources()
-                                                .getString(
-                                                        R.string.sizer_message_filefail));
-                                    }
-                                } catch (IOException e) {
-                                    // TODO Auto-generated catch block
-                                    e.printStackTrace();
-                                }
-                            } else {
-                                toast(getResources().getString(
-                                        R.string.sizer_message_sdnowrite));
-                            }
-                        }
-                    }
-                });
-        select.show();
     }
 
     public void toast(String text) {
@@ -422,9 +356,7 @@ private String[] combine(String[] a, String[] b) {
         }
     }
 
-    public class Deleter extends AsyncTask<String, String, Void> {
-
-        private ProgressDialog progress;
+    public class Deleter extends AsyncTask<String, Void, Boolean> {
 
         @Override
         protected void onPreExecute() {
@@ -434,19 +366,18 @@ private String[] combine(String[] a, String[] b) {
                     superUser = new ProcessBuilder("su", "-c", "/system/bin/sh").start();
                     dos = new DataOutputStream(superUser.getOutputStream());
                     dos.writeBytes("\n" + "mount -o remount,rw /system" + "\n");
-                } catch (IOException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
-            progress = new ProgressDialog(getView().getContext());
-            progress.setTitle(getString(R.string.delete_progress_title));
-            progress.setMessage(getString(R.string.delete_progress));
-            progress.show();
         }
 
-        protected Void doInBackground(String... params) {
+        protected Boolean doInBackground(String... params) {
+            if (dos == null){
+                return false;
+            }
             for (String appName : params) {
-      		String odexAppName = appName.replaceAll(".apk$", ".odex");
+                String odexAppName = appName.replaceAll(".apk$", ".odex");
                 String basePath = systemPath;
                  File app = new File(systemPath + appName);
 
@@ -459,22 +390,11 @@ private String[] combine(String[] a, String[] b) {
                     File odex = new File(basePath + odexAppName);
                     if( odex.exists() )
                          dos.writeBytes("\n" + "rm -rf '" + basePath + odexAppName + "'\n");
-                } catch (IOException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void param) {
-            super.onPreExecute();
-            try {
-                dos.flush();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            progress.dismiss();
+            return true;
         }
     }
 }

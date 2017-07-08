@@ -51,14 +51,12 @@ import com.android.settings.Utils;
 
 public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    private static final String IMMERSIVE_RECENTS = "immersive_recents";
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
     private static final String RECENTS_TYPE = "navigation_bar_recents";
     private static final String GRID_PINNING_TOGGLE = "grid_recents_pinning";
 
     private ListPreference mRecentsClearAllLocation;
     private SwitchPreference mRecentsClearAll;
-    private ListPreference mImmersiveRecents;
     private ListPreference mRecentsType;
     private SwitchPreference mGridPinning;
 
@@ -80,12 +78,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
         mRecentsType.setSummary(mRecentsType.getEntry());
         mRecentsType.setOnPreferenceChangeListener(this);
         setPreference(type);
-
-        mImmersiveRecents = (ListPreference) findPreference(IMMERSIVE_RECENTS);
-        mImmersiveRecents.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.IMMERSIVE_RECENTS, 0)));
-        mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
-        mImmersiveRecents.setOnPreferenceChangeListener(this);
 
         // clear all recents
         mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
@@ -120,12 +112,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
             mRecentsType.setValue(String.valueOf(newValue));
             mRecentsType.setSummary(mRecentsType.getEntry());
             setPreference(val);
-        } else if (preference == mImmersiveRecents) {
-            Settings.System.putInt(getContentResolver(), Settings.System.IMMERSIVE_RECENTS,
-                    Integer.valueOf((String) newValue));
-            mImmersiveRecents.setValue(String.valueOf(newValue));
-            mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
-            return true;
         } else if (preference == mRecentsClearAllLocation) {
             int location = Integer.valueOf((String) newValue);
             int index = mRecentsClearAllLocation.findIndexOfValue((String) newValue);

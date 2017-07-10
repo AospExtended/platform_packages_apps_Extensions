@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notificação de lanterna</string>
   <string name="flashlight_notification_summary">Habilitar notificação quando a lanterna está ligada</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Recentes imersivo</string>
-  <string name="immersive_recents_summary">Alterar a exibição das telas recentes</string>
-  <string name="immersive_recents_dialog_title">Selecionar visualização recente</string>
-  <string name="immersive_recents_default">Padrão</string>
-  <string name="immersive_recents_fullscreen">Tela cheia</string>
-  <string name="immersive_recents_statusbar">Apenas Barra de status</string>
-  <string name="immersive_recents_navbar">Apenas Barra de navegação</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Estilo de animação das configurações rápidas</string>
   <string name="qs_tile_animation_duration_title">Duração de animação das configurações rápidas</string>
@@ -640,7 +632,7 @@
   <string name="hide_apps_from_recents_title">Aplicativos Ocultos</string>
   <string name="hide_from_recents_add_app">Adicionar Aplicativo</string>
   <string name="hide_apps_from_recents_summary">Escolha os aplicativos que não ficarão visíveis nos recentes</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibração na autenticação da impressão digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
   <!-- XOSP Blur personalizations -->
@@ -849,8 +841,8 @@
   <!-- QS Easy Toggle -->
   <string name="qs_easy_toggle_title">Alternador fácil</string>
   <string name="qs_easy_toggle_summary">Ativar ação de um toque para ativar ou desativar dados móveis, wifi e bluetooth</string>
-  <string name="dnd_when_call_title">Modo \"Não incomodar\" durante as chamadas</string>
-  <string name="dnd_when_call_summary">Ativar automaticamente o modo \"Não incomodar\" durante as chamadas</string>
+  <string name="dnd_when_call_title">Modo \"Não pertube\" durante as chamadas</string>
+  <string name="dnd_when_call_summary">Ativar automaticamente o modo \"Não pertube\" durante as chamadas</string>
   <!-- StatusBar weather settings -->
   <string name="statusbar_weather_title">Clima na barra de status</string>
   <string name="statusbar_weather_summary">Configurar a partir das configurações rápidas/meteorologia.</string>
@@ -1043,22 +1035,12 @@
   <string name="shortcut_action_help_delete_last_entry">Remover todos os %1$s na lista desativará o recurso completamente.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Remover todos os %1$s na lista desativará a segunda camada do Controle Pie inteiramente.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">lista</string>
-  <string name="sizer_title">Desinstalador de aplicações</string>
   <string name="caution">Cuidado!</string>
   <string name="sizer_message_startup">Esta ferramenta permite que remova aplicações de sistema. Usa-a com cuidado e apague só as aplicações que tenhas a certeza que podem ser removidas com segurança.</string>
-  <string name="cancel">Cancelar</string>
-  <string name="sizer_message_delete">Tem certeza que deseja excluir esta aplicação?</string>
+  <string name="sizer_message_delete">Tem certeza ?</string>
   <string name="btn_delete">Remover aplicações selecionadas agora!</string>
   <string name="delete_progress_title">Excluindo</string>
   <string name="delete_progress">Arquivos selecionados estão sendo excluidos...</string>
-  <string name="delete_success">Excluído</string>
-  <string name="delete_fail">Não é possível excluir</string>
-  <string name="btn_profile">Perfil</string>
-  <string name="sizer_message_sdnowrite">Não é possível escrever no cartão SD.</string>
-  <string name="sizer_message_sdnoread">Não é possível ler o cartão SD.</string>
-  <string name="sizer_message_filesuccess">Perfil criado.</string>
-  <string name="sizer_message_filefail">Falha ao criar o perfil.</string>
   <string name="sizer_message_noselect">Nada selecionado.</string>
   <string name="system_app_remover">Desinstalar aplicações do sistema</string>
   <string name="sizer_message_error">Falha ao desinstalar, verifique se o dispositivo tem acesso root</string>

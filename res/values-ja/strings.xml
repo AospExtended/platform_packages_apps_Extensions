@@ -72,14 +72,6 @@
   <string name="disable_immersive_message_title">全画面モードのメッセージを表示しない</string>
   <string name="disable_immersive_message_summary">全画面モード時のメッセージを全て無効化する</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive Recents</string>
-  <string name="immersive_recents_summary">最近のアプリケーションの表示を変更</string>
-  <string name="immersive_recents_dialog_title">アプリ履歴の表示</string>
-  <string name="immersive_recents_default">デフォルト</string>
-  <string name="immersive_recents_fullscreen">Fullscreen</string>
-  <string name="immersive_recents_statusbar">Statusbar only</string>
-  <string name="immersive_recents_navbar">Navbar only</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">タイルのアニメーション方法</string>
   <string name="qs_tile_animation_duration_title">タイルのアニメーション時間</string>
@@ -476,7 +468,7 @@
   <string name="hide_apps_from_recents_title">非表示にするアプリ</string>
   <string name="hide_from_recents_add_app">アプリを追加</string>
   <string name="hide_apps_from_recents_summary">アプリ履歴に表示しないアプリケーションを選択する</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
   <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
   <!-- XOSP Blur personalizations -->
@@ -647,7 +639,6 @@
   <string name="status_bar_weather_hidden">天気を非表示</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim Recents</string>
-  <string name="use_slim_recents_title">Slim Recentsを使用します</string>
   <string name="use_slim_recents_summary">Slim Recentsをデフォルトの履歴画面として使用します</string>
   <string name="slim_recents_settings_title">Slim Recentsの設定</string>
   <string name="slim_recents_settings_summary">Slim Recentsの設定を表示します</string>
@@ -805,21 +796,11 @@
   <string name="shortcut_action_help_delete_last_entry">リスト内のすべての%1$sを削除すると、機能を完全に無効にします。</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">リスト内のすべての%1$sを削除すると、パイの第二層が完全に無効になります。</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">リスト</string>
-  <string name="sizer_title">App remover</string>
   <string name="caution">Caution!</string>
   <string name="sizer_message_startup">このツールではシステムアプリをアンインストールすることを許可します。注意して安全なアプリだけをアンインストールしてください。</string>
-  <string name="sizer_message_delete">本当にこのアプリケーションを削除してよろしいですか？</string>
   <string name="btn_delete">選択したアプリを削除する！</string>
   <string name="delete_progress_title">削除します</string>
   <string name="delete_progress">選択したファイルは無効になっています…</string>
-  <string name="delete_success">削除しました</string>
-  <string name="delete_fail">削除できません</string>
-  <string name="btn_profile">プロファイル</string>
-  <string name="sizer_message_sdnowrite">SDカードに書き込めませんでした。</string>
-  <string name="sizer_message_sdnoread">SDカードを読み込めませんでした。</string>
-  <string name="sizer_message_filesuccess">プロファイルを作成</string>
-  <string name="sizer_message_filefail">プロファイルを作成できませんでした。</string>
   <string name="sizer_message_noselect">何も選択されていません。</string>
   <string name="system_app_remover">System App Remover</string>
   <!-- Grid recents screen pinning toggle -->

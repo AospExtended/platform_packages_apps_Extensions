@@ -74,14 +74,6 @@
   <string name="disable_immersive_message_title">전체 화면 모드 메시지 사용 안 함</string>
   <string name="disable_immersive_message_summary">모든 전체 화면 모드 메시지를 표시하지 않습니다</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">몰입 모드로 최근 실행 목록 보기</string>
-  <string name="immersive_recents_summary">최근 실행 목록 보기 방식을 변경합니다</string>
-  <string name="immersive_recents_dialog_title">보기 방식 선택</string>
-  <string name="immersive_recents_default">기본값</string>
-  <string name="immersive_recents_fullscreen">전체 화면</string>
-  <string name="immersive_recents_statusbar">상태 표시줄만 표시</string>
-  <string name="immersive_recents_navbar">내비게이션 바만 표시</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">애니메이션 스타일</string>
   <string name="qs_tile_animation_duration_title">애니메이션 지속 시간</string>
@@ -488,7 +480,7 @@
   <string name="hide_apps_from_recents_title">숨겨진 앱</string>
   <string name="hide_from_recents_add_app">앱 추가</string>
   <string name="hide_apps_from_recents_summary">최근 실행 화면에서 표시하지 않을 앱을 선택합니다</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">지문 인식 진동</string>
   <string name="fprint_sucess_vib_summary">지문이 인식되면 진동이 울립니다</string>
   <!-- XOSP Blur personalizations -->
@@ -685,7 +677,6 @@
   <string name="status_bar_show_image">이미지 표시</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim 최근 실행 목록</string>
-  <string name="use_slim_recents_title">Slim Recents 사용</string>
   <string name="use_slim_recents_summary">기본 실행 목록 대신 Slim 실행 목록을 사용합니다</string>
   <string name="slim_recents_settings_title">Slim 최근 실행 목록 설정</string>
   <string name="slim_recents_settings_summary">Slim 최근 실행 목록을 설정합니다</string>
@@ -851,21 +842,11 @@
   <string name="shortcut_action_help_delete_last_entry">목록에 있는 모든 %1$s을(를) 삭제하면 기능이 비활성화 됩니다.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">목록에 있는 모든 %1$s을(를) 삭제하면 두 번째 Pie 레이어가 비활성화 됩니다.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">목록</string>
-  <string name="sizer_title">앱 지우개</string>
   <string name="caution">주의!</string>
   <string name="sizer_message_startup">이 도구는 시스템 앱을 지울 수 있게 도와줍니다. 주의해서 사용해야 하며 지워도 안전한 앱만 삭제하세요.</string>
-  <string name="sizer_message_delete">이 앱을 삭제할까요?</string>
   <string name="btn_delete">선택된 앱 지우기!</string>
   <string name="delete_progress_title">삭제 중</string>
   <string name="delete_progress">선택된 파일들을 삭제 중...</string>
-  <string name="delete_success">삭제됨</string>
-  <string name="delete_fail">삭제할 수 없음</string>
-  <string name="btn_profile">프로필</string>
-  <string name="sizer_message_sdnowrite">SD카드에 쓸 수 없음</string>
-  <string name="sizer_message_sdnoread">SD카드를 읽을 수 없음</string>
-  <string name="sizer_message_filesuccess">프로필 생성됨</string>
-  <string name="sizer_message_filefail">프로필 생성 실패</string>
   <string name="sizer_message_noselect">선택된 항목 없음</string>
   <string name="system_app_remover">시스템 앱 지우개</string>
   <!-- Grid recents screen pinning toggle -->

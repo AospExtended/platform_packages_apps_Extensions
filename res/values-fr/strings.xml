@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notification de la lampe de poche</string>
   <string name="flashlight_notification_summary">Activer la notification lorsque la lampe de poche est en cours d\'utilisation</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Applications récentes immersives</string>
-  <string name="immersive_recents_summary">Apparence de l\'écran des applications récentes</string>
-  <string name="immersive_recents_dialog_title">Choisir l\'apparence pour les Applications récentes</string>
-  <string name="immersive_recents_default">Par défaut</string>
-  <string name="immersive_recents_fullscreen">Plein écran</string>
-  <string name="immersive_recents_statusbar">Uniquement la barre d\'état</string>
-  <string name="immersive_recents_navbar">Uniquement la barre de navigation</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Type d\'animation</string>
   <string name="qs_tile_animation_duration_title">Durée de l\'animation</string>
@@ -331,7 +323,7 @@
   <string name="portrait_title">Hauteur (Portrait)</string>
   <string name="land_vert_title">Largeur (Paysage)</string>
   <string name="land_hor_title">Hauteur (Paysage)</string>
-  <string name="positive_done">Terminé</string>
+  <string name="positive_done">Prêt</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Smart bar</string>
   <string name="smartbar_settings_title">Paramètres SmartBar</string>
@@ -367,6 +359,8 @@
   <string name="smartbar_config_restore_error_toast">Erreur lors de la restauration du profil Smartbar</string>
   <string name="navbar_buttons_alpha_title">Transparence des boutons</string>
   <string name="smartbar_longpress_delay_title">Délais de la pression longue</string>
+  <string name="smartbar_longpress_delay_summary">Définir combien de temps le système attendra avant de déclencher une action par appui long</string>
+  <string name="smartbar_longpress_delay_default">Délai par défaut (rapide)</string>
   <string name="smartbar_longpress_delay_normal">Délai normal</string>
   <string name="smartbar_longpress_delay_long">Retard important</string>
   <!-- QuickSettings haptic feedback -->
@@ -638,7 +632,7 @@
   <string name="hide_apps_from_recents_title">Applications masquées</string>
   <string name="hide_from_recents_add_app">Ajouter une application</string>
   <string name="hide_apps_from_recents_summary">Sélectionner les applications à exclure des applications récentes</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Activer le vibreur pour l’authentification</string>
   <string name="fprint_sucess_vib_summary">Vibrer en cas de succès de l\'authentification par empreintes digitales</string>
   <!-- XOSP Blur personalizations -->
@@ -861,7 +855,6 @@
   <string name="status_bar_show_image">Afficher l\'image</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim Recents</string>
-  <string name="use_slim_recents_title">Activer Slim Recents</string>
   <string name="use_slim_recents_summary">Afficher la vue des applications de « Slim Recents » plutôt que la vue par défaut</string>
   <string name="slim_recents_settings_title">Réglages de Slim Recents</string>
   <string name="slim_recents_settings_summary">Accéder aux réglages du panneau des applications récentes de « Slim Recents »</string>
@@ -1041,22 +1034,12 @@
   <string name="shortcut_action_help_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la fonctionnalité</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire pie.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">liste</string>
-  <string name="sizer_title">Suppression d\'applications</string>
   <string name="caution">Attention!</string>
   <string name="sizer_message_startup">Cet outil va vous permettre de supprimer des applications système. Utiliser ceci avec prudence et supprimer seulement des applications que vous connaissez.</string>
-  <string name="cancel">Annuler</string>
-  <string name="sizer_message_delete">Êtes-vous sûr de vouloir supprimer cette application ?</string>
+  <string name="sizer_message_delete">Êtes-vous sûr ?</string>
   <string name="btn_delete">Supprimez les applications sélectionnées maintenant !</string>
   <string name="delete_progress_title">Suppression</string>
   <string name="delete_progress">Les fichiers sélectionnés ont été supprimés...</string>
-  <string name="delete_success">Supprimée</string>
-  <string name="delete_fail">Suppression impossible</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">Impossible d\'écrire sur la carte SD</string>
-  <string name="sizer_message_sdnoread">Impossible de lire la carte SD</string>
-  <string name="sizer_message_filesuccess">Profil créé.</string>
-  <string name="sizer_message_filefail">Impossible de créer le profil.</string>
   <string name="sizer_message_noselect">Rien n\'est sélectionné.</string>
   <string name="system_app_remover">Suppression d\'applications système</string>
   <string name="sizer_message_error">Impossible de désinstaller, vérifiez les accès root</string>
@@ -1064,7 +1047,7 @@
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Afficher l\'icone d\'épinglage de l\'écran dans un nouveau style de grille</string>
   <string name="grid_recents_pinning_summaryOn">L\'icône d\'épinglage de l\'écran sera affichée si l\'écran d\'épinglage est activé à partir des paramètres de sécurité</string>
-  <string name="grid_recents_pinning_summaryOff">L\'icône d\'épinglage de l\'écran sera cachée même si écran épinglage est activé à partir des paramètres de sécurité</string>
+  <string name="grid_recents_pinning_summaryOff">L\'icône d\'épinglage de l\'écran sera cachée même si l\'écran d\'épinglage est activé à partir des paramètres de sécurité</string>
   <!-- Incall Home button behavior-->
   <string name="allow_incall_home_title">Bouton \"Accueil\" durant l\'appel</string>
   <string name="allow_incall_home_summary">Permettre d’utiliser le bouton d’accueil lorsque l’appareil sonne</string>

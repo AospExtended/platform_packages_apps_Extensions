@@ -49,8 +49,6 @@
   <!-- Force expanded notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_default">डिफ़ाल्ट</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_duration_default">डिफ़ाल्ट</string>
   <!-- MediaScanner behavior on boot -->
@@ -132,7 +130,7 @@
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
   <string name="animation_duration_default">डिफ़ाल्ट</string>
@@ -195,7 +193,6 @@
   <string name="shortcut_action_recent">हाल ही के</string>
   <string name="shortcut_action_add">जोड़ें</string>
   <!-- SlimSizer  -->
-  <string name="delete_success">हटाए गए</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

@@ -115,14 +115,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Zseblámpa értesítés</string>
   <string name="flashlight_notification_summary">Engedélyezi a zseblámpa bekapcsolt állapotáról az értesítést</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Teljes képernyős előzmények</string>
-  <string name="immersive_recents_summary">Előzmények képernyő megjelenésének módosítása</string>
-  <string name="immersive_recents_dialog_title">Megjelenítés választása</string>
-  <string name="immersive_recents_default">Alapértelmezett</string>
-  <string name="immersive_recents_fullscreen">Teljes képernyő</string>
-  <string name="immersive_recents_statusbar">Csak állapotsor</string>
-  <string name="immersive_recents_navbar">Csak navigációs sáv</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Animáció stílusa</string>
   <string name="qs_tile_animation_duration_title">Animáció hossza</string>
@@ -550,7 +542,7 @@
   <string name="hide_apps_from_recents_title">Rejtett alkalmazások</string>
   <string name="hide_from_recents_add_app">Alkalmazás hozzáadása</string>
   <string name="hide_apps_from_recents_summary">Előzmények panelból kizárt alkalmazások kiválasztása</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Ujjlenyomat hitelesítési rezgés</string>
   <string name="fprint_sucess_vib_summary">Rezgés sikeres ujjlenyomat hitelesítéskor</string>
   <!-- XOSP Blur personalizations -->
@@ -758,7 +750,6 @@
   <string name="status_bar_show_image">Kép megjelenítése</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim előzmények</string>
-  <string name="use_slim_recents_title">Slim előzmények használata</string>
   <string name="use_slim_recents_summary">Slim előzmények használata az alapértelmezett előzmények helyett</string>
   <string name="slim_recents_settings_title">Slim előzmények beállításai</string>
   <string name="slim_recents_settings_summary">Slim előzmények beállításainak megtekintése</string>
@@ -931,22 +922,11 @@
   <string name="shortcut_action_help_delete_last_entry">Minden %1$s eltávolítása a listából a funkció letiltásához vezet.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Minden %1$s eltávolítása a listából teljesen kikapcsolja a pie második rétegét.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">lista</string>
-  <string name="sizer_title">Alkalmazás eltávolító</string>
   <string name="caution">Vigyázat!</string>
   <string name="sizer_message_startup">Ez az eszköz lehetővé teszi, hogy törölje a rendszeralkalmazásokat. Használja óvatosan és csak azon alkalmazásokat törölje, melyekről tudja, hogy biztonságosan eltávolíthatóak.</string>
-  <string name="cancel">Mégse</string>
-  <string name="sizer_message_delete">Biztosan törölni szeretné ezt az alkalmazást?</string>
   <string name="btn_delete">Kiválasztott alkalmazások törlése most!</string>
   <string name="delete_progress_title">Törlés</string>
   <string name="delete_progress">Kiválasztott fájlok törlése\u2026</string>
-  <string name="delete_success">Törölve</string>
-  <string name="delete_fail">Törlés sikertelen</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">SD-kártya írási hiba.</string>
-  <string name="sizer_message_sdnoread">SD-kártya olvasási hiba.</string>
-  <string name="sizer_message_filesuccess">Profil létrehozva.</string>
-  <string name="sizer_message_filefail">Profil létrehozása sikertelen.</string>
   <string name="sizer_message_noselect">Nincs kiválasztott elem.</string>
   <string name="system_app_remover">Rendszeralkalmazás eltávolító</string>
   <!-- Grid recents screen pinning toggle -->

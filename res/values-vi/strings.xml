@@ -18,12 +18,23 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Phần mở rộng</string>
   <string name="add">Thêm</string>
+  <string name="advanced">Nâng cao</string>
   <string name="choose_app">Chọn ứng dụng</string>
+  <string name="general_category">Tổng quát</string>
+  <string name="gestures_category">Cử chỉ</string>
   <string name="music_category">Nhạc</string>
   <string name="weather_category">Cài đặt thời tiết</string>
+  <string name="security_category">Bảo mật</string>
+  <string name="hardware_category">Phần cứng</string>
+  <string name="animations_category">Hoạt ảnh ô</string>
+  <string name="traffic_category">Chỉ báo lưu thông mạng</string>
+  <string name="aosp_recents_category">Sử dụng gần đây kiểu AOSP</string>
   <string name="dlg_ok">Đồng ý</string>
+  <string name="loading">Đang tải\u2026</string>
   <string name="reset">Thiết lập lại</string>
+  <string name="reset_colors">Đặt lại màu sắc</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Văn bản</string>
   <string name="icon_title">Biểu tượng</string>
@@ -32,7 +43,12 @@
   <!-- Extensions categories -->
   <string name="recents_category">Gần đây</string>
   <string name="status_bar_category">Thanh trạng thái</string>
+  <string name="notifications_panel_category">Bảng thông báo</string>
+  <string name="system_category">Hệ thống</string>
+  <string name="lockscreen_category">Màn hình khoá</string>
+  <string name="statusbar_items_category">Biểu tượng thanh trạng thái</string>
   <string name="navigation_category">Điều hướng</string>
+  <string name="breathing_notifications_category">Thông báo nhấp nháy</string>
   <string name="system_animations">Hoạt ảnh hệ thống</string>
   <string name="toast">Thông báo nhanh</string>
   <string name="listview">Xem kiểu Danh sách</string>
@@ -67,6 +83,7 @@
   <string name="toast_icon_title">Biểu tượng thông báo nhanh</string>
   <string name="toast_icon_summary">Hiển thị các biểu tượng ứng dụng tương ứng với thông báo nhanh</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Quản lý thông báo nguồn điện</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Buộc mở rộng thông báo</string>
   <string name="force_expanded_notifications_summary">Chỉ có sẵn cho các ứng dụng hỗ trợ thông báo mở rộng</string>
@@ -74,14 +91,6 @@
   <string name="disable_immersive_message_title">Tắt thông báo chế độ toàn màn hình</string>
   <string name="disable_immersive_message_summary">Việc này sẽ ẩn tất cả các thông báo chế độ toàn màn hình</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Màn hình gần đây toàn màn hình</string>
-  <string name="immersive_recents_summary">Thay đổi cách hiển thị màn hình gần đây</string>
-  <string name="immersive_recents_dialog_title">Chọn màn hình gần đây</string>
-  <string name="immersive_recents_default">Mặc định</string>
-  <string name="immersive_recents_fullscreen">Toàn màn hình</string>
-  <string name="immersive_recents_statusbar">Chỉ thanh trạng thái</string>
-  <string name="immersive_recents_navbar">Chỉ thanh điều hướng</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Kiểu hoạt ảnh</string>
   <string name="qs_tile_animation_duration_title">Thời gian hoạt ảnh</string>
@@ -151,6 +160,7 @@
   <string name="navbar_visibility">Bật thanh điều hướng</string>
   <string name="navigationbar_settings_title">Thanh điều hướng</string>
   <string name="navigationbar_settings_summary">Tùy chỉnh kiểu điều hướng và hành vi</string>
+  <string name="navbar_general_title">Nâng cao</string>
   <string name="navigation_bar_left_title">Chế độ thuận tay trái</string>
   <string name="navigation_bar_left_summary">Hiển thị thanh điều hướng ở phía bên tay trái trong chế độ nằm ngang</string>
   <string name="info_pref_note_title">Chú ý</string>
@@ -158,6 +168,9 @@
   <string name="icon_pack_picker_dialog_title">Gói biểu tượng</string>
   <string name="image_exceeds_max_allowed_size">Hình ảnh không vượt quá 512x512</string>
   <string name="invalid_icon_from_uri">Không thể tải hình ảnh từ nội dung của nhà cung cấp</string>
+  <string name="picker_activities">Hoạt động</string>
+  <string name="select_custom_app_title">Chọn ứng dụng tùy chỉnh</string>
+  <string name="select_custom_activity_title">Chọn hoạt động tùy chỉnh</string>
   <string name="profile_applist_title">Ứng dụng</string>
   <string name="default_string">Mặc định</string>
   <string name="reset">Thiết lập lại</string>
@@ -198,6 +211,7 @@
   <string name="up_swipe_title">Vuốt lên</string>
   <string name="down_swipe_title">Vuốt xuống</string>
   <string name="long_swipe_reset">Thiết lập lại</string>
+  <string name="fling_advanced">Nâng cao</string>
   <string name="fling_long_swipe_title">Ngưỡng vuốt dài</string>
   <string name="fling_long_swipe_summary">Tinh chỉnh các ngưỡng vuốt dài dựa trên phần trăm của chiều rộng hoặc chiều cao giao diện Fling</string>
   <string name="fling_trails_enable_title">Bật vệt cử chỉ</string>
@@ -232,6 +246,7 @@
   <string name="fling_pulse_color">Màu Pulse</string>
   <string name="eos_fling_lavalamp_title">Bật đèn dung nham</string>
   <string name="eos_fling_lavalamp_summary">Các hoạt ảnh Pulse pha trộn kiểu màu đèn dung nham sống động</string>
+  <string name="pulse_advanced_category">Nâng cao</string>
   <string name="pulse_legacy_mode_advanced_category">Cài đặt chế độ khối mờ dần</string>
   <string name="pulse_custom_fudge_factor">Mức độ mạnh</string>
   <string name="lavamp_solid_speed_title">Tốc độ đèn dung nham</string>
@@ -291,6 +306,7 @@
   <string name="quick_settings_vibrate_summary">Rung khi chạm các ô</string>
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
+  <string name="breathing_notifications_title">Thông báo nhấp nháy</string>
   <string name="missed_call_breath_title">Cuộc gọi nhỡ chưa xem</string>
   <string name="missed_call_breath_summary">Sẽ cung cấp cho các thông báo cuộc gọi nhỡ của bạn một hiệu ứng sinh động trên thanh trạng thái</string>
   <string name="voicemail_breath_title">Thư thoại chưa xem</string>
@@ -403,10 +419,14 @@
   <string name="heads_up_snooze_20min">20 phút</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Trình đơn nguồn</string>
+  <string name="power_menu_reboot_title">Khởi động lại</string>
+  <string name="power_menu_screenshot_title">Chụp ảnh màn hình</string>
+  <string name="power_menu_screenrecord_title">Quay màn hình</string>
   <string name="power_menu_torch_title">Đèn pin</string>
   <string name="power_menu_onthego_title">Chế độ On-The-Go</string>
   <string name="power_menu_airplane_title">Chế độ trên máy bay</string>
   <string name="power_menu_users_title">Chuyển người dùng</string>
+  <string name="power_menu_search_title">Tìm kiếm</string>
   <string name="power_menu_voice_title">Tìm kiếm bằng giọng nói</string>
   <string name="power_menu_settings_title">Lối tắt các cài đặt</string>
   <string name="power_menu_lockdown_title">Thiết bị bị khóa</string>
@@ -489,7 +509,7 @@
   <string name="hide_apps_from_recents_title">Các ứng dụng được ẩn</string>
   <string name="hide_from_recents_add_app">Thêm ứng dụng</string>
   <string name="hide_apps_from_recents_summary">Chọn những ứng dụng để loại trừ ở trang ứng dụng gần đây</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Rung khi xác thực dấu vân tay</string>
   <string name="fprint_sucess_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
   <!-- XOSP Blur personalizations -->
@@ -692,7 +712,6 @@
   <string name="status_bar_show_image">Hiện hình ảnh</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Màn hình gần đây Slim</string>
-  <string name="use_slim_recents_title">Sử dụng Slim Recents</string>
   <string name="use_slim_recents_summary">Sử dụng slim recents thay cho màn hình gần đây mặc định</string>
   <string name="slim_recents_settings_title">Cài đặt slim recents</string>
   <string name="slim_recents_settings_summary">Xem cài đặt cho slim recents</string>
@@ -760,6 +779,7 @@
   <string name="shortcuts_icon_presets">Biểu tượng hệ thống</string>
   <string name="shortcuts_icon_custom">Bộ sưu tập</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Chọn biểu tượng</string>
+  <string name="shortcuts_icon_picker_alarm">Báo thức</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_browser">Trình duyệt</string>
   <string name="shortcuts_icon_picker_calendar">Lịch</string>
@@ -800,6 +820,7 @@
   <string name="shortcuts_icon_picker_pocket">Túi</string>
   <string name="shortcuts_icon_picker_rss">Nguồn cấp dữ liệu RSS</string>
   <string name="shortcuts_icon_picker_sdcard">Thẻ SD</string>
+  <string name="shortcuts_icon_picker_search">Tìm kiếm</string>
   <string name="shortcuts_icon_picker_tasks">Tác vụ</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Di chuyển</string>
@@ -858,21 +879,11 @@
   <string name="shortcut_action_help_delete_last_entry">Việc xóa mỗi %1$s trong danh sách này sẽ tắt hoàn toàn tính năng đó.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Loại bỏ mọi %1$s trong danh sách sẽ tắt lớp bánh thứ hai hoàn toàn.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">danh sách</string>
-  <string name="sizer_title">Trình gỡ bỏ ứng dụng</string>
   <string name="caution">Cẩn thận!</string>
   <string name="sizer_message_startup">Công cụ này cho phép bạn xóa ứng dụng hệ thống. Sử dụng cận thận và chỉ xóa ứng dụng bạn biết là an toàn để được gỡ bỏ.</string>
-  <string name="sizer_message_delete">Bạn có chắc chắn muốn xóa ứng dụng này không?</string>
   <string name="btn_delete">Xóa các ứng dụng đã chọn ngay bây giờ!</string>
   <string name="delete_progress_title">Đang xóa</string>
   <string name="delete_progress">Tập tin đã chọn đang được xóa...</string>
-  <string name="delete_success">Đã xóa</string>
-  <string name="delete_fail">Không thể xoá</string>
-  <string name="btn_profile">Cấu hình</string>
-  <string name="sizer_message_sdnowrite">Không thể ghi vào thẻ SD.</string>
-  <string name="sizer_message_sdnoread">Không thể đọc thẻ SD.</string>
-  <string name="sizer_message_filesuccess">Cấu hình đã tạo.</string>
-  <string name="sizer_message_filefail">Không thể tạo cấu hình.</string>
   <string name="sizer_message_noselect">Không có gì được chọn.</string>
   <string name="system_app_remover">Trình xóa ứng dụng hệ thống</string>
   <!-- Grid recents screen pinning toggle -->

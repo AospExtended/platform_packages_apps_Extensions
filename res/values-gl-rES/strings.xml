@@ -111,8 +111,6 @@
   <string name="disable_immersive_message_summary">Isto agochará todas as mensaxes en modo inmersivo</string>
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notificacións co flash</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_default">Por defecto</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_duration_default">Por defecto</string>
   <!-- MediaScanner behavior on boot -->
@@ -202,7 +200,7 @@
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <string name="settings_blur_cat">Desenfoque</string>
   <string name="blur_notifications_cat">Notificacións</string>
@@ -267,8 +265,6 @@
   <string name="shortcut_action_recent">Recentes</string>
   <string name="shortcut_action_add">Engadir</string>
   <!-- SlimSizer  -->
-  <string name="cancel">Cancelar</string>
-  <string name="delete_success">Borrado</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

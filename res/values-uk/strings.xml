@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Сповіщення ліхтарика</string>
   <string name="flashlight_notification_summary">Увімкнути сповіщення при ввімкнутому ліхтарику</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Вигляд панелі нещодавніх</string>
-  <string name="immersive_recents_summary">Змінити вигляд панелі нещодавніх</string>
-  <string name="immersive_recents_dialog_title">Виберіть вигляд панелі нещодавніх</string>
-  <string name="immersive_recents_default">За замовчуванням</string>
-  <string name="immersive_recents_fullscreen">Повноекранний режим</string>
-  <string name="immersive_recents_statusbar">Тільки рядок стану</string>
-  <string name="immersive_recents_navbar">Тільки панель навігації</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Стиль анімації</string>
   <string name="qs_tile_animation_duration_title">Тривалість анімації</string>
@@ -366,6 +358,11 @@
   <string name="smartbar_config_backup_error_toast">Помилка при збереженні профілю Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Помилка при відновленні профілю Smartbar</string>
   <string name="navbar_buttons_alpha_title">Прозорість кнопок</string>
+  <string name="smartbar_longpress_delay_title">Затримка довгого натиснення кнопки</string>
+  <string name="smartbar_longpress_delay_summary">Встановити, як довго система буде чекати, перш ніж спрацює дія на довгому натисненні</string>
+  <string name="smartbar_longpress_delay_default">Стандартна затримка (швидко)</string>
+  <string name="smartbar_longpress_delay_normal">Нормальна затримка</string>
+  <string name="smartbar_longpress_delay_long">Довга затримка</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Вібрація при дотику</string>
   <string name="quick_settings_vibrate_summary">Вібрувати при дотику до плитки</string>
@@ -635,7 +632,7 @@
   <string name="hide_apps_from_recents_title">Приховані програми</string>
   <string name="hide_from_recents_add_app">Додати додаток</string>
   <string name="hide_apps_from_recents_summary">Виберіть додатки, які будуть виключені з панелі нещодавніх.</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Вібрація при  розпізнаванні відбитку пальця</string>
   <string name="fprint_sucess_vib_summary">Вібрувати при успішному розпізнаванні відбитку пальця</string>
   <!-- XOSP Blur personalizations -->
@@ -858,7 +855,6 @@
   <string name="status_bar_show_image">Показувати зображення</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Панель останніх програм із Slim</string>
-  <string name="use_slim_recents_title">Використовувати нещодавні додатки від Slim</string>
   <string name="use_slim_recents_summary">Використовувати меню нещодавніх додатків від Slim замість перегляду меню додатків за замовчуванням</string>
   <string name="slim_recents_settings_title">Налаштування меню нещодавніх додатків від Slim</string>
   <string name="slim_recents_settings_summary">Подивитися налаштування для меню нещодавніх додатків від Slim</string>
@@ -1038,24 +1034,15 @@
   <string name="shortcut_action_help_delete_last_entry">Видалення кожного %1$s в списку повністю вимкне функцію.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Видалення кожного %1$s в списку повністю вимкне другий шар.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">список</string>
-  <string name="sizer_title">Видалення додатків</string>
   <string name="caution">Увага!</string>
   <string name="sizer_message_startup">Ця функція дозволяє видаляти системні додатки. Будьте уважні і видаляйте тільки ті додатки, відсутність яких не нашкодить системі.</string>
-  <string name="cancel">Скасувати</string>
-  <string name="sizer_message_delete">Ви впевнені, що ви хочете видалити цей додаток?</string>
   <string name="btn_delete">Видалити обрані додатки!</string>
   <string name="delete_progress_title">Видалення</string>
   <string name="delete_progress">Вибрані файли видаляються...</string>
-  <string name="delete_success">Видалено</string>
-  <string name="delete_fail">Не вдалося видалити</string>
-  <string name="btn_profile">Профіль</string>
-  <string name="sizer_message_sdnowrite">Не вдалося записати на SD-карту.</string>
-  <string name="sizer_message_sdnoread">Не вдалося прочитати з SD-карти.</string>
-  <string name="sizer_message_filesuccess">Профіль створено.</string>
-  <string name="sizer_message_filefail">Не вдалося створити профіль.</string>
   <string name="sizer_message_noselect">Нічого не вибрано.</string>
   <string name="system_app_remover">Видалити системні додатки</string>
+  <string name="sizer_message_error">Не вдалося видалити, перевірте root-права</string>
+  <string name="sizer_message_success">Успіх</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Показувати піктограму закріплення екрану при сітковому стилі нещодавніх</string>
   <string name="grid_recents_pinning_summaryOn">Піктограма закріплення екрану буде показана при сітковому стилі нещодавніх якщо закріплення екрану увімкнено в налаштуваннях безпеки</string>
@@ -1064,5 +1051,9 @@
   <string name="allow_incall_home_title">Кнопка \"Додому\" при дзвінку</string>
   <string name="allow_incall_home_summary">Дозволити використання кнопки \"Додому\" під час дзвінка</string>
   <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Кнопка доторку</string>
+  <string name="button_backlight_on_touch_only_summary">Увімкнути підсвітку з тайм-аутом тільки при дотику до кнопки</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Відображати іконку вимкнених даних</string>
+  <string name="data_disabled_icon_summary">Відображення хрестика поруч з рівнем сигналу, коли дані вимкнуто</string>
 </resources>

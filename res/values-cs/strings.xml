@@ -39,7 +39,7 @@
   <string name="reset_colors">Obnovit barvy</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Text</string>
-  <string name="icon_title">Icona</string>
+  <string name="icon_title">Ikona</string>
   <string name="color_title">Barva</string>
   <string name="colors_title">Barvy</string>
   <!-- Extensions categories -->
@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Oznámení svítilny</string>
   <string name="flashlight_notification_summary">Povolit oznámení při zapnuté svítilně</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Imerzivní nedávné</string>
-  <string name="immersive_recents_summary">Změna zobrazení nedávných aplikací</string>
-  <string name="immersive_recents_dialog_title">Vyberte zobrazení nedávných aplikací</string>
-  <string name="immersive_recents_default">Výchozí</string>
-  <string name="immersive_recents_fullscreen">Celá obrazovka</string>
-  <string name="immersive_recents_statusbar">Pouze stavová lišta</string>
-  <string name="immersive_recents_navbar">Pouze navigační panel</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Styl animace dlaždic</string>
   <string name="qs_tile_animation_duration_title">Doba trvání animace dlaždic</string>
@@ -366,6 +358,11 @@
   <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu chytré lišty</string>
   <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu chytré lišty</string>
   <string name="navbar_buttons_alpha_title">Průhlednost tlačítka</string>
+  <string name="smartbar_longpress_delay_title">Prodleva dlouhého stisku</string>
+  <string name="smartbar_longpress_delay_summary">Nastavte, jak dlouho bude systém čekat před spuštěním dlouhého stisknutí</string>
+  <string name="smartbar_longpress_delay_default">Výchozí prodleva (rychle)</string>
+  <string name="smartbar_longpress_delay_normal">Běžná prodleva</string>
+  <string name="smartbar_longpress_delay_long">Dlouhá prodleva</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
   <string name="quick_settings_vibrate_summary">Vibrovat při dotyku dlaždice</string>
@@ -512,7 +509,7 @@
   <string name="heads_up_snooze_summary_one_minute">Potáhnutím nahoru dojde k odložení heads-up oznámení po dobu 1 minuty</string>
   <string name="heads_up_snooze_summary">Potáhnutím nahoru dojde k odložení heads-up oznámení po dobu <xliff:g id="number">%d</xliff:g> minut</string>
   <string name="heads_up_snooze_disabled_summary">Odložení je deaktivováno</string>
-  <string name="heads_up_snooze_1min">1 minuty</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
   <string name="heads_up_snooze_3min">3 minuty</string>
   <string name="heads_up_snooze_5min">5 minut</string>
   <string name="heads_up_snooze_10min">10 minut</string>
@@ -635,7 +632,7 @@
   <string name="hide_apps_from_recents_title">Skryté aplikace</string>
   <string name="hide_from_recents_add_app">Přidat aplikaci</string>
   <string name="hide_apps_from_recents_summary">Vyberte aplikace, které chcete vyloučit z panelu nedávné</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrovat při ověření otisků prstů</string>
   <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném otisku prstu</string>
   <!-- XOSP Blur personalizations -->
@@ -858,7 +855,7 @@
   <string name="status_bar_show_image">Zobrazit obrázek</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim přepínač aplikací</string>
-  <string name="use_slim_recents_title">Použít alternativu pro nedávné aplikace</string>
+  <string name="use_slim_recents_title">Použit pro alternativy nedávných</string>
   <string name="use_slim_recents_summary">Použít Slim přepínač aplikací namísto systémového</string>
   <string name="slim_recents_settings_title">Nastavení Slim nedávných aplikací</string>
   <string name="slim_recents_settings_summary">Zobrazit nastavení pro Slim nedávné aplikace</string>
@@ -1038,24 +1035,16 @@
   <string name="shortcut_action_help_delete_last_entry">Pokud odstraníte všechny %1$s v seznamu, dojde k úplnému vyřazení funkce.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Pokud odstraníte všechny %1$s v seznamu, odstraníte druhou vrstvu kruhu.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">seznam</string>
-  <string name="sizer_title">Odstraňovač aplikací</string>
   <string name="caution">Upozornění!</string>
   <string name="sizer_message_startup">Tento nástroj umožňuje odstranit systémové aplikace. Používejte s opatrností a odstraňte pouze ty, které víte, že můžete odstranit.</string>
-  <string name="cancel">Zrušit</string>
-  <string name="sizer_message_delete">Jste si jisti, že chcete odstranit tuto aplikaci?</string>
+  <string name="sizer_message_delete">Jste si jistí?</string>
   <string name="btn_delete">Odstranit zvolené aplikace hned!</string>
   <string name="delete_progress_title">Odstraňování</string>
   <string name="delete_progress">Vybrané soubory jsou odstraňovány...</string>
-  <string name="delete_success">Smazáno</string>
-  <string name="delete_fail">Nelze odstranit</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">Nelze zapisovat na SD kartu.</string>
-  <string name="sizer_message_sdnoread">Nelze přečíst SD kartu.</string>
-  <string name="sizer_message_filesuccess">Profil vytvořen.</string>
-  <string name="sizer_message_filefail">Nepodařilo se vytvořit profil.</string>
   <string name="sizer_message_noselect">Není nic vybráno.</string>
   <string name="system_app_remover">Odstraňovač systémových aplikací</string>
+  <string name="sizer_message_error">Odinstalování selhalo, zkontrolujte root přístup</string>
+  <string name="sizer_message_success">Úspěch</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Zobrazit ikonu připnutí obrazovky v mřížkovém stylu nedávných</string>
   <string name="grid_recents_pinning_summaryOn">Ikona připnutí obrazovky se zobrazí v mřížkovém stylu, pokud je připnutí obrazovky povoleno v nastavení zabezpečení</string>

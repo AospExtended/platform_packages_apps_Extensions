@@ -50,8 +50,6 @@
   <!-- Force expanded notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_default">ברירת מחדל</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_duration_default">ברירת מחדל</string>
   <!-- MediaScanner behavior on boot -->
@@ -121,7 +119,7 @@
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
   <string name="animation_duration_default">ברירת מחדל</string>
@@ -175,7 +173,6 @@
   <string name="shortcut_action_recent">יישומים אחרונים</string>
   <string name="shortcut_action_add">הוסף</string>
   <!-- SlimSizer  -->
-  <string name="delete_success">נמחק</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

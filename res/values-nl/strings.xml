@@ -75,14 +75,6 @@
   <string name="disable_immersive_message_title">Schakel volledig-scherm meldingen uit</string>
   <string name="disable_immersive_message_summary">Dit zal alle volledig-scherm meldingen verbergen</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Recente fullscreen</string>
-  <string name="immersive_recents_summary">Wijzig weergave van het recente apps paneel</string>
-  <string name="immersive_recents_dialog_title">Selecteer recenten overzicht</string>
-  <string name="immersive_recents_default">Standaard</string>
-  <string name="immersive_recents_fullscreen">Volledig scherm</string>
-  <string name="immersive_recents_statusbar">Alleen statusbalk</string>
-  <string name="immersive_recents_navbar">Enkel navigatiebalk</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Animatiestijl</string>
   <string name="qs_tile_animation_duration_title">Animatieduur</string>
@@ -494,7 +486,7 @@
   <string name="hide_apps_from_recents_title">Verborgen apps</string>
   <string name="hide_from_recents_add_app">App toevoegen</string>
   <string name="hide_apps_from_recents_summary">Selecteer apps om uit te sluiten van het recente apps paneel</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vingerafdruk authenticatie trillen</string>
   <string name="fprint_sucess_vib_summary">Trillen bij succesvolle vingerafdruk herkenning</string>
   <!-- XOSP Blur personalizations -->
@@ -695,7 +687,6 @@
   <string name="status_bar_show_image">Afbeeldingen weergeven</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim Recents</string>
-  <string name="use_slim_recents_title">Gebruik Slim Recents</string>
   <string name="use_slim_recents_summary">Gebruik Slim Recents in plaats van de standaardweergave</string>
   <string name="slim_recents_settings_title">Slim Recents instellingen</string>
   <string name="slim_recents_settings_summary">Instellingen van Slim Recents weergeven</string>
@@ -865,22 +856,11 @@
   <string name="shortcut_action_help_delete_last_entry">Elke %1$s verwijderen uit de lijst zal de functie volledig uitschakelen.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Elke %1$s uit de lijst verwijderen zal het tweede menu laag volledig uitschakelen.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">lijst</string>
-  <string name="sizer_title">App verwijderaar</string>
   <string name="caution">Let op!</string>
   <string name="sizer_message_startup">Met dit hulpprogramma kun je systeem apps verwijderen. Gebruik met voorzichtigheid en alleen apps verwijderen waarvan je weet dat ze veilig verwijderd kunnen worden.</string>
-  <string name="cancel">Annuleer</string>
-  <string name="sizer_message_delete">Weet je zeker dat je deze app wilt verwijderen?</string>
   <string name="btn_delete">Verwijder geselecteerde APPs nu!</string>
   <string name="delete_progress_title">Verwijderen</string>
   <string name="delete_progress">Geselecteerde bestanden worden verwijderd...</string>
-  <string name="delete_success">Verwijderd</string>
-  <string name="delete_fail">Verwijderen onmogelijk</string>
-  <string name="btn_profile">Profiel</string>
-  <string name="sizer_message_sdnowrite">Schrijven naar geheugenkaart niet mogelijk.</string>
-  <string name="sizer_message_sdnoread">Lezen van geheugenkaart niet mogelijk.</string>
-  <string name="sizer_message_filesuccess">Profiel is aangemaakt.</string>
-  <string name="sizer_message_filefail">Aanmaken van profiel mislukt.</string>
   <string name="sizer_message_noselect">Niets geselecteerd.</string>
   <string name="system_app_remover">Systeem app verwijderaar</string>
   <!-- Grid recents screen pinning toggle -->

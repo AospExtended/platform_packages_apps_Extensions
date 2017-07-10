@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Taschenlampen-Benachrichtigung</string>
   <string name="flashlight_notification_summary">Benachrichtigung anzeigen, wenn Taschenlampe aktiviert ist</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersiver Anwendungsverlauf</string>
-  <string name="immersive_recents_summary">Ändert die Ansicht des Anwendungsverlaufs</string>
-  <string name="immersive_recents_dialog_title">Wählen Sie die Anwendungsverlaufs-Ansicht aus</string>
-  <string name="immersive_recents_default">Standardeinstellung</string>
-  <string name="immersive_recents_fullscreen">Vollbild</string>
-  <string name="immersive_recents_statusbar">Nur die Statusleiste</string>
-  <string name="immersive_recents_navbar">Nur die Navigationsleiste</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Animationsstil der Kacheln</string>
   <string name="qs_tile_animation_duration_title">Kachel Animations Dauer</string>
@@ -366,6 +358,11 @@
   <string name="smartbar_config_backup_error_toast">Fehler beim Speichern des SmartBar Profils</string>
   <string name="smartbar_config_restore_error_toast">Fehler beim Wiederherstellen des SmartBar Profils</string>
   <string name="navbar_buttons_alpha_title">Transparenz der Tasten</string>
+  <string name="smartbar_longpress_delay_title">Verzögerung für langen Druck</string>
+  <string name="smartbar_longpress_delay_summary">Setze fest, wie lange gewartet werden soll, nachdem lang gedrückt wurde</string>
+  <string name="smartbar_longpress_delay_default">Standardverzögerung (schnell)</string>
+  <string name="smartbar_longpress_delay_normal">Normale Verzögerung</string>
+  <string name="smartbar_longpress_delay_long">Lange Verzögerung</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
   <string name="quick_settings_vibrate_summary">Vibriert beim Berühren von Schnelleinstellungen</string>
@@ -635,7 +632,7 @@
   <string name="hide_apps_from_recents_title">Versteckte Apps</string>
   <string name="hide_from_recents_add_app">App hinzufügen</string>
   <string name="hide_apps_from_recents_summary">Eine Auswahl an Apps die aus dem Anwendungsverlauf ausgeschlossen werden</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Fingerabdruck-Authentifizierungsvibration</string>
   <string name="fprint_sucess_vib_summary">Bei erfolgreicher Fingerabdruck-Erkennung vibrieren</string>
   <!-- XOSP Blur personalizations -->
@@ -858,7 +855,7 @@
   <string name="status_bar_show_image">Bild anzeigen</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim Anwendungsverlauf</string>
-  <string name="use_slim_recents_title">Benutze Slim Anwendungsverlauf</string>
+  <string name="use_slim_recents_title">Kann als Alternative für den Anwendungsverlauf genutzt werden</string>
   <string name="use_slim_recents_summary">Verwenden Sie den Slim Anwendungsverlauf anstelle des Standard Anwendungsverlaufs</string>
   <string name="slim_recents_settings_title">Slim Anwendungsverlauf Einstellungen</string>
   <string name="slim_recents_settings_summary">Anzeigen der Einstellungen für Slim Anwendungsverlauf</string>
@@ -1038,24 +1035,16 @@
   <string name="shortcut_action_help_delete_last_entry">Löschen aller %1$s deaktiviert die Funktion.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Löschen aller %1$s aus der Liste deaktiviert die zweite PIE-Reihe vollständig.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">Liste</string>
-  <string name="sizer_title">System-App Entferner</string>
   <string name="caution">Vorsicht!</string>
   <string name="sizer_message_startup">Dieses Tool erlaubt Ihnen Systemanwendungen zu entfernen. Benutzung auf eigene Gefahr - bitte löschen Sie nur Apps, bei denen Sie sicher sind.</string>
-  <string name="cancel">Abbrechen</string>
-  <string name="sizer_message_delete">Sind Sie sicher, dass Sie diese App löschen möchten?</string>
+  <string name="sizer_message_delete">Sind Sie sicher?</string>
   <string name="btn_delete">Ausgewählte Apps jetzt löschen!</string>
   <string name="delete_progress_title">Lösche...</string>
   <string name="delete_progress">Ausgewählte Dateien werden entfernt...</string>
-  <string name="delete_success">Gelöscht</string>
-  <string name="delete_fail">Entfernen nicht möglich</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">Schreiben auf SD-Karte fehlgeschlagen.</string>
-  <string name="sizer_message_sdnoread">SD-Karte kann nicht gelesen werden.</string>
-  <string name="sizer_message_filesuccess">Profil erstellt.</string>
-  <string name="sizer_message_filefail">Profilerstellung fehlgeschlagen.</string>
   <string name="sizer_message_noselect">Nichts ausgewählt.</string>
   <string name="system_app_remover">System-Apps entfernen</string>
+  <string name="sizer_message_error">Installation fehlgeschlagen. Überprüfen Sie ob sie Root-Zugriff haben.</string>
+  <string name="sizer_message_success">Erfolgreich</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Zeige Bildschirm fixieren im Anwendungsverlauf Rasterstil an</string>
   <string name="grid_recents_pinning_summaryOn">Bildschirm fixieren wird im Anwendungsverlauf Rasterstil angezeigt, wenn Bildschirmfixierung in den Sicherheitseinstellungen aktiviert ist</string>

@@ -40,7 +40,6 @@
   <!-- Force expanded notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
   <!-- Tiles animation style  -->
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
@@ -94,7 +93,7 @@
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
   <!-- Toast Animation -->

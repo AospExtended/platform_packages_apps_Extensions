@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Ειδοποίηση φακού</string>
   <string name="flashlight_notification_summary">Ενεργοποίηση ειδοποίησης όταν ο φακός είναι ενεργός</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Πρόσφατα πλήρους οθόνης</string>
-  <string name="immersive_recents_summary">Αλλάξετε την προβολή της οθόνης πρόσφατων εφαρμογών</string>
-  <string name="immersive_recents_dialog_title">Επιλογή εμφάνισης πρόσφατων εφαρμογών</string>
-  <string name="immersive_recents_default">Προεπιλεγμένο</string>
-  <string name="immersive_recents_fullscreen">Πλήρης Οθόνη</string>
-  <string name="immersive_recents_statusbar">Μόνο στην γραμμή κατάστασης</string>
-  <string name="immersive_recents_navbar">Μόνο στην γραμμή περιήγησης</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Στυλ εφέ</string>
   <string name="qs_tile_animation_duration_title">Διάρκεια των εφέ</string>
@@ -628,7 +620,7 @@
   <string name="hide_apps_from_recents_title">Κρυμμένες εφαρμογές</string>
   <string name="hide_from_recents_add_app">Προσθήκη Εφαρμογής</string>
   <string name="hide_apps_from_recents_summary">Επιλέξτε ποιες εφαρμογές δε θα εμφανίζονται στη λίστα προσφάτων</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Δόνηση ελέγχου ταυτότητας δακτυλικών αποτυπωμάτων</string>
   <string name="fprint_sucess_vib_summary">Δόνηση σε επιτυχές έλεγχο δαχτυλικού αποτυπώματος</string>
   <!-- XOSP Blur personalizations -->
@@ -850,7 +842,6 @@
   <string name="status_bar_show_image">Εμφάνιση εικόνας</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim πρόσφατα</string>
-  <string name="use_slim_recents_title">Χρήση προσφάτων Slim</string>
   <string name="use_slim_recents_summary">Χρησιμοποιήστε τα πρόσφατα slim αντί για προεπιλεγμένη προβολή των τελευταίων εφαρμογών</string>
   <string name="slim_recents_settings_title">Ρυθμίσεις πρόσφατων Slim</string>
   <string name="slim_recents_settings_summary">Προβάλετε τις ρυθμίσεις για πρόσφατα slim</string>
@@ -1030,22 +1021,11 @@
   <string name="shortcut_action_help_delete_last_entry">Η αφαίρεση κάθε %1$s στην λίστα θα απενεργοποιήσει τη λειτουργία εξ ολοκλήρου.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Αφαίρεση κάθε %1$s στη λίστα θα απενεργοποιήσει την δεύτερη πίτα εξ ολοκλήρου.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">λίστα</string>
-  <string name="sizer_title">Αφαίρεση εφαρμογών</string>
   <string name="caution">Προσοχή!</string>
   <string name="sizer_message_startup">Αυτο το εργαλείο σας επιτρέπει τη διαγραφή εφαρμογών συστήματος. Χρησιμοποιήστε το με προσοχή και διαγράψτε μονο εφαρμογές που γνωρίζεται οτι είναι ασφαλής η διαγραφή τους.</string>
-  <string name="cancel">Ακύρωση</string>
-  <string name="sizer_message_delete">Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την εφαρμογή;</string>
   <string name="btn_delete">Διαγραφή επιλεγμένων εφαρμογών τώρα!</string>
   <string name="delete_progress_title">Διαγραφή</string>
   <string name="delete_progress">Τα επιλεγμένα αρχεία διαγράφονται...</string>
-  <string name="delete_success">Επιτυχής Διαγραφή</string>
-  <string name="delete_fail">Δεν είναι δυνατή η διαγραφή</string>
-  <string name="btn_profile">Προφίλ</string>
-  <string name="sizer_message_sdnowrite">Αδυναμία εγγραφής στην κάρτα SD.</string>
-  <string name="sizer_message_sdnoread">Αδυναμία ανάγνωσης της κάρτας SD.</string>
-  <string name="sizer_message_filesuccess">Το προφίλ δημιουργήθηκε.</string>
-  <string name="sizer_message_filefail">Απέτυχε η δημιουργία προφίλ.</string>
   <string name="sizer_message_noselect">Τίποτα δεν επιλέχτηκε.</string>
   <string name="system_app_remover">Σύστημα αφαίρεσης εφαρμογής</string>
   <!-- Grid recents screen pinning toggle -->

@@ -69,14 +69,6 @@
   <string name="disable_immersive_message_title">Dezactivaţi mesaje în mod immersive</string>
   <string name="disable_immersive_message_summary">Acest lucru va ascunde toate mesajele în modul immersive</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Immersive recente</string>
-  <string name="immersive_recents_summary">Modifică vizualizarea aplicațiilor recente</string>
-  <string name="immersive_recents_dialog_title">Selectează vizualizarea aplicațiilor recente</string>
-  <string name="immersive_recents_default">Implicit</string>
-  <string name="immersive_recents_fullscreen">Pe tot ecranul</string>
-  <string name="immersive_recents_statusbar">Numai Bara de stare</string>
-  <string name="immersive_recents_navbar">Numai Bara de navigare</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Stil animație</string>
   <string name="qs_tile_animation_duration_title">Durata Animaţiei</string>
@@ -366,7 +358,7 @@
   <string name="hide_apps_from_recents_title">Aplicații ascunse</string>
   <string name="hide_from_recents_add_app">Adăugați aplicaţie</string>
   <string name="hide_apps_from_recents_summary">Alegeți care aplicații să fie excluse din panoul recente</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrații la autentificarea cu amprentă</string>
   <string name="fprint_sucess_vib_summary">Vibrează la autentificarea cu succes prin amprentă</string>
   <!-- XOSP Blur personalizations -->
@@ -615,7 +607,6 @@
   <string name="shortcut_action_help_delete_last_entry">Ștergerea fiecărei %1$s din listă va dezactiva caracteristica în întregime.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Ștergerea fiecărei %1$s din listă va dezactiva al doilea strat pie în întregime.</string>
   <!-- SlimSizer  -->
-  <string name="delete_success">Șters</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

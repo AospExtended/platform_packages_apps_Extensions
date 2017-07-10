@@ -41,8 +41,6 @@
   <!-- Force expanded notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_default">ปกติ</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_duration_default">ปกติ</string>
   <!-- MediaScanner behavior on boot -->
@@ -112,7 +110,7 @@
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
   <string name="animation_duration_default">ปกติ</string>

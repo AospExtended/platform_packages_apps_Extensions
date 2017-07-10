@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notifikasi senter</string>
   <string name="flashlight_notification_summary">Hidupkan notifikasi untuk senter saat hidup</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Recents mendalam</string>
-  <string name="immersive_recents_summary">Mengubah tampilan layar recents</string>
-  <string name="immersive_recents_dialog_title">Pilih tampilan recents</string>
-  <string name="immersive_recents_default">Bawaan</string>
-  <string name="immersive_recents_fullscreen">Layar penuh</string>
-  <string name="immersive_recents_statusbar">Hanya status bar</string>
-  <string name="immersive_recents_navbar">Hanya navbar</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Gaya animasi</string>
   <string name="qs_tile_animation_duration_title">Durasi Animasi tiles</string>
@@ -366,6 +358,8 @@
   <string name="smartbar_config_backup_error_toast">Kesalahan menyimpan profil Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Kesalahan memulihkan profil Smartbar</string>
   <string name="navbar_buttons_alpha_title">Transparansi tombol</string>
+  <string name="smartbar_longpress_delay_normal">penundaan normal</string>
+  <string name="smartbar_longpress_delay_long">penundaan lama</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Bergetar saat disentuh</string>
   <string name="quick_settings_vibrate_summary">Bergetar ketika menyentuh ubin</string>
@@ -635,7 +629,7 @@
   <string name="hide_apps_from_recents_title">Aplikasi tersembunyi</string>
   <string name="hide_from_recents_add_app">Tambahkan App</string>
   <string name="hide_apps_from_recents_summary">Pilih aplikasi yang dikecualikan dari panel recents</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Getaran autentikasi fingerprint</string>
   <string name="fprint_sucess_vib_summary">Bergetar saat autentikasi fingerprint sukses</string>
   <!-- XOSP Blur personalizations -->
@@ -858,7 +852,6 @@
   <string name="status_bar_show_image">Tampilkan gambar</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim Recent</string>
-  <string name="use_slim_recents_title">Gunakan Slim Recent</string>
   <string name="use_slim_recents_summary">Menggunakan slim recents daripada recents tampilan default</string>
   <string name="slim_recents_settings_title">Pengaturan Slim Recent</string>
   <string name="slim_recents_settings_summary">Lihat pengaturan untuk Slim Recent</string>
@@ -1038,24 +1031,15 @@
   <string name="shortcut_action_help_delete_last_entry">Menghapus setiap %1$s dalam list akan menonaktifkan seluruh fitur.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Menghapus seluruh %1$s dalam list akan menonaktifkan keseluruhan pie layer kedua.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">daftar</string>
-  <string name="sizer_title">Penghapus aplikasi</string>
   <string name="caution">Peringatan!</string>
   <string name="sizer_message_startup">Alat ini memungkinkan Anda untuk menghapus aplikasi sistem. Gunakan dengan hati-hati dan hanya hapus aplikasi yang Anda ketahui aman untuk dihapus.</string>
-  <string name="cancel">Batal</string>
-  <string name="sizer_message_delete">Apakah Anda yakin ingin menghapus aplikasi ini?</string>
   <string name="btn_delete">Hapus aplikasi yang dipilih sekarang!</string>
   <string name="delete_progress_title">Menghapus</string>
   <string name="delete_progress">File yang dipilih akan dihapus, harap tunggu...</string>
-  <string name="delete_success">Dihapus</string>
-  <string name="delete_fail">Tidak dapat menghapus</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">Tidak dapat menulis ke SD Card.</string>
-  <string name="sizer_message_sdnoread">Tidak bisa membaca SD Card.</string>
-  <string name="sizer_message_filesuccess">Profil dibuat.</string>
-  <string name="sizer_message_filefail">Gagal membuat profil.</string>
   <string name="sizer_message_noselect">Tidak ada yang dipilih.</string>
   <string name="system_app_remover">Penghapus aplikasi sistem</string>
+  <string name="sizer_message_error">gagal untuk menghapus pemasangan, periksa akses root</string>
+  <string name="sizer_message_success">berhasil</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Tampilkan ikon screen pinning pada recents</string>
   <string name="grid_recents_pinning_summaryOn">Ikon screen pinning akan ditampilkan pada grid recents jika layar pin diaktifkan dari pengaturan keamanan</string>

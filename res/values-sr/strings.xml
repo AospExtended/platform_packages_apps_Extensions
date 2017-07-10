@@ -18,7 +18,9 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Додаци</string>
   <string name="add">Додај</string>
+  <string name="cancel">Откажи</string>
   <string name="choose_app">Изаберите апликацију</string>
   <string name="music_category">Музика</string>
   <string name="weather_category">Поставке времеске прогнозе</string>
@@ -29,6 +31,8 @@
   <!-- Extensions categories -->
   <string name="recents_category">Недавне</string>
   <string name="status_bar_category">Статусна трака</string>
+  <string name="system_category">Систем</string>
+  <string name="statusbar_items_category">Ставке статусне траке</string>
   <string name="system_animations">Системске анимације</string>
   <string name="toast">Тост</string>
   <string name="listview">Приказ листе</string>
@@ -61,6 +65,7 @@
   <string name="toast_icon_title">Икона на тосту</string>
   <string name="toast_icon_summary">Приказује икону апликације која одговара тост обавештењу</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Напредна подешавања обавештења</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Присила проширених обавештења</string>
   <string name="force_expanded_notifications_summary">Доступно само за апликације које подржавају проширена обавештења</string>
@@ -68,14 +73,6 @@
   <string name="disable_immersive_message_title">Онемогући утапајући режим порука</string>
   <string name="disable_immersive_message_summary">Сакрива свепоруке утапајућег режима приказа</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Недавне апликације целог екрана</string>
-  <string name="immersive_recents_summary">Промените приказ панела са недавним апликацијама</string>
-  <string name="immersive_recents_dialog_title">Одаберите приказ недавних апликација</string>
-  <string name="immersive_recents_default">Подразумевано</string>
-  <string name="immersive_recents_fullscreen">Цео екран</string>
-  <string name="immersive_recents_statusbar">Само статусна трака</string>
-  <string name="immersive_recents_navbar">Само навигацијска трака</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Стил анимације</string>
   <string name="qs_tile_animation_duration_title">Трајање анимације</string>
@@ -132,6 +129,7 @@
   <string name="clock_date_right">Десно од времена</string>
   <string name="clock_date_left">Лево од времена</string>
   <string name="clock_am_pm_date_normal">Нормална</string>
+  <string name="cancel">Откажи</string>
   <string name="clock_font_style_title">Фонт</string>
   <string name="clock_font_size_title">Величина фонта</string>
   <!-- Color Picker -->
@@ -142,6 +140,9 @@
   <string name="navigation_bar_left_summary">Постави навигациону траку на левој страни екрана у положеном режиму</string>
   <string name="smartbar_interface">Паметна трака</string>
   <string name="image_exceeds_max_allowed_size">Слика не сме бити већа од 512x512</string>
+  <string name="picker_activities">Активности</string>
+  <string name="select_custom_app_title">Избор апликације</string>
+  <string name="select_custom_activity_title">Избор активности</string>
   <string name="profile_applist_title">Апликације</string>
   <string name="default_string">Подразумевано</string>
   <string name="reset">Поништи</string>
@@ -156,6 +157,7 @@
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="positive_done">Готово</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Паметна трака</string>
   <string name="smartbar_ime_action_none">Ништа</string>
@@ -232,10 +234,14 @@
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
   <string name="power_menu_title">Мени напајања</string>
+  <string name="power_menu_reboot_title">Поново покрени</string>
+  <string name="power_menu_screenshot_title">Снимак екрана</string>
+  <string name="power_menu_screenrecord_title">Снимање екрана</string>
   <string name="power_menu_torch_title">Лампа</string>
   <string name="power_menu_onthego_title">Режим у-покрету</string>
   <string name="power_menu_airplane_title">Режим рада у авиону</string>
   <string name="power_menu_users_title">Пребацивач корисника</string>
+  <string name="power_menu_search_title">Претражи</string>
   <string name="power_menu_voice_title">Гласовна претрага</string>
   <string name="power_menu_settings_title">Пречица Подешавања</string>
   <string name="power_menu_lockdown_title">Закључавање уређаја</string>
@@ -304,7 +310,7 @@
   <string name="hide_apps_from_recents_title">Скривене апликације</string>
   <string name="hide_from_recents_add_app">Додај апликацију</string>
   <string name="hide_apps_from_recents_summary">Одаберите коју апликацију неће приказивати у панелу недавних апликација</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Вибрација провере отиска прста</string>
   <string name="fprint_sucess_vib_summary">Вибрација при успешној провери отиска</string>
   <!-- XOSP Blur personalizations -->
@@ -456,6 +462,7 @@
   <string name="shortcuts_icon_presets">Системске иконе</string>
   <string name="shortcuts_icon_custom">Галерија</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Одабери икону</string>
+  <string name="shortcuts_icon_picker_alarm">Аларм</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_browser">Прегледач</string>
   <string name="shortcuts_icon_picker_calendar">Календар</string>
@@ -479,6 +486,7 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google +</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Помоћ</string>
   <string name="shortcuts_icon_picker_joystick">Џојстик</string>
   <string name="shortcuts_icon_picker_key">Кључеви/налози</string>
   <string name="shortcuts_icon_picker_laptop">Лаптоп</string>
@@ -495,6 +503,7 @@
   <string name="shortcuts_icon_picker_pocket">Џеп</string>
   <string name="shortcuts_icon_picker_rss">РСС довод</string>
   <string name="shortcuts_icon_picker_sdcard">СД картица</string>
+  <string name="shortcuts_icon_picker_search">Претражи</string>
   <string name="shortcuts_icon_picker_tasks">Задаци</string>
   <string name="shortcuts_icon_picker_terminal">Терминал</string>
   <string name="shortcuts_icon_picker_transit">Транзит</string>
@@ -504,6 +513,7 @@
   <string name="empty_title">Празно</string>
   <string name="normal_title">Нормална</string>
   <string name="position_centered_title">Центар</string>
+  <string name="help">Помоћ</string>
   <string name="reset_message">Вратити све уносе на подразумеване?</string>
   <string name="profiles_add">Додај</string>
   <string name="profile_choose_app">Изаберите апликацију</string>
@@ -518,6 +528,7 @@
   <string name="shortcut_action_none">Ништа</string>
   <string name="shortcut_action_app">Произвољна апликација</string>
   <string name="shortcut_action_home">Почетна</string>
+  <string name="shortcut_action_back">Назад</string>
   <string name="shortcut_action_menu">Мени</string>
   <string name="shortcut_action_ime">Отвори IME пребацивач</string>
   <string name="shortcut_action_power_menu">Мени напајања</string>
@@ -552,7 +563,6 @@
   <string name="shortcut_action_help_delete_last_entry">Уклањање сваких %1$s у листи ће онемогућити ову функцију у потпуности.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Уклањање сваких %1$s у листи ће онемогућити ову функцију у потпуности.</string>
   <!-- SlimSizer  -->
-  <string name="delete_success">Обрисано</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

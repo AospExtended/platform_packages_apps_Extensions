@@ -113,14 +113,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">手电通知</string>
   <string name="flashlight_notification_summary">手电打开后启用通知</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">沉浸式最近任务</string>
-  <string name="immersive_recents_summary">更改最近任务界面的视图</string>
-  <string name="immersive_recents_dialog_title">选择最近任务视图</string>
-  <string name="immersive_recents_default">默认</string>
-  <string name="immersive_recents_fullscreen">沉浸式</string>
-  <string name="immersive_recents_statusbar">仅状态栏</string>
-  <string name="immersive_recents_navbar">仅导航栏</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">动画风格</string>
   <string name="qs_tile_animation_duration_title">动画时长</string>
@@ -631,7 +623,7 @@
   <string name="hide_apps_from_recents_title">隐藏的应用</string>
   <string name="hide_from_recents_add_app">添加应用</string>
   <string name="hide_apps_from_recents_summary">选择要从最近任务面板排除的应用</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">验证指纹时振动</string>
   <string name="fprint_sucess_vib_summary">验证指纹身份成功时振动</string>
   <!-- XOSP Blur personalizations -->
@@ -854,7 +846,6 @@
   <string name="status_bar_show_image">显示图像</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim最近任务</string>
-  <string name="use_slim_recents_title">使用Slim最近任务</string>
   <string name="use_slim_recents_summary">使用Slim最近任务而不是默认近期应用视图</string>
   <string name="slim_recents_settings_title">Slim最近任务设置</string>
   <string name="slim_recents_settings_summary">查看Slim最近任务的设置</string>
@@ -1031,22 +1022,11 @@
   <string name="shortcut_action_help_delete_last_entry">删除列表中的所有 %1$s 将完全禁用该功能。</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">移除列表中的全部 %1$s 将会完全禁用 Pie 的第二层菜单</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">列表</string>
-  <string name="sizer_title">应用卸载器</string>
   <string name="caution">注意事项</string>
   <string name="sizer_message_startup">此工具允许你删除系统应用程序。请谨慎使用，且只能删除可以安全删除的应用程序。</string>
-  <string name="cancel">取消</string>
-  <string name="sizer_message_delete">你确定要删除这个程序?</string>
   <string name="btn_delete">立即删除选定的应用程序！</string>
   <string name="delete_progress_title">正在删除...</string>
   <string name="delete_progress">正在删除所选的文件...</string>
-  <string name="delete_success">已删除</string>
-  <string name="delete_fail">无法删除</string>
-  <string name="btn_profile">配置</string>
-  <string name="sizer_message_sdnowrite">无法写入 SD 卡。</string>
-  <string name="sizer_message_sdnoread">无法读取 SD 卡。</string>
-  <string name="sizer_message_filesuccess">已创建的配置文件。</string>
-  <string name="sizer_message_filefail">无法创建配置文件。</string>
   <string name="sizer_message_noselect">未选择任何内容。</string>
   <string name="system_app_remover">系统应用程序卸载器</string>
   <!-- Grid recents screen pinning toggle -->

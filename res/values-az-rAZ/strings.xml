@@ -69,14 +69,6 @@
   <string name="disable_immersive_message_title">Tam Ekran Rejimi Mesajları Deaktiv</string>
   <string name="disable_immersive_message_summary">Bu bütün Tam Ekran Rejimi Mesajlarını gizlədər</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Son istifadə olunanlar görünüşü</string>
-  <string name="immersive_recents_summary">Son istifadə olunanlar ekran görünüşünü dəyiştirmək</string>
-  <string name="immersive_recents_dialog_title">Son istifadə olunanlar görünüşünü seçin</string>
-  <string name="immersive_recents_default">İlkin</string>
-  <string name="immersive_recents_fullscreen">Bütöv ekran</string>
-  <string name="immersive_recents_statusbar">Sadəcə vəziyyət paneli</string>
-  <string name="immersive_recents_navbar">Sadəcə naviqasiya paneli</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Animasiya stili</string>
   <string name="qs_tile_animation_duration_title">Animasiya müddəti</string>
@@ -373,7 +365,7 @@
   <string name="hide_apps_from_recents_title">Gizlədilmiş tətbiqlər</string>
   <string name="hide_from_recents_add_app">Tətbiq əlavə et</string>
   <string name="hide_apps_from_recents_summary">Son istifadə edilənlər ekranına daxil edilməyəcək tətbiqləri seçin</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Barmaq izi tanınmasının vibrasiyası</string>
   <string name="fprint_sucess_vib_summary">Uğurlu barmaq izi kimlik təsdiqlənməsində titrə</string>
   <!-- XOSP Blur personalizations -->
@@ -620,13 +612,9 @@
   <string name="shortcut_action_help_delete_last_entry">Siyahıdakı hər %1$s çıxarılması tamamilə xüsusiyyəti deaktiv edir.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Siyahıdakı hər %1$s çıxarılması ikinci pie təbəqəsini tamamilə deaktiv edir.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">siyahı</string>
-  <string name="sizer_title">tətbiq silən</string>
   <string name="caution">Xəbərdarlıq!</string>
   <string name="delete_progress_title">Silinir</string>
   <string name="delete_progress">Seçilmis fayllar silinir...</string>
-  <string name="delete_success">Silindi</string>
-  <string name="delete_fail">Silmək mümkün deyil</string>
   <string name="sizer_message_noselect">Heç nə seçilməyib.</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->

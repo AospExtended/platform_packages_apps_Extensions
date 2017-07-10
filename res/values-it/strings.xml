@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notifica torcia</string>
   <string name="flashlight_notification_summary">Attiva una notifica quando la torcia è accesa</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Recenti immersivi</string>
-  <string name="immersive_recents_summary">Cambia la visualizzazione della schermata app recenti</string>
-  <string name="immersive_recents_dialog_title">Seleziona l\'aspetto dei recenti</string>
-  <string name="immersive_recents_default">Predefinito</string>
-  <string name="immersive_recents_fullscreen">Schermo intero</string>
-  <string name="immersive_recents_statusbar">Solo barra di stato</string>
-  <string name="immersive_recents_navbar">Solo barra di navigazione</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Stile animazione</string>
   <string name="qs_tile_animation_duration_title">Durata animazione</string>
@@ -366,6 +358,11 @@
   <string name="smartbar_config_backup_error_toast">Errore salvataggio del profilo Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Errore ripristino del profilo Smartbar</string>
   <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
+  <string name="smartbar_longpress_delay_title">Ritardo pressione prolungata</string>
+  <string name="smartbar_longpress_delay_summary">Imposta quanto tempo il sistema deve attendere prima di far scattare un\'azione a pressione prolungata</string>
+  <string name="smartbar_longpress_delay_default">Ritardo predefinito (veloce)</string>
+  <string name="smartbar_longpress_delay_normal">Ritardo normale</string>
+  <string name="smartbar_longpress_delay_long">Ritardo lungo</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibra al tocco</string>
   <string name="quick_settings_vibrate_summary">Vibra quando vengono toccati i tile</string>
@@ -635,7 +632,7 @@
   <string name="hide_apps_from_recents_title">App nascoste</string>
   <string name="hide_from_recents_add_app">Aggiungi app</string>
   <string name="hide_apps_from_recents_summary">Seleziona quali applicazioni devono essere escluse dal pannello app recenti</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Autenticazione impronta digitale con vibrazione</string>
   <string name="fprint_sucess_vib_summary">Vibra all\'avvenuta autenticazione tramite impronta digitale</string>
   <!-- XOSP Blur personalizations -->
@@ -858,7 +855,7 @@
   <string name="status_bar_show_image">Mostra immagine</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Recenti slim</string>
-  <string name="use_slim_recents_title">Usa i recenti slim</string>
+  <string name="use_slim_recents_title">Utilizza un\'alternativa per i recenti</string>
   <string name="use_slim_recents_summary">Utilizza i recenti slim anziché la visualizzazione predefinita</string>
   <string name="slim_recents_settings_title">Impostazioni recenti slim</string>
   <string name="slim_recents_settings_summary">Visualizza le impostazioni per i recenti slim</string>
@@ -1040,24 +1037,16 @@
   <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nell\'elenco disabiliterà completamente la funzione.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovere ogni %1$s nell\'elenco disabiliterà il secondo stato del pie.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">elenco</string>
-  <string name="sizer_title">Rimozione app</string>
   <string name="caution">Attenzione!</string>
   <string name="sizer_message_startup">Questo strumento consente di eliminare le applicazioni di sistema. Usalo con cautela e elimina solo le applicazioni che possono essere rimosse con sicurezza.</string>
-  <string name="cancel">Annulla</string>
-  <string name="sizer_message_delete">Sei sicuro di voler eliminare questa applicazione?</string>
+  <string name="sizer_message_delete">Sei sicuro?</string>
   <string name="btn_delete">Elimina le applicazioni selezionate ora!</string>
   <string name="delete_progress_title">Eliminazione</string>
   <string name="delete_progress">I file selezionati saranno eliminati...</string>
-  <string name="delete_success">Eliminata</string>
-  <string name="delete_fail">Impossibile da eliminare</string>
-  <string name="btn_profile">Profilo</string>
-  <string name="sizer_message_sdnowrite">Impossibile scrivere sulla scheda SD.</string>
-  <string name="sizer_message_sdnoread">Impossibile leggere la scheda SD.</string>
-  <string name="sizer_message_filesuccess">Profilo creato.</string>
-  <string name="sizer_message_filefail">Impossibile creare il profilo.</string>
   <string name="sizer_message_noselect">Nessuna selezione.</string>
   <string name="system_app_remover">Rimozione applicazioni di sistema</string>
+  <string name="sizer_message_error">Impossibile disinstallare, verificare l\'accesso root</string>
+  <string name="sizer_message_success">Successo</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">Icona blocco schermo nei recenti a griglia</string>
   <string name="grid_recents_pinning_summaryOn">L\'icona del blocco schermo verrà mostrata nei recenti a griglia se il blocco schermo è abilitato dalle impostazioni di protezione</string>

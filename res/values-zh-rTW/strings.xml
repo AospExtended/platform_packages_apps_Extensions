@@ -116,14 +116,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">手電筒通知</string>
   <string name="flashlight_notification_summary">手電筒打開後啟用通知</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">全螢幕總覽</string>
-  <string name="immersive_recents_summary">變更總覽螢幕樣式</string>
-  <string name="immersive_recents_dialog_title">選擇總覽樣式</string>
-  <string name="immersive_recents_default">預設</string>
-  <string name="immersive_recents_fullscreen">全螢幕</string>
-  <string name="immersive_recents_statusbar">僅顯示狀態列</string>
-  <string name="immersive_recents_navbar">僅顯示導航列</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">動畫樣式</string>
   <string name="qs_tile_animation_duration_title">動畫長度</string>
@@ -157,6 +149,7 @@
   <string name="volbtn_cursor_control_on_reverse">音量上/下使游標右/左移動</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">喚醒裝置</string>
+  <string name="home_wake_summary">按下主螢幕鍵將喚醒您的裝置</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">網路流量</string>
   <string name="show_network_traffic_state">狀態列流量監測器</string>
@@ -365,6 +358,11 @@
   <string name="smartbar_config_backup_error_toast">儲存「智慧列」設定檔時發生錯誤</string>
   <string name="smartbar_config_restore_error_toast">還原「智慧列」設定檔時發生錯誤</string>
   <string name="navbar_buttons_alpha_title">按鈕的透明度</string>
+  <string name="smartbar_longpress_delay_title">按鈕長按延遲</string>
+  <string name="smartbar_longpress_delay_summary">設置在觸發長按動作之前，系統將等待多少時間</string>
+  <string name="smartbar_longpress_delay_default">預設延遲(快)</string>
+  <string name="smartbar_longpress_delay_normal">正常延遲</string>
+  <string name="smartbar_longpress_delay_long">長延遲</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">觸控時震動</string>
   <string name="quick_settings_vibrate_summary">輕觸圖塊時震動</string>
@@ -634,7 +632,7 @@
   <string name="hide_apps_from_recents_title">隱藏的應用程式</string>
   <string name="hide_from_recents_add_app">增加應用程式</string>
   <string name="hide_apps_from_recents_summary">選擇要從「總覽」面板排除的應用程式</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指紋認證震動</string>
   <string name="fprint_sucess_vib_summary">成功認證指紋時震動</string>
   <!-- XOSP Blur personalizations -->
@@ -1039,24 +1037,16 @@
   <string name="shortcut_action_help_delete_last_entry">移除所有清單中的 %1$s 將會完全停用此功能。</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">移除所有清單中的 %1$s 將會完全停用第二層扇形選單。</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">清單</string>
-  <string name="sizer_title">解除安裝應用程式</string>
   <string name="caution">注意！</string>
   <string name="sizer_message_startup">此工具允許您刪除系統應用程式。請謹慎使用，並只刪除您確定能安全移除的應用程式。</string>
-  <string name="cancel">取消</string>
-  <string name="sizer_message_delete">確定要刪除此應用程式？</string>
+  <string name="sizer_message_delete">你確定嗎？</string>
   <string name="btn_delete">立即刪除選擇的應用程式 ！</string>
   <string name="delete_progress_title">正在删除</string>
   <string name="delete_progress">正在刪除所選的檔案......</string>
-  <string name="delete_success">已刪除</string>
-  <string name="delete_fail">無法刪除</string>
-  <string name="btn_profile">設定檔</string>
-  <string name="sizer_message_sdnowrite">無法寫入 SD 卡。</string>
-  <string name="sizer_message_sdnoread">無法讀取 SD 卡。</string>
-  <string name="sizer_message_filesuccess">建立設定檔。</string>
-  <string name="sizer_message_filefail">無法建立設定檔。</string>
   <string name="sizer_message_noselect">尚未選擇</string>
   <string name="system_app_remover">移除系統應用程式</string>
+  <string name="sizer_message_error">解除安裝失敗，請檢查Root權限</string>
+  <string name="sizer_message_success">成功</string>
   <!-- Grid recents screen pinning toggle -->
   <string name="grid_recents_pinning_title">在格狀風格的最近應用程式總覽顯示螢幕固定按鈕</string>
   <string name="grid_recents_pinning_summaryOn">如果螢幕固定在安全性設定裡被啟用，螢幕固定按鈕將顯示在格狀風格的最近應用程式總覽</string>
@@ -1065,5 +1055,9 @@
   <string name="allow_incall_home_title">鈴響時使用首頁鍵</string>
   <string name="allow_incall_home_summary">當裝置鈴響時允許使用首頁鍵</string>
   <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">按鈕觸控</string>
+  <string name="button_backlight_on_touch_only_summary">僅在按鈕被觸碰時啟用背光逾時</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">顯示數據停用圖示</string>
+  <string name="data_disabled_icon_summary">當數據停用時，顯示圖示旁邊的「×」圖示</string>
 </resources>

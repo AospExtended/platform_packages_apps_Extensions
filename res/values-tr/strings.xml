@@ -115,14 +115,6 @@
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Flaş bildirimi</string>
   <string name="flashlight_notification_summary">El feneri açıkken bildirim etkinleştir</string>
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Son kullanılanlar görünümü</string>
-  <string name="immersive_recents_summary">Son kullanılanlar ekranı görünümünü değiştirme</string>
-  <string name="immersive_recents_dialog_title">Son kullanılanlar görünümünü seçin</string>
-  <string name="immersive_recents_default">Sıfırla</string>
-  <string name="immersive_recents_fullscreen">Tam ekran</string>
-  <string name="immersive_recents_statusbar">Yalnızca durum çubuğu</string>
-  <string name="immersive_recents_navbar">Yalnızca gezinme çubuğu</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Animasyon stili</string>
   <string name="qs_tile_animation_duration_title">Animasyon süresi</string>
@@ -188,6 +180,7 @@
   <string name="center_clock">Saat ortada</string>
   <string name="left_clock">Saat solda</string>
   <string name="clock_date_display">Tarih</string>
+  <string name="clock_date_style">Tarih stili</string>
   <string name="clock_date_position">Tarih konumu</string>
   <string name="clock_date_right">Saatin sağında</string>
   <string name="clock_date_left">Saatin solunda</string>
@@ -581,7 +574,7 @@
   <string name="hide_apps_from_recents_title">Gizli uygulamalar</string>
   <string name="hide_from_recents_add_app">Uygulama Ekle</string>
   <string name="hide_apps_from_recents_summary">Son kullanılanlar ekranına dahil edilmeyecek uygulamaları seçin</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
   <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titre</string>
   <!-- XOSP Blur personalizations -->
@@ -805,7 +798,6 @@ Sadece yarı saydam bildirimler etkin!</string>
   <string name="status_bar_show_image">Görüntü göster</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim son kullanılanlar</string>
-  <string name="use_slim_recents_title">Slim son kullanılanları kullan</string>
   <string name="use_slim_recents_summary">Varsayılan son kullanılanların yerine Slim son kullanılanları kullanın</string>
   <string name="slim_recents_settings_title">Slim son kullanılanlar ayarları</string>
   <string name="slim_recents_settings_summary">Slim son kullanılanlar ayarlarını görüntüle</string>
@@ -984,22 +976,11 @@ Sadece yarı saydam bildirimler etkin!</string>
   <string name="shortcut_action_help_delete_last_entry">Listedeki her %1$s çıkarılması tamamen özelliği devre dışı bırakır.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Listedeki her %1$s çıkarılması ikinci pie tabakasını tamamen devre dışı bırakır.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">liste</string>
-  <string name="sizer_title">Uygulama silici</string>
   <string name="caution">Dikkat!</string>
   <string name="sizer_message_startup">Bu araç, sistem uygulamalarını silmenize olanak verir. Dikkatli kullanın ve sadece kaldırılması güvenli olduğunu bildiğiniz uygulamaları silin.</string>
-  <string name="cancel">İptal</string>
-  <string name="sizer_message_delete">Bu uygulamayı silmek istediğinizden emin misiniz?</string>
   <string name="btn_delete">Şimdi seçili uygulamalar silinecek!</string>
   <string name="delete_progress_title">Siliniyor</string>
   <string name="delete_progress">Seçilen dosyalar siliniyor...</string>
-  <string name="delete_success">Silindi</string>
-  <string name="delete_fail">Silinemiyor</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">SD Kart yazılamıyor</string>
-  <string name="sizer_message_sdnoread">SD Kart okunamıyor</string>
-  <string name="sizer_message_filesuccess">Profil oluşturuldu</string>
-  <string name="sizer_message_filefail">Profil oluşturma başarısız oldu</string>
   <string name="sizer_message_noselect">Hiçbir şey seçilmedi</string>
   <string name="system_app_remover">Sistem uygulamalarını kaldır</string>
   <!-- Grid recents screen pinning toggle -->

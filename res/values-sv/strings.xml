@@ -18,12 +18,22 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Tillägg</string>
   <string name="add">Lägg till</string>
+  <string name="advanced">Avancerat</string>
+  <string name="cancel">Avbryt</string>
   <string name="choose_app">Välj applikation</string>
+  <string name="general_category">Allmänt</string>
+  <string name="gestures_category">Gester</string>
   <string name="music_category">Musik</string>
   <string name="weather_category">Väderinställningar</string>
+  <string name="security_category">Säkerhet</string>
+  <string name="hardware_category">Hårdvara</string>
+  <string name="traffic_category">Trafikindikatorer</string>
   <string name="dlg_ok">OK</string>
+  <string name="loading">Laddar\u2026</string>
   <string name="reset">Nollställ</string>
+  <string name="reset_colors">Återställ färger</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Text</string>
   <string name="icon_title">Ikon</string>
@@ -32,27 +42,42 @@
   <!-- Extensions categories -->
   <string name="recents_category">Senaste appar</string>
   <string name="status_bar_category">Statusfält</string>
+  <string name="system_category">System</string>
+  <string name="lockscreen_category">Låsskärm</string>
+  <string name="navigation_category">Navigering</string>
+  <string name="build_tweaks_summary_title">Utöka din enhet!</string>
   <string name="system_animations">Systemanimationer</string>
   <string name="toast">Aviseringsbubbla</string>
   <string name="listview">ListVy</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Hjälp oss hjälpa dig!</string>
   <!-- OmniJaws -->
+  <string name="weather_config_title">Väderinställningar</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Ljusstyrkereglaget</string>
+  <string name="brightness_icon_title">Ljusstyrke-ikon </string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Snabbinställningar</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Diverse tillägg</string>
   <!-- General Tweaks -->
   <!-- Notifications -->
   <!-- Recents UI -->
   <string name="recents_ui_title">Allmänt gränssnitt</string>
   <!-- Lockscreen UI -->
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Låsskärmsgenvägar</string>
   <!-- Buttons -->
+  <string name="buttons_title">Knappar</string>
   <!-- Blur -->
+  <string name="blur_title">Oskärpa</string>
   <!-- Animations -->
+  <string name="animations_title">Animationer</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Operatörsetikett</string>
   <!-- Show notification count -->
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">Dubbeltryck för att sova</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Toast - Ikon</string>
   <!-- Power notification controls -->
@@ -60,10 +85,6 @@
   <string name="force_expanded_notifications_title">Tvinga expanderade meddelanden</string>
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_default">Standard</string>
-  <string name="immersive_recents_fullscreen">Helskärm</string>
-  <string name="immersive_recents_navbar">Endast navigationsfält</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_off">Ingen animering</string>
   <string name="qs_tile_animation_style_flip">Vänd</string>
@@ -81,9 +102,12 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_enabled">Sök media</string>
+  <string name="media_scanner_on_boot_disabled">Genomsök inte media</string>
   <!-- Volume key cursor control -->
   <string name="volbtn_cursor_control_off">Inaktiverad</string>
   <!-- Home button wake up -->
+  <string name="button_wake_title">Vakna</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Nätverkstrafik</string>
   <string name="show_network_traffic_state">Statusbar - Nätverksmonitor</string>
@@ -102,24 +126,52 @@
   <string name="network_traffic_autohide">Dölj automatiskt</string>
   <string name="network_traffic_autohide_summary">Dölj trafikmonitor när det inte finns någon aktivitet</string>
   <string name="network_traffic_autohide_threshold">Tröskelvärde för inaktivitet</string>
+  <string name="network_traffic_hidearrow">Dölj pilar</string>
   <string name="network_traffic_hidearrow_summary">Dölja pilarna i trafikindikatorerna</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock">Klocka &amp; datum</string>
+  <string name="clock_title_enable">Placering</string>
+  <string name="status_bar_clock_seconds_title">Visa sekunder</string>
   <string name="status_bar_am_pm_title">AM/PM stil</string>
   <string name="status_bar_am_pm_info">24-timmarsklocka är aktiverad</string>
+  <string name="clock_date_display">Datum</string>
+  <string name="clock_date_style">Datumstil</string>
   <string name="clock_date_position">Datumposition</string>
+  <string name="clock_date_format">Datumformat</string>
+  <string name="clock_date_string_edittext_summary">Ange sträng</string>
   <string name="clock_date_right">Till höger om tid</string>
   <string name="clock_date_left">Till vänster om tid</string>
   <string name="clock_am_pm_date_normal">Normal</string>
+  <string name="clock_am_pm_date_small">Liten</string>
+  <string name="clock_am_pm_date_none">Dold</string>
+  <string name="clock_date_style_lowercase">Gemener</string>
+  <string name="clock_date_style_uppercase">Versaler</string>
+  <string name="clock_date_format_custom">Anpassat java-format</string>
+  <string name="cancel">Avbryt</string>
+  <string name="save">Spara</string>
   <string name="clock_font_style_title">Typsnitt</string>
   <string name="clock_font_size_title">Teckenstorlek</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Färgväljare</string>
+  <string name="press_color_to_apply">Tryck på färg nedan att tillämpa</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
   <string name="color_default">Standard</string>
   <!-- Navigation Bar -->
   <string name="navbar_interface_title">Gränssnitt</string>
+  <string name="navbar_mode">Navigeringsläge</string>
   <string name="navigationbar_settings_title">Navigeringsfält</string>
+  <string name="navbar_general_title">Avancerat</string>
+  <string name="navigation_bar_left_title">Vänsterhänt läge</string>
   <string name="info_pref_note_title">Anteckning</string>
   <string name="smartbar_interface">Smart stapel</string>
   <string name="icon_pack_picker_dialog_title">Ikonpaket</string>
+  <string name="image_exceeds_max_allowed_size">Bild får inte överstiga 512x512</string>
+  <string name="picker_activities">Aktiviteter</string>
+  <string name="select_custom_app_title">Välj anpassad app</string>
+  <string name="select_custom_activity_title">Välj anpassad aktivitet</string>
   <string name="profile_applist_title">Appar</string>
   <string name="default_string">Standard</string>
   <string name="reset">Nollställ</string>
@@ -129,30 +181,73 @@
   <string name="action_entry_select_app">Välj app</string>
   <string name="action_entry_custom_action">Välj anpassad åtgärd</string>
   <!-- Fling -->
+  <string name="fling_settings">Flinginställningar</string>
   <string name="fling_interface">Svepning</string>
+  <string name="fling_enable_title">Aktivera fling</string>
+  <string name="fling_def_summary">Ingen åtgärd vald</string>
   <string name="fling_swipe_actions">Svepgester</string>
   <string name="fling_tap_actions">Gester vid tryck</string>
+  <string name="fling_single_tap">Enkeltryck höger</string>
+  <string name="fling_double_tap">Dubbeltryck höger</string>
+  <string name="fling_long_press">Långtryck höger</string>
   <string name="long_swipe_portrait_title">Porträtt</string>
   <string name="long_swipe_landscape_title">Landskap</string>
+  <string name="vertical_down_swipe_title">Vertikalt svep ned</string>
   <string name="long_swipe_reset">Nollställ</string>
+  <string name="fling_advanced">Avancerat</string>
+  <string name="fling_trails_enable_title">Aktivera gestspår</string>
+  <string name="fling_trails_enable_summary">Visa ett spår vid svepgester</string>
+  <string name="fling_trails_color_title">Spårfärg</string>
+  <string name="fling_trails_width_title">Spårbredd</string>
+  <string name="fling_appearance">Utseende</string>
+  <string name="fling_show_logo_title">Visa flinglogotyp</string>
+  <string name="fling_animate_logo_title">Animera logotyp</string>
+  <string name="fling_logo_color">Logotypfärg</string>
+  <string name="fling_logo_custom_logo_pick_title">Anpassad logotyp-ikon</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Anpassad logotypbild</string>
   <string name="fling_longpress_timeout_label_left">Mindre fördröjning</string>
   <string name="fling_longpress_timeout_label_right">Mer fördröjning</string>
   <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_help_policy_notice_title">Om puls</string>
+  <string name="pulse_settings">Puls</string>
+  <string name="fling_show_pulse_title">Visa puls</string>
+  <string name="pulse_render_mode_title">Renderingsläge</string>
+  <string name="pulse_render_mode_solid_lines">Solida linjer</string>
+  <string name="fling_pulse_color">Pulsfärg</string>
   <string name="eos_fling_lavalamp_title">Slå på lavalampa</string>
+  <string name="pulse_advanced_category">Avancerat</string>
+  <string name="lavamp_solid_speed_title">Lavalampa-hastighet</string>
   <!-- Pulse config -->
   <string name="pulse_custom_div">Block - Mellanrum</string>
   <string name="pulse_filled_block_size">Blockstorlek</string>
   <string name="pulse_empty_block_size">Block - Mellanrum</string>
   <!-- Navbar height -->
+  <string name="portrait_title">Stående höjd</string>
+  <string name="land_vert_title">Liggande bredd</string>
+  <string name="land_hor_title">Liggande höjd</string>
+  <string name="positive_done">Klar</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Smart stapel</string>
   <string name="smartbar_settings_title">Smartbar - Inställningar</string>
+  <string name="smartbar_editor_title">Växla knappredigerare</string>
   <string name="smartbar_right">Höger</string>
   <string name="smartbar_left">Vänster</string>
+  <string name="smartbar_button_animation_spring">Fjäder</string>
+  <string name="smartbar_button_animation_pixel">Pixel (alla knappar)</string>
+  <string name="smartbar_factory_reset_title">Återställ till standard</string>
   <string name="smartbar_ime_action_none">Ingen</string>
+  <string name="smartbar_ime_action_arrows">Inmatningspilar</string>
+  <string name="smartbar_ime_action_switcher">Tangentbordsväxlare</string>
   <string name="smartbar_backup_current_config_title">Spara profil</string>
   <string name="smartbar_restore_config_title">Återställ profil</string>
+  <string name="smartbar_config_name_edit_dialog_message">Ange namn eller lämna tomt</string>
+  <string name="smartbar_config_dialog_title">SmartBar-profiler</string>
+  <string name="navbar_buttons_alpha_title">Knappgenomskinlighet</string>
+  <string name="smartbar_longpress_delay_default">Standardfördröjning (snabb)</string>
+  <string name="smartbar_longpress_delay_normal">Normal fördröjning</string>
+  <string name="smartbar_longpress_delay_long">Lång fördröjning</string>
   <!-- QuickSettings haptic feedback -->
+  <string name="quick_settings_vibrate_title">Vibrera vid tryck</string>
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
   <!-- Quick settings tiles columns and rows config -->
@@ -160,21 +255,44 @@
   <string name="qs_rows_landscape_title">Rader (liggande)</string>
   <string name="qs_columns_title">Kolumner</string>
   <!-- lock screen visualizer -->
+  <string name="lockscreen_visualizer_title">Visa musikvisualisering</string>
   <!-- Lockscreen clock fonts -->
+  <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Fet</string>
   <string name="lock_clock_font_italic">Kursiv</string>
   <string name="lock_clock_font_bold_italic">Fet Kursiv</string>
   <string name="lock_clock_font_light_italic">Ljus Kursiv</string>
+  <string name="lock_clock_font_thin_normal">Roboto Thin</string>
   <string name="lock_clock_font_thin_italic">Tunn Kursiv</string>
+  <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
+  <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+  <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
+  <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
   <string name="lock_clock_font_medium_normal">Medium</string>
   <string name="lock_clock_font_medium_italic">Medium Kursiv</string>
+  <string name="lock_clock_font_black_normal">Roboto Black</string>
+  <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+  <string name="lock_clock_font_dancingscript">DancingScript</string>
+  <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+  <string name="lock_clock_font_comingsoon">ComingSoon</string>
+  <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+  <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+  <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+  <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
   <!-- Lockscreen weather -->
   <string name="lock_screen_weather_settings_title">Väder</string>
   <string name="weather_show_weather_title">Visa väder</string>
+  <string name="weather_show_weather_summary">Aktivera för att visa väderinformation</string>
+  <string name="weather_show_location_title">Visa plats</string>
+  <string name="weather_show_location_summary">Aktivera för att visa plats</string>
+  <string name="weather_hide_panel_title">Dölj väderpanel</string>
   <string name="weather_hide_panel_auto_title">Auto</string>
   <string name="weather_hide_panel_custom_title">Anpassad</string>
   <string name="weather_hide_panel_never_title">Aldrig</string>
+  <string name="weather_config_title">Väderinställningar</string>
+  <string name="lock_clock_title">Vädertjänst</string>
   <!-- statusbar brightness control -->
+  <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
   <!-- CM Lockscreen shortcuts -->
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
   <!-- Optional screenshot type -->
@@ -190,16 +308,28 @@
   <!-- Lockscreen Torch toggle -->
   <string name="keyguard_torch_title">Låsskärm - Ficklampa</string>
   <!-- Wakelock blocker -->
+  <string name="wakelockblocker_category">Wakelockblockerare</string>
   <string name="wakelock_blocker_summary">Blockera wakelocks från systemet</string>
+  <string name="wakelock_blocker_save">Spara</string>
   <string name="wakelock_list_header">Tillgängliga wakelocks</string>
   <string name="wakelock_blocker_reload">Ladda om</string>
+  <string name="wakelock_blocker_warning_title">Fortsätt med försiktighet</string>
+  <string name="wakelock_blocker_title">Wakelockblockerare</string>
   <!-- Lockscreen cover art -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Ticker</string>
   <string name="ticker_screen_summary">Anpassa ticker-stilen i statusfältet</string>
+  <string name="ticker_font_style_title">Fontstil</string>
+  <string name="ticker_font_size_title">Teckenstorlek</string>
   <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">Låsskärmsobjekt</string>
+  <string name="hide_lockscreen_clock_title">Visa låsskärmsklocka</string>
+  <string name="hide_lockscreen_date_title">Visa låsskärmsdatum</string>
+  <string name="hide_lockscreen_alarm_title">Visa låsskärmsalarm</string>
   <!-- Navbar dynamic color -->
   <!-- Heads up settings -->
+  <string name="headsup_category">HeadsUp Settings</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Time-out</string>
   <string name="heads_up_time_out_2sec">2 sekunder</string>
@@ -217,41 +347,77 @@
   <string name="heads_up_snooze_20min">20 minuter</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Avstängningsmeny</string>
+  <string name="power_menu_reboot_title">Starta om</string>
+  <string name="power_menu_screenshot_title">Skärmbild</string>
+  <string name="power_menu_screenrecord_title">Skärminspelning</string>
   <string name="power_menu_torch_title">Ficklampa</string>
   <string name="power_menu_onthego_title">On-The-Go Läge</string>
   <string name="power_menu_airplane_title">Flygplansläge</string>
+  <string name="power_menu_users_title">Användarväxlare</string>
+  <string name="power_menu_search_title">Sök</string>
   <string name="power_menu_voice_title">Röstsökning</string>
+  <string name="power_menu_settings_title">Inställningar-genväg</string>
+  <string name="power_menu_lockdown_title">Låsning av enheten</string>
   <string name="power_menu_bug_report_title">Felrapport</string>
   <string name="power_menu_sound_title">Ljudpanel</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="volume_category">Volymknappar</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Omorientera</string>
   <!-- Volume rocker wake -->
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Uppspelningskontroll</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Volymknappar kontrollerar mediavolym</string>
   <!-- Lockscreen battery info indicator  -->
   <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">Volymknappar</string>
   <string name="hardware_keys_home_key_title">Hemknapp</string>
   <string name="hardware_keys_menu_key_title">Menyknapp</string>
   <string name="hardware_keys_assist_key_title">Sökknapp</string>
   <string name="hardware_keys_appswitch_key_title">Översiktsknapp</string>
   <string name="hardware_keys_back_key_title">Bakåtknapp</string>
+  <string name="hardware_keys_double_tap_summary">Ange dubbeltrycksåtgärd</string>
+  <string name="hardware_keys_single_tap_summary">Ange enkeltrycksåtgärd</string>
+  <string name="hardware_keys_long_press_summary">Ange långtrycksåtgärd</string>
+  <string name="hardware_keys_single_tap_title">Enkeltrycksåtgärd</string>
+  <string name="hardware_keys_long_press_title">Långtrycksåtgärd</string>
+  <string name="hardware_keys_double_tap_title">Dubbeltrycksåtgärd</string>
   <string name="hardware_keys_category">Hårdvaruknappar</string>
+  <string name="hardware_keys_disable_title">Inaktivera hårdvaruknappar</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_on">Alltid aktiv</string>
+  <string name="backlight_timeout_default">5 sek (standard)</string>
+  <string name="backlight_timeout_10s">10 sek</string>
+  <string name="backlight_timeout_15s">15 sek</string>
+  <string name="backlight_timeout_20s">20 sek</string>
+  <string name="backlight_timeout_30s">30 sek</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Bakgrundsbelysning</string>
   <!-- Custom carrier label and position -->
+  <string name="carrier_label_settings_title">Operatörsetikett</string>
   <string name="custom_carrier_label_title">Anpassad operatörsetikett</string>
+  <string name="show_carrier_title">Operatörsetikett</string>
   <string name="show_carrier_disabled">Inaktiverad</string>
   <string name="show_carrier_keyguard">Endast låsskärm</string>
+  <string name="show_carrier_statusbar">Endast statusfält</string>
   <!-- Battery customizations -->
+  <string name="status_bar_battery_style_category">Batteri</string>
   <string name="status_bar_battery_style_circle">Cirkel</string>
+  <string name="status_bar_battery_style_bigcircle">Stor cirkel</string>
   <string name="status_bar_battery_style_text">Text</string>
+  <string name="status_bar_battery_style_hidden">Dold</string>
   <string name="status_bar_battery_percentage_title">Batteriprocent</string>
+  <string name="status_bar_battery_percentage_default">Dold</string>
+  <string name="status_bar_battery_percentage_text_inside">Inuti ikonen</string>
   <string name="status_bar_battery_percentage_text_next">Bredvid ikonen</string>
   <string name="text_charging_symbol_default">Inaktiverad</string>
   <string name="text_charging_symbol_flash">Blixt</string>
   <string name="text_charging_symbol_tilde">Tilde</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Rensa alla-knappen</string>
+  <string name="show_clear_all_recents_button_summary">Visa rensa-allt knappen</string>
+  <string name="recents_clear_all_location_title">Rensa alla plats</string>
   <string name="recents_clear_all_location_top_right">Uppe till höger</string>
   <string name="recents_clear_all_location_top_left">Uppe till vänster</string>
   <string name="recents_clear_all_location_top_center">Överst i mitten</string>
@@ -263,10 +429,17 @@
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">Dolda appar</string>
   <string name="hide_from_recents_add_app">Lägg till app</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
+  <string name="settings_blur_cat">Oskärpa</string>
+  <string name="transluency_level_universal">Translucensnivå</string>
+  <string name="blur_notice">Om oskärpa</string>
+  <string name="blur_colors_notice">Vad gör dessa färger?</string>
+  <string name="blur_qs_cat">Snabbinställningar</string>
   <string name="blur_recents_cat">Senaste appar</string>
+  <string name="blurred_radius_summary">Mängd oskärpa</string>
   <!-- AOKP custom system animations -->
+  <string name="animation_title">Animationer</string>
   <string name="system_animation_title">Systemanimationer</string>
   <string name="activity_open_title">Aktivitet - Öppna animering</string>
   <string name="activity_close_title">Aktivitet - Stäng animering</string>
@@ -275,6 +448,7 @@
   <string name="animation_duration_title">Tidsintervall för animering</string>
   <string name="animation_duration_default">Standard</string>
   <!-- Toast Animation -->
+  <string name="toast_animation_title">Toast-animering</string>
   <string name="toast_none_animation">Ingen</string>
   <string name="toast_default_animation">Standard</string>
   <string name="toast_fade_animation">Tona</string>
@@ -312,8 +486,11 @@
   <string name="disable_animations">Inaktivera animationer</string>
   <!-- Alarm blocker -->
   <string name="alarm_blocker_title">Aktivera</string>
+  <string name="alarm_blocker_summary">Blockera alarm medan skärmen är avstängd</string>
+  <string name="alarm_blocker_save">Spara</string>
   <string name="alarm_list_header">Tillgängliga alarm</string>
   <string name="alarm_blocker_reload">Ladda om</string>
+  <string name="alarm_blocker_warning_title">Fortsätt med försiktighet</string>
   <!-- Option to enable/disable scrolling cache -->
   <string name="pref_scrollingcache_force_enable">Tvinga aktiv</string>
   <string name="pref_scrollingcache_default_enable">Standard aktiverat</string>
@@ -321,25 +498,44 @@
   <string name="pref_scrollingcache_force_disable">Tvinga inaktiv</string>
   <!-- Three finger swipe screenshot -->
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Starta musikapp</string>
   <string name="headset_connect_player_disabled">Inaktiverad</string>
   <!-- QS Header Icons -->
+  <string name="qs_settings_icon_title">Inställningar-genväg</string>
+  <string name="qs_edit_title">Redigera ikon</string>
   <!-- Center Date + Time in header -->
   <!-- Battery Bar fragment -->
+  <string name="battery_bar_animate_title">Laddningsanimation</string>
+  <string name="battery_bar_style_regular">Vanlig</string>
+  <string name="battery_bar_style_reversed">Omvänd</string>
+  <string name="battery_bar_blend_color_title">Blanda färger</string>
+  <string name="battery_bar_blend_color_reverse_title">Omvänd färgriktning</string>
   <string name="battery_bar_hide">Göm</string>
   <string name="battery_bar_statusbar">Statusfält</string>
   <string name="battery_bar_navbar_top">Toppen av navigationsfält</string>
   <string name="battery_bar_navbar_bottom">Botten på navigeringsfältet</string>
   <!-- QS headers -->
+  <string name="qs_header_category">QS Header-alternativ</string>
   <string name="static_header_provider_title">Statisk</string>
   <string name="daylight_header_provider_title">Dynamisk</string>
+  <string name="smartbar_doubletap_sleep_title">Dubbeltryck för att sova</string>
+  <string name="one_handed_mode_title">Enhandsläge</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Avbryt åtgärder</string>
   <string name="screen_state_toggles_enable_title">Aktivera</string>
+  <string name="screen_state_toggles_mobile_title">Mobila nätverk</string>
+  <string name="screen_state_toggles_location_title">Plats</string>
   <string name="screen_state_toggles_twog">Växla till 2G</string>
   <string name="screen_state_toggles_gps">Inaktivera GPS</string>
+  <string name="screen_state_toggles_mobile_data">Inaktivera mobildata</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Lås upp med fingeravtryck</string>
   <!-- Status bar notification ticker -->
+  <string name="ticker_disabled">Ingen ticker</string>
   <!-- Wired headset ringtone audio focus -->
   <!-- QS Easy Toggle -->
+  <string name="dnd_when_call_title">Stör ej</string>
   <!-- StatusBar weather settings -->
   <string name="status_bar_weather_hidden">Göm väder</string>
   <string name="status_bar_temperature_image_show_scale">Visa temp med skala och bild</string>
@@ -349,16 +545,21 @@
   <string name="status_bar_show_image">Visa bild</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim - Senaste appar</string>
-  <string name="use_slim_recents_title">Aktivera Slim för senaste appar</string>
+  <string name="show_running_tasks_title">Visa endast appar som körs</string>
   <string name="recents_max_apps_title">Max tillåtna appar</string>
   <string name="recent_panel_scale_title">Storlek</string>
   <string name="recent_panel_expanded_mode_title">Utökat läge</string>
   <string name="recent_panel_expanded_mode_auto">Auto (standard)</string>
   <string name="recent_panel_expanded_mode_always">Alltid</string>
   <string name="recent_panel_expanded_mode_never">Aldrig</string>
+  <string name="recent_panel_bg_color_title">Panelbakgrundsfärg</string>
+  <string name="recent_reset_title">Återställ till standardfärg</string>
   <string name="slim_icon_pack_title">Ikonpack</string>
+  <string name="no_iconpacks_summary">Inga ikonpaket installerade</string>
+  <string name="dialog_pick_iconpack_title">Välj ikonpaket</string>
   <string name="default_iconpack_title">Standardikoner</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_title">Visa på vänsterkanten</string>
   <!-- Roaming indicator icon -->
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Visa batteristatus på bluetooth</string>
@@ -381,12 +582,15 @@
   <string name="shortcut_action_help_shortcut">genväg</string>
   <string name="shortcut_action_help_button">knapp</string>
   <string name="shortcuts_applications">Appar</string>
+  <string name="shortcuts_select_custom_app_title">Välj anpassad applikation</string>
   <string name="shortcuts_icon_picker_type">Välj ikontyp:</string>
   <string name="shortcuts_icon_default">Standard</string>
   <string name="shortcuts_icon_presets">Systemikoner</string>
   <string name="shortcuts_icon_custom">Galleri</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Välj ikon</string>
+  <string name="shortcuts_icon_picker_alarm">Alarm</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
+  <string name="shortcuts_icon_picker_battery">Batteri</string>
   <string name="shortcuts_icon_picker_browser">Webbläsare</string>
   <string name="shortcuts_icon_picker_calendar">Kalender</string>
   <string name="shortcuts_icon_picker_camera">Kamera</string>
@@ -403,23 +607,33 @@
   <string name="shortcuts_icon_picker_favorite">Favorit</string>
   <string name="shortcuts_icon_picker_file_browser">Filhanterare</string>
   <string name="shortcuts_icon_picker_file_browser2">Filhanterare - Alternativ</string>
+  <string name="shortcuts_icon_picker_fitness">Fitness</string>
   <string name="shortcuts_icon_picker_gallery">Galleri</string>
+  <string name="shortcuts_icon_picker_gears">Kugghjul</string>
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google+</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Hjälp</string>
   <string name="shortcuts_icon_picker_joystick">Joystick</string>
+  <string name="shortcuts_icon_picker_key">Nycklar/konton</string>
   <string name="shortcuts_icon_picker_laptop">Laptop</string>
+  <string name="shortcuts_icon_picker_notes">Anteckningar</string>
   <string name="shortcuts_icon_picker_luggage">Resor</string>
   <string name="shortcuts_icon_picker_maps">Maps</string>
+  <string name="shortcuts_icon_picker_market">Market</string>
   <string name="shortcuts_icon_picker_movie">Filmer</string>
   <string name="shortcuts_icon_picker_music">Musik</string>
+  <string name="shortcuts_icon_picker_nav">Navigering</string>
   <string name="shortcuts_icon_picker_phone">Telefon</string>
   <string name="shortcuts_icon_picker_package">Paket</string>
   <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
   <string name="shortcuts_icon_picker_play">Spela</string>
   <string name="shortcuts_icon_picker_pocket">Pocket</string>
+  <string name="shortcuts_icon_picker_quicksettings">Snabbinställningar</string>
   <string name="shortcuts_icon_picker_rss">RSS-flöde</string>
   <string name="shortcuts_icon_picker_sdcard">SD-kort</string>
+  <string name="shortcuts_icon_picker_search">Sök</string>
+  <string name="shortcuts_icon_picker_sms">Meddelanden</string>
   <string name="shortcuts_icon_picker_tasks">Uppgifter</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_tv">TV</string>
@@ -427,12 +641,16 @@
   <string name="shortcuts_icon_picker_unlock">Lås upp</string>
   <string name="empty_title">Tom</string>
   <string name="normal_title">Normal</string>
+  <string name="hidden_title">Dold</string>
+  <string name="position_title">Position</string>
   <string name="position_right_title">Höger</string>
   <string name="position_centered_title">Centrerad</string>
+  <string name="help">Hjälp</string>
   <string name="reset_message">Återställa alla värden till standard?</string>
   <string name="profiles_add">Lägg till</string>
   <string name="profile_choose_app">Välj applikation</string>
   <string name="profile_reset_title">Nollställ</string>
+  <string name="show_title">Visa</string>
   <string name="choose_app">Välj applikation</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Övre genvägar</string>
@@ -441,7 +659,9 @@
   <string name="shortcut_action_none">Ingen</string>
   <string name="shortcut_action_app">Anpassad app</string>
   <string name="shortcut_action_home">Hem</string>
+  <string name="shortcut_action_back">Tillbaka</string>
   <string name="shortcut_action_menu">Meny</string>
+  <string name="shortcut_action_ime">Öppna IME Switcher</string>
   <string name="shortcut_action_power_menu">Avstängningsmeny</string>
   <string name="shortcut_action_recent">Senaste appar</string>
   <string name="shortcut_action_power">Skärm av</string>
@@ -465,11 +685,13 @@
   <string name="shortcut_action_help_shortcut">genväg</string>
   <string name="shortcut_action_help_button">knapp</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">lista</string>
   <string name="caution">Varning!</string>
+  <string name="sizer_message_delete">Är du säker?</string>
+  <string name="btn_delete">Ta bort valda appar nu</string>
   <string name="delete_progress_title">Tar bort</string>
-  <string name="delete_success">Raderad</string>
-  <string name="btn_profile">Profil</string>
+  <string name="delete_progress">Markerade filer tas bort...</string>
+  <string name="sizer_message_noselect">Inget markerat.</string>
+  <string name="sizer_message_success">Slutförd</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

@@ -74,14 +74,6 @@
   <string name="disable_immersive_message_title">Onemogući poruke o cijelom zaslonu</string>
   <string name="disable_immersive_message_summary">Ovo će sakriti sve poruke o cjelozaslonskom načinu prikaza.</string>
   <!-- Flashlight notification -->
-  <!-- Immersive Recents -->
-  <string name="immersive_recents_title">Nedavne apl. u cijelom zaslonu</string>
-  <string name="immersive_recents_summary">Promijenite prikaz zaslona nedavnih aplikacija.</string>
-  <string name="immersive_recents_dialog_title">Odaberite prikaz nedavnih aplikacija</string>
-  <string name="immersive_recents_default">Zadano</string>
-  <string name="immersive_recents_fullscreen">Cijeli zaslon</string>
-  <string name="immersive_recents_statusbar">Samo statusna traka</string>
-  <string name="immersive_recents_navbar">Samo navigacijska traka</string>
   <!-- Tiles animation style  -->
   <string name="qs_tile_animation_style_title">Stil animacije</string>
   <string name="qs_tile_animation_duration_title">Trajanje animacije</string>
@@ -489,7 +481,7 @@
   <string name="hide_apps_from_recents_title">Skrivene aplikacije</string>
   <string name="hide_from_recents_add_app">Dodaj aplikaciju</string>
   <string name="hide_apps_from_recents_summary">Odaberite koje se aplikacije neće prikazivati na zaslonu nedavnih aplikacija.</string>
-  <!-- fingerprint authentication vibration -->
+  <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibracija provjere otiska prsta</string>
   <string name="fprint_sucess_vib_summary">Vibracija pri uspješnoj provjeri otiska prsta</string>
   <!-- XOSP Blur personalizations -->
@@ -692,7 +684,6 @@
   <string name="status_bar_show_image">Prikaži sliku</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim nedavne aplikacije</string>
-  <string name="use_slim_recents_title">Slim nedavne aplikacije</string>
   <string name="use_slim_recents_summary">Upotrebljavajte Slim nedavne aplikacije umjesto zadanog pregleda nedavnih aplikacija</string>
   <string name="slim_recents_settings_title">Postavke Slima</string>
   <string name="slim_recents_settings_summary">Pogledajte postavke Slim nedavnih aplikacija</string>
@@ -858,21 +849,11 @@
   <string name="shortcut_action_help_delete_last_entry">Uklanjanje svake/og %1$s na popisu će u potpunosti onemogućiti značajku.</string>
   <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Uklanjanje svake/og %1$s na popisu će u potpunosti onemogućiti drugi sloj pite.</string>
   <!-- SlimSizer  -->
-  <string name="listsystem">popis</string>
-  <string name="sizer_title">Brisanje aplikacija</string>
   <string name="caution">Oprez!</string>
   <string name="sizer_message_startup">Ovaj vam alat omogućuje brisanje aplikacija sustava. Koristite se njime s oprezom i brišite samo aplikacije za koje znate da ih je sigurno ukloniti.</string>
-  <string name="sizer_message_delete">Jeste li sigurni da želite izbrisati ovu aplikaciju?</string>
   <string name="btn_delete">Odmah izbriši odabrane aplikacije!</string>
   <string name="delete_progress_title">Brisanje</string>
   <string name="delete_progress">Odabrane se datoteke brišu...</string>
-  <string name="delete_success">Izbrisano</string>
-  <string name="delete_fail">Brisanje nije moguće</string>
-  <string name="btn_profile">Profil</string>
-  <string name="sizer_message_sdnowrite">Pisanje po SD kartici nije moguće.</string>
-  <string name="sizer_message_sdnoread">Čitanje s SD kartice nije moguće.</string>
-  <string name="sizer_message_filesuccess">Profil je stvoren.</string>
-  <string name="sizer_message_filefail">Stvaranje profila nije uspjelo.</string>
   <string name="sizer_message_noselect">Ništa nije odabrano.</string>
   <string name="system_app_remover">Brisanje aplikacija sustava</string>
   <!-- Grid recents screen pinning toggle -->

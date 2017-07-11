@@ -855,6 +855,7 @@
   <string name="status_bar_show_image">Afficher l\'image</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim Recents</string>
+  <string name="use_slim_recents_title">Utiliser le menu alternatif récent</string>
   <string name="use_slim_recents_summary">Afficher la vue des applications de « Slim Recents » plutôt que la vue par défaut</string>
   <string name="slim_recents_settings_title">Réglages de Slim Recents</string>
   <string name="slim_recents_settings_summary">Accéder aux réglages du panneau des applications récentes de « Slim Recents »</string>

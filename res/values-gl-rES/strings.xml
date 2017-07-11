@@ -111,15 +111,67 @@
   <string name="disable_immersive_message_summary">Isto agochará todas as mensaxes en modo inmersivo</string>
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notificacións co flash</string>
+  <string name="flashlight_notification_summary">Habilitar notificación cando a lanterna está acesa</string>
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_style_title">Estilo da animación dos axustes rápidos</string>
+  <string name="qs_tile_animation_duration_title">Duración da animación dos axustes rápidos</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolador das animacións dos axustes rápidos</string>
+  <string name="qs_tile_animation_style_off">Sen animación</string>
+  <string name="qs_tile_animation_style_flip">Xirar</string>
+  <string name="qs_tile_animation_style_rotate">Rotar</string>
+  <string name="qs_tile_animation_duration_low">Baixo</string>
   <string name="qs_tile_animation_duration_default">Por defecto</string>
+  <string name="qs_tile_animation_duration_fast">Rápido</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Lineal</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar Desacelerar</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebote</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Adiantar</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipar Adiantar</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_title">Comportamento do MediaScanner no arranque</string>
+  <string name="media_scanner_on_boot_enabled">Procurar arquivos multimedia no arranque</string>
+  <string name="media_scanner_on_boot_ask">Preguntar para procurar (notificación)</string>
+  <string name="media_scanner_on_boot_disabled">Non procurar por arquivos multimedia</string>
   <!-- Volume key cursor control -->
+  <string name="volbtn_cursor_control_title">Control do cursor coas teclas do volume</string>
   <string name="volbtn_cursor_control_off">Deshabilitado</string>
+  <string name="volbtn_cursor_control_on">As teclas do volume arriba/abaixo move o cursor esquerda/dereita</string>
+  <string name="volbtn_cursor_control_on_reverse">As teclas do volume arriba/abaixo move o cursor dereita/esquerda</string>
   <!-- Home button wake up -->
+  <string name="button_wake_title">Espertar</string>
+  <string name="home_wake_summary">Premer na tecla de inicio espertará o teu dispositivo</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Tráfico de rede</string>
+  <string name="show_network_traffic_state">Monitor de tráfico na barra de estado</string>
+  <string name="show_network_traffic_unit">Unidade para amosar</string>
+  <string name="show_network_traffic_frequency">Intervalo de actualización</string>
   <string name="show_network_traffic_disable">Deshabilitado</string>
+  <string name="show_network_traffic_up">Datos saíntes</string>
+  <string name="show_network_traffic_down">Datos entrantes</string>
+  <string name="show_network_traffic_all">Saíntes e entrantes</string>
+  <string name="show_network_traffic_bit">bits por segundo</string>
+  <string name="show_network_traffic_byte">Bytes por segundo</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
+  <string name="network_traffic_autohide">Agochar automáticamente</string>
+  <string name="network_traffic_autohide_summary">Agochar o monitor de tráfico cando non hai actividade</string>
+  <string name="network_traffic_autohide_threshold">Umbral de inactividade</string>
+  <string name="network_traffic_hidearrow">Agochar frechas</string>
+  <string name="network_traffic_hidearrow_summary">Agochar as frechas nos indicadores de tráfico</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock">Reloxo &amp; data</string>
+  <string name="clock_title_enable">Aliñación</string>
+  <string name="status_bar_show_clock_title">Amosar reloxo &amp; data</string>
+  <string name="status_bar_clock_seconds_title">Amosar os segundos</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
   <string name="clock_am_pm_date_normal">Normal</string>
   <string name="cancel">Cancelar</string>
   <!-- Color Picker -->
@@ -137,6 +189,28 @@
   <string name="action_entry_select_app">Seleccionar aplicativo</string>
   <!-- Fling -->
   <string name="fling_interface">Lanzar</string>
+  <string name="fling_short_swipe_right">Deslizamento curto hacia a dereita</string>
+  <string name="fling_short_swipe_left">Deslizamento curto hacia a esquerda</string>
+  <string name="fling_long_swipe_right">Deslizamento longo hacia a dereita</string>
+  <string name="fling_long_swipe_left">Deslizamento longo hacia a esquerda</string>
+  <string name="fling_right_up_swipe">Deslizar dende a dereita ata arriba</string>
+  <string name="fling_left_up_swipe">Deslizar dende a esquerda ata arriba</string>
+  <string name="fling_single_tap">Toque simple na dereita</string>
+  <string name="fling_double_tap">Toque dobre na dereita</string>
+  <string name="fling_long_press">Premido longo na dereita</string>
+  <string name="fling_single_left_tap">Toque simple na esquerda</string>
+  <string name="fling_double_left_tap">Dobre toque na esquerda</string>
+  <string name="fling_long_left_press">Premido longo na esquerda</string>
+  <string name="long_swipe_portrait_title">Retrato</string>
+  <string name="long_swipe_landscape_title">Apaisado</string>
+  <string name="portrait_right_swipe_title">Deslizar a dereita para retrato</string>
+  <string name="portrait_left_swipe_title">Deslizar para a esquerda para retrato</string>
+  <string name="landscape_right_swipe_title">Delizar a dereita para apaisado</string>
+  <string name="landscape_left_swipe_title">Deslizar a esquerda para apaisado</string>
+  <string name="vertical_up_swipe_title">Deslizar cara arriba en vertical</string>
+  <string name="vertical_down_swipe_title">Delizar cara abaixo en vertical</string>
+  <string name="up_swipe_title">Delizar cara arriba</string>
+  <string name="down_swipe_title">Delizar cara abaixo</string>
   <string name="fling_advanced">Avanzado</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_advanced_category">Avanzado</string>
@@ -216,6 +290,11 @@
   <!-- ListView animation -->
   <string name="listview_off">Por defecto</string>
   <!-- ListView interpolator -->
+  <string name="listview_accelerate_interpolator">Acelerar</string>
+  <string name="listview_decelerate_interpolator">Desacelerar</string>
+  <string name="listview_anticipate_interpolator">Anticipar</string>
+  <string name="listview_overshoot_interpolator">Adiantar</string>
+  <string name="listview_bounce_interpolator">Rebote</string>
   <!-- Disable animations -->
   <!-- Alarm blocker -->
   <!-- Option to enable/disable scrolling cache -->

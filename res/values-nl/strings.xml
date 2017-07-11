@@ -18,6 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensies</string>
   <string name="add">Toevoegen</string>
   <string name="cancel">Annuleer</string>
   <string name="choose_app">Kies applicatie</string>
@@ -33,6 +34,8 @@
   <!-- Extensions categories -->
   <string name="recents_category">Recente apps</string>
   <string name="status_bar_category">Statusbalk</string>
+  <string name="system_category">Systeem</string>
+  <string name="statusbar_items_category">Statusbar Items</string>
   <string name="navigation_category">Navigatie</string>
   <string name="system_animations">Systeem animaties</string>
   <string name="toast">Zwevende melding</string>
@@ -152,6 +155,7 @@
   <string name="icon_pack_picker_dialog_title">Pictogrampakketten</string>
   <string name="image_exceeds_max_allowed_size">Beeld mag niet groter zijn dan 512 x 512</string>
   <string name="invalid_icon_from_uri">Kan afbeelding niet laden</string>
+  <string name="picker_activities">Activiteiten</string>
   <string name="profile_applist_title">Applicaties</string>
   <string name="default_string">Standaard</string>
   <string name="reset">Terug naar standaard</string>
@@ -754,6 +758,7 @@
   <string name="shortcuts_icon_presets">Systeempictogrammen</string>
   <string name="shortcuts_icon_custom">Galerij</string>
   <string name="shortcuts_icon_picker_choose_icon_title">Pictogram kiezen</string>
+  <string name="shortcuts_icon_picker_alarm">Alarm</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_browser">Browser</string>
   <string name="shortcuts_icon_picker_calendar">Kalender</string>

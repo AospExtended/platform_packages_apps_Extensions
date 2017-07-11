@@ -18,7 +18,10 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Uitbreidings</string>
+  <string name="dlg_ok">OK</string>
   <!-- Extensions categories -->
+  <string name="system_category">Sisteem</string>
   <!-- App info dialog -->
   <!-- OmniJaws -->
   <!-- Quick Settings brightness slider -->
@@ -41,19 +44,33 @@
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_duration_default">Verstek</string>
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
   <!-- Home button wake up -->
   <!-- Network traffic -->
   <!-- Statusbar Clock options -->
+  <string name="clock_am_pm_date_normal">Normaal</string>
   <!-- Color Picker -->
+  <string name="color_default">Verstek</string>
   <!-- Navigation Bar -->
+  <string name="navigationbar_settings_title">Navigasie balk</string>
+  <string name="smartbar_interface">Slimbalk</string>
+  <string name="picker_activities">Aktiwiteite</string>
+  <string name="select_custom_app_title">Kies pasgemaakte program</string>
+  <string name="select_custom_activity_title">Kies pasgemaakte aktiwiteit</string>
+  <string name="default_string">Verstek</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Kies aksie</string>
+  <string name="action_entry_select_app">Kies program</string>
   <!-- Fling -->
+  <string name="fling_interface">Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <string name="smartbar_category">Slimbalk</string>
+  <string name="smartbar_ime_action_none">Geen</string>
   <!-- QuickSettings haptic feedback -->
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
@@ -61,6 +78,7 @@
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <!-- Lockscreen weather -->
+  <string name="lock_screen_weather_settings_title">Weer</string>
   <!-- statusbar brightness control -->
   <!-- CM Lockscreen shortcuts -->
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
@@ -78,6 +96,11 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">Begin oor</string>
+  <string name="power_menu_screenshot_title">Skermfoto</string>
+  <string name="power_menu_screenrecord_title">Skerm opneem</string>
+  <string name="power_menu_torch_title">Flitslig</string>
+  <string name="power_menu_search_title">Soek</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -95,8 +118,14 @@
   <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">Verstek</string>
   <!-- Toast Animation -->
+  <string name="toast_none_animation">Geen</string>
+  <string name="toast_default_animation">Verstek</string>
+  <string name="toast_fade_animation">Verdof</string>
+  <string name="toast_Translucent_animation">Deursigtige</string>
   <!-- ListView animation -->
+  <string name="listview_off">Verstek</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Alarm blocker -->
@@ -120,7 +149,13 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcut_action_none">Geen</string>
+  <string name="shortcuts_icon_default">Verstek</string>
+  <string name="shortcuts_icon_picker_alarm">Alarm</string>
+  <string name="shortcuts_icon_picker_search">Soek</string>
+  <string name="normal_title">Normaal</string>
   <!-- Lockscreen shortcuts -->
+  <string name="shortcut_action_none">Geen</string>
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->

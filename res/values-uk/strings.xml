@@ -855,6 +855,7 @@
   <string name="status_bar_show_image">Показувати зображення</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Панель останніх програм із Slim</string>
+  <string name="use_slim_recents_title">Використовувати нещодавні додатки від Slim</string>
   <string name="use_slim_recents_summary">Використовувати меню нещодавніх додатків від Slim замість перегляду меню додатків за замовчуванням</string>
   <string name="slim_recents_settings_title">Налаштування меню нещодавніх додатків від Slim</string>
   <string name="slim_recents_settings_summary">Подивитися налаштування для меню нещодавніх додатків від Slim</string>
@@ -1036,6 +1037,7 @@
   <!-- SlimSizer  -->
   <string name="caution">Увага!</string>
   <string name="sizer_message_startup">Ця функція дозволяє видаляти системні додатки. Будьте уважні і видаляйте тільки ті додатки, відсутність яких не нашкодить системі.</string>
+  <string name="sizer_message_delete">Ви впевнені?</string>
   <string name="btn_delete">Видалити обрані додатки!</string>
   <string name="delete_progress_title">Видалення</string>
   <string name="delete_progress">Вибрані файли видаляються...</string>

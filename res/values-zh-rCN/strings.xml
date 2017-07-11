@@ -916,6 +916,7 @@
   <string name="shortcuts_icon_presets">系统图标</string>
   <string name="shortcuts_icon_custom">图库</string>
   <string name="shortcuts_icon_picker_choose_icon_title">选择图标</string>
+  <string name="shortcuts_icon_picker_alarm">闹钟</string>
   <string name="shortcuts_icon_picker_andy">Andy</string>
   <string name="shortcuts_icon_picker_battery">电池</string>
   <string name="shortcuts_icon_picker_browser">浏览器</string>

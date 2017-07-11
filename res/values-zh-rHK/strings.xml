@@ -94,7 +94,7 @@
   <!-- Animations -->
   <string name="animations_title">動畫</string>
   <!-- Carrier Label -->
-  <string name="carrierlabel_title">營運商標籤</string>
+  <string name="carrierlabel_title">電信業者標籤</string>
   <!-- Show notification count -->
   <string name="status_bar_notif_count_title">顯示通知數量</string>
   <string name="status_bar_notif_count_summary">顯示未處理通知的數量</string>

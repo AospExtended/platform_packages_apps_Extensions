@@ -21,6 +21,7 @@
   <string name="extensions_title">Phần mở rộng</string>
   <string name="add">Thêm</string>
   <string name="advanced">Nâng cao</string>
+  <string name="cancel">Huỷ bỏ</string>
   <string name="choose_app">Chọn ứng dụng</string>
   <string name="general_category">Tổng quát</string>
   <string name="gestures_category">Cử chỉ</string>
@@ -49,10 +50,16 @@
   <string name="statusbar_items_category">Biểu tượng thanh trạng thái</string>
   <string name="navigation_category">Điều hướng</string>
   <string name="breathing_notifications_category">Thông báo nhấp nháy</string>
+  <string name="build_tweaks_summary_title">Tuỳ biến thiết bị của bạn!</string>
   <string name="system_animations">Hoạt ảnh hệ thống</string>
   <string name="toast">Thông báo nhanh</string>
   <string name="listview">Xem kiểu Danh sách</string>
+  <string name="qs_header_title">Tiêu đề cài đặt nhanh</string>
+  <string name="qs_omnijaws_category">Ô thời tiết</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Giúp đỡ lẫn nhau!</string>
+  <string name="extensions_dialog_message">Nếu bạn phát hiện ra lỗi nào với bất kỳ cài đặt này, hãy đăng thông báo tại phần Báo lỗi ở trang Google+ của chúng tôi. Bạn PHẢI kèm theo những thông tin sau khi báo lỗi:\n\n1. Một logcat hoặc last_kmsg\n2. Nhân (kernel) và bản chỉnh sửa (mod) bạn đang dùng\n3. Các thông tin hữu ích khác\n\n\Nếu bạn KHÔNG cung cấp đủ thông tin thì đừng mong vấn đề được sớm khắc phục.</string>
+  <string name="extensions_dialog_toast">HÃY ĐỌC TẤT CẢ!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Cài đặt dịch vụ</string>
   <string name="weather_icon_pack_title">Gói biểu tượng tình trạng</string>
@@ -147,6 +154,7 @@
   <string name="clock_date_right">Bên phải thời gian</string>
   <string name="clock_date_left">Bên trái thời gian</string>
   <string name="clock_am_pm_date_normal">Bình Thường</string>
+  <string name="cancel">Huỷ bỏ</string>
   <string name="clock_font_style_title">Phông chữ</string>
   <string name="clock_font_size_title">Kích cỡ phông chữ</string>
   <!-- Color Picker -->
@@ -267,6 +275,7 @@
   <string name="portrait_title">Chiều cao nằm dọc</string>
   <string name="land_vert_title">Chiều rộng nằm ngang</string>
   <string name="land_hor_title">Chiều cao nằm ngang</string>
+  <string name="positive_done">Đã hoàn thành</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Thanh thông minh</string>
   <string name="smartbar_settings_title">Cài đặt Smartbar</string>
@@ -803,6 +812,7 @@
   <string name="shortcuts_icon_picker_google_small">Google</string>
   <string name="shortcuts_icon_picker_gplus">Google Plus</string>
   <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Giúp đỡ</string>
   <string name="shortcuts_icon_picker_joystick">Cần điều khiển</string>
   <string name="shortcuts_icon_picker_key">Phím/tài khoản</string>
   <string name="shortcuts_icon_picker_laptop">Laptop</string>
@@ -831,6 +841,7 @@
   <string name="normal_title">Bình Thường</string>
   <string name="position_right_title">Phải</string>
   <string name="position_centered_title">Trung tâm</string>
+  <string name="help">Giúp đỡ</string>
   <string name="reset_message">Thiết lập lại tất cả các mục về mặc định?</string>
   <string name="profiles_add">Thêm</string>
   <string name="profile_choose_app">Chọn ứng dụng</string>
@@ -845,6 +856,7 @@
   <string name="shortcut_action_none">Không gì cả</string>
   <string name="shortcut_action_app">Ứng dụng tùy chỉnh</string>
   <string name="shortcut_action_home">Trang chủ</string>
+  <string name="shortcut_action_back">Quay lại</string>
   <string name="shortcut_action_menu">Trình đơn</string>
   <string name="shortcut_action_ime">Mở bộ chuyển IME</string>
   <string name="shortcut_action_power_menu">Trình đơn nguồn</string>

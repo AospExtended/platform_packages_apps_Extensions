@@ -97,7 +97,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-	final Resources res = getResources();
+        final Resources res = getResources();
 
         int cursorControlAction = Settings.System.getInt(resolver,
                 Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
@@ -186,18 +186,20 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
         // Backlight
         if (hasMenuKey || hasHomeKey) {
-            if (mBacklightTimeout != null) {
-        	mBacklightTimeout.setOnPreferenceChangeListener(this);
-	        int BacklightTimeout = Settings.System.getInt(getContentResolver(),
-        	        Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
-	        mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
-	        mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+         if (mBacklightTimeout != null) {
+            mBacklightTimeout.setOnPreferenceChangeListener(this);
+            int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+               mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+               mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
             }
-            if (mButtonBrightness != null) {
-                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
-                                Settings.System.BUTTON_BRIGHTNESS, 255);
-                mButtonBrightness.setValue(ButtonBrightness / 1);
+         
+         if (mButtonBrightness != null) {
+            int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                                       Settings.System.BUTTON_BRIGHTNESS, 255);
+            mButtonBrightness.setValue(ButtonBrightness / 1);
                 mButtonBrightness.setOnPreferenceChangeListener(this);
+         }
         } else {
             prefScreen.removePreference(mBacklightTimeout);
             prefScreen.removePreference(mButtonBrightness);
@@ -226,8 +228,6 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
         // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
-
-    }
     }
 
      @Override
@@ -311,4 +311,3 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         return false;
     }
 }
-

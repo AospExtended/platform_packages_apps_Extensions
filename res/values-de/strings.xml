@@ -1058,4 +1058,9 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Symbol für ausgeschaltete Mobile Daten anzeigen</string>
   <string name="data_disabled_icon_summary">Zeige das Kreuzzeichen neben dem Signalbalken wenn Mobile Daten ausgeschaltet sind</string>
+  <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Im-Anruf Vibrations Optionen</string>
+  <string name="incall_vibrate_connect_title">Vibriert bei Verbindung</string>
+  <string name="incall_vibrate_call_wait_title">Vibriert beim Halten des Anrufs</string>
+  <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
 </resources>

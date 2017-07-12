@@ -1058,4 +1058,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Zobraziť ikonu pri vypnutí dát</string>
   <string name="data_disabled_icon_summary">Zobraziť znak X na ikone signálu siete, keď sú dáta vynuté</string>
+  <!-- Incall vibrate options -->
 </resources>

@@ -1058,4 +1058,9 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Mostrar ícone de dados desligados</string>
   <string name="data_disabled_icon_summary">Mostrar um X junto do ícone de rede quando os dados estiverem desligados</string>
+  <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opções de vibração na chamada</string>
+  <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+  <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+  <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
 </resources>

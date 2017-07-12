@@ -43,7 +43,7 @@
   <string name="color_title">Цвет</string>
   <string name="colors_title">Цвета</string>
   <!-- Extensions categories -->
-  <string name="recents_category">Запущенные</string>
+  <string name="recents_category">Недавние</string>
   <string name="status_bar_category">Строка состояния</string>
   <string name="notifications_panel_category">Панель уведомлений</string>
   <string name="system_category">Система</string>
@@ -459,14 +459,14 @@
   <string name="keyguard_torch_title">Фонарик на экране блокировки</string>
   <string name="keyguard_torch_summary">Удерживайте кнопку питания, когда устройство заблокировано, чтобы включить фонарик</string>
   <!-- Wakelock blocker -->
-  <string name="wakelockblocker_category">Блокировка пробуждений</string>
-  <string name="wakelock_blocker_summary">Блокировать системные пробуждения</string>
+  <string name="wakelockblocker_category">Блокировка *wakelocks*</string>
+  <string name="wakelock_blocker_summary">Блокировать пробуждения системы</string>
   <string name="wakelock_blocker_save">Сохранить</string>
-  <string name="wakelock_list_header">Доступные пробуждения</string>
+  <string name="wakelock_list_header">Доступные *wakelocks*</string>
   <string name="wakelock_blocker_reload">Обновить</string>
   <string name="wakelock_blocker_warning_title">Используйте на свой страх и риск</string>
-  <string name="wakelock_blocker_warning">Блокировка пробуждений может вызвать нестабильность, ошибки и потерю данных</string>
-  <string name="wakelock_blocker_title">Блокировка пробуждений</string>
+  <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильность, ошибки и потерю данных</string>
+  <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
   <!-- Lockscreen cover art -->
   <string name="media_art_title">Обложки медиафайлов</string>
   <string name="media_art_summary">Показывать обложки медиафайлов на экране блокировки</string>
@@ -551,7 +551,7 @@
   <string name="volume_keys_control_media_stream_title">Клавиши громкости регулируют уровень громкости мультимедиа</string>
   <string name="volume_keys_control_media_stream_summary">Принудительно использовать кнопки громкости для регулировки громкости медиа</string>
   <!-- Lockscreen battery info indicator  -->
-  <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+  <string name="lockscreen_battery_info_title">Информация о зарядке</string>
   <string name="lockscreen_battery_info_summary">Показывать примерное максимальное текущее напряжение и температуру аккумулятора на экране блокировки во время зарядки</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Регулировка громкости</string>
@@ -728,14 +728,14 @@
   <string name="disable_animations">Отключить анимацию</string>
   <string name="disable_animations_summary">Отключение анимации перехода, например, при запуске приложения</string>
   <!-- Alarm blocker -->
-  <string name="alarm_blocker">Блокировщик будящих процессов</string>
+  <string name="alarm_blocker">Блокировка *alarms*</string>
   <string name="alarm_blocker_title">Включить</string>
-  <string name="alarm_blocker_summary">Заблокировать будящие процессы при выключенном экране</string>
+  <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
   <string name="alarm_blocker_save">Сохранить</string>
-  <string name="alarm_list_header">Доступные процессы</string>
+  <string name="alarm_list_header">Доступные *alarms*</string>
   <string name="alarm_blocker_reload">Обновить</string>
   <string name="alarm_blocker_warning_title">Используйте на свой страх и риск</string>
-  <string name="alarm_blocker_warning">Блокировка будящих процессов может вызвать нестабильность приложений, принудительные закрытия или потерю данных.</string>
+  <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильность приложений, принудительные закрытия или потерю данных.</string>
   <!-- Option to enable/disable scrolling cache -->
   <string name="pref_scrollingcache_title">Кэш прокрутки</string>
   <string name="pref_scrollingcache_summary">Кэш прокрутки может повысить плавность прокрутки за счёт использования ОЗУ</string>
@@ -1059,4 +1059,9 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
   <string name="data_disabled_icon_summary">Показывать крест над значком сети, когда передача данных отключена</string>
+  <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+  <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+  <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+  <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
 </resources>

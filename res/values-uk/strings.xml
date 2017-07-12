@@ -1058,4 +1058,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Відображати іконку вимкнених даних</string>
   <string name="data_disabled_icon_summary">Відображення хрестика поруч з рівнем сигналу, коли дані вимкнуто</string>
+  <!-- Incall vibrate options -->
 </resources>

@@ -1058,4 +1058,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Afficher l\'icône lorsque les données sont désactivées</string>
   <string name="data_disabled_icon_summary">Afficher une croix à côté du signal lorsque les données sont désactivées</string>
+  <!-- Incall vibrate options -->
 </resources>

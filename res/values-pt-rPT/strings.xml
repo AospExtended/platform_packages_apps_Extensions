@@ -74,7 +74,7 @@
   <!-- Quick Settings -->
   <string name="quick_settings_title">Definições rápidas</string>
   <string name="status_bar_quick_qs_pulldown_title">Puxar rápido para baixo</string>
-  <string name="status_bar_quick_qs_pulldown_summary">O %1$s da barra de estado faz baixar o painel de definições rápidas</string>
+  <string name="status_bar_quick_qs_pulldown_summary">O canto direito da barra de estado faz baixar o painel de definições rápidas</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Extensões diversas</string>
   <!-- General Tweaks -->
@@ -1058,4 +1058,9 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Mostrar ícone de dados desligados</string>
   <string name="data_disabled_icon_summary">Mostrar um \"X\" junto do ícone de rede quando os dados estiverem desligados</string>
+  <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opções de vibração na chamada</string>
+  <string name="incall_vibrate_connect_title">Vibrar ao ligar</string>
+  <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+  <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
 </resources>

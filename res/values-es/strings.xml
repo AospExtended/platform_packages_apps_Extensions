@@ -1058,4 +1058,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Mostrar icono de datos deshabilitados</string>
   <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos esten deshabilitados</string>
+  <!-- Incall vibrate options -->
 </resources>

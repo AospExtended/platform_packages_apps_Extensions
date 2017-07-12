@@ -1037,4 +1037,5 @@
   <string name="allow_incall_home_summary">Επιτρέπει τη χρήση του κουμπιού Αρχικής Οθόνης όταν η συσκευή κουδουνίζει</string>
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
+  <!-- Incall vibrate options -->
 </resources>

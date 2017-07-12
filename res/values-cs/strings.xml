@@ -1058,4 +1058,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
   <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
+  <!-- Incall vibrate options -->
 </resources>

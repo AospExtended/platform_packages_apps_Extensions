@@ -1056,4 +1056,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">إظهار رمز تعطيل بيانات الهاتف</string>
   <string name="data_disabled_icon_summary">عرض إشارة التقاطع بجانب شريط الإشارة عندما تكون البيانات معطّلة</string>
+  <!-- Incall vibrate options -->
 </resources>

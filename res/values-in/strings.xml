@@ -1053,4 +1053,5 @@
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
   <string name="data_disabled_icon_summary">Tampilkan tanda silang di sebelah bar sinyal saat data dinonaktifkan</string>
+  <!-- Incall vibrate options -->
 </resources>

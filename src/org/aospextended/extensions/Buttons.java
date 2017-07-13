@@ -153,15 +153,20 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             prefScreen.removePreference(backCategory);
         }
 
+        mHwKeyWakeDisable = (SwitchPreference) findPreference(KEY_HOME_WAKE_SCREEN);
         // home key
         if (!hasHomeKey) {
             prefScreen.removePreference(homeCategory);
-        } else if (hasHomeKey) {
- 		    mHwKeyWakeDisable = (SwitchPreference) findPreference(KEY_HOME_WAKE_SCREEN);
-            if (!res.getBoolean(R.bool.config_show_homeWake)) {
-            prefScreen.removePreference(mHwKeyWakeDisable);
+            Settings.System.putInt(getActivity().getContentResolver(),Settings.System.HOME_WAKE_SCREEN, 0);
+        }else{
+            boolean homeCanWake = getResources().getBoolean(com.android.internal.R.bool.config_homeCanWake);
+            mHwKeyWakeDisable.setEnabled(homeCanWake);
+            mHwKeyWakeDisable.setChecked(homeCanWake ? (Settings.System.getInt(getActivity().getContentResolver(),
+                                             Settings.System.HOME_WAKE_SCREEN, 1) == 1) : false);
+            if (!homeCanWake) {
+                Settings.System.putInt(getActivity().getContentResolver(),Settings.System.HOME_WAKE_SCREEN, 0);
+            }
         }
-	}
 
         // App switch key (recents)
         if (!hasAppSwitchKey) {
@@ -296,6 +301,11 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             int value = (Integer) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BUTTON_BRIGHTNESS, value * 1);
+            return true;
+        } else if (preference == mHwKeyWakeDisable) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.HOME_WAKE_SCREEN, value ? 1 : 0);
             return true;
         }
         return false;

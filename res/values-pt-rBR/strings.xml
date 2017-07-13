@@ -177,9 +177,9 @@
   <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
   <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
-  <string name="right_clock">Relógio do lado direito</string>
-  <string name="center_clock">Relógio no Centro</string>
-  <string name="left_clock">Relógio à esquerda</string>
+  <string name="right_clock">Direita</string>
+  <string name="center_clock">Centro</string>
+  <string name="left_clock">Esquerda</string>
   <string name="clock_date_display">Data</string>
   <string name="clock_date_style">Estilo da data</string>
   <string name="clock_date_position">Posição da data</string>
@@ -757,13 +757,13 @@
   <string name="qs_settings_icon_title">Atalho de configurações</string>
   <string name="qs_settings_icon_summary">Desativar o atalho de configurações no cabeçalho</string>
   <string name="qs_running_services_title">Ícone de serviços em execução</string>
-  <string name="qs_running_services_summary">Desabilitar o ícone dos serviços em execução no cabeçalho</string>
+  <string name="qs_running_services_summary">Desativar o ícone dos serviços em execução no cabeçalho</string>
   <string name="qs_edit_title">Ícone de edição</string>
   <string name="qs_edit_summary">Desativar o ícone de edição (lápis) no cabeçalho</string>
   <string name="qs_multiuser_switch_title">Interruptor de multi-usuário</string>
   <string name="qs_multiuser_switch_summary">Desativar o interruptor de multi usuário no cabeçalho</string>
   <string name="qs_expand_indicator_title">Indicador de expansão</string>
-  <string name="qs_expand_indicator_summary">Desabilitar o indicador de expansão no cabeçalho</string>
+  <string name="qs_expand_indicator_summary">Desativar o indicador de expansão no cabeçalho</string>
   <!-- Center Date + Time in header -->
   <string name="qs_date_time_center_title">Centralizar data e hora</string>
   <string name="qs_date_time_center_summary">Requer que um ou mais ícones estejam desativados</string>
@@ -1053,7 +1053,7 @@
   <string name="allow_incall_home_title">Botão home quando estiver tocando</string>
   <string name="allow_incall_home_summary">Permitir que o botão home seja usado quando o dispositivo estiver tocando</string>
   <!-- Backlight button touch-->
-  <string name="button_backlight_on_touch_only_title">Luz de fundo das teclas físicas</string>
+  <string name="button_backlight_on_touch_only_title">Luz de fundo ao tocar</string>
   <string name="button_backlight_on_touch_only_summary">Ativar a luz de fundo das teclas físicas apenas quando tocar o botão</string>
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Mostrar ícone de dados desligados</string>

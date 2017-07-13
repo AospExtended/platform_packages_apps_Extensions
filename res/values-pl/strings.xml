@@ -58,10 +58,12 @@
   <string name="qs_omnijaws_category">Kafelek szybkich ustawień pogody</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Pomóż nam, pomóż sobie!</string>
+  <string name="extensions_dialog_message">Jeśli znajdziesz błąd w którymkolwiek z tych ustawień, poinformuj o tym w dziale raporty błędów naszej społeczności na Google+. Raport MUSI zawierać następujące dane: \n\n1. Logcat lub last_kmsg\n2. Używany\n3 kernel i zastosowane modyfikacje.\n3. Przydatna informacja\n\nJeśli nie dołączysz odpowiednich danych, nie spodziewaj się pomocy z naszej strony.</string>
   <string name="extensions_dialog_toast">PRZECZYTAJ CAŁOŚĆ!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Ustawienia usługi</string>
   <string name="header_weather_title">Pogoda w nagłówku</string>
+  <string name="header_weather_summary">Włącz w panelu powiadomień pogodynkę</string>
   <string name="weather_icon_pack_title">Paczka ikon stanu</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Suwak jasności</string>
@@ -75,11 +77,13 @@
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Różne rozszerzenia</string>
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Ogólne poprawki</string>
   <!-- Notifications -->
   <string name="notifications_title">Powiadomienia</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Ogólne ustawienia UI</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Ekran blokady</string>
   <!-- Lockscreen Shortcuts -->
   <string name="lockscreen_shortcuts">Skróty ekranu blokady</string>
   <!-- Buttons -->
@@ -166,6 +170,8 @@
   <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock">Zegar i data</string>
+  <string name="clock_title_enable">Wyrównanie</string>
+  <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
   <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
   <string name="status_bar_am_pm_title">Znacznik AM/PM</string>
   <string name="status_bar_am_pm_info">24 godzinny format zegara jest włączony</string>
@@ -176,13 +182,27 @@
   <string name="clock_date_style">Styl daty</string>
   <string name="clock_date_position">Położenie daty</string>
   <string name="clock_date_format">Format daty</string>
+  <string name="clock_date_string_edittext_title">Musi być w formacie np. MM/dd/rr</string>
+  <string name="clock_date_string_edittext_summary">Wprowadź ciąg</string>
   <string name="clock_date_right">Po prawej stronie zegara</string>
   <string name="clock_date_left">Po lewej stronie zegara</string>
   <string name="clock_am_pm_date_normal">Normalny</string>
+  <string name="clock_am_pm_date_small">Małe</string>
+  <string name="clock_am_pm_date_none">Ukryte</string>
+  <string name="clock_date_style_lowercase">Małe litery</string>
+  <string name="clock_date_style_uppercase">Wielkie litery</string>
+  <string name="clock_date_format_custom">Niestandardowy format Java</string>
   <string name="cancel">Anuluj</string>
+  <string name="save">Zapisz</string>
   <string name="clock_font_style_title">Czcionka</string>
   <string name="clock_font_size_title">Rozmiar czcionki</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Próbnik kolorów</string>
+  <string name="press_color_to_apply">Naciśnij na kolor poniżej, aby zastosować</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
   <string name="color_default">Domyślne</string>
   <!-- Navigation Bar -->
   <string name="navbar_tint_switch">Odcień przycisku nawigacji</string>
@@ -335,6 +355,8 @@
   <string name="smartbar_config_backup_error_toast">Wystąpił błąd podczas zapisywania ustawień SmartBar</string>
   <string name="smartbar_config_restore_error_toast">Wystąpił błąd podczas przywracania ustawień SmartBar</string>
   <string name="navbar_buttons_alpha_title">Przezroczystość przyciksów</string>
+  <string name="smartbar_longpress_delay_normal">Normalne opóźnienie</string>
+  <string name="smartbar_longpress_delay_long">Opóźnienie</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
   <string name="quick_settings_vibrate_summary">Wibracje podczas dotykania przełączników</string>
@@ -356,10 +378,13 @@
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Opcje czcionek</string>
   <string name="lock_clock_font_summary">Zmień czcionkę widżetu zegara na ekranie blokady</string>
+  <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Pogrubiona</string>
   <string name="lock_clock_font_italic">Kursywa</string>
   <string name="lock_clock_font_bold_italic">Pogrubiona kursywa</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (domyślna)</string>
   <string name="lock_clock_font_light_italic">Cienka kursywa</string>
+  <string name="lock_clock_font_thin_normal">Roboto Thin</string>
   <string name="lock_clock_font_thin_italic">Cienka kursywa</string>
   <string name="lock_clock_font_condensed_normal">Zagęszczona</string>
   <string name="lock_clock_font_condensed_bold">Zagęszczona pogrubiona</string>
@@ -367,8 +392,19 @@
   <string name="lock_clock_font_condensed_bold_italic">Zagęszczona pogrubiona kursywa</string>
   <string name="lock_clock_font_medium_normal">Średnie</string>
   <string name="lock_clock_font_medium_italic">Średnia kursywa</string>
+  <string name="lock_clock_font_black_normal">Roboto Black</string>
+  <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+  <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
+  <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+  <string name="lock_clock_font_dancingscript">DancingScript</string>
+  <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
   <string name="lock_clock_font_comingsoon">Wkrótce</string>
+  <string name="lock_clock_font_notoserif">NotoSerif normalny</string>
+  <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+  <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+  <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
   <!-- Lockscreen weather -->
+  <string name="display_category_weather_title">Pogoda na ekranie blokady</string>
   <string name="lock_screen_weather_settings_title">Pogoda</string>
   <string name="weather_cat_notifications_title">Powiadomienia</string>
   <string name="weather_show_weather_title">Pokaż pogodę</string>
@@ -413,6 +449,7 @@
   <!-- Wakelock blocker -->
   <string name="wakelockblocker_category">Blokada wybudzeń</string>
   <string name="wakelock_blocker_summary">Blokuj wybudzenia systemowe</string>
+  <string name="wakelock_blocker_save">Zapisz</string>
   <string name="wakelock_list_header">Dostępne wybudzenia</string>
   <string name="wakelock_blocker_reload">Załaduj ponownie</string>
   <string name="wakelock_blocker_warning_title">Postępuj ostrożnie</string>
@@ -431,6 +468,7 @@
   <string name="ticker_font_style_title">Styl czcionki</string>
   <string name="ticker_font_size_title">Rozmiar czcionki</string>
   <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">Elementy ekranu blokady</string>
   <string name="hide_lockscreen_clock_title">Pokaż zegar na ekranie blokady</string>
   <string name="hide_lockscreen_date_title">Pokaż datę na ekranie blokady</string>
   <string name="hide_lockscreen_alarm_title">Pokaż alarm na ekranie blokady</string>
@@ -543,7 +581,9 @@
   <string name="status_bar_battery_style_bigcircle">Duże koło</string>
   <string name="status_bar_battery_style_circle_full">Pełne koło</string>
   <string name="status_bar_battery_style_text">Tekst</string>
+  <string name="status_bar_battery_style_hidden">Ukryte</string>
   <string name="status_bar_battery_percentage_title">Procent baterii</string>
+  <string name="status_bar_battery_percentage_default">Ukryte</string>
   <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
   <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
   <string name="battery_tile_style_title">Styl ikony baterii w kafelkach Szybkich Ustawień</string>
@@ -670,6 +710,7 @@
   <string name="alarm_blocker">Blokada alarmów</string>
   <string name="alarm_blocker_title">Włącz</string>
   <string name="alarm_blocker_summary">Blokuj alarmy, kiedy ekran jest wyłączony</string>
+  <string name="alarm_blocker_save">Zapisz</string>
   <string name="alarm_list_header">Dostępne alarmy</string>
   <string name="alarm_blocker_reload">Załaduj ponownie</string>
   <string name="alarm_blocker_warning_title">Postępuj ostrożnie</string>
@@ -706,6 +747,7 @@
   <string name="qs_date_time_center_title">Wyśrodkuj datę i czas</string>
   <string name="qs_date_time_center_summary">Wymaga jednej lub więcej ikon do wyłączenia</string>
   <!-- Battery Bar fragment -->
+  <string name="battery_bar_title">Pasek baterii</string>
   <string name="battery_bar">Pasek baterii</string>
   <string name="battery_bar_no_navbar">Pasek baterii</string>
   <string name="battery_bar_color">Kolor paska baterii</string>
@@ -909,6 +951,7 @@
   <string name="shortcuts_icon_picker_unlock">Odblokuj</string>
   <string name="empty_title">Pusty</string>
   <string name="normal_title">Normalny</string>
+  <string name="hidden_title">Ukryte</string>
   <string name="position_title">Pozycja</string>
   <string name="position_right_title">Po prawej</string>
   <string name="position_centered_title">Wyśrodkowany</string>
@@ -975,4 +1018,6 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <string name="incall_vibrate_call_wait_title">Wibracje podczas oczekiwania na połączenie</string>
+  <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
 </resources>

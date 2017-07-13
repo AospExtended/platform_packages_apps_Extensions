@@ -1059,4 +1059,8 @@
   <string name="data_disabled_icon_title">Zobraziť ikonu pri vypnutí dát</string>
   <string name="data_disabled_icon_summary">Zobraziť znak X na ikone signálu siete, keď sú dáta vynuté</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Nastavenie vibrácií pri hovore</string>
+  <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
+  <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
+  <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
 </resources>

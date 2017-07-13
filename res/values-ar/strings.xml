@@ -855,6 +855,7 @@
   <string name="status_bar_show_image">اظهر الصورة</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim recents</string>
+  <string name="use_slim_recents_title">إستخدام كبديل لشاشة التطبيقات الأخيرة</string>
   <string name="use_slim_recents_summary">إستخدم Slim Recents بدلاً من عرض التطبيقات الأخيرة الإفتراضي</string>
   <string name="slim_recents_settings_title">إعدادات Slim Recents</string>
   <string name="slim_recents_settings_summary">إعرض إعدادات Slim Recents</string>
@@ -914,6 +915,7 @@
   <string name="shortcut_duplicate_entry">الإجراء المختار لا يمكن إضافته مرتين</string>
   <string name="shortcut_action_help_shortcut">إختصار</string>
   <string name="shortcut_action_help_button">زر</string>
+  <string name="shortcut_action_help_app">app</string>
   <string name="shortcut_action_help_icon">، أثناء إختيار الرمز سيتم إستدعاء خيارات التخصيص</string>
   <string name="shortcut_action_help_main">لإضافة %1$s، إختر إضافة رمز. عندما يتم إختيار الـ%1$s، إختيار الصف سيغير%2$sالهدف\n\nلإزالة %1$s، إسحب الصف أفقياً لليمين أو لليسار. لإعادة ترتيب %1$s في القائمة عن طريق السحب الرأسي للمرساة على اليسار.\n\nلمسح أو إعادة الضيط للإفتراضي، إختر رمز إستعادة الضبط.</string>
   <string name="shortcut_action_help_delete_last_entry">حذف كل %1$s في القائمة سيعطل المزيّة تماماً.</string>
@@ -1029,6 +1031,7 @@
   <string name="shortcut_duplicate_entry">الإجراء المختار لا يمكن إضافته مرتين</string>
   <string name="shortcut_action_help_shortcut">إختصار</string>
   <string name="shortcut_action_help_button">زر</string>
+  <string name="shortcut_action_help_app">app</string>
   <string name="shortcut_action_help_icon">، أثناء إختيار الرمز سيتم إستدعاء خيارات التخصيص</string>
   <string name="shortcut_action_help_main">لإضافة %1$s، إختر إضافة رمز. عندما يتم إختيار الـ%1$s، إختيار الصف سيغير%2$sالهدف\n\nلإزالة %1$s، إسحب الصف أفقياً لليمين أو لليسار. لإعادة ترتيب %1$s في القائمة عن طريق السحب الرأسي للمرساة على اليسار.\n\nلمسح أو إعادة الضيط للإفتراضي، إختر رمز إستعادة الضبط.</string>
   <string name="shortcut_action_help_delete_last_entry">حذف كل %1$s في القائمة سيعطل المزيّة تماماً.</string>
@@ -1036,6 +1039,7 @@
   <!-- SlimSizer  -->
   <string name="caution">تحذير!</string>
   <string name="sizer_message_startup">هذه الأداة تسمح لك بحذف تطبيقات النظام. إستخدمها بحذر وإحذف فقط التطبيقات التي تعلم أنه من الآمن حذفها.</string>
+  <string name="sizer_message_delete">هل أنت متأكد؟</string>
   <string name="btn_delete">إحذف التطبيقات المحددة الآن!</string>
   <string name="delete_progress_title">جارِ الحذف</string>
   <string name="delete_progress">يتم حذف الملفات المختارة...</string>
@@ -1057,4 +1061,8 @@
   <string name="data_disabled_icon_title">إظهار رمز تعطيل بيانات الهاتف</string>
   <string name="data_disabled_icon_summary">عرض إشارة التقاطع بجانب شريط الإشارة عندما تكون البيانات معطّلة</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">إعدادات الإهتزاز أثناء المكالمة</string>
+  <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
+  <string name="incall_vibrate_call_wait_title">إهتزاز عند إنتظار المكالمة</string>
+  <string name="incall_vibrate_disconnect_title">إهتزاز عند قطع الإتصال</string>
 </resources>

@@ -1059,4 +1059,8 @@
   <string name="data_disabled_icon_title">Afficher l\'icône lorsque les données sont désactivées</string>
   <string name="data_disabled_icon_summary">Afficher une croix à côté du signal lorsque les données sont désactivées</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Options de vibration en appel</string>
+  <string name="incall_vibrate_connect_title">Vibrer lors de la connexion</string>
+  <string name="incall_vibrate_call_wait_title">Vibrer quand un appel est en attente</string>
+  <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>
 </resources>

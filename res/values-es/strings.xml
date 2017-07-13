@@ -376,7 +376,7 @@
   <string name="voicemail_breath_title">Efecto respiración para buzón de voz</string>
   <string name="voicemail_breath_summary">Activará efecto de respiración en las notificaciones del buzón de voz en la barra de estado</string>
   <string name="sms_breath_title">Efecto respiración para los SMS</string>
-  <string name="sms_breath_summary">Activar efecto de respiración en las notificaciones de los Sms en la barra de estado</string>
+  <string name="sms_breath_summary">Activara efecto de respiración en las notificaciones de los Mensajes en la barra de estado</string>
   <!-- Quick settings tiles columns and rows config -->
   <string name="qs_layout_category">Diseño de ajustes rápidos</string>
   <string name="qs_rows_portrait_title">Filas (vertical)</string>
@@ -835,7 +835,7 @@
   <string name="ticker_enabled">Ticker de notificacion</string>
   <string name="ticker_media_enabled">Ticker De música y notificaciones</string>
   <!-- Wired headset ringtone audio focus -->
-  <string name="wired_ringtone_focus_mode_title">Donde reproducir los tonos de llamada de</string>
+  <string name="wired_ringtone_focus_mode_title">Donde reproducir los tonos de llamadas</string>
   <string name="wired_ringtone_focus_mode_dynamic">Auricular con cable si se conecta y reproduce música</string>
   <string name="wired_ringtone_focus_mode_stock">Altavoz y auricular (por defecto)</string>
   <!-- QS Easy Toggle -->
@@ -1059,4 +1059,8 @@
   <string name="data_disabled_icon_title">Mostrar icono de datos deshabilitados</string>
   <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos esten deshabilitados</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opciones de vibración en llamada</string>
+  <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+  <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+  <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
 </resources>

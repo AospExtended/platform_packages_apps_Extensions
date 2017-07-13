@@ -18,7 +18,9 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">विस्तार</string>
   <string name="add">जोड़ें</string>
+  <string name="cancel">रद्द करें</string>
   <string name="choose_app">एप्लीकेशन को चुनें</string>
   <string name="music_category">संगीत</string>
   <string name="dlg_ok">ठीक है</string>
@@ -26,6 +28,8 @@
   <string name="color_title">रंग</string>
   <!-- Extensions categories -->
   <string name="recents_category">हाल ही के</string>
+  <string name="system_category">सिस्टम</string>
+  <string name="statusbar_items_category">स्थिति बार आइटम</string>
   <string name="toast">टोस्ट</string>
   <string name="listview">सूची दृश्य</string>
   <!-- App info dialog -->
@@ -46,6 +50,7 @@
   <!-- Double tap-to-sleep -->
   <!-- Toast Icons -->
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">अतिरिक्त सूचना नियंत्रण</string>
   <!-- Force expanded notifications -->
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
@@ -64,11 +69,15 @@
   <string name="network_traffic_autohide">स्वतः छुपाना</string>
   <!-- Statusbar Clock options -->
   <string name="clock_am_pm_date_normal">सामान्य</string>
+  <string name="cancel">रद्द करें</string>
   <!-- Color Picker -->
   <string name="color_default">डिफ़ाल्ट</string>
   <!-- Navigation Bar -->
   <string name="navigationbar_settings_title">नेविगेशन पट्टी</string>
   <string name="smartbar_interface">स्मार्ट पट्टी</string>
+  <string name="picker_activities">गतिविधियाँ</string>
+  <string name="select_custom_app_title">कस्टम ऐप का चयन करें</string>
+  <string name="select_custom_activity_title">कस्टम गतिविधि चुनें</string>
   <string name="default_string">डिफ़ाल्ट</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">क्रिया चुनें</string>
@@ -176,6 +185,7 @@
   <string name="shortcut_action_add">जोड़ें</string>
   <string name="shortcuts_icon_default">डिफ़ाल्ट</string>
   <string name="shortcuts_icon_custom">गैलरी</string>
+  <string name="shortcuts_icon_picker_alarm">अलार्म</string>
   <string name="shortcuts_icon_picker_gallery">गैलरी</string>
   <string name="shortcuts_icon_picker_music">संगीत</string>
   <string name="shortcuts_icon_picker_play">चलायें</string>

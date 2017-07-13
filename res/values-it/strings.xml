@@ -1061,4 +1061,8 @@
   <string name="data_disabled_icon_title">Mostra icona dati disabilitati</string>
   <string name="data_disabled_icon_summary">Mostra una X accanto alla barra del segnale quando i dati sono disabilitati</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opzioni di vibrazione per le chiamate</string>
+  <string name="incall_vibrate_connect_title">Vibra alla connessione</string>
+  <string name="incall_vibrate_call_wait_title">Vibra per chiamata in attesa</string>
+  <string name="incall_vibrate_disconnect_title">Vibra alla disconnessione</string>
 </resources>

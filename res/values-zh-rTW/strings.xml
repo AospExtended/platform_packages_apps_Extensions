@@ -1061,4 +1061,8 @@
   <string name="data_disabled_icon_title">顯示數據停用圖示</string>
   <string name="data_disabled_icon_summary">當數據停用時，顯示圖示旁邊的「×」圖示</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">通話中震動選項</string>
+  <string name="incall_vibrate_connect_title">連接時震動</string>
+  <string name="incall_vibrate_call_wait_title">通話等待時震動</string>
+  <string name="incall_vibrate_disconnect_title">斷開連接時震動</string>
 </resources>

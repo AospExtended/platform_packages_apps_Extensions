@@ -42,6 +42,7 @@
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_duration_default">পূর্ব-নির্ধারিত</string>
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
   <!-- Home button wake up -->
@@ -49,7 +50,9 @@
   <!-- Statusbar Clock options -->
   <string name="cancel">বাতিল</string>
   <!-- Color Picker -->
+  <string name="color_default">পূর্ব-নির্ধারিত</string>
   <!-- Navigation Bar -->
+  <string name="default_string">পূর্ব-নির্ধারিত</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
   <!-- Pulse navigation bar music visualizer -->
@@ -80,6 +83,12 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">পুনরায় শুরু করুন</string>
+  <string name="power_menu_screenshot_title">স্ক্রীনসর্ট</string>
+  <string name="power_menu_screenrecord_title">স্ক্রীন রেকর্ডার</string>
+  <string name="power_menu_torch_title">ফ্লাসলাইট</string>
+  <string name="power_menu_onthego_title">যান মোড</string>
+  <string name="power_menu_search_title">অনুসন্ধান</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -97,8 +106,13 @@
   <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">পূর্ব-নির্ধারিত</string>
   <!-- Toast Animation -->
+  <string name="toast_default_animation">পূর্ব-নির্ধারিত</string>
+  <string name="toast_fade_animation">বিলিন হয়ে যাওয়া</string>
+  <string name="toast_Translucent_animation">আলোক-ভেদ্য</string>
   <!-- ListView animation -->
+  <string name="listview_off">পূর্ব-নির্ধারিত</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Alarm blocker -->
@@ -122,6 +136,8 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcuts_icon_default">পূর্ব-নির্ধারিত</string>
+  <string name="shortcuts_icon_picker_search">অনুসন্ধান</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->

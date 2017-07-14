@@ -87,6 +87,7 @@
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="positive_done">पूर्ण</string>
   <!-- SmartBar -->
   <string name="smartbar_category">स्मार्ट पट्टी</string>
   <string name="smartbar_ime_action_none">कोई नहीं</string>
@@ -187,17 +188,20 @@
   <string name="shortcuts_icon_custom">गैलरी</string>
   <string name="shortcuts_icon_picker_alarm">अलार्म</string>
   <string name="shortcuts_icon_picker_gallery">गैलरी</string>
+  <string name="shortcuts_icon_picker_help">मदद</string>
   <string name="shortcuts_icon_picker_music">संगीत</string>
   <string name="shortcuts_icon_picker_play">चलायें</string>
   <string name="shortcuts_icon_picker_search">खोज</string>
   <string name="empty_title">खाली</string>
   <string name="normal_title">सामान्य</string>
+  <string name="help">मदद</string>
   <string name="profiles_add">जोड़ें</string>
   <string name="profile_choose_app">एप्लीकेशन को चुनें</string>
   <string name="choose_app">एप्लीकेशन को चुनें</string>
   <!-- Lockscreen shortcuts -->
   <string name="shortcut_action_none">कोई नहीं</string>
   <string name="shortcut_action_home">होम</string>
+  <string name="shortcut_action_back">वापस जाएं</string>
   <string name="shortcut_action_menu">मेन्यू</string>
   <string name="shortcut_action_power_menu">पावर मेनू</string>
   <string name="shortcut_action_recent">हाल ही के</string>

@@ -355,12 +355,16 @@
   <string name="smartbar_config_backup_error_toast">Wystąpił błąd podczas zapisywania ustawień SmartBar</string>
   <string name="smartbar_config_restore_error_toast">Wystąpił błąd podczas przywracania ustawień SmartBar</string>
   <string name="navbar_buttons_alpha_title">Przezroczystość przyciksów</string>
+  <string name="smartbar_longpress_delay_title">Opóźnienie przytrzymania przycisku</string>
+  <string name="smartbar_longpress_delay_default">Domyślne opóźnienie (szybko)</string>
   <string name="smartbar_longpress_delay_normal">Normalne opóźnienie</string>
   <string name="smartbar_longpress_delay_long">Opóźnienie</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
   <string name="quick_settings_vibrate_summary">Wibracje podczas dotykania przełączników</string>
   <!-- Do not Disturb switch in volume panel -->
+  <string name="tuner_full_zen_title">Przełącznik trybu nie przeszkadzać</string>
+  <string name="tuner_full_zen_summary">Pokaż przełącznik Nie Przeszkadzać na panelu głośności</string>
   <!-- Breathing Notifications -->
   <string name="breathing_notifications_title">Animowane powiadomienia</string>
   <string name="missed_call_breath_title">Animowana ikona nieodebranego połączeniach</string>
@@ -608,6 +612,8 @@
   <string name="recents_clear_all_location_bottom_center">U dołu po środku</string>
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Pokaż pasek pamięci</string>
+  <string name="systemui_recents_mem_display_summaryOn">Pasek RAM włączony</string>
+  <string name="systemui_recents_mem_display_summaryOff">Pasek RAM wyłączony</string>
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">Ukryte aplikacje</string>
   <string name="hide_from_recents_add_app">Dodaj aplikację</string>
@@ -943,6 +949,7 @@
   <string name="shortcuts_icon_picker_rss">Kanał RSS</string>
   <string name="shortcuts_icon_picker_sdcard">Karta SD</string>
   <string name="shortcuts_icon_picker_search">Szukaj</string>
+  <string name="shortcuts_icon_picker_sms">Wiadomości</string>
   <string name="shortcuts_icon_picker_tasks">Zadania</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
   <string name="shortcuts_icon_picker_transit">Przejście</string>
@@ -960,6 +967,7 @@
   <string name="profiles_add">Dodaj</string>
   <string name="profile_choose_app">Wybierz aplikację</string>
   <string name="profile_reset_title">Resetuj</string>
+  <string name="show_title">Pokaż</string>
   <string name="choose_app">Wybierz aplikację</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">Górne skróty</string>
@@ -1013,11 +1021,14 @@
   <string name="delete_progress">Wybrane pliki są usuwane...</string>
   <string name="sizer_message_noselect">Nic nie zaznaczono.</string>
   <string name="system_app_remover">Narzędzie usuwania aplikacji systemowych</string>
+  <string name="sizer_message_success">Sukces</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
   <string name="incall_vibrate_call_wait_title">Wibracje podczas oczekiwania na połączenie</string>
   <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
 </resources>

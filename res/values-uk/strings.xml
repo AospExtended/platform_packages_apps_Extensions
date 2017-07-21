@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Стандартна затримка (швидко)</string>
   <string name="smartbar_longpress_delay_normal">Нормальна затримка</string>
   <string name="smartbar_longpress_delay_long">Довга затримка</string>
+  <string name="smartbar_custom_icon_size_title">Налаштування масштабування піктограм</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Вібрація при дотику</string>
   <string name="quick_settings_vibrate_summary">Вібрувати при дотику до плитки</string>
@@ -1059,4 +1060,8 @@
   <string name="data_disabled_icon_title">Відображати іконку вимкнених даних</string>
   <string name="data_disabled_icon_summary">Відображення хрестика поруч з рівнем сигналу, коли дані вимкнуто</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Параметри вібрації під час дзвінка</string>
+  <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+  <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
+  <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
 </resources>

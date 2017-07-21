@@ -26,7 +26,7 @@
   <string name="general_category">Xeral</string>
   <string name="gestures_category">Xestos</string>
   <string name="music_category">Música</string>
-  <string name="weather_category">Clima na pantalla de bloqueo</string>
+  <string name="weather_category">Clima na pantalla de broqueo</string>
   <string name="security_category">Seguridade</string>
   <string name="hardware_category">Hardware</string>
   <string name="animations_category">Animacións dos axustes rápidos</string>
@@ -34,6 +34,7 @@
   <string name="aosp_recents_category">Recentes de AOSP</string>
   <string name="dlg_ok">Aceptar</string>
   <string name="loading">Cargando\u2026</string>
+  <string name="reset">Restablecer</string>
   <string name="reset_colors">Restablecer colores</string>
   <string name="reset_android">Android</string>
   <string name="text_title">Texto</string>
@@ -44,7 +45,7 @@
   <string name="recents_category">Recentes</string>
   <string name="notifications_panel_category">Panel de notificacións</string>
   <string name="system_category">Sistema</string>
-  <string name="lockscreen_category">Pantalla de bloqueo</string>
+  <string name="lockscreen_category">Pantalla de broqueo</string>
   <string name="statusbar_items_category">Obxectos da barra de estado</string>
   <string name="navigation_category">Navegación</string>
   <string name="breathing_notifications_category">Efecto respiración nas notificacións</string>
@@ -80,9 +81,9 @@
   <!-- Recents UI -->
   <string name="recents_ui_title">IU de recentes</string>
   <!-- Lockscreen UI -->
-  <string name="lockscreen_ui_title">IU da pantalla de bloqueo</string>
+  <string name="lockscreen_ui_title">IU da pantalla de broqueo</string>
   <!-- Lockscreen Shortcuts -->
-  <string name="lockscreen_shortcuts">Atallos da pantalla de bloqueo</string>
+  <string name="lockscreen_shortcuts">Atallos da pantalla de broqueo</string>
   <!-- Buttons -->
   <string name="buttons_title">Botóns</string>
   <!-- Blur -->
@@ -172,29 +173,80 @@
   <string name="status_bar_show_clock_title">Amosar reloxo &amp; data</string>
   <string name="status_bar_clock_seconds_title">Amosar os segundos</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">O reloxo en formato 24 horas está habilitado</string>
+  <string name="right_clock">Reloxo á dereita</string>
+  <string name="center_clock">Reloxo centrado</string>
+  <string name="left_clock">Reloxo á esquerda</string>
+  <string name="clock_date_display">Data</string>
+  <string name="clock_date_style">Estilo da data</string>
+  <string name="clock_date_position">Posición da data</string>
+  <string name="clock_date_format">Formato da data</string>
+  <string name="clock_date_string_edittext_title">Debe estar nun formato de data, por exemplo MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Introducir texto</string>
+  <string name="clock_date_right">Dereita da hora</string>
+  <string name="clock_date_left">Esquerda da hora</string>
   <string name="clock_am_pm_date_normal">Normal</string>
+  <string name="clock_am_pm_date_small">Pequeno</string>
+  <string name="clock_am_pm_date_none">Agochado</string>
+  <string name="clock_date_style_lowercase">Minúsculas</string>
+  <string name="clock_date_style_uppercase">Maiúsculas</string>
+  <string name="clock_date_format_custom">Formato de Java personalizado</string>
   <string name="cancel">Cancelar</string>
+  <string name="save">Gardar</string>
+  <string name="clock_font_style_title">Fonte</string>
+  <string name="clock_font_size_title">Tamaño da fonte</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Escogedor de cores</string>
+  <string name="press_color_to_apply">Presionar na cor de abaixo para aplicar</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Definir</string>
   <string name="color_default">Por defecto</string>
   <!-- Navigation Bar -->
+  <string name="navbar_tint_switch">Alternador da cor do botón da barra de navegación</string>
+  <string name="navbar_button_color">Botons da barra de navegación</string>
+  <string name="navbar_interface_title">Interfaz</string>
+  <string name="navbar_size">Tamaño da barra</string>
+  <string name="navbar_mode">Modo da barra de navegación</string>
+  <string name="navbar_visibility">Habilitar barra de navegación</string>
   <string name="navigationbar_settings_title">Barra de navegación</string>
+  <string name="navigationbar_settings_summary">Personalizar a barra de navegación e o comportamento</string>
   <string name="navbar_general_title">Avanzado</string>
+  <string name="navigation_bar_left_title">Modo a man esquerda</string>
+  <string name="navigation_bar_left_summary">Sitúa a barra de navegación na parte esquerda da pantalla en modo apaisado</string>
+  <string name="info_pref_note_title">Nota</string>
   <string name="smartbar_interface">Barra intelixente de axustes rapidos</string>
+  <string name="icon_pack_picker_dialog_title">Paquete de iconas</string>
+  <string name="image_exceeds_max_allowed_size">A imaxe non debe exceder o tamaño de 512x512</string>
+  <string name="invalid_icon_from_uri">Non se puido cargar a imaxe dende o proovedor de contido</string>
   <string name="picker_activities">Actividades</string>
   <string name="select_custom_app_title">Seleccionar aplicativo personalizado</string>
   <string name="select_custom_activity_title">Seleccionar actividade personalizada</string>
+  <string name="profile_applist_title">Aplicativos</string>
   <string name="default_string">Por defecto</string>
+  <string name="reset">Restablecer</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Escoller acción</string>
+  <string name="action_entry_default_action">Axustes por defecto</string>
   <string name="action_entry_select_app">Seleccionar aplicativo</string>
+  <string name="action_entry_custom_action">Seleccionar acción personalizada</string>
   <!-- Fling -->
+  <string name="fling_settings">Axustes do arrastre</string>
   <string name="fling_interface">Lanzar</string>
-  <string name="fling_short_swipe_right">Deslizamento curto hacia a dereita</string>
-  <string name="fling_short_swipe_left">Deslizamento curto hacia a esquerda</string>
-  <string name="fling_long_swipe_right">Deslizamento longo hacia a dereita</string>
-  <string name="fling_long_swipe_left">Deslizamento longo hacia a esquerda</string>
-  <string name="fling_right_up_swipe">Deslizar dende a dereita ata arriba</string>
-  <string name="fling_left_up_swipe">Deslizar dende a esquerda ata arriba</string>
+  <string name="fling_enable_title">Habilitar o arrastre</string>
+  <string name="fling_back_home_policy">Atrás e Inicio son necesarios para ser definidos en todos os momentos. Para cambiar as asignacións de Atrás ou Inicio, establezca as asignacións desexadas primeiro</string>
+  <string name="fling_split_bar_policy">Cando solo se establece unha acción de esquerda ou dereita, a acción aplicase a toda a barra</string>
+  <string name="fling_def_summary">Sen accións definidas</string>
+  <string name="fling_swipe_actions">Xestos de arrastre</string>
+  <string name="fling_tap_actions">Xestos do toque</string>
+  <string name="fling_short_swipe_right">Arrastre curto hacia a dereita</string>
+  <string name="fling_short_swipe_left">Arrastre curto hacia a esquerda</string>
+  <string name="fling_long_swipe_right">Arrastre longo hacia a dereita</string>
+  <string name="fling_long_swipe_left">Arrastre longo hacia a esquerda</string>
+  <string name="fling_right_up_swipe">Arrastre dende a dereita ata arriba</string>
+  <string name="fling_left_up_swipe">Arrastre dende a esquerda ata arriba</string>
   <string name="fling_single_tap">Toque simple na dereita</string>
   <string name="fling_double_tap">Toque dobre na dereita</string>
   <string name="fling_long_press">Premido longo na dereita</string>
@@ -203,43 +255,156 @@
   <string name="fling_long_left_press">Premido longo na esquerda</string>
   <string name="long_swipe_portrait_title">Retrato</string>
   <string name="long_swipe_landscape_title">Apaisado</string>
-  <string name="portrait_right_swipe_title">Deslizar a dereita para retrato</string>
-  <string name="portrait_left_swipe_title">Deslizar para a esquerda para retrato</string>
-  <string name="landscape_right_swipe_title">Delizar a dereita para apaisado</string>
-  <string name="landscape_left_swipe_title">Deslizar a esquerda para apaisado</string>
-  <string name="vertical_up_swipe_title">Deslizar cara arriba en vertical</string>
-  <string name="vertical_down_swipe_title">Delizar cara abaixo en vertical</string>
-  <string name="up_swipe_title">Delizar cara arriba</string>
-  <string name="down_swipe_title">Delizar cara abaixo</string>
+  <string name="portrait_right_swipe_title">Arrastre a dereita para retrato</string>
+  <string name="portrait_left_swipe_title">Arrastre para a esquerda para retrato</string>
+  <string name="landscape_right_swipe_title">Arrastre a dereita para apaisado</string>
+  <string name="landscape_left_swipe_title">Arrastre a esquerda para apaisado</string>
+  <string name="vertical_up_swipe_title">Arrastre cara arriba en vertical</string>
+  <string name="vertical_down_swipe_title">Arrastre cara abaixo en vertical</string>
+  <string name="up_swipe_title">Arrastrar cara arriba</string>
+  <string name="down_swipe_title">Arrastrar cara abaixo</string>
+  <string name="long_swipe_reset">Restablecer</string>
   <string name="fling_advanced">Avanzado</string>
+  <string name="fling_long_swipe_title">Umbral de arrastre longo</string>
+  <string name="fling_long_swipe_summary">Afinar os umbrales para o arrastre longo basados nun porcenaxe da anchura ou altura da interface Fling</string>
+  <string name="fling_trails_enable_title">Habilitar o rastro dos xestos</string>
+  <string name="fling_trails_enable_summary">Amosar os rastros nos xestos de escorregamento</string>
+  <string name="fling_trails_color_title">Color do rastro</string>
+  <string name="fling_trails_width_title">Anchura do rastro</string>
+  <string name="fling_appearance">Aparencia</string>
+  <string name="fling_show_logo_title">Amosar o logo de Fling</string>
+  <string name="fling_animate_logo_title">Logo animado</string>
+  <string name="fling_animate_logo_summary">Animar o logo nos eventos táctiles</string>
+  <string name="fling_logo_color">Cor do logo</string>
+  <string name="fling_logo_custom_logo_pick_title">Cor de logo personalizado</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Imaxe de logo personalizada</string>
+  <string name="fling_logo_custom_logo_reset_title">Redefinir a icona do logo</string>
+  <string name="fling_show_ripple_title">Amosar onda</string>
+  <string name="fling_show_ripple_summary">Efecto onda nos eventos táctiles</string>
+  <string name="fling_ripple_color">Cor da onda</string>
+  <string name="fling_longpress_timeout_label_left">Menos retardo</string>
+  <string name="fling_longpress_timeout_label_right">Máis retardo</string>
+  <string name="fling_longpress_title">Restraso do premido longo</string>
+  <string name="fling_longpress_summary">Aumenta ou diminúe o tempo necesario para executar un premido longo</string>
   <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_help_policy_notice_title">Acerca de Pulse</string>
+  <string name="pulse_help_policy_notice_summary">Pulse é un brillante equalizador gráfico de son na barra de navegación que se activa cando a música sone. Pulse non funciona con algunhas fontes de audio cando se escoita no altavoz do dispositivo</string>
+  <string name="pulse_settings">Pulse</string>
+  <string name="pulse_settings_summary">Ecualizador gráfico da barra de navegación</string>
+  <string name="fling_show_pulse_title">Amosar Pulse</string>
+  <string name="fling_show_pulse_summary">Ecualizador gráfico na barra de navegación</string>
+  <string name="pulse_render_mode_title">Modo de renderizado</string>
+  <string name="pulse_render_mode_fading_bars">Fundido dos bloques</string>
+  <string name="pulse_render_mode_solid_lines">Liñas sólidas</string>
+  <string name="fling_pulse_color">Cor de Pulse</string>
+  <string name="eos_fling_lavalamp_title">Acender a lámpada de lava</string>
+  <string name="eos_fling_lavalamp_summary">Pulse crea unha animación suave de cores ao estilo de unha lámpada de lava</string>
   <string name="pulse_advanced_category">Avanzado</string>
+  <string name="pulse_legacy_mode_advanced_category">Axustes do modo fundido dos bloques</string>
+  <string name="pulse_custom_fudge_factor">Nivel de cordura</string>
+  <string name="lavamp_solid_speed_title">Velocidade da lámpada de lava</string>
+  <string name="pulse_solid_units_count">Contador das liñas sólidas</string>
+  <string name="pulse_solid_lines_count">Contador das liñas sólidas</string>
+  <string name="pulse_solid_units_opacity">Opacidade das liñas sólidas</string>
+  <string name="pulse_solid_dimen_category">Axustes do modo das liñas sólidas</string>
+  <string name="fling_lavalamp_color_from">Cor inicial da lámpada de lava</string>
+  <string name="fling_lavalamp_color_to">Cor final da lámpada de lava</string>
+  <string name="pulse_custom_buttons_opacity_title">Opacidad dos botóns da barra intelixente cando Pulse está aceso</string>
   <!-- Pulse config -->
+  <string name="pulse_custom_dimen">Ancho da barra</string>
+  <string name="pulse_custom_div">Espaciado da barra</string>
+  <string name="pulse_filled_block_size">Tamaño do bloque</string>
+  <string name="pulse_empty_block_size">Espaciado do bloque</string>
   <!-- Navbar height -->
+  <string name="navigation_bar_size_title">Tamaño da barra</string>
+  <string name="portrait_title">Altura do retrato</string>
+  <string name="land_vert_title">Anchura do apaisado</string>
+  <string name="land_hor_title">Altura do apaisado</string>
   <string name="positive_done">Feito</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Barra intelixente de axustes rapidos</string>
+  <string name="smartbar_settings_title">Axustes da barra intelixente</string>
+  <string name="smartbar_editor_title">Alternador editor de botones</string>
+  <string name="smartbar_editor_summary">Premido medio e arrastra para cambiar a posición. Premido longo para amosar o menu de edición. A posición dos botóns pode cambiar mentres se mostre o menú.</string>
+  <string name="smartbar_context_menu_position_title">Posición dos botóns de contexto</string>
+  <string name="smartbar_context_menu_position_summary">Establece a posición dos botns contextuais como se fosen selectores de menu e ime</string>
+  <string name="smartbar_right">Dereita</string>
+  <string name="smartbar_left">Esquerda</string>
+  <string name="smartbar_button_animation_title">Animación do botón tactil</string>
+  <string name="smartbar_button_animation_summary">Definir o estilo de animación dos botóns primarios cando estes estan premidos</string>
+  <string name="smartbar_button_animation_ripple">Onda</string>
+  <string name="smartbar_button_animation_spring">Resorte</string>
+  <string name="smartbar_button_animation_pixel">Pixel (todos os botóns)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (Soamente o botón de inicio)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Soamente o botón de inicio) e onda</string>
+  <string name="smartbar_factory_reset_title">Restablecer aos valores por defecto</string>
+  <string name="smartbar_factory_reset_confirm">Estás seguro que desexas restablecer a barra intelixente aos valores por defecto?</string>
+  <string name="smartbar_ime_action_title">Accións multimedia e métodos de entrada</string>
+  <string name="smartbar_ime_action_summary">Establece que botóns se amosaran cando o teclado amosase na pantalla ou a música está a soar</string>
   <string name="smartbar_ime_action_none">Ningún</string>
+  <string name="smartbar_ime_action_arrows">Frechas de entrada</string>
+  <string name="smartbar_ime_action_switcher">Selector de teclado</string>
+  <string name="smartbar_ime_action_dynamic">Frechas de entrada/multimedia</string>
+  <string name="smartbar_backup_current_config_title">Gardar o perfil</string>
+  <string name="smartbar_restore_config_title">Restaurar o perfil</string>
+  <string name="smartbar_config_name_edit_dialog_title">Nome de perfil da barra intelixente</string>
+  <string name="smartbar_config_name_edit_dialog_message">Introduzca nome ou deixe en branco</string>
+  <string name="smartbar_config_dialog_title">Perfiles da barra intelixente</string>
+  <string name="smartbar_config_backup_success_toast">Perfil da barra intelixente éxitosamente gardado</string>
+  <string name="smartbar_config_restore_success_toast">Perfil da barra intelixente éxitosamente restaurado</string>
+  <string name="smartbar_config_backup_error_toast">Error ao gardar o perfil da barra intelixente</string>
+  <string name="smartbar_config_restore_error_toast">Error ao restaurar o perfil da barra intelixente</string>
+  <string name="navbar_buttons_alpha_title">Transparencia do botón</string>
+  <string name="smartbar_longpress_delay_title">Retardo da pulsación larga do botón</string>
+  <string name="smartbar_longpress_delay_summary">Establece canto vai agardar o sistema antes de que se accione unha acción de pulsación longa</string>
+  <string name="smartbar_longpress_delay_default">Retardo por defecto (rápido)</string>
+  <string name="smartbar_longpress_delay_normal">Retardo normal</string>
+  <string name="smartbar_longpress_delay_long">Retardo longo</string>
   <!-- QuickSettings haptic feedback -->
+  <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
+  <string name="quick_settings_vibrate_summary">Vibrar ao tocar os mosaicos</string>
   <!-- Do not Disturb switch in volume panel -->
+  <string name="tuner_full_zen_title">Interruptor de non molestar</string>
+  <string name="tuner_full_zen_summary">Amosar un interruptor de non molestar no panel de volume</string>
   <!-- Breathing Notifications -->
   <string name="breathing_notifications_title">Efecto respiración nas notificacións</string>
+  <string name="missed_call_breath_title">Efecto respiración para as chamadas perdidas</string>
+  <string name="missed_call_breath_summary">Dará un efecto respiración ás chamadas perdidas na barra de estado</string>
   <!-- Quick settings tiles columns and rows config -->
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <!-- Lockscreen weather -->
   <string name="lock_screen_weather_settings_title">O Tempo</string>
   <string name="weather_cat_notifications_title">Notificacións</string>
+  <string name="weather_hide_panel_never_summary">O panel do tempo non se agochará</string>
+  <string name="weather_number_of_notifications_title">Número de notificacións</string>
   <string name="weather_config_title">Axustes de clima</string>
   <string name="weather_icon_pack_title">Paquete de iconas do clima</string>
+  <string name="lock_clock_title">Servizo do tempo</string>
   <!-- statusbar brightness control -->
+  <string name="status_bar_toggle_brightness">Control do brillo</string>
+  <string name="status_bar_toggle_brightness_summary">Axusta o brillo escorregando pola barra de estado</string>
   <!-- CM Lockscreen shortcuts -->
+  <string name="lockscreen_targets_summary">Personaliza os accesos directos das iconas nas esquinas</string>
+  <string name="lockscreen_targets_message">Accesos directos das esquinas da pantalla de broqueo</string>
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+  <string name="double_tap_sleep_anywhere_title">Dobre toque en calquera parte da pantalla para durmir</string>
+  <string name="double_tap_sleep_anywhere_summary">Dobre toque en calquera parte da pantalla de broqueo para durmir</string>
   <!-- Optional screenshot type -->
+  <string name="screenshot_type_title">Tipo de captura de pantalla</string>
+  <string name="screenshot_type_fullscreen">Facer capturas da pantalla completa</string>
+  <string name="screenshot_type_partial">Arrastre a selección cara a area a que queres facer a captura de pantalla</string>
   <!-- Screenshot delay -->
+  <string name="screenshot_options_category">Opcións de captura de pantalla</string>
+  <string name="screenshot_delay_title">Restraso da captura de pantalla</string>
+  <string name="screenshot_delay_summary">Axusta o tempo para cando unha captura de pantalla é feita</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Deshabilitar as notificacións de peche forzado</string>
+  <string name="disable_fc_notifications_summary">Isto agochará todas as notificacións de peche forzado</string>
   <!-- Lockscreen Torch toggle -->
+  <string name="keyguard_torch_title">Antorcha na pantalla de broqueo</string>
   <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_save">Gardar</string>
   <!-- Lockscreen cover art -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Status Bar Ticker -->
@@ -247,7 +412,11 @@
   <!-- Navbar dynamic color -->
   <!-- Heads up settings -->
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_5sec">5 segundos</string>
+  <string name="heads_up_time_out_10sec">10 segundos</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_1min">1 minuto</string>
+  <string name="heads_up_snooze_5min">5 Minutos</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Menu de enerxía</string>
   <string name="power_menu_reboot_title">Reiniciar</string>
@@ -270,6 +439,8 @@
   <string name="show_carrier_disabled">Deshabilitado</string>
   <!-- Battery customizations -->
   <string name="status_bar_battery_style_text">Texto</string>
+  <string name="status_bar_battery_style_hidden">Agochado</string>
+  <string name="status_bar_battery_percentage_default">Agochado</string>
   <string name="text_charging_symbol_default">Deshabilitado</string>
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
@@ -286,7 +457,11 @@
   <string name="toast_none_animation">Ningún</string>
   <string name="toast_default_animation">Por defecto</string>
   <string name="toast_fade_animation">Desvanecer</string>
+  <string name="toast_SlideRight_animation">Escorregar cara á dereita</string>
+  <string name="toast_SlideLeft_animation">Escorregar cara á esquerda</string>
   <string name="toast_Translucent_animation">Translúcido</string>
+  <string name="toast_SlideLeftRight_animation">Escorregar dende a esquerda a dereita</string>
+  <string name="toast_SlideRightLeft_animation">Escorregar de dereita a esquerda</string>
   <!-- ListView animation -->
   <string name="listview_off">Por defecto</string>
   <!-- ListView interpolator -->
@@ -297,6 +472,7 @@
   <string name="listview_bounce_interpolator">Rebote</string>
   <!-- Disable animations -->
   <!-- Alarm blocker -->
+  <string name="alarm_blocker_save">Gardar</string>
   <!-- Option to enable/disable scrolling cache -->
   <!-- Three finger swipe screenshot -->
   <!-- Launch music player when headset is connected -->
@@ -306,9 +482,13 @@
   <!-- Battery Bar fragment -->
   <!-- QS headers -->
   <!-- Screen state service -->
+  <string name="screen_state_toggles_location_title">Ubicación</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Status bar notification ticker -->
   <!-- Wired headset ringtone audio focus -->
+  <string name="wired_ringtone_focus_mode_title">Donde reproducir os tons de chamadas</string>
+  <string name="wired_ringtone_focus_mode_dynamic">Auricular con cable si se conecta e se reproduce música</string>
+  <string name="wired_ringtone_focus_mode_stock">Altavoz e auricular (por defecto)</string>
   <!-- QS Easy Toggle -->
   <!-- StatusBar weather settings -->
   <!-- Slim Recent panel -->
@@ -319,7 +499,9 @@
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
   <string name="shortcut_action_none">Ningún</string>
+  <string name="shortcut_action_reset">Restablecer</string>
   <string name="shortcut_action_add">Engadir</string>
+  <string name="shortcuts_applications">Aplicativos</string>
   <string name="shortcuts_icon_default">Por defecto</string>
   <string name="shortcuts_icon_custom">Galería</string>
   <string name="shortcuts_icon_picker_alarm">Alarma</string>
@@ -330,10 +512,14 @@
   <string name="shortcuts_icon_picker_play">Reproducir</string>
   <string name="shortcuts_icon_picker_quicksettings">Axustes rápidos</string>
   <string name="shortcuts_icon_picker_search">Procura</string>
+  <string name="shortcuts_icon_picker_sms">Mensaxes</string>
   <string name="normal_title">Normal</string>
+  <string name="hidden_title">Agochado</string>
+  <string name="position_right_title">Dereita</string>
   <string name="help">Axuda</string>
   <string name="profiles_add">Engadir</string>
   <string name="profile_choose_app">Escolle aplicativo</string>
+  <string name="profile_reset_title">Restablecer</string>
   <string name="choose_app">Escolle aplicativo</string>
   <!-- Lockscreen shortcuts -->
   <string name="shortcut_action_none">Ningún</string>
@@ -342,6 +528,7 @@
   <string name="shortcut_action_menu">Menu</string>
   <string name="shortcut_action_power_menu">Menu de enerxía</string>
   <string name="shortcut_action_recent">Recentes</string>
+  <string name="shortcut_action_reset">Restablecer</string>
   <string name="shortcut_action_add">Engadir</string>
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->

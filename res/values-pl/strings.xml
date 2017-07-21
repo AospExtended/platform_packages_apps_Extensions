@@ -33,6 +33,7 @@
   <string name="traffic_category">Wskaźnik ruchu sieciowego</string>
   <string name="aosp_recents_category">Ostatnio uruchomione AOSP</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Uwaga</string>
   <string name="loading">Ładowanie\u2026</string>
   <string name="reset">Resetuj</string>
   <string name="reset_colors">Resetuj kolory</string>
@@ -853,6 +854,7 @@
   <string name="recent_panel_show_topmost_summary">Nie wykluczaj aktualnie używanej aplikacji</string>
   <string name="recent_panel_bg_color_title">Kolor tła panelu</string>
   <string name="recent_card_bg_color_title">Kolor tła karty</string>
+  <string name="recent_reset_title">Przywróć kolor domyślny</string>
   <string name="slim_icon_pack_title">Pakiet ikon</string>
   <string name="slim_icon_pack_summary">Zastosuj niestandardową paczkę ikon dla aplikacji w panelu</string>
   <string name="no_iconpacks_summary">Nie zainstalowano zestawów ikon</string>
@@ -1021,6 +1023,7 @@
   <string name="delete_progress">Wybrane pliki są usuwane...</string>
   <string name="sizer_message_noselect">Nic nie zaznaczono.</string>
   <string name="system_app_remover">Narzędzie usuwania aplikacji systemowych</string>
+  <string name="sizer_message_error">Nie można odinstalować, sprawdź dostęp na poziomie administratora</string>
   <string name="sizer_message_success">Sukces</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->

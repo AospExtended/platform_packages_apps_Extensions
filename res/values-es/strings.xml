@@ -336,7 +336,7 @@
   <string name="smartbar_button_animation_title">Animación de botón táctil</string>
   <string name="smartbar_button_animation_summary">Definir el estilo de animación de los botones primarios cuando se pulsan</string>
   <string name="smartbar_button_animation_ripple">Onda</string>
-  <string name="smartbar_button_animation_spring">Resorte</string>
+  <string name="smartbar_button_animation_spring">Muelle</string>
   <string name="smartbar_button_animation_pixel">Pixel (todos los botones)</string>
   <string name="smartbar_button_animation_pixel_home">Píxeles (botón de inicio solamente)</string>
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (sólo el botón Home) y ondulación</string>
@@ -433,7 +433,7 @@
   <string name="weather_number_of_notifications_title">Número de notificaciones</string>
   <string name="weather_config_title">Ajustes de servicio</string>
   <string name="weather_icon_pack_title">Paquete de iconos de estado</string>
-  <string name="lock_clock_title">Widget de reloj</string>
+  <string name="lock_clock_title">Servicio de clima</string>
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Ajuste de brillo</string>
   <string name="status_bar_toggle_brightness_summary">Permitir ajustar la luminosidad de la pantalla mediante el deslizamiento por la barra de estado</string>
@@ -445,7 +445,7 @@
   <string name="double_tap_sleep_anywhere_summary">Doble tap para poner el dispositivo a dormir</string>
   <!-- Optional screenshot type -->
   <string name="screenshot_type_title">Tipo de captura de pantalla</string>
-  <string name="screenshot_type_fullscreen">Realizar capturas de pantalla de pantalla completa</string>
+  <string name="screenshot_type_fullscreen">Realizar capturas de la pantalla completa</string>
   <string name="screenshot_type_partial">Arrastre la selección en el área que quieres tomar una captura de pantalla</string>
   <!-- Screenshot delay -->
   <string name="screenshot_options_category">Opciones de captura de pantalla</string>
@@ -493,8 +493,8 @@
   <string name="summary_heads_up_enabled">Las notificaciones emergentes están activadas</string>
   <string name="summary_heads_up_disabled">Las notificaciones emergentes están desactivadas</string>
   <string name="heads_up_disabled_notice">Para activar notificaciones interactivas en la pantalla, activa las notificaciones emergentes</string>
-  <string name="always_headsup_dialer_title">Forzar cabecera para el marcador</string>
-  <string name="always_headsup_dialer_summary">Mostrar cabecera del marcador aunque la opcion esté apagada para permitir al ver marcador en la pantalla completa en llamadas entrantes</string>
+  <string name="always_headsup_dialer_title">Forzar notificaciones para el marcador</string>
+  <string name="always_headsup_dialer_summary">Mostrar notificaciones del marcador aunque la opción esté apagada para permitir al ver marcador en la pantalla completa en llamadas entrantes</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tiempo de espera</string>
   <string name="heads_up_time_out_summary">La notificación se mostrará durante <xliff:g id="number">%d </xliff:g> segundos</string>
@@ -755,15 +755,15 @@
   <string name="headset_connect_player_both">Cuando está conectado auriculares con cable</string>
   <!-- QS Header Icons -->
   <string name="qs_settings_icon_title">Acceso directo de configuración</string>
-  <string name="qs_settings_icon_summary">Desactivar el icono de ajustes en la cabecera</string>
+  <string name="qs_settings_icon_summary">Deshabilitar el icono de ajustes en la cabecera</string>
   <string name="qs_running_services_title">Icono de servicios en ejecución</string>
-  <string name="qs_running_services_summary">Deshabilitar el icono en la cabecera</string>
+  <string name="qs_running_services_summary">Deshabilitar el icono de servicios en segundo plano de la cabecera</string>
   <string name="qs_edit_title">Icono de edición</string>
-  <string name="qs_edit_summary">Desactivar el icono de edición de la cabecera</string>
+  <string name="qs_edit_summary">Deshabilitar el icono de edición de ajustes rápidos de la cabecera</string>
   <string name="qs_multiuser_switch_title">Cambio de usuario</string>
-  <string name="qs_multiuser_switch_summary">Desactivar el icono de cambio de usuario en la cabecera</string>
+  <string name="qs_multiuser_switch_summary">Deshabilitar el icono de cambio de usuario de la cabecera</string>
   <string name="qs_expand_indicator_title">Indicador de expansión</string>
-  <string name="qs_expand_indicator_summary">Desactivar el indicador de expansión en la cabecera</string>
+  <string name="qs_expand_indicator_summary">Deshabilitar el indicador de expansión en la cabecera</string>
   <!-- Center Date + Time in header -->
   <string name="qs_date_time_center_title">Centrar fecha y hora</string>
   <string name="qs_date_time_center_summary">Requiere desactivar uno o más iconos</string>

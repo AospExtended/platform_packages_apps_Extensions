@@ -536,13 +536,13 @@
   <string name="power_menu_bug_report_disabled">Fehlerberichte senden ist in den Entwickleroptionen deaktiviert</string>
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_enable_power_menu_title">Power-Menü auch auf dem Sperrbildschirm anzeigen</string>
-  <string name="volume_category">Wecken mit Lautstärketaste</string>
+  <string name="volume_category">Lautstärketasten</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Umkehren</string>
   <string name="swap_volume_buttons_summary">Tausche Lautstärketasten wenn Bildschirm gedreht wird</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Wecken mit Lautstärketaste</string>
-  <string name="volume_rocker_wake_summary">Drücken der Lautstärketaste weckt Ihr Gerät auf</string>
+  <string name="volume_rocker_wake_summary">Drücken der Lautstärketaste weckt das Gerät auf</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Musiksteuerung über Lautstärketaste</string>
   <string name="volume_rocker_music_controls_summary">Bei ausgeschaltetem Bildschirm, wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
@@ -568,7 +568,7 @@
   <string name="hardware_keys_category">Hardwaretasten</string>
   <string name="hardware_keys_disable_title">Hardwaretasten deaktivieren</string>
   <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Beleuchtungs-Timeout</string>
+  <string name="backlight_timeout_title">Beleuchtung ausschalten nach</string>
   <string name="backlight_timeout_on">Nie ausschalten</string>
   <string name="backlight_timeout_default">5 Sekunden (Standard)</string>
   <string name="backlight_timeout_10s">10 Sekunden</string>

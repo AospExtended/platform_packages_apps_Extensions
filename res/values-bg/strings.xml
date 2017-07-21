@@ -18,6 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="cancel">Отказ</string>
   <!-- Extensions categories -->
   <!-- App info dialog -->
   <!-- OmniJaws -->
@@ -46,6 +47,7 @@
   <!-- Home button wake up -->
   <!-- Network traffic -->
   <!-- Statusbar Clock options -->
+  <string name="cancel">Отказ</string>
   <!-- Color Picker -->
   <!-- Navigation Bar -->
   <!-- Actions dialog and default task values set in ActionPreference xml-->
@@ -53,6 +55,7 @@
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="positive_done">Готово</string>
   <!-- SmartBar -->
   <!-- QuickSettings haptic feedback -->
   <!-- Do not Disturb switch in volume panel -->
@@ -120,7 +123,10 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcuts_icon_picker_help">Помощ</string>
+  <string name="help">Помощ</string>
   <!-- Lockscreen shortcuts -->
+  <string name="shortcut_action_back">Назад</string>
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->

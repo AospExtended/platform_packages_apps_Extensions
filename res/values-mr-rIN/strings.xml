@@ -79,6 +79,7 @@
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
   <string name="power_menu_reboot_title">पुन्हा सुरू करा</string>
+  <string name="power_menu_screenshot_title">स्क्रीनशॉट</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->

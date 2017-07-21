@@ -775,7 +775,7 @@
   <string name="battery_bar_charging_color">Colore in carica</string>
   <string name="battery_bar_battery_low_color">Colore barra con batteria scarica</string>
   <string name="battery_bar_cat">Stile barra batteria</string>
-  <string name="battery_bar_style_title">Stile barra batteria</string>
+  <string name="battery_bar_style_title">Posizione barra batteria</string>
   <string name="battery_bar_thickness_title">Spessore barra batteria</string>
   <string name="battery_bar_animate_title">Animazione di ricarica</string>
   <string name="battery_bar_style_regular">Lato sinistro</string>

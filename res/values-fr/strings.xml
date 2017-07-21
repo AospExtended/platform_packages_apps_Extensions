@@ -100,7 +100,7 @@
   <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">Tapoter deux fois pour mettre en veille</string>
-  <string name="double_tap_to_sleep_summary">Double-cliquer sur la bar de statut ou sur le tiers supérieur et inférieur de l’écran de verrouillage pour éteindre l\'écran</string>
+  <string name="double_tap_to_sleep_summary">Double-cliquer sur la barre de statut ou sur le tiers supérieur de l’écran de verrouillage pour éteindre l\'écran</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Icône des notifications contextuelles</string>
   <string name="toast_icon_summary">Afficher l\'icône de l\'application correspondant à la notification contextuelle</string>
@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Délai par défaut (rapide)</string>
   <string name="smartbar_longpress_delay_normal">Délai normal</string>
   <string name="smartbar_longpress_delay_long">Retard important</string>
+  <string name="smartbar_custom_icon_size_title">Taille d\'icône personnalisée</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrer au toucher</string>
   <string name="quick_settings_vibrate_summary">Vibrer lors des appuis sur les raccourcis</string>
@@ -506,8 +507,8 @@
   <string name="heads_up_time_out_10sec">10 secondes</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Minuterie de répétition</string>
-  <string name="heads_up_snooze_summary_one_minute">Glisser les notifications désactivera les notifications flottantes de cette application pendant 1 minutes</string>
-  <string name="heads_up_snooze_summary">Glisser les notifications désactivera les notifications flottantes de cette application pour <xliff:g id="number">%d </xliff:g> minutes</string>
+  <string name="heads_up_snooze_summary_one_minute">Glisser sur les notifications désactivera les notifications flottantes de cette application pendant 1 minute</string>
+  <string name="heads_up_snooze_summary">Glisser sur les notifications désactivera les notifications flottantes de cette application pour <xliff:g id="number">%d</xliff:g> minutes</string>
   <string name="heads_up_snooze_disabled_summary">La minuterie Snooze est désactivée</string>
   <string name="heads_up_snooze_1min">1 minute</string>
   <string name="heads_up_snooze_3min">3 minutes</string>

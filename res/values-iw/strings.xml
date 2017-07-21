@@ -18,69 +18,223 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">הרחבות</string>
   <string name="add">הוסף</string>
+  <string name="advanced">מתקדם</string>
   <string name="choose_app">בחר יישום</string>
+  <string name="general_category">כללי</string>
+  <string name="gestures_category">מחוות</string>
   <string name="music_category">מוזיקה</string>
+  <string name="weather_category">מזג האוויר במסך הנעילה</string>
+  <string name="security_category">אבטחה</string>
+  <string name="hardware_category">חומרה</string>
+  <string name="animations_category">אנימציות אריחים</string>
+  <string name="traffic_category">חיווי תעבורת אינטרנט</string>
+  <string name="aosp_recents_category">יישומים אחרונים של AOSP</string>
   <string name="dlg_ok">אישור</string>
+  <string name="attention">לידיעתך</string>
+  <string name="loading">טוען\u2026</string>
+  <string name="reset">אפס</string>
+  <string name="reset_colors">איפוס צבעים</string>
+  <string name="reset_android">אנדרואיד</string>
+  <string name="text_title">טקסט</string>
   <string name="icon_title">סמל</string>
   <string name="color_title">צבע</string>
+  <string name="colors_title">צבעים</string>
   <!-- Extensions categories -->
   <string name="recents_category">יישומים אחרונים</string>
+  <string name="notifications_panel_category">לוח התראות</string>
+  <string name="system_category">מערכת</string>
+  <string name="lockscreen_category">מסך נעילה</string>
+  <string name="statusbar_items_category">פרטי שורת מצב</string>
+  <string name="navigation_category">ניווט</string>
+  <string name="breathing_notifications_category">התראות מציצות</string>
+  <string name="build_tweaks_summary_title">הרחב את המכשיר שלך!</string>
   <string name="toast">דיווח</string>
   <string name="listview">הצגה ברשימה</string>
+  <string name="qs_header_title">כותרת הגדרות מהירות</string>
+  <string name="qs_omnijaws_category">אריח מזג האוויר</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">עזור לנו לעזור לך!</string>
+  <string name="extensions_dialog_message">אם מצאת באג עם כל אחת מהגדרות אלה, דווח בעמוד הגוגל+ שלנו תחת הקטגוריה bug report. עליך לכלול את הדברים הבאים בעת דיווח על באג: \n\n‏1. Logcat או last_kmsg\n‏2. באיזה קרנל ומודים אתה משתמש\n‏3. מידע שימושי\n\n‏אם לא תדווח כראוי אל תצפה שהבעיה תפתר.</string>
+  <string name="extensions_dialog_toast">קרא את ה-כ-ל!</string>
   <!-- OmniJaws -->
+  <string name="weather_config_title">הגדרות מזג אוויר</string>
+  <string name="header_weather_title">מזג האוויר בכותרת</string>
+  <string name="header_weather_summary">אפשר הצגת מזג האוויר בכותרת לוח ההתראות</string>
+  <string name="weather_icon_pack_title">ערכת סמלים למצבים</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">מחוון בהירות</string>
+  <string name="qs_brightness_slider_summary">הראה מחוון בהירות בלוח ההגדרות המהירות</string>
+  <string name="brightness_icon_title">סמל בהירות </string>
+  <string name="brightness_icon_summary">הראה סמל להפעלה וכיבוי בהירות אוטומטית משמאל למחוון הבהירות</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">הגדרות מהירות</string>
+  <string name="status_bar_quick_qs_pulldown_title">משיכה מהירה</string>
+  <string name="status_bar_quick_qs_pulldown_summary">משיכה מצד ימין של שורת המצב תפתח את לוח ההגדרות המהירות</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">הרחבות שונות</string>
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">התאמות כלליות</string>
   <!-- Notifications -->
+  <string name="notifications_title">התראות</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">מיצג כללי</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">ממשק מסך הנעילה</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">קיצורי דרך במסך הנעילה</string>
   <!-- Buttons -->
+  <string name="buttons_title">מקשים</string>
   <!-- Blur -->
+  <string name="blur_title">טשטוש</string>
   <!-- Animations -->
+  <string name="animations_title">אנימציות</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">תווית מפעיל</string>
   <!-- Show notification count -->
+  <string name="status_bar_notif_count_title">הצג מספור התראות</string>
+  <string name="status_bar_notif_count_summary">הצג את מספר התראות הממתינות</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">הקשה כפולה לכיבוי המסך</string>
+  <string name="double_tap_to_sleep_summary">הקש פעמיים על שורת המצב או בשליש העליון ובתחתית איזור הקיצורים של מסך הנעילה לכיבוי המסך</string>
   <!-- Toast Icons -->
+  <string name="toast_icon_title">סמל הודעה קופצת</string>
+  <string name="toast_icon_summary">הצג את סמל היישום ששלח את ההודעה קופצת</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">מנהל התראות מתקדם</string>
+  <string name="power_notification_controls_summary">בחר את רמת החשיבות של התראות</string>
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">הרחב את כל ההתראות</string>
+  <string name="force_expanded_notifications_summary">זמין רק ביישומים התומכים בהתראה מורחבת</string>
   <!-- Disabling immersive mode messages -->
+  <string name="disable_immersive_message_title">אל תציג הודעה על כניסה למצב מסך מלא</string>
+  <string name="disable_immersive_message_summary">אפשרות זו תסתיר את כל ההודעות שמופיעות בכניסה למסך מלא</string>
   <!-- Flashlight notification -->
+  <string name="flashlight_notification_title">התראה על פנס</string>
+  <string name="flashlight_notification_summary">הצג התראה כשהפנס מופעל</string>
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_style_title">סוג הנפשת אריחים</string>
+  <string name="qs_tile_animation_duration_title">משך הנפשת אריחים</string>
+  <string name="qs_tile_animation_interpolator_title">סוג שינוי מהירות הנפשת אריחים</string>
+  <string name="qs_tile_animation_style_off">ללא הנפשה</string>
+  <string name="qs_tile_animation_style_flip">היפוך</string>
+  <string name="qs_tile_animation_style_rotate">סיבוב</string>
+  <string name="qs_tile_animation_duration_low">מעט</string>
   <string name="qs_tile_animation_duration_default">ברירת מחדל</string>
+  <string name="qs_tile_animation_duration_fast">מהר</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">קבוע</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">מאיץ</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">מאט</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">מאיץ ומאט</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">קופץ</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">מאחר</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">מקדים</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">מקדים ומאחר</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_title">התנהגות סורק המדיה בהפעלת המכשיר</string>
+  <string name="media_scanner_on_boot_enabled">סרוק מדיה</string>
+  <string name="media_scanner_on_boot_ask">שאל אם לסרוק (התראה)</string>
+  <string name="media_scanner_on_boot_disabled">אל תסרוק מדיה</string>
   <!-- Volume key cursor control -->
+  <string name="volbtn_cursor_control_title">מקשי עוצמת השמע כחצים</string>
   <string name="volbtn_cursor_control_off">בטל</string>
+  <string name="volbtn_cursor_control_on">הגברה והמכה מזיזים את הסמן שמאלה וימינה</string>
+  <string name="volbtn_cursor_control_on_reverse">הגברה והמכה מזיזים את הסמן ימינה ושמאלה</string>
   <!-- Home button wake up -->
+  <string name="button_wake_title">הער</string>
+  <string name="home_wake_summary">לחיצה על כפתור הבית תעיר את המכשיר</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">תעבורת רשת</string>
+  <string name="show_network_traffic_state">תעבורת רשת בשורת המצב</string>
+  <string name="show_network_traffic_unit">יחידות תצוגה</string>
+  <string name="show_network_traffic_frequency">תדירות עדכון</string>
   <string name="show_network_traffic_disable">בטל</string>
+  <string name="show_network_traffic_up">העלאה</string>
+  <string name="show_network_traffic_down">הורדה</string>
+  <string name="show_network_traffic_all">העלאה והורדה</string>
+  <string name="show_network_traffic_bit">ביט לשניה</string>
+  <string name="show_network_traffic_byte">בית לשניה</string>
+  <string name="show_network_traffic_500">500 מילישניות</string>
+  <string name="show_network_traffic_1000">1000 מילישניות</string>
+  <string name="show_network_traffic_1500">1500 מילישניות</string>
+  <string name="show_network_traffic_2000">2000 מילישניות</string>
+  <string name="network_traffic_autohide">הסתרה אוטומטית</string>
+  <string name="network_traffic_autohide_summary">הסתר את מנטר תעבורת הרשת כאשר אין פעילות</string>
+  <string name="network_traffic_autohide_threshold">סף חוסר פעילות</string>
+  <string name="network_traffic_hidearrow">הסתר חצים</string>
+  <string name="network_traffic_hidearrow_summary">הסתר חצים במחוון התעבורה</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock">שעה ותאריך</string>
+  <string name="clock_title_enable">יישור</string>
+  <string name="status_bar_show_clock_title">הראה שעה ותאריך</string>
+  <string name="status_bar_clock_seconds_title">הצגת שניות</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">שעון 24 שעות מופעל</string>
+  <string name="right_clock">שעה בצד ימין</string>
+  <string name="center_clock">שעה במרכז</string>
+  <string name="left_clock">שעה בצד שמאל</string>
+  <string name="clock_date_display">תאריך</string>
+  <string name="clock_date_style">סגנון תאריך</string>
+  <string name="clock_date_position">מיקום תאריך</string>
+  <string name="clock_date_format">תבנית תאריך</string>
+  <string name="clock_date_string_edittext_title">חייב להיות בפורמט של תאריך למשל. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">הזן מחרוזת</string>
+  <string name="clock_date_right">מימין לשעה</string>
+  <string name="clock_date_left">משמאל לשעה</string>
   <string name="clock_am_pm_date_normal">רגיל</string>
+  <string name="clock_am_pm_date_small">קטן</string>
+  <string name="clock_am_pm_date_none">מוסתר</string>
+  <string name="clock_date_style_lowercase">אותיות קטנות (רק באנגלית)</string>
+  <string name="clock_date_style_uppercase">אותיות גדולות (רק באנגלית)</string>
+  <string name="clock_date_format_custom">פורמט java מותאם אישית</string>
+  <string name="save">שמור</string>
+  <string name="clock_font_style_title">גופן</string>
+  <string name="clock_font_size_title">גודל גופן</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">בוחר צבע</string>
+  <string name="press_color_to_apply">לחיצה על צבע לבחירה</string>
+  <string name="arrow_right">→</string>
   <string name="color_default">ברירת מחדל</string>
   <!-- Navigation Bar -->
   <string name="navigationbar_settings_title">שורת הניווט</string>
+  <string name="navbar_general_title">מתקדם</string>
+  <string name="smartbar_interface">שורה חכמה</string>
+  <string name="picker_activities">פעילויות</string>
+  <string name="select_custom_app_title">בחר יישום מותאם אישית</string>
+  <string name="select_custom_activity_title">בחר פעילות מותאמת אישית</string>
   <string name="default_string">ברירת מחדל</string>
+  <string name="reset">אפס</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">בחר פעולה</string>
   <string name="action_entry_select_app">בחר יישום</string>
   <!-- Fling -->
+  <string name="fling_interface">המחליק</string>
+  <string name="long_swipe_reset">אפס</string>
+  <string name="fling_advanced">מתקדם</string>
   <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_advanced_category">מתקדם</string>
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="positive_done">בוצע</string>
   <!-- SmartBar -->
+  <string name="smartbar_category">שורה חכמה</string>
   <string name="smartbar_ime_action_none">-ללא-</string>
   <!-- QuickSettings haptic feedback -->
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
+  <string name="breathing_notifications_title">התראות מציצות</string>
   <!-- Quick settings tiles columns and rows config -->
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <!-- Lockscreen weather -->
+  <string name="lock_screen_weather_settings_title">מזג אוויר</string>
+  <string name="weather_cat_notifications_title">התראות</string>
+  <string name="weather_config_title">הגדרות מזג אוויר</string>
+  <string name="weather_icon_pack_title">ערכת סמלים למצבים</string>
   <!-- statusbar brightness control -->
   <!-- CM Lockscreen shortcuts -->
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
@@ -89,6 +243,7 @@
   <!-- Disabling FC notifications -->
   <!-- Lockscreen Torch toggle -->
   <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_save">שמור</string>
   <!-- Lockscreen cover art -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Status Bar Ticker -->
@@ -97,11 +252,19 @@
   <!-- Navbar dynamic color -->
   <!-- Heads up settings -->
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_5sec">5 שניות</string>
+  <string name="heads_up_time_out_10sec">10 שניות</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_1min">דקה אחת</string>
+  <string name="heads_up_snooze_5min">5 דקות</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">תפריט כיבוי</string>
+  <string name="power_menu_reboot_title">הפעלה מחדש</string>
+  <string name="power_menu_screenshot_title">צילום מסך</string>
+  <string name="power_menu_screenrecord_title">הקלטת מסך</string>
   <string name="power_menu_torch_title">פנס</string>
   <string name="power_menu_onthego_title">מצב On-The-Go</string>
+  <string name="power_menu_search_title">חיפוש</string>
   <string name="power_menu_voice_title">חיפוש קולי</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
@@ -115,13 +278,20 @@
   <!-- Custom carrier label and position -->
   <string name="show_carrier_disabled">בטל</string>
   <!-- Battery customizations -->
+  <string name="status_bar_battery_style_text">טקסט</string>
+  <string name="status_bar_battery_style_hidden">מוסתר</string>
+  <string name="status_bar_battery_percentage_default">מוסתר</string>
   <string name="text_charging_symbol_default">בטל</string>
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
   <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
+  <string name="settings_blur_cat">טשטוש</string>
+  <string name="blur_notifications_cat">התראות</string>
+  <string name="blur_qs_cat">הגדרות מהירות</string>
   <!-- AOKP custom system animations -->
+  <string name="animation_title">אנימציות</string>
   <string name="animation_duration_default">ברירת מחדל</string>
   <!-- Toast Animation -->
   <string name="toast_none_animation">-ללא-</string>
@@ -131,8 +301,14 @@
   <!-- ListView animation -->
   <string name="listview_off">ברירת מחדל</string>
   <!-- ListView interpolator -->
+  <string name="listview_accelerate_interpolator">מאיץ</string>
+  <string name="listview_decelerate_interpolator">מאט</string>
+  <string name="listview_anticipate_interpolator">מקדים</string>
+  <string name="listview_overshoot_interpolator">מאחר</string>
+  <string name="listview_bounce_interpolator">קופץ</string>
   <!-- Disable animations -->
   <!-- Alarm blocker -->
+  <string name="alarm_blocker_save">שמור</string>
   <!-- Option to enable/disable scrolling cache -->
   <!-- Three finger swipe screenshot -->
   <!-- Launch music player when headset is connected -->
@@ -142,6 +318,7 @@
   <!-- Battery Bar fragment -->
   <!-- QS headers -->
   <!-- Screen state service -->
+  <string name="screen_state_toggles_location_title">מיקום</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Status bar notification ticker -->
   <!-- Wired headset ringtone audio focus -->
@@ -155,15 +332,23 @@
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
   <string name="shortcut_action_none">-ללא-</string>
+  <string name="shortcut_action_reset">אפס</string>
   <string name="shortcut_action_add">הוסף</string>
   <string name="shortcuts_icon_default">ברירת מחדל</string>
   <string name="shortcuts_icon_custom">גלריה</string>
+  <string name="shortcuts_icon_picker_alarm">שעון מעורר</string>
   <string name="shortcuts_icon_picker_gallery">גלריה</string>
   <string name="shortcuts_icon_picker_music">מוזיקה</string>
+  <string name="shortcuts_icon_picker_nav">ניווט</string>
   <string name="shortcuts_icon_picker_play">הפעל</string>
+  <string name="shortcuts_icon_picker_quicksettings">הגדרות מהירות</string>
+  <string name="shortcuts_icon_picker_search">חיפוש</string>
+  <string name="shortcuts_icon_picker_sms">הודעות</string>
   <string name="normal_title">רגיל</string>
+  <string name="hidden_title">מוסתר</string>
   <string name="profiles_add">הוסף</string>
   <string name="profile_choose_app">בחר יישום</string>
+  <string name="profile_reset_title">אפס</string>
   <string name="choose_app">בחר יישום</string>
   <!-- Lockscreen shortcuts -->
   <string name="shortcut_action_none">-ללא-</string>
@@ -171,6 +356,7 @@
   <string name="shortcut_action_menu">תפריט</string>
   <string name="shortcut_action_power_menu">תפריט כיבוי</string>
   <string name="shortcut_action_recent">יישומים אחרונים</string>
+  <string name="shortcut_action_reset">אפס</string>
   <string name="shortcut_action_add">הוסף</string>
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->

@@ -41,13 +41,16 @@
   <!-- Disabling immersive mode messages -->
   <!-- Flashlight notification -->
   <!-- Tiles animation style  -->
+  <string name="qs_tile_animation_duration_default">இயல்புநிலை</string>
   <!-- MediaScanner behavior on boot -->
   <!-- Volume key cursor control -->
   <!-- Home button wake up -->
   <!-- Network traffic -->
   <!-- Statusbar Clock options -->
   <!-- Color Picker -->
+  <string name="color_default">இயல்புநிலை</string>
   <!-- Navigation Bar -->
+  <string name="default_string">இயல்புநிலை</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
   <!-- Pulse navigation bar music visualizer -->
@@ -78,6 +81,11 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">மறு தொடக்கம்</string>
+  <string name="power_menu_screenshot_title">திரைப்பிடிப்பு</string>
+  <string name="power_menu_screenrecord_title">திரை பதிவேடு</string>
+  <string name="power_menu_torch_title">விளக்கு</string>
+  <string name="power_menu_search_title">தேடு</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -95,8 +103,13 @@
   <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
   <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">இயல்புநிலை</string>
   <!-- Toast Animation -->
+  <string name="toast_default_animation">இயல்புநிலை</string>
+  <string name="toast_fade_animation">மங்கு</string>
+  <string name="toast_Translucent_animation">வெளிப்படை</string>
   <!-- ListView animation -->
+  <string name="listview_off">இயல்புநிலை</string>
   <!-- ListView interpolator -->
   <!-- Disable animations -->
   <!-- Alarm blocker -->
@@ -120,6 +133,8 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcuts_icon_default">இயல்புநிலை</string>
+  <string name="shortcuts_icon_picker_search">தேடு</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->

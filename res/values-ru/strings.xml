@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Стандартная задержка (быстро)</string>
   <string name="smartbar_longpress_delay_normal">Обычная задержка</string>
   <string name="smartbar_longpress_delay_long">Большая задержка</string>
+  <string name="smartbar_custom_icon_size_title">Размер пользовательских иконок</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
   <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>

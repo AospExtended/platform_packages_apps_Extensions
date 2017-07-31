@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Výchozí prodleva (rychle)</string>
   <string name="smartbar_longpress_delay_normal">Běžná prodleva</string>
   <string name="smartbar_longpress_delay_long">Dlouhá prodleva</string>
+  <string name="smartbar_custom_icon_size_title">Vlastní velikost ikon</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
   <string name="quick_settings_vibrate_summary">Vibrovat při dotyku dlaždice</string>

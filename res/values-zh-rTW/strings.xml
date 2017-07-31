@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">預設延遲(快)</string>
   <string name="smartbar_longpress_delay_normal">正常延遲</string>
   <string name="smartbar_longpress_delay_long">長延遲</string>
+  <string name="smartbar_custom_icon_size_title">自訂圖示大小</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">觸控時震動</string>
   <string name="quick_settings_vibrate_summary">輕觸圖塊時震動</string>

@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Atraso padrão (rápido)</string>
   <string name="smartbar_longpress_delay_normal">Atraso normal</string>
   <string name="smartbar_longpress_delay_long">Atraso longo</string>
+  <string name="smartbar_custom_icon_size_title">Tamanho de ícone personalizado</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
   <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos</string>

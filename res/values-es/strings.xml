@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Retraso por defecto (rapido)</string>
   <string name="smartbar_longpress_delay_normal">Retraso Normal</string>
   <string name="smartbar_longpress_delay_long">Retraso Largo</string>
+  <string name="smartbar_custom_icon_size_title">Escala de iconos personalizados</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
   <string name="quick_settings_vibrate_summary">Vibrar al tocar los ajustes rápidos</string>
@@ -419,7 +420,7 @@
   <string name="lock_screen_weather_settings_title">Clima</string>
   <string name="weather_cat_notifications_title">Notificaciones</string>
   <string name="weather_show_weather_title">Mostrar clima</string>
-  <string name="weather_show_weather_summary">Activar para mostrar información del cliima</string>
+  <string name="weather_show_weather_summary">Activar para mostrar información del clima</string>
   <string name="weather_show_location_title">Mostrar ubicación</string>
   <string name="weather_show_location_summary">Activar para mostrar tu localización</string>
   <string name="weather_hide_panel_title">Ocultar panel del clima</string>
@@ -595,7 +596,7 @@
   <string name="status_bar_battery_style_title">Estilo de la batería en la barra de estado</string>
   <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
   <string name="status_bar_battery_style_icon_landscape">Icono apaisado</string>
-  <string name="status_bar_battery_style_circle">Circulo</string>
+  <string name="status_bar_battery_style_circle">Círculo</string>
   <string name="status_bar_battery_style_bigcircle">Circulo grande</string>
   <string name="status_bar_battery_style_circle_full">Circulo completo</string>
   <string name="status_bar_battery_style_text">Solo texto</string>

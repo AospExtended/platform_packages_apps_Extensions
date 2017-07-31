@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Predvolené oneskorenie (rýchlo)</string>
   <string name="smartbar_longpress_delay_normal">Normálne oneskorenie</string>
   <string name="smartbar_longpress_delay_long">Väčšie oneskorenie</string>
+  <string name="smartbar_custom_icon_size_title">Vlastná veľkosť ikon</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Vibrácia pri dotyku</string>
   <string name="quick_settings_vibrate_summary">Vibrovať pri dotyku na dlaždicu</string>

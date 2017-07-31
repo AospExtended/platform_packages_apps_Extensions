@@ -26,15 +26,15 @@
   <string name="general_category">一般</string>
   <string name="gestures_category">手势</string>
   <string name="music_category">音乐</string>
-  <string name="weather_category">天气设置</string>
+  <string name="weather_category">锁屏天气</string>
   <string name="security_category">安全</string>
   <string name="hardware_category">硬件</string>
   <string name="animations_category">磁贴动画</string>
   <string name="traffic_category">流量指示</string>
-  <string name="aosp_recents_category">AOSP最近应用</string>
+  <string name="aosp_recents_category">AOSP 最近任务</string>
   <string name="dlg_ok">确定</string>
   <string name="attention">注意</string>
-  <string name="loading">加载\u2026</string>
+  <string name="loading">正在加载\u2026</string>
   <string name="reset">重置</string>
   <string name="reset_colors">重置颜色</string>
   <string name="reset_android">安卓</string>
@@ -62,7 +62,9 @@
   <string name="extensions_dialog_message">发现这些设置有任何错误时，请在我们的Google+主页错误报告专栏发贴说明。 错误报告必须包含下列内容：\n\n1. logcat或last_kmsg\n2. 所用内核及mod版本\n3. 有用信息\n\n若不能适当报告错误，请不要指望问题会得到修复。</string>
   <string name="extensions_dialog_toast">阅读全部内容！</string>
   <!-- OmniJaws -->
-  <string name="weather_config_title">服务设置</string>
+  <string name="weather_config_title">天气磁贴设置</string>
+  <string name="header_weather_title">顶部天气视图</string>
+  <string name="header_weather_summary">启用通知面板顶部天气图像显示</string>
   <string name="weather_icon_pack_title">状况图标包</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑块</string>
@@ -72,7 +74,7 @@
   <!-- Quick Settings -->
   <string name="quick_settings_title">快速设置</string>
   <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
-  <string name="status_bar_quick_qs_pulldown_summary">从状态栏的%1$s边缘下拉开启快速设置面板</string>
+  <string name="status_bar_quick_qs_pulldown_summary">从状态栏的右边缘拉下快速设置面板</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">其他扩展</string>
   <!-- General Tweaks -->
@@ -84,8 +86,9 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">锁屏界面</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">锁屏界面快捷方式</string>
   <!-- Buttons -->
-  <string name="buttons_title">按键</string>
+  <string name="buttons_title">按钮</string>
   <!-- Blur -->
   <string name="blur_title">模糊化</string>
   <!-- Animations -->
@@ -146,6 +149,7 @@
   <string name="volbtn_cursor_control_on_reverse">音量键上/下控制光标右/左移动</string>
   <!-- Home button wake up -->
   <string name="button_wake_title">唤醒设备</string>
+  <string name="home_wake_summary">按下 Home 键时唤醒设备</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">网速显示</string>
   <string name="show_network_traffic_state">状态栏显示当前网速</string>
@@ -354,6 +358,12 @@
   <string name="smartbar_config_backup_error_toast">在保存 Smart Bar 配置文件时出错</string>
   <string name="smartbar_config_restore_error_toast">在恢复 Smart Bar 配置文件时出错</string>
   <string name="navbar_buttons_alpha_title">按钮透明度</string>
+  <string name="smartbar_longpress_delay_title">按钮长按延迟</string>
+  <string name="smartbar_longpress_delay_summary">设置系统在触发长按动作之前的等待时间</string>
+  <string name="smartbar_longpress_delay_default">默认(低)</string>
+  <string name="smartbar_longpress_delay_normal">中</string>
+  <string name="smartbar_longpress_delay_long">高</string>
+  <string name="smartbar_custom_icon_size_title">自定义图标缩放</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">触摸时使用振动反馈</string>
   <string name="quick_settings_vibrate_summary">触摸瓷块时振动</string>
@@ -422,7 +432,7 @@
   <string name="weather_hide_panel_custom_summary">当可见通知将达到选定的数量的通知，天气面板将被隐藏</string>
   <string name="weather_hide_panel_never_summary">天气面板不被隐藏</string>
   <string name="weather_number_of_notifications_title">通知数量</string>
-  <string name="weather_config_title">服务设置</string>
+  <string name="weather_config_title">天气磁贴设置</string>
   <string name="weather_icon_pack_title">状况图标包</string>
   <string name="lock_clock_title">时钟小部件</string>
   <!-- statusbar brightness control -->
@@ -783,7 +793,7 @@
   <string name="battery_bar_navbar_top">导航栏顶部</string>
   <string name="battery_bar_navbar_bottom">导航栏底部</string>
   <!-- QS headers -->
-  <string name="qs_header_category">快设抬头选项</string>
+  <string name="qs_header_category">快设顶部选项</string>
   <string name="status_bar_custom_header_title">自定义顶部图像</string>
   <string name="status_bar_custom_header_summary">启用通知面板顶部界面图像</string>
   <string name="daylight_header_pack_title">情景图像</string>
@@ -846,6 +856,7 @@
   <string name="status_bar_show_image">显示图像</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Slim最近任务</string>
+  <string name="use_slim_recents_title">用于替代默认的最近任务视图</string>
   <string name="use_slim_recents_summary">使用Slim最近任务而不是默认近期应用视图</string>
   <string name="slim_recents_settings_title">Slim最近任务设置</string>
   <string name="slim_recents_settings_summary">查看Slim最近任务的设置</string>
@@ -971,6 +982,7 @@
   <string name="empty_title">空</string>
   <string name="normal_title">正常</string>
   <string name="hidden_title">隐藏</string>
+  <string name="position_title">位置</string>
   <string name="position_right_title">居右</string>
   <string name="position_centered_title">居中</string>
   <string name="help">帮助</string>
@@ -978,6 +990,7 @@
   <string name="profiles_add">添加</string>
   <string name="profile_choose_app">选择应用程序</string>
   <string name="profile_reset_title">重置</string>
+  <string name="show_title">显示</string>
   <string name="choose_app">选择应用程序</string>
   <!-- Lockscreen shortcuts -->
   <string name="lockscreen_shortcuts_title">上部快捷方式</string>
@@ -1025,14 +1038,30 @@
   <!-- SlimSizer  -->
   <string name="caution">注意事项</string>
   <string name="sizer_message_startup">此工具允许你删除系统应用程序。请谨慎使用，且只能删除可以安全删除的应用程序。</string>
+  <string name="sizer_message_delete">您确定卸载吗？</string>
   <string name="btn_delete">立即删除选定的应用程序！</string>
   <string name="delete_progress_title">正在删除...</string>
   <string name="delete_progress">正在删除所选的文件...</string>
   <string name="sizer_message_noselect">未选择任何内容。</string>
   <string name="system_app_remover">系统应用程序卸载器</string>
+  <string name="sizer_message_error">卸载失败，请检查Root访问权限</string>
+  <string name="sizer_message_success">卸载成功</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">在网格型最近任务视图中显示屏幕固定图标</string>
+  <string name="grid_recents_pinning_summaryOn">如果从安全设置启用了屏幕固定，网格型最近任务视图中将显示屏幕固定图标</string>
+  <string name="grid_recents_pinning_summaryOff">即使从安全设置启用了屏幕固定，网格型最近任务视图中也将隐藏屏幕固定图标</string>
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">响铃时使用 Home 键</string>
+  <string name="allow_incall_home_summary">设备响铃时允许使用 Home 键</string>
   <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">触摸按钮</string>
+  <string name="button_backlight_on_touch_only_summary">仅触摸按钮时启用背光超时</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">显示数据连接禁用图标</string>
+  <string name="data_disabled_icon_summary">禁用数据连接时，显示信号图标旁边的 “×“ 图标</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">通话振动选项</string>
+  <string name="incall_vibrate_connect_title">接通时振动</string>
+  <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+  <string name="incall_vibrate_disconnect_title">挂断时振动</string>
 </resources>

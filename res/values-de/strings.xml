@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Standardverzögerung (schnell)</string>
   <string name="smartbar_longpress_delay_normal">Normale Verzögerung</string>
   <string name="smartbar_longpress_delay_long">Lange Verzögerung</string>
+  <string name="smartbar_custom_icon_size_title">Benutzerdefinierte Icon-Größe</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
   <string name="quick_settings_vibrate_summary">Vibriert beim Berühren von Schnelleinstellungen</string>

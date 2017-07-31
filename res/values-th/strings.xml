@@ -92,8 +92,12 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">รีสตาร์ท</string>
+  <string name="power_menu_screenshot_title">ภาพหน้าจอ</string>
+  <string name="power_menu_screenrecord_title">บันทึกหน้าจอ</string>
   <string name="power_menu_torch_title">ไฟฉาย</string>
   <string name="power_menu_onthego_title">โหมด On-The-Go</string>
+  <string name="power_menu_search_title">ค้นหา</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -149,6 +153,7 @@
   <string name="shortcuts_icon_default">ปกติ</string>
   <string name="shortcuts_icon_picker_music">เพลง</string>
   <string name="shortcuts_icon_picker_play">เล่น</string>
+  <string name="shortcuts_icon_picker_search">ค้นหา</string>
   <string name="normal_title">ปกติ</string>
   <!-- Lockscreen shortcuts -->
   <string name="shortcut_action_none">ไม่มี</string>

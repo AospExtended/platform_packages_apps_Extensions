@@ -50,6 +50,7 @@
   <string name="navigation_category">ניווט</string>
   <string name="breathing_notifications_category">התראות מציצות</string>
   <string name="build_tweaks_summary_title">הרחב את המכשיר שלך!</string>
+  <string name="system_animations">הנפשות מערכת</string>
   <string name="toast">דיווח</string>
   <string name="listview">הצגה ברשימה</string>
   <string name="qs_header_title">כותרת הגדרות מהירות</string>
@@ -79,7 +80,7 @@
   <!-- Notifications -->
   <string name="notifications_title">התראות</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">מיצג כללי</string>
+  <string name="recents_ui_title">ממשק יישומים אחרונים</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">ממשק מסך הנעילה</string>
   <!-- Lockscreen Shortcuts -->
@@ -200,29 +201,49 @@
   <string name="arrow_right">→</string>
   <string name="color_default">ברירת מחדל</string>
   <!-- Navigation Bar -->
+  <string name="navbar_tint_switch">צבע לחצני סרגל הניווט</string>
+  <string name="navbar_button_color">לחצני סרגל הניווט</string>
+  <string name="navbar_interface_title">ממשק</string>
+  <string name="navbar_size">גודל הסרגל</string>
+  <string name="navbar_mode">מצב סרגל הניווט</string>
+  <string name="navbar_visibility">אפשר את סרגל הניווט</string>
   <string name="navigationbar_settings_title">שורת הניווט</string>
+  <string name="navigationbar_settings_summary">התאם אישית את סגנון סרגל הניווט והתנהגותו</string>
   <string name="navbar_general_title">מתקדם</string>
+  <string name="navigation_bar_left_title">מצב לשמאליים</string>
+  <string name="navigation_bar_left_summary">כשהמסך מאוזן מקם את סרגל הניווט בצד שמאל של המסך</string>
+  <string name="info_pref_note_title">הערה</string>
   <string name="smartbar_interface">שורה חכמה</string>
+  <string name="icon_pack_picker_dialog_title">חבילת סמלים</string>
+  <string name="image_exceeds_max_allowed_size">התמונה חייבת להיות קטנה מגודל 512x512</string>
+  <string name="invalid_icon_from_uri">אין אפשרות לטעון תמונה ממספק התוכן</string>
   <string name="picker_activities">פעילויות</string>
   <string name="select_custom_app_title">בחר יישום מותאם אישית</string>
   <string name="select_custom_activity_title">בחר פעילות מותאמת אישית</string>
+  <string name="profile_applist_title">יישומים</string>
   <string name="default_string">ברירת מחדל</string>
   <string name="reset">אפס</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">בחר פעולה</string>
+  <string name="action_entry_default_action">הגדרות ברירת מחדל</string>
   <string name="action_entry_select_app">בחר יישום</string>
+  <string name="action_entry_custom_action">בחר פעולה מותאמת אישית</string>
   <!-- Fling -->
+  <string name="fling_settings">הגדרות המחליק</string>
   <string name="fling_interface">המחליק</string>
+  <string name="fling_enable_title">אפשר את המחליק</string>
   <string name="long_swipe_reset">אפס</string>
   <string name="fling_advanced">מתקדם</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_advanced_category">מתקדם</string>
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="navigation_bar_size_title">גודל הסרגל</string>
   <string name="positive_done">בוצע</string>
   <!-- SmartBar -->
   <string name="smartbar_category">שורה חכמה</string>
   <string name="smartbar_ime_action_none">-ללא-</string>
+  <string name="smartbar_longpress_delay_summary">בחר כמה זמן המערכת תמתין עד הפעלת פעולת לחיצה ארוכה</string>
   <!-- QuickSettings haptic feedback -->
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
@@ -243,12 +264,15 @@
   <!-- Disabling FC notifications -->
   <!-- Lockscreen Torch toggle -->
   <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_summary">חסום wakelocks (מניעת מצב שינה)</string>
   <string name="wakelock_blocker_save">שמור</string>
   <!-- Lockscreen cover art -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Status Bar Ticker -->
   <string name="ticker_screen_summary">עיצוב הV בשורת המצב</string>
   <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">פרטי מסך הנעילה</string>
+  <string name="hide_lockscreen_alarm_title">הראה שעון מעורר במסך הנעילה</string>
   <!-- Navbar dynamic color -->
   <!-- Heads up settings -->
   <!-- Heads up timeout -->
@@ -272,18 +296,39 @@
   <!-- Volume rocker music control -->
   <!-- Volume key controls media stream -->
   <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">מידע על טעינה במסך הנעילה</string>
+  <string name="lockscreen_battery_info_summary">בעת טעינה הראה את פרטים מפורטים במסך הנעילה – מהירות הטעינה באמפר, כמה וולט וטמפרטורת הסוללה</string>
   <!-- Hardware button navigation -->
   <!-- Buttons backlight timeout -->
   <!-- Enable keys backlight-->
   <!-- Custom carrier label and position -->
   <string name="show_carrier_disabled">בטל</string>
   <!-- Battery customizations -->
+  <string name="status_bar_battery_style_category">סוללה</string>
+  <string name="status_bar_battery_style_title">סגנון הסוללה בשורת מצב</string>
+  <string name="status_bar_battery_style_icon_portrait">סמל עומד</string>
+  <string name="status_bar_battery_style_icon_landscape">סמל שוכב</string>
+  <string name="status_bar_battery_style_circle">עיגול</string>
+  <string name="status_bar_battery_style_bigcircle">עיגול גדול</string>
+  <string name="status_bar_battery_style_circle_full">עיגול מלא</string>
   <string name="status_bar_battery_style_text">טקסט</string>
   <string name="status_bar_battery_style_hidden">מוסתר</string>
+  <string name="status_bar_battery_percentage_title">אחוזי סוללה</string>
   <string name="status_bar_battery_percentage_default">מוסתר</string>
+  <string name="status_bar_battery_percentage_text_inside">בתוך הסמל</string>
+  <string name="status_bar_battery_percentage_text_next">ליד הסמל</string>
+  <string name="battery_tile_style_title">סגנון הסוללה באריח ההגדרות המהירות</string>
+  <string name="status_bar_battery_style_tile_summary">מאפשר להגדיר סמל כמו הסמל שנבחר לשורת המצב</string>
+  <string name="force_charge_battery_text_title">הראה אחוזים ליד סמל הסוללה בעת טעינה</string>
+  <string name="force_charge_battery_text_summary_on">מראה אחוזים ליד סמל הסוללה בעת טעינה</string>
+  <string name="force_charge_battery_text_summary_off">מראה אחוזים בתוך סמל הסוללה בעת טעינה</string>
+  <string name="text_charging_symbol_dialog">הראה סמל ליד אחוזי הסוללה מחוץ לסמל הסוללה בעת טעינה</string>
   <string name="text_charging_symbol_default">בטל</string>
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">הראה סרגל שימוש בזיכרון</string>
+  <string name="systemui_recents_mem_display_summaryOn">סרגל RAM מאופשר</string>
+  <string name="systemui_recents_mem_display_summaryOff">סרגל RAM מבוטל</string>
   <!-- Hide Apps from Recents -->
   <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
@@ -292,6 +337,7 @@
   <string name="blur_qs_cat">הגדרות מהירות</string>
   <!-- AOKP custom system animations -->
   <string name="animation_title">אנימציות</string>
+  <string name="system_animation_title">הנפשות מערכת</string>
   <string name="animation_duration_default">ברירת מחדל</string>
   <!-- Toast Animation -->
   <string name="toast_none_animation">-ללא-</string>
@@ -308,7 +354,12 @@
   <string name="listview_bounce_interpolator">קופץ</string>
   <!-- Disable animations -->
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">חסימת התעוררויות</string>
+  <string name="alarm_blocker_title">אפשר</string>
+  <string name="alarm_blocker_summary">חסום התעוררויות כשהמסך כבוי</string>
   <string name="alarm_blocker_save">שמור</string>
+  <string name="alarm_list_header">שעונים מעוררים זמינים</string>
+  <string name="alarm_blocker_warning">חסימת התעוררויות יכולה לגרום לאי יציבות, קריסות או איבוד מידע.</string>
   <!-- Option to enable/disable scrolling cache -->
   <!-- Three finger swipe screenshot -->
   <!-- Launch music player when headset is connected -->
@@ -316,8 +367,28 @@
   <!-- QS Header Icons -->
   <!-- Center Date + Time in header -->
   <!-- Battery Bar fragment -->
+  <string name="battery_bar_title">פס סוללה</string>
+  <string name="battery_bar">מיקום פס הסוללה</string>
+  <string name="battery_bar_no_navbar">מיקום פס הסוללה</string>
+  <string name="battery_bar_color">צבע פס הסוללה</string>
+  <string name="battery_bar_charging_color">צבע פס הסוללה בעת טעינה</string>
+  <string name="battery_bar_battery_low_color">צבע פס הסוללה שהסוללה חלשה</string>
+  <string name="battery_bar_cat">סגנון פס הסוללה</string>
+  <string name="battery_bar_style_title">יישור פס הסוללה</string>
+  <string name="battery_bar_thickness_title">עובי פס הסוללה</string>
+  <string name="battery_bar_animate_title">הנפשת טעינה</string>
+  <string name="battery_bar_style_regular">רגיל</string>
+  <string name="battery_bar_style_center_mirrored">מיושר לאמצע</string>
+  <string name="battery_bar_style_reversed">הפוך</string>
+  <string name="battery_bar_use_charging_color">צבע טעינה מותאם אישית</string>
+  <string name="battery_bar_blend_color_title">מזג צבעים</string>
+  <string name="battery_bar_blend_color_summary">מזג צבעי ריק\מלא בהתאמה לאחוזי הסוללה</string>
+  <string name="battery_bar_blend_color_reverse_title">הפוך כיוון צבעים</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">מלא &#8592; ריק: אדום &#8594; ירוק &#8594; כחול &#8594; אדום</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">מלא &#8594; ריק: אדום &#8592; ירוק &#8592; כחול &#8592; אדום</string>
   <!-- QS headers -->
   <!-- Screen state service -->
+  <string name="screen_state_toggles_enable_title">אפשר</string>
   <string name="screen_state_toggles_location_title">מיקום</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Status bar notification ticker -->
@@ -328,15 +399,20 @@
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- Roaming indicator icon -->
   <!-- Bluetooth status -->
+  <string name="bluetooth_battery_title">הראה מצב סוללת התקני Bluetooth</string>
+  <string name="bluetooth_battery_summary">מראה את מצב הסוללה של התקני ה־Bluetooth המחוברים כעת, אם יש כאלו.</string>
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
   <string name="shortcut_action_none">-ללא-</string>
   <string name="shortcut_action_reset">אפס</string>
   <string name="shortcut_action_add">הוסף</string>
+  <string name="shortcuts_applications">יישומים</string>
   <string name="shortcuts_icon_default">ברירת מחדל</string>
+  <string name="shortcuts_icon_presets">סמלי מערכת</string>
   <string name="shortcuts_icon_custom">גלריה</string>
   <string name="shortcuts_icon_picker_alarm">שעון מעורר</string>
+  <string name="shortcuts_icon_picker_battery">סוללה</string>
   <string name="shortcuts_icon_picker_gallery">גלריה</string>
   <string name="shortcuts_icon_picker_music">מוזיקה</string>
   <string name="shortcuts_icon_picker_nav">ניווט</string>
@@ -359,6 +435,8 @@
   <string name="shortcut_action_reset">אפס</string>
   <string name="shortcut_action_add">הוסף</string>
   <!-- SlimSizer  -->
+  <string name="sizer_message_startup">כלי זה מאפשר למחוק יישומי מערכת. השתמש בזהירות ומחק רק יישומים שאתה יודע שבטוח להסירם.</string>
+  <string name="system_app_remover">מסיר יישומי מערכת</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->

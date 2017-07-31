@@ -26,12 +26,12 @@
   <string name="general_category">Umum</string>
   <string name="gestures_category">Gerakan</string>
   <string name="music_category">Musik</string>
-  <string name="weather_category">Pengaturan cuaca</string>
+  <string name="weather_category">Cuaca di Layar Kunci</string>
   <string name="security_category">Keamanan</string>
   <string name="hardware_category">Perangkat keras</string>
-  <string name="animations_category">Animasi ubin</string>
-  <string name="traffic_category">Indikator data</string>
-  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="animations_category">Animasi ikon</string>
+  <string name="traffic_category">Indikator lalu lintas</string>
+  <string name="aosp_recents_category">Tampilan Terkini AOSP</string>
   <string name="dlg_ok">OKE</string>
   <string name="attention">Perhatian</string>
   <string name="loading">Memuat\u2026</string>
@@ -54,27 +54,27 @@
   <string name="build_tweaks_summary_title">Oprek perangkat anda!</string>
   <string name="system_animations">Animasi Sistem</string>
   <string name="toast">Toast</string>
-  <string name="listview">Tampilan Baris</string>
-  <string name="qs_header_title">Penyetelan cepat header</string>
+  <string name="listview">ListView</string>
+  <string name="qs_header_title">Setelan Cepat atas</string>
   <string name="qs_omnijaws_category">Ikon Cuaca QS</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Bantu kami membantu anda!</string>
   <string name="extensions_dialog_message">Jika anda menemukan bug dengan setelan ini, posting di Laporan Bug bagian dari laman Google+ kami. Anda harus menyertakan berikut ini ketika posting laporan bug:\n\n1. Sebuah logcat atau last_kmsg\n2. Kernel dan mods yang digunakan\n3. Informasi yang membantu\n\nJika laporan anda tidak bisa memenuhi hal tersebut, JANGAN mengharapkan ada hal-hal yang akan diperbaiki.</string>
   <string name="extensions_dialog_toast">BACALAH HAL INI SELURUHNYA!</string>
   <!-- OmniJaws -->
-  <string name="weather_config_title">Pengaturan cuaca</string>
+  <string name="weather_config_title">Setelan cuaca</string>
   <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
   <string name="header_weather_summary">Hidupkan notifikasi di atas pemberitahuan panel</string>
-  <string name="weather_icon_pack_title">Paket ikon kondisi</string>
+  <string name="weather_icon_pack_title">Kondisi paket ikon</string>
   <!-- Quick Settings brightness slider -->
-  <string name="qs_brightness_slider_title">Slider kecerahan</string>
-  <string name="qs_brightness_slider_summary">Tampilkan slider kecerahan di panel pengaturan cepat</string>
+  <string name="qs_brightness_slider_title">Penggeser kecerahan</string>
+  <string name="qs_brightness_slider_summary">Tampilkan penggeser kecerahan pada panel setelan cepat</string>
   <string name="brightness_icon_title">Ikon kecerahan</string>
-  <string name="brightness_icon_summary">Tampilkan ikon kecerahan di sebelah kiri slider kecerahan untuk menyesuaikan kecerahan otomatis</string>
+  <string name="brightness_icon_summary">Tampilkan ikon kecerahan di samping kiri penggeser kecerahan untuk sesuaikan kecerahan otomatis</string>
   <!-- Quick Settings -->
   <string name="quick_settings_title">Setelan Cepat</string>
-  <string name="status_bar_quick_qs_pulldown_title">Pull-down cepat</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Tepi %1$s dari status bar dapat di tarik kebawah untuk pengaturan cepat</string>
+  <string name="status_bar_quick_qs_pulldown_title">Keruntuhan cepat</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Menarik tepi kanan status bar ke bawah untuk Setelan Cepat</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Ekstensi Lainnya</string>
   <!-- General Tweaks -->
@@ -82,7 +82,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Notifikasi</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">UI Umum</string>
+  <string name="recents_ui_title">UI Terkini</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">UI Layar Kunci</string>
   <!-- Lockscreen Shortcuts -->
@@ -96,42 +96,42 @@
   <!-- Carrier Label -->
   <string name="carrierlabel_title">Label Operator</string>
   <!-- Show notification count -->
-  <string name="status_bar_notif_count_title">Tampilkan hitungan pemberitahuan</string>
-  <string name="status_bar_notif_count_summary">Tampilkan jumlah pemberitahuan yang tertunda</string>
+  <string name="status_bar_notif_count_title">Tampilkan hitungan notifikasi</string>
+  <string name="status_bar_notif_count_summary">Menampilkan jumlah dari notifikasi tertunda</string>
   <!-- Double tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Ketuk dua kali untuk tidur</string>
+  <string name="double_tap_to_sleep_title">Ketuk dua kali tidur</string>
   <string name="double_tap_to_sleep_summary">Ketuk dua kali di statusbar atas atau ketiga pintasan bawah di area saat layar terkunci untuk mematikan layar</string>
   <!-- Toast Icons -->
-  <string name="toast_icon_title">Toast Ikon</string>
-  <string name="toast_icon_summary">Tampilkan ikon aplikasi sesuai dengan \'toast\'</string>
+  <string name="toast_icon_title">Ikon toast</string>
+  <string name="toast_icon_summary">Menampilkan ikon sesuai apl dengan toast</string>
   <!-- Power notification controls -->
   <string name="power_notification_controls_title">Kontrol kekuatan notifikasi</string>
   <string name="power_notification_controls_summary">Pilih tingkat kepentingan untuk notifikasi</string>
   <!-- Force expanded notifications -->
-  <string name="force_expanded_notifications_title">Perluas paksa pemberitahuan</string>
+  <string name="force_expanded_notifications_title">Paksa perluas pemberitahuan</string>
   <string name="force_expanded_notifications_summary">Tersedia hanya untuk aplikasi yang mendukung pemberitahuan diperluas</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Menonaktifkan notifikasi ketika menggunakan layar penuh</string>
-  <string name="disable_immersive_message_summary">Akan menghilangkan semua notifikasi ketika layar penuh</string>
+  <string name="disable_immersive_message_title">Matikan Immersive Mode Pesan</string>
+  <string name="disable_immersive_message_summary">Ini akan menyembunyikan semua Immersive Mode Pesan</string>
   <!-- Flashlight notification -->
   <string name="flashlight_notification_title">Notifikasi senter</string>
   <string name="flashlight_notification_summary">Hidupkan notifikasi untuk senter saat hidup</string>
   <!-- Tiles animation style  -->
-  <string name="qs_tile_animation_style_title">Gaya animasi</string>
-  <string name="qs_tile_animation_duration_title">Durasi Animasi tiles</string>
-  <string name="qs_tile_animation_interpolator_title">Interpolator animasi tiles</string>
-  <string name="qs_tile_animation_style_off">Tanpa animasi</string>
-  <string name="qs_tile_animation_style_flip">Balik</string>
-  <string name="qs_tile_animation_style_rotate">Putar posisi</string>
-  <string name="qs_tile_animation_duration_low">Rendah</string>
+  <string name="qs_tile_animation_style_title">Gaya animasi tiles</string>
+  <string name="qs_tile_animation_duration_title">Durasi animasi tiles</string>
+  <string name="qs_tile_animation_interpolator_title">Animasi interpolar tiles</string>
+  <string name="qs_tile_animation_style_off">Tidak ada animasi</string>
+  <string name="qs_tile_animation_style_flip">Membalik</string>
+  <string name="qs_tile_animation_style_rotate">Berputar</string>
+  <string name="qs_tile_animation_duration_low">Lambat</string>
   <string name="qs_tile_animation_duration_default">Standar</string>
   <string name="qs_tile_animation_duration_fast">Cepat</string>
-  <string name="qs_tile_animation_interpolator_linearInterpolator">Linier</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Berbaris</string>
   <string name="qs_tile_animation_interpolator_accelerateInterpolator">Mempercepat</string>
   <string name="qs_tile_animation_interpolator_decelerateInterpolator">Memperlambat</string>
-  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Mempercepat memperlambat</string>
-  <string name="qs_tile_animation_interpolator_bounceInterpolator">Memantul</string>
-  <string name="qs_tile_animation_interpolator_overshootInterpolator">Melampaui</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Mempercepat melambat</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Melambung</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
   <string name="qs_tile_animation_interpolator_anticipateInterpolator">Antisipasi</string>
   <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Mengantisipasi overshoot</string>
   <string name="qs_set_animation_style">%1$s</string>
@@ -213,9 +213,9 @@
   <string name="navbar_interface_title">Antarmuka</string>
   <string name="navbar_size">Ukuran bar</string>
   <string name="navbar_mode">Mode navigasi</string>
-  <string name="navbar_visibility">Aktifkan bar navigasi</string>
+  <string name="navbar_visibility">Hidupkan navigasi bar</string>
   <string name="navigationbar_settings_title">Navigasi bar</string>
-  <string name="navigationbar_settings_summary">Kostumisasi gaya navigasi dan perilaku</string>
+  <string name="navigationbar_settings_summary">Sesuaikan gaya navigasi dan prilaku</string>
   <string name="navbar_general_title">Lanjutan</string>
   <string name="navigation_bar_left_title">Mode tangan kiri</string>
   <string name="navigation_bar_left_summary">Tempatkan navigasi bar di sebelah kiri layar dalam mode lanskap</string>
@@ -232,16 +232,16 @@
   <string name="reset">Setel ulang</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Pilih tindakan</string>
-  <string name="action_entry_default_action">Pengaturan standar</string>
+  <string name="action_entry_default_action">Setelan bawaan</string>
   <string name="action_entry_select_app">Pilih aplikasi</string>
   <string name="action_entry_custom_action">Pilih tindakan khusus</string>
   <!-- Fling -->
-  <string name="fling_settings">Pengaturan \'Fling\'</string>
+  <string name="fling_settings">Setelan fling</string>
   <string name="fling_interface">Fling</string>
-  <string name="fling_enable_title">Aktifkan \'Fling\'</string>
-  <string name="fling_back_home_policy">/\'Back/\' dan /\'Home/\' diperlukan untuk mengatur setiap saat. Untuk mengubah tugas /\'Back/\' dan /\'Home/\', tetapkan tugas yang diinginkan terlebih dulu</string>
+  <string name="fling_enable_title">Hidupkan fling</string>
+  <string name="fling_back_home_policy">Kembali dan Beranda diminta untuk diatur setiap saat. Untuk mengubah tugas Kembali atau Beranda, tetapkan tugas yang diinginkan pertama</string>
   <string name="fling_split_bar_policy">Ketika tindakan yang ditetapkan hanya kanan atau kiri, tindakan berlaku untuk seluruh bar</string>
-  <string name="fling_def_summary">Tidak ada tindakan diatur</string>
+  <string name="fling_def_summary">Tidak ada tindakan disetel</string>
   <string name="fling_swipe_actions">Gerakan usap</string>
   <string name="fling_tap_actions">Gerakan ketuk</string>
   <string name="fling_short_swipe_right">Usap pendek kanan</string>
@@ -321,12 +321,12 @@
   <!-- Navbar height -->
   <string name="navigation_bar_size_title">Ukuran bar</string>
   <string name="portrait_title">Tinggi potret</string>
-  <string name="land_vert_title">Lebar mendatar</string>
-  <string name="land_hor_title">Tinggi mendatar</string>
+  <string name="land_vert_title">Lebar lanskap</string>
+  <string name="land_hor_title">Tinggi lanskap</string>
   <string name="positive_done">Selesai</string>
   <!-- SmartBar -->
   <string name="smartbar_category">Smartbar</string>
-  <string name="smartbar_settings_title">Pengaturan \'SmartBar\'</string>
+  <string name="smartbar_settings_title">Setelan Smartbar</string>
   <string name="smartbar_editor_title">Hidup/matikan pengubah tombol</string>
   <string name="smartbar_editor_summary">Tekan sedang dan seret untuk mengubah posisi. Tekan lama untuk menampilkan menu ubah. Posisi tombol mungkin diubah saat menu ditampilkan.</string>
   <string name="smartbar_context_menu_position_title">Posisi tata letak tombol konteks</string>
@@ -335,14 +335,14 @@
   <string name="smartbar_left">Kiri</string>
   <string name="smartbar_button_animation_title">Animasi sentuh tombol</string>
   <string name="smartbar_button_animation_summary">Atur gaya animasi tombol utama saat mereka ditekan</string>
-  <string name="smartbar_button_animation_ripple">Riak</string>
-  <string name="smartbar_button_animation_spring">Spring</string>
-  <string name="smartbar_button_animation_pixel">Piksel (semua tombol)</string>
-  <string name="smartbar_button_animation_pixel_home">Piksel (Hanya tombol Home)</string>
-  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Hanya tombol Home) dan riak</string>
+  <string name="smartbar_button_animation_ripple">Berombak kecil</string>
+  <string name="smartbar_button_animation_spring">Memantul</string>
+  <string name="smartbar_button_animation_pixel">Pixel (semua tombol)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (tombol home saja)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel dan Berombak (tombol home saja)</string>
   <string name="smartbar_factory_reset_title">Setel ulang ke bawaan</string>
-  <string name="smartbar_factory_reset_confirm">Anda yakin ingin menyetel ulang \'SmartBar\' ke pengaturan bawaan?</string>
-  <string name="smartbar_ime_action_title">Metode Masukan dan Media Tindakan</string>
+  <string name="smartbar_factory_reset_confirm">Apakah anda yakin ingin mengembalikan smartbar ke setelan bawaan?</string>
+  <string name="smartbar_ime_action_title">Tindakan metode input</string>
   <string name="smartbar_ime_action_summary">Tetapkan tombol apa yang ditunjukkan ketika papan ketik di layar ditampilkan atau musik diputar</string>
   <string name="smartbar_ime_action_none">Tidak ada</string>
   <string name="smartbar_ime_action_arrows">Panah masukan</string>
@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">Standar penundaan (cepat)</string>
   <string name="smartbar_longpress_delay_normal">penundaan normal</string>
   <string name="smartbar_longpress_delay_long">penundaan lama</string>
+  <string name="smartbar_custom_icon_size_title">Sesuaikan Penskalaan ikon</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Bergetar saat disentuh</string>
   <string name="quick_settings_vibrate_summary">Bergetar ketika menyentuh ubin</string>
@@ -375,8 +376,8 @@
   <string name="missed_call_breath_summary">Akan memberikan efek bernafas pada notifikasi panggilan tak terjawab distatus bar</string>
   <string name="voicemail_breath_title">Pesan suara bernafas</string>
   <string name="voicemail_breath_summary">Akan memberikan efek bernafas pada notifikasi pesan suara distatus bar</string>
-  <string name="sms_breath_title">SMS bernafas</string>
-  <string name="sms_breath_summary">Akan membrikan efek bernafas pada notifikasi sms distatus bar</string>
+  <string name="sms_breath_title">Breathing SMS</string>
+  <string name="sms_breath_summary">Akan memberikan pemberitahuan SMS breathing di status bar</string>
   <!-- Quick settings tiles columns and rows config -->
   <string name="qs_layout_category">Tata letak QS ubin</string>
   <string name="qs_rows_portrait_title">Baris (potret)</string>
@@ -431,8 +432,8 @@
   <string name="weather_hide_panel_custom_summary">Panel cuaca akan disembunyikan ketika pemberitahuan telah mencapai jumlah maksimal yang sudah ditentukan</string>
   <string name="weather_hide_panel_never_summary">Panel cuaca tidak akan tersembunyi</string>
   <string name="weather_number_of_notifications_title">Jumlah pemberitahuan</string>
-  <string name="weather_config_title">Pengaturan cuaca</string>
-  <string name="weather_icon_pack_title">Paket ikon kondisi</string>
+  <string name="weather_config_title">Setelan cuaca</string>
+  <string name="weather_icon_pack_title">Kondisi paket ikon</string>
   <string name="lock_clock_title">Widget jam</string>
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Kontrol kecerahan</string>
@@ -441,8 +442,8 @@
   <string name="lockscreen_targets_summary">Sesuaikan pintasan bawah kiri dan kanan pada kunci layar sesuai pilihan anda</string>
   <string name="lockscreen_targets_message">Pintasan bawah</string>
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
-  <string name="double_tap_sleep_anywhere_title">Ketuk kunci laya untuk tidur</string>
-  <string name="double_tap_sleep_anywhere_summary">Tekan dua kali di mana saja pada kunci layar untuk menempatkan perangkat tidur</string>
+  <string name="double_tap_sleep_anywhere_title">Ketuk ganda untuk tidur di mana saja</string>
+  <string name="double_tap_sleep_anywhere_summary">Dua ketukan dimana saja pada layar kunci untuk tidur</string>
   <!-- Optional screenshot type -->
   <string name="screenshot_type_title">Jenis tangkapan layar</string>
   <string name="screenshot_type_fullscreen">Ambil tangkapan layar penuh</string>
@@ -604,7 +605,7 @@
   <string name="status_bar_battery_percentage_default">Tersembunyi</string>
   <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
   <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
-  <string name="battery_tile_style_title">Gaya ubin baterai</string>
+  <string name="battery_tile_style_title">Gaya ikon baterai</string>
   <string name="status_bar_battery_style_tile_summary">Memungkinkan untuk mengatur gaya ikon yang sama dengan yang dipilih untuk baterai statusbar</string>
   <string name="force_charge_battery_text_title">Persen pengisian baterai statusbar</string>
   <string name="force_charge_battery_text_summary_on">Menampilkan persentase baterai di luar ikon saat pengisian</string>
@@ -615,9 +616,9 @@
   <string name="text_charging_symbol_flash">Petir</string>
   <string name="text_charging_symbol_tilde">Tilde</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Tombol \'hapus semua\'</string>
-  <string name="show_clear_all_recents_button_summary">Tampilkan tombol \'hapus semua\'</string>
-  <string name="recents_clear_all_location_title">Lokasi tombol \'hapus semua\'</string>
+  <string name="show_clear_all_recents_button_title">Tombol bersihkan semua</string>
+  <string name="show_clear_all_recents_button_summary">Tampilkan tombol bersihkan semua</string>
+  <string name="recents_clear_all_location_title">Lokasi tombol bersihkan semua</string>
   <string name="recents_clear_all_location_top_right">Kanan atas</string>
   <string name="recents_clear_all_location_top_left">Kiri atas</string>
   <string name="recents_clear_all_location_top_center">Tengah atas</string>
@@ -743,8 +744,8 @@
   <string name="pref_scrollingcache_default_disable">Non-aktifkan default</string>
   <string name="pref_scrollingcache_force_disable">Menonaktifkan paksa</string>
   <!-- Three finger swipe screenshot -->
-  <string name="three_finger_gesture">Gerakan tiga jari</string>
-  <string name="three_finger_gesture_summary">Gesekkan tiga jari untuk mengambil tangkapan layar</string>
+  <string name="three_finger_gesture">Tiga jari menangkap layar</string>
+  <string name="three_finger_gesture_summary">Geser bersama tiga jari di layar untuk menangkap layar</string>
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_title">Jalankan aplikasi musik</string>
   <string name="headset_connect_player_disabled">Tidak non aktifkan</string>
@@ -896,7 +897,7 @@
   <string name="keyguard_statusbar_clock_summary">Mengaktifkan jam status bar di sisi kiri pada kunci layar</string>
   <!-- Aosp cards and grid recents -->
   <string name="recents_type_title">Jenis Recents</string>
-  <string name="recents_stock">Saham AOSP</string>
+  <string name="recents_stock">Kartu</string>
   <string name="recents_grid">Grid</string>
   <!-- Slim DSLV -->
   <string name="shortcut_action_none">Tidak ada</string>
@@ -970,7 +971,7 @@
   <string name="shortcuts_icon_picker_quicksettings">Setelan Cepat</string>
   <string name="shortcuts_icon_picker_rss">RSS feed</string>
   <string name="shortcuts_icon_picker_sdcard">SDCard</string>
-  <string name="shortcuts_icon_picker_search">Cari</string>
+  <string name="shortcuts_icon_picker_search">Pencarian</string>
   <string name="shortcuts_icon_picker_sms">Pesan</string>
   <string name="shortcuts_icon_picker_tasks">Tugas</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>

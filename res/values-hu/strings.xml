@@ -33,6 +33,7 @@
   <string name="traffic_category">Hálózati indikátorok</string>
   <string name="aosp_recents_category">AOSP előzmények</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Figyelem</string>
   <string name="loading">Betöltés\u2026</string>
   <string name="reset">Alaphelyzet</string>
   <string name="reset_colors">Színek visszaállítása</string>
@@ -54,11 +55,11 @@
   <string name="system_animations">Rendszeranimációk</string>
   <string name="toast">Buborékszöveg</string>
   <string name="listview">Listanézet</string>
-  <string name="qs_header_title">Gyors beállítások szalag</string>
-  <string name="qs_omnijaws_category">Időjárás QS csempe</string>
+  <string name="qs_header_title">Gyorsbeállítások fejléc</string>
+  <string name="qs_omnijaws_category">Időjárás gyorsbeállítások csempe</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Segíts nekünk, mi is segítünk neked!</string>
-  <string name="extensions_dialog_message">Ha talál egy hibát ezekkel a beállításokkal, írjon a Bug Reports részébe a Google+ oldalunknak. Csatolnod KELL ezeket ha egy hibajelentést ír: \n\n 1. Egy logcatet vagy last_kmsg\n2. Kernel és modok használva\n3. Hasznos információk.\n\nHa nem jelent valamit érthetően, NE várjon hibajavítást.</string>
+  <string name="extensions_dialog_message">Ha talál egy hibát ezekben a beállításokban, írjon a Bug Reports részébe a Google+ oldalunknak. Csatolnia KELL ezeket, ha hibajelentést ír: \n\n 1. Egy logcatet vagy last_kmsg-t\n2. Kernel és használt modok\n3. Hasznos információk\n\nHa nem jelent valamit érthetően, NE várjon hibajavítást.</string>
   <string name="extensions_dialog_toast">OLVASSA EL AZ EGÉSZET!</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Szolgáltatás beállítások</string>

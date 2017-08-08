@@ -26,4 +26,10 @@
         android:fragment="org.aospextended.extensions.dui.NavbarSettings"
         android:layout="@layout/preference_navigation"
         android:title="@string/navigationbar_settings_title" />
+
+<Preference
+        android:key="pie_settings"
+        android:fragment="org.aospextended.extensions.PieSettings"
+        android:layout="@layout/preference_pie_settings"
+        android:title="@string/pie_settings" />
 </PreferenceScreen>

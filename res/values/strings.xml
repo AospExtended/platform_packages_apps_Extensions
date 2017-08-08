@@ -1210,5 +1210,24 @@
    <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+
+    <!-- Pie -->
+    <string name="pie_enable_title">Enable pie control</string>
+    <string name="pie_settings">Pie settings</string>
+    <string name="pie_settings_summary">Adjust pie to your liking</string>
+    <string name="pie_theme_mode_title">Theme</string>
+    <string name="pie_auto">Automatic</string>
+    <string name="pie_white">White</string>
+    <string name="pie_dark">Dark</string>
+    <string name="pie_battery_title">Battery indicator</string>
+    <string name="pie_battery_text">Text only</string>
+    <string name="pie_battery_circle">Circle only</string>
+    <string name="pie_battery_both">Both</string>
+    <string name="pie_status_indicator">Network indicator</string>
+    <string name="pie_status_wifi">Wifi only</string>
+    <string name="pie_status_mobile">Mobile network only</string>
+    <string name="pie_status_none">None</string>
+    <string name="pie_status_both">Both</string>
+
 </resources>
 

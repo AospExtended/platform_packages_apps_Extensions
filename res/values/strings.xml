@@ -1234,5 +1234,9 @@
     <string name="pa_pie_gravity_right">Right</string>
     <string name="pa_pie_gravity_left">Left</string>
 
+    <!-- ANBI -->
+    <string name="anbi_title">Accidental touch</string>
+    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+
 </resources>
 

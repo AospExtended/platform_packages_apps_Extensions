@@ -17,6 +17,17 @@
     android:title="@string/buttons_title">
 
    <PreferenceCategory
+        android:key="button_general"
+        android:title="@string/general_category">
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="anbi"
+        android:title="@string/anbi_title"
+        android:summary="@string/anbi_summary"/>
+
+   </PreferenceCategory>
+
+   <PreferenceCategory
         android:key="power_menu"
         android:title="@string/power_menu_title">
 

@@ -538,7 +538,6 @@
   <string name="volume_keys_control_media_stream_title">Przyciski głośności regulują głośność multimediów</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
-  <string name="lockscreen_battery_info_summary">Wyświetl szacowane maksymalne napięcie oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
   <string name="hardware_keys_home_key_title">Przycisk Home</string>
@@ -1034,4 +1033,11 @@
   <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
   <string name="incall_vibrate_call_wait_title">Wibracje podczas oczekiwania na połączenie</string>
   <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Brak</string>
+  <string name="pa_pie_gravity_right">Po prawej</string>
+  <string name="pa_pie_gravity_left">Po lewej</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

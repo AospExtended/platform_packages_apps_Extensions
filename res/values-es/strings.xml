@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Las teclas de volumen controlan el flujo de medios</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Información de la batería en pantalla de bloqueo</string>
-  <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Despertar con botones de volúmen</string>
   <string name="hardware_keys_home_key_title">Botón de inicio</string>
@@ -632,7 +631,7 @@
   <!-- Hide Apps from Recents -->
   <string name="hide_apps_from_recents_title">Aplicaciones ocultas</string>
   <string name="hide_from_recents_add_app">Añadir aplicación</string>
-  <string name="hide_apps_from_recents_summary">Escoger las aplicaciones a excluir desde el panel de recientes</string>
+  <string name="hide_apps_from_recents_summary">Escoger las aplicaciones a excluir del panel de recientes</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar en éxito de la autenticación de huella digital</string>
@@ -642,7 +641,7 @@
   <string name="blurred_status_bar_expanded_enabled_pref_summary">Desenfocar el fondo cuando bajas la barra de estado</string>
   <string name="translucent_notifications_pref">Notificaciones Translucidas</string>
   <string name="translucent_notifications_pref_summary">Establecer el fondo de notificaciones translúcido</string>
-  <string name="translucent_quick_settings_pref">Barra de estado expandida transparente</string>
+  <string name="translucent_quick_settings_pref">Barra de estado expandida translúcida</string>
   <string name="translucent_quick_settings_pref_summary">Hacer transparente el fondo de la configuración rápida</string>
   <string name="transluency_level_universal">Nivel de transparencia</string>
   <string name="blurred_recent_app_enabled_pref">Aplicaciones recientes desenfocadas</string>
@@ -664,7 +663,7 @@
   <string name="blurred_scale_summary">Calidad de imágenes difuminadas</string>
   <string name="blurred_radius">Radio de desenfoque</string>
   <string name="blurred_radius_summary">Cantidad de desenfoque</string>
-  <string name="blur_cat_notice">Noticia</string>
+  <string name="blur_cat_notice">Aviso</string>
   <string name="blur_cat_notice_summary">Las personalizaciones del desenfoque se desactivan durante la vista del bloqueo de teclado. ¡Sólo las notificaciones translúcidas están habilitadas!</string>
   <!-- AOKP custom system animations -->
   <string name="animation_title">Animaciones</string>
@@ -776,7 +775,7 @@
   <string name="battery_bar_charging_color">Color de la barra de bateria durante la carga</string>
   <string name="battery_bar_battery_low_color">Color de la barra de bateria con bateria baja</string>
   <string name="battery_bar_cat">Estilo de barra de batería</string>
-  <string name="battery_bar_style_title">Estilo de la barra de batería</string>
+  <string name="battery_bar_style_title">Alineamiento de la barra de batería</string>
   <string name="battery_bar_thickness_title">Grosor de la barra de batería</string>
   <string name="battery_bar_animate_title">Animación de carga</string>
   <string name="battery_bar_style_regular">Regular</string>
@@ -887,7 +886,7 @@
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Mostrar indicador de roaming</string>
   <string name="roaming_indicator_icon_summary">Mostrar indicador de roaming en el ícono de señal cuando se esté en modo roaming</string>
-  <string name="screenshot_crop_and_share_title">Recortar captura de pantalla y &amp; enviar</string>
+  <string name="screenshot_crop_and_share_title">Recortar la captura de pantalla &amp; enviar</string>
   <string name="screenshot_crop_and_share_summary">Mostrar una ventana del editor después de tomar una captura de pantalla para recortar, guardar o compartir</string>
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Mostrar estado de la batería Bluetooth</string>
@@ -966,7 +965,7 @@
   <string name="shortcuts_icon_picker_phone">Teléfono</string>
   <string name="shortcuts_icon_picker_package">Paquete</string>
   <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
-  <string name="shortcuts_icon_picker_play">Play</string>
+  <string name="shortcuts_icon_picker_play">Reproducir</string>
   <string name="shortcuts_icon_picker_pocket">Pocket</string>
   <string name="shortcuts_icon_picker_quicksettings">Ajustes Rápidos</string>
   <string name="shortcuts_icon_picker_rss">Suscripciones RSS</string>
@@ -979,7 +978,7 @@
   <string name="shortcuts_icon_picker_tv">TV</string>
   <string name="shortcuts_icon_picker_twitter">Twitter</string>
   <string name="shortcuts_icon_picker_unlock">Desbloquear</string>
-  <string name="empty_title">Vacio</string>
+  <string name="empty_title">Vacío</string>
   <string name="normal_title">Normal</string>
   <string name="hidden_title">Oculto</string>
   <string name="position_title">Posición</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
   <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
   <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Ninguno</string>
+  <string name="pa_pie_gravity_right">Derecha</string>
+  <string name="pa_pie_gravity_left">Izquierda</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

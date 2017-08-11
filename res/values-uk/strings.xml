@@ -521,7 +521,7 @@
   <string name="power_menu_title_summary">Перегляд або зміна елементів меню вимкнення</string>
   <string name="power_category">Параметри меню живлення</string>
   <string name="actions_category">Пункти меню живлення</string>
-  <string name="power_menu_reboot_title">Перезавантаження</string>
+  <string name="power_menu_reboot_title">Перезавантажити</string>
   <string name="power_menu_screenshot_title">Знімок екрану</string>
   <string name="power_menu_screenrecord_title">Запис екрану</string>
   <string name="power_menu_torch_title">Ліхтарик</string>
@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Примусово керувати потоковим медіа регулятором гучності</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Інформація про батарею на екрані блокування</string>
-  <string name="lockscreen_battery_info_summary">Відображення максильної напруги струму і температуру акумулятора на екрані блокування під час зарядки</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Регулювання гучності</string>
   <string name="hardware_keys_home_key_title">Клавіша «Додому»</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
   <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
   <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Відсутній</string>
+  <string name="pa_pie_gravity_right">Справа</string>
+  <string name="pa_pie_gravity_left">Зліва</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

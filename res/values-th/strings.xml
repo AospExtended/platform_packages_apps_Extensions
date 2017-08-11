@@ -163,4 +163,9 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">ไม่มี</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

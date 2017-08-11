@@ -472,7 +472,7 @@
   <string name="power_menu_onthego_title">Yürüme Modu</string>
   <string name="power_menu_airplane_title">Uçak modu</string>
   <string name="power_menu_users_title">Kullanıcı değiştir</string>
-  <string name="power_menu_search_title">Ara</string>
+  <string name="power_menu_search_title">Arama Yap</string>
   <string name="power_menu_voice_title">Sesli arama</string>
   <string name="power_menu_settings_title">Ayarlar kısayolu</string>
   <string name="power_menu_lockdown_title">Cihaz kilitleme</string>
@@ -495,7 +495,6 @@
   <string name="volume_keys_control_media_stream_summary">Ses tuşları ile medya akışını kontrol etmeye zorla</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Kilit ekranı pil bilgisi</string>
-  <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazı maksimum akım voltajını ve pil sıcaklığını görüntüler</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Ses tuşuyla uyandır</string>
   <string name="hardware_keys_home_key_title">Ana ekran tuşu</string>
@@ -912,7 +911,7 @@ Sadece yarı saydam bildirimler etkin!</string>
   <string name="shortcuts_icon_picker_quicksettings">Hızlı Ayarlar</string>
   <string name="shortcuts_icon_picker_rss">RSS Beslemesi</string>
   <string name="shortcuts_icon_picker_sdcard">SDKard</string>
-  <string name="shortcuts_icon_picker_search">Ara</string>
+  <string name="shortcuts_icon_picker_search">Arama Yap</string>
   <string name="shortcuts_icon_picker_sms">Mesajlaşma</string>
   <string name="shortcuts_icon_picker_tasks">Görevler</string>
   <string name="shortcuts_icon_picker_terminal">Terminal</string>
@@ -988,4 +987,11 @@ Sadece yarı saydam bildirimler etkin!</string>
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Hiçbiri</string>
+  <string name="pa_pie_gravity_right">Sağ</string>
+  <string name="pa_pie_gravity_left">Sol</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

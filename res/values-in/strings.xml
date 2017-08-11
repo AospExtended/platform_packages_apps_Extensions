@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Paksa tombol volume untuk mengontrol media stream</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info baterai pada kunci layar</string>
-  <string name="lockscreen_battery_info_summary">Menampilkan maksimal arus-tegangan yang dinegosiasikan pengisi daya dan suhu baterai pada lockscreen saat pengisian</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Volume Rocker</string>
   <string name="hardware_keys_home_key_title">Tombol home</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
   <string name="incall_vibrate_call_wait_title">Bergetar saat panggilan tunggu</string>
   <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Tidak ada</string>
+  <string name="pa_pie_gravity_right">Kanan</string>
+  <string name="pa_pie_gravity_left">Kiri</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

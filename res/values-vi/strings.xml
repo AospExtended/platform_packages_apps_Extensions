@@ -452,7 +452,6 @@
   <!-- Volume key controls media stream -->
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Thông tin pin trên màn hình khóa</string>
-  <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Nút âm lượng</string>
   <string name="hardware_keys_home_key_title">Phím Home</string>
@@ -903,4 +902,11 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Không gì cả</string>
+  <string name="pa_pie_gravity_right">Phải</string>
+  <string name="pa_pie_gravity_left">Trái</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

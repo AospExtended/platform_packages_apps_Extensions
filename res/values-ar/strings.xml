@@ -363,6 +363,7 @@
   <string name="smartbar_longpress_delay_default">المهلة الافتراضية (سريع)</string>
   <string name="smartbar_longpress_delay_normal">المهلة العادية</string>
   <string name="smartbar_longpress_delay_long">المهلة الطويلة</string>
+  <string name="smartbar_custom_icon_size_title">تحجيم رمز مخصص</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">هُز عند اللمس</string>
   <string name="quick_settings_vibrate_summary">هُز عند لمس البلاط</string>
@@ -551,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">إجبار أزرار مستوى الصوت على التحكم في تدفق الوسائط</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">معلومات شحن البطارية في شاشة القغل</string>
-  <string name="lockscreen_battery_info_summary">عرض الحد الأقصى لفولتية وتيار الشاحن وحرارة البطارية على شاشة القفل أثناء الشحن</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">مؤرجح مستوى الصوت</string>
   <string name="hardware_keys_home_key_title">زر الصفحة الرئيسية</string>
@@ -1065,4 +1065,11 @@
   <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
   <string name="incall_vibrate_call_wait_title">إهتزاز عند إنتظار المكالمة</string>
   <string name="incall_vibrate_disconnect_title">إهتزاز عند قطع الإتصال</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">لا شيء</string>
+  <string name="pa_pie_gravity_right">يمين</string>
+  <string name="pa_pie_gravity_left">يسار</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

@@ -171,7 +171,7 @@
   <string name="network_traffic_hidearrow">Nascondi frecce</string>
   <string name="network_traffic_hidearrow_summary">Nascondi le frecce nell\'indicatore di traffico</string>
   <!-- Statusbar Clock options -->
-  <string name="status_bar_clock">Orologio e Data</string>
+  <string name="status_bar_clock">Orologio e data</string>
   <string name="clock_title_enable">Allineamento</string>
   <string name="status_bar_show_clock_title">Mostra l\'orologio e la data</string>
   <string name="status_bar_clock_seconds_title">Mostra i secondi</string>
@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Forza i tasti del volume per controllare il flusso multimediale</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
-  <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la carica</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Cursore del volume</string>
   <string name="hardware_keys_home_key_title">Pulsante home</string>
@@ -582,7 +581,7 @@
   <string name="carrier_label_settings_title">Etichetta operatore</string>
   <string name="carrier_label_settings_summary">Personalizzazione dell\'etichetta operatore</string>
   <string name="custom_carrier_label_title">Personalizza l\'etichetta operatore</string>
-  <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare a quello predefinito.</string>
+  <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare all\'etichetta predefinita.</string>
   <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata al momento impostata</string>
   <string name="show_carrier_title">Nome operatore</string>
   <string name="show_carrier_disabled">Disabilitato</string>
@@ -767,7 +766,7 @@
   <string name="qs_expand_indicator_summary">Disabilita l\'indicatore di espansione nell\'intestazione</string>
   <!-- Center Date + Time in header -->
   <string name="qs_date_time_center_title">Centra data e ora</string>
-  <string name="qs_date_time_center_summary">Richiede una o più icone per essere disabilitato</string>
+  <string name="qs_date_time_center_summary">Per attivare questa funzione devi disattivare una o più icone</string>
   <!-- Battery Bar fragment -->
   <string name="battery_bar_title">Barra batteria</string>
   <string name="battery_bar">Posizione barra batteria</string>
@@ -795,7 +794,7 @@
   <!-- QS headers -->
   <string name="qs_header_category">Opzioni intestazione impostaioni rapide</string>
   <string name="status_bar_custom_header_title">Immagine di intestazione personalizzata</string>
-  <string name="status_bar_custom_header_summary">Abilita un\'immagine nell\'intestazione del pannello delle notifiche</string>
+  <string name="status_bar_custom_header_summary">Attiva la visualizzazione di un\'immagine nell\'intestazione del pannello delle notifiche</string>
   <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
   <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
   <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
@@ -803,7 +802,7 @@
   <string name="daylight_header_provider_title">Dinamico</string>
   <string name="custom_header_provider_title">Tipo intestazione</string>
   <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
-  <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
+  <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine per utillizzarla con la modalità statica</string>
   <string name="smartbar_doubletap_sleep_title">Doppio tocco per sospendere</string>
   <string name="smartbar_doubletap_sleep_summary">Tocca due volte sugli spazi vuoti della barra di navigazione per spegnere lo schermo</string>
   <string name="one_handed_mode_title">Modalità una mano</string>
@@ -1066,4 +1065,11 @@
   <string name="incall_vibrate_connect_title">Vibra alla connessione</string>
   <string name="incall_vibrate_call_wait_title">Vibra per chiamata in attesa</string>
   <string name="incall_vibrate_disconnect_title">Vibra alla disconnessione</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Nessuno</string>
+  <string name="pa_pie_gravity_right">Destra</string>
+  <string name="pa_pie_gravity_left">Sinistra</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

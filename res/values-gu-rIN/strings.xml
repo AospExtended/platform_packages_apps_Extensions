@@ -19,6 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
   <!-- Extensions categories -->
+  <string name="recents_category">તાજેતરના</string>
   <!-- App info dialog -->
   <!-- OmniJaws -->
   <!-- Quick Settings brightness slider -->
@@ -78,6 +79,8 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_title">પાવર મેનૂ</string>
+  <string name="power_menu_voice_title">ધ્વનિ શોધ</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -121,10 +124,18 @@
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
   <!-- Lockscreen shortcuts -->
+  <string name="shortcut_action_home">હોમ</string>
+  <string name="shortcut_action_menu">મેનુ</string>
+  <string name="shortcut_action_power_menu">પાવર મેનૂ</string>
+  <string name="shortcut_action_recent">તાજેતરના</string>
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

@@ -404,7 +404,6 @@
   <!-- Volume key controls media stream -->
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">ロック画面での電池情報</string>
-  <string name="lockscreen_battery_info_summary">充電しながらロックスクリーンにネゴシエートされた充電器最大電流-電圧とバッテリー温度を表示します。</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">音量ボタン制御</string>
   <string name="hardware_keys_home_key_title">ホームボタン</string>
@@ -808,4 +807,11 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">なし</string>
+  <string name="pa_pie_gravity_right">右</string>
+  <string name="pa_pie_gravity_left">左</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

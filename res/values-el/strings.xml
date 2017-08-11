@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Εξαναγκασμός ελέγχου ροής πολυμέσων μέσω των πλήκτρων έντασης</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Πληροφορίες φόρτισης κλειδώματος οθόνης</string>
-  <string name="lockscreen_battery_info_summary">Εμφανίζει την διαπραματεύσιμη τρέχουσα μέγιστη τάση του φορτιστή και την θερμοκρασία της μπαταρίας στην οθόνη κλειδώματος ενώ φορτίζει</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Αφύπνιση οθόνης με τα κουμπιά έντασης ήχου</string>
   <string name="hardware_keys_home_key_title">Πλήκτρο αρχικής οθόνης</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Δόνηση στην απάντηση</string>
   <string name="incall_vibrate_call_wait_title">Δόνηση στην αναμονή</string>
   <string name="incall_vibrate_disconnect_title">Δόνηση στον τερματισμό</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Καμιά</string>
+  <string name="pa_pie_gravity_right">Δεξιά</string>
+  <string name="pa_pie_gravity_left">Αριστερά</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

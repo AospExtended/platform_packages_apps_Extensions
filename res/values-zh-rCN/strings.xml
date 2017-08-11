@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">强制音量键控制媒体流</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">锁屏电池信息</string>
-  <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示适配充电器的最大电流电压以及电池温度</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">音量键</string>
   <string name="hardware_keys_home_key_title">主屏键</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">接通时振动</string>
   <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
   <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">无</string>
+  <string name="pa_pie_gravity_right">右侧</string>
+  <string name="pa_pie_gravity_left">左侧</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

@@ -414,7 +414,6 @@
   <!-- Volume key controls media stream -->
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">잠금 화면 배터리 정보</string>
-  <string name="lockscreen_battery_info_summary">충전 중일 때 잠금 화면에 충전기의 최대 전류-전압과 배터리의 온도를 표시합니다</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">볼륨 버튼</string>
   <string name="hardware_keys_home_key_title">홈 버튼</string>
@@ -854,4 +853,11 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">없음</string>
+  <string name="pa_pie_gravity_right">오른쪽</string>
+  <string name="pa_pie_gravity_left">왼쪽</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

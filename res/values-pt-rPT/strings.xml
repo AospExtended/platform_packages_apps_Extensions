@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Forçar os botões de volume para controlar média</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informação da bateria</string>
-  <string name="lockscreen_battery_info_summary">Mostrar a corrente, a voltagem máxima e a temperatura da bateria no ecrã de bloqueio durante o carregamento</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Ligar com os botões de volume</string>
   <string name="hardware_keys_home_key_title">Botão Página inicial</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Vibrar ao ligar</string>
   <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
   <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Nenhuma</string>
+  <string name="pa_pie_gravity_right">Direita</string>
+  <string name="pa_pie_gravity_left">Esquerda</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

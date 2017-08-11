@@ -553,7 +553,6 @@
   <string name="volume_keys_control_media_stream_summary">Принудительно использовать кнопки громкости для регулировки громкости медиа</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Информация о зарядке</string>
-  <string name="lockscreen_battery_info_summary">Показывать примерное максимальное текущее напряжение и температуру аккумулятора на экране блокировки во время зарядки</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Регулировка громкости</string>
   <string name="hardware_keys_home_key_title">Кнопка «Домой»</string>
@@ -1065,4 +1064,11 @@
   <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
   <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
   <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Не использовать</string>
+  <string name="pa_pie_gravity_right">Справа</string>
+  <string name="pa_pie_gravity_left">Слева</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

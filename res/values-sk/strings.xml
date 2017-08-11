@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Tlačidlá hlasitosti slúžia pre nastavenie hlasitosti multimédií</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informácie o batérii na obrazovke uzamknutia</string>
-  <string name="lockscreen_battery_info_summary">Zobraziť maximálny prúd, napätie a teplotu batérie pri nabíjaní na obrazovke uzamknutia</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Tlačidlá hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačidlo Domov</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
   <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
   <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Nič</string>
+  <string name="pa_pie_gravity_right">Vpravo</string>
+  <string name="pa_pie_gravity_left">Vľavo</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

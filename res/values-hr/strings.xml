@@ -415,7 +415,6 @@
   <!-- Volume key controls media stream -->
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informacije o bateriji na zaklj. zaslonu</string>
-  <string name="lockscreen_battery_info_summary">Prikazuje maksimalni i trenutni napon punjača i temperaturu baterije na zaključanom zaslonu tijekom punjenja.</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Tipke za glasnoću</string>
   <string name="hardware_keys_home_key_title">Tipka za početni zaslon</string>
@@ -861,4 +860,11 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Ništa</string>
+  <string name="pa_pie_gravity_right">Desno</string>
+  <string name="pa_pie_gravity_left">Lijevo</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

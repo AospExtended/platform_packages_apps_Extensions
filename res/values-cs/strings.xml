@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Pomocí tlačítek hlasitosti ovládat streamování médií</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
-  <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Tlačítka hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
   <string name="incall_vibrate_call_wait_title">Vibrovat při čekajícím hovoru</string>
   <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Nic</string>
+  <string name="pa_pie_gravity_right">Vpravo</string>
+  <string name="pa_pie_gravity_left">Vlevo</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

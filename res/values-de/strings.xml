@@ -552,7 +552,6 @@
   <string name="volume_keys_control_media_stream_summary">Lautstärketasten regeln Medienlautstärke</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ladeinfo auf Sperrbildschirm</string>
-  <string name="lockscreen_battery_info_summary">Zeige maximale ermittelte Ladespannung/-Strom und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Lautstärketasten</string>
   <string name="hardware_keys_home_key_title">Hometaste</string>
@@ -1064,4 +1063,11 @@
   <string name="incall_vibrate_connect_title">Vibriert bei Verbindung</string>
   <string name="incall_vibrate_call_wait_title">Vibriert beim Halten des Anrufs</string>
   <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Kein</string>
+  <string name="pa_pie_gravity_right">Rechts</string>
+  <string name="pa_pie_gravity_left">Links</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

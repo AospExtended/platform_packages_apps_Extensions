@@ -424,7 +424,6 @@
   <!-- Volume key controls media stream -->
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Accu informatie op vergrendelscherm</string>
-  <string name="lockscreen_battery_info_summary">Toon oplaad stroom, voltage en accu temperatuur op vergrendelscherm</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Volumeknop</string>
   <string name="hardware_keys_home_key_title">Thuisknop</string>
@@ -873,4 +872,11 @@
   <!-- Backlight button touch-->
   <!-- Data disabled icon -->
   <!-- Incall vibrate options -->
+  <!-- Notification guts kill app button -->
+  <!-- Pie -->
+  <string name="pie_status_none">Geen</string>
+  <string name="pa_pie_gravity_right">Rechts</string>
+  <string name="pa_pie_gravity_left">Links</string>
+  <!-- ANBI -->
+  <!-- Sensor block per-package -->
 </resources>

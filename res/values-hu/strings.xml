@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Hangerő gombok kényszerítése a médiafolyam vezérlésére</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Zárképernyő akkumulátor info</string>
+  <string name="lockscreen_battery_info_summary">Töltőáram, feszültség és az akkumulátor hőmérsékletének megjelenítése a zárképernyőn töltés közben</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Hangerőgomb</string>
   <string name="hardware_keys_home_key_title">Kezdőlap gomb</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatásnál</string>
   <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Alkalmazás leállítása gomb</string>
+  <string name="notification_guts_kill_app_button_summary">Az értesítés hosszan nyomási menüjében alkalmazás leállítása gomb megjelenítése</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Pie vezérlő engedélyezése</string>
+  <string name="pie_settings">Pie beállítások</string>
+  <string name="pie_settings_summary">Állítsa be a pie-t, ahogyan szeretné</string>
+  <string name="pie_theme_mode_title">Téma</string>
+  <string name="pie_auto">Automatikus</string>
+  <string name="pie_white">Fehér</string>
+  <string name="pie_dark">Sötét</string>
+  <string name="pie_battery_title">Akkumulátor jelző</string>
+  <string name="pie_battery_text">Csak szöveg</string>
+  <string name="pie_battery_circle">Csak kör</string>
+  <string name="pie_battery_both">Mindkettő</string>
+  <string name="pie_status_indicator">Hálózati jelző</string>
+  <string name="pie_status_wifi">Csak Wi-Fi</string>
+  <string name="pie_status_mobile">Csak mobilnet</string>
   <string name="pie_status_none">Semmi</string>
+  <string name="pie_status_both">Mindkettő</string>
+  <string name="pa_pie_gravity_title">Pie gravitáció</string>
+  <string name="pa_pie_gravity_summary">Pie helyének kiválasztása</string>
+  <string name="pa_pie_gravity_bottom">Alul</string>
   <string name="pa_pie_gravity_right">Jobb</string>
   <string name="pa_pie_gravity_left">Bal</string>
   <!-- ANBI -->
+  <string name="anbi_title">Véletlen érintés</string>
+  <string name="anbi_summary">A képernyő megérintése közben megakadályozza a navigációs gombokkal való interakciót</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Érzékelő csomagonkénti blokkolása</string>
+  <string name="sensor_block_summary">Blokkolja a hozzáférést bizonyos érzékelőkhöz egyes alkalmazásoknál az akkumulátor kímélése érdekében.</string>
 </resources>

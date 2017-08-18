@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">强制音量键控制媒体流</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">锁屏电池信息</string>
+  <string name="lockscreen_battery_info_summary">充电时，在锁屏界面上显示电流、 电压和电池温度</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">音量键</string>
   <string name="hardware_keys_home_key_title">主屏键</string>
@@ -1064,10 +1065,33 @@
   <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
   <string name="incall_vibrate_disconnect_title">挂断时振动</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">清除应用按钮</string>
+  <string name="notification_guts_kill_app_button_summary">在通知的长按菜单中显示清除应用按钮</string>
   <!-- Pie -->
+  <string name="pie_enable_title">启用Pie控制</string>
+  <string name="pie_settings">Pie 设置</string>
+  <string name="pie_settings_summary">将 Pie 调节到你喜欢的程度</string>
+  <string name="pie_theme_mode_title">主题</string>
+  <string name="pie_auto">自动</string>
+  <string name="pie_white">白色</string>
+  <string name="pie_dark">暗色</string>
+  <string name="pie_battery_title">电量指示器</string>
+  <string name="pie_battery_text">只显示文字</string>
+  <string name="pie_battery_circle">只显示环形</string>
+  <string name="pie_battery_both">同时显示</string>
+  <string name="pie_status_indicator">网络指示器</string>
+  <string name="pie_status_wifi">只显示 Wifi</string>
+  <string name="pie_status_mobile">只显示移动网络</string>
   <string name="pie_status_none">无</string>
+  <string name="pie_status_both">同时显示</string>
+  <string name="pa_pie_gravity_title">Pie的位置</string>
+  <string name="pa_pie_gravity_summary">选择放置Pie的位置</string>
+  <string name="pa_pie_gravity_bottom">底部</string>
   <string name="pa_pie_gravity_right">右侧</string>
   <string name="pa_pie_gravity_left">左侧</string>
   <!-- ANBI -->
+  <string name="anbi_title">误触</string>
+  <string name="anbi_summary">当触摸屏幕时防止和导航栏交互</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_summary">阻止有些应用访问特定的传感器以节省电池电量。</string>
 </resources>

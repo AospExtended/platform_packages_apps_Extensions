@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Forçar os botões de volume para controlar média</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informação da bateria</string>
+  <string name="lockscreen_battery_info_summary">Exibir informações de corrente/tensão e temperatura da bateria no ecrã de bloqueio durante o carregamento</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Ligar com os botões de volume</string>
   <string name="hardware_keys_home_key_title">Botão Página inicial</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
   <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Botão de encerrar aplicação</string>
+  <string name="notification_guts_kill_app_button_summary">Mostrar um botão para terminar aplicações no menu de pressão longa da notificação</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Ativar os controlos Pie</string>
+  <string name="pie_settings">Definições pie</string>
+  <string name="pie_settings_summary">Ajustar pie a seu gosto</string>
+  <string name="pie_theme_mode_title">Tema</string>
+  <string name="pie_auto">Automático</string>
+  <string name="pie_white">Branco</string>
+  <string name="pie_dark">Escuro</string>
+  <string name="pie_battery_title">Indicador de bateria</string>
+  <string name="pie_battery_text">Apenas o texto</string>
+  <string name="pie_battery_circle">Apenas o círculo</string>
+  <string name="pie_battery_both">Ambos</string>
+  <string name="pie_status_indicator">Indicador de rede</string>
+  <string name="pie_status_wifi">Apenas Wifi</string>
+  <string name="pie_status_mobile">Apenas rede móvel</string>
   <string name="pie_status_none">Nenhuma</string>
+  <string name="pie_status_both">Ambos</string>
+  <string name="pa_pie_gravity_title">Gravidade Pie</string>
+  <string name="pa_pie_gravity_summary">Selecione o local onde o Pie será colocado</string>
+  <string name="pa_pie_gravity_bottom">Em baixo</string>
   <string name="pa_pie_gravity_right">Direita</string>
   <string name="pa_pie_gravity_left">Esquerda</string>
   <!-- ANBI -->
+  <string name="anbi_title">Toque acidental</string>
+  <string name="anbi_summary">Evitar a interação com os botões de navegação enquanto tocando no ecrã</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Restringir o uso dos sensores</string>
+  <string name="sensor_block_summary">Bloquear o acesso das aplicações a determinados sensores para economizar bateria.</string>
 </resources>

@@ -546,12 +546,13 @@
   <string name="volume_rocker_wake_summary">Stisknutím tlačítka hlasitosti se probudí vaše zařízení</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Ovládání přehrávání</string>
-  <string name="volume_rocker_music_controls_summary">Když je orazovka vypnutá, dlouhý stisk tlačítka hlasitosti posune na další skladbu</string>
+  <string name="volume_rocker_music_controls_summary">Když je obrazovka vypnutá, dlouhý stisk tlačítka hlasitosti posune na další skladbu</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Tlačítka hlasitosti ovládají hlasitost médií</string>
   <string name="volume_keys_control_media_stream_summary">Pomocí tlačítek hlasitosti ovládat streamování médií</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
+  <string name="lockscreen_battery_info_summary">Zobrazit reálný maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Tlačítka hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
@@ -785,8 +786,8 @@
   <string name="battery_bar_blend_color_title">Smíšené barvy</string>
   <string name="battery_bar_blend_color_summary">Smíchání barvy odpovídající procentu baterie - plné/prázdné</string>
   <string name="battery_bar_blend_color_reverse_title">Pořadí barev</string>
-  <string name="battery_bar_blend_color_reverse_summary_off">Nabito → vybito: červená ← zelená ← modrá ← červená</string>
-  <string name="battery_bar_blend_color_reverse_summary_on">Nabito → vybito: červená → zelená → modrá → červená</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Nabito &#8594; Vybito: červená &#8592; zelená &#8592; modrá &#8592; červená</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Nabito &#8594; Vybito: červená &#8594; zelená &#8594; modrá &#8594; červená</string>
   <string name="battery_bar_hide">Skrýt</string>
   <string name="battery_bar_statusbar">Stavová lišta</string>
   <string name="battery_bar_navbar_top">V horní části navigační lišty</string>
@@ -800,7 +801,7 @@
   <string name="status_bar_custom_header_shadow_summary">Pro lepší viditelnost na jasném pozadí</string>
   <string name="static_header_provider_title">Statický</string>
   <string name="daylight_header_provider_title">Dynamický</string>
-  <string name="custom_header_provider_title">Operátor v záhlaví</string>
+  <string name="custom_header_provider_title">Poskytovatel záhlaví</string>
   <string name="custom_header_browse_title">Procházet nainstalované záhlaví</string>
   <string name="custom_header_browse_summary">Přidržením jakéhokoliv obrázku spustit statický režim</string>
   <string name="smartbar_doubletap_sleep_title">Dvojím poklepáním uspat</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibrovat při čekajícím hovoru</string>
   <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Tlačítko \"Ukončit aplikaci\"</string>
+  <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko \"Ukončit aplikaci\" při dlouhém stisku v nabídce oznámení</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Povolit kruhové ovládací prvky</string>
+  <string name="pie_settings">Nastavení Pie</string>
+  <string name="pie_settings_summary">Upravte Pie podle vašich představ</string>
+  <string name="pie_theme_mode_title">Motiv vzhledu</string>
+  <string name="pie_auto">Automaticky</string>
+  <string name="pie_white">Bílá</string>
+  <string name="pie_dark">Tmavá</string>
+  <string name="pie_battery_title">Indikátor baterie</string>
+  <string name="pie_battery_text">Pouze text</string>
+  <string name="pie_battery_circle">Pouze kruh</string>
+  <string name="pie_battery_both">Obojí</string>
+  <string name="pie_status_indicator">Indikátor sítě</string>
+  <string name="pie_status_wifi">Pouze WiFi</string>
+  <string name="pie_status_mobile">Pouze mobilní sítě</string>
   <string name="pie_status_none">Nic</string>
+  <string name="pie_status_both">Obojí</string>
+  <string name="pa_pie_gravity_title">Pie gravitace</string>
+  <string name="pa_pie_gravity_summary">Vyberte místo pro pozici Pie</string>
+  <string name="pa_pie_gravity_bottom">Dole</string>
   <string name="pa_pie_gravity_right">Vpravo</string>
   <string name="pa_pie_gravity_left">Vlevo</string>
   <!-- ANBI -->
+  <string name="anbi_title">Náhodný dotyk</string>
+  <string name="anbi_summary">Zabránit interakci s navigačními tlačítky během dotyku obrazovky</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Zablokovat senzory</string>
+  <string name="sensor_block_summary">Zamezení přístupu k některým senzorům pro některé aplikace za účelem úspory energie.</string>
 </resources>

@@ -51,7 +51,7 @@
   <string name="statusbar_items_category">Éléments de la barre d\'État</string>
   <string name="navigation_category">Navigation</string>
   <string name="breathing_notifications_category">Notifications clignotantes</string>
-  <string name="build_tweaks_summary_title">Extension de l\'appareil !</string>
+  <string name="build_tweaks_summary_title">Extensions de l\'appareil !</string>
   <string name="system_animations">Animations système</string>
   <string name="toast">Notification contextuelle</string>
   <string name="listview">Liste de vues</string>
@@ -74,7 +74,7 @@
   <!-- Quick Settings -->
   <string name="quick_settings_title">Réglages Rapides</string>
   <string name="status_bar_quick_qs_pulldown_title">Menu déroulant rapide</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Dérouler le volet des réglages rapides en balayant vers le bas le coté %1$s de la barre d\'état</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Dérouler le volet des réglages rapides en balayant vers le bas le côté droit de la barre d\'état</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Autres extensions</string>
   <!-- General Tweaks -->
@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Forcer les touches de volume pour contrôler le flux multimédia</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Statistiques de charge de la batterie</string>
+  <string name="lockscreen_battery_info_summary">Affichage du courant, de la tension et de la température de la batterie sur l’écran de verrouillage pendant la charge</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Contrôleur de volume</string>
   <string name="hardware_keys_home_key_title">Bouton d\'accueil</string>
@@ -645,7 +646,7 @@
   <string name="translucent_quick_settings_pref_summary">Appliquer un effet de transparence à l\'arrière-plan du volet des réglages rapides</string>
   <string name="transluency_level_universal">Niveau de transparence</string>
   <string name="blurred_recent_app_enabled_pref">Effet de flou « application récentes »</string>
-  <string name="blurred_recent_app_enabled_pref_summary">Flouter l’arrière-plan dans la vue des applications récentes</string>
+  <string name="blurred_recent_app_enabled_pref_summary">Flouter l’arrière-plan dans la vue des applications ouvertes</string>
   <string name="blur_light_color">Filtre de couleur « Fond clair »</string>
   <string name="blur_dark_color">Filtre de couleur « Fond sombre »</string>
   <string name="blur_mixed_color">Filtre de couleur « Fond mixte»</string>
@@ -766,7 +767,7 @@
   <string name="qs_expand_indicator_summary">Désactiver l\'indicateur d\'expansion dans l\'en-tête</string>
   <!-- Center Date + Time in header -->
   <string name="qs_date_time_center_title">Centrer la date et l\'heure</string>
-  <string name="qs_date_time_center_summary">Nécessite la désactivation d\'une ou de plusieurs icones</string>
+  <string name="qs_date_time_center_summary">Nécessite la désactivation d\'une ou de plusieurs icônes</string>
   <!-- Battery Bar fragment -->
   <string name="battery_bar_title">Barre de batterie</string>
   <string name="battery_bar">Barre de batterie</string>
@@ -829,7 +830,7 @@
   <string name="qs_tile_title_visibility_summary_off">Les noms des tuiles de réglages rapides sont maintenant masqués</string>
   <!-- Fingerprint unlock keystore -->
   <string name="fp_unlock_keystore_title">Déverrouiller avec l\'empreinte digitale</string>
-  <string name="fp_unlock_keystore_summary">Déverrouiller l’appareil avec l\'empreinte digitale après un redémarrage, sans mot de passe/PIN/Schema\nNote : à vos risques et périls !</string>
+  <string name="fp_unlock_keystore_summary">Déverrouiller l’appareil avec l\'empreinte digitale après un redémarrage, sans mot de passe/PIN/Schema\nNote : A vos risques et périls .</string>
   <!-- Status bar notification ticker -->
   <string name="ticker_disabled">Pas d\'aperçu</string>
   <string name="ticker_enabled">Aperçu activé</string>
@@ -845,7 +846,7 @@
   <string name="dnd_when_call_summary">Activer automatiquement l\'option « Ne pas déranger » pendant les appels</string>
   <!-- StatusBar weather settings -->
   <string name="statusbar_weather_title">Barre d\'état Météo</string>
-  <string name="statusbar_weather_summary">Configurez à partir des paramètres QS / Météo.</string>
+  <string name="statusbar_weather_summary">Configurer à partir des paramètres QS / Météo.</string>
   <string name="statusbar_weather_dialog_title">Style de la barre d\'état Météo</string>
   <string name="status_bar_weather_hidden">Masquer la Météo</string>
   <string name="status_bar_temperature_image_show_scale">Afficher la température avec les unités et image</string>
@@ -854,29 +855,29 @@
   <string name="status_bar_temperature_hide_scale_hide_image">Afficher la température sans les unités</string>
   <string name="status_bar_show_image">Afficher l\'image</string>
   <!-- Slim Recent panel -->
-  <string name="slim_recents_title">Slim Recents</string>
+  <string name="slim_recents_title">Menu Slim</string>
   <string name="use_slim_recents_title">Utiliser le menu alternatif récent</string>
-  <string name="use_slim_recents_summary">Afficher la vue des applications de « Slim Recents » plutôt que la vue par défaut</string>
-  <string name="slim_recents_settings_title">Réglages de Slim Recents</string>
-  <string name="slim_recents_settings_summary">Accéder aux réglages du panneau des applications récentes de « Slim Recents »</string>
-  <string name="recent_panel_category">Panneau Slim Recents (vue réduite)</string>
+  <string name="use_slim_recents_summary">Utiliser le menu Slim pour afficher les applications ouvertes plutôt que l\'affichage par défaut</string>
+  <string name="slim_recents_settings_title">Réglages du menu Slim</string>
+  <string name="slim_recents_settings_summary">Accéder aux réglages du menu Slim pour le panneau des applications ouvertes</string>
+  <string name="recent_panel_category">Panneau du menu Slim</string>
   <string name="show_running_tasks_title">Afficher uniquement les applications en cours d\'exécution</string>
   <string name="recents_max_apps_title">Nombre maximal d\'applications autorisées</string>
   <string name="recent_panel_scale_title">Taille</string>
   <string name="recent_panel_expanded_mode_title">Mode étendu</string>
-  <string name="recent_panel_expanded_mode_summary">Mode de prévisualisation étendu des tâches récentes</string>
+  <string name="recent_panel_expanded_mode_summary">Mode de prévisualisation étendu des applications récentes ouvertes</string>
   <string name="recent_panel_expanded_mode_auto">Automatique (par défaut)</string>
   <string name="recent_panel_expanded_mode_always">Toujours</string>
   <string name="recent_panel_expanded_mode_never">Jamais</string>
   <string name="recent_panel_show_topmost_title">Afficher la tâche en cours</string>
-  <string name="recent_panel_show_topmost_summary">Ne pas exclure la tâche au premier plan dans la vue récente</string>
+  <string name="recent_panel_show_topmost_summary">Ne pas exclure l\'application ouverte au premier plan dans le menu Slim</string>
   <string name="recent_panel_bg_color_title">Couleur d\'arrière-plan du panneau</string>
   <string name="recent_card_bg_color_title">Couleur d\'arrière-plan de la carte</string>
   <string name="recent_reset_title">Réinitialiser les paramètres de couleur d\'origine</string>
   <string name="recent_reset_confirm">Êtes-vous sûr de vouloir réinitialiser aux paramètres par défaut ?</string>
   <string name="default_auto_string">Par défaut</string>
   <string name="slim_icon_pack_title">Pack d\'icônes</string>
-  <string name="slim_icon_pack_summary">Appliquer un pack d\'icône personnalisé pour les application dans le panneau</string>
+  <string name="slim_icon_pack_summary">Appliquer un pack d\'icône personnalisé pour les applications dans le panneau</string>
   <string name="no_iconpacks_summary">Aucun pack d\'icônes installé</string>
   <string name="dialog_pick_iconpack_title">Choisir un pack d\'icônes</string>
   <string name="default_iconpack_title">Icônes par défaut</string>
@@ -885,7 +886,7 @@
   <string name="recent_panel_lefty_mode_summary">Afficher le panneau des Applications récentes sur le bord gauche</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Afficher l\'indicateur d\'itinérance</string>
-  <string name="roaming_indicator_icon_summary">Afficher l\'indicateur d\'itinérance dans l\'icône du signal lorsque celui-ci est active</string>
+  <string name="roaming_indicator_icon_summary">Afficher l\'indicateur d\'itinérance dans l\'icône du signal lorsque celle-ci est active</string>
   <string name="screenshot_crop_and_share_title">Rognage &amp; partage</string>
   <string name="screenshot_crop_and_share_summary">Afficher une fenêtre d\'édition après avoir pris une capture d\'écran permettant d\'effectuer certaines opérations comme le recadrage, la sauvegarde ou le partage de celle-ci</string>
   <!-- Bluetooth status -->
@@ -918,7 +919,7 @@
   <string name="shortcut_action_help_icon">, en sélectionnant l\'icône des options de personnalisation s\'afficheront</string>
   <string name="shortcut_action_help_main">Pour ajouter un %1$s, sélectionner l\'icône \"ajouter\". Une fois le %1$s ajouté, sélectionner la ligne changera la cible%2$s\n\nPour supprimer un %1$s, glisser le doigt sur la ligne vers la gauche ou la droite. Déplacer un %1$s dans la liste en déplaçant verticalement l\'ancre à gauche.\n\nPour tout effacer ou revenir aux valeurs par défaut, utiliser l\'option \"réinitialiser\".</string>
   <string name="shortcut_action_help_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la fonctionnalité</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire pie.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire Pie.</string>
   <string name="shortcuts_applications">Applications</string>
   <string name="shortcuts_select_custom_app_title">Sélectionner une application personnalisée</string>
   <string name="shortcuts_icon_picker_type">Sélectionnez le type d\'icône :</string>
@@ -1033,7 +1034,7 @@
   <string name="shortcut_action_help_icon">, en sélectionnant l\'icône des options de personnalisation s\'afficheront</string>
   <string name="shortcut_action_help_main">Pour ajouter un %1$s, sélectionner l\'icône \"ajouter\". Une fois le %1$s ajouté, sélectionner la ligne changera la cible%2$s\n\nPour supprimer un %1$s, glisser le doigt sur la ligne vers la gauche ou la droite. Déplacer un %1$s dans la liste en déplaçant verticalement l\'ancre à gauche.\n\nPour tout effacer ou revenir aux valeurs par défaut, utiliser l\'option \"réinitialiser\".</string>
   <string name="shortcut_action_help_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la fonctionnalité</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire pie.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire Pie.</string>
   <!-- SlimSizer  -->
   <string name="caution">Attention!</string>
   <string name="sizer_message_startup">Cet outil va vous permettre de supprimer des applications système. Utiliser ceci avec prudence et supprimer seulement des applications que vous connaissez.</string>
@@ -1046,7 +1047,7 @@
   <string name="sizer_message_error">Impossible de désinstaller, vérifiez les accès root</string>
   <string name="sizer_message_success">Succès</string>
   <!-- Grid recents screen pinning toggle -->
-  <string name="grid_recents_pinning_title">Afficher l\'icone d\'épinglage de l\'écran dans un nouveau style de grille</string>
+  <string name="grid_recents_pinning_title">Afficher l\'icône d\'épinglage de l\'écran dans un nouveau style de grille</string>
   <string name="grid_recents_pinning_summaryOn">L\'icône d\'épinglage de l\'écran sera affichée si l\'écran d\'épinglage est activé à partir des paramètres de sécurité</string>
   <string name="grid_recents_pinning_summaryOff">L\'icône d\'épinglage de l\'écran sera cachée même si l\'écran d\'épinglage est activé à partir des paramètres de sécurité</string>
   <!-- Incall Home button behavior-->
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibrer quand un appel est en attente</string>
   <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Bouton tueur de tâches</string>
+  <string name="notification_guts_kill_app_button_summary">Afficher un bouton tueur de tâches dans le menu des notifications</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Activer le menu Pie</string>
+  <string name="pie_settings">Réglages du menu Pie</string>
+  <string name="pie_settings_summary">Ajuster le menu Pie comme vous le désirez</string>
+  <string name="pie_theme_mode_title">Thème</string>
+  <string name="pie_auto">Automatique</string>
+  <string name="pie_white">Blanc</string>
+  <string name="pie_dark">Sombre</string>
+  <string name="pie_battery_title">Indicateur de batterie</string>
+  <string name="pie_battery_text">Texte</string>
+  <string name="pie_battery_circle">Circulaire</string>
+  <string name="pie_battery_both">Les deux</string>
+  <string name="pie_status_indicator">Indicateur de réseau</string>
+  <string name="pie_status_wifi">Wifi</string>
+  <string name="pie_status_mobile">Réseau mobile</string>
   <string name="pie_status_none">Aucun(e)</string>
+  <string name="pie_status_both">Les deux</string>
+  <string name="pa_pie_gravity_title">Menu Pie</string>
+  <string name="pa_pie_gravity_summary">Choisir l\'emplacement du menu Pie</string>
+  <string name="pa_pie_gravity_bottom">En bas</string>
   <string name="pa_pie_gravity_right">Droite</string>
   <string name="pa_pie_gravity_left">Gauche</string>
   <!-- ANBI -->
+  <string name="anbi_title">Toucher accidentel</string>
+  <string name="anbi_summary">Empêcher l\'activation des boutons de navigation pendant que l\'écran est touché</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Bloquer les capteurs selon les applications</string>
+  <string name="sensor_block_summary">Bloquer l’accès à certains capteurs pour quelques applications afin d\'économiser la batterie.</string>
 </resources>

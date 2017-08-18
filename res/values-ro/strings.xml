@@ -74,7 +74,7 @@
   <!-- Quick Settings -->
   <string name="quick_settings_title">Setări rapide</string>
   <string name="status_bar_quick_qs_pulldown_title">Derulare rapidă în jos</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Marginea %1$s a bării de stare aduce în jos Setările Rapide</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Marginea dreaptă a bării de stare aduce în jos Setările Rapide</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Extensii diverse</string>
   <!-- General Tweaks -->
@@ -474,7 +474,10 @@
   <string name="lockscreen_qs_disabled_title">Fără QS când este securizat</string>
   <string name="lockscreen_qs_disabled_summary">Dezactivați plăcile de setări rapide pe ecranul de blocare securizat</string>
   <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Derulare text</string>
+  <string name="ticker_title">Derulare text în bara de stare</string>
   <string name="ticker_screen_summary">Particularizaţi stilul ticker în bara de stare</string>
+  <string name="ticker_summary">Activaţi stilul vechi al derulării textului în bara de stare</string>
   <string name="ticker_font_style_title">Stil de font</string>
   <string name="ticker_font_size_title">Dimensiunea fontului</string>
   <!-- Hide Lockscreen clock, date & alarm -->
@@ -522,7 +525,7 @@
   <string name="power_menu_screenshot_title">Captură de ecran</string>
   <string name="power_menu_screenrecord_title">Înregistrare ecran</string>
   <string name="power_menu_torch_title">Lanternă</string>
-  <string name="power_menu_onthego_title">Mod \"On-The-Go\"</string>
+  <string name="power_menu_onthego_title">Mod \"În mişcare\"</string>
   <string name="power_menu_airplane_title">Mod Avion</string>
   <string name="power_menu_users_title">Comutator utilizatori</string>
   <string name="power_menu_search_title">Căutare</string>
@@ -533,7 +536,7 @@
   <string name="power_menu_sound_title">Panoul de sunet</string>
   <string name="power_menu_bug_report_disabled">Raportarea erorilor este dezactivată în setările pentru dezvoltatori</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_enable_power_menu_title">Afișează minimul de putere pe ecranul de blocare</string>
+  <string name="lockscreen_enable_power_menu_title">Afișare meniu de alimentare pe ecranul de blocare securizat</string>
   <string name="volume_category">Butoane volum</string>
   <!-- Volume Key Rotation -->
   <string name="swap_volume_buttons_title">Orientare</string>
@@ -549,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Butoanele de volum controlează volumul media</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
+  <string name="lockscreen_battery_info_summary">Afișează curentul, tensiunea și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Balans volum</string>
   <string name="hardware_keys_home_key_title">Buton acasă</string>
@@ -614,7 +618,7 @@
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Buton Șterge tot</string>
   <string name="show_clear_all_recents_button_summary">Arată buton Șterge tot</string>
-  <string name="recents_clear_all_location_title">Șterge toate locațiile</string>
+  <string name="recents_clear_all_location_title">Locaţia butonului Șterge tot</string>
   <string name="recents_clear_all_location_top_right">Dreapta sus</string>
   <string name="recents_clear_all_location_top_left">Stânga sus</string>
   <string name="recents_clear_all_location_top_center">Centru sus</string>
@@ -647,6 +651,9 @@
   <string name="blur_dark_color">Filtru de culoare imagine întunecată</string>
   <string name="blur_mixed_color">Filtru de culoare imagine mixtă</string>
   <string name="blur_notice">Despre Blur</string>
+  <string name="blur_notice_summary">Personalizările de blurare sunt dezactivate în timpul vizualizării tastaturii! Numai notificările translucide sunt activate.</string>
+  <string name="blur_colors_notice">Ce fac aceste culori?</string>
+  <string name="blur_colors_notice_summary">Aceste culori sunt cele care nuanțează blurarea fundalului.\nÎn loc de gri normal, puteți alege acum culorile în felul în care vă place.\nSunt trei filtre de culoare: unul folosit pentru fundaluri luminoase, unul utilizat pentru fundaluri întunecate și unul folosit pentru fundaluri luminoase/întunecate.</string>
   <string name="blur_expstatus_cat">Bară de stare extinsă </string>
   <string name="blur_notifications_cat">Notificări</string>
   <string name="blur_qs_cat">Setări rapide</string>
@@ -658,6 +665,7 @@
   <string name="blurred_radius">Rază blur</string>
   <string name="blurred_radius_summary">Cantitate blur</string>
   <string name="blur_cat_notice">Observație</string>
+  <string name="blur_cat_notice_summary">Personalizările de blurare sunt dezactivate în timpul vizualizării tastaturii! Numai notificările translucide sunt activate.</string>
   <!-- AOKP custom system animations -->
   <string name="animation_title">Animații</string>
   <string name="system_animation_title">Animații de sistem</string>
@@ -824,10 +832,16 @@
   <string name="fp_unlock_keystore_title">Deblocare cu amprentă</string>
   <string name="fp_unlock_keystore_summary">Deblocați dispozitivul cu amprentă după repornire fără PIN/parolă/model.\nFolosiți pe propria răspundere.</string>
   <!-- Status bar notification ticker -->
+  <string name="ticker_disabled">Fără derulare</string>
+  <string name="ticker_enabled">Derulare notificări</string>
+  <string name="ticker_media_enabled">Derulare text notificări şi muzică</string>
   <!-- Wired headset ringtone audio focus -->
+  <string name="wired_ringtone_focus_mode_title">Unde se redau tonurile de apel</string>
   <string name="wired_ringtone_focus_mode_dynamic">Căştile cu fir, dacă sunt conectate şi se redă muzica</string>
   <string name="wired_ringtone_focus_mode_stock">Difuzor și căşti (implicit)</string>
   <!-- QS Easy Toggle -->
+  <string name="qs_easy_toggle_title">Comutare avansată Setări rapide</string>
+  <string name="qs_easy_toggle_summary">Activați o singură atingere pentru a activa/dezactiva datele mobile, Wi-Fi, locația și bluetooth</string>
   <string name="dnd_when_call_title">Nu deranjaţi</string>
   <string name="dnd_when_call_summary">Activare Nu deranjaţi în timpul apelului</string>
   <!-- StatusBar weather settings -->
@@ -841,10 +855,12 @@
   <string name="status_bar_temperature_hide_scale_hide_image">Arată temperatura fără scară</string>
   <string name="status_bar_show_image">Afişare imagini</string>
   <!-- Slim Recent panel -->
-  <string name="slim_recents_title">Panou subţire aplicaţii recente</string>
+  <string name="slim_recents_title">Recente Slim</string>
   <string name="use_slim_recents_title">Utilizare pentru o alternativă a aplicaţiilor recente</string>
-  <string name="slim_recents_settings_title">Setări panou subţire aplicaţii recente</string>
-  <string name="recent_panel_category">Panou subţire aplicaţii recente</string>
+  <string name="use_slim_recents_summary">Utilizați recente Slim în locul vizualizării implicite</string>
+  <string name="slim_recents_settings_title">Setări recente Slim</string>
+  <string name="slim_recents_settings_summary">Setări recente Slim</string>
+  <string name="recent_panel_category">Panou aplicaţii recente Slim</string>
   <string name="show_running_tasks_title">Afişare doar a aplicaţiilor ce rulează</string>
   <string name="recents_max_apps_title">Aplicații maxim permise</string>
   <string name="recent_panel_scale_title">Dimensiune</string>
@@ -856,7 +872,9 @@
   <string name="recent_panel_show_topmost_title">Se afișează activitatea cea mai importantă</string>
   <string name="recent_panel_show_topmost_summary">Nu se exclude sarcina cea mai importantă în vizualizarea recentă</string>
   <string name="recent_panel_bg_color_title">Culoarea de fundal a panoului</string>
+  <string name="recent_card_bg_color_title">Culoarea carte de fundal</string>
   <string name="recent_reset_title">Resetare la culoare implicită</string>
+  <string name="recent_reset_confirm">Sigur reinițializați recentele Slim la culorile implicite?</string>
   <string name="default_auto_string">Implicit</string>
   <string name="slim_icon_pack_title">Pachet de pictograme</string>
   <string name="slim_icon_pack_summary">Aplicați un pachet de pictograme personalizat pentru aplicații din panou</string>
@@ -1029,6 +1047,9 @@
   <string name="sizer_message_error">Nu s-a putut dezinstala, verificaţi accesul la root</string>
   <string name="sizer_message_success">Succes</string>
   <!-- Grid recents screen pinning toggle -->
+  <string name="grid_recents_pinning_title">Afișați pictograma de fixare a ecranului în afişarea de tip grilă</string>
+  <string name="grid_recents_pinning_summaryOn">Pictograma de fixare a ecranului va fi afișată în aplicaţiile recente în stilul grilă dacă fixarea ecranului este activată în setările de securitate</string>
+  <string name="grid_recents_pinning_summaryOff">Pictograma de fixare a ecranului va fi ascunsă în aplicaţiile recente în stilul grilă chiar dacă fixarea ecranului este activată în setările de securitate</string>
   <!-- Incall Home button behavior-->
   <string name="allow_incall_home_title">Butonul Acasă când sună</string>
   <string name="allow_incall_home_summary">Permiteţi utilizarea butonului Acasă atunci când sună telefonul</string>
@@ -1044,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibrare la apel în așteptare</string>
   <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Butonul oprire aplicație</string>
+  <string name="notification_guts_kill_app_button_summary">Afișează unu buton pentru închiderea aplicaţiei în meniul notificării apăsării lungi</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Activaţi Evantaiul</string>
+  <string name="pie_settings">Setări evantai</string>
+  <string name="pie_settings_summary">Ajustaţi evantaiul după preferințele dvs</string>
+  <string name="pie_theme_mode_title">Temă</string>
+  <string name="pie_auto">Automat</string>
+  <string name="pie_white">Alb</string>
+  <string name="pie_dark">Întunecat</string>
+  <string name="pie_battery_title">Indicator baterie</string>
+  <string name="pie_battery_text">Doar text</string>
+  <string name="pie_battery_circle">Doar cerc</string>
+  <string name="pie_battery_both">Ambele</string>
+  <string name="pie_status_indicator">Indicator reţea</string>
+  <string name="pie_status_wifi">Doar WiFi</string>
+  <string name="pie_status_mobile">Doar rețeaua mobilă</string>
   <string name="pie_status_none">Nimic</string>
+  <string name="pie_status_both">Ambele</string>
+  <string name="pa_pie_gravity_title">Gravitaţie evantai</string>
+  <string name="pa_pie_gravity_summary">Selectaţi locaţia unde va fi plasat evantaiul</string>
+  <string name="pa_pie_gravity_bottom">Jos</string>
   <string name="pa_pie_gravity_right">Dreptă</string>
   <string name="pa_pie_gravity_left">Stângă</string>
   <!-- ANBI -->
+  <string name="anbi_title">Atingere accidentală</string>
+  <string name="anbi_summary">Împiedicați interacțiunea cu butoanele de navigare în timp ce ecranul este atins</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blocare senzor per pachet</string>
+  <string name="sensor_block_summary">Blocați accesul unor aplicații la anumiţi senzori pentru a economisi bateria.</string>
 </resources>

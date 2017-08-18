@@ -204,6 +204,7 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
+  <string name="set">Ustaw</string>
   <string name="color_default">Domyślne</string>
   <!-- Navigation Bar -->
   <string name="navbar_tint_switch">Odcień przycisku nawigacji</string>
@@ -360,6 +361,7 @@
   <string name="smartbar_longpress_delay_default">Domyślne opóźnienie (szybko)</string>
   <string name="smartbar_longpress_delay_normal">Normalne opóźnienie</string>
   <string name="smartbar_longpress_delay_long">Opóźnienie</string>
+  <string name="smartbar_custom_icon_size_title">Skalowanie ikon niestandardowych</string>
   <!-- QuickSettings haptic feedback -->
   <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
   <string name="quick_settings_vibrate_summary">Wibracje podczas dotykania przełączników</string>
@@ -379,7 +381,10 @@
   <string name="qs_rows_portrait_title">Wiersze (pion)</string>
   <string name="qs_rows_landscape_title">Wiersze (poziom)</string>
   <string name="qs_columns_title">Kolumny</string>
+  <string name="qqs_scroll_title">Przewiń małe płytki QS</string>
+  <string name="qqs_scroll_summary">Umożliwia przewijanie małych płytkek QS</string>
   <!-- lock screen visualizer -->
+  <string name="lockscreen_visualizer_title">Wyświetl wizualizator muzyki</string>
   <!-- Lockscreen clock fonts -->
   <string name="lock_clock_font_title">Opcje czcionek</string>
   <string name="lock_clock_font_summary">Zmień czcionkę widżetu zegara na ekranie blokady</string>
@@ -481,6 +486,7 @@
   <string name="nav_bar_dynamic_title">Dynamiczny kolor paska nawigacji</string>
   <string name="nav_bar_dynamic_summary">Przełącznik służy do dostosowania paska nawigacji do ciemnego motywu aplikacji. Uruchom ponownie pożądaną aplikację by zobaczyć efekty</string>
   <!-- Heads up settings -->
+  <string name="headsup_category">Ustawienia HeadsUp</string>
   <string name="headsup_settings_title">Wyskakujące powiadomienia</string>
   <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
   <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
@@ -534,10 +540,13 @@
   <string name="volume_rocker_wake_title">Wybudź urządzenie przyciskami głośności</string>
   <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności obudzi urządzenie</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Przełączanie utworów</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Przyciski głośności regulują głośność multimediów</string>
+  <string name="volume_keys_control_media_stream_summary">Wymuś sterowanie nad mediami za pomocą przycisków głośności</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
+  <string name="lockscreen_battery_info_summary">Wyświetl napięcie, natężenie oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
   <string name="hardware_keys_home_key_title">Przycisk Home</string>
@@ -743,6 +752,7 @@
   <string name="qs_settings_icon_title">Ustawienia skrótów</string>
   <string name="qs_settings_icon_summary">Wyłącz skrót do ustawień w nagłówku</string>
   <string name="qs_running_services_title">Uruchomione usługi</string>
+  <string name="qs_running_services_summary">Wyłącz ikonę usług działających w nagłówku</string>
   <string name="qs_edit_title">Ikona edycji</string>
   <string name="qs_edit_summary">Wyłącz ikonę edycji kafelek w nagłówku</string>
   <string name="qs_multiuser_switch_title">Przełącznik użytkowników</string>
@@ -1034,10 +1044,28 @@
   <string name="incall_vibrate_call_wait_title">Wibracje podczas oczekiwania na połączenie</string>
   <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Przycisk zabijania aplikacji</string>
   <!-- Pie -->
+  <string name="pie_settings">Ustawienia interfejsu Pie</string>
+  <string name="pie_settings_summary">Dostosuj Pie do swoich potrzeb</string>
+  <string name="pie_theme_mode_title">Motyw</string>
+  <string name="pie_auto">Automatycznie</string>
+  <string name="pie_white">Biały</string>
+  <string name="pie_dark">Ciemny</string>
+  <string name="pie_battery_title">Wskaźnik baterii</string>
+  <string name="pie_battery_text">Tylko tekst</string>
+  <string name="pie_battery_circle">Tylko okrąg</string>
+  <string name="pie_battery_both">Obydwa</string>
+  <string name="pie_status_indicator">Wskaźnik szybkości sieci</string>
+  <string name="pie_status_wifi">Tylko WiFi</string>
+  <string name="pie_status_mobile">Tylko sieć komórkowa</string>
   <string name="pie_status_none">Brak</string>
+  <string name="pie_status_both">Obydwa</string>
+  <string name="pa_pie_gravity_title">Pozycja Pie</string>
+  <string name="pa_pie_gravity_summary">Wybierz miejsce w który ma być umieszczony PIE</string>
   <string name="pa_pie_gravity_right">Po prawej</string>
   <string name="pa_pie_gravity_left">Po lewej</string>
   <!-- ANBI -->
+  <string name="anbi_title">Przypadkowe dotknięcie</string>
   <!-- Sensor block per-package -->
 </resources>

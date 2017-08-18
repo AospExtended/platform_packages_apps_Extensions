@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Tlačidlá hlasitosti slúžia pre nastavenie hlasitosti multimédií</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informácie o batérii na obrazovke uzamknutia</string>
+  <string name="lockscreen_battery_info_summary">Zobraziť maximálny prúd, napätie a teplotu batérie pri nabíjaní na obrazovke uzamknutia</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Tlačidlá hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačidlo Domov</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
   <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Tlačítko \"Ukončiť aplikáciu\"</string>
+  <string name="notification_guts_kill_app_button_summary">Zobraziť tlačidlo \"Ukončiť aplikáciu\" v ponuke akcií pri dlhom stlačení</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Povoliť kruhové ovládacie prvky</string>
+  <string name="pie_settings">Nastavenia kruhového ovládania</string>
+  <string name="pie_settings_summary">Nastavte kruhové ovládanie podľa vašich predstáv</string>
+  <string name="pie_theme_mode_title">Téma</string>
+  <string name="pie_auto">Automaticky</string>
+  <string name="pie_white">Svetlá</string>
+  <string name="pie_dark">Tmavá</string>
+  <string name="pie_battery_title">Indikátor stavu batérie</string>
+  <string name="pie_battery_text">Iba text</string>
+  <string name="pie_battery_circle">Iba kruh</string>
+  <string name="pie_battery_both">Oboje</string>
+  <string name="pie_status_indicator">Indikátor sieťovej prevádzky</string>
+  <string name="pie_status_wifi">Iba WiFi</string>
+  <string name="pie_status_mobile">Iba mobilná sieť</string>
   <string name="pie_status_none">Nič</string>
+  <string name="pie_status_both">Oboje</string>
+  <string name="pa_pie_gravity_title">Ovládací kruh gravitácie</string>
+  <string name="pa_pie_gravity_summary">Vyberte umiestnenie kruhového ovládacieho prvku</string>
+  <string name="pa_pie_gravity_bottom">Dolu</string>
   <string name="pa_pie_gravity_right">Vpravo</string>
   <string name="pa_pie_gravity_left">Vľavo</string>
   <!-- ANBI -->
+  <string name="anbi_title">Náhodný dotyk</string>
+  <string name="anbi_summary">Zabrániť interakcii s navigačnými tlačidlami počas dotyku obrazovky</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Zablokovať snímače</string>
+  <string name="sensor_block_summary">Zablokovanie prístupu k niektorým senzorom pre niektoré aplikácie, za účelom úspory energie.</string>
 </resources>

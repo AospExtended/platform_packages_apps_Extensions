@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Lautstärketasten regeln Medienlautstärke</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ladeinfo auf Sperrbildschirm</string>
+  <string name="lockscreen_battery_info_summary">Zeige Ladestrom, Spannung und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Lautstärketasten</string>
   <string name="hardware_keys_home_key_title">Hometaste</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibriert beim Halten des Anrufs</string>
   <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">App beenden Taste</string>
+  <string name="notification_guts_kill_app_button_summary">Zeige beim lange Drücken einer Benachrichtigung eine App beenden Taste im Menü</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Pie-Steuerung aktivieren</string>
+  <string name="pie_settings">Pie-Einstellungen</string>
+  <string name="pie_settings_summary">Pie nach Ihren Wünschen anpassen</string>
+  <string name="pie_theme_mode_title">Theme</string>
+  <string name="pie_auto">Automatisch</string>
+  <string name="pie_white">Weiß</string>
+  <string name="pie_dark">Dunkel</string>
+  <string name="pie_battery_title">Akkuanzeige</string>
+  <string name="pie_battery_text">Nur Text</string>
+  <string name="pie_battery_circle">Nur Kreis</string>
+  <string name="pie_battery_both">Beides</string>
+  <string name="pie_status_indicator">Netzwerkanzeige</string>
+  <string name="pie_status_wifi">Nur WLAN</string>
+  <string name="pie_status_mobile">Nur Mobilfunknetz</string>
   <string name="pie_status_none">Kein</string>
+  <string name="pie_status_both">Beides</string>
+  <string name="pa_pie_gravity_title">Pie-Gravitation</string>
+  <string name="pa_pie_gravity_summary">Wählen Sie den Ort, wo das Pie-Menü platziert werden soll</string>
+  <string name="pa_pie_gravity_bottom">Unten</string>
   <string name="pa_pie_gravity_right">Rechts</string>
   <string name="pa_pie_gravity_left">Links</string>
   <!-- ANBI -->
+  <string name="anbi_title">Zufälliges Berühren</string>
+  <string name="anbi_summary">Verhindert die Interaktion mit den Navigationstasten, während der Bildschirm berührt wird</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Sensoren blockieren</string>
+  <string name="sensor_block_summary">Den Zugriff auf bestimmte Sensoren für manche Apps blockieren um Akku zu sparen.</string>
 </resources>

@@ -553,6 +553,7 @@
   <string name="volume_keys_control_media_stream_summary">Принудительно использовать кнопки громкости для регулировки громкости медиа</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+  <string name="lockscreen_battery_info_summary">Отображение тока, напряжения и температуры батареи на экране блокировки во время зарядки</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Регулировка громкости</string>
   <string name="hardware_keys_home_key_title">Кнопка «Домой»</string>
@@ -1065,10 +1066,34 @@
   <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
   <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
+  <string name="notification_guts_kill_app_button_summary">Показывать кнопку закрытия приложения при долгом нажатии на уведомление</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Включить панель управления PIE</string>
+  <string name="pie_settings">Настройки PIE</string>
+  <string name="pie_settings_summary">Настройте PIE по вашему вкусу</string>
+  <string name="pie_theme_mode_title">Оформление</string>
+  <string name="pie_auto">Авто</string>
+  <string name="pie_white">Светлое</string>
+  <string name="pie_dark">Темное</string>
+  <string name="pie_battery_title">Значок батареи</string>
+  <string name="pie_battery_text">Только текст</string>
+  <string name="pie_battery_circle">Только круг</string>
+  <string name="pie_battery_both">Оба</string>
+  <string name="pie_status_indicator">Индикатор сети</string>
+  <string name="pie_status_wifi">Только Wi-Fi</string>
+  <string name="pie_status_mobile">Только мобильная сеть</string>
   <string name="pie_status_none">Не использовать</string>
+  <string name="pie_status_both">Оба</string>
+  <string name="pa_pie_gravity_title">Расположение PIE</string>
+  <string name="pa_pie_gravity_summary">Выберите место, где будет расположен PIE</string>
+  <string name="pa_pie_gravity_bottom">Снизу</string>
   <string name="pa_pie_gravity_right">Справа</string>
   <string name="pa_pie_gravity_left">Слева</string>
   <!-- ANBI -->
+  <string name="anbi_title">Случайное прикосновение</string>
+  <string name="anbi_summary">Предотвращения взаимодействия с кнопками навигации при касании экрана</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Заблокировать датчики</string>
+  <string name="sensor_block_summary">Заблокировать доступ к датчикам для некоторых приложений для экономии заряда батареи.</string>
 </resources>

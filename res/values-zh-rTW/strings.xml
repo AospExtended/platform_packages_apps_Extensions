@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">強制音量鍵控制媒體音量</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">鎖定畫面充電資訊</string>
+  <string name="lockscreen_battery_info_summary">在充電時，在鎖定畫面上顯示充電器的電流、電壓和電池溫度</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">音量鍵</string>
   <string name="hardware_keys_home_key_title">主畫面鍵</string>
@@ -1066,10 +1067,34 @@
   <string name="incall_vibrate_call_wait_title">通話等待時震動</string>
   <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">終止應用程式按鈕</string>
+  <string name="notification_guts_kill_app_button_summary">在通知長按選單中顯示終止應用程式按鈕</string>
   <!-- Pie -->
+  <string name="pie_enable_title">啟用扇形控制</string>
+  <string name="pie_settings">扇形設定</string>
+  <string name="pie_settings_summary">根據您的喜好調整扇形</string>
+  <string name="pie_theme_mode_title">主題</string>
+  <string name="pie_auto">自動</string>
+  <string name="pie_white">白色</string>
+  <string name="pie_dark">暗色</string>
+  <string name="pie_battery_title">電池指示器</string>
+  <string name="pie_battery_text">純文字</string>
+  <string name="pie_battery_circle">僅圓形</string>
+  <string name="pie_battery_both">兩者</string>
+  <string name="pie_status_indicator">網路指示器</string>
+  <string name="pie_status_wifi">僅限 WiFi</string>
+  <string name="pie_status_mobile">僅限行動網路</string>
   <string name="pie_status_none">無</string>
+  <string name="pie_status_both">兩者</string>
+  <string name="pa_pie_gravity_title">扇形重力</string>
+  <string name="pa_pie_gravity_summary">選擇扇形顯示的位置</string>
+  <string name="pa_pie_gravity_bottom">底部</string>
   <string name="pa_pie_gravity_right">靠右對齊</string>
   <string name="pa_pie_gravity_left">靠左對齊</string>
   <!-- ANBI -->
+  <string name="anbi_title">誤觸</string>
+  <string name="anbi_summary">當觸控螢幕時，避免與導覽列互動</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">阻止個別套件存取感應器</string>
+  <string name="sensor_block_summary">阻止應用程式存取某些傳感器以節省電量</string>
 </resources>

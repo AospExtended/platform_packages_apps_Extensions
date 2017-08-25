@@ -100,6 +100,7 @@
   <string name="status_bar_notif_count_summary">Wyświetla licznik oczekujących powiadomień</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">Stuknij dwukrotnie aby uśpić</string>
+  <string name="double_tap_to_sleep_summary">Dotknij dwukrotnie pasek powiadomień albo górną lub dolną część skrótów na ekranie blokady aby wyłączyć ekran</string>
   <!-- Toast Icons -->
   <string name="toast_icon_title">Ikona w dymku powiadomień</string>
   <string name="toast_icon_summary">Wyświetl ikonę aplikacji w dymku</string>
@@ -358,6 +359,7 @@
   <string name="smartbar_config_restore_error_toast">Wystąpił błąd podczas przywracania ustawień SmartBar</string>
   <string name="navbar_buttons_alpha_title">Przezroczystość przyciksów</string>
   <string name="smartbar_longpress_delay_title">Opóźnienie przytrzymania przycisku</string>
+  <string name="smartbar_longpress_delay_summary">Ustaw jak długo system będzie czekał zanim uruchomi akcje po długim naciśnięciu</string>
   <string name="smartbar_longpress_delay_default">Domyślne opóźnienie (szybko)</string>
   <string name="smartbar_longpress_delay_normal">Normalne opóźnienie</string>
   <string name="smartbar_longpress_delay_long">Opóźnienie</string>
@@ -469,6 +471,7 @@
   <string name="media_art_title">Okładka albumu</string>
   <string name="media_art_summary">Włącz okładkę albumu na ekranie blokady</string>
   <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Brak szybkich ustawień na zabezpieczonym ekranie blokady</string>
   <string name="lockscreen_qs_disabled_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady.</string>
   <!-- Status Bar Ticker -->
   <string name="ticker_screen_title">Pasek powiadomień</string>
@@ -490,6 +493,7 @@
   <string name="headsup_settings_title">Wyskakujące powiadomienia</string>
   <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
   <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
+  <string name="heads_up_disabled_notice">Aby umożliwić aplikacji wyświetlanie interaktywnych powiadomień w wyskakującym oknie, włącz wyskakujące powiadomienia.</string>
   <string name="always_headsup_dialer_title">Wymuś wyskakujące powiadomienia dla połączeń</string>
   <string name="always_headsup_dialer_summary">Zastąp standardowe okno przychodzącego połączenia, nawet gdy wyskakujące powiadomienia są wyłączone</string>
   <!-- Heads up timeout -->
@@ -514,6 +518,7 @@
   <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Power menu customization -->
   <string name="power_menu_title">Menu zasilania</string>
+  <string name="power_menu_title_summary">Wyświetl lub zmień wpisy w menu zasilania</string>
   <string name="power_category">Opcje menu zasilania</string>
   <string name="actions_category">Elementy menu zasilania</string>
   <string name="power_menu_reboot_title">Uruchom ponownie</string>
@@ -541,6 +546,7 @@
   <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności obudzi urządzenie</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Przełączanie utworów</string>
+  <string name="volume_rocker_music_controls_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Przyciski głośności regulują głośność multimediów</string>
   <string name="volume_keys_control_media_stream_summary">Wymuś sterowanie nad mediami za pomocą przycisków głośności</string>
@@ -780,6 +786,7 @@
   <string name="battery_bar_blend_color_title">Mieszanie kolorów</string>
   <string name="battery_bar_blend_color_summary">Mieszaj pełne/puste kolory odpowiadające procentom baterii</string>
   <string name="battery_bar_blend_color_reverse_title">Odwróć kierunek kolorów</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
   <string name="battery_bar_hide">Ukryj</string>
   <string name="battery_bar_statusbar">Pasek stanu</string>
   <string name="battery_bar_navbar_top">Górna część paska nawigacji</string>
@@ -833,6 +840,7 @@
   <string name="wired_ringtone_focus_mode_stock">Głośnik i zestaw słuchawkowy (domyślnie)</string>
   <!-- QS Easy Toggle -->
   <string name="qs_easy_toggle_title">Łatwe przełączanie Szybkich ustawień</string>
+  <string name="qs_easy_toggle_summary">Włącz akcję pojedynczego dotknięcia dla włączenia lub wyłączenia pakietu danych, WiFi, lokalizacji i bluetooth</string>
   <string name="dnd_when_call_title">Nie przerywać połączeń przychodzących</string>
   <string name="dnd_when_call_summary">Automatycznie włącz DND podczas połączeń</string>
   <!-- StatusBar weather settings -->
@@ -847,6 +855,7 @@
   <string name="status_bar_show_image">Pokaż obraz</string>
   <!-- Slim Recent panel -->
   <string name="slim_recents_title">Wąski pasek ostatnio uruchamianych</string>
+  <string name="use_slim_recents_title">Użyj jako alternatywy dla ostatnio używanych</string>
   <string name="use_slim_recents_summary">Użyj wąskiego paska ostatnio uruchamianych zamiast domyślnego widoku</string>
   <string name="slim_recents_settings_title">Ustawienia wąskiego paska ostatnio uruchamianych</string>
   <string name="slim_recents_settings_summary">Pokaż ustawienia wąskiego paska ostatnio uruchamianych</string>
@@ -864,6 +873,8 @@
   <string name="recent_panel_bg_color_title">Kolor tła panelu</string>
   <string name="recent_card_bg_color_title">Kolor tła karty</string>
   <string name="recent_reset_title">Przywróć kolor domyślny</string>
+  <string name="recent_reset_confirm">Czy na pewno chcesz przywrócić domyślny kolor ostatnio używanych Slim?</string>
+  <string name="default_auto_string">Domyślne (według aplikacji)</string>
   <string name="slim_icon_pack_title">Pakiet ikon</string>
   <string name="slim_icon_pack_summary">Zastosuj niestandardową paczkę ikon dla aplikacji w panelu</string>
   <string name="no_iconpacks_summary">Nie zainstalowano zestawów ikon</string>
@@ -1036,16 +1047,23 @@
   <string name="sizer_message_success">Sukces</string>
   <!-- Grid recents screen pinning toggle -->
   <!-- Incall Home button behavior-->
+  <string name="allow_incall_home_title">Przycisk Home przy połączeniu</string>
+  <string name="allow_incall_home_summary">Pozwala na użycie przycisku Home przy przychodzącym połączeniu</string>
   <!-- Backlight button touch-->
+  <string name="button_backlight_on_touch_only_title">Przy naciśnięciu</string>
+  <string name="button_backlight_on_touch_only_summary">Aktywuje podświetlenie przycisków z opóźnieniem tylko po ich dotknięciu</string>
   <!-- Data disabled icon -->
   <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
+  <string name="data_disabled_icon_summary">Wyświetl znak krzyża obok paska sygnału, gdy dane są wyłączone</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opcje wibracji podczas rozmowy</string>
   <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
   <string name="incall_vibrate_call_wait_title">Wibracje podczas oczekiwania na połączenie</string>
   <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Przycisk zabijania aplikacji</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Włącz kontrolę Pie</string>
   <string name="pie_settings">Ustawienia interfejsu Pie</string>
   <string name="pie_settings_summary">Dostosuj Pie do swoich potrzeb</string>
   <string name="pie_theme_mode_title">Motyw</string>
@@ -1063,9 +1081,13 @@
   <string name="pie_status_both">Obydwa</string>
   <string name="pa_pie_gravity_title">Pozycja Pie</string>
   <string name="pa_pie_gravity_summary">Wybierz miejsce w który ma być umieszczony PIE</string>
+  <string name="pa_pie_gravity_bottom">Dół</string>
   <string name="pa_pie_gravity_right">Po prawej</string>
   <string name="pa_pie_gravity_left">Po lewej</string>
   <!-- ANBI -->
   <string name="anbi_title">Przypadkowe dotknięcie</string>
+  <string name="anbi_summary">Zapobiegaj przypadkowemu użyciu przycisków nawigacyjnych, gdy dotykasz ekranu</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blokowanie czujników dla aplikacji</string>
+  <string name="sensor_block_summary">Blokuj dostęp do niektórych czujników dla części aplikacji, aby oszczędzać baterię.</string>
 </resources>

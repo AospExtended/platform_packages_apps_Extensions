@@ -1094,6 +1094,6 @@
   <string name="anbi_title">Случайное прикосновение</string>
   <string name="anbi_summary">Предотвращения взаимодействия с кнопками навигации при касании экрана</string>
   <!-- Sensor block per-package -->
-  <string name="sensor_block_title">Заблокировать датчики</string>
+  <string name="sensor_block_title">Блокировка датчиков</string>
   <string name="sensor_block_summary">Заблокировать доступ к датчикам для некоторых приложений для экономии заряда батареи.</string>
 </resources>

@@ -19,6 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
   <!-- Extensions categories -->
+  <string name="system_category">സിസ്റ്റം</string>
   <!-- App info dialog -->
   <!-- OmniJaws -->
   <!-- Quick Settings brightness slider -->
@@ -50,6 +51,9 @@
   <!-- Color Picker -->
   <string name="color_default">സാധാ ഗതിയിലേക്ക്</string>
   <!-- Navigation Bar -->
+  <string name="picker_activities">പ്രവര്‍ത്തികള്‍</string>
+  <string name="select_custom_app_title">ഇഷ്ടാനുസൃത അപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+  <string name="select_custom_activity_title">ഇഷ്ടാനുസൃത പ്രവര്‍ത്തി തിരഞ്ഞെടുക്കുക</string>
   <string name="default_string">സാധാ ഗതിയിലേക്ക്</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
@@ -86,7 +90,7 @@
   <string name="power_menu_screenrecord_title">സ്‌ക്രീൻ റെക്കോർഡ്</string>
   <string name="power_menu_torch_title">ടോർച്ച്</string>
   <string name="power_menu_onthego_title">ഓണ്‍-ദി-ഗോ മോഡ്</string>
-  <string name="power_menu_search_title">അന്വേഷിക്കുക</string>
+  <string name="power_menu_search_title">തിരയുക</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -135,7 +139,8 @@
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
   <string name="shortcuts_icon_default">സാധാ ഗതിയിലേക്ക്</string>
-  <string name="shortcuts_icon_picker_search">അന്വേഷിക്കുക</string>
+  <string name="shortcuts_icon_picker_alarm">അലാറം</string>
+  <string name="shortcuts_icon_picker_search">തിരയുക</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->

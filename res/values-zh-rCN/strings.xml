@@ -1093,5 +1093,6 @@
   <string name="anbi_title">误触</string>
   <string name="anbi_summary">当触摸屏幕时防止和导航栏交互</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">阻止个別应用使用传感器</string>
   <string name="sensor_block_summary">阻止有些应用访问特定的传感器以节省电池电量。</string>
 </resources>

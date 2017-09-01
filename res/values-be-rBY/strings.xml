@@ -444,17 +444,53 @@
   <string name="double_tap_sleep_anywhere_summary">Двойчы націсніце ў любым месцы на экране блакавання, каб перавесці прыладу ў спячы рэжым</string>
   <!-- Optional screenshot type -->
   <string name="screenshot_type_title">Тып скрыншота</string>
+  <string name="screenshot_type_fullscreen">Поўнаэкранны скрыншот экрана</string>
+  <string name="screenshot_type_partial">Вылучыце вобласць якую вы хочаце захаваць як скрыншот</string>
   <!-- Screenshot delay -->
+  <string name="screenshot_options_category">Опцыі скрыншота</string>
+  <string name="screenshot_delay_title">Затрымка скрыншота</string>
+  <string name="screenshot_delay_summary">Рэгуляванне часу захопу скрыншота</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Адключыць апавяшчэння пра памылку</string>
+  <string name="disable_fc_notifications_summary">Гэта схавае ўсе апавяшчэння аб прымусовым закрыцці</string>
   <!-- Lockscreen Torch toggle -->
+  <string name="keyguard_torch_title">Ліхтарык на экране блакавання</string>
+  <string name="keyguard_torch_summary">Утрымлівайце кнопку сілкавання, калі прылада заблакавана, каб уключыць ліхтарык</string>
   <!-- Wakelock blocker -->
+  <string name="wakelockblocker_category">Блакавальнік WakeLock</string>
+  <string name="wakelock_blocker_summary">Блакаваць сістэмныя WakeLock</string>
   <string name="wakelock_blocker_save">Захаваць</string>
+  <string name="wakelock_list_header">Даступныя WakeLock</string>
+  <string name="wakelock_blocker_reload">Абнавіць</string>
+  <string name="wakelock_blocker_warning_title">Выкарыстоўвайце на свой страх і адказ</string>
+  <string name="wakelock_blocker_warning">Блакіроўка WakeLock можа выклікаць нестабільнасць, памылкі і страту дадзеных</string>
+  <string name="wakelock_blocker_title">Блакавальнік WakeLock</string>
   <!-- Lockscreen cover art -->
+  <string name="media_art_title">Вокладка альбома</string>
+  <string name="media_art_summary">Паказваць вокладку альбома на экране блакавання</string>
   <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Адкл. хуткія налады на экр. блак.</string>
+  <string name="lockscreen_qs_disabled_summary">Адключыць меню хуткіх налад на абароненым экране блакавання</string>
   <!-- Status Bar Ticker -->
+  <string name="ticker_screen_title">Тэкставыя апавяшчэння</string>
+  <string name="ticker_title">Бягучы радок у радку стану</string>
+  <string name="ticker_screen_summary">Наладзіць бягучы радок апавяшчэнняў у радку стану</string>
+  <string name="ticker_summary">Уключыць адлюстраванне апавяшчэнняў ў радку стану як у старых версіях Android</string>
+  <string name="ticker_font_style_title">Стыль шрыфта</string>
+  <string name="ticker_font_size_title">Памер шрыфта</string>
   <!-- Hide Lockscreen clock, date & alarm -->
+  <string name="hide_lockscreen_items_title">Элементы экрана блакавання</string>
+  <string name="hide_lockscreen_clock_title">Гадзіннік на экране блакавання</string>
+  <string name="hide_lockscreen_date_title">Дата на экране блакавання</string>
+  <string name="hide_lockscreen_alarm_title">Будзільнік на экране блакавання</string>
   <!-- Navbar dynamic color -->
+  <string name="nav_bar_dynamic_title">Дынамічны колер панэлі навігацыі</string>
+  <string name="nav_bar_dynamic_summary">Уключыце/выключыце гэты перамыкач для панэлі навігацыі, каб адаптаваць панэль да стандартнага чорнага колеру. Перазапусціце жаданае праграмы, каб убачыць эфект.</string>
   <!-- Heads up settings -->
+  <string name="headsup_category">Налады усплываючых апавяшчэнняў</string>
+  <string name="headsup_settings_title">Усплывальныя апавяшчэння</string>
+  <string name="summary_heads_up_enabled">Усплывальныя апавяшчэння ўключаны</string>
+  <string name="summary_heads_up_disabled">Усплывальныя апавяшчэння адключаны</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_5sec">5 секунд</string>
   <string name="heads_up_time_out_10sec">10 секунд</string>
@@ -513,6 +549,8 @@
   <!-- Disable animations -->
   <!-- Alarm blocker -->
   <string name="alarm_blocker_save">Захаваць</string>
+  <string name="alarm_blocker_reload">Абнавіць</string>
+  <string name="alarm_blocker_warning_title">Выкарыстоўвайце на свой страх і адказ</string>
   <!-- Option to enable/disable scrolling cache -->
   <!-- Three finger swipe screenshot -->
   <!-- Launch music player when headset is connected -->

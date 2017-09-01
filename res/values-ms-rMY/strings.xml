@@ -78,6 +78,11 @@
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
+  <string name="power_menu_reboot_title">Mula semula</string>
+  <string name="power_menu_screenshot_title">Screenshot</string>
+  <string name="power_menu_screenrecord_title">Rakaman skrin</string>
+  <string name="power_menu_torch_title">Lampu suluh</string>
+  <string name="power_menu_search_title">Cari</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -120,6 +125,7 @@
   <!-- Keyguard Statusbar Clock -->
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
+  <string name="shortcuts_icon_picker_search">Cari</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->
   <!-- Grid recents screen pinning toggle -->

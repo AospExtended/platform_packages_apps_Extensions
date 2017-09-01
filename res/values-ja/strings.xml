@@ -18,11 +18,14 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensions</string>
   <string name="add">追加</string>
   <string name="cancel">キャンセル</string>
   <string name="choose_app">アプリを選択</string>
   <string name="music_category">ミュージック</string>
   <string name="weather_category">天気の設定</string>
+  <string name="security_category">セキュリティ</string>
+  <string name="hardware_category">ハードウェア</string>
   <string name="dlg_ok">はい</string>
   <string name="reset">リセット</string>
   <string name="reset_android">Android</string>
@@ -33,6 +36,8 @@
   <!-- Extensions categories -->
   <string name="recents_category">最近</string>
   <string name="status_bar_category">ステータスバー</string>
+  <string name="lockscreen_category">ロック画面</string>
+  <string name="statusbar_items_category">ステータスバーの項目</string>
   <string name="navigation_category">ナビゲーション</string>
   <string name="system_animations">システムアニメーション</string>
   <string name="toast">トースト</string>
@@ -66,6 +71,7 @@
   <string name="toast_icon_title">トーストアイコン</string>
   <string name="toast_icon_summary">トーストを表示したアプリのアイコンを表示する</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">電源通知管理</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">通知を常に展開</string>
   <string name="force_expanded_notifications_summary">通知の展開をサポートしているアプリでのみ有効です</string>
@@ -95,6 +101,8 @@
   <string name="qs_set_animation_duration">%1$s</string>
   <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- MediaScanner behavior on boot -->
+  <string name="media_scanner_on_boot_ask">スキャンするかを尋ねる (通知)</string>
+  <string name="media_scanner_on_boot_disabled">メディアをスキャンしない</string>
   <!-- Volume key cursor control -->
   <string name="volbtn_cursor_control_title">キーボードのカーソル制御</string>
   <string name="volbtn_cursor_control_off">無効</string>
@@ -151,6 +159,8 @@
   <string name="image_exceeds_max_allowed_size">イメージは 512 x 512 を超えないようにしてください。</string>
   <string name="invalid_icon_from_uri">コンテンツ プロバイダーからイメージを読み込むことができません。</string>
   <string name="picker_activities">アクティビティ</string>
+  <string name="select_custom_app_title">アプリを選択</string>
+  <string name="select_custom_activity_title">アクティビティを選択</string>
   <string name="profile_applist_title">アプリ</string>
   <string name="default_string">デフォルト</string>
   <string name="reset">リセット</string>
@@ -637,6 +647,7 @@
   <string name="fp_unlock_keystore_title">指紋ロックを解除します。</string>
   <string name="fp_unlock_keystore_summary">指紋ロックのみ（PIN/パスワード/パターンの認証無し）で解除する\n自己責任です</string>
   <!-- Status bar notification ticker -->
+  <string name="ticker_enabled">通知ティッカー</string>
   <!-- Wired headset ringtone audio focus -->
   <string name="wired_ringtone_focus_mode_title">ここから着メロを再生するには</string>
   <string name="wired_ringtone_focus_mode_dynamic">ヘッドセット (有線) 接続されている場合、音楽を再生します。</string>

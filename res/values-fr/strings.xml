@@ -51,7 +51,7 @@
   <string name="statusbar_items_category">Éléments de la barre d\'État</string>
   <string name="navigation_category">Navigation</string>
   <string name="breathing_notifications_category">Notifications clignotantes</string>
-  <string name="build_tweaks_summary_title">Extensions de l\'appareil !</string>
+  <string name="build_tweaks_summary_title">Paramètres étendus de l\'appareil !</string>
   <string name="system_animations">Animations système</string>
   <string name="toast">Notification contextuelle</string>
   <string name="listview">Liste de vues</string>
@@ -59,7 +59,7 @@
   <string name="qs_omnijaws_category">Tuile de météo QS</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Aidez-nous à vous aider !</string>
-  <string name="extensions_dialog_message">Si vous trouvez un bug avec n’importe lequel de ces paramètres, poster dans la section rapports de bogue de notre page Google +. Vous devez inclure ce qui suit lors de la publication d’un rapport de bogue : \n\n1. Un logcat ou last_kmsg\n2. Kernel et mods Used\n3. Information\n\n utile. Si vous omettez de signaler quelque chose correctement, nous ne pourrons réparer le bug.</string>
+  <string name="extensions_dialog_message">Si vous trouvez un bogue avec n’importe lequel de ces paramètres, postez dans la section \"Rapports de bogue\" de notre page Google +. Vous devez inclure ce qui suit lors de la publication d’un rapport de bogue : \n\n1. Un logcat ou last_kmsg\n2. Kernel et mods utilisés\n3. Information utile\n\nSi vous omettez de signaler quelque chose correctement, nous ne pourrons réparer le bogue.</string>
   <string name="extensions_dialog_toast">À LIRE ENTIÈREMENT !</string>
   <!-- OmniJaws -->
   <string name="weather_config_title">Paramètres du service</string>
@@ -1068,9 +1068,9 @@
   <string name="notification_guts_kill_app_button_title">Bouton tueur de tâches</string>
   <string name="notification_guts_kill_app_button_summary">Afficher un bouton tueur de tâches dans le menu des notifications</string>
   <!-- Pie -->
-  <string name="pie_enable_title">Activer le menu Pie</string>
-  <string name="pie_settings">Réglages du menu Pie</string>
-  <string name="pie_settings_summary">Ajuster le menu Pie comme vous le désirez</string>
+  <string name="pie_enable_title">Activer le menu semi-circulaire Pie</string>
+  <string name="pie_settings">Réglages du menu semi-circulaire Pie</string>
+  <string name="pie_settings_summary">Ajuster le menu semi-circulaire Pie comme vous le désirez</string>
   <string name="pie_theme_mode_title">Thème</string>
   <string name="pie_auto">Automatique</string>
   <string name="pie_white">Blanc</string>
@@ -1084,8 +1084,8 @@
   <string name="pie_status_mobile">Réseau mobile</string>
   <string name="pie_status_none">Aucun(e)</string>
   <string name="pie_status_both">Les deux</string>
-  <string name="pa_pie_gravity_title">Menu Pie</string>
-  <string name="pa_pie_gravity_summary">Choisir l\'emplacement du menu Pie</string>
+  <string name="pa_pie_gravity_title">Menu semi-circulaire Pie</string>
+  <string name="pa_pie_gravity_summary">Choisir l\'emplacement du menu semi-circulaire Pie</string>
   <string name="pa_pie_gravity_bottom">En bas</string>
   <string name="pa_pie_gravity_right">Droite</string>
   <string name="pa_pie_gravity_left">Gauche</string>

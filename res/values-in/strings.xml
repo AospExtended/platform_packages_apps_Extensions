@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Paksa tombol volume untuk mengontrol media stream</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info baterai pada kunci layar</string>
+  <string name="lockscreen_battery_info_summary">Tampilkan maksimal arus-tegangan yang dinegosiasikan pengisi daya dan suhu baterai pada layar kunci saat pengisian</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Volume Rocker</string>
   <string name="hardware_keys_home_key_title">Tombol home</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Bergetar saat panggilan tunggu</string>
   <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Tombol matikan tugas</string>
+  <string name="notification_guts_kill_app_button_summary">Tampilkan tombol matikan tugas dalam pemberitahuan longpress menu</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Hidupkan kontrol Pie</string>
+  <string name="pie_settings">Setelan Pie</string>
+  <string name="pie_settings_summary">Menyesuaikan pie dengan keinginan anda</string>
+  <string name="pie_theme_mode_title">Tema</string>
+  <string name="pie_auto">Otomatis</string>
+  <string name="pie_white">Terang</string>
+  <string name="pie_dark">Gelap</string>
+  <string name="pie_battery_title">Indikator baterai</string>
+  <string name="pie_battery_text">Hanya teks</string>
+  <string name="pie_battery_circle">Hanya lingkaran</string>
+  <string name="pie_battery_both">Keduanya</string>
+  <string name="pie_status_indicator">Indikator jaringan</string>
+  <string name="pie_status_wifi">Hanya Wifi</string>
+  <string name="pie_status_mobile">Hanya jaringan seluler</string>
   <string name="pie_status_none">Tidak ada</string>
+  <string name="pie_status_both">Keduanya</string>
+  <string name="pa_pie_gravity_title">Gravitasi Pie</string>
+  <string name="pa_pie_gravity_summary">Pilih lokasi di mana Pie akan ditempatkan</string>
+  <string name="pa_pie_gravity_bottom">Bawah</string>
   <string name="pa_pie_gravity_right">Kanan</string>
   <string name="pa_pie_gravity_left">Kiri</string>
   <!-- ANBI -->
+  <string name="anbi_title">Sentuhan yang tidak disengaja</string>
+  <string name="anbi_summary">Mencegah interaksi dengan tombol navigasi saat layar disentuh</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Sensor blok per-paket</string>
+  <string name="sensor_block_summary">Blokir akses ke sensor tertentu untuk beberapa aplikasi untuk menghemat baterai.</string>
 </resources>

@@ -40,6 +40,7 @@ import java.util.regex.Pattern;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -47,6 +48,10 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
 public class Buttons extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+
+    private ListPreference mTorchPowerButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +62,13 @@ public class Buttons extends SettingsPreferenceFragment implements OnPreferenceC
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
+        // screen off torch
+        mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.System.getInt(resolver,
+                Settings.System.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -71,6 +83,16 @@ public class Buttons extends SettingsPreferenceFragment implements OnPreferenceC
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) objValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) objValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.System.putInt(resolver, Settings.System.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            return true;
+        }
         return false;
     }
 }

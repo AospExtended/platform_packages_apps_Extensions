@@ -26,6 +26,12 @@
              android:summary="@string/power_menu_title_summary"
 	     android:fragment="org.aospextended.extensions.fragments.PowerMenuSettings" />
 
+    <ListPreference
+        android:key="torch_power_button_gesture"
+        android:title="@string/torch_power_button_gesture_title"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values" />
+
     </PreferenceCategory>
 
 

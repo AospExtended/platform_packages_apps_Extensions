@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+<!--  Copyright (C) 2017 The Dirty Unicorns Project
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -21,17 +21,6 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <PreferenceScreen
-            android:key="lockscreen_ui"
-            android:fragment="org.aospextended.extensions.LockscreenUI"
-            android:layout="@layout/preference_lockscreen_ui"
-            android:title="@string/lockscreen_ui_title" />
-
-         <PreferenceScreen
-            android:key="lockscreen_shortcuts"
-            android:fragment="org.aospextended.extensions.LockscreenShortcuts"
-            android:layout="@layout/preference_lockscreen_shortcuts"
-            android:title="@string/lockscreen_shortcuts" />
 
 </PreferenceScreen>
 

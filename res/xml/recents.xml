@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
-     Copyright (C) 2016 AospExtended ROM Project
+     Copyright (C) 2017 AospExtended ROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,10 +21,5 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <PreferenceScreen
-            android:key="recents_ui"
-            android:fragment="org.aospextended.extensions.RecentsUI"
-            android:layout="@layout/preference_recents_ui"
-            android:title="@string/recents_ui_title" />
 
 </PreferenceScreen>

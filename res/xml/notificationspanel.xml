@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
-     Copyright (C) 2016 AospExtended ROM Project
+     Copyright (C) 2017 AospExtended ROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -18,16 +18,5 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <PreferenceScreen
-            android:key="quick_settings"
-            android:fragment="org.aospextended.extensions.statusbar.QuickSettings"
-            android:layout="@layout/preference_quick_settings"
-            android:title="@string/quick_settings_title" />
-
-         <PreferenceScreen
-            android:key="notifications"
-            android:fragment="org.aospextended.extensions.Notifications"
-            android:layout="@layout/preference_notifications"
-            android:title="@string/notifications_title" />
 
 </PreferenceScreen>

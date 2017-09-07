@@ -16,6 +16,4 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Show lockscreen charging info -->
-    <bool name="showCharging">true</bool>
 </resources>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2016 AospExtended ROM Project
+<!--  Copyright (C) 2017 AospExtended ROM Project
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -21,15 +21,4 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <Preference
-        android:key="navigation_options"
-        android:fragment="org.aospextended.extensions.dui.NavbarSettings"
-        android:layout="@layout/preference_navigation"
-        android:title="@string/navigationbar_settings_title" />
-
-<Preference
-        android:key="pie_settings"
-        android:fragment="org.aospextended.extensions.PieSettings"
-        android:layout="@layout/preference_pie_settings"
-        android:title="@string/pie_settings" />
 </PreferenceScreen>

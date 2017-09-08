@@ -29,7 +29,7 @@ import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 
-import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
@@ -49,8 +49,8 @@ public class Recents extends SettingsPreferenceFragment implements
     }
 
     @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.EXTENSIONS;
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.EXTENSIONS;
     }
 
     @Override

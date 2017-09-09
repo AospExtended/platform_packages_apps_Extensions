@@ -194,5 +194,9 @@
     <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
 
+    <!-- Double Tap -->
+    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
+    <string name="double_tap_sleep_navbar_summary">Double-tap status bar to put the device to sleep</string>
+
 </resources>
 

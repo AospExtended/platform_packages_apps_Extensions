@@ -30,5 +30,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="navbar_gestures_category"
+        android:title="@string/gestures_category" >
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_navbar"
+        android:title="@string/double_tap_sleep_navbar"
+        android:summary="@string/double_tap_sleep_navbar_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>

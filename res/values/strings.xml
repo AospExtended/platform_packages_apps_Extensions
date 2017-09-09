@@ -169,4 +169,8 @@
     <string name="powermenu_logout">Logout</string>
     <string name="powermenu_emergency">Emergency</string>
 
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+
 </resources>

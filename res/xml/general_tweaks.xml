@@ -17,8 +17,13 @@
     android:title="@string/general_tweaks_title">
 
     <PreferenceCategory
-        android:key="general_tweaks_general_category"
-        android:title="@string/general_category">
+        android:key="light_category"
+        android:title="@string/light_category">
+        
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="org.aospextended.extensions.system.GeneralTweaks.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
 
 
     </PreferenceCategory>

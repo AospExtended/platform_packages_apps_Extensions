@@ -21,5 +21,11 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+         <Preference
+            android:key="general_tweaks"
+            android:fragment="org.aospextended.extensions.GeneralTweaks"
+            android:icon="@drawable/ic_general_tweaks"
+            android:title="@string/general_tweaks_title" />
+
 
 </PreferenceScreen>

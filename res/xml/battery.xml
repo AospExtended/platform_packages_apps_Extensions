@@ -16,9 +16,21 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/battery_title">
 
-    <PreferenceCategory
+<!--    <PreferenceCategory
         android:key="battery_category"
         android:title="@string/battery_category">
 
+    </PreferenceCategory> -->
+
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="org.aospextended.extensions.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

@@ -48,6 +48,9 @@ import com.android.settings.Utils;
 
 public class Battery extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private PreferenceCategory mLedsCategory;
+    private Preference mChargingLeds;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +59,17 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mLedsCategory = (PreferenceCategory) findPreference("light_category");
+        mChargingLeds = (Preference) findPreference("battery_charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            mLedsCategory.removePreference(mChargingLeds);
+        }
+          if (mChargingLeds == null) {
+            prefSet.removePreference(mLedsCategory);
+        }
 
     }
 

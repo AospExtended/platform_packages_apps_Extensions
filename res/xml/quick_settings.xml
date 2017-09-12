@@ -33,6 +33,11 @@
         android:dependency="qs_show_brightness"
         android:defaultValue="false"/>
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:defaultValue="true" />
+
         <ListPreference
             android:key="quick_pulldown"
             android:title="@string/quick_pulldown_title"

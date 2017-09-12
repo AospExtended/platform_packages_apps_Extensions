@@ -21,4 +21,10 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+         <Preference
+            android:key="traffic"
+            android:fragment="org.aospextended.extensions.Traffic"
+            android:icon="@drawable/ic_traffic"
+            android:title="@string/traffic_title" />
+
 </PreferenceScreen>

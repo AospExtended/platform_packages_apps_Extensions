@@ -53,6 +53,9 @@
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
 
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>
     <string name="extensions_dialog_message">If you find a bug with any of these settings, post in the Bug Reports section of our Google+ page. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
@@ -78,6 +81,15 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
 </resources>
 

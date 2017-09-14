@@ -28,6 +28,7 @@
     <string name="gestures_category">Gestures</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
+    <string name="aosp_recents_category">AOSP recents</string>
     <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
@@ -55,6 +56,9 @@
 
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
+
+    <!-- Recents UI -->
+    <string name="recents_ui_title">Recents UI</string>
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>
@@ -90,6 +94,17 @@
     <string name="show_network_traffic_all">Uplink and Downlink</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
 </resources>
 

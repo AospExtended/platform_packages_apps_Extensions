@@ -35,6 +35,12 @@
         android:title="@string/status_bar_clock_title" />
 
     <org.aospextended.support.preference.CardviewPreference
+        android:key="traffic"
+        android:fragment="org.aospextended.extensions.fragments.Traffic"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title" />
+
+    <org.aospextended.support.preference.CardviewPreference
         android:key="misc_extensions"
         android:fragment="org.aospextended.extensions.fragments.MiscExtensions"
         android:icon="@drawable/ic_misc_extensions"

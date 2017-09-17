@@ -53,8 +53,16 @@
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
 
+<<<<<<< HEAD
     <!-- Lockscreen icons -->
     <string name="lockscreen_shortcuts">Lockscreen Shortcuts</string>
+=======
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Carrier Label</string>
+
+    <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Misc Extensions</string>
+>>>>>>> 3a8a6654 (Status network traffic [2/2])
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen Shortcuts</string>
@@ -258,5 +266,10 @@
     <string name="aex_logo_title">AEX logo</string>
     <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Traffic Indicators</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
 

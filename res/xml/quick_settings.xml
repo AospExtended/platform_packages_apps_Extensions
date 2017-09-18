@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2017 AospExtended ROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -11,23 +11,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<PreferenceScreen
+<PreferenceScreen 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/notifications_panel_category"
-    android:layout="@layout/tab"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/quick_settings_title">
 
-         <Preference
-            android:key="quick_settings"
-            android:fragment="org.aospextended.extensions.QuickSettings"
-            android:icon="@drawable/ic_quick_settings"
-            android:title="@string/quick_settings_title" />
+    <PreferenceCategory
+        android:key="quick_settings_general_category"
+        android:title="@string/general_category">
 
-         <Preference
-            android:key="notifications"
-            android:fragment="org.aospextended.extensions.Notifications"
-            android:icon="@drawable/ic_notifications"
-            android:title="@string/notifications_title" />
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/qs_brightness_slider_title"
+        android:summary="@string/qs_brightness_slider_summary"
+        android:defaultValue="true"/>
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

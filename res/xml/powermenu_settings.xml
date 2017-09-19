@@ -36,6 +36,11 @@
             android:defaultValue="false" />
 
          <org.aospextended.support.preference.SystemSettingSwitchPreference
+            android:key="powermenu_torch"
+            android:title="@string/powermenu_torch"
+            android:persistent="false" />
+
+         <org.aospextended.support.preference.SystemSettingSwitchPreference
             android:key="powermenu_settings"
             android:title="@string/powermenu_settings"
             android:defaultValue="false" />

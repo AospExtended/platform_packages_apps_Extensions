@@ -16,5 +16,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
 
+   <PreferenceCategory
+        android:key="power_menu"
+        android:title="@string/power_menu_title">
+
+    <Preference
+	     android:key="power_menu"
+             android:title="@string/power_menu_title"
+             android:summary="@string/power_menu_title_summary"
+	     android:fragment="org.aospextended.extensions.fragments.PowerMenuSettings" />
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>

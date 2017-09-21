@@ -45,6 +45,9 @@
     <string name="listview">ListView</string>
 
     <!-- Frags -->
+    <!-- Buttons -->
+    <string name="buttons_title">Buttons</string>
+
     <!-- Lockscreen icons -->
     <string name="lockscreen_shortcuts">Lockscreen Shortcuts</string>
 

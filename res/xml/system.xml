@@ -19,5 +19,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <org.aospextended.support.preference.CardviewPreference
+        android:key="buttons"
+        android:fragment="org.aospextended.extensions.fragments.Buttons"
+        android:icon="@drawable/ic_buttons"
+        android:title="@string/buttons_title" />
 
 </PreferenceScreen>

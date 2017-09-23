@@ -21,6 +21,7 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.RemoteException;
@@ -46,7 +47,14 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
+
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+	private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+
+    private FingerprintManager mFingerprintManager;
+    private SystemSettingSwitchPreference mFingerprintVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +65,15 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
+	    mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        if (!mFingerprintManager.isHardwareDetected()){
+            prefSet.removePreference(mFingerprintVib);
+        } else {
+        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FP_SUCCESS_VIBRATE, 1) == 1));
+        mFingerprintVib.setOnPreferenceChangeListener(this);
+        }
     }
 
     @Override
@@ -71,6 +88,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+	    if (preference == mFingerprintVib) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FP_SUCCESS_VIBRATE, value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 }

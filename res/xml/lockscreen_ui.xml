@@ -18,6 +18,18 @@
 
 
     <PreferenceCategory
+        android:key="lockscreen_ui_general_category"
+        android:title="@string/general_category">
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="fingerprint_success_vib"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
+        android:persistent="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_ui_gestures_category"
         android:title="@string/gestures_category">
 

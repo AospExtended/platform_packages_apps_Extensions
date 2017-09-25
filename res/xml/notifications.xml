@@ -17,4 +17,15 @@
     android:title="@string/notifications_title">
 
 
+    <PreferenceCategory
+        android:key="headsup_notifications_category"
+        android:title="@string/headsup_category">
+
+     <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="org.aospextended.extensions.fragments.HeadsUpSettings"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

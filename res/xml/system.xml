@@ -33,5 +33,10 @@
             android:icon="@drawable/ic_buttons"
             android:title="@string/buttons_title" />
 
+         <Preference
+            android:key="app_ops"
+            android:fragment="com.android.settings.applications.AppOpsSummary"
+            android:icon="@drawable/ic_settings_appops"
+            android:title="@string/app_ops_category" />
 
 </PreferenceScreen>

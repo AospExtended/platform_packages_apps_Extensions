@@ -184,5 +184,8 @@
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar Tuner</string>
+
 </resources>
 

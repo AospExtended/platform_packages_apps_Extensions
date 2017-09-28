@@ -18,6 +18,10 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
+         <org.aospextended.support.preference.CardviewPreference
+            android:key="navbar_settings"
+            android:fragment="org.aospextended.extensions.NavbarSettings"
+            android:icon="@drawable/ic_navigation"
+            android:title="@string/navigationbar_settings_title" />
 
 </PreferenceScreen>

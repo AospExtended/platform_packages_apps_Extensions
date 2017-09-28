@@ -187,5 +187,8 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar Tuner</string>
 
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
+
 </resources>
 

@@ -985,9 +985,10 @@
     <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
     <string name="lockscreen_items_other">Other</string>
 
+    <string name="qs_header_category">QS header</string>
+
+    <!-- Small quick settings scroller -->
+    <string name="qqs_scroll_title">Scroll small QS tiles</string>
+    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
+
 </resources>
-
-
-
-
-

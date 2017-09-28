@@ -67,6 +67,19 @@
     </PreferenceCategory>
 
      <PreferenceCategory
+        android:key="qs_header_category"
+        android:title="@string/qs_header_category">
+
+    <!-- QS scroller -->
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="qs_quickbar_scroll_enabled"
+        android:title="@string/qqs_scroll_title"
+        android:summary="@string/qqs_scroll_summary"
+        android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+     <PreferenceCategory
         android:key="qs_opacity_category"
         android:title="@string/qs_opacity_category">
 

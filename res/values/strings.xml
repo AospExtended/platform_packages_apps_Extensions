@@ -57,14 +57,23 @@
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
 
+    <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Misc extensions</string>
+
     <!-- Recents UI -->
     <string name="recents_ui_title">Recents UI</string>
+
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
 
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Statusbar items</string>
 
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
+
+    <!-- Navigation -->
+    <string name="navigationbar_settings_title">Navigation bar</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>

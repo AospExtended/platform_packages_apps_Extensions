@@ -26,6 +26,7 @@
     <string name="choose_app">Choose app</string>
     <string name="general_category">General</string>
     <string name="gestures_category">Gestures</string>
+    <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
     <string name="aosp_recents_category">AOSP recents</string>
@@ -211,6 +212,10 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
 </resources>
 

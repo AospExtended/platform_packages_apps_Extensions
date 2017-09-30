@@ -55,6 +55,7 @@ import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+    private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -84,6 +85,8 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
+    private ListPreference mVolumeKeyCursorControl;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -93,6 +96,17 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        // volume key cursor control
+        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
+        if (mVolumeKeyCursorControl != null) {
+            mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
+            int volumeRockerCursorControl = Settings.System.getInt(getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
+            mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
+           mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
+        }
+
 
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
@@ -214,6 +228,16 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             int buttonBrightness = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else if (preference == mVolumeKeyCursorControl) {
+            String volumeKeyCursorControl = (String) objValue;
+            int volumeKeyCursorControlValue = Integer.parseInt(volumeKeyCursorControl);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, volumeKeyCursorControlValue);
+            int volumeKeyCursorControlIndex = mVolumeKeyCursorControl
+                    .findIndexOfValue(volumeKeyCursorControl);
+            mVolumeKeyCursorControl
+                    .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
+            return true;
         } else {
             return false;
         }

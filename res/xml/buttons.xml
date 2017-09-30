@@ -56,6 +56,12 @@
         android:key="volume_key_cursor_control"
         android:title="@string/volume_key_cursor_control_title" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="volume_wake_screen"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 

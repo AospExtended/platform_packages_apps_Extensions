@@ -17,14 +17,26 @@
     android:title="@string/buttons_title">
 
    <PreferenceCategory
-        android:key="power_menu"
-        android:title="@string/power_menu_title">
+        android:key="power_button"
+        android:title="@string/power_category">
 
    <Preference
 	     android:key="power_menu"
              android:title="@string/power_menu_title"
              android:summary="@string/power_menu_title_summary"
 	     android:fragment="org.aospextended.extensions.PowerMenuSettings" />
+    </PreferenceCategory>
+
+   <PreferenceCategory
+        android:key="volume_category"
+        android:title="@string/volume_category">
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 

@@ -89,6 +89,12 @@
             android:summary="@string/force_ambient_for_media_pref_summary"
             settings:userRestriction="no_ambient_display" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/media_art_title"
+            android:summary="@string/media_art_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

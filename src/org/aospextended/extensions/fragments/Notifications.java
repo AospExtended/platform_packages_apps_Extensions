@@ -79,7 +79,7 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         boolean enabled = Settings.System.getIntForUser(resolver,
                 KEY_EDGE_LIGHTNING, 0, UserHandle.USER_CURRENT) == 1;
         mEdgeLightning.setChecked(enabled);
-        mEdgeLightning.setOnPreferenceChangeListener(this)
+        mEdgeLightning.setOnPreferenceChangeListener(this);
     }
 
     @Override

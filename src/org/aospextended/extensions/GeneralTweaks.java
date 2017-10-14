@@ -51,6 +51,7 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
     private static final String RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
@@ -90,6 +91,11 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mHeadsetRingtoneFocus.setValue(Integer.toString(mHeadsetRingtoneFocusValue));
         mHeadsetRingtoneFocus.setSummary(mHeadsetRingtoneFocus.getEntry());
         mHeadsetRingtoneFocus.setOnPreferenceChangeListener(this);
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefSet.removePreference(incallVibCategory);
+        }
     }
 
     @Override

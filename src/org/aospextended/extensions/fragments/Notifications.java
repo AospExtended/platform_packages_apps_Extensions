@@ -51,8 +51,12 @@ import java.util.ArrayList;
 import java.util.List;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import org.aospextended.extensions.preference.TelephonyUtils;
+
 
 public class Notifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
+
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
@@ -75,6 +79,11 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         }
           if (mChargingLeds == null) {
             prefSet.removePreference(mLedsCategory);
+        }
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+                prefSet.removePreference(incallVibCategory);
         }
 
     }

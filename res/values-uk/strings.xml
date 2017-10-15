@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Примусово керувати потоковим медіа регулятором гучності</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Інформація про батарею на екрані блокування</string>
+  <string name="lockscreen_battery_info_summary">Відображення напруги струму і температуру акумулятора на екрані блокування під час зарядки</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Регулювання гучності</string>
   <string name="hardware_keys_home_key_title">Клавіша «Додому»</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
   <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Кнопка завершення додатків</string>
+  <string name="notification_guts_kill_app_button_summary">Показувати кнопку закриття програми при довгому натисненні на сповіщення</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Увімкнути керування Рie</string>
+  <string name="pie_settings">Параметри PIE</string>
+  <string name="pie_settings_summary">Налаштуйте PIE на свій смак</string>
+  <string name="pie_theme_mode_title">Тема</string>
+  <string name="pie_auto">Автоматично</string>
+  <string name="pie_white">Біла</string>
+  <string name="pie_dark">Темна</string>
+  <string name="pie_battery_title">Індикатор акумулятора</string>
+  <string name="pie_battery_text">Тільки текст</string>
+  <string name="pie_battery_circle">Тільки коло</string>
+  <string name="pie_battery_both">Обидва</string>
+  <string name="pie_status_indicator">Індикатор мережі</string>
+  <string name="pie_status_wifi">Тільки WiFi</string>
+  <string name="pie_status_mobile">Тільки мобільна мережа</string>
   <string name="pie_status_none">Відсутній</string>
+  <string name="pie_status_both">Обидва</string>
+  <string name="pa_pie_gravity_title">Прив\'язка Pie</string>
+  <string name="pa_pie_gravity_summary">Вибір сторони активації Pie</string>
+  <string name="pa_pie_gravity_bottom">Нижнє</string>
   <string name="pa_pie_gravity_right">Справа</string>
   <string name="pa_pie_gravity_left">Зліва</string>
   <!-- ANBI -->
+  <string name="anbi_title">Випадковий дотик</string>
+  <string name="anbi_summary">Запобігати взаємодії з кнопками навігації при натисканні на екран</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Блокування датчиків попакетно</string>
+  <string name="sensor_block_summary">Блокувати доступ до певних датчиків для деяких додатків для економії батареї.</string>
 </resources>

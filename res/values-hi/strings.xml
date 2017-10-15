@@ -20,35 +20,85 @@
   <!-- General app strings -->
   <string name="extensions_title">विस्तार</string>
   <string name="add">जोड़ें</string>
+  <string name="advanced">उन्नत</string>
   <string name="cancel">रद्द करें</string>
   <string name="choose_app">एप्लीकेशन को चुनें</string>
+  <string name="general_category">सामान्य</string>
+  <string name="gestures_category">इशारे</string>
   <string name="music_category">संगीत</string>
+  <string name="weather_category">लॉक स्क्रीन मौसम</string>
+  <string name="security_category">सुरक्षा</string>
+  <string name="hardware_category">हार्डवेयर</string>
+  <string name="animations_category">टाइल एनिमेशन</string>
+  <string name="traffic_category">इंटरनेट सूचक</string>
+  <string name="aosp_recents_category">AOSP हाल ही में</string>
   <string name="dlg_ok">ठीक है</string>
+  <string name="loading">लोड हो रहा\u2026</string>
+  <string name="reset_colors">रंग रीसेट करें</string>
+  <string name="reset_android">एंड्रॉयड</string>
+  <string name="text_title">टेक्स्ट</string>
   <string name="icon_title">आइकॉन</string>
   <string name="color_title">रंग</string>
+  <string name="colors_title">रंग</string>
   <!-- Extensions categories -->
   <string name="recents_category">हाल ही के</string>
+  <string name="notifications_panel_category">सुचना पटल</string>
   <string name="system_category">सिस्टम</string>
+  <string name="lockscreen_category">लॉकस्क्रीन</string>
   <string name="statusbar_items_category">स्थिति बार आइटम</string>
+  <string name="navigation_category">नेविगेशन</string>
+  <string name="breathing_notifications_category">श्वास सूचनाएं</string>
+  <string name="build_tweaks_summary_title">अपने डिवाइस का विस्तार करें!</string>
   <string name="toast">टोस्ट</string>
   <string name="listview">सूची दृश्य</string>
+  <string name="qs_header_title">त्वरित सेटिंग्स शीर्ष लेख</string>
+  <string name="qs_omnijaws_category">मौसम QS टाइल</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">आपकी सहायता करने में हमारी सहायता करें!</string>
+  <string name="extensions_dialog_message">यदि आप इन सेटिंग्स में से किसी के साथ एक Bug मिल जाए, हमारे Google + पृष्ठ के बग रिपोर्ट अनुभाग में पोस्ट. बग रिपोर्ट पोस्ट करते समय आपको निम्न शामिल करना होगा: \ n\n1. एक logcat या last_kmsg\n2. कर्नेल और mods used\n3. उपयोगी information\n\n अगर आप पर्याप्त रूप से कुछ की रिपोर्ट करने में असफल रहे, उम्मीद मत करो Bug ठीक की है.</string>
+  <string name="extensions_dialog_toast">पूरी बात पढ़ें!</string>
   <!-- OmniJaws -->
+  <string name="weather_config_title">मौसम सेटिंग्स</string>
+  <string name="header_weather_title">शीर्ष लेख दृश्य मौसम</string>
+  <string name="header_weather_summary">सूचना पैनल शीर्षक छवि को सक्षम करें</string>
+  <string name="weather_icon_pack_title">शर्त चिह्न पैक</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">चमक स्लाइडर</string>
+  <string name="qs_brightness_slider_summary">त्वरित सेटिंग फलक में चमक स्लाइडर दिखाएँ</string>
+  <string name="brightness_icon_title">चमक चिह्न </string>
+  <string name="brightness_icon_summary">ऑटो-चमक समायोजित करने के लिए brighness स्लाइडर के बाईं ओर एक चमक आइकन दिखाएँ</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">त्वरित सेटिंग्स</string>
+  <string name="status_bar_quick_qs_pulldown_title">त्वरित pulldown</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Statusbar के दाएँ किनारे जल्दी सेटिंग्स नीचे खींचती है</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">विविध एक्सटेंशन</string>
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">जनरल बदलाव</string>
   <!-- Notifications -->
+  <string name="notifications_title">सूचनाएँ</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">हाल ही में UI</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">लॉकस्क्रीन UI</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">लॉक्सक्रीन शॉर्टकट</string>
   <!-- Buttons -->
+  <string name="buttons_title">बटन</string>
   <!-- Blur -->
+  <string name="blur_title">धुंधला</string>
   <!-- Animations -->
+  <string name="animations_title">एनिमेशन</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">कैरियर लेबल</string>
   <!-- Show notification count -->
+  <string name="status_bar_notif_count_title">सूचना गणना दिखाएँ</string>
+  <string name="status_bar_notif_count_summary">लंबित सूचनाओं की संख्या प्रदर्शित करें</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">सोने के लिए डबल-टैप करे</string>
+  <string name="double_tap_to_sleep_summary">प्रदर्शन बंद करने के लिए बंद स्क्रीन के statusbar या शीर्ष तीसरे और निचले शॉर्टकट क्षेत्र पर डबल-टैप करें</string>
   <!-- Toast Icons -->
+  <string name="toast_icon_title">टोस्ट चिह्न</string>
   <!-- Power notification controls -->
   <string name="power_notification_controls_title">अतिरिक्त सूचना नियंत्रण</string>
   <!-- Force expanded notifications -->
@@ -68,12 +118,25 @@
   <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">स्वतः छुपाना</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_seconds_title">सेकंड दिखाएँ</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">२४-घंटा घड़ी सक्षम किया गया है</string>
+  <string name="right_clock">दाई ओर घड़ी</string>
+  <string name="center_clock">केंद्र में घड़ी</string>
+  <string name="left_clock">बायी ओर घड़ी</string>
+  <string name="clock_date_display">तिथि</string>
+  <string name="clock_date_style">तिथि की शैली</string>
+  <string name="clock_date_position">दिनांक स्थान</string>
+  <string name="clock_date_format">दिनांक स्वरूप</string>
+  <string name="clock_date_string_edittext_title">दिनांक स्वरुप में होना चाहिए जैसे कि. mm/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">स्ट्रिंग दर्ज करें</string>
   <string name="clock_am_pm_date_normal">सामान्य</string>
   <string name="cancel">रद्द करें</string>
   <!-- Color Picker -->
   <string name="color_default">डिफ़ाल्ट</string>
   <!-- Navigation Bar -->
   <string name="navigationbar_settings_title">नेविगेशन पट्टी</string>
+  <string name="navbar_general_title">उन्नत</string>
   <string name="smartbar_interface">स्मार्ट पट्टी</string>
   <string name="picker_activities">गतिविधियाँ</string>
   <string name="select_custom_app_title">कस्टम ऐप का चयन करें</string>
@@ -84,7 +147,9 @@
   <string name="action_entry_select_app">एप्लिकेशन चयन करें</string>
   <!-- Fling -->
   <string name="fling_interface">Fling</string>
+  <string name="fling_advanced">उन्नत</string>
   <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_advanced_category">उन्नत</string>
   <!-- Pulse config -->
   <!-- Navbar height -->
   <string name="positive_done">पूर्ण</string>
@@ -94,11 +159,15 @@
   <!-- QuickSettings haptic feedback -->
   <!-- Do not Disturb switch in volume panel -->
   <!-- Breathing Notifications -->
+  <string name="breathing_notifications_title">श्वास सूचनाएं</string>
   <!-- Quick settings tiles columns and rows config -->
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <!-- Lockscreen weather -->
   <string name="lock_screen_weather_settings_title">मौसम</string>
+  <string name="weather_cat_notifications_title">सूचनाएँ</string>
+  <string name="weather_config_title">मौसम सेटिंग्स</string>
+  <string name="weather_icon_pack_title">शर्त चिह्न पैक</string>
   <!-- statusbar brightness control -->
   <!-- CM Lockscreen shortcuts -->
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
@@ -136,13 +205,18 @@
   <!-- Custom carrier label and position -->
   <string name="show_carrier_disabled">अक्षम</string>
   <!-- Battery customizations -->
+  <string name="status_bar_battery_style_text">टेक्स्ट</string>
   <string name="text_charging_symbol_default">अक्षम</string>
   <!-- Recents panel settings -->
   <!-- Recents Membar -->
   <!-- Hide Apps from Recents -->
   <!-- Fingerprint authentication vibration -->
   <!-- XOSP Blur personalizations -->
+  <string name="settings_blur_cat">धुंधला</string>
+  <string name="blur_notifications_cat">सूचनाएँ</string>
+  <string name="blur_qs_cat">त्वरित सेटिंग्स</string>
   <!-- AOKP custom system animations -->
+  <string name="animation_title">एनिमेशन</string>
   <string name="animation_duration_default">डिफ़ाल्ट</string>
   <!-- Toast Animation -->
   <string name="toast_animation_title">टोस्ट एनीमेशन</string>
@@ -190,7 +264,9 @@
   <string name="shortcuts_icon_picker_gallery">गैलरी</string>
   <string name="shortcuts_icon_picker_help">मदद</string>
   <string name="shortcuts_icon_picker_music">संगीत</string>
+  <string name="shortcuts_icon_picker_nav">नेविगेशन</string>
   <string name="shortcuts_icon_picker_play">चलायें</string>
+  <string name="shortcuts_icon_picker_quicksettings">त्वरित सेटिंग्स</string>
   <string name="shortcuts_icon_picker_search">खोज</string>
   <string name="empty_title">खाली</string>
   <string name="normal_title">सामान्य</string>

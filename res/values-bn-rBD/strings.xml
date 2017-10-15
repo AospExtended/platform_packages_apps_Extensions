@@ -20,6 +20,7 @@
   <!-- General app strings -->
   <string name="cancel">বাতিল</string>
   <!-- Extensions categories -->
+  <string name="system_category">সিস্টেম</string>
   <!-- App info dialog -->
   <!-- OmniJaws -->
   <!-- Quick Settings brightness slider -->
@@ -52,6 +53,9 @@
   <!-- Color Picker -->
   <string name="color_default">পূর্ব-নির্ধারিত</string>
   <!-- Navigation Bar -->
+  <string name="picker_activities">ক্রিয়াকলাপ</string>
+  <string name="select_custom_app_title">কাস্টম অ্যাপ্লিকেশন নির্বাচন করুন</string>
+  <string name="select_custom_activity_title">কাস্টম কার্যকলাপ নির্বাচন করুন</string>
   <string name="default_string">পূর্ব-নির্ধারিত</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
@@ -84,10 +88,10 @@
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
   <string name="power_menu_reboot_title">পুনরায় শুরু করুন</string>
-  <string name="power_menu_screenshot_title">স্ক্রীনসর্ট</string>
-  <string name="power_menu_screenrecord_title">স্ক্রীন রেকর্ডার</string>
-  <string name="power_menu_torch_title">ফ্লাসলাইট</string>
-  <string name="power_menu_onthego_title">যান মোড</string>
+  <string name="power_menu_screenshot_title">স্ক্রিনশট</string>
+  <string name="power_menu_screenrecord_title">স্ক্রীন রেকর্ড</string>
+  <string name="power_menu_torch_title">ফ্ল্যাশলাইট</string>
+  <string name="power_menu_onthego_title">চলমান মোড</string>
   <string name="power_menu_search_title">অনুসন্ধান</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
@@ -137,6 +141,7 @@
   <!-- Aosp cards and grid recents -->
   <!-- Slim DSLV -->
   <string name="shortcuts_icon_default">পূর্ব-নির্ধারিত</string>
+  <string name="shortcuts_icon_picker_alarm">এলার্ম</string>
   <string name="shortcuts_icon_picker_search">অনুসন্ধান</string>
   <!-- Lockscreen shortcuts -->
   <!-- SlimSizer  -->

@@ -823,7 +823,7 @@
   <string name="screen_state_toggles_mobile_data_summary">La connexion des données mobiles sera désactivée à l\'extinction de l\'écran</string>
   <string name="screen_state_off_delay_title">Délai des actions à l\'extinction de l\'écran</string>
   <string name="screen_state_off_delay_summary">Nombre de secondes à attendre avant d’effectuer des actions après extinction de l\'écran</string>
-  <string name="screen_state_on_delay_title">délais des actions lorsque l\'écran est allumé</string>
+  <string name="screen_state_on_delay_title">Délai des actions à l\'allumage de l\'écran</string>
   <string name="screen_state_on_delay_summary">Nombre de secondes à attendre avant d\'effectuer des actions une fois l\'écran allumé</string>
   <string name="qs_tile_title_visibility_title">Activer l\'affichage des noms sous les tuiles</string>
   <string name="qs_tile_title_visibility_summary_on">Les noms des tuiles de réglages rapides sont maintenant visibles</string>
@@ -919,7 +919,7 @@
   <string name="shortcut_action_help_icon">, en sélectionnant l\'icône des options de personnalisation s\'afficheront</string>
   <string name="shortcut_action_help_main">Pour ajouter un %1$s, sélectionner l\'icône \"ajouter\". Une fois le %1$s ajouté, sélectionner la ligne changera la cible%2$s\n\nPour supprimer un %1$s, glisser le doigt sur la ligne vers la gauche ou la droite. Déplacer un %1$s dans la liste en déplaçant verticalement l\'ancre à gauche.\n\nPour tout effacer ou revenir aux valeurs par défaut, utiliser l\'option \"réinitialiser\".</string>
   <string name="shortcut_action_help_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la fonctionnalité</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire Pie.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu Pie.</string>
   <string name="shortcuts_applications">Applications</string>
   <string name="shortcuts_select_custom_app_title">Sélectionner une application personnalisée</string>
   <string name="shortcuts_icon_picker_type">Sélectionnez le type d\'icône :</string>
@@ -1034,7 +1034,7 @@
   <string name="shortcut_action_help_icon">, en sélectionnant l\'icône des options de personnalisation s\'afficheront</string>
   <string name="shortcut_action_help_main">Pour ajouter un %1$s, sélectionner l\'icône \"ajouter\". Une fois le %1$s ajouté, sélectionner la ligne changera la cible%2$s\n\nPour supprimer un %1$s, glisser le doigt sur la ligne vers la gauche ou la droite. Déplacer un %1$s dans la liste en déplaçant verticalement l\'ancre à gauche.\n\nPour tout effacer ou revenir aux valeurs par défaut, utiliser l\'option \"réinitialiser\".</string>
   <string name="shortcut_action_help_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la fonctionnalité</string>
-  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu circulaire Pie.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Supprimer tous les %1$s dans la liste désactivera complètement la seconde couche du menu Pie.</string>
   <!-- SlimSizer  -->
   <string name="caution">Attention!</string>
   <string name="sizer_message_startup">Cet outil va vous permettre de supprimer des applications système. Utiliser ceci avec prudence et supprimer seulement des applications que vous connaissez.</string>
@@ -1068,9 +1068,9 @@
   <string name="notification_guts_kill_app_button_title">Bouton tueur de tâches</string>
   <string name="notification_guts_kill_app_button_summary">Afficher un bouton tueur de tâches dans le menu des notifications</string>
   <!-- Pie -->
-  <string name="pie_enable_title">Activer le menu semi-circulaire Pie</string>
-  <string name="pie_settings">Réglages du menu semi-circulaire Pie</string>
-  <string name="pie_settings_summary">Ajuster le menu semi-circulaire Pie comme vous le désirez</string>
+  <string name="pie_enable_title">Activer le menu Pie</string>
+  <string name="pie_settings">Réglages du menu Pie</string>
+  <string name="pie_settings_summary">Ajuster le menu Pie comme vous le désirez</string>
   <string name="pie_theme_mode_title">Thème</string>
   <string name="pie_auto">Automatique</string>
   <string name="pie_white">Blanc</string>
@@ -1084,8 +1084,8 @@
   <string name="pie_status_mobile">Réseau mobile</string>
   <string name="pie_status_none">Aucun(e)</string>
   <string name="pie_status_both">Les deux</string>
-  <string name="pa_pie_gravity_title">Menu semi-circulaire Pie</string>
-  <string name="pa_pie_gravity_summary">Choisir l\'emplacement du menu semi-circulaire Pie</string>
+  <string name="pa_pie_gravity_title">Menu Pie</string>
+  <string name="pa_pie_gravity_summary">Choisir l\'emplacement du menu Pie</string>
   <string name="pa_pie_gravity_bottom">En bas</string>
   <string name="pa_pie_gravity_right">Droite</string>
   <string name="pa_pie_gravity_left">Gauche</string>

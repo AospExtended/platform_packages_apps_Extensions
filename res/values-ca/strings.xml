@@ -21,6 +21,7 @@
   <string name="music_category">Música</string>
   <string name="dlg_ok">Acceptar</string>
   <!-- Extensions categories -->
+  <string name="system_category">Sistema</string>
   <!-- App info dialog -->
   <!-- OmniJaws -->
   <!-- Quick Settings brightness slider -->
@@ -57,6 +58,9 @@
   <!-- Navigation Bar -->
   <string name="navigationbar_settings_title">Barra de navegació</string>
   <string name="smartbar_interface">Barra intel·ligent</string>
+  <string name="picker_activities">Activitats</string>
+  <string name="select_custom_app_title">Seleccioneu una aplicació personalitzada</string>
+  <string name="select_custom_activity_title">Selecciona una activitat personalitzada</string>
   <string name="default_string">Per defecte</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Trieu una acció</string>
@@ -76,6 +80,7 @@
   <!-- lock screen visualizer -->
   <!-- Lockscreen clock fonts -->
   <!-- Lockscreen weather -->
+  <string name="lock_screen_weather_settings_title">Temps</string>
   <!-- statusbar brightness control -->
   <!-- CM Lockscreen shortcuts -->
   <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
@@ -94,8 +99,11 @@
   <!-- Heads up snooze -->
   <!-- Power menu customization -->
   <string name="power_menu_reboot_title">Començar Joc</string>
+  <string name="power_menu_screenshot_title">Captura de pantalla</string>
+  <string name="power_menu_screenrecord_title">Enregistrament de pantalla</string>
   <string name="power_menu_torch_title">Llanterna</string>
   <string name="power_menu_onthego_title">Mode On-The-Go</string>
+  <string name="power_menu_search_title">Cerca</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Volume Key Rotation -->
   <!-- Volume rocker wake -->
@@ -149,8 +157,10 @@
   <!-- Slim DSLV -->
   <string name="shortcut_action_none">Cap</string>
   <string name="shortcuts_icon_default">Per defecte</string>
+  <string name="shortcuts_icon_picker_alarm">Alarma</string>
   <string name="shortcuts_icon_picker_music">Música</string>
   <string name="shortcuts_icon_picker_play">Reproduir</string>
+  <string name="shortcuts_icon_picker_search">Cerca</string>
   <string name="normal_title">Normal</string>
   <!-- Lockscreen shortcuts -->
   <string name="shortcut_action_none">Cap</string>

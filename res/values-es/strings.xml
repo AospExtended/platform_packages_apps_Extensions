@@ -552,6 +552,7 @@
   <string name="volume_keys_control_media_stream_summary">Las teclas de volumen controlan el flujo de medios</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Información de la batería en pantalla de bloqueo</string>
+  <string name="lockscreen_battery_info_summary">Mostrar la corriente, voltaje y temperatura de la batería en la pantalla de bloq. mientras se carga</string>
   <!-- Hardware button navigation -->
   <string name="hardware_keys_volume_keys_title">Despertar con botones de volúmen</string>
   <string name="hardware_keys_home_key_title">Botón de inicio</string>
@@ -1064,10 +1065,34 @@
   <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
   <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Botón de matar app</string>
+  <string name="notification_guts_kill_app_button_summary">Mostrar un botón de matar apps en el menu de pulsación larga de notificaciones</string>
   <!-- Pie -->
+  <string name="pie_enable_title">Controles en forma de torta</string>
+  <string name="pie_settings">Configs de Torta</string>
+  <string name="pie_settings_summary">Ajusta la torta a tu gusto</string>
+  <string name="pie_theme_mode_title">Tema</string>
+  <string name="pie_auto">Automático</string>
+  <string name="pie_white">Blanco</string>
+  <string name="pie_dark">Oscuro</string>
+  <string name="pie_battery_title">Indicador de batería</string>
+  <string name="pie_battery_text">Sólo texto</string>
+  <string name="pie_battery_circle">Sólo el círculo</string>
+  <string name="pie_battery_both">Ambos</string>
+  <string name="pie_status_indicator">Indicador de red</string>
+  <string name="pie_status_wifi">Sólo Wi-Fi</string>
+  <string name="pie_status_mobile">Solo red móvil</string>
   <string name="pie_status_none">Ninguno</string>
+  <string name="pie_status_both">Ambos</string>
+  <string name="pa_pie_gravity_title">Gravedad de la torta</string>
+  <string name="pa_pie_gravity_summary">Elige la ubicación de la torta</string>
+  <string name="pa_pie_gravity_bottom">Abajo</string>
   <string name="pa_pie_gravity_right">Derecha</string>
   <string name="pa_pie_gravity_left">Izquierda</string>
   <!-- ANBI -->
+  <string name="anbi_title">Toque por accidente</string>
+  <string name="anbi_summary">Previene la interacción con los botones de navegación mientras se está tocando la pantalla</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Bloquear sensor por aplicación</string>
+  <string name="sensor_block_summary">Bloquea el acceso a ciertos sensores para ciertas apps para ahorrar batería.</string>
 </resources>

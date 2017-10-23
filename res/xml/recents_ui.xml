@@ -20,6 +20,11 @@
         android:key="recents_ui_aosp_recents_category"
         android:title="@string/aosp_recents_category">
 
+    <Preference
+        android:key="recents_icon_pack"
+        android:title="@string/recents_icon_pack_title"
+        android:summary="@string/recents_icon_pack_summary" />
+
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
          android:key="systemui_recents_mem_display"
          android:title="@string/recents_show_membar_title"

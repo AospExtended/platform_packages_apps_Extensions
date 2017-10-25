@@ -213,6 +213,19 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="extras_category"
+        android:title="@string/extras_title" >
+        <Preference
+            android:key="additional_buttons"
+            android:persistent="false"
+            android:summary="@string/extras_summary"
+            android:title="@string/additional_buttons_title" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.lineageos.settings.device"
+                    android:targetClass="org.lineageos.settings.device.ButtonSettingsActivity" />
+       </Preference>
+    </PreferenceCategory>
 
    <PreferenceCategory
         android:key="volume_category"

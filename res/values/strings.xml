@@ -17,7 +17,7 @@
  -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
+
     <!-- General app strings -->
     <string name="extensions_title">Extensions</string>
     <string name="add">Add</string>
@@ -222,7 +222,7 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
-    
+
      <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
@@ -631,5 +631,8 @@
     <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
     <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
 
-</resources>
+    <!-- Device-specific additional button settings -->
+    <string name="extras_title">Extras</string>
+    <string name="additional_buttons_title">Additional buttons</string>
 
+</resources>

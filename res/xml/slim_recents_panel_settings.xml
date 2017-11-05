@@ -28,7 +28,7 @@
             android:entries="@array/recent_panel_expanded_mode_entries"
             android:entryValues="@array/recent_panel_expanded_mode_values"
             android:title="@string/recent_panel_expanded_mode_title"
-            android:summary="@string/recent_panel_expanded_mode_summary" />
+            android:summary="%s" />
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="recent_panel_lefty_mode"

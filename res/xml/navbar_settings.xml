@@ -16,9 +16,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/navigationbar_settings_title">
 
+    <SwitchPreference
+        android:key="navigation_bar_enabled"
+        android:title="@string/navigation_bar_enabled_title" />
+
     <PreferenceCategory
         android:key="navbar_settings_general_category"
-        android:title="@string/general_category">
+        android:title="@string/general_category"
+        android:dependency="navigation_bar_enabled">
 
     <Preference
             android:title="@string/navbar_tuner_title" >
@@ -38,6 +43,7 @@
         android:key="double_tap_sleep_navbar"
         android:title="@string/double_tap_sleep_navbar"
         android:summary="@string/double_tap_sleep_navbar_summary"
+        android:dependency="navigation_bar_enabled"
         android:defaultValue="true" />
 
     </PreferenceCategory>

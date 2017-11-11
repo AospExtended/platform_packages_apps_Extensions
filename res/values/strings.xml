@@ -359,4 +359,7 @@
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
 
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
+
 </resources>

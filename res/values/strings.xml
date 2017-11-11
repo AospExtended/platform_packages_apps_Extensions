@@ -186,9 +186,6 @@
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar Tuner</string>
-
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen Tuner</string>
     <string name="hide_lockscreen_items_title">Lockscreen items</string>
@@ -197,9 +194,6 @@
     <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
 
-    <!-- Double Tap -->
-    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
-    <string name="double_tap_sleep_navbar_summary">Double tap on navbar to put the device to sleep</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
@@ -359,8 +353,5 @@
     <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
-
-    <!-- Toggle navigation bar -->
-    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
 
 </resources>

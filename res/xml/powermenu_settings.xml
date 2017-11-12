@@ -41,6 +41,11 @@
             android:title="@string/powermenu_screenshot"
             android:defaultValue="false" />
 
+         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+           android:key="powermenu_screenrecord"
+           android:title="@string/powermenu_screenrecord"
+           android:defaultValue="false" />
+
          <SwitchPreference
             android:key="powermenu_torch"
             android:title="@string/powermenu_torch"

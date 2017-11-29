@@ -29,6 +29,7 @@
     <string name="music_category">Music</string>
     <string name="security_category">Security</string>
     <string name="hardware_category">Hardware</string>
+    <string name="icons_category">Icons</string>
     <string name="aosp_recents_category">AOSP recents</string>
     <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
@@ -530,5 +531,9 @@
     <string name="smartbar_custom_icon_size_title">Custom icon scaling</string>
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 
 </resources>

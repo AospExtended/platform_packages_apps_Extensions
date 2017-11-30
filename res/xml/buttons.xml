@@ -27,6 +27,12 @@
 	     android:fragment="org.aospextended.extensions.PowerMenuSettings" />
     </PreferenceCategory>
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="button_backlight_on_touch_only"
+        android:title="@string/button_backlight_on_touch_only_title"
+        android:summary="@string/button_backlight_on_touch_only_summary"
+        android:defaultValue="false" />
+
    <PreferenceCategory
         android:key="volume_category"
         android:title="@string/volume_category">

@@ -25,6 +25,8 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.PowerManager;
+import android.os.ServiceManager;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
@@ -49,6 +51,7 @@ import com.android.settings.Utils;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 import org.aospextended.extensions.preference.ActionFragment;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
@@ -62,7 +65,11 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
     private static final String CATEGORY_VOLUME = "volume_keys";
     private static final String CATEGORY_POWER = "power_key";
-     // Masks for checking presence of hardware keys.
+    private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
+    private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
+    private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
+
+    // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
     public static final int KEY_MASK_HOME = 0x01;
     public static final int KEY_MASK_BACK = 0x02;
@@ -74,6 +81,10 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
     private SwitchPreference mHwKeyDisable;
 
+    private CustomSeekBarPreference mButtonTimoutBar;
+    private CustomSeekBarPreference mManualButtonBrightness;
+    private PreferenceCategory mButtonBackLightCategory;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +93,33 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getContentResolver();
+
+        mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
+                KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
+        final int customButtonBrightness = getResources().getInteger(
+                com.android.internal.R.integer.config_button_brightness_default);
+        final int currentBrightness = Settings.System.getInt(resolver,
+                Settings.System.CUSTOM_BUTTON_BRIGHTNESS, customButtonBrightness);
+        PowerManager pm = (PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
+        mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
+        mManualButtonBrightness.setValue(currentBrightness);
+        mManualButtonBrightness.setOnPreferenceChangeListener(this);
+
+        mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
+        int currentTimeout = Settings.System.getInt(resolver,
+                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
+        mButtonTimoutBar.setValue(currentTimeout);
+        mButtonTimoutBar.setOnPreferenceChangeListener(this);
+
+        final boolean enableBacklightOptions = getResources().getBoolean(
+                com.android.internal.R.bool.config_button_brightness_support);
+
+        mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
+
+        if (!enableBacklightOptions) {
+            prefScreen.removePreference(mButtonBackLightCategory);
+        }
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
@@ -169,8 +207,17 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
-            return true;
+        } else if (preference == mButtonTimoutBar) {
+            int buttonTimeout = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, buttonTimeout);
+        } else if (preference == mManualButtonBrightness) {
+            int buttonBrightness = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else {
+            return false;
         }
-        return false;
+        return true;
     }
 }

@@ -437,4 +437,8 @@
     <string name="brightness_side_buttons_title">Brightness control buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
 
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
 </resources>

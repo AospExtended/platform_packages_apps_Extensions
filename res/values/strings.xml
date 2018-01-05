@@ -164,7 +164,7 @@
 
     <!-- Brightness icon-->
     <string name="brightness_icon_title">Brightness icon </string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the right of the brightness slider to adjust auto-brightness</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
@@ -535,7 +535,7 @@
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead of LTE</string>
 
     <string name="button_backlight_on_touch_only_title">Button touch</string>
     <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>

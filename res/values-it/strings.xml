@@ -208,7 +208,10 @@
   <string name="qs_rows_portrait_title">Righe dei tiles in verticale</string>
   <string name="qs_rows_landscape_title">Righe dei tiles in orizzontale</string>
   <string name="qs_columns_portrait_title">Colonne dei tiles in verticale</string>
+  <string name="qs_columns_landscape_title">Colonne dei tiles in orizzontale</string>
+  <string name="qs_tile_title_visibility_title">Mostra i titoli dei tiles</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Avvia l\'app musicale quando vengono collegate le cuffie</string>
   <!-- Headset ringtone audio focus -->
   <!-- Heads up -->
   <!-- Heads up timeout -->

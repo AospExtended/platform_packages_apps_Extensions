@@ -18,21 +18,71 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">扩展</string>
+  <string name="add">添加</string>
+  <string name="advanced">高级</string>
+  <string name="cancel">取消</string>
+  <string name="choose_app">选择应用程序</string>
+  <string name="general_category">一般</string>
+  <string name="gestures_category">手势</string>
+  <string name="music_category">音乐</string>
+  <string name="security_category">安全</string>
+  <string name="hardware_category">硬件</string>
+  <string name="icons_category">图标</string>
+  <string name="aosp_recents_category">AOSP 最近任务</string>
+  <string name="light_category">指示灯</string>
+  <string name="dlg_ok">确定</string>
+  <string name="attention">注意</string>
+  <string name="loading">正在加载\u2026</string>
+  <string name="reset">重置</string>
+  <string name="reset_colors">重置颜色</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">文本</string>
+  <string name="icon_title">图标</string>
+  <string name="color_title">颜色</string>
+  <string name="colors_title">颜色</string>
   <!-- Extensions categories -->
+  <string name="recents_category">最近任务</string>
+  <string name="status_bar_category">状态栏</string>
+  <string name="notifications_panel_category">通知面板</string>
+  <string name="system_category">系统</string>
+  <string name="lockscreen_category">锁屏</string>
+  <string name="navigation_category">导航</string>
+  <string name="build_tweaks_summary_title">扩展您的设备!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">一般设置</string>
   <!-- Network traffic -->
+  <string name="traffic_title">网速指示器</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">杂项扩展</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">最近任务界面</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">锁屏界面</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">状态栏项目</string>
   <!-- Notifications -->
+  <string name="notifications_title">通知</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">导航栏</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">快速设置</string>
   <!-- Buttons -->
+  <string name="buttons_title">按键</string>
   <!-- App Ops -->
+  <string name="app_ops_category">权限管理</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">帮助我们也是帮助您！</string>
+  <string name="extensions_dialog_message">如您发现这些设置有任何错误，请在我们的 Google+ 主页”错误报告“专栏发贴说明。 错误报告必须包含下列内容：\n\n1. logcat或last_kmsg\n2. 所用内核及mod版本\n3. 有用信息\n\n若您不能正确报告错误，问题将不会得到修复。</string>
+  <string name="extensions_dialog_toast">阅读全部内容！</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">取色器</string>
+  <string name="press_color_to_apply">按选以下颜色以应用</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex：</string>
+  <string name="hex_hint">#ff000000</string>
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
@@ -42,7 +92,21 @@
   <!-- Power menu on secure lockscreen -->
   <!-- Brightness icon-->
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">快速下拉</string>
+  <string name="quick_pulldown_summary">沿状态栏的 %1$s 边缘下拉开启快速设置面板</string>
+  <string name="quick_pulldown_summary_always">状态栏下拉时始终显示快速设置</string>
+  <string name="quick_pulldown_off">关闭</string>
+  <string name="quick_pulldown_left">左</string>
+  <string name="quick_pulldown_right">右</string>
+  <string name="quick_pulldown_always">始终</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">智能下拉</string>
+  <string name="smart_pulldown_summary">当有%1$s条通知时打开快速设置</string>
+  <string name="smart_pulldown_none_summary">没有通知时打开快速设置面板</string>
+  <string name="smart_pulldown_off">关闭</string>
+  <string name="smart_pulldown_none">没有通知时</string>
+  <string name="smart_pulldown_dismissable">没有可清除通知时</string>
+  <string name="smart_pulldown_ongoing">没有正在进行的通知时</string>
   <!-- Lockscreen icons -->
   <!-- Force expanded notifications -->
   <!-- Double Tap Lockscreen to Sleep -->

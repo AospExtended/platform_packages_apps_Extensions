@@ -79,6 +79,8 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selector de color</string>
   <string name="press_color_to_apply">Pulsa sobre el color debajo para aplicar</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Aplicar</string>
@@ -88,6 +90,7 @@
   <string name="battery_light_enable">Luz de batería</string>
   <string name="battery_light_allow_on_dnd_title">Luz de batería en modo No Molestar</string>
   <string name="battery_light_low_blinking_title">Luz intermitente con batería baja</string>
+  <string name="battery_light_cat">Color de la luz de la batería cuando está cargando</string>
   <string name="battery_light_low_color">Batería baja</string>
   <string name="battery_light_medium_color">Batería a la mitad</string>
   <string name="battery_light_full_color">Batería casi cargada</string>
@@ -95,16 +98,65 @@
   <!-- Network traffic -->
   <string name="network_traffic_title">Tráfico de red</string>
   <string name="network_traffic_type">Seleccionar el tipo de actividad de red</string>
+  <string name="show_network_traffic_up">Subida</string>
+  <string name="show_network_traffic_down">Bajada</string>
+  <string name="show_network_traffic_all">Subida y bajada</string>
   <string name="network_traffic_state_title">Mostrar actividad de la red en la barra de estado</string>
   <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Botón de borrar todo</string>
+  <string name="show_clear_all_recents_button_summary">Mostrar el botón de borrar todo</string>
+  <string name="recents_clear_all_location_title">Posición del botón de borrar todo</string>
+  <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
+  <string name="recents_clear_all_location_top_left">Arriba a la Izquierda</string>
+  <string name="recents_clear_all_location_top_center">Arriba en el centro</string>
+  <string name="recents_clear_all_location_bottom_right">Abajo a la derecha</string>
+  <string name="recents_clear_all_location_bottom_left">Abajo a la izquierda</string>
+  <string name="recents_clear_all_location_bottom_center">Abajo en el centro</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Controles de importancia de las notificaciones</string>
+  <string name="power_notification_controls_summary">Seleccionar el nivel de importancia de las notificaciones</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">Barra de brillo</string>
+  <string name="qs_brightness_slider_summary">Mostrar la barra de brillo en el panel de ajustes rápidos</string>
   <!-- Power Menu -->
+  <string name="power_menu_title">Menú de apagado</string>
+  <string name="power_menu_title_summary">Ver o cambiar las opciones del menú de apagado</string>
+  <string name="powermenu_screenshot">Capturar pantalla</string>
+  <string name="powermenu_screenrecord">Grabar pantalla</string>
+  <string name="powermenu_power">Apagar</string>
+  <string name="powermenu_restart">Reiniciar</string>
+  <string name="powermenu_restart_recovery">Reinicio avanzado</string>
+  <string name="powermenu_airplane">Modo avión</string>
+  <string name="powermenu_settings">Ajustes</string>
+  <string name="powermenu_lockdown">Bloquear</string>
+  <string name="powermenu_soundpanel">Panel de sonido</string>
+  <string name="powermenu_users">Usuarios</string>
+  <string name="powermenu_torch">Linterna</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">Menú de apagado en pantalla de bloqueo</string>
+  <string name="lockscreen_power_menu_disabled_summary">Desactiva el menú de apagado en la pantalla de bloqueo segura</string>
+  <string name="recents_show_membar_title">Barra de memoria</string>
+  <string name="recents_show_membar_summary">Muestra una barra con la memoria disponible</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Icono de brillo </string>
+  <string name="brightness_icon_summary">Muestra un icono a la derecha de la barra de brillo para ajustar el brillo automático</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Despliegue rápido</string>
+  <string name="quick_pulldown_summary">El borde %1$s de la barra de estado despliega los ajustes rápidos</string>
+  <string name="quick_pulldown_summary_always">Siempre mostrar los ajustes rápidos al desplegar la barra de estado</string>
+  <string name="quick_pulldown_off">Desactivado</string>
+  <string name="quick_pulldown_left">Izquierdo</string>
+  <string name="quick_pulldown_right">Derecho</string>
+  <string name="quick_pulldown_always">Siempre</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">Despliegue inteligente</string>
+  <string name="smart_pulldown_summary">Mostrar los ajustes rápidos cuando hay %1$s notificaciones</string>
+  <string name="smart_pulldown_none_summary">Mostrar los ajustes rápidos cuando no hay notificaciones</string>
+  <string name="smart_pulldown_off">Desactivado</string>
+  <string name="smart_pulldown_none">sin notificaciones</string>
+  <string name="smart_pulldown_dismissable">sin notificaciones descartables</string>
+  <string name="smart_pulldown_ongoing">sin notificaciones en curso</string>
   <!-- Lockscreen icons -->
   <!-- Force expanded notifications -->
   <!-- Double Tap Lockscreen to Sleep -->
@@ -123,16 +175,116 @@
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
   <!-- Heads up -->
+  <string name="summary_heads_up_enabled">Las notificaciones emergentes están activadas</string>
+  <string name="summary_heads_up_disabled">Las notificaciones emergentes están desactivadas</string>
+  <string name="add_heads_up_package">Añadir aplicación</string>
+  <string name="add_heads_up_stoplist_summary">Desactiva las notificaciones emergentes de estas aplicaciones</string>
+  <string name="add_heads_up_blacklist_summary">Desactiva las notificaciones emergentes de estas aplicaciones</string>
+  <string name="heads_up_stoplist_title">Lista de bloqueados</string>
+  <string name="heads_up_blacklist_title">Lista negra</string>
+  <string name="profile_choose_app">Elegir aplicación</string>
+  <string name="dialog_delete_title">Eliminar</string>
+  <string name="dialog_delete_message">¿Eliminar el elemento seleccionado?</string>
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Tiempo de espera</string>
+  <string name="heads_up_time_out_summary">La notificación se mostrará durante <xliff:g id="number">%d </xliff:g> segundos</string>
+  <string name="heads_up_time_out_2sec">2 segundos</string>
+  <string name="heads_up_time_out_4sec">4 segundos</string>
+  <string name="heads_up_time_out_5sec">5 segundos</string>
+  <string name="heads_up_time_out_6sec">6 segundos</string>
+  <string name="heads_up_time_out_8sec">8 segundos</string>
+  <string name="heads_up_time_out_10sec">10 segundos</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Temporizador de reposo</string>
+  <string name="heads_up_snooze_summary_one_minute">Descartar notificaciones emergentes las desactivará por 1 minuto</string>
+  <string name="heads_up_snooze_summary">Descartar notificaciones emergentes las desactivará por <xliff:g id="number">%d</xliff:g> minutos</string>
+  <string name="heads_up_snooze_disabled_summary">Temporizador de reposo desactivado</string>
+  <string name="heads_up_snooze_1min">1 minuto</string>
+  <string name="heads_up_snooze_5min">5 minutos</string>
+  <string name="heads_up_snooze_10min">10 minutos</string>
+  <string name="heads_up_snooze_15min">15 minutos</string>
+  <string name="heads_up_snooze_20min">20 minutos</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opciones de vibración en llamada</string>
+  <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+  <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+  <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Desactivar notificaciones de cierre forzado</string>
+  <string name="disable_fc_notifications_summary">Esto ocultará todas las notificaciones de cierre forzado</string>
   <!-- Statusbar ticker -->
+  <string name="ticker_screen_title">Texto de notificación</string>
+  <string name="ticker_mode_title">Texto de notificación en la barra de estado</string>
+  <string name="ticker_disabled">Desactivado</string>
+  <string name="ticker_enabled">Notificaciones</string>
+  <string name="ticker_media_enabled">Notificaciones y música</string>
+  <string name="recents_icon_pack_title">Paquete de iconos</string>
+  <string name="recents_icon_pack_summary">Aplicar un paquete de iconos en aplicaciones recientes</string>
+  <string name="no_iconpacks_summary">No hay paquetes de iconos instalados</string>
+  <string name="dialog_pick_iconpack_title">Elegir paquete de iconos</string>
+  <string name="default_iconpack_title">Iconos por defecto</string>
   <!-- Slim Recents panel -->
+  <string name="slim_recents_title">Recientes Slim</string>
+  <string name="use_slim_recents_title">Usar panel de recientes alternativo</string>
+  <string name="use_slim_recents_summary">Usar recientes Slim en lugar de la vista predeterminada de recientes</string>
+  <string name="slim_recents_settings_title">Ajustes de Recientes Slim</string>
+  <string name="slim_recents_settings_summary">Ver los ajustes de Recientes Slim</string>
+  <string name="recents_max_apps_title">Numero máximo de aplicaciones permitidas</string>
+  <string name="recent_panel_scale_title">Tamaño</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- DUI -->
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
+  <string name="fling_def_summary">Ninguna acción seleccionada</string>
+  <string name="fling_swipe_actions">Gestos de deslizamiento</string>
+  <string name="fling_tap_actions">Gestos de toque</string>
+  <string name="fling_short_swipe_right">Deslizamiento corto a la derecha</string>
+  <string name="fling_short_swipe_left">Deslizamiento corto a la izquierda</string>
+  <string name="fling_long_swipe_right">Deslizamiento largo a la derecha</string>
+  <string name="fling_long_swipe_left">Deslizamiento largo a la izquierda</string>
+  <string name="fling_right_up_swipe">Deslizamiento a la derecha y arriba</string>
+  <string name="fling_left_up_swipe">Deslizamiento a la izquierda y arriba</string>
+  <string name="fling_single_tap">Un toque en la derecha</string>
+  <string name="fling_double_tap">Doble toque en la derecha</string>
+  <string name="fling_long_press">Pulsación larga en la derecha</string>
+  <string name="fling_single_left_tap">Un toque en la izquierda</string>
+  <string name="fling_double_left_tap">Doble toque en la izquierda</string>
+  <string name="fling_long_left_press">Pulsación larga en la izquierda</string>
+  <string name="long_swipe_portrait_title">Vertical</string>
+  <string name="long_swipe_landscape_title">Horizontal</string>
+  <string name="portrait_right_swipe_title">Deslizar a la derecha en vertical</string>
+  <string name="portrait_left_swipe_title">Deslizar a la izquierda en vertical</string>
+  <string name="landscape_right_swipe_title">Deslizar a la derecha en horizontal</string>
+  <string name="landscape_left_swipe_title">Deslizar a la izquierda en horizontal</string>
+  <string name="vertical_up_swipe_title">Deslizar hacia arriba en vertical</string>
+  <string name="vertical_down_swipe_title">Deslizar hacia abajo en vertical</string>
+  <string name="up_swipe_title">Deslizar hacia arriba</string>
+  <string name="down_swipe_title">Deslizar hacia abajo</string>
+  <string name="long_swipe_reset">Restablecer</string>
+  <string name="fling_advanced">Avanzado</string>
+  <string name="fling_long_swipe_title">Umbral de deslizamiento largo</string>
+  <string name="fling_long_swipe_summary">Afinar el umbral de deslizamiento largo basado en un porcentaje de altura o anchura de la interfaz de Fling</string>
+  <string name="fling_trails_enable_title">Habilitar rastros de gesto</string>
+  <string name="fling_trails_enable_summary">Mostrar el rastro de gestos de deslizamiento</string>
+  <string name="fling_trails_color_title">Color de rastro</string>
+  <string name="fling_trails_width_title">Ancho del rastro</string>
+  <string name="fling_appearance">Apariencia</string>
+  <string name="fling_show_logo_title">Mostrar logo de Fling</string>
+  <string name="fling_animate_logo_title">Animar logo</string>
+  <string name="fling_animate_logo_summary">Animación del logo al tocar</string>
+  <string name="fling_logo_color">Color de logo</string>
+  <string name="fling_logo_custom_logo_pick_title">Icono de logo personalizado</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Imagen de logo personalizado</string>
+  <string name="fling_logo_custom_logo_reset_title">Restablecer el icono de logo</string>
+  <string name="fling_show_ripple_title">Mostrar onda</string>
+  <string name="fling_show_ripple_summary">Efecto de onda al tocar</string>
+  <string name="fling_ripple_color">Color de onda</string>
+  <string name="fling_longpress_timeout_label_left">Menos retardo</string>
+  <string name="fling_longpress_timeout_label_right">Más retardo</string>
+  <string name="fling_longpress_title">Retardo de pulsación larga</string>
+  <string name="fling_longpress_summary">Aumentar o disminuir el tiempo que toma realizar una pulsación larga</string>
+  <string name="fling_keyboard_cursors_title">Acción dinámica de los cursores del teclado</string>
+  <string name="fling_keyboard_cursors_summary">Las acciones de doble toque a la izquierda y derecha se convierten en acciones de cursor izquierda y derecha del teclado si el teclado está abierto</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->

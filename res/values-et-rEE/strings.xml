@@ -18,7 +18,32 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Lisad</string>
+  <string name="add">Lisa</string>
+  <string name="advanced">Lisavalikud</string>
+  <string name="cancel">Tühista</string>
+  <string name="choose_app">Vali rakendus</string>
+  <string name="general_category">Üldine</string>
+  <string name="gestures_category">Viiped</string>
+  <string name="music_category">Muusika</string>
+  <string name="security_category">Turvalisus</string>
+  <string name="hardware_category">Riistvara</string>
+  <string name="icons_category">Ikoonid</string>
+  <string name="light_category">Valgustus</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Tähelepanu</string>
+  <string name="loading">Laadimine\u2026</string>
+  <string name="reset">Lähtesta</string>
+  <string name="reset_colors">Taasta värvide vaikesätted</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Tekst</string>
+  <string name="color_title">Värv</string>
+  <string name="colors_title">Värvid</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Hiljutised</string>
+  <string name="system_category">Süsteem</string>
+  <string name="lockscreen_category">Lukustusekraan</string>
+  <string name="navigation_category">Navigeerimine</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
@@ -30,12 +55,22 @@
   <!-- Navigation -->
   <!-- Quick Settings -->
   <!-- Buttons -->
+  <string name="buttons_title">Nupud</string>
   <!-- App Ops -->
   <!-- App info dialog -->
+  <string name="extensions_dialog_toast">LOE KÕIK LÄBI!</string>
   <!-- Color Picker -->
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex_hint">#ff000000</string>
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
+  <string name="recents_clear_all_location_top_left">Üleval vasakul</string>
+  <string name="recents_clear_all_location_top_center">Üleval keskel</string>
+  <string name="recents_clear_all_location_bottom_right">All paremal</string>
+  <string name="recents_clear_all_location_bottom_left">All vasakul</string>
+  <string name="recents_clear_all_location_bottom_center">All keskel</string>
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->

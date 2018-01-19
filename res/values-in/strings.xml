@@ -18,7 +18,32 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="general_category">Umum</string>
+  <string name="gestures_category">Gerakan</string>
+  <string name="music_category">Musik</string>
+  <string name="security_category">Keamanan</string>
+  <string name="hardware_category">Perangkat keras</string>
+  <string name="icons_category">Ikon</string>
+  <string name="aosp_recents_category">Tampilan Terkini AOSP</string>
+  <string name="light_category">Lampu</string>
+  <string name="dlg_ok">Oke</string>
+  <string name="attention">Perhatian</string>
+  <string name="loading">Memuat\u2026</string>
+  <string name="reset">Atur Ulang</string>
+  <string name="reset_colors">Atur ulang warna</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Teks</string>
+  <string name="icon_title">Ikon</string>
+  <string name="color_title">Warna</string>
+  <string name="colors_title">Warna</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Terkini</string>
+  <string name="status_bar_category">Statusbar</string>
+  <string name="notifications_panel_category">Panel Notifikasi</string>
+  <string name="system_category">Sistem</string>
+  <string name="lockscreen_category">Layar Kunci</string>
+  <string name="navigation_category">Navigasi</string>
+  <string name="build_tweaks_summary_title">Oprek perangkat anda!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->

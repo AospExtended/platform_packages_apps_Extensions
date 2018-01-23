@@ -16,7 +16,9 @@
 
 package org.aospextended.extensions.fragments;
 
+import android.content.Context;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
@@ -30,7 +32,10 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class Battery extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String SMART_PIXELS = "smart_pixels";
+
     private PreferenceCategory mLedsCategory;
+    private PreferenceCategory mBatteryCategory;
     private Preference mChargingLeds;
 
     @Override
@@ -39,8 +44,8 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
 
         addPreferencesFromResource(R.xml.battery);
 
-        final ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         mLedsCategory = (PreferenceCategory) findPreference("light_category");
         mChargingLeds = (Preference) findPreference("battery_charging_light");
@@ -53,6 +58,15 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
             prefSet.removePreference(mLedsCategory);
         }
 
+        mBatteryCategory = (PreferenceCategory) findPreference("battery_category");
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference smartPixels = findPreference(SMART_PIXELS);
+
+        if (!enableSmartPixels){
+            mBatteryCategory.removePreference(smartPixels);
+        }
     }
 
     @Override

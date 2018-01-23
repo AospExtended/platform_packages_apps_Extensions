@@ -16,7 +16,9 @@
 
 package org.aospextended.extensions.fragments;
 
+import android.content.Context;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
@@ -53,7 +55,15 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
             prefSet.removePreference(mLedsCategory);
         }
 
+        Preference mSmartPixels = (Preference) findPreference("smart_pixels");
+        if (!hasSmartPixels(getContext()))
+            getPreferenceScreen().removePreference(mSmartPixels);
+
     }
+
+    private static boolean hasSmartPixels(Context context) {
+    return context.getResources().getBoolean(
+            com.android.internal.R.bool.config_enableSmartPixels);
 
     @Override
     public int getMetricsCategory() {

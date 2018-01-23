@@ -57,6 +57,14 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
+        boolean enableSmartPixels = getActivity().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference SmartPixels = findPreference("smart_pixels");
+
+        if (!enableSmartPixels){
+            prefSet.removePreference(SmartPixels);
+        }
+
     }
 
     @Override

@@ -16,11 +16,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/battery_title">
 
-<!--    <PreferenceCategory
+    <PreferenceCategory
         android:key="battery_category"
         android:title="@string/battery_category">
 
-    </PreferenceCategory> -->
+        <Preference
+            android:key="smart_pixels"
+            android:title="@string/smart_pixels_title"
+            android:summary="@string/smart_pixels_summary"
+            android:fragment="org.aospextended.extensions.fragments.SmartPixels"/>
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="light_category"

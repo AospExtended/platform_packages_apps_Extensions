@@ -16,7 +16,9 @@
 
 package org.aospextended.extensions.fragments;
 
+import android.content.Context;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
@@ -31,6 +33,7 @@ import com.android.settings.SettingsPreferenceFragment;
 public class Battery extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private PreferenceCategory mLedsCategory;
+    private PreferenceCategory mBatteryCategory;
     private Preference mChargingLeds;
 
     @Override
@@ -53,6 +56,15 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
             prefSet.removePreference(mLedsCategory);
         }
 
+        mBatteryCategory = (PreferenceCategory) findPreference("battery_category");
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference smartPixels = findPreference("smart_pixels");
+
+        if (!enableSmartPixels){
+            mBatteryCategory.removePreference(smartPixels);
+        }
     }
 
     @Override

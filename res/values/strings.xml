@@ -579,4 +579,7 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
+    <string name="force_ambient_for_media_title">Show Ambient on new track</string>
+    <string name="force_ambient_for_media_summary">Show an Ambient Display notification when a new track is being played</string>
+
 </resources>

@@ -18,46 +18,167 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Rozszerzenia</string>
+  <string name="add">Dodaj</string>
+  <string name="advanced">Zaawansowane</string>
+  <string name="cancel">Anuluj</string>
+  <string name="choose_app">Wybierz aplikację</string>
+  <string name="general_category">Ogólne</string>
+  <string name="gestures_category">Gesty</string>
+  <string name="music_category">Muzyka</string>
+  <string name="security_category">Zabezpieczenia</string>
+  <string name="hardware_category">Sprzęt</string>
+  <string name="icons_category">Ikony</string>
+  <string name="aosp_recents_category">Ostatnio uruchomione AOSP</string>
+  <string name="light_category">Światła</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Uwaga</string>
+  <string name="loading">Ładowanie\u2026</string>
+  <string name="reset">Resetuj</string>
+  <string name="reset_colors">Resetuj kolory</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Tekst</string>
+  <string name="icon_title">Ikona</string>
+  <string name="color_title">Kolor</string>
+  <string name="colors_title">Kolory</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Ostatnie</string>
+  <string name="status_bar_category">Pasek stanu</string>
+  <string name="notifications_panel_category">Panel powiadomień</string>
+  <string name="system_category">System</string>
+  <string name="lockscreen_category">Ekran blokady</string>
+  <string name="navigation_category">Nawigacja</string>
+  <string name="build_tweaks_summary_title">Rozszerzenie urządzenia!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Ogólne poprawki</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Różne rozszerzenia</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Ostatnie ustawienia interfejsu</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Interfejs ekranu blokady</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Ikony paska stanu</string>
   <!-- Notifications -->
+  <string name="notifications_title">Powiadomienia</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Pasek nawigacji</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Szybkie ustawienia</string>
   <!-- Buttons -->
+  <string name="buttons_title">Przyciski</string>
   <!-- App Ops -->
+  <string name="app_ops_category">Działania aplikacji</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Pomóż nam, pomóż sobie!</string>
+  <string name="extensions_dialog_message">Jeśli znajdziesz błąd w którymkolwiek z tych ustawień, poinformuj o tym w dziale raporty błędów naszej społeczności na Google+. Raport MUSI zawierać następujące dane: \n\n1. Logcat lub last_kmsg\n2. Używany\n3 kernel i zastosowane modyfikacje.\n3. Przydatna informacja\n\nJeśli nie dołączysz odpowiednich danych, nie spodziewaj się pomocy z naszej strony.</string>
+  <string name="extensions_dialog_toast">PRZECZYTAJ CAŁOŚĆ!</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Wybór kolorów</string>
+  <string name="press_color_to_apply">Naciśnij na kolor poniżej, aby zastosować</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Ustaw</string>
+  <string name="color_default">Domyślne</string>
   <!-- Battery light -->
+  <string name="battery_light_settings">Dioda ładowania baterii</string>
+  <string name="battery_light_enable">Dioda baterii</string>
+  <string name="battery_light_allow_on_dnd_title">Dioda LED w trybie \"Nie przeszkadzać\"</string>
+  <string name="battery_light_low_blinking_title">Miganie LED gdy słaba bateria</string>
+  <string name="battery_light_cat">Kolor LED gdy ładuje</string>
+  <string name="battery_light_low_color">Niski poziom baterii</string>
+  <string name="battery_light_medium_color">Średnim poziom baterii</string>
+  <string name="battery_light_full_color">Prawie pełna bateria</string>
+  <string name="battery_light_reallyfull_color">Pełna bateria (100%)</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Ruch sieciowy</string>
   <!-- Recents panel settings -->
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
+  <string name="powermenu_screenshot">Zrzut ekranu</string>
+  <string name="powermenu_screenrecord">Nagrywanie ekranu</string>
+  <string name="powermenu_restart">Uruchom ponownie</string>
+  <string name="powermenu_airplane">Tryb samolotowy</string>
+  <string name="powermenu_settings">Ustawienia</string>
+  <string name="powermenu_lockdown">Zablokuj</string>
+  <string name="powermenu_soundpanel">Panel dźwięku</string>
+  <string name="powermenu_users">Użytkownicy</string>
+  <string name="powermenu_torch">Latarka</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="recents_show_membar_title">Pasek pamięci</string>
+  <string name="recents_show_membar_summary">Pokaz pasek z dostępną pamięcią RAM.</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Ikona jasności</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Szybkie rozwijanie</string>
+  <string name="quick_pulldown_summary">%1$s krawędzi paska statusu rozwija panel szybkich ustawień</string>
+  <string name="quick_pulldown_summary_always">Zawsze pokazuj Szybkie Ustawienia podczas rozwijania paska statusu</string>
+  <string name="quick_pulldown_off">Wył.</string>
+  <string name="quick_pulldown_left">Po lewej</string>
+  <string name="quick_pulldown_right">Po prawej</string>
+  <string name="quick_pulldown_always">Zawsze</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
+  <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
+  <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
+  <string name="smart_pulldown_off">Wył.</string>
+  <string name="smart_pulldown_none">brak powiadomień</string>
+  <string name="smart_pulldown_dismissable">brak usuwalnych</string>
+  <string name="smart_pulldown_ongoing">brak trwałych</string>
   <!-- Lockscreen icons -->
+  <string name="lockscreen_tuner_title">Tuner ekranu blokady</string>
+  <string name="hide_lockscreen_items_title">Elementy ekranu blokady</string>
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">Wymuś rozwijanie powiadomień</string>
+  <string name="force_expanded_notifications_summary">Dostępne dla aplikacji, które obsługują rozwijane powiadomienia</string>
   <!-- Double Tap Lockscreen to Sleep -->
+  <string name="double_tap_to_sleep_lockscreen_title">Dwukrotnie stuknij na ekranie blokady, by uśpić</string>
+  <string name="double_tap_to_sleep_lockscreen_summary">Podwójnie stuknij na trzeciej górnej bądź dolnej strefie skrótów aby uśpić urządzenie</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">Stuknij dwukrotnie aby uśpić (pasek stanu)</string>
+  <string name="double_tap_to_sleep_summary">Podwójnie stuknij na pasek statusu aby uśpić urządzenie</string>
   <!-- Brightness control -->
+  <string name="status_bar_toggle_brightness">Regulacja jasności</string>
+  <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
   <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
+  <string name="lockscreen_battery_info_summary">Wyświetl szacowane maksymalne napięcie oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
   <!-- Media art -->
+  <string name="media_art_title">Okładka albumu</string>
+  <string name="media_art_summary">Włącz okładkę albumu na ekranie blokady</string>
   <!-- Buttons title -->
+  <string name="volume_category">Poziom głośności</string>
+  <string name="power_category">Przycisk zasilania</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Zamień orientacje przycisków głośności</string>
+  <string name="swap_volume_buttons_summary">Dostosuj orientację przycisków głośności do aktualnej orientacji ekranu</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Przyciski głośności regulują głośność multimediów</string>
+  <string name="volume_keys_control_media_stream_summary">Wymuś sterowanie nad mediami za pomocą przycisków głośności</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Sterowanie odtwarzaniem</string>
+  <string name="volume_rocker_music_controls_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
   <!-- Language options - Volume rocker cursor control -->
+  <string name="cursor_section_header">Kursor</string>
+  <string name="volume_key_cursor_control_title">Kontrola kursora przyciskami głośności</string>
+  <string name="volume_key_cursor_control_off">Wyłączone</string>
+  <string name="volume_key_cursor_control_on">Głośność w górę/w dół przesuwa kursor w lewo/prawo</string>
+  <string name="volume_key_cursor_control_on_reverse">Przyciski głośności w górę/dół poruszają kursorem w prawo/lewo</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Wybudź urządzenie przyciskami głośności</string>
+  <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności obudzi urządzenie</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Odbierz przyciskiem głośności</string>
+  <string name="volume_answer_call_summary">Odbierz połączenie naciskając przycisk zmiany głośności</string>
   <!-- QS rows and columns -->
+  <string name="qs_layout_category">Układ płytek w Szybkich Skrótach</string>
+  <string name="qs_rows_columns_title">Kolumny i wiersze Szybkich ustawień</string>
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
   <!-- Heads up -->

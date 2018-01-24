@@ -18,30 +18,124 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Разширения</string>
+  <string name="add">Добави</string>
+  <string name="advanced">Разширени</string>
+  <string name="cancel">Отказ</string>
+  <string name="choose_app">Изберете приложение</string>
+  <string name="general_category">Общи</string>
+  <string name="gestures_category">Жестове</string>
+  <string name="music_category">Музика</string>
+  <string name="security_category">Сигурност</string>
+  <string name="hardware_category">Хардуер</string>
+  <string name="icons_category">Икони</string>
+  <string name="aosp_recents_category">AOSP Последни</string>
+  <string name="light_category">Светлини</string>
+  <string name="dlg_ok">Да</string>
+  <string name="attention">Внимание</string>
+  <string name="loading">Зареждане\u2026</string>
+  <string name="reset">Нулиране</string>
+  <string name="reset_colors">Нулиране на цветовете</string>
+  <string name="reset_android">Андроид</string>
+  <string name="text_title">Текст</string>
+  <string name="icon_title">Икона</string>
+  <string name="color_title">Цвят</string>
+  <string name="colors_title">Цветове</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Скорошни</string>
+  <string name="status_bar_category">Лентата на състоянието</string>
+  <string name="notifications_panel_category">Панел уведомления</string>
+  <string name="system_category">Система</string>
+  <string name="lockscreen_category">Заключен екран</string>
+  <string name="navigation_category">Навигация</string>
+  <string name="build_tweaks_summary_title">Разшири твоето устройство!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Основни настройки</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Трафик индикатори</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Допълнителни разширения</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Екран Последни приложения</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Заключен екран</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Елементи на лентата на състоянието</string>
   <!-- Notifications -->
+  <string name="notifications_title">Уведомления</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Навигационна лента</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Бързи настройки</string>
   <!-- Buttons -->
+  <string name="buttons_title">Бутони</string>
   <!-- App Ops -->
+  <string name="app_ops_category">Операции на приложенията</string>
   <!-- App info dialog -->
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Избор на цвят</string>
+  <string name="press_color_to_apply">Изберете цвят по-долу, за да го приложите</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="color_default">По подразбиране</string>
   <!-- Battery light -->
+  <string name="battery_light_settings">Светлина за зареждане на батерията</string>
+  <string name="battery_light_enable">Индикации на батерия</string>
+  <string name="battery_light_allow_on_dnd_title">Индикации в режим \"Не безпокойте\"</string>
+  <string name="battery_light_low_blinking_title">Мигаща светлина при изтощена батерия</string>
+  <string name="battery_light_low_color">Изтощена батерия</string>
+  <string name="battery_light_full_color">Почти пълна батерия</string>
+  <string name="battery_light_reallyfull_color">Пълен размер (100) батерия</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Мрежов трафик</string>
+  <string name="network_traffic_type">Избор на интернет тип дейност</string>
+  <string name="show_network_traffic_up">Изходящ</string>
+  <string name="show_network_traffic_down">Входящ</string>
+  <string name="show_network_traffic_all">Изходящ и Входящ</string>
+  <string name="network_traffic_state_title">Покажи интернет активността в лентата на състоянието</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Изчисти всички</string>
+  <string name="show_clear_all_recents_button_summary">Покажи бутона за изчистване на всички активни приложения</string>
+  <string name="recents_clear_all_location_title">Изчисти всички локации</string>
+  <string name="recents_clear_all_location_top_right">Горе вдясно</string>
+  <string name="recents_clear_all_location_top_left">Горе вляво</string>
+  <string name="recents_clear_all_location_top_center">Горе центрирано</string>
+  <string name="recents_clear_all_location_bottom_right">Долу дясно</string>
+  <string name="recents_clear_all_location_bottom_left">Долу вляво</string>
+  <string name="recents_clear_all_location_bottom_center">Долу центрирано</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Разширени настройки на уведомления</string>
+  <string name="power_notification_controls_summary">Изберете нивото на важност за известия</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">Плъзгач за яркост</string>
+  <string name="qs_brightness_slider_summary">Показвай плъзгача за яркост в панела за бързи настройки</string>
   <!-- Power Menu -->
+  <string name="power_menu_title">Меню мощност</string>
+  <string name="power_menu_title_summary">Преглед или промяна на функциите в захранващото меню</string>
+  <string name="powermenu_screenshot">Екранна снимка</string>
+  <string name="powermenu_screenrecord">Записване на екрана</string>
+  <string name="powermenu_power">Захранване</string>
+  <string name="powermenu_restart">Рестартиране</string>
+  <string name="powermenu_restart_recovery">Рестартиране за напреднали</string>
+  <string name="powermenu_airplane">Самолет</string>
+  <string name="powermenu_settings">Настройки</string>
+  <string name="powermenu_soundpanel">Звуков панел</string>
+  <string name="powermenu_users">Потребители</string>
+  <string name="powermenu_torch">Фенерче</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">Меню мощност при заключен екран</string>
+  <string name="lockscreen_power_menu_disabled_summary">Изключи меню мощност от заключен с парола екран</string>
+  <string name="recents_show_membar_title">Мемори бар</string>
+  <string name="recents_show_membar_summary">Покажи лента с наличната памет на устройството</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Икона на яркостта </string>
+  <string name="brightness_icon_summary">Показване на икона на яркост от ляво на плъзгача за яркост, за да регулирате автоматичната яркост</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Бързи настройки</string>
+  <string name="quick_pulldown_summary">Дръпнете %1$s страна на лентата на състоянието за бързи настройки</string>
   <!-- Smart pulldown-->
   <!-- Lockscreen icons -->
   <!-- Force expanded notifications -->
@@ -57,16 +151,39 @@
   <!-- Language options - Volume rocker cursor control -->
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
+  <string name="volume_answer_call_summary">Отговори на обаждане с натискане на бутон за звука</string>
   <!-- QS rows and columns -->
+  <string name="qs_layout_category">Бързи настройки оформление</string>
+  <string name="qs_rows_columns_title">Бързи настройки - редове и колони</string>
+  <string name="qs_rows_portrait_title">Брой редове във вертикален режим</string>
+  <string name="qs_rows_landscape_title">Брой редове в хоризонтален режим</string>
+  <string name="qs_columns_portrait_title">Брой колони във вертикален режим</string>
+  <string name="qs_columns_landscape_title">Брой колони във хоризонтален режим</string>
+  <string name="qs_tile_title_visibility_title">Покажи заглавие на плочките</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Стартирай музика при включване на слушалки</string>
+  <string name="headset_connect_player_disabled">Деактивирано</string>
+  <string name="headset_connect_player_wired">Включени жични слушалки</string>
+  <string name="headset_connect_player_both">Включени слушалки</string>
   <!-- Headset ringtone audio focus -->
+  <string name="ringtone_focus_mode_title">От къде да се чува позвъняване</string>
+  <string name="ringtone_focus_mode_dynamic">От слушалките ако са свързани и звучи музика</string>
+  <string name="ringtone_focus_mode_stock">"От високоговорителя ( по подразбиране)"</string>
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_1min">1 минута</string>
+  <string name="heads_up_snooze_5min">5 минути</string>
+  <string name="heads_up_snooze_10min">10 минути</string>
+  <string name="heads_up_snooze_15min">15 минути</string>
+  <string name="heads_up_snooze_20min">20 минути</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibrate_connect_title">Вибрация при свързване на повикване</string>
+  <string name="incall_vibrate_call_wait_title">Вибрирай при изчакване на повикването</string>
   <!-- Disabling FC notifications -->
   <!-- Statusbar ticker -->
   <!-- Slim Recents panel -->
+  <string name="recent_panel_expanded_mode_auto">Автоматично (по подразбиране)</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- DUI -->
   <!-- Actions dialog and default task values set in ActionPreference xml-->

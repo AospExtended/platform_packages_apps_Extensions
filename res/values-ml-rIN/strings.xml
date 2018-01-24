@@ -18,6 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">എക്സ്ടെൻഷൻസ്</string>
   <!-- Extensions categories -->
   <!-- Frags -->
   <!-- General Tweaks -->

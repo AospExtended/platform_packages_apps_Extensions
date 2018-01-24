@@ -83,6 +83,7 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#FF000000</string>
+  <string name="set">Setzen</string>
   <string name="color_default">Standard</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Akku-Lade-LED</string>
@@ -123,6 +124,7 @@
   <string name="power_menu_title_summary">Einträge des Ein-/Aus-Menüs anzeigen oder bearbeiten</string>
   <string name="powermenu_screenshot">Bildschirmfoto</string>
   <string name="powermenu_screenrecord">Bildschirmaufnahme</string>
+  <string name="powermenu_power">Power</string>
   <string name="powermenu_restart">Neustart</string>
   <string name="powermenu_restart_recovery">Erweiterter Neustart</string>
   <string name="powermenu_airplane">Flugmodus</string>
@@ -130,8 +132,14 @@
   <string name="powermenu_lockdown">Sperren</string>
   <string name="powermenu_soundpanel">Ton-Einstellungen</string>
   <string name="powermenu_users">Benutzer</string>
+  <string name="powermenu_torch">Taschenlampe</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">Power-Menü bei gesperrtem Bildschirm</string>
+  <string name="lockscreen_power_menu_disabled_summary">Power-Menü auf sicherem Lockscreen deaktiveren</string>
+  <string name="recents_show_membar_title">RAM-Anzeige</string>
+  <string name="recents_show_membar_summary">Anzeige mit dem verfügbaren RAM aktivieren</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Helligkeitssymbol </string>
   <string name="brightness_icon_summary">Zeigt ein Symbol für die Helligkeit auf der linken Seite des Helligkeitsreglers, um die Auto-Helligkeit anzupassen</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Schnelles Aufklappen</string>
@@ -147,6 +155,8 @@
   <string name="smart_pulldown_none_summary">Schnelleinstellungen öffnen, wenn keine Benachrichtigungen vorhanden sind</string>
   <string name="smart_pulldown_off">Aus</string>
   <string name="smart_pulldown_none">keine Benachrichtigungen</string>
+  <string name="smart_pulldown_dismissable">keine enfernbaren</string>
+  <string name="smart_pulldown_ongoing">keine laufenden</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Nur Sperrbildschirm</string>
   <string name="hide_lockscreen_items_title">Sperrbildschirm-Anzeige</string>
@@ -164,24 +174,69 @@
   <string name="status_bar_toggle_brightness_summary">Helligkeit durch wischen über die Statusleiste regeln</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ladeinfo auf Sperrbildschirm</string>
+  <string name="lockscreen_battery_info_summary">Zeige maximale ermittelte Ladespannung/-Strom und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
   <!-- Media art -->
+  <string name="media_art_title">Albumcover</string>
+  <string name="media_art_summary">Albumcover auf dem Sperrbildschirm anzeigen</string>
   <!-- Buttons title -->
+  <string name="volume_category">Lautstärketasten</string>
+  <string name="power_category">Ein-/Aus-Taste</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Lautstärketasten umkehren</string>
+  <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten umkehren, wenn das Gerät gedreht wird</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Lautstärketasten steuern Medienlautstärke</string>
+  <string name="volume_keys_control_media_stream_summary">Lautstärketasten regeln Medienlautstärke strikt</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Musiksteuerung über Lautstärketaste</string>
+  <string name="volume_rocker_music_controls_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
   <!-- Language options - Volume rocker cursor control -->
+  <string name="cursor_section_header">Cursorsteuerung</string>
+  <string name="volume_key_cursor_control_title">Lautstärketasten steuern Cursor</string>
+  <string name="volume_key_cursor_control_off">Deaktiviert</string>
+  <string name="volume_key_cursor_control_on">Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts</string>
+  <string name="volume_key_cursor_control_on_reverse">Lauter-/Leiser-Taste bewegt den Cursor nach rechts/links</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Aufwecken über Lautstärketasten</string>
+  <string name="volume_rocker_wake_summary">Durch Drücken der Lautstärketasten wird das Gerät aus dem Standby geweckt</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Gesprächsannahme mit Lautstärketasten</string>
+  <string name="volume_answer_call_summary">Anruf mit den Lautstärketasten annehmen</string>
   <!-- QS rows and columns -->
+  <string name="qs_layout_category">Schnelleinstellungs-Kachel-Layout</string>
+  <string name="qs_rows_columns_title">Zeilen und Spalten der Schnelleinstellungen</string>
+  <string name="qs_rows_portrait_title">Kachel-Zeilen im Hochformat</string>
+  <string name="qs_rows_landscape_title">Kachel-Zeilen im Querformat</string>
+  <string name="qs_columns_portrait_title">Kachel-Spalten im Hochformat</string>
+  <string name="qs_columns_landscape_title">Kachel-Spalten im Querformat</string>
+  <string name="qs_tile_title_visibility_title">Namen der Kacheln anzeigen</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Musik-App beim Anschließen der Kopfhörer starten</string>
+  <string name="headset_connect_player_disabled">Deaktiviert</string>
+  <string name="headset_connect_player_wired">Kabelgebundenes Headset eingesteckt</string>
+  <string name="headset_connect_player_bt_no_carkit">Bluetooth-Headset (keine Freisprecheinrichtung) verbunden</string>
+  <string name="headset_connect_player_bt">Bluetooth-Headset verbunden</string>
+  <string name="headset_connect_player_both_no_carkit">Headset (keine Freisprecheinrichtung) verbunden</string>
+  <string name="headset_connect_player_both">Headset verbunden</string>
   <!-- Headset ringtone audio focus -->
+  <string name="ringtone_focus_mode_title">Woraus der Klingelton abgespielt werden soll</string>
+  <string name="ringtone_focus_mode_dynamic">Aus dem Headset, falls es verbunden ist und Musik spielt</string>
+  <string name="ringtone_focus_mode_stock">"Aus dem Telefonlautsprecher (AOSP-Standard)"</string>
   <!-- Heads up -->
+  <string name="headsup_category">Heads-Up-Einstellungen</string>
+  <string name="heads_up_notifications">Heads-Up</string>
+  <string name="summary_heads_up_enabled">Heads-Up-Benachrichtigungen sind aktiviert</string>
+  <string name="summary_heads_up_disabled">Heads-Up-Benachrichtigungen sind deaktiviert</string>
+  <string name="add_heads_up_package">Anwendung hinzufügen</string>
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <!-- Incall vibrate options -->
   <!-- Disabling FC notifications -->
   <!-- Statusbar ticker -->
   <!-- Slim Recents panel -->
+  <string name="recent_panel_expanded_mode_always">Alle Vorschauen</string>
+  <string name="recent_panel_expanded_mode_never">Aus (Schneller Modus)</string>
+  <string name="recent_panel_bg_color_title">Hintergrundfarbe des Panels</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- DUI -->
   <!-- Actions dialog and default task values set in ActionPreference xml-->

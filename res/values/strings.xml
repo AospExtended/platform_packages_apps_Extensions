@@ -579,9 +579,13 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
-    <string name="force_ambient_for_media_title">Ambient Display music ticker for new tracks</string>
-    <string name="force_ambient_for_media_off">Disable</string>
-    <string name="force_ambient_for_media_on">Enable</string>
-    <string name="force_ambient_for_media_on_clean">Enable and hide clock</string>
+    <string name="force_ambient_for_media_pref_title">Ambient Music Ticker</string>
+    <string name="force_ambient_for_media_pref_summary">Configure the Ambient Music Ticker</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker let you show playing music track info within Ambient Display notifications.\n\nIf enabled, it will show track info within normal Ambient notifications.\n\nIf forced, it will also trigger a new Ambient notification when skipping music tracks.\n\nForced minimal mode will do the same but using a clean layout (hidden clock and track info displayed in the middle of the screen) when triggering notifications on skipped tracks (normal Ambient notifications will show the clock).</string>
+    <string name="force_ambient_for_media_title">Music track info in the Ambient Display</string>
+    <string name="force_ambient_for_media_off">Disabled</string>
+    <string name="force_ambient_for_media_on">Enabled</string>
+    <string name="force_ambient_for_media_on_forced">Enabled and forced</string>
+    <string name="force_ambient_for_media_on_forced_clean">Enabled and forced minimal</string>
 
 </resources>

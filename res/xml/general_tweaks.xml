@@ -21,6 +21,12 @@
         android:title="@string/general_category">
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="toast_icon"
+            android:title="@string/toast_icon_title"
+            android:summary="@string/toast_icon_summary"
+            android:defaultValue="false" />
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="disable_fc_notifications"
             android:title="@string/disable_fc_notifications_title"
             android:summary="@string/disable_fc_notifications_summary"

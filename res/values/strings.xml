@@ -140,6 +140,9 @@
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
+    <string name="toast_icon_title">App\'s icon in toast</string>
+    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+
     <!-- Power Menu -->
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_title_summary">View or change power menu entries</string>

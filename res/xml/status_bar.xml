@@ -37,6 +37,12 @@
             android:title="@string/traffic_title" />
 
          <Preference
+            android:key="carrier_label"
+            android:fragment="org.aospextended.extensions.CarrierLabel"
+            android:icon="@drawable/ic_carrierlabel"
+            android:title="@string/carrierlabel_title" />
+
+         <Preference
             android:key="misc_extensions"
             android:fragment="org.aospextended.extensions.MiscExtensions"
             android:icon="@drawable/ic_misc_extensions"

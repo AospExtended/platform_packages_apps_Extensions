@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Obecné vylepšení</string>
   <!-- Network traffic -->
   <string name="traffic_title">Indikátor síťového provozu</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Různé rozšíření</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Nastavit</string>
   <string name="color_default">Výchozí</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
   <string name="battery_light_enable">Světelná signalizace baterie</string>
@@ -222,6 +224,7 @@
   <string name="ringtone_focus_mode_title">Kde budou hrát melodie</string>
   <string name="ringtone_focus_mode_dynamic">Ze sluchátek, pokud jsou připojena a přehrávání hudby</string>
   <string name="ringtone_focus_mode_stock">"Z reproduktoru (AOSP výchozí)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Nastavení plovoucího oznámení</string>
   <string name="heads_up_notifications">Plovoucí upozornění</string>
@@ -312,7 +315,7 @@
   <string name="navbar_general_title">Pokročilé</string>
   <string name="navigation_bar_left_title">Režim ovládání levou rukou</string>
   <string name="navigation_bar_left_summary">Zobrazit navigační panel na levé straně v režimu na šířku</string>
-  <string name="smartbar_interface">Chytrá lišta</string>
+  <string name="smartbar_interface">Smartbar</string>
   <string name="icon_pack_picker_dialog_title">Balíčky ikon</string>
   <string name="image_exceeds_max_allowed_size">Obrázek nesmí překročit rozměr 512x512</string>
   <string name="invalid_icon_from_uri">Nelze načíst obrázek z obsahu poskytovatele</string>
@@ -320,9 +323,9 @@
   <string name="select_custom_app_title">Vybrat vlastní aplikaci</string>
   <string name="select_custom_activity_title">Vybrat vlastní aktivitu</string>
   <string name="profile_applist_title">Aplikace</string>
-  <string name="default_string">Výchozí</string>
-  <string name="default_settings">Výchozí nastavení</string>
-  <string name="default_settings_summary">Výchozí navigační panel AOSP</string>
+  <string name="default_string">Stock</string>
+  <string name="default_settings">Nastavení Stock panelu</string>
+  <string name="default_settings_summary">Navigační panel Stock AOSP</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Vyberte akci</string>
   <string name="action_entry_default_action">Výchozí nastavení</string>
@@ -383,7 +386,7 @@
   <string name="fling_longpress_timeout_label_right">Větší zpoždění</string>
   <string name="fling_longpress_title">Zpoždění dlouhým stiskem</string>
   <string name="fling_longpress_summary">Zvýšit nebo snížit dobu potřebnou k provedení akce dlouhým stisknutím</string>
-  <string name="fling_keyboard_cursors_title">Akce dynamických kurzorů klávesnice</string>
+  <string name="fling_keyboard_cursors_title">Akce kurzorů dynamické klávesnice</string>
   <string name="fling_keyboard_cursors_summary">Dvojím poklepáním doleva a doprava se pohybují kurzorové klávesy vlevo a vpravo při otevřené klávesnici</string>
   <string name="fling_logo_opacity_title">Průhlednost loga Fling</string>
   <!-- Pulse navigation bar music visualizer -->
@@ -395,6 +398,8 @@
   <string name="pulse_render_mode_title">Režim vykreslení</string>
   <string name="pulse_render_mode_fading_bars">Vyblednutí bloků</string>
   <string name="pulse_render_mode_solid_lines">Plné čáry</string>
+  <string name="pulse_accent_color_title">Pro Pulse použít barvu motivu</string>
+  <string name="pulse_accent_color_summary">Když použijete tuto možnost, Pulse použije vaši aktuální barvu. Lávová lampa se vypne</string>
   <string name="fling_pulse_color">Pulsující barva</string>
   <string name="eos_fling_lavalamp_title">Zapnout lávovou lampu</string>
   <string name="eos_fling_lavalamp_summary">Hladké pulsující prolnutí barev ve stylu lávové lampy</string>
@@ -419,12 +424,12 @@
   <string name="land_hor_title">Výška v režimu na šířku</string>
   <string name="positive_done">Hotovo</string>
   <!-- SmartBar -->
-  <string name="smartbar_category">Chytrá lišta</string>
-  <string name="smartbar_settings_title">Nastavení chytré lišty</string>
+  <string name="smartbar_category">Smartbar</string>
+  <string name="smartbar_settings_title">Nastavení Smartbar</string>
   <string name="smartbar_settings_summary">Plně přizpůsobitelný navigační panel</string>
   <string name="smartbar_editor_title">Spustit režim úprav</string>
-  <string name="smartbar_editor_summary">Otevřít editor tlačítek chytré lišty</string>
-  <string name="smartbar_help_policy_notice_summary">Zatímco v režimu úprav stisknete a podržíte tlačítko a přetáhnete ho pro změnu jeho polohy, nebo dlouhým stisknutím tlačítka přidržíte tlačítko pro zobrazení nabídky úprav. Umístění tlačítka lze měnit při zobrazování nabídky.\n\nNastavení dvojitého klepnutí zpomalí akci jedním stiskem.</string>
+  <string name="smartbar_editor_summary">Otevřít editor tlačítek Smartbar</string>
+  <string name="smartbar_help_policy_notice_summary">Když jste v režimu úprav, pro změnu polohy tlačítka jej stiskněte a posuňte, po dlouhém stisknutí se zobrazí menu. Poloha tlačítka může být změněna pokud se menu zobrazuje.\n\nNastavení akce dvojkliku způsobí zpoždění jednoho kliknutí. \"</string>
   <string name="smartbar_context_menu_position_title">Pozice kontextových tlačítek</string>
   <string name="smartbar_context_menu_position_summary">Pozice kontextových tlačítek, jako jsou tlačítka pro výběr nabídky nebo klávesnice</string>
   <string name="smartbar_right">Vpravo</string>
@@ -438,7 +443,7 @@
   <string name="smartbar_button_animation_pixel_home">Pixel (pouze tlačítko Domů)</string>
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (pouze tlačítko Domů) a efekt zvlnění</string>
   <string name="smartbar_factory_reset_title">Obnovit výchozí</string>
-  <string name="smartbar_factory_reset_confirm">Opravdu chcete obnovit nastavení chytré lišty?</string>
+  <string name="smartbar_factory_reset_confirm">Opravdu chcete obnovit nastavení lišty Smartbar?</string>
   <string name="smartbar_ime_action_title">Vstupní metoda a mediální akce</string>
   <string name="smartbar_ime_action_summary">Nastavte, které tlačítka mají být zobrazeny, když se zobrazí klávesnice nebo se přehrává hudba</string>
   <string name="smartbar_ime_action_none">Žádná</string>
@@ -447,13 +452,13 @@
   <string name="smartbar_ime_action_dynamic">Šipky vstupu/médií</string>
   <string name="smartbar_backup_current_config_title">Uložit profil</string>
   <string name="smartbar_restore_config_title">Obnovit profil</string>
-  <string name="smartbar_config_name_edit_dialog_title">Název profilu chytré lišty</string>
+  <string name="smartbar_config_name_edit_dialog_title">Název profilu Smartbar</string>
   <string name="smartbar_config_name_edit_dialog_message">Zadejte název nebo ponechte prázdné</string>
-  <string name="smartbar_config_dialog_title">Profily chytré lišty</string>
-  <string name="smartbar_config_backup_success_toast">Profil chytré lišty byl úspěšně uložen</string>
-  <string name="smartbar_config_restore_success_toast">Profil chytré lišty byl úspěšně obnoven</string>
-  <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu chytré lišty</string>
-  <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu chytré lišty</string>
+  <string name="smartbar_config_dialog_title">Profily Smartbar</string>
+  <string name="smartbar_config_backup_success_toast">Profil lišty Smartbar byl úspěšně uložen</string>
+  <string name="smartbar_config_restore_success_toast">Profil lišty Smartbar byl úspěšně obnoven</string>
+  <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu lišty Smartbar</string>
+  <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu lišty Smartbar</string>
   <string name="navbar_buttons_alpha_title">Průhlednost tlačítka</string>
   <string name="smartbar_longpress_delay_title">Prodleva dlouhého stisku</string>
   <string name="smartbar_longpress_delay_summary">Nastavte, jak dlouho bude systém čekat před spuštěním dlouhého stisknutí</string>
@@ -503,4 +508,15 @@
   <string name="torch_power_button_gesture_none">Zakázáno</string>
   <string name="torch_power_button_gesture_dt">Dvojím klepnutím zapnout svítilnu (přidá malé zpoždění při jednom klenutí)</string>
   <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
+  <string name="force_ambient_for_media_pref_title">Hudební oznámení na Ambientním displeji</string>
+  <string name="force_ambient_for_media_pref_summary">Nastavení hudebního oznámení na Ambientním displeji</string>
+  <string name="ambient_ticker_footer">Tato funkce umožňuje zobrazit aktuální informace o hudebních skladbách na zamykací obrazovce při zapnutém nebo vypnutém Ambientním displeji.\n\nMůžete si vybrat ze dvou zobrazení, normálního a minimálního. I když tato funkce využívá výhody Ambientního displeje, není na něm závislá. Může být spuštěna i bez zapnutí Ambientního displeje pomocí (vynucených) voleb.\n\nNormální zobrazení obsahuje hodiny, datum a text na zamykací obrazovce.\n\nMinimální zobrazení obsahuje pouze text uprostřed obrazovky.</string>
+  <string name="force_ambient_for_media_title">Vybrat rozložení</string>
+  <string name="force_ambient_for_media_off">Zakázáno</string>
+  <string name="force_ambient_for_media_on">Normální</string>
+  <string name="force_ambient_for_media_on_forced">Normální (vynucené)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimální (vynucené)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

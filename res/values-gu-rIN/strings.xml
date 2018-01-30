@@ -18,21 +18,73 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">એક્સ્ટેન્શન્સ</string>
+  <string name="add">ઉમેરો</string>
+  <string name="advanced">એડવાન્સ</string>
+  <string name="cancel">રદ કરો</string>
+  <string name="choose_app">એપ્લિકેશન પસંદ કરો</string>
+  <string name="general_category">સામાન્ય</string>
+  <string name="gestures_category">જેસ્ચર્સ</string>
+  <string name="music_category">સંગીત</string>
+  <string name="security_category">સુરક્ષા</string>
+  <string name="hardware_category">હાર્ડવેર</string>
+  <string name="icons_category">ચિહ્નો</string>
+  <string name="aosp_recents_category">AOSP રેસેન્ટર્સ</string>
+  <string name="light_category">લાઇટ્સ</string>
+  <string name="dlg_ok">ઑકે</string>
+  <string name="attention">ધ્યાન આપો</string>
+  <string name="loading">લોડ કરી રહ્યું છે\u2026</string>
+  <string name="reset">રીસેટ કરો</string>
+  <string name="reset_colors">રંગો ફરીથી સેટ કરો</string>
+  <string name="reset_android">ઍન્ડ્રોઈડ</string>
+  <string name="text_title">લખાણ</string>
+  <string name="icon_title">ચિહ્નો</string>
+  <string name="color_title">રંગ</string>
+  <string name="colors_title">રંગ</string>
   <!-- Extensions categories -->
+  <string name="recents_category">તાજેતરના</string>
+  <string name="status_bar_category">સ્થિતિ સૂચક</string>
+  <string name="notifications_panel_category">સૂચના પેનલ</string>
+  <string name="system_category">સિસ્ટમ</string>
+  <string name="lockscreen_category">સ્ક્રિન લોક</string>
+  <string name="navigation_category">નેવિગેશન</string>
+  <string name="build_tweaks_summary_title">તમારા ઉપકરણ ને વધારો!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">જનરલ ટ્વીક્સ</string>
   <!-- Network traffic -->
+  <string name="traffic_title">ટ્રાફિક સૂચકાંકો</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">મિશ્રિત એક્સ્ટેન્શન્સ</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">તાજેતરના UI</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">સ્ક્રિન લોક UI</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">સ્થિતિપટ્ટી આઇટમ્સ</string>
   <!-- Notifications -->
+  <string name="notifications_title">સૂચના</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">સંશોધક પટ્ટી</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">ઝડપી સેટિંગ્સ</string>
   <!-- Buttons -->
+  <string name="buttons_title">બટનો</string>
   <!-- App Ops -->
+  <string name="app_ops_category">એપ્લિકેશન ઓપ્સ</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">અમને મદદ તમને મદદ!</string>
+  <string name="extensions_dialog_message">જો તમને આમાંની કોઈપણ સેટિંગ્સ સાથે બગ મળે છે, તો અમારા Google+ પૃષ્ઠના બગ રિપોર્ટ્સ વિભાગમાં પોસ્ટ કરો. બગ રિપોર્ટ પોસ્ટ કરતી વખતે તમારે નીચેનાનો સમાવેશ કરવો જ જોઈએ:\n\n1. લોગકેટ અથવા છેલ્લું_કેમ્સગ\n2. વપરાયેલ કર્નલ અને મોડ્સ\n3. ઉપયોગી માહિતી\n\nજો તમે પર્યાપ્ત કંઈકની જાણ કરવામાં નિષ્ફળ હોવ, તો અપેક્ષા રાખીએ કે વસ્તુઓને ઠીક કરવામાં આવે.</string>
+  <string name="extensions_dialog_toast">આખી વાત વાંચો!</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">રંગ પીકર</string>
+  <string name="press_color_to_apply">લાગુ કરવા માટે નીચેના રંગ પર દબાવો</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">હેક્સ:</string>
+  <string name="hex_hint">#ff000000</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
@@ -42,9 +94,27 @@
   <!-- Power menu on secure lockscreen -->
   <!-- Brightness icon-->
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">ક્વિક પુલડાઉન</string>
+  <string name="quick_pulldown_summary">%1$s સ્થિતિ પટ્ટીની ધાર ક્વિક સેટિંગ્સને નીચે ખેંચે છે</string>
+  <string name="quick_pulldown_summary_always">હંમેશા સ્થિતિ બાર પુલડાઉન પર ક્વિક સેટિંગ્સ દર્શાવો</string>
+  <string name="quick_pulldown_off">બંધ</string>
+  <string name="quick_pulldown_left">ડાબે</string>
+  <string name="quick_pulldown_right">જમણું</string>
+  <string name="quick_pulldown_always">હંમેશાં</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">સ્માર્ટ પુલડાઉન</string>
+  <string name="smart_pulldown_summary">જ્યારે %1$s સૂચનાઓ હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
+  <string name="smart_pulldown_none_summary">કોઈ સૂચનાઓ ન હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
+  <string name="smart_pulldown_off">બંધ</string>
+  <string name="smart_pulldown_none">કોઈ સૂચનાઓ નથી</string>
+  <string name="smart_pulldown_dismissable">બરતરફી નહીં</string>
+  <string name="smart_pulldown_ongoing">કોઈ ચાલુ નહીં</string>
   <!-- Lockscreen icons -->
+  <string name="lockscreen_tuner_title">લૉકસ્ક્રીન ટ્યુનર</string>
+  <string name="hide_lockscreen_items_title">લૉકસ્કીન વસ્તુઓ</string>
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">વિસ્તૃત સૂચનોને ફોર્સ કરો</string>
+  <string name="force_expanded_notifications_summary">વિસ્તૃત સૂચનોને સપોર્ટ કરતા એપ્લિકેશન્સ માટે જ ઉપલબ્ધ</string>
   <!-- Double Tap Lockscreen to Sleep -->
   <!-- Double tap-to-sleep -->
   <!-- Brightness control -->
@@ -60,6 +130,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
@@ -82,4 +153,7 @@
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Haupteinstellungen</string>
   <!-- Network traffic -->
   <string name="traffic_title">Netzwerkgeschwindigkeit</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Verschiedene Optimierungen</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#FF000000</string>
   <string name="set">Setzen</string>
   <string name="color_default">Standard</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Akku-Lade-LED</string>
   <string name="battery_light_enable">Akku-LED</string>
@@ -222,29 +224,143 @@
   <string name="ringtone_focus_mode_title">Woraus der Klingelton abgespielt werden soll</string>
   <string name="ringtone_focus_mode_dynamic">Aus dem Headset, falls es verbunden ist und Musik spielt</string>
   <string name="ringtone_focus_mode_stock">"Aus dem Telefonlautsprecher (AOSP-Standard)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Heads-Up-Einstellungen</string>
   <string name="heads_up_notifications">Heads-Up</string>
   <string name="summary_heads_up_enabled">Heads-Up-Benachrichtigungen sind aktiviert</string>
   <string name="summary_heads_up_disabled">Heads-Up-Benachrichtigungen sind deaktiviert</string>
   <string name="add_heads_up_package">Anwendung hinzufügen</string>
+  <string name="add_heads_up_stoplist_summary">Heads-Up-Benachrichtigungen von diesen Apps deaktivieren</string>
+  <string name="add_heads_up_blacklist_summary">Heads-Up von diesen Anwendungen deaktivieren</string>
+  <string name="heads_up_stoplist_title">Stopliste</string>
+  <string name="heads_up_blacklist_title">Sperrliste</string>
+  <string name="profile_choose_app">Anwendung wählen</string>
+  <string name="dialog_delete_title">Löschen</string>
+  <string name="dialog_delete_message">Ausgewähltes Objekt entfernen?</string>
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Anzeigedauer</string>
+  <string name="heads_up_time_out_summary">Heads-Up-Benachrichtigung werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
+  <string name="heads_up_time_out_2sec">2 Sekunden</string>
+  <string name="heads_up_time_out_4sec">4 Sekunden</string>
+  <string name="heads_up_time_out_5sec">5 Sekunden</string>
+  <string name="heads_up_time_out_6sec">6 Sekunden</string>
+  <string name="heads_up_time_out_8sec">8 Sekunden</string>
+  <string name="heads_up_time_out_10sec">10 Sekunden</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Schlummerzeit</string>
+  <string name="heads_up_snooze_summary_one_minute">Durch das Hochwischen der Heads-Up-Benachrichtigung werden alle Meldungen der entsprechenden Anwendung für 1 Minute pausiert</string>
+  <string name="heads_up_snooze_summary">Durch das Hochwischen der Heads Up-Benachrichtigung werden alle Meldungen der entsprechenden Anwendung für <xliff:g id="number">%d</xliff:g> Minuten pausiert</string>
+  <string name="heads_up_snooze_disabled_summary">Schlummern ist deaktiviert</string>
+  <string name="heads_up_snooze_1min">1 Minute</string>
+  <string name="heads_up_snooze_5min">5 Minuten</string>
+  <string name="heads_up_snooze_10min">10 Minuten</string>
+  <string name="heads_up_snooze_15min">15 Minuten</string>
+  <string name="heads_up_snooze_20min">20 Minuten</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Vibrationseinstellungen während eines Gesprächs</string>
+  <string name="incall_vibrate_connect_title">Vibriert beim Verbinden</string>
+  <string name="incall_vibrate_call_wait_title">Vibriert beim Halten des Anrufs</string>
+  <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
   <!-- Disabling FC notifications -->
   <!-- Statusbar ticker -->
+  <string name="ticker_disabled">Deaktiviert</string>
   <!-- Slim Recents panel -->
+  <string name="recent_panel_expanded_mode_auto">Automatisch (Standard)</string>
   <string name="recent_panel_expanded_mode_always">Alle Vorschauen</string>
   <string name="recent_panel_expanded_mode_never">Aus (Schneller Modus)</string>
   <string name="recent_panel_bg_color_title">Hintergrundfarbe des Panels</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- DUI -->
+  <string name="profile_applist_title">Anwendungen</string>
+  <string name="default_string">Standard</string>
+  <string name="default_settings">Standardeinstellungen</string>
+  <string name="default_settings_summary">Standard AOSP Navigationsleiste</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Aktion wählen</string>
+  <string name="action_entry_default_action">Standardeinstellungen</string>
+  <string name="action_entry_select_app">Anwendung wählen</string>
+  <string name="action_entry_custom_action">Benutzerdefinierte Aktion auswählen</string>
   <!-- Fling -->
+  <string name="fling_def_summary">Keine Aktion ausgewählt</string>
+  <string name="fling_swipe_actions">Wischgesten</string>
+  <string name="fling_tap_actions">Tippgesten</string>
+  <string name="fling_short_swipe_right">Kurzes nach rechts wischen</string>
+  <string name="fling_short_swipe_left">Kurzes nach links wischen</string>
+  <string name="fling_long_swipe_right">Langes nach rechts wischen</string>
+  <string name="fling_long_swipe_left">Langes nach links wischen</string>
+  <string name="fling_right_up_swipe">Auf der rechten Seite nach oben wischen</string>
+  <string name="fling_left_up_swipe">Auf der linken Seite nach oben wischen</string>
+  <string name="fling_single_tap">Einfaches tippen rechts</string>
+  <string name="fling_double_tap">Doppeltes tippen rechts</string>
+  <string name="fling_long_press">Langes drücken rechts</string>
+  <string name="fling_single_left_tap">Einfaches tippen links</string>
+  <string name="fling_double_left_tap">Doppeltes tippen links</string>
+  <string name="fling_long_left_press">Langes drücken links</string>
+  <string name="long_swipe_portrait_title">Hochformat</string>
+  <string name="long_swipe_landscape_title">Querformat</string>
+  <string name="portrait_right_swipe_title">Nach rechts wischen (Hochformat)</string>
+  <string name="portrait_left_swipe_title">Nach links wischen (Hochformat)</string>
+  <string name="landscape_right_swipe_title">Nach rechts wischen (Querformat)</string>
+  <string name="landscape_left_swipe_title">Nach links wischen (Querformat)</string>
+  <string name="vertical_up_swipe_title">Vertikal nach oben wischen</string>
+  <string name="vertical_down_swipe_title">Vertikal nach unten wischen</string>
+  <string name="up_swipe_title">Nach oben wischen</string>
+  <string name="down_swipe_title">Nach unten wischen</string>
+  <string name="long_swipe_reset">Zurücksetzen</string>
+  <string name="fling_advanced">Erweitert</string>
+  <string name="fling_long_swipe_title">Grenzwert für langes wischen</string>
+  <string name="fling_trails_enable_title">Gestenspur aktivieren</string>
+  <string name="fling_trails_enable_summary">Wischgestenspur anzeigen</string>
+  <string name="fling_trails_color_title">Spurfarbe</string>
+  <string name="fling_trails_width_title">Spurenbreite</string>
+  <string name="fling_appearance">Erscheinungsbild</string>
+  <string name="fling_animate_logo_title">Logo animieren</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
+  <string name="portrait_title">Höhe im Hochformat</string>
+  <string name="land_vert_title">Breite im Querformat</string>
+  <string name="land_hor_title">Höhe im Querformat</string>
+  <string name="positive_done">Fertig</string>
   <!-- SmartBar -->
+  <string name="smartbar_category">SmartBar</string>
+  <string name="smartbar_settings_title">SmartBar Einstellungen</string>
+  <string name="smartbar_settings_summary">Vollständig anpassbare Navigationsleiste</string>
+  <string name="smartbar_editor_title">Editor-Modus starten</string>
+  <string name="smartbar_editor_summary">SmartBar-Editor für Schaltflächen öffnen</string>
+  <string name="smartbar_help_policy_notice_summary">Im Editiermodus mittellang eine Schaltfläche gedrückt halten und ziehen, um ihre Position zu ändern oder lange drücken zum Aufruf des Bearbeitungsmenüs. Die Schaltflächenposition kann geändert werden während das Menü angezeigt wird.\n\nDurch Einstellen einer Aktion für doppeltes tippen wird das einfache tippen ein wenig verzögert.</string>
+  <string name="smartbar_context_menu_position_title">Position des Kontexttasten</string>
+  <string name="smartbar_context_menu_position_summary">Die Position von Kontexttasten, wie die Menü-Taste oder der Eingabemethoden-Auswahl, festlegen</string>
+  <string name="smartbar_right">Rechts</string>
+  <string name="smartbar_left">Links</string>
+  <string name="smartbar_button_animation_title">Tasten-Animation bei Berührung</string>
+  <string name="smartbar_button_animation_summary">Wähle die Tasten-Animation welche beim Berühren der Tasten angezeigt wird</string>
+  <string name="smartbar_button_animation_ripple">Welle</string>
+  <string name="smartbar_button_animation_spring">Feder</string>
+  <string name="smartbar_button_animation_flip">Umdrehen</string>
+  <string name="smartbar_button_animation_pixel">Pixel (alle Tasten)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (nur Hometaste)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (nur Hometaste) und Welle</string>
+  <string name="smartbar_factory_reset_title">Auf Standard zurücksetzen</string>
+  <string name="smartbar_factory_reset_confirm">Sind Sie sicher, dass Sie die SmartBar auf die Standardeinstellungen zurücksetzen möchten?</string>
+  <string name="smartbar_ime_action_title">Eingabe-Methode und Medien-Aktionen</string>
+  <string name="smartbar_ime_action_summary">Festlegen, welche Tasten angezeigt werden sollen, wenn die Bildschirmtastatur angezeigt wird oder Musik abgespielt wird</string>
+  <string name="smartbar_ime_action_none">Keine</string>
+  <string name="smartbar_ime_action_arrows">Eingabepfeile</string>
+  <string name="smartbar_ime_action_switcher">Tastatur-Auswahl</string>
+  <string name="smartbar_ime_action_dynamic">Eingabe-/Medien-Pfeile</string>
+  <string name="smartbar_backup_current_config_title">Profil speichern</string>
+  <string name="smartbar_restore_config_title">Profil wiederherstellen</string>
+  <string name="smartbar_config_name_edit_dialog_title">SmartBar Profilname</string>
+  <string name="smartbar_config_name_edit_dialog_message">Namen eingeben oder leer lassen</string>
+  <string name="smartbar_config_dialog_title">SmartBar Profile</string>
+  <string name="smartbar_config_backup_success_toast">SmartBar Profil erfolgreich gespeichert</string>
+  <string name="smartbar_config_restore_success_toast">SmartBar Profil erfolgreich wiederhergestellt</string>
+  <string name="smartbar_config_backup_error_toast">Fehler beim Speichern des SmartBar Profils</string>
+  <string name="smartbar_config_restore_error_toast">Fehler beim Wiederherstellen des SmartBar Profils</string>
+  <string name="navbar_buttons_alpha_title">Transparenz der Tasten</string>
+  <string name="smartbar_longpress_delay_title">Tastenverzögerung bei langem Druck</string>
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
   <!-- Buttons backlight timeout -->
@@ -252,4 +368,7 @@
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

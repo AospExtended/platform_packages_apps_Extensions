@@ -47,6 +47,7 @@
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <!-- Recents UI -->
   <!-- Lockscreen UI -->
@@ -63,6 +64,7 @@
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex_hint">#ff000000</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
@@ -95,6 +97,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
@@ -117,4 +120,7 @@
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

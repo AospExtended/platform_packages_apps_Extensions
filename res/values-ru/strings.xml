@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Основные настройки</string>
   <!-- Network traffic -->
   <string name="traffic_title">Индикатор сетевого трафика</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Прочие настройки</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Настроить</string>
   <string name="color_default">По умолчанию</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Индикация зарядки батареи</string>
   <string name="battery_light_enable">Уведомления батареи</string>
@@ -222,6 +224,7 @@
   <string name="ringtone_focus_mode_title">Играть мелодию вызова через</string>
   <string name="ringtone_focus_mode_dynamic">Наушники, если они подключены и включена музыка</string>
   <string name="ringtone_focus_mode_stock">"Через динамик"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Настройки всплывающих уведомлений</string>
   <string name="heads_up_notifications">Всплывающие уведомления</string>
@@ -395,6 +398,8 @@
   <string name="pulse_render_mode_title">Режим визуализации</string>
   <string name="pulse_render_mode_fading_bars">Затухающие блоки</string>
   <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
+  <string name="pulse_accent_color_title">Использовать цветовой акцентов для импульса</string>
+  <string name="pulse_accent_color_summary">При включении этой опции Пульс будет использовать ваш текущий цвет. \"Лава Лампа\" отключится.</string>
   <string name="fling_pulse_color">Цвет Пульса</string>
   <string name="eos_fling_lavalamp_title">Включить \"Лава Лампу\"</string>
   <string name="eos_fling_lavalamp_summary">Случайные цвета в стиле Лава Лампа</string>
@@ -503,4 +508,15 @@
   <string name="torch_power_button_gesture_none">Не отображать</string>
   <string name="torch_power_button_gesture_dt">Двойной тап по кнопке питания для включения фонарика(Одно короткое нажатие отключает фонарик)</string>
   <string name="torch_power_button_gesture_lp">Удержание кнопки питания для включения фонарика</string>
+  <string name="force_ambient_for_media_pref_title">Музыкальный тикер на Ambient Display</string>
+  <string name="force_ambient_for_media_pref_summary">Настройка музыкального тикера на Ambient Display</string>
+  <string name="ambient_ticker_footer">Эта функция позволяет отображать текущую информацию о музыкальном треке на экране блокировки с включенным Ambient Display или без него.\n\nВы можете выбрать один из двух вариантов, обычный и минимальный. Несмотря на то, что эта функция использует Ambient Display, она не зависит от него. Она может быть вызвана и без Ambient Display, включенного с помощью (принудительно) опций.\n\nОбычный вид включает в себя часы, дату и бегущую строку.\n\nМинимальный вид включает только бегущую строку в центре экрана.</string>
+  <string name="force_ambient_for_media_title">Выбрерите шаблон</string>
+  <string name="force_ambient_for_media_off">Отключено</string>
+  <string name="force_ambient_for_media_on">Нормальный</string>
+  <string name="force_ambient_for_media_on_forced">Нормально (принудительно)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Минимально (принудительно)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

@@ -18,21 +18,65 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensions</string>
+  <string name="add">Ajouter</string>
+  <string name="advanced">Avancé</string>
+  <string name="cancel">Annuler</string>
+  <string name="choose_app">Choisir une app</string>
+  <string name="general_category">Général</string>
+  <string name="gestures_category">Gestes</string>
+  <string name="music_category">Musique</string>
+  <string name="security_category">Sécurité</string>
+  <string name="hardware_category">Matériel</string>
+  <string name="icons_category">Icônes</string>
+  <string name="aosp_recents_category">AOSP récents</string>
+  <string name="light_category">Lumières</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Attention</string>
+  <string name="loading">Chargement\u2026</string>
+  <string name="reset">Réinitialiser</string>
+  <string name="reset_colors">Réinitialiser les couleurs</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Texte</string>
+  <string name="icon_title">Icône</string>
+  <string name="color_title">Couleur</string>
+  <string name="colors_title">Couleurs</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Récents</string>
+  <string name="status_bar_category">Barre d\'état</string>
+  <string name="notifications_panel_category">Panneau de notification</string>
+  <string name="system_category">Système</string>
+  <string name="lockscreen_category">Écran de verrouillage</string>
+  <string name="navigation_category">Navigation</string>
+  <string name="build_tweaks_summary_title">Extend votre appareil!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Réglages généraux</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Indicateurs de trafic</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Autres extensions</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Interface récents</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Interface de l\'écran de verrouillage</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Éléments de la barre d\'État</string>
   <!-- Notifications -->
+  <string name="notifications_title">Notifications</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Barre de navigation</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Réglages rapides</string>
   <!-- Buttons -->
+  <string name="buttons_title">Boutons</string>
   <!-- App Ops -->
+  <string name="app_ops_category">App Ops</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Aidez-nous à vous aider !</string>
   <!-- Color Picker -->
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
@@ -60,6 +104,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
@@ -82,4 +127,7 @@
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

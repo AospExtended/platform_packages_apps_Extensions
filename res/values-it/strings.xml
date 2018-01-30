@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Tweaks generali</string>
   <!-- Network traffic -->
   <string name="traffic_title">Indicatori del traffico dati</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Varie estensioni</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Imposta</string>
   <string name="color_default">Predefinita</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Luce di batteria in carica</string>
   <string name="battery_light_enable">Indicatore Batteria</string>
@@ -222,6 +224,7 @@
   <string name="ringtone_focus_mode_title">Dove riprodurre la musica</string>
   <string name="ringtone_focus_mode_dynamic">Se collegato un auricolare con cavo riproduci la musica</string>
   <string name="ringtone_focus_mode_stock">"Dall'altoparlante (predefinito aosp)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Impostazioni Notifiche Fluttuanti</string>
   <string name="heads_up_notifications">Notifiche Fluttuanti</string>
@@ -395,6 +398,8 @@
   <string name="pulse_render_mode_title">Modalità esecuzione</string>
   <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
   <string name="pulse_render_mode_solid_lines">Linee continue</string>
+  <string name="pulse_accent_color_title">Utilizza il colore primario per pulse</string>
+  <string name="pulse_accent_color_summary">Abilitando questo pulse utilizzerà il tuo attuale colore primario. Questo disattiverà l\'effetto lampada di lava</string>
   <string name="fling_pulse_color">Colore Pulse</string>
   <string name="eos_fling_lavalamp_title">Attiva lampada di lava</string>
   <string name="eos_fling_lavalamp_summary">Pulse mescola e cambia colore come una lampada di lava</string>
@@ -503,4 +508,15 @@
   <string name="torch_power_button_gesture_none">Disabilitato</string>
   <string name="torch_power_button_gesture_dt">Doppio tocco per accendere la torcia (aggiungerà un piccolo ritardo al tocco singolo)</string>
   <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante alimentazione per attivare la torcia</string>
+  <string name="force_ambient_for_media_pref_title">Ticker Ambient musicale</string>
+  <string name="force_ambient_for_media_pref_summary">Configura il ticker musicale su Ambient Display</string>
+  <string name="ambient_ticker_footer">Questa funzionalità da la possibilità di visualizzare l\'attuale canzone sulla schermata di blocco con o senza Ambient Display abilitato.\n\nPuoi scegliere tra due layout, normale e minimale. Mentre questa funzionalità sfrutta l\'Ambient Display, essa non dipende da quest\'ultimo. Può essere attivata senza avere Ambient Display abilitato utilizzando l\'opzione (forzata).\n\nLa visualizzazione Normale include l\'orologio della schermata di blocco, la data e il quadrante.\n\nLa visualizzazione Minimale include solo il quadrante al centro dello schermo.</string>
+  <string name="force_ambient_for_media_title">Selezionare layout</string>
+  <string name="force_ambient_for_media_off">Disabilitato</string>
+  <string name="force_ambient_for_media_on">Normale</string>
+  <string name="force_ambient_for_media_on_forced">Normale (forzata)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimo (forzata)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

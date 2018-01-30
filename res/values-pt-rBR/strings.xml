@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Ajustes gerais</string>
   <!-- Network traffic -->
   <string name="traffic_title">Indicadores de tráfego de rede</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Outras extenções</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Definir</string>
   <string name="color_default">Padrão</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Luz de carregamento de bateria</string>
   <string name="battery_light_enable">Luz de bateria</string>
@@ -222,6 +224,7 @@
   <string name="ringtone_focus_mode_title">Onde reproduzir os toques</string>
   <string name="ringtone_focus_mode_dynamic">Fone de ouvido com fio se estiver conectado e tocando música</string>
   <string name="ringtone_focus_mode_stock">"De viva-voz (aosp padrão)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Configurações de notificações Heads Up</string>
   <string name="heads_up_notifications">Notificações pop-up</string>
@@ -395,6 +398,10 @@
   <string name="pulse_render_mode_title">Modo de Renderização</string>
   <string name="pulse_render_mode_fading_bars">Blocos de desvanecimento</string>
   <string name="pulse_render_mode_solid_lines">Linhas sólidas</string>
+  <string name="pulse_accent_color_title">Usar cor de acento para pulso</string>
+  <string name="pulse_accent_color_summary">Habilitar isso fará com que o pulso use sua cor de acento atual. Desativará lâmpada de lava
+ 
+Contexto | Contexto de solicitação</string>
   <string name="fling_pulse_color">Cor do Pulse</string>
   <string name="eos_fling_lavalamp_title">Ligar a Lâmpada de Lava</string>
   <string name="eos_fling_lavalamp_summary">Animar o Pulse com uma mistura de cor suave com um estilo de lâmpada Lava</string>
@@ -503,4 +510,15 @@
   <string name="torch_power_button_gesture_none">Desabilitado</string>
   <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga, com a tela desligada, para ativar ou desativar a lanterna</string>
   <string name="torch_power_button_gesture_lp">Manter pressionado o botão de liga/desliga, quando a tela estiver desligada, para ativar ou desativar a lanterna</string>
+  <string name="force_ambient_for_media_pref_title">Ícone de Música em Ambiente</string>
+  <string name="force_ambient_for_media_pref_summary">Configurar o ícone de música ambiente</string>
+  <string name="ambient_ticker_footer">Este recurso permite a capacidade de mostrar as informações atuais da música na tela de bloqueio com ou sem exibição de ambiente ativada. \ n \ n Você pode selecionar entre dois layouts, normais e mínimos. Embora este recurso aproveite a exibição do ambiente, não depende disso. Pode ser ativado sem ter a exibição do ambiente ativada usando as opções (forçadas). \ n \ n A visão normal inclui o relógio, a data e o ticker da serra. \ n \ n A visualização mínima inclui apenas o ticker no centro da tela.</string>
+  <string name="force_ambient_for_media_title">Selecionar Layout</string>
+  <string name="force_ambient_for_media_off">Desativado</string>
+  <string name="force_ambient_for_media_on">Normal</string>
+  <string name="force_ambient_for_media_on_forced">Normal (forçado)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Mínimo (forçado)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

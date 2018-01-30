@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Tweak Umum</string>
   <!-- Network traffic -->
   <string name="traffic_title">Jaringan Indikator</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Kumpulan Ekstensi</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Kelompok</string>
   <string name="color_default">Standar</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Lampu pengisian baterai</string>
   <string name="battery_light_enable">Lampu Baterai</string>
@@ -221,6 +223,7 @@
   <string name="ringtone_focus_mode_title">Mana untuk bermain nada dering</string>
   <string name="ringtone_focus_mode_dynamic">Dari headset jika terhubung dan bermain musik</string>
   <string name="ringtone_focus_mode_stock">"Dari speakerphone (aosp standar)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Pengaturan Headsup</string>
   <string name="heads_up_notifications">Notifikasi Melayang</string>
@@ -453,4 +456,7 @@
   <string name="torch_power_button_gesture_none">Non aktif</string>
   <string name="torch_power_button_gesture_dt">Tekan dua kali kekuatan untuk beralih obor (akan menambahkan penundaan ke keran tunggal)</string>
   <string name="torch_power_button_gesture_lp">Tekan kekuatan untuk beralih obor</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

@@ -18,68 +18,505 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Mga extensyon</string>
+  <string name="add">Dagdag</string>
+  <string name="advanced">Pagsulong</string>
+  <string name="cancel">Kanselahin</string>
+  <string name="choose_app">Pagpili ng app</string>
+  <string name="general_category">Heneral</string>
+  <string name="gestures_category">Ang asta</string>
+  <string name="music_category">Musika</string>
+  <string name="security_category">Ang seguridad</string>
+  <string name="hardware_category">Hardware</string>
+  <string name="icons_category">Mga Icon</string>
+  <string name="aosp_recents_category">Mga nakaraang AOSP</string>
+  <string name="light_category">Mga ilaw</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Ang Atensyon</string>
+  <string name="loading">Naglo-load\u2026</string>
+  <string name="reset">I-reset</string>
+  <string name="reset_colors">I-reset ang mga kulay</string>
+  <string name="reset_android">Ang andriod</string>
+  <string name="text_title">Ang teksto</string>
+  <string name="icon_title">Ang icon</string>
+  <string name="color_title">Ang kulay</string>
+  <string name="colors_title">Mga Kulay</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Mga nakaraan</string>
+  <string name="status_bar_category">Ang Statusbar</string>
+  <string name="notifications_panel_category">Mga notipikasyon sa panel</string>
+  <string name="system_category">Ang sistema</string>
+  <string name="lockscreen_category">Ang Lockscreen</string>
+  <string name="navigation_category">Ang nabigasyon</string>
+  <string name="build_tweaks_summary_title">Pahabain ang iyong device!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Pangkalahatang mga Tweak</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Mga tagaturo ng traffic</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Mga Misc extensyon</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Mga nakaraarang UI</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Ang Lockscreen UI</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Ang Mga item sa statusbar</string>
   <!-- Notifications -->
+  <string name="notifications_title">Ang mga notipikasyon</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Ang pag-nabigasyon sa bar</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Mga mabilis na setting</string>
   <!-- Buttons -->
+  <string name="buttons_title">Mga button</string>
   <!-- App Ops -->
+  <string name="app_ops_category">App Ops</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Tulungan mo kami na tulungan ka!</string>
+  <string name="extensions_dialog_message">Kung nakatagpo ka ng kahit anong bug sa mga setting na ito, ipaskil sa mga seksyon ng Bug Report ng ating Google+page. Kailangan mong isama ang mga sumusunod kung ikaw at mag papaskil ng bug report: \n\n1. Ang logcat ay isang bagay na sapat, Wag asahan ang mga bagay na maayos.</string>
+  <string name="extensions_dialog_toast">BASAHIN MO ANG LAHAT NG ITO!</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Ang taga pili ng kulay</string>
+  <string name="press_color_to_apply">Pindutin ang kulay sa baba para ma-apply</string>
+  <string name="arrow_right">Ang →</string>
+  <string name="arrow_down">Ang ↓</string>
+  <string name="hex">Ang Hex:</string>
+  <string name="hex_hint">Ang #ff000000</string>
+  <string name="set">I-set</string>
+  <string name="color_default">I-default</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
+  <string name="battery_light_settings">Nag-charge ang ilaw nga baterya</string>
+  <string name="battery_light_enable">Ang liwanag nga baterya</string>
+  <string name="battery_light_allow_on_dnd_title">Wag i-disturb ang mode ng ilaw ng baterya</string>
+  <string name="battery_light_low_blinking_title">Ang kutitap ng ilaw sa mababang baterya</string>
+  <string name="battery_light_cat">Kung saan ang ilaw ng baterya ay na-charge</string>
+  <string name="battery_light_low_color">Mababang baterya</string>
+  <string name="battery_light_medium_color">Katamtaman na baterya</string>
+  <string name="battery_light_full_color">Malapit mapuna na baterya</string>
+  <string name="battery_light_reallyfull_color">Puno na (100) baterya</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Trapiko sa Network</string>
+  <string name="network_traffic_type">Pumili ng tipo ng aktibidad</string>
+  <string name="show_network_traffic_up">Ang Uplink</string>
+  <string name="show_network_traffic_down">Ang mababang link</string>
+  <string name="show_network_traffic_all">I-uplink at I-downlink</string>
+  <string name="network_traffic_state_title">Ipakita ang aktibidad ng net sa statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Awtomatikong naka tago ang aktibidad ng Net threshold (KB/s)</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Alisin lahat ng buton</string>
+  <string name="show_clear_all_recents_button_summary">Apkita lahat ng naalis na buton</string>
+  <string name="recents_clear_all_location_title">Alisian lahat ng lokasyon</string>
+  <string name="recents_clear_all_location_top_right">Taas sa kanan</string>
+  <string name="recents_clear_all_location_top_left">Taas sa kaliwa</string>
+  <string name="recents_clear_all_location_top_center">Taas sa gitna</string>
+  <string name="recents_clear_all_location_bottom_right">Ibaba sa kanan</string>
+  <string name="recents_clear_all_location_bottom_left">Ibaba sa kaliwa</string>
+  <string name="recents_clear_all_location_bottom_center">Ibaba sa gitna</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Mga kontrol sa power na notipikasyon</string>
+  <string name="power_notification_controls_summary">Mamili ng mahalagang level para sa mga notipikasyon</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">Ang slider ng brightness</string>
+  <string name="qs_brightness_slider_summary">Ipakita ang slider ng liwanag sa mabilis na panel setting</string>
   <!-- Power Menu -->
+  <string name="power_menu_title">Ang power menu</string>
+  <string name="power_menu_title_summary">Tignan o baguhin ang entry ng power menu</string>
+  <string name="powermenu_screenshot">Ang Screenshot</string>
+  <string name="powermenu_screenrecord">Ang Screenrecord</string>
+  <string name="powermenu_power">Ang power</string>
+  <string name="powermenu_restart">Ang pag umpisa</string>
+  <string name="powermenu_restart_recovery">Ang advance na pag uumpisa</string>
+  <string name="powermenu_airplane">Ang airplane</string>
+  <string name="powermenu_settings">Ang mga setting</string>
+  <string name="powermenu_lockdown">I-lock pababa</string>
+  <string name="powermenu_soundpanel">Ang tunog sa panel</string>
+  <string name="powermenu_users">Ang mga gumagamit</string>
+  <string name="powermenu_torch">Ang flashlight</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">Ang power menu kapag naka sara</string>
+  <string name="lockscreen_power_menu_disabled_summary">I-disable ang power menu sa siguridad na lockscreen</string>
+  <string name="recents_show_membar_title">Ang memory bar</string>
+  <string name="recents_show_membar_summary">Ipakita ang bar na merong memorya ng mga aparato</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Ang liwanag ng icon </string>
+  <string name="brightness_icon_summary">Ipakita ang Brightness icon sa kanan ng brigthness slider para ma ayos ang awtomatikong brightness</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Mabilis na pag hila pababa</string>
+  <string name="quick_pulldown_summary">%1$s Ang gilid ng status bar ay mabilis na mahihila pababa ang mga setting</string>
+  <string name="quick_pulldown_summary_always">Palaging ipakita ang mga mabilis na setting sa status bar para hilain pababa</string>
+  <string name="quick_pulldown_off">Mula sa</string>
+  <string name="quick_pulldown_left">Sa kaliwa</string>
+  <string name="quick_pulldown_right">Sa kanan</string>
+  <string name="quick_pulldown_always">Palagi</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">Matalinong pag hila pababa</string>
+  <string name="smart_pulldown_summary">Buksan ng mabilis ang mga setting kung saan %1$s mga notipikasyon</string>
+  <string name="smart_pulldown_none_summary">Upang mabuksan ng mabilis angg mga setting kailngan wala itong mga notipikasyon</string>
+  <string name="smart_pulldown_off">Mula sa</string>
+  <string name="smart_pulldown_none">walang mga notipikasyon</string>
+  <string name="smart_pulldown_dismissable">walang dissmissable</string>
+  <string name="smart_pulldown_ongoing">walang papunta</string>
   <!-- Lockscreen icons -->
+  <string name="lockscreen_tuner_title">Ang taga pihit ng Lockscreen</string>
+  <string name="hide_lockscreen_items_title">Mga item sa Lockscreen</string>
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">Ang pag pwersa sa na ekspand na mga notipikasyon</string>
+  <string name="force_expanded_notifications_summary">Magagamit lamang ang mga app para suportahan ang pinalawak na mga notipikasyon</string>
   <!-- Double Tap Lockscreen to Sleep -->
+  <string name="double_tap_to_sleep_lockscreen_title">Doblehin ang pag-tap para makatulog ang lockscreen</string>
+  <string name="double_tap_to_sleep_lockscreen_summary">Doblehin ang pag tap pangatlo sa taas o sa ibaba ng shortcut na lugar ng lockscreen para mailagaya sa pagtulog ang lockscreen</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">I-double tap para makatulog sa status bar</string>
+  <string name="double_tap_to_sleep_summary">I-double tap sa status bar para mailagay sa pag tulog ang device</string>
   <!-- Brightness control -->
+  <string name="status_bar_toggle_brightness">Ang kontrol ng liwanag</string>
+  <string name="status_bar_toggle_brightness_summary">I-adjust ang brightness sa pamamagitan ng pag-slide sa kabuuan ng Status bar</string>
   <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Ang pag papalit ng impormasyon sa lockscreen</string>
+  <string name="lockscreen_battery_info_summary">I-display ang negociated charger sa kasalukuyang pag tdo at ang boltahe at temperatura ng baterya sa lockscreen habang nag-charge</string>
   <!-- Media art -->
+  <string name="media_art_title">Pag-cover ng sining sa media</string>
+  <string name="media_art_summary">I-enable ang sining ng media cover sa lockscreen</string>
   <!-- Buttons title -->
+  <string name="volume_category">Ang dami ng rocker</string>
+  <string name="power_category">Pindutin ang power</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Pag palitin ang dami ng rocker sa orientation</string>
+  <string name="swap_volume_buttons_summary">I-adjust ang oryentasyon ng rocker base sa kasalukuyang ikot</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Ang dami ng pag kontrol sa susi sa dami ng media</string>
+  <string name="volume_keys_control_media_stream_summary">Pwersa sa dami ng mga susi sa pag kontrol ng stream media</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">I-playback ang pag-control</string>
+  <string name="volume_rocker_music_controls_summary">Kapag ang screen ay nakapatay, Pindutin ng matagal ang dami ng mga susi na hahanapin sa mga track ng musika</string>
   <!-- Language options - Volume rocker cursor control -->
+  <string name="cursor_section_header">Ang cursor</string>
+  <string name="volume_key_cursor_control_title">Ang dami ng susi sa pag kontrol ng cursor</string>
+  <string name="volume_key_cursor_control_off">I-disabled</string>
+  <string name="volume_key_cursor_control_on">Laksan ang tunog pataas/baba mga galaw ng cursor sa kaliwa/kanan</string>
+  <string name="volume_key_cursor_control_on_reverse">Laksan ang tunog pataas/baba mga galaw ng cursor sa kanan/kaliwa</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Gisingin ang dami ng rocker</string>
+  <string name="volume_rocker_wake_summary">Ang pag diin sa dami ng mga key ay magigising ang iyong device</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Ang pag sagot sa dami ng mga susi</string>
+  <string name="volume_answer_call_summary">Sagutin ang tawag kapag ang dami ng mga susi ay na-pressed</string>
   <!-- QS rows and columns -->
+  <string name="qs_layout_category">QS ang layout ng tile</string>
+  <string name="qs_rows_columns_title">QS mga hanay at mga hilera</string>
+  <string name="qs_rows_portrait_title">Mga hanay ng tile sa larawan</string>
+  <string name="qs_rows_landscape_title">Mga hanay ng tile sa tanawin</string>
+  <string name="qs_columns_portrait_title">Mga hanay ng tile sa larawan</string>
+  <string name="qs_columns_landscape_title">Ang mga hanay ng tile sa tanawin</string>
+  <string name="qs_tile_title_visibility_title">Titulo ng pinakita na mga tile</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">I-launch ang ap ng musika sa koneksyon ng headset</string>
+  <string name="headset_connect_player_disabled">I-disabled</string>
+  <string name="headset_connect_player_wired">Ang kawad ng headset ay naka plugged sa</string>
+  <string name="headset_connect_player_bt_no_carkit">Ang BT headset (walang carkit) na naka plugged in</string>
+  <string name="headset_connect_player_bt">Ang BT headset naka plugged sa</string>
+  <string name="headset_connect_player_both_no_carkit">Kahit anong headset ( walang carkit) na naka-plugged sa</string>
+  <string name="headset_connect_player_both">Kahit anong headset na naka-plugged sa</string>
   <!-- Headset ringtone audio focus -->
+  <string name="ringtone_focus_mode_title">Mula Saan mapa-tugtug ang mga ringtone</string>
+  <string name="ringtone_focus_mode_dynamic">Mula sa headset kung konektado at pinaandar na musika</string>
+  <string name="ringtone_focus_mode_stock">"Mula sa speakerphone (aosp default)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
+  <string name="headsup_category">Ang mga setting ng headsUp</string>
+  <string name="heads_up_notifications">Pag-Heads up</string>
+  <string name="summary_heads_up_enabled">Ang pop-up nga mga notipikasyon na makaya</string>
+  <string name="summary_heads_up_disabled">Ang pop-up ng mga notipikasyon ay hindi makaya</string>
+  <string name="add_heads_up_package">Mag dagdag ng app</string>
+  <string name="add_heads_up_stoplist_summary">I-disable ang mga head up ng notipikasyon sa mga aplikasyon na ito</string>
+  <string name="add_heads_up_blacklist_summary">I-disable ang heads up mula sa mga aplikasyon na ito</string>
+  <string name="heads_up_stoplist_title">Ang stoplist</string>
+  <string name="heads_up_blacklist_title">Ang Blacklist</string>
+  <string name="profile_choose_app">Puli ng app</string>
+  <string name="dialog_delete_title">Burahin</string>
+  <string name="dialog_delete_message">Alisin ang napiling item?</string>
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Ubos na ang oras</string>
+  <string name="heads_up_time_out_summary">Pag pili ng mga notipikasyon para ipakita <xliff:g id="number">%d</xliff:g> mga segundo</string>
+  <string name="heads_up_time_out_2sec">2 segundo</string>
+  <string name="heads_up_time_out_4sec">4 na sigundo</string>
+  <string name="heads_up_time_out_5sec">5 na segundo</string>
+  <string name="heads_up_time_out_6sec">6 na sigundo</string>
+  <string name="heads_up_time_out_8sec">8 na sigundo</string>
+  <string name="heads_up_time_out_10sec">10 na segundo</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Oras ng paghilik</string>
+  <string name="heads_up_snooze_summary_one_minute">I-swp up on ang pag-pili sa mga notipikasyon ay i-snooze up ang ulo mula sa aplikasyon ng isang minuto</string>
+  <string name="heads_up_snooze_summary">I-swp up on ang pag-pili sa mga notipikasyon ay i-snooze up ang ulo mula sa aplikasyon ng isang minuto</string>
+  <string name="heads_up_snooze_disabled_summary">Ang oras ng snooze ay hindi gumagana</string>
+  <string name="heads_up_snooze_1min">1 minuto</string>
+  <string name="heads_up_snooze_5min">5 minuto</string>
+  <string name="heads_up_snooze_10min">10 minuto</string>
+  <string name="heads_up_snooze_15min">15 minuto</string>
+  <string name="heads_up_snooze_20min">20 minuto</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Ang tawag sa mga pagpipilian ng-vibration</string>
+  <string name="incall_vibrate_connect_title">Koneksyon sa pag-vibrate</string>
+  <string name="incall_vibrate_call_wait_title">Mg-vibrate sa pag aantay ng tawag</string>
+  <string name="incall_vibrate_disconnect_title">Ang koneksyon sa pag-vibrate</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">I-disable ang FC ng mga notipikasyon</string>
+  <string name="disable_fc_notifications_summary">Lahat ng ito ay maitatago ang lakas kapag naka sara ang mga notipikasyon</string>
   <!-- Statusbar ticker -->
+  <string name="ticker_screen_title">I-ticker</string>
+  <string name="ticker_mode_title">Ang statusbar notipikasyon na ticker</string>
+  <string name="ticker_disabled">Hindi gumagana</string>
+  <string name="ticker_enabled">Notipikasyon sa ticker</string>
+  <string name="ticker_media_enabled">Notipikasyon at musika sa ticker</string>
+  <string name="recents_icon_pack_title">Ang pakete ng icon</string>
+  <string name="recents_icon_pack_summary">I-apply ang kostom icon na naka-pack sa nakaraang panel</string>
+  <string name="no_iconpacks_summary">Walang mga icon pack ang na-install</string>
+  <string name="dialog_pick_iconpack_title">Pumili ng icon pack</string>
+  <string name="default_iconpack_title">I-default ang mga icon</string>
   <!-- Slim Recents panel -->
+  <string name="slim_recents_title">Mga huling Slim</string>
+  <string name="use_slim_recents_title">Gumamit ng nakaraang alternatibong panel</string>
+  <string name="use_slim_recents_summary">Gamitin ang nakaraang slim sahalip na i-default ang nakaraang view</string>
+  <string name="slim_recents_settings_title">Mga nakaraang setting sa slim</string>
+  <string name="slim_recents_settings_summary">Ang nakaraang view para sa mga setting ng slim</string>
+  <string name="recents_max_apps_title">I-max ang pinayagan na mga app</string>
+  <string name="recent_panel_scale_title">Ang sukat</string>
+  <string name="recent_panel_expanded_mode_title">Mga pinalawak na karaang mode</string>
+  <string name="recent_panel_expanded_mode_summary">Ang mga nakaraang pinalawak na gawain para makita ang mode</string>
+  <string name="recent_panel_expanded_mode_auto">I-auto (default)</string>
+  <string name="recent_panel_expanded_mode_always">I-preview lahat</string>
+  <string name="recent_panel_expanded_mode_never">Patayin(mabilis na mode ng makina)</string>
+  <string name="recent_panel_bg_color_title">Ang kulay ng panel background</string>
+  <string name="recent_card_bg_color_title">Ang kulay ng kard backround</string>
+  <string name="recent_reset_title">I-reset ang kulay ng stock</string>
+  <string name="recent_reset_confirm">Sigurado kaba na nanais mong ulitin ang nakaraang Slim sakulay ng stock?</string>
+  <string name="default_auto_string">I-default (hango sa app)</string>
+  <string name="slim_icon_pack_title">Ang icon sa pakete</string>
+  <string name="slim_icon_pack_summary">Mag-apply ng kostom icon na pakete para sa mga app ng panel</string>
+  <string name="slim_recents_corner_radius_title">Gamitin ang bilig na mga korners para sa mga kard</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_title">Ipakita sa sa kaliwang gilid</string>
+  <string name="recent_panel_lefty_mode_summary">Ipakita ang nakaraang app sa panel sa kaliwang gilid</string>
+  <string name="slim_blacklist_apps_cat_title">I-blacklist</string>
+  <string name="slim_blacklist_apps_title">Mga app sa blacklist</string>
+  <string name="slim_blacklist_apps_summary">Mga app na hindi ipakita sa panel</string>
+  <string name="slim_blacklist_add_apps_title">Mag dagdag ng app</string>
+  <string name="slim_blacklist_add_apps_summary">I-ta dito para ma ad, I-tap para madagdagan ng app para maalis ito</string>
   <!-- DUI -->
+  <string name="navbar_interface_title">Ang interface</string>
+  <string name="navbar_size">Ang sukat</string>
+  <string name="navbar_mode">Ang mode ng nabigasyon</string>
+  <string name="navbar_mode_summary">Alin sa nabigasyon na mode ang pipiliin para magamit sa iyong device</string>
+  <string name="navbar_visibility">Payagan ang nabigasyon bar</string>
+  <string name="navigationbar_settings_summary">I-customize ang style at kilos ng nabigasyon</string>
+  <string name="navbar_general_title">Ang pag sulong</string>
+  <string name="navigation_bar_left_title">Ang mode ng kalewete</string>
+  <string name="navigation_bar_left_summary">I-place ang nabigasyon ng bar sa kaliwang bahagi ng screen matatanaw na mode</string>
+  <string name="smartbar_interface">Ang smart bar</string>
+  <string name="icon_pack_picker_dialog_title">Ang mga icon ng pakete</string>
+  <string name="image_exceeds_max_allowed_size">Ang imahe ay hindi dapat lalampas sa 512X12</string>
+  <string name="invalid_icon_from_uri">I-unable ang pag load ng imahe mula sa nilalaman ng provider</string>
+  <string name="picker_activities">Mga aktibidad</string>
+  <string name="select_custom_app_title">Mamili ng kustom app</string>
+  <string name="select_custom_activity_title">Mamili ng aktibidad sa kustom</string>
+  <string name="profile_applist_title">Mga aplikasyon</string>
+  <string name="default_string">Ang stock</string>
+  <string name="default_settings">Mga punong setting</string>
+  <string name="default_settings_summary">Ang punong AOSP na nabigasyon bar</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Pumili ng aksyon</string>
+  <string name="action_entry_default_action">I-default ang mga setting</string>
+  <string name="action_entry_select_app">Pumili ng aplikasyon</string>
+  <string name="action_entry_custom_action">Pumili ng aksyon sa kustom</string>
   <!-- Fling -->
+  <string name="fling_settings">I-fling ang mga setting</string>
+  <string name="fling_settings_summary">Ang napaka kakaiba at lubos nai-customzed nakilos-base sa nabigasyon ng bar</string>
+  <string name="fling_interface">I-fling</string>
+  <string name="fling_enable_title">I-enable ang fling</string>
+  <string name="fling_back_home_policy">Pag balik at ang Home ay kailangan na ma i-set sa lahat ng mga oras. Para mapalitan ang Pag balik o gawain sa home, i-set muna ang napiling takda.\n\ngayon din, pag-set ng dobleng tap na aksyon ay maaring ma-delay ang single tap abit.</string>
+  <string name="fling_split_bar_policy">Lamang kung ang kanan o kaliwang aksyon na naka-assigned, Ma-aaply ang kabuuang aksyon sa bar.</string>
+  <string name="fling_def_summary">Walang aksyon sa set</string>
+  <string name="fling_swipe_actions">I-swipe ang pag kilos</string>
+  <string name="fling_tap_actions">I-tap ang mga gesture</string>
+  <string name="fling_short_swipe_right">Mag-swipe ng maiksi sa kanan</string>
+  <string name="fling_short_swipe_left">Mag-swipe ng maiksi sa kaliwa</string>
+  <string name="fling_long_swipe_right">Mag-swipe ng mahaba sa kanan</string>
+  <string name="fling_long_swipe_left">Mag-swipe ng mahaba sa kaliwa</string>
+  <string name="fling_right_up_swipe">Mag-swipe pataas sa kanang bahagi</string>
+  <string name="fling_left_up_swipe">Mag-swipe pataas sa kaliwang bahagi</string>
+  <string name="fling_single_tap">Iisang tapik sa kanan</string>
+  <string name="fling_double_tap">Dobleng tapik sa kanan</string>
+  <string name="fling_long_press">Habaan ang pindot sa kanan</string>
+  <string name="fling_single_left_tap">Iisang tapik sa kaliwa</string>
+  <string name="fling_double_left_tap">Dobleng tapik sa kaliwa</string>
+  <string name="fling_long_left_press">Habaan ang pindot sa kaliwa</string>
+  <string name="long_swipe_portrait_title">I-portait</string>
+  <string name="long_swipe_landscape_title">I-landscaepe</string>
+  <string name="portrait_right_swipe_title">Mag-swipe ng portrait sa kanan</string>
+  <string name="portrait_left_swipe_title">Mag-swipe ng portrait sa kaliwa</string>
+  <string name="landscape_right_swipe_title">Mag-swipe ng pahiga sa kanan</string>
+  <string name="landscape_left_swipe_title">Mag-swipe ng pahiga sa kaliwa</string>
+  <string name="vertical_up_swipe_title">Pataas na pag-swipe</string>
+  <string name="vertical_down_swipe_title">Pa baba na pag-swipe</string>
+  <string name="up_swipe_title">Sa taas mag-swipe</string>
+  <string name="down_swipe_title">Sa baba mag-swipe</string>
+  <string name="long_swipe_reset">I-reset</string>
+  <string name="fling_advanced">I-advance</string>
+  <string name="fling_long_swipe_title">Mga hangganan ng mahabang swipe</string>
+  <string name="fling_long_swipe_summary">Pino ang tunog kapag i-swipe ng mahaba base sa hangganan na pag hahagis ng pursyentong lapad at haba</string>
+  <string name="fling_trails_enable_title">I-enable ang galaw ng mga trail</string>
+  <string name="fling_trails_enable_summary">Ipakita ang trail sa mga kilos ng swipe</string>
+  <string name="fling_trails_color_title">Ang pagsubok sa kulay</string>
+  <string name="fling_trails_width_title">Subukan ang lapad</string>
+  <string name="fling_appearance">Ang anyo</string>
+  <string name="fling_show_logo_title">Ipakita ang logo ng fling</string>
+  <string name="fling_animate_logo_title">Ang animated logo</string>
+  <string name="fling_animate_logo_summary">Ang mga animated logo sa mga okasyon i-touch</string>
+  <string name="fling_logo_color">Ang kulay ng logo</string>
+  <string name="fling_logo_custom_logo_pick_title">Ang logo ng kostom na icon</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Ang kostom na imahe ng logo</string>
+  <string name="fling_logo_custom_logo_reset_title">I-reset ang logo ng icon</string>
+  <string name="fling_show_ripple_title">Ipakita ang ripple</string>
+  <string name="fling_show_ripple_summary">I-ripple ang epekto sa hahawakang mga pangyayari</string>
+  <string name="fling_ripple_color">I-ripple ang kulay</string>
+  <string name="fling_longpress_timeout_label_left">Kakaunti ang naantala</string>
+  <string name="fling_longpress_timeout_label_right">Marami ang naantala</string>
+  <string name="fling_longpress_title">I-delay ang pag pindot ng mahaba</string>
+  <string name="fling_longpress_summary">Dagdagagan o bawasan ang oras ang kukunin na oras para ma magawa ang mahabanag pang pindot</string>
+  <string name="fling_keyboard_cursors_title">Ang daynamikong mga cursor ng sa aksyon ng keyboard</string>
+  <string name="fling_keyboard_cursors_summary">I-tap ng doble sa kaliwa at kanan ang mga aksyon upang maging nasa kaliwa at kanan ang aksyon ng kursor keyboard kung ang keyboard ay bukas</string>
+  <string name="fling_logo_opacity_title">Ang kalabuan ang na-fling na logo</string>
   <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_help_policy_notice_summary">Ang tibok ang hindi gumagana kasama ang ibang mga pinag mulan ng ausio kung saan nakikinig sa instrumento ng espiker</string>
+  <string name="pulse_settings">Ang pulso</string>
+  <string name="pulse_settings_summary">Ang nabigasyon ng tunog ng bar graphic equalizer</string>
+  <string name="fling_show_pulse_title">Payagan ang pulso</string>
+  <string name="fling_show_pulse_summary">Ang audio graphic equalizer sa nabigasyon ng bar</string>
+  <string name="pulse_render_mode_title">Igawad ng marami</string>
+  <string name="pulse_render_mode_fading_bars">I-fade ang mga bloke</string>
+  <string name="pulse_render_mode_solid_lines">Ang solidong mga linya</string>
+  <string name="pulse_accent_color_title">I-pulse ang mga palamuti sa kulay</string>
+  <string name="pulse_accent_color_summary">Ang pulso ay magagamit ang kasalukuyang palamuti sa kulay para mapagana ito. ang Lava lamp ay hindi gagana</string>
+  <string name="fling_pulse_color">Ang pulso ng kulay</string>
+  <string name="eos_fling_lavalamp_title">Buksan ang lava lamp</string>
+  <string name="eos_fling_lavalamp_summary">I-pulse ang mga unimate para sa pinong istilo na pag halo kulay sa lava lamp</string>
+  <string name="pulse_advanced_category">Ang pagsulong</string>
+  <string name="pulse_legacy_mode_advanced_category">I-fade ang mga block sa mga setting ng mode</string>
+  <string name="pulse_custom_fudge_factor">Katinuan ng lebel</string>
+  <string name="lavamp_solid_speed_title">Ang bilis ng lava lamp</string>
+  <string name="pulse_solid_units_count">Ang bilang ng solidong mga linya</string>
+  <string name="pulse_solid_lines_count">Ang bilang ng solidong mga linya</string>
+  <string name="pulse_solid_units_opacity">Ang kalabuan sa solidong mga linya</string>
+  <string name="pulse_solid_dimen_category">Ang mga pag tatagpo sa solidong linya</string>
+  <string name="pulse_custom_buttons_opacity_title">I-smart bar ang pulso sa mga button ng opacity</string>
   <!-- Pulse config -->
+  <string name="pulse_custom_dimen">Ang lapad ng bar</string>
+  <string name="pulse_custom_div">Ang puwang sa bar</string>
+  <string name="pulse_filled_block_size">Ang sukat ng bloke</string>
+  <string name="pulse_empty_block_size">Ang puwang sa bloke</string>
   <!-- Navbar height -->
+  <string name="navigation_bar_size_title">Ang sukat ng bar</string>
+  <string name="portrait_title">Taas ng larawan</string>
+  <string name="land_vert_title">Ang lapad ng landscape</string>
+  <string name="land_hor_title">Ang haba ng landscape</string>
+  <string name="positive_done">Tapos na</string>
   <!-- SmartBar -->
+  <string name="smartbar_category">Ang smartbar</string>
+  <string name="smartbar_settings_title">Ang mga setting ng smart bar</string>
+  <string name="smartbar_settings_summary">Lubusang customize na navigation bar</string>
+  <string name="smartbar_editor_title">Umpisahan ang pag bago ng mode</string>
+  <string name="smartbar_editor_summary">Buksan ang mga button ng smartbar editor</string>
+  <string name="smartbar_help_policy_notice_summary">Kapag ikay nasa mode ng editor, marahang pindutiin at hilain ang buttin para mabago ang posisyon nito o pindutin ang button para makita ang pag bago sa menu. Ang posisyon ng button ay maaring mag bagohabang ang menu ay pinapakita.\n\n ang setting ng dobleng aksyon sa pag tap ay maaring mag dahilan ng kaunting abala sa single tap.</string>
+  <string name="smartbar_context_menu_position_title">Ang nilalaman ng mga posisyon sa button ng layout</string>
+  <string name="smartbar_context_menu_position_summary">I-set ang position ng contextual ng mga button katulad ng menu at ime selector</string>
+  <string name="smartbar_right">Sa kanan</string>
+  <string name="smartbar_left">Sa kaliwa</string>
+  <string name="smartbar_button_animation_title">Ang button gayun din ang animation</string>
+  <string name="smartbar_button_animation_summary">I-set ang estilo sa animation pangunahing mga button kung saan sila ay na pindot</string>
+  <string name="smartbar_button_animation_ripple">Ang galaw</string>
+  <string name="smartbar_button_animation_spring">Ang spring</string>
+  <string name="smartbar_button_animation_flip">I-flip</string>
+  <string name="smartbar_button_animation_pixel">Ang pixel (all buttons)</string>
+  <string name="smartbar_button_animation_pixel_home">Ang pixel (home button only)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Ang pixel (Home button only) at galaw</string>
+  <string name="smartbar_factory_reset_title">I-reset para sa stock</string>
+  <string name="smartbar_factory_reset_confirm">Sigurado ka ba na nais mong i-reset ang smartbar sa mga stock setting?</string>
+  <string name="smartbar_ime_action_title">Ang pamamaraan sa pag-input at mga aksyon sa media</string>
+  <string name="smartbar_ime_action_summary">I-set kung anong button para lumitaw kung saan on-screen ang keyboard ay pinapakita o ang tumutugtug na musika</string>
+  <string name="smartbar_ime_action_none">Wala</string>
+  <string name="smartbar_ime_action_arrows">I-input ang mga arrow</string>
+  <string name="smartbar_ime_action_switcher">Pag palit ng keyboard</string>
+  <string name="smartbar_ime_action_dynamic">I-input/mga media arrow</string>
+  <string name="smartbar_backup_current_config_title">I-save ang propayl</string>
+  <string name="smartbar_restore_config_title">Ibalik ang propayl</string>
+  <string name="smartbar_config_name_edit_dialog_title">Ang pangalan ng smartbar propayl</string>
+  <string name="smartbar_config_name_edit_dialog_message">Ilgay ang pangalan o iwanan ng blanko</string>
+  <string name="smartbar_config_dialog_title">Mga propayl ng smartbar</string>
+  <string name="smartbar_config_backup_success_toast">Tagumpay na i-save ang smartbar propayl</string>
+  <string name="smartbar_config_restore_success_toast">Tagumpay na ibalik ang smartbar propayl</string>
+  <string name="smartbar_config_backup_error_toast">Mali ang pa-save ng smartbar propayl</string>
+  <string name="smartbar_config_restore_error_toast">Mali ang pag balik ng smartbar propayl</string>
+  <string name="navbar_buttons_alpha_title">Ang pag aninag sa button</string>
+  <string name="smartbar_longpress_delay_title">Antala sa pag pindot ng mahaba sa button</string>
+  <string name="smartbar_longpress_delay_summary">I-set kung gaano katagal mag aantay ang sistema bago kalabitin ng aksyon sa mahabang pag pinduto</string>
+  <string name="smartbar_longpress_delay_default">Naantala ang pag-default (fast)</string>
+  <string name="smartbar_longpress_delay_normal">Karaniwang pag antala</string>
+  <string name="smartbar_longpress_delay_long">Mahabang pag antala</string>
+  <string name="smartbar_custom_icon_size_title">Inakyat ang icon custom</string>
+  <string name="one_handed_mode_title">Pag lipat sa isang mode</string>
+  <string name="one_handed_mode_summary">Pina hihintulutan ang pag-swip sa navigation bar para gumana ang one handed mode</string>
   <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Ang turo sa pag-roaming</string>
+  <string name="roaming_indicator_icon_summary">Ipakita ang roamingindicator sa signal ng aicon kung saan ang roaming mode</string>
   <!-- 4G icon -->
+  <string name="show_fourg_icon_title">Ang icon ng 4G</string>
+  <string name="show_fourg_icon_summary">Ipakita ang 4G icon sa signal ng icon sa halip na LTE</string>
+  <string name="button_backlight_on_touch_only_title">Hawakan ang button</string>
+  <string name="button_backlight_on_touch_only_summary">Naubusan ng oras ang pag hawak sa buton gamit ang ilaw sa likod na kasama</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Ang mga ilaw sa likod ng button ay nabubusan ng oras</string>
+  <string name="backlight_timeout_on">Paganahin palagi</string>
+  <string name="backlight_timeout_3s">3 sigundo</string>
+  <string name="backlight_timeout_default">5 sigundo (default)</string>
+  <string name="backlight_timeout_10s">10 sigundo</string>
+  <string name="backlight_timeout_15s">15 na sigundo</string>
+  <string name="backlight_timeout_20s">20 na sigundo</string>
+  <string name="backlight_timeout_30s">30 na sigundo</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Ilaw sa likod</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">Paganahin ang ilaw sa likod</string>
   <!-- Hardware keys -->
+  <string name="hardware_keys_home_key_title">I-home button</string>
+  <string name="hardware_keys_menu_key_title">Ang menu sa button</string>
+  <string name="hardware_keys_assist_key_title">Hanapin ang button</string>
+  <string name="hardware_keys_appswitch_key_title">I-overview ang button</string>
+  <string name="hardware_keys_back_key_title">Pabalik ang button</string>
+  <string name="hardware_keys_double_tap_summary">I-tap ang dobleng pag-tap ng aksyon</string>
+  <string name="hardware_keys_single_tap_summary">I-tap ang isang pag-tap ng aksyon</string>
+  <string name="hardware_keys_long_press_summary">I-st ang mahabang aksyon sa pag pindot</string>
+  <string name="hardware_keys_single_tap_title">Nag-iisang aksyon sa pag tap</string>
+  <string name="hardware_keys_long_press_title">Mahabang aksyon sa pag pindot</string>
+  <string name="hardware_keys_double_tap_title">Dobleng aksyon sa pag tap</string>
+  <string name="hardware_keys_category">Mga susi sa hardware</string>
+  <string name="hardware_keys_disable_title">Mga doble ang susi</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Isara ang power sa-screen button torch</string>
+  <string name="torch_power_button_gesture_none">I-disable</string>
+  <string name="torch_power_button_gesture_dt">Doblehin ang pag tap sa power toggle ng torch(will add a small delay to single tap)</string>
+  <string name="torch_power_button_gesture_lp">Pindutin ng mahaba ang power para ma toggle ang tourch</string>
+  <string name="force_ambient_for_media_pref_title">I-ticker pag-ambient ang musika</string>
+  <string name="force_ambient_for_media_pref_summary">Kumpirmahin ang ambient ng musika sa ticker</string>
+  <string name="ambient_ticker_footer">Ang tampok na ito ay pinahihintulutan para sa abilidad na maipakita ang kasalukuyang track ng musika para sa impormasyon ng lockscreen meron man o walang pinaganang display sa ambient.\n\n maari kang mamili sa mga na-layout, normal at kakaunti. Habang ang mhga feature nito ay kukuhin ang pakinabang sa ambient display, ito ay hindi naka depende dito. ito ay maaring kalabitin ng hindi mapagana ang display sa ambient gamit ang (forced) mga pag pipilian.\n\n Ang normal na pag tanaw kasama ang orasan sa lockscreen, ang petsa at ticker.\n\n\Kakaunting view na kasama lamang ang ticker sa gitna ng screen.</string>
+  <string name="force_ambient_for_media_title">Mamili ng layout</string>
+  <string name="force_ambient_for_media_off">I-disable</string>
+  <string name="force_ambient_for_media_on">Pangkaraniwan</string>
+  <string name="force_ambient_for_media_on_forced">Karaniwan (forced)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Kakaunti (forced)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

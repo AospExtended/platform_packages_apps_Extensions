@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Основни настройки</string>
   <!-- Network traffic -->
   <string name="traffic_title">Трафик индикатори</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Допълнителни разширения</string>
   <!-- Recents UI -->
@@ -81,6 +82,7 @@
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="color_default">По подразбиране</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Светлина за зареждане на батерията</string>
   <string name="battery_light_enable">Индикации на батерия</string>
@@ -169,6 +171,7 @@
   <string name="ringtone_focus_mode_title">От къде да се чува позвъняване</string>
   <string name="ringtone_focus_mode_dynamic">От слушалките ако са свързани и звучи музика</string>
   <string name="ringtone_focus_mode_stock">"От високоговорителя ( по подразбиране)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
@@ -199,4 +202,7 @@
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

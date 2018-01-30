@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Асноўныя налады</string>
   <!-- Network traffic -->
   <string name="traffic_title">Індыкатар трафіку</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Іншыя налады</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Задаць</string>
   <string name="color_default">Па змаўчанні</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Індыкацыя зарада батарэі</string>
   <string name="battery_light_enable">Індыкатар батарэі</string>
@@ -222,6 +224,7 @@
   <string name="ringtone_focus_mode_title">Гуляць мелодыю выкліка праз</string>
   <string name="ringtone_focus_mode_dynamic">Навушнікі, калі яны падлучаныя і грае музыка</string>
   <string name="ringtone_focus_mode_stock">"Праз дынамік (aosp па змаўчанні)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Налады ўсплывальных апавяшчэнняў</string>
   <string name="heads_up_notifications">Усплывальныя апавяшчэнні</string>
@@ -395,6 +398,8 @@
   <string name="pulse_render_mode_title">Рэжым візуалізацыі</string>
   <string name="pulse_render_mode_fading_bars">Згасаючыя блокі</string>
   <string name="pulse_render_mode_solid_lines">Суцэльныя лініі</string>
+  <string name="pulse_accent_color_title">Выкарыстоўваць каляровы акцэнт для імпульсу</string>
+  <string name="pulse_accent_color_summary">Пры ўключэнні гэтай опцыі Pulse будзе выкарыстоўваць ваш бягучы колер. \"Lava Lamp\" адключыцца</string>
   <string name="fling_pulse_color">Колер Pulse</string>
   <string name="eos_fling_lavalamp_title">Уключыць Lava Lamp</string>
   <string name="eos_fling_lavalamp_summary">Выпадковыя колеры ў стылі Lava Lamp</string>
@@ -503,4 +508,15 @@
   <string name="torch_power_button_gesture_none">Адключана</string>
   <string name="torch_power_button_gesture_dt">Падвойнае націск кнопкі сілкавання, каб уключыць ліхтарык (адзін кароткі націск выключае ліхтарык)</string>
   <string name="torch_power_button_gesture_lp">Утрыманне кнопкі сілкавання для уключэння ліхтарыка</string>
+  <string name="force_ambient_for_media_pref_title">Музычны цікер на Ambient Display</string>
+  <string name="force_ambient_for_media_pref_summary">Налады музычнага цікера на Ambient Display</string>
+  <string name="ambient_ticker_footer">Гэтая функцыя дазваляе адлюстроўваць бягучую інфармацыю аб музычным трэку на экране блакавання з уключаным Ambient Display або без яго.\n\nВы можаце выбраць адзін з двух варыянтаў, звычайны і мінімальны. Нягледзячы на ​​тое, што гэтая функцыя выкарыстоўвае Ambient Display, яна не залежыць ад яго. Яна можа быць выклікана і без Ambient Display, уключанага з дапамогай (прымусова) опцый.\n\nЗвычайны выгляд ўключае ў сябе гадзіны, дату і бягучы радок.\n\nМінімальны выгляд ўключае толькі бягучы радок у цэнтры экрана.</string>
+  <string name="force_ambient_for_media_title">Выберыце шаблон</string>
+  <string name="force_ambient_for_media_off">Адключана</string>
+  <string name="force_ambient_for_media_on">Звычайны</string>
+  <string name="force_ambient_for_media_on_forced">Нармальны (прымусова)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Мінімальны (прымусова)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

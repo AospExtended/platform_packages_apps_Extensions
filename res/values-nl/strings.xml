@@ -18,39 +18,106 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensies</string>
+  <string name="add">Toevoegen</string>
+  <string name="advanced">Geavanceerd</string>
+  <string name="cancel">Annuleren</string>
+  <string name="choose_app">Kies applicatie</string>
+  <string name="general_category">Algemeen</string>
+  <string name="gestures_category">Gebaren</string>
+  <string name="music_category">Muziek</string>
+  <string name="security_category">Beveiliging</string>
+  <string name="hardware_category">Hardware</string>
+  <string name="icons_category">Pictogrammen</string>
+  <string name="dlg_ok">OK</string>
+  <string name="loading">Laden\u2026</string>
+  <string name="reset">Reset</string>
+  <string name="reset_colors">Kleuren herstellen</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Tekst</string>
+  <string name="icon_title">Pictogram</string>
+  <string name="color_title">Kleur</string>
+  <string name="colors_title">Kleuren</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Recente apps</string>
+  <string name="status_bar_category">Statusbalk</string>
+  <string name="notifications_panel_category">Notificatie paneel</string>
+  <string name="system_category">Systeem</string>
+  <string name="lockscreen_category">Vergrendelscherm</string>
+  <string name="navigation_category">Navigatie</string>
+  <string name="build_tweaks_summary_title">Verrijk je toestel!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <!-- Recents UI -->
   <!-- Lockscreen UI -->
   <!-- Statusbar Iten -->
   <!-- Notifications -->
+  <string name="notifications_title">Meldingen</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Navigatiebalk</string>
   <!-- Quick Settings -->
   <!-- Buttons -->
+  <string name="buttons_title">Knoppen</string>
   <!-- App Ops -->
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Help ons jou helpen!</string>
+  <string name="extensions_dialog_toast">LEES HET HELE DING!</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Kleurkiezer</string>
+  <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
+  <string name="powermenu_airplane">Vliegtuig</string>
+  <string name="powermenu_settings">Instellingen</string>
+  <string name="powermenu_soundpanel">Geluidspaneel</string>
+  <string name="powermenu_users">Gebruikers</string>
+  <string name="powermenu_torch">Zaklamp</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_summary">Uitschakelen Aan-/uit menu op vergrendelscherm</string>
+  <string name="recents_show_membar_summary">Balk tonen die het geheugengebruik weergeeft</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Helderheidspictogram </string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Snel omlaag trekken</string>
+  <string name="quick_pulldown_summary">%1$s rand van de statusbalk trekt Snelle Instellingen naar beneden</string>
+  <string name="quick_pulldown_summary_always">Altijd Snelle Instellingen op statusbalk omlaag trekken weergeven</string>
+  <string name="quick_pulldown_off">Uit</string>
+  <string name="quick_pulldown_left">Links</string>
+  <string name="quick_pulldown_right">Rechts</string>
+  <string name="quick_pulldown_always">Altijd</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_summary">Open snelle instellingen wanneer er %1$s meldingen zijn</string>
+  <string name="smart_pulldown_none_summary">Open snelle instellingen wanneer er geen meldingen zijn</string>
+  <string name="smart_pulldown_off">Uit</string>
+  <string name="smart_pulldown_none">geen meldingen</string>
   <!-- Lockscreen icons -->
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">Gebruik altijd uitgebreide meldingen</string>
+  <string name="force_expanded_notifications_summary">Enkel beschikbaar voor apps met ondersteuning van uitgebreide meldingen</string>
   <!-- Double Tap Lockscreen to Sleep -->
+  <string name="double_tap_to_sleep_lockscreen_title">Dubbel tikken op het vergrendelscherm om te slapen</string>
   <!-- Double tap-to-sleep -->
   <!-- Brightness control -->
+  <string name="status_bar_toggle_brightness">Helderheid beheren</string>
+  <string name="status_bar_toggle_brightness_summary">Helderheid aanpassen door over de statusbalk te vegen</string>
   <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Accu informatie op vergrendelscherm</string>
   <!-- Media art -->
+  <string name="media_art_title">Media albumhoes</string>
   <!-- Buttons title -->
+  <string name="power_category">Aan/uit-knop</string>
   <!-- Volume button orientation based on current rotation -->
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
@@ -60,6 +127,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
@@ -82,4 +150,7 @@
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

@@ -54,6 +54,7 @@
   <string name="general_tweaks_title">Ajustes generales</string>
   <!-- Network traffic -->
   <string name="traffic_title">Indicadores de tráfico</string>
+  <!-- Carrier Label -->
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Extensiones misceláneas</string>
   <!-- Recents UI -->
@@ -85,6 +86,7 @@
   <string name="hex_hint">#ff000000</string>
   <string name="set">Aplicar</string>
   <string name="color_default">Por defecto</string>
+  <!-- Footer warnings -->
   <!-- Battery light -->
   <string name="battery_light_settings">Luz de carga de la batería</string>
   <string name="battery_light_enable">Luz de batería</string>
@@ -222,6 +224,7 @@
   <string name="ringtone_focus_mode_title">Donde reproducir los tonos de llamadas</string>
   <string name="ringtone_focus_mode_dynamic">Desde auricular si está conectado y reproduciendo música</string>
   <string name="ringtone_focus_mode_stock">"De altavoz (aosp por defecto)"</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <string name="headsup_category">Ajustes de notificaciones emergentes</string>
   <string name="heads_up_notifications">Notificaciones emergentes</string>
@@ -263,10 +266,10 @@
   <string name="disable_fc_notifications_title">Desactivar notificaciones de cierre forzado</string>
   <string name="disable_fc_notifications_summary">Esto ocultará todas las notificaciones de cierre forzado</string>
   <!-- Statusbar ticker -->
-  <string name="ticker_screen_title">Texto de notificación</string>
-  <string name="ticker_mode_title">Texto de notificación en la barra de estado</string>
+  <string name="ticker_screen_title">Ticker</string>
+  <string name="ticker_mode_title">Ticker en la barra de estado</string>
   <string name="ticker_disabled">Desactivado</string>
-  <string name="ticker_enabled">Notificaciones</string>
+  <string name="ticker_enabled">Ticker de notificación</string>
   <string name="ticker_media_enabled">Notificaciones y música</string>
   <string name="recents_icon_pack_title">Paquete de iconos</string>
   <string name="recents_icon_pack_summary">Aplicar un paquete de iconos en aplicaciones recientes</string>
@@ -395,6 +398,8 @@
   <string name="pulse_render_mode_title">Modo de renderizado</string>
   <string name="pulse_render_mode_fading_bars">Desvanecimiento de bloques</string>
   <string name="pulse_render_mode_solid_lines">Líneas sólidas</string>
+  <string name="pulse_accent_color_title">Utilizar color de acento en Pulse</string>
+  <string name="pulse_accent_color_summary">Activar esto hará que Pulse use el color de acento del sistema. Desactivará la lámpara de lava</string>
   <string name="fling_pulse_color">Color de Pulse</string>
   <string name="eos_fling_lavalamp_title">Enciender la lámpara de lava</string>
   <string name="eos_fling_lavalamp_summary">Pulse crea una animación con una suave mezcla de colores tipo lámpara de lava</string>
@@ -503,4 +508,15 @@
   <string name="torch_power_button_gesture_none">Deshabilitado</string>
   <string name="torch_power_button_gesture_dt">Pulsación doble en el botón de encendido enciende la linterna (añadirá un pequeño retraso a la pulsación)</string>
   <string name="torch_power_button_gesture_lp">Pulsación larga para encender la linterna</string>
+  <string name="force_ambient_for_media_pref_title">Ticker de música</string>
+  <string name="force_ambient_for_media_pref_summary">Configurar el ticker de música</string>
+  <string name="ambient_ticker_footer">Esta característica permite mostrar la información de la música actual,  con o sin la Pantalla Ambiente activada.\n\n Puede escoger entre dos estilos, normal y simple. Mientras que esta función toma ventaja de la Pantalla Ambiente, no depende de ella. Puede ser reproducida sin la necesidad de activar la Pantalla Ambiente usando las opciones de forzar.\n\n La vista normal incluye el reloj, la fecha y el Ticker.\n\n La vista simple solo incluye el Ticker en el centro de la pantalla.</string>
+  <string name="force_ambient_for_media_title">Seleccionar estilo</string>
+  <string name="force_ambient_for_media_off">Desactivado</string>
+  <string name="force_ambient_for_media_on">Normal</string>
+  <string name="force_ambient_for_media_on_forced">Normal (forzar)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Simple (forzar)</string>
+  <!-- Carrier Label -->
+  <!-- Screen Off animation -->
+  <!-- Suppress notification sound/vibration -->
 </resources>

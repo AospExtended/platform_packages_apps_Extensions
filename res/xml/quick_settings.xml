@@ -52,6 +52,12 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true" />
+
         <org.aospextended.extensions.preference.SecureSettingSwitchPreference
             android:key="lockscreen_qs_disabled"
             android:title="@string/lockscreen_qs_disabled_title"

@@ -127,13 +127,17 @@ public class ColorPickerDialog extends AlertDialog implements ColorPickerView.On
 
     private void showLed(int color) {
         if (mShowLedPreview) {
-//            mNoMan.forceShowLedLight(color);
+            if (color == 0xFFFFFFFF) {
+                // argb white doesn't work
+                color = 0xffffff;
+            }
+            mNoMan.forceShowLedLight(color);
         }
     }
 
     private void switchOffLed() {
         if (mShowLedPreview) {
-//          mNoMan.forceShowLedLight(0);
+            mNoMan.forceShowLedLight(-1);
         }
     }
 

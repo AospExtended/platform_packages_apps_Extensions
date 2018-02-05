@@ -18,7 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
-  <string name="extensions_title">Extenções</string>
+  <string name="extensions_title">Extensões</string>
   <string name="add">Adicionar</string>
   <string name="advanced">Avançado</string>
   <string name="cancel">Cancelar</string>
@@ -55,7 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indicadores de tráfego de rede</string>
   <!-- Misc Extensions -->
-  <string name="misc_extensions_title">Outras extenções</string>
+  <string name="misc_extensions_title">Outras extensões</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Interface dos recentes</string>
   <!-- Lockscreen UI -->

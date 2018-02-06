@@ -668,4 +668,8 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="menu_cancel">Cancel</string>
     <string name="menu_save">Save</string>
+
+    <string name="face_auto_unlock_title">Face auto unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 </resources>
+

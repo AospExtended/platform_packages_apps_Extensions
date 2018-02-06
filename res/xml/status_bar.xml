@@ -31,6 +31,12 @@
     </Preference>
 
          <Preference
+            android:key="status_bar_clock"
+            android:fragment="org.aospextended.extensions.StatusBarClockSettings"
+            android:icon="@drawable/ic_statusbarclock"
+            android:title="@string/status_bar_clock_title" />
+
+         <Preference
             android:key="traffic"
             android:fragment="org.aospextended.extensions.Traffic"
             android:icon="@drawable/ic_traffic"

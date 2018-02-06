@@ -193,5 +193,7 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
 
-</resources>
+    <string name="face_auto_unlock_title">Face auto unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 
+</resources>

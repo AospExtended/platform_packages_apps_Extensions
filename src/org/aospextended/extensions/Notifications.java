@@ -50,6 +50,7 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
     private ListPreference mTickerMode;
     private ListPreference mNoisyNotification;
+    private ListPreference mAnnoyingNotification;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -75,6 +76,13 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                 1, UserHandle.USER_CURRENT);
         mNoisyNotification.setValue(String.valueOf(mode));
         mNoisyNotification.setSummary(mNoisyNotification.getEntry());
+
+        mAnnoyingNotification = (ListPreference) findPreference("less_notification_sounds");
+        mAnnoyingNotification.setOnPreferenceChangeListener(this);
+        int threshold = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD,
+                30000, UserHandle.USER_CURRENT);
+        mAnnoyingNotification.setValue(String.valueOf(threshold));
     }
 
     @Override
@@ -105,6 +113,11 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
             int index = mNoisyNotification.findIndexOfValue((String) newValue);
             mNoisyNotification.setSummary(
                     mNoisyNotification.getEntries()[index]);
+            return true;
+        } else if (preference.equals(mAnnoyingNotification)) {
+            int mode = Integer.parseInt(((String) newValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, mode, UserHandle.USER_CURRENT);
             return true;
         }
         return false;

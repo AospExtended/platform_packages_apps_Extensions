@@ -19,7 +19,7 @@
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <ListPreference
         android:key="network_traffic_type"

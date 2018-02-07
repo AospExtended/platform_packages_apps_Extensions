@@ -65,7 +65,7 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         mTickerMode.setOnPreferenceChangeListener(this);
         int tickerMode = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.STATUS_BAR_SHOW_TICKER,
-                1, UserHandle.USER_CURRENT);
+                0, UserHandle.USER_CURRENT);
         mTickerMode.setValue(String.valueOf(tickerMode));
         mTickerMode.setSummary(mTickerMode.getEntry());
 

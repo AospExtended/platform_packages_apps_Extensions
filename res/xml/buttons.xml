@@ -197,7 +197,7 @@
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="volume_keys_control_media_stream"

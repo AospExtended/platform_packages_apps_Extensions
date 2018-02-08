@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Індыкатар трафіку</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Лагатып аператара</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Іншыя налады</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Задаць</string>
   <string name="color_default">Па змаўчанні</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Звярніце ўвагу, што карыстацкая назва аператара не адлюстроўваецца на панэлі хуткіх налад. Акрамя таго, выкарыстанне эмоджы ў якасці назвы аператара можа выклікаць праблемы з адлюстраваннем на больш светлых фонах.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Індыкацыя зарада батарэі</string>
   <string name="battery_light_enable">Індыкатар батарэі</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Рэгулятар яркасці</string>
   <string name="qs_brightness_slider_summary">Паказваць рэгулятар яркасці ў панэлі хуткіх налад</string>
+  <string name="toast_icon_title">Значок праграм на ўсплывальных апавяшчэннях</string>
+  <string name="toast_icon_summary">Адлюстроўваць значок праграмы ва усплывальных апавяшчэннях</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Меню кнопкі сілкавання</string>
   <string name="power_menu_title_summary">Паглядзець ці змяніць меню кнопкі сілкавання</string>
@@ -225,6 +229,9 @@
   <string name="ringtone_focus_mode_dynamic">Навушнікі, калі яны падлучаныя і грае музыка</string>
   <string name="ringtone_focus_mode_stock">"Праз дынамік (aosp па змаўчанні)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Віджэт гадзінніка</string>
+  <string name="hide_lockscreen_clock_summary">Змяніць бачнасць віджэта гадзінніка</string>
+  <string name="hide_lockscreen_date_title">Віджэт даты</string>
   <!-- Heads up -->
   <string name="headsup_category">Налады ўсплывальных апавяшчэнняў</string>
   <string name="heads_up_notifications">Усплывальныя апавяшчэнні</string>
@@ -519,4 +526,6 @@
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

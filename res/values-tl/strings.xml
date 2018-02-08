@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Mga tagaturo ng traffic</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Ang may dala ng label</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Mga Misc extensyon</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">I-set</string>
   <string name="color_default">I-default</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Isang paalala na ang tagadala ang custom label ay hindi magagamit sa pinahabang status bar na area, gayun din ang mabilis na mga setting area. Gayun din ang mga emoji bilang iyong taga pag hatid ng label dahilan ng ibang nakikita na mga usapan sa pinaka magaan na mga background.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Nag-charge ang ilaw nga baterya</string>
   <string name="battery_light_enable">Ang liwanag nga baterya</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Ang slider ng brightness</string>
   <string name="qs_brightness_slider_summary">Ipakita ang slider ng liwanag sa mabilis na panel setting</string>
+  <string name="toast_icon_title">Mga app icon sa toast</string>
+  <string name="toast_icon_summary">Ihayag ang app icon ka sa nararapat na toast</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Ang power menu</string>
   <string name="power_menu_title_summary">Tignan o baguhin ang entry ng power menu</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Mula sa headset kung konektado at pinaandar na musika</string>
   <string name="ringtone_focus_mode_stock">"Mula sa speakerphone (aosp default)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Ang widget ng orasan</string>
+  <string name="hide_lockscreen_clock_summary">Baguhin ang mga widget ng orasan para makita</string>
+  <string name="hide_lockscreen_date_title">Petsa ng widget</string>
+  <string name="hide_lockscreen_date_summary">Baguhin ang mga petsa ng makikita sa ilalim ng widget ng orasan</string>
+  <string name="hide_lockscreen_alarm_title">Alarma ng text</string>
+  <string name="hide_lockscreen_alarm_summary">Baguhin ang mga text alarm na makikita sa ilalim nng widget sa orasan</string>
   <!-- Heads up -->
   <string name="headsup_category">Ang mga setting ng headsUp</string>
   <string name="heads_up_notifications">Pag-Heads up</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Karaniwan (forced)</string>
   <string name="force_ambient_for_media_on_forced_clean">Kakaunti (forced)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Mamili ng mga lokasyon sa display</string>
+  <string name="custom_carrier_label_title">I-custom ang pagdala sa label</string>
+  <string name="custom_carrier_label_explain">Ipasok sang custom sa label. iwanan ng blanko para gamitin ang pangalan sa iyong network</string>
+  <string name="custom_carrier_label_notset">Kasalukuyang hindi na-set ang custom label</string>
+  <string name="show_carrier_title">Ang carrier label</string>
+  <string name="show_carrier_disabled">Hindi gumaganan</string>
+  <string name="show_carrier_keyguard">Ang lockscreen</string>
+  <string name="show_carrier_statusbar">Ang katayuan ng bar</string>
+  <string name="show_carrier_enabled">Pareho</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Isara ang animation sa screen</string>
+  <string name="screen_off_animation_default">I-default</string>
+  <string name="screen_off_animation_crt">Ang CRT</string>
+  <string name="screen_off_animation_scale">Ang eskala</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Mga notipkasyon sa tunog at vibration kapag naka bukas ang screen</string>
+  <string name="notification_sound_vib_screen_on_never">Hindi</string>
+  <string name="notification_sound_vib_screen_on_always">Palagai (default)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Kung walang media na gumagana</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

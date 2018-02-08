@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indikátor síťového provozu</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Název operátora</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Různé rozšíření</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Nastavit</string>
   <string name="color_default">Výchozí</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Upozorňujeme, že vlastní název operátora není k dispozici v rozšířené oblasti stavové lišty, známé také jako oblast rychlých nastavení. Používání emoji jako názvu operátora může způsobit problémy s viditelností na světlejších pozadích.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
   <string name="battery_light_enable">Světelná signalizace baterie</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
   <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
+  <string name="toast_icon_title">Ikony aplikací v oznámení Toast</string>
+  <string name="toast_icon_summary">Zobrazit ikonu aplikace v oznámení Toast</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Nabídka tlačítka Vypnout</string>
   <string name="power_menu_title_summary">Zobrazit nebo změnit položky nabídky tlačítka Vypnout</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Ze sluchátek, pokud jsou připojena a přehrávání hudby</string>
   <string name="ringtone_focus_mode_stock">"Z reproduktoru (AOSP výchozí)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Widget hodin</string>
+  <string name="hide_lockscreen_clock_summary">Změna viditelnosti widgetu hodin</string>
+  <string name="hide_lockscreen_date_title">Widget datumu</string>
+  <string name="hide_lockscreen_date_summary">Změna viditelnost data pod widgetem hodin</string>
+  <string name="hide_lockscreen_alarm_title">Text budíku</string>
+  <string name="hide_lockscreen_alarm_summary">Změna viditelnost textu budíku pod widgetem hodin</string>
   <!-- Heads up -->
   <string name="headsup_category">Nastavení plovoucího oznámení</string>
   <string name="heads_up_notifications">Plovoucí upozornění</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Normální (vynucené)</string>
   <string name="force_ambient_for_media_on_forced_clean">Minimální (vynucené)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Vyberte umístění zobrazení</string>
+  <string name="custom_carrier_label_title">Vlastní název operátora</string>
+  <string name="custom_carrier_label_explain">Zadejte vlastní název. Chcete-li použít název sítě, ponechte prázdné</string>
+  <string name="custom_carrier_label_notset">V současné době není nastaven vlastní název operátora</string>
+  <string name="show_carrier_title">Název operátora</string>
+  <string name="show_carrier_disabled">Zakázáno</string>
+  <string name="show_carrier_keyguard">Zamykací obrazovka</string>
+  <string name="show_carrier_statusbar">Stavová lišta</string>
+  <string name="show_carrier_enabled">Obojí</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Animace vypnutí obrazovky</string>
+  <string name="screen_off_animation_default">Výchozí</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Měřítko</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Zvuky a vibrace oznámení při zapnuté obrazovce</string>
+  <string name="notification_sound_vib_screen_on_never">Nikdy</string>
+  <string name="notification_sound_vib_screen_on_always">Vždy (výchozí)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Pokud se nepřehrávají média</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

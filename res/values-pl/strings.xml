@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Etykieta operatora</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Różne rozszerzenia</string>
   <!-- Recents UI -->
@@ -121,6 +122,7 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Suwak jasności</string>
   <string name="qs_brightness_slider_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
+  <string name="toast_icon_summary">Wyświetlaj ikonę aplikacji nawiązującej do dymku powiadomienia</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Menu zasilania</string>
   <string name="power_menu_title_summary">Wyświetl lub zmień wpisy w menu zasilania</string>
@@ -209,24 +211,62 @@
   <string name="qs_rows_columns_title">Kolumny i wiersze Szybkich ustawień</string>
   <string name="qs_rows_portrait_title">Ilość kafelków w kolumnie (w pionie)</string>
   <string name="qs_rows_landscape_title">Ilość kafelków w wierszu (w poziomie)</string>
+  <string name="qs_columns_portrait_title">Ilość kafelków w kolumnie (w pionie)</string>
+  <string name="qs_columns_landscape_title">Ilość kafelków w kolumnie (w poziomie)</string>
+  <string name="qs_tile_title_visibility_title">Pokaż nazwy kafelków</string>
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_title">Uruchom aplikację odtwarzacza muzyki po podłączeniu zestawu słuchawkowego</string>
   <string name="headset_connect_player_disabled">Wyłączone</string>
   <string name="headset_connect_player_wired">Gdy jest podłączony przewodowy zestaw słuchawkowy</string>
   <string name="headset_connect_player_bt_no_carkit">Gdy jest podłączony zestaw słuchawkowy BT (nie zestaw głośnomówiący)</string>
   <string name="headset_connect_player_bt">Bezprzewodowy zestaw słuchawkowy podłączony</string>
+  <string name="headset_connect_player_both_no_carkit">Podłączony zestaw słuchawkowy (nie zestaw głośnomówiący)</string>
+  <string name="headset_connect_player_both">Podłączony zestaw słuchawkowy</string>
   <!-- Headset ringtone audio focus -->
+  <string name="ringtone_focus_mode_title">Czego używać do odtwarzania dzwonków</string>
+  <string name="ringtone_focus_mode_dynamic">Z zestawu słuchawkowego, jeżeli jest podłączony i odtwarza muzykę</string>
+  <string name="ringtone_focus_mode_stock">"Z głośnika (domyślny AOSP)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Widget zegarka</string>
+  <string name="hide_lockscreen_clock_summary">Zmień widoczność widgetu zegarka</string>
+  <string name="hide_lockscreen_date_title">Widget daty</string>
+  <string name="hide_lockscreen_date_summary">Zmień widoczność daty poniżej widgetu zegarka</string>
+  <string name="hide_lockscreen_alarm_title">Notatka alarmu</string>
+  <string name="hide_lockscreen_alarm_summary">Zmień widoczność notatki alarmu poniżej widgetu zegarka</string>
   <!-- Heads up -->
   <string name="headsup_category">Ustawienia wyskakujących powiadomień</string>
   <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
   <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
   <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
   <string name="add_heads_up_package">Dodaj aplikację</string>
+  <string name="heads_up_blacklist_title">Czarna lista</string>
+  <string name="profile_choose_app">Wybierz aplikację</string>
+  <string name="dialog_delete_title">Usuń</string>
+  <string name="dialog_delete_message">Usunąć wybrany element?</string>
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Koniec czasu</string>
+  <string name="heads_up_time_out_summary">Wyskakujące powiadomienia będą wyświetlane przez <xliff:g id="number">%d</xliff:g> sekund</string>
+  <string name="heads_up_time_out_2sec">2 sekundy</string>
+  <string name="heads_up_time_out_4sec">4 sekundy</string>
+  <string name="heads_up_time_out_5sec">5 sekund</string>
+  <string name="heads_up_time_out_6sec">6 sekund</string>
+  <string name="heads_up_time_out_8sec">8 sekund</string>
+  <string name="heads_up_time_out_10sec">10 sekund</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Zegar drzemki</string>
+  <string name="heads_up_snooze_disabled_summary">Drzemka jest wyłączona</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
+  <string name="heads_up_snooze_5min">5 minut</string>
+  <string name="heads_up_snooze_10min">10 minut</string>
+  <string name="heads_up_snooze_15min">15 minut</string>
+  <string name="heads_up_snooze_20min">20 minut</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Opcje wibracji podczas rozmowy</string>
+  <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
+  <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+  <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Wyłącz powiadomienia o wymuszonym zamknięciu</string>
   <!-- Statusbar ticker -->
   <!-- Slim Recents panel -->
   <!-- ATTENTION: RTL languages need to replace left with right -->
@@ -247,4 +287,6 @@
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">网速指示器</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">运营商标签</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">杂项扩展</string>
   <!-- Recents UI -->
@@ -79,7 +80,7 @@
   <string name="extensions_dialog_toast">阅读全部内容！</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">取色器</string>
-  <string name="press_color_to_apply">选择以下颜色以应用</string>
+  <string name="press_color_to_apply">按选以下颜色以应用</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex：</string>
@@ -87,6 +88,7 @@
   <string name="set">应用</string>
   <string name="color_default">默认</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">请注意，自定义运营商标签在扩展状态栏区域中不可用，其也被称为快速设置区域。使用 emoji 表情作为您的运营商标签可能会在亮色背景下导致一些可见性问题。</string>
   <!-- Battery light -->
   <string name="battery_light_settings">充电指示灯</string>
   <string name="battery_light_enable">电量指示灯</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑块</string>
   <string name="qs_brightness_slider_summary">在快捷开关面板中显示亮度滑块</string>
+  <string name="toast_icon_title">Toast 通知上显示应用图标</string>
+  <string name="toast_icon_summary">在 Toast 通知上显示对应应用的图标</string>
   <!-- Power Menu -->
   <string name="power_menu_title">电源菜单</string>
   <string name="power_menu_title_summary">查看或更改电源菜单项目</string>
@@ -221,10 +225,16 @@
   <string name="headset_connect_player_both_no_carkit">当任何耳机(非车载) 接入时</string>
   <string name="headset_connect_player_both">当任何耳机接入时</string>
   <!-- Headset ringtone audio focus -->
-  <string name="ringtone_focus_mode_title">以下情况播放音乐</string>
+  <string name="ringtone_focus_mode_title">从何处播放铃声</string>
   <string name="ringtone_focus_mode_dynamic">从耳机（如果已连接耳机且在播放音乐）</string>
   <string name="ringtone_focus_mode_stock">"从麦克风（aosp默认）"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">时钟部件</string>
+  <string name="hide_lockscreen_clock_summary">更改时钟部件的可见性</string>
+  <string name="hide_lockscreen_date_title">日期部件</string>
+  <string name="hide_lockscreen_date_summary">更改时钟部件下方的日期可见性</string>
+  <string name="hide_lockscreen_alarm_title">闹钟文本</string>
+  <string name="hide_lockscreen_alarm_summary">更改时钟部件下方闹钟文本的可见性</string>
   <!-- Heads up -->
   <string name="headsup_category">浮动通知设置</string>
   <string name="heads_up_notifications">浮动通知</string>
@@ -323,8 +333,8 @@
   <string name="select_custom_app_title">选择自定义应用</string>
   <string name="select_custom_activity_title">选择自定义活动</string>
   <string name="profile_applist_title">应用程序</string>
-  <string name="default_string">初始</string>
-  <string name="default_settings">初始设置</string>
+  <string name="default_string">原生</string>
+  <string name="default_settings">原生导航栏设置</string>
   <string name="default_settings_summary">AOSP 导航栏</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">选择活动</string>
@@ -509,14 +519,33 @@
   <string name="torch_power_button_gesture_dt">双击电源键开启手电筒（单击操作将会有小延迟）</string>
   <string name="torch_power_button_gesture_lp">长按电源按钮开启手电筒</string>
   <string name="force_ambient_for_media_pref_title">环境音乐</string>
-  <string name="force_ambient_for_media_pref_summary">配置环境音乐代号</string>
-  <string name="ambient_ticker_footer">此功能允许在启用或无环境显示的情况下显示屏的当前音乐曲目信息。\ n您可以从两个布局中选择“正常”和“最小”。虽然此功能利用了环境显示，但它并不依赖于它。它可以在不使用“（强制）”选项启用环境显示的情况下触发。\ n正常视图包括屏时钟，日期和代码。nMinimal视图只包含屏幕中心的代码。</string>
-  <string name="force_ambient_for_media_title">选择页面布局</string>
+  <string name="force_ambient_for_media_pref_summary">配置环境音乐通知</string>
+  <string name="ambient_ticker_footer">此功能允许在启用或未启用环境显示的情况下在锁屏显示当前音乐曲目信息。\n\n您有两个布局可供选择，分别是“正常”和“最小”。虽然此功能利用了环境显示，但它并不依赖于环境显示。它可以通过使用“强制”选项从而在未启用环境显示的情况下触发。\n\n正常视图包括锁屏时钟，日期和环境音乐通知。\n\n最小视图只包含屏幕中间的环境音乐通知。</string>
+  <string name="force_ambient_for_media_title">选择布局</string>
   <string name="force_ambient_for_media_off">禁用</string>
   <string name="force_ambient_for_media_on">正常</string>
   <string name="force_ambient_for_media_on_forced">正常（强制）</string>
-  <string name="force_ambient_for_media_on_forced_clean">正常（强制）</string>
+  <string name="force_ambient_for_media_on_forced_clean">最小（强制）</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">选择显示位置</string>
+  <string name="custom_carrier_label_title">自定义运营商标签</string>
+  <string name="custom_carrier_label_explain">输入自定义标签。若保留为空白则使用您的网络名称</string>
+  <string name="custom_carrier_label_notset">没有设置自定义运营商标签</string>
+  <string name="show_carrier_title">运营商标签</string>
+  <string name="show_carrier_disabled">禁用</string>
+  <string name="show_carrier_keyguard">仅在锁屏显示</string>
+  <string name="show_carrier_statusbar">仅在状态栏显示</string>
+  <string name="show_carrier_enabled">同时显示</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">屏幕关闭动画</string>
+  <string name="screen_off_animation_default">默认</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">缩放</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">如果屏幕处于打开状态，发出声音和振动</string>
+  <string name="notification_sound_vib_screen_on_never">从不</string>
+  <string name="notification_sound_vib_screen_on_always">始终 (默认)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">如果没有媒体正在播放</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

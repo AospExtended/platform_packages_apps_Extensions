@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indicatori del traffico dati</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Etichetta operatore</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Varie estensioni</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Imposta</string>
   <string name="color_default">Predefinita</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Tieni presente che l\'etichetta dell\'operatore personalizzata non è disponibile nell\'area della barra di stato quando estesa, così come nell\'area delle impostazioni rapide. Allo stesso modo, l\'utilizzo degli emoji e dell\'etichetta del tuo operatore potrebbero causare alcuni problemi di visibilità su sfondi più chiari.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Luce di batteria in carica</string>
   <string name="battery_light_enable">Indicatore Batteria</string>
@@ -100,9 +102,9 @@
   <!-- Network traffic -->
   <string name="network_traffic_title">Traffico di rete</string>
   <string name="network_traffic_type">Seleziona il tipo di attività di rete</string>
-  <string name="show_network_traffic_up">Uplink</string>
-  <string name="show_network_traffic_down">Downlink</string>
-  <string name="show_network_traffic_all">Uplink e Downlink</string>
+  <string name="show_network_traffic_up">In uscita</string>
+  <string name="show_network_traffic_down">In entrata</string>
+  <string name="show_network_traffic_all">In uscita e in entrata</string>
   <string name="network_traffic_state_title">Mostra attività di rete nella barra di stato</string>
   <string name="network_traffic_autohide_threshold_title">Nascondi automaticamente l\'attività di rete ad una certa soglia (KB/s)</string>
   <!-- Recents panel settings -->
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Cursore luminosità</string>
   <string name="qs_brightness_slider_summary">Mostra un cursore della luminosità nel pannello delle impostazioni rapide</string>
+  <string name="toast_icon_title">Icona app nel toast</string>
+  <string name="toast_icon_summary">Visualizza l\'icona dell\'applicazione corrispondente nel toast</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Menù di spegnimento</string>
   <string name="power_menu_title_summary">Visualizza o modifica le voci del menù alimentazione</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Se collegato un auricolare con cavo riproduci la musica</string>
   <string name="ringtone_focus_mode_stock">"Dall'altoparlante (predefinito aosp)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Widget orologio</string>
+  <string name="hide_lockscreen_clock_summary">Cambia la visibilità del widget orologio</string>
+  <string name="hide_lockscreen_date_title">Widget data</string>
+  <string name="hide_lockscreen_date_summary">Cambia la visibilità della data sotto il widget dell\'orologio</string>
+  <string name="hide_lockscreen_alarm_title">Sveglia</string>
+  <string name="hide_lockscreen_alarm_summary">Cambia la visibilità del testo della sveglia sotto il widget dell\'orologio</string>
   <!-- Heads up -->
   <string name="headsup_category">Impostazioni Notifiche Fluttuanti</string>
   <string name="heads_up_notifications">Notifiche Fluttuanti</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Normale (forzata)</string>
   <string name="force_ambient_for_media_on_forced_clean">Minimo (forzata)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Seleziona le posizioni di visualizzazione</string>
+  <string name="custom_carrier_label_title">Personalizza l\'etichetta operatore</string>
+  <string name="custom_carrier_label_explain">Inserisci un\'etichetta personalizzata. Lascia vuoto per usare il nome della tua rete</string>
+  <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata impostata</string>
+  <string name="show_carrier_title">Etichetta operatore</string>
+  <string name="show_carrier_disabled">Disabilitato</string>
+  <string name="show_carrier_keyguard">Schermata di blocco</string>
+  <string name="show_carrier_statusbar">Barra di stato</string>
+  <string name="show_carrier_enabled">Entrambi</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Animazione schermo spento</string>
+  <string name="screen_off_animation_default">Predefinito</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Scala</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Notifiche con suono e vibrazioni anche se lo schermo è acceso</string>
+  <string name="notification_sound_vib_screen_on_never">Mai</string>
+  <string name="notification_sound_vib_screen_on_always">Sempre (predefinito)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Senza riproduzione multimediale</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

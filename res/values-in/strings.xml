@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Jaringan Indikator</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Label Operator</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Kumpulan Ekstensi</string>
   <!-- Recents UI -->
@@ -145,7 +146,7 @@
   <string name="brightness_icon_summary">Menunjukkan ikon kecerahan di kanan geser kecerahan untuk menyesuaikan kecerahan secara otomatis</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Kerutuhan Cepat</string>
-  <string name="quick_pulldown_summary">%1$ s tepi dari status bar menarik penyetelan cepat</string>
+  <string name="quick_pulldown_summary">%1$s tepi dari status bar menarik penyetelan cepat</string>
   <string name="quick_pulldown_summary_always">Selalu Tampilkan penyetelan cepat di status bar pulldown</string>
   <string name="quick_pulldown_off">Matikan</string>
   <string name="quick_pulldown_left">Kiri</string>
@@ -224,6 +225,8 @@
   <string name="ringtone_focus_mode_dynamic">Dari headset jika terhubung dan bermain musik</string>
   <string name="ringtone_focus_mode_stock">"Dari speakerphone (aosp standar)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_summary">Mengubah visibilitas jam widget</string>
+  <string name="hide_lockscreen_date_title">Tanggal widget</string>
   <!-- Heads up -->
   <string name="headsup_category">Pengaturan Headsup</string>
   <string name="heads_up_notifications">Notifikasi Melayang</string>
@@ -459,4 +462,6 @@
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

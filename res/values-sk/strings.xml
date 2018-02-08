@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indikátor sieťovej prevádzky</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Názov operátora</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Rôzne rozšírenia</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Nastaviť</string>
   <string name="color_default">Predvolená</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Upozorňujeme, že vlastný názov operátora nie je k dispozícii v rozšírenej oblasti stavového riadku, známej aj ako oblasť rýchlych nastavení. Používanie emoji ako názvu operátora môže spôsobiť problémy s viditeľnosťou na svetlejších pozadiach.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">LED signalizácia batérie</string>
   <string name="battery_light_enable">LED signalizácia batérie</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
   <string name="qs_brightness_slider_summary">Zobraziť posuvník jasu na paneli rýchlych nastavení</string>
+  <string name="toast_icon_title">Ikony aplikácii vo vyskakujúcich upozorneniach</string>
+  <string name="toast_icon_summary">Zobraziť ikonu aplikácie vo vyskakujúcom upozornení</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Ponuka tlačidla Napájanie</string>
   <string name="power_menu_title_summary">Zobraziť alebo zmeniť položky ponuky tlačídla Napájanie</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Zo slúchadiel, ak sú pripojené a prehráva sa hudba</string>
   <string name="ringtone_focus_mode_stock">"Z reproduktora (AOSP predvolené)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Miniaplikácia hodín</string>
+  <string name="hide_lockscreen_clock_summary">Zmeňiť viditeľnosť miniaplikácie hodín</string>
+  <string name="hide_lockscreen_date_title">Miniaplikácia dátumu</string>
+  <string name="hide_lockscreen_date_summary">Zmeniť viditeľnosť dátumu pod miniaplikáciou hodín</string>
+  <string name="hide_lockscreen_alarm_title">Text budíku</string>
+  <string name="hide_lockscreen_alarm_summary">Zmeniť viditeľnosť textu budíka pod miniaplikáciou hodín</string>
   <!-- Heads up -->
   <string name="headsup_category">Nastavenia plávajúcich upozornení</string>
   <string name="heads_up_notifications">Plávajúce upozornenia</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Normálne (vynútené)</string>
   <string name="force_ambient_for_media_on_forced_clean">Minimálne (vynútené)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Vyberte umiestnenie zobrazenia</string>
+  <string name="custom_carrier_label_title">Vlastný názov operátora</string>
+  <string name="custom_carrier_label_explain">Zadajte vlastný názov. Ak chcete použiť názov siete, ponechajte prázdne</string>
+  <string name="custom_carrier_label_notset">Názov operátora nebol zadaný</string>
+  <string name="show_carrier_title">Názov operátora</string>
+  <string name="show_carrier_disabled">Nezobrazovať</string>
+  <string name="show_carrier_keyguard">Obrazovka uzamknutia</string>
+  <string name="show_carrier_statusbar">Stavový riadok</string>
+  <string name="show_carrier_enabled">Oboje</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Animácia vypnutia obrazovky</string>
+  <string name="screen_off_animation_default">Predvolená</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Mierka</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Zvukové upozornenia a vibrácie, keď je obrazovka zapnutá</string>
+  <string name="notification_sound_vib_screen_on_never">Nikdy</string>
+  <string name="notification_sound_vib_screen_on_always">Vždy (predvolené)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Ak sa multimédiá neprehrávajú</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

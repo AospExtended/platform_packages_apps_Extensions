@@ -29,7 +29,10 @@
   <string name="security_category">Beveiliging</string>
   <string name="hardware_category">Hardware</string>
   <string name="icons_category">Pictogrammen</string>
+  <string name="aosp_recents_category">AOSP Recente apps</string>
+  <string name="light_category">Verlichting</string>
   <string name="dlg_ok">OK</string>
+  <string name="attention">Let op</string>
   <string name="loading">Laden\u2026</string>
   <string name="reset">Reset</string>
   <string name="reset_colors">Kleuren herstellen</string>
@@ -48,10 +51,15 @@
   <string name="build_tweaks_summary_title">Verrijk je toestel!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Algemene aanpassingen</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Data indicatoren</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Provider Label</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Misc extensies</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Recente apps</string>
   <!-- Lockscreen UI -->
   <!-- Statusbar Iten -->
   <!-- Notifications -->
@@ -153,4 +161,6 @@
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

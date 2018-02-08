@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">流量指示器</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">電信業者標籤</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">其他擴充</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">設定</string>
   <string name="color_default">預設</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">請注意, 自訂電信業者標籤在擴展欄區域 (也稱為快速設置區域) 中不可用。同時, 若使用表情符號作為您的電信業者標籤可能會在較亮的背景上導致某些視覺上的問題。</string>
   <!-- Battery light -->
   <string name="battery_light_settings">電池充電指示燈</string>
   <string name="battery_light_enable">電量指示燈</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑動條</string>
   <string name="qs_brightness_slider_summary">在快速設定面板中顯示亮度滑動條</string>
+  <string name="toast_icon_title">應用程式的圖示提示訊息</string>
+  <string name="toast_icon_summary">顯示與提示訊息相關的應用程式圖示</string>
   <!-- Power Menu -->
   <string name="power_menu_title">電源選單</string>
   <string name="power_menu_title_summary">檢視或更改電源選單項目</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">來自正在撥放音樂的有線耳機</string>
   <string name="ringtone_focus_mode_stock">"來自擴音器 ( AOSP 預設)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">時鐘小工具</string>
+  <string name="hide_lockscreen_clock_summary">更改時鐘小工具的可見度</string>
+  <string name="hide_lockscreen_date_title">日期小工具</string>
+  <string name="hide_lockscreen_date_summary">更改時鐘小工具下方的日期可見度</string>
+  <string name="hide_lockscreen_alarm_title">鬧鐘文字</string>
+  <string name="hide_lockscreen_alarm_summary">更改鬧鐘小工具下面的鬧鐘文字的可見度</string>
   <!-- Heads up -->
   <string name="headsup_category">浮動通知設定</string>
   <string name="heads_up_notifications">浮動通知</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">正常 (強制)</string>
   <string name="force_ambient_for_media_on_forced_clean">最小 (強制)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">選擇顯示位置</string>
+  <string name="custom_carrier_label_title">自訂電信業者名稱</string>
+  <string name="custom_carrier_label_explain">輸入自訂標籤。保留為空以使用您的網路名稱</string>
+  <string name="custom_carrier_label_notset">自訂標籤目前尚未設定</string>
+  <string name="show_carrier_title">電信業者標籤</string>
+  <string name="show_carrier_disabled">已停用</string>
+  <string name="show_carrier_keyguard">鎖定畫面</string>
+  <string name="show_carrier_statusbar">狀態列</string>
+  <string name="show_carrier_enabled">兩者</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">螢幕關閉動畫</string>
+  <string name="screen_off_animation_default">預設</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">縮放</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">若螢幕為開啟狀態, 發出通知提醒聲音和震動</string>
+  <string name="notification_sound_vib_screen_on_never">永不</string>
+  <string name="notification_sound_vib_screen_on_always">一律 (預設)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">如果沒有媒體在播放</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

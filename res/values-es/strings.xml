@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indicadores de tráfico</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Nombre de operadora</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Extensiones misceláneas</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Aplicar</string>
   <string name="color_default">Por defecto</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">En cuenta que la etiqueta de portadora personalizada no está disponible en el área de la barra de estado extendida, también conocido como el área de configuración rápida. También uso emojis como su etiqueta de portador podría causar algunos problemas de visibilidad en fondos más ligeros.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Luz de carga de la batería</string>
   <string name="battery_light_enable">Luz de batería</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Barra de brillo</string>
   <string name="qs_brightness_slider_summary">Mostrar la barra de brillo en el panel de ajustes rápidos</string>
+  <string name="toast_icon_title">Icono de la aplicación en notificación</string>
+  <string name="toast_icon_summary">Mostrar el icono de la aplicación correspondiente con la notificación emergente</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Menú de apagado</string>
   <string name="power_menu_title_summary">Ver o cambiar las opciones del menú de apagado</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Desde auricular si está conectado y reproduciendo música</string>
   <string name="ringtone_focus_mode_stock">"De altavoz (aosp por defecto)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Widget del reloj</string>
+  <string name="hide_lockscreen_clock_summary">Cambiar la visibilidad del widget de reloj</string>
+  <string name="hide_lockscreen_date_title">Widget de la fecha</string>
+  <string name="hide_lockscreen_date_summary">Cambiar la visibilidad de la fecha debajo del widget de reloj</string>
+  <string name="hide_lockscreen_alarm_title">Texto de alarma</string>
+  <string name="hide_lockscreen_alarm_summary">Cambiar la visibilidad del texto de alarma debajo del widget de reloj</string>
   <!-- Heads up -->
   <string name="headsup_category">Ajustes de notificaciones emergentes</string>
   <string name="heads_up_notifications">Notificaciones emergentes</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Normal (forzar)</string>
   <string name="force_ambient_for_media_on_forced_clean">Simple (forzar)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Seleccionar una ubicación</string>
+  <string name="custom_carrier_label_title">Nombre de operador personalizado</string>
+  <string name="custom_carrier_label_explain">Introduzca una etiqueta personalizada. Deje en blanco para utilizar su nombre de red</string>
+  <string name="custom_carrier_label_notset">Actualmente no se ha establecido una etiqueta personalizada</string>
+  <string name="show_carrier_title">Etiqueta de operador</string>
+  <string name="show_carrier_disabled">Deshabilitado</string>
+  <string name="show_carrier_keyguard">Pantalla de bloqueo</string>
+  <string name="show_carrier_statusbar">Barra de estado</string>
+  <string name="show_carrier_enabled">Ambos</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Animación al apagar</string>
+  <string name="screen_off_animation_default">Por defecto</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Escala</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Sonido de notificaciones y vibración si la pantalla está encendida</string>
+  <string name="notification_sound_vib_screen_on_never">Nunca</string>
+  <string name="notification_sound_vib_screen_on_always">Siempre (por defecto)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Si no hay nada en reproducción</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

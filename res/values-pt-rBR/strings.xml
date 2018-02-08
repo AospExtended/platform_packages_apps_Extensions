@@ -18,7 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
-  <string name="extensions_title">Extenções</string>
+  <string name="extensions_title">Extensões</string>
   <string name="add">Adicionar</string>
   <string name="advanced">Avançado</string>
   <string name="cancel">Cancelar</string>
@@ -55,8 +55,9 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indicadores de tráfego de rede</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Nome da operadora</string>
   <!-- Misc Extensions -->
-  <string name="misc_extensions_title">Outras extenções</string>
+  <string name="misc_extensions_title">Outras extensões</string>
   <!-- Recents UI -->
   <string name="recents_ui_title">Interface dos recentes</string>
   <!-- Lockscreen UI -->
@@ -87,6 +88,7 @@
   <string name="set">Definir</string>
   <string name="color_default">Padrão</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Esteja ciente de que o rótulo de transportadora personalizado não está disponível na área estendida statusbar, também conhecido como área de definições rápidas. Também usar emojis como seu rótulo transportadora pode causar alguns problemas de visibilidade em fundos mais leves.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Luz de carregamento de bateria</string>
   <string name="battery_light_enable">Luz de bateria</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Brilho deslizante</string>
   <string name="qs_brightness_slider_summary">Mostrar controle de brilho deslizante no painel de configurações rápidas</string>
+  <string name="toast_icon_title">Ícone do App no toast</string>
+  <string name="toast_icon_summary">Exibir o ícone do aplicativo correspondente no toast</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Menu de Energia</string>
   <string name="power_menu_title_summary">Ver ou mudar entradas do Menu de Energia</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Fone de ouvido com fio se estiver conectado e tocando música</string>
   <string name="ringtone_focus_mode_stock">"De viva-voz (aosp padrão)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Widget de relógio</string>
+  <string name="hide_lockscreen_clock_summary">Alterar a visibilidade do widget de relógio</string>
+  <string name="hide_lockscreen_date_title">Widget de data</string>
+  <string name="hide_lockscreen_date_summary">Mudar a visibilidade do data debaixo do widget de relógio</string>
+  <string name="hide_lockscreen_alarm_title">Texto de alarme</string>
+  <string name="hide_lockscreen_alarm_summary">Mudar a visibilidade do data debaixo do widget de relógio</string>
   <!-- Heads up -->
   <string name="headsup_category">Configurações de notificações Heads Up</string>
   <string name="heads_up_notifications">Notificações pop-up</string>
@@ -519,6 +529,25 @@ Contexto | Contexto de solicitação</string>
   <string name="force_ambient_for_media_on_forced">Normal (forçado)</string>
   <string name="force_ambient_for_media_on_forced_clean">Mínimo (forçado)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Selecione os locais de exibição</string>
+  <string name="custom_carrier_label_title">Personalizar nome de operadora</string>
+  <string name="custom_carrier_label_explain">Insira um rótulo personalizado. Deixe em branco para usar seu nome de rede</string>
+  <string name="custom_carrier_label_notset">Nome personalizado não definido</string>
+  <string name="show_carrier_title">Nome da operadora</string>
+  <string name="show_carrier_disabled">Desativado</string>
+  <string name="show_carrier_keyguard">Tela de bloqueio</string>
+  <string name="show_carrier_statusbar">Barra de Status</string>
+  <string name="show_carrier_enabled">Ambos</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Animação ao desligar tela</string>
+  <string name="screen_off_animation_default">Padrão</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Escala</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Som de notificações e vibração se na tela</string>
+  <string name="notification_sound_vib_screen_on_never">Nunca</string>
+  <string name="notification_sound_vib_screen_on_always">Sempre (padrão)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Se nenhuma mídia está trocando</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

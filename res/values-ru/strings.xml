@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Индикатор сетевого трафика</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Имя оператора</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Прочие настройки</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Настроить</string>
   <string name="color_default">По умолчанию</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Обратите внимание, что пользовательское название оператора не отображается на панели быстрых настроек. Кроме того, использование эмоджи в качестве названия оператора может вызвать проблемы с отображением на более светлых фонах.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Индикация зарядки батареи</string>
   <string name="battery_light_enable">Уведомления батареи</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Слайдер яркости</string>
   <string name="qs_brightness_slider_summary">Показывать слайдер яркости в панели быстрых настроек</string>
+  <string name="toast_icon_title">Значок приложения на тост-уведомлении</string>
+  <string name="toast_icon_summary">Отображать значок соответствующего приложения на тост-уведомлениях</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Меню выключения</string>
   <string name="power_menu_title_summary">Посмотреть или изменить меню кнопки питания</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Наушники, если они подключены и включена музыка</string>
   <string name="ringtone_focus_mode_stock">"Через динамик"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Виджет часов</string>
+  <string name="hide_lockscreen_clock_summary">Изменить видимость виджета часов</string>
+  <string name="hide_lockscreen_date_title">Виджет даты</string>
+  <string name="hide_lockscreen_date_summary">Изменить видимость даты под виджетом часов</string>
+  <string name="hide_lockscreen_alarm_title">Текст будильника</string>
+  <string name="hide_lockscreen_alarm_summary">Изменить видимость текста будильника под виджетом часов</string>
   <!-- Heads up -->
   <string name="headsup_category">Настройки всплывающих уведомлений</string>
   <string name="heads_up_notifications">Всплывающие уведомления</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Нормально (принудительно)</string>
   <string name="force_ambient_for_media_on_forced_clean">Минимально (принудительно)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Выбрать место отображения</string>
+  <string name="custom_carrier_label_title">Пользовательское имя оператора</string>
+  <string name="custom_carrier_label_explain">Введите свое название. Оставьте пустым, чтобы использовать текущее имя сети</string>
+  <string name="custom_carrier_label_notset">Имя оператора в данный момент не установлено</string>
+  <string name="show_carrier_title">Имя оператора</string>
+  <string name="show_carrier_disabled">Не отображать</string>
+  <string name="show_carrier_keyguard">Экран блокировки</string>
+  <string name="show_carrier_statusbar">Строка состояния</string>
+  <string name="show_carrier_enabled">Оба</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Анимация выключения экрана</string>
+  <string name="screen_off_animation_default">По умолчанию</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Маштабирование</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Звуковые уведомления и вибрация при включенном экране</string>
+  <string name="notification_sound_vib_screen_on_never">Никогда</string>
+  <string name="notification_sound_vib_screen_on_always">Всегда (по умолчанию)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Если мультимедиа не воспроизводится</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

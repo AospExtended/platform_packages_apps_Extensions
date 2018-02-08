@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Trafik göstergeleri</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Operatör etiketi</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Çeşitli uzantılar</string>
   <!-- Recents UI -->
@@ -87,6 +88,7 @@
   <string name="set">Ayarla</string>
   <string name="color_default">Varsayılan</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Özel operatör etiketini sadece durum çubuğunda kullanabilirsiniz. Ayrıca özel operatör etiket emoji\'si olarak kullanmak açık renkli arka planlarda bazı görünürlük sorunlarına neden olabilir.</string>
   <!-- Battery light -->
   <string name="battery_light_settings">Şarj oluyor ışığı</string>
   <string name="battery_light_enable">Pil ışığı</string>
@@ -121,6 +123,8 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Parlaklık kaydırıcı</string>
   <string name="qs_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
+  <string name="toast_icon_title">Toast Uygulama simgesi</string>
+  <string name="toast_icon_summary">Bildirimle uyumlu uygulama simgesini görüntüle</string>
   <!-- Power Menu -->
   <string name="power_menu_title">Güç menüsü</string>
   <string name="power_menu_title_summary">Güç menüsü öğelerini görüntüle veya değiştir</string>
@@ -225,6 +229,12 @@
   <string name="ringtone_focus_mode_dynamic">Kulaklık bağlıysa ve müzik çalıyorsa</string>
   <string name="ringtone_focus_mode_stock">"Hoparlörden (aosp varsayılan)"</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_title">Saat widgeti</string>
+  <string name="hide_lockscreen_clock_summary">Saat widget\'inin görünürlüğünü değiştirme</string>
+  <string name="hide_lockscreen_date_title">Tarih widgeti</string>
+  <string name="hide_lockscreen_date_summary">Saat widget\' nin altında bulunan tarih görünürlülüğünü eğiştirme</string>
+  <string name="hide_lockscreen_alarm_title">Alarm metni</string>
+  <string name="hide_lockscreen_alarm_summary">Saat widget\' nin altında bulunan alarm görünürlülüğünü eğiştirme</string>
   <!-- Heads up -->
   <string name="headsup_category">Üst bildirim ayarları</string>
   <string name="heads_up_notifications">Bildirim penceresi</string>
@@ -517,6 +527,25 @@
   <string name="force_ambient_for_media_on_forced">Standart (zorunlu)</string>
   <string name="force_ambient_for_media_on_forced_clean">En az (zorunlu)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Ekran konumunu seç</string>
+  <string name="custom_carrier_label_title">Özel operatör etiketi</string>
+  <string name="custom_carrier_label_explain">Özel bir etiket girin. Ağ adınızı kullanmak için boş bırakınız</string>
+  <string name="custom_carrier_label_notset">Özel etiket şu anda ayarlanmamış</string>
+  <string name="show_carrier_title">Operatör etiketi</string>
+  <string name="show_carrier_disabled">Devde dışı</string>
+  <string name="show_carrier_keyguard">Kilit ekranı</string>
+  <string name="show_carrier_statusbar">Durum çubuğu</string>
+  <string name="show_carrier_enabled">Her ikisi de</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
+  <string name="screen_off_animation_default">Varsayılan</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Ölçek</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Ekran açıkken ses ve titreşimleri bildirimleri</string>
+  <string name="notification_sound_vib_screen_on_never">Hiçbir zaman</string>
+  <string name="notification_sound_vib_screen_on_always">Her zaman (varsayılan)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Hiçbir medya oynatılmıyorsa</string>
+  <!-- Less Notification sounds -->
+  <!-- Statusbar Clock options -->
 </resources>

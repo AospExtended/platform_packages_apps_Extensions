@@ -32,4 +32,8 @@
     <color name="dt_tab_inactive_text_color">@*android:color/accent_device_default_dark</color>
     <color name="dt_tab_background_color">@android:color/transparent</color>
 
+    <!-- Accent picker -->
+    <color name="accent_picker_white_accent">@android:color/white</color>
+    <color name="accent_picker_dark_accent">@android:color/black</color>
+
 </resources>

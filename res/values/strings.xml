@@ -714,4 +714,17 @@
     <string name="lock_screen_weather_condition_icon_title">Condition icon display</string>
     <string name="lock_screen_weather_condition_icon_summaryOn">Condition icon is shown on Lockscreen</string>
     <string name="lock_screen_weather_condition_icon_summaryOff">Condition icon is hidden on Lockscreen</string>
+
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Statusbar battery style</string>
+    <string name="battery_style_title">Battery style</string>
+    <string name="battery_style_summary">Change the look of the icon in the statusbar</string>
+    <string name="battery_style_port">Portrait</string>
+    <string name="battery_style_land">Landscape</string>
+    <string name="battery_style_circle">Circle</string>
+    <string name="battery_style_dotted_circle">Dotted circle</string>
+    <string name="battery_style_solid_circle">Solid circle</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_style_hidden">Hidden</string>
 </resources>
+

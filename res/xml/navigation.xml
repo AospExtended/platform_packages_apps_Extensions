@@ -26,5 +26,12 @@
             android:icon="@drawable/ic_navigation"
             android:title="@string/navigationbar_settings_title" />
 
+         <!-- Edge gestures -->
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:id="@+id/edge_gestures"
+            android:key="edge_gestures"
+            android:fragment="org.aospextended.extensions.EdgeGesturesSettings"
+            android:title="@string/edge_gestures_title"
+            android:icon="@drawable/ic_edge_gestures"/>
 
 </PreferenceScreen>

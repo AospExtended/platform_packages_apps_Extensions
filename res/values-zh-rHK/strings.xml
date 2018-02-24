@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">對呼吸燈使用強調顏色</string>
   <string name="pulse_accent_color_summary">啟用此項將會使呼吸燈使用你目前的強調顏色，並停用熔岩燈</string>
   <string name="fling_pulse_color">呼吸燈顏色</string>
+  <string name="fling_pulse_color_summary">也用作自動顏色的後備</string>
   <string name="eos_fling_lavalamp_title">開啟熔岩燈模式</string>
   <string name="eos_fling_lavalamp_summary">呼吸燈會產生類似熔岩燈的色彩變換</string>
   <string name="pulse_advanced_category">進階</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">實線不透明度</string>
   <string name="pulse_solid_dimen_category">實線模式設定</string>
   <string name="pulse_custom_buttons_opacity_title">智慧列按鍵呼吸燈的不透明度</string>
+  <string name="pulse_auto_color_title">自動呼吸燈顏色</string>
+  <string name="pulse_auto_color_summary">與相簿藝術同步色彩。覆蓋熔岩燈和線的不透明度。</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">欄位寬度</string>
   <string name="pulse_custom_div">欄位間距</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">永不</string>
   <string name="notification_sound_vib_screen_on_always">一律 (預設)</string>
   <string name="notification_sound_vib_screen_on_nomedia">如果沒有媒體在播放</string>
+  <string name="smartbar_double_tap_sleep_title">輕觸兩下即可休眠</string>
+  <string name="smartbar_double_tap_sleep_summary">輕觸兩下空白導航列來休眠</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">智慧通知音效</string>
+  <string name="less_notification_sounds_summary">限制應用程式在一段時間內只能播放一次通知音效</string>
+  <string name="less_notification_sounds_default">應用程式 預設</string>
+  <string name="less_notification_sounds_10s">每 10 秒</string>
+  <string name="less_notification_sounds_30s">每 30 秒</string>
+  <string name="less_notification_sounds_1m">每分鐘一次</string>
+  <string name="less_notification_sounds_2m">每隔 2 分鐘</string>
+  <string name="face_auto_unlock_title">臉部自動解鎖</string>
+  <string name="face_auto_unlock_summary">解除鎖定畫面後的臉部解鎖</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">對齊</string>
+  <string name="status_bar_am_pm_title">上午/下午</string>
+  <string name="status_bar_am_pm_info">24 小時時鐘已啟用</string>
+  <string name="right_clock">時鐘靠右</string>
+  <string name="clock_date_display">日期</string>
+  <string name="clock_date_display_summary">在時鐘前顯示自訂日期</string>
+  <string name="clock_date_style">日期樣式</string>
+  <string name="clock_date_format">日期格式</string>
+  <string name="clock_date_string_edittext_title">必須符合 DateFormat 格式 例如：MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">輸入字串</string>
+  <string name="am_pm_clock_normal">正常字體大小</string>
+  <string name="am_pm_clock_small">小字體的大小</string>
+  <string name="am_pm_clock_none">不顯示</string>
+  <string name="clock_date_display_none">不顯示</string>
+  <string name="clock_date_display_small">小字體的大小</string>
+  <string name="clock_date_display_normal">正常字體大小</string>
+  <string name="clock_date_style_normal">一般</string>
+  <string name="clock_date_style_lowercase">小寫</string>
+  <string name="clock_date_style_uppercase">大寫</string>
+  <string name="clock_date_format_custom">自訂 java 格式</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

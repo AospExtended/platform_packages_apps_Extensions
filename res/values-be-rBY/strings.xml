@@ -232,6 +232,9 @@
   <string name="hide_lockscreen_clock_title">Віджэт гадзінніка</string>
   <string name="hide_lockscreen_clock_summary">Змяніць бачнасць віджэта гадзінніка</string>
   <string name="hide_lockscreen_date_title">Віджэт даты</string>
+  <string name="hide_lockscreen_date_summary">Змяніць бачнасць даты пад віджэтам гадзінніка</string>
+  <string name="hide_lockscreen_alarm_title">Тэкст будзільніка</string>
+  <string name="hide_lockscreen_alarm_summary">Змяніць бачнасць тэкста будзільніка пад віджэтам гадзінніка</string>
   <!-- Heads up -->
   <string name="headsup_category">Налады ўсплывальных апавяшчэнняў</string>
   <string name="heads_up_notifications">Усплывальныя апавяшчэнні</string>
@@ -408,6 +411,7 @@
   <string name="pulse_accent_color_title">Выкарыстоўваць каляровы акцэнт для імпульсу</string>
   <string name="pulse_accent_color_summary">Пры ўключэнні гэтай опцыі Pulse будзе выкарыстоўваць ваш бягучы колер. \"Lava Lamp\" адключыцца</string>
   <string name="fling_pulse_color">Колер Pulse</string>
+  <string name="fling_pulse_color_summary">Таксама выкарыстоўваецца як рэзервовы для аўтаматычнага падбору колеру</string>
   <string name="eos_fling_lavalamp_title">Уключыць Lava Lamp</string>
   <string name="eos_fling_lavalamp_summary">Выпадковыя колеры ў стылі Lava Lamp</string>
   <string name="pulse_advanced_category">Дадаткова</string>
@@ -419,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Празрыстасць суцэльных ліній</string>
   <string name="pulse_solid_dimen_category">Налады рэжыму суцэльных ліній</string>
   <string name="pulse_custom_buttons_opacity_title">Празрыстасць Разумнай панэлі ў рэжыме Pulse</string>
+  <string name="pulse_auto_color_title">Аўтаматычны колер Pulse</string>
+  <string name="pulse_auto_color_summary">Усталяваць колер у адпаведнасці з колерам вокладкі альбома. Перавызначаем Lava Lamp і непразрыстасць ліній.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Шырыня панэлі</string>
   <string name="pulse_custom_div">Адлегласць паміж панэлямі</string>
@@ -524,8 +530,60 @@
   <string name="force_ambient_for_media_on_forced">Нармальны (прымусова)</string>
   <string name="force_ambient_for_media_on_forced_clean">Мінімальны (прымусова)</string>
   <!-- Carrier Label -->
+  <string name="carrier_options">Выбраць месца адлюстравання</string>
+  <string name="custom_carrier_label_title">Уласнае iмя аператара</string>
+  <string name="custom_carrier_label_explain">Увядзіце сваю назву. Пакіньце пустым, каб выкарыстоўваць бягучае імя сеткі</string>
+  <string name="custom_carrier_label_notset">Імя аператара ў дадзены момант не ўсталявана</string>
+  <string name="show_carrier_title">Імя аператара</string>
+  <string name="show_carrier_disabled">Адключана</string>
+  <string name="show_carrier_keyguard">Экран блакавання</string>
+  <string name="show_carrier_statusbar">Радок стану</string>
+  <string name="show_carrier_enabled">Абодва</string>
   <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Анімацыя выключэння экрана</string>
+  <string name="screen_off_animation_default">Па змаўчанні</string>
+  <string name="screen_off_animation_crt">CRT</string>
+  <string name="screen_off_animation_scale">Маштаб</string>
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Гукавыя апавяшчэння і вібрацыя пры ўключаным экране</string>
+  <string name="notification_sound_vib_screen_on_never">Ніколі</string>
+  <string name="notification_sound_vib_screen_on_always">Заўсёды (па змаўчанні)</string>
+  <string name="notification_sound_vib_screen_on_nomedia">Калі мультымедыя не прайграваецца</string>
+  <string name="smartbar_double_tap_sleep_title">Выключаць экран пры падвойным націску</string>
+  <string name="smartbar_double_tap_sleep_summary">Падвойны націск на пустую вобласць панэлі навігацыі для сну</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Гукі \"разумных\" апавяшчэнняў</string>
+  <string name="less_notification_sounds_summary">Абмежаваць частату гуку апавяшчэнняў кожнай праграмы толькі адным разам за абраны перыяд часу</string>
+  <string name="less_notification_sounds_default">Праграмы па змаўчанні</string>
+  <string name="less_notification_sounds_10s">Кожныя 10 секунд</string>
+  <string name="less_notification_sounds_30s">Кожныя 30 секунд</string>
+  <string name="less_notification_sounds_1m">Кожную хвіліну</string>
+  <string name="less_notification_sounds_2m">Кожныя 2 хвіліны</string>
+  <string name="face_auto_unlock_title">Аўтаматычная разблакоўка сканарам асобы</string>
+  <string name="face_auto_unlock_summary">Прыбраць экран блакавання пасля разблакоўкі сканарам асобы</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Размяшчэнне</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-гадзінны фармат часу</string>
+  <string name="right_clock">Гадзіннік справа</string>
+  <string name="clock_date_display">Дата</string>
+  <string name="clock_date_display_summary">Адлюстроўваць карыстацкі фармат даты перад гадзіннікам</string>
+  <string name="clock_date_style">Стыль даты</string>
+  <string name="clock_date_format">Фармат даты</string>
+  <string name="clock_date_string_edittext_title">Выбранае Вамі значэнне павінна адпавядаць фармату даты, напрыклад: ММ/дд/гг</string>
+  <string name="clock_date_string_edittext_summary">Увесці значэнне</string>
+  <string name="am_pm_clock_normal">Стандартны памер шрыфта</string>
+  <string name="am_pm_clock_small">Маленькі памер шрыфта</string>
+  <string name="am_pm_clock_none">Не паказваць</string>
+  <string name="clock_date_display_none">Не паказваць</string>
+  <string name="clock_date_display_small">Маленькі памер шрыфта</string>
+  <string name="clock_date_display_normal">Стандартны памер шрыфта</string>
+  <string name="clock_date_style_normal">Звычайны</string>
+  <string name="clock_date_style_lowercase">Ніжні рэгістр</string>
+  <string name="clock_date_style_uppercase">Верхні рэгістр</string>
+  <string name="clock_date_format_custom">Карыстацкі java фармат</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

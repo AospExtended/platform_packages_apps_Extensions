@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">Utilizar color de acento en Pulse</string>
   <string name="pulse_accent_color_summary">Activar esto hará que Pulse use el color de acento del sistema. Desactivará la lámpara de lava</string>
   <string name="fling_pulse_color">Color de Pulse</string>
+  <string name="fling_pulse_color_summary">Utilizada también al replegarse para color automático</string>
   <string name="eos_fling_lavalamp_title">Enciender la lámpara de lava</string>
   <string name="eos_fling_lavalamp_summary">Pulse crea una animación con una suave mezcla de colores tipo lámpara de lava</string>
   <string name="pulse_advanced_category">Avanzado</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Opacidad de líneas sólidas</string>
   <string name="pulse_solid_dimen_category">Ajustes del modo de lineas solidas</string>
   <string name="pulse_custom_buttons_opacity_title">Opacidad de los botones con Pulse</string>
+  <string name="pulse_auto_color_title">Color de pulso automático</string>
+  <string name="pulse_auto_color_summary">Sincronizar color con las imágenes del album. Sustituye a la lámpara de lava y a las líneas opacas.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Ancho de la barra</string>
   <string name="pulse_custom_div">Espacio de la barra</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">Nunca</string>
   <string name="notification_sound_vib_screen_on_always">Siempre (por defecto)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Si no hay nada en reproducción</string>
+  <string name="smartbar_double_tap_sleep_title">Doble toque para dormir</string>
+  <string name="smartbar_double_tap_sleep_summary">Doble toque en la barra de navegación para apagar pantalla</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Sonidos inteligentes de notificación</string>
+  <string name="less_notification_sounds_summary">Reproducir el sonido de notificación de cada aplicación sólo una vez durante este periodo de tiempo</string>
+  <string name="less_notification_sounds_default">Aplicación predeterminada</string>
+  <string name="less_notification_sounds_10s">Cada 10 segundos</string>
+  <string name="less_notification_sounds_30s">Cada 30 segundos</string>
+  <string name="less_notification_sounds_1m">Cada minuto</string>
+  <string name="less_notification_sounds_2m">Cada 2 minutos</string>
+  <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
+  <string name="face_auto_unlock_summary">Quita la pantalla de bloqueo tras desbloqueo facial</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Posición</string>
+  <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+  <string name="status_bar_am_pm_info">El reloj de 24 horas está habilitado</string>
+  <string name="right_clock">Reloj en la derecha</string>
+  <string name="clock_date_display">Fecha</string>
+  <string name="clock_date_display_summary">Muestra la fecha personalizada antes del reloj</string>
+  <string name="clock_date_style">Estilo de la fecha</string>
+  <string name="clock_date_format">Formato de fecha</string>
+  <string name="clock_date_string_edittext_title">Ejemplo de formato de fecha: MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Introducir texto</string>
+  <string name="am_pm_clock_normal">Tamaño de letra normal</string>
+  <string name="am_pm_clock_small">Tamaño de letra pequeña</string>
+  <string name="am_pm_clock_none">No mostrar</string>
+  <string name="clock_date_display_none">No mostrar</string>
+  <string name="clock_date_display_small">Tamaño de letra pequeña</string>
+  <string name="clock_date_display_normal">Tamaño de letra normal</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Minúsculas</string>
+  <string name="clock_date_style_uppercase">Mayúsculas</string>
+  <string name="clock_date_format_custom">Formato de java personalizado</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

@@ -124,5 +124,9 @@
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <!-- Status bar clock options -->
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

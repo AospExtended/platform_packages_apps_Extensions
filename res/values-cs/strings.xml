@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">Pro Pulse použít barvu motivu</string>
   <string name="pulse_accent_color_summary">Když použijete tuto možnost, Pulse použije vaši aktuální barvu. Lávová lampa se vypne</string>
   <string name="fling_pulse_color">Pulsující barva</string>
+  <string name="fling_pulse_color_summary">Používá se také jako záloha pro automatickou barvu</string>
   <string name="eos_fling_lavalamp_title">Zapnout lávovou lampu</string>
   <string name="eos_fling_lavalamp_summary">Hladké pulsující prolnutí barev ve stylu lávové lampy</string>
   <string name="pulse_advanced_category">Pokročilé</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Průhlednost plných čar</string>
   <string name="pulse_solid_dimen_category">Nastavení režimu plné čáry</string>
   <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek chytré lišty při pulsování</string>
+  <string name="pulse_auto_color_title">Automatická barva Pulse</string>
+  <string name="pulse_auto_color_summary">Synchronizuje barvu s obalem alba. Odstraní lávovou lampu a průhlednost čar.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Šířka pruhu</string>
   <string name="pulse_custom_div">Mezera pruhu</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">Nikdy</string>
   <string name="notification_sound_vib_screen_on_always">Vždy (výchozí)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Pokud se nepřehrávají média</string>
+  <string name="smartbar_double_tap_sleep_title">Dvojím poklepáním uspat</string>
+  <string name="smartbar_double_tap_sleep_summary">Dvojím poklepáním na prázdné místo navigačního panelu uspat zařízení</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Inteligentní zvuky oznámení</string>
+  <string name="less_notification_sounds_summary">Přehrát zvuk oznámení každé aplikace pouze jednou za stanovené časové období</string>
+  <string name="less_notification_sounds_default">Výchozí aplikace</string>
+  <string name="less_notification_sounds_10s">Každých 10 sekund</string>
+  <string name="less_notification_sounds_30s">Každých 30 sekund</string>
+  <string name="less_notification_sounds_1m">Každou minutu</string>
+  <string name="less_notification_sounds_2m">Každé 2 minuty</string>
+  <string name="face_auto_unlock_title">Automatické odemčení pomocí obličeje</string>
+  <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Zarovnání</string>
+  <string name="status_bar_am_pm_title">DOP/ODP</string>
+  <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
+  <string name="right_clock">Hodiny vpravo</string>
+  <string name="clock_date_display">Datum</string>
+  <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
+  <string name="clock_date_style">Styl data</string>
+  <string name="clock_date_format">Formát data</string>
+  <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Vložte textový řetězec</string>
+  <string name="am_pm_clock_normal">Normální velikost písma</string>
+  <string name="am_pm_clock_small">Malá velikost písma</string>
+  <string name="am_pm_clock_none">Nezobrazovat</string>
+  <string name="clock_date_display_none">Nezobrazovat</string>
+  <string name="clock_date_display_small">Malá velikost písma</string>
+  <string name="clock_date_display_normal">Normální velikost písma</string>
+  <string name="clock_date_style_normal">Normální</string>
+  <string name="clock_date_style_lowercase">Malá písmena</string>
+  <string name="clock_date_style_uppercase">Velká písmena</string>
+  <string name="clock_date_format_custom">Vlastní formát Java</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

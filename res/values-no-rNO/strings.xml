@@ -18,6 +18,9 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Utvidelser</string>
+  <string name="add">Legg til</string>
+  <string name="advanced">Avansert</string>
   <!-- Extensions categories -->
   <!-- Frags -->
   <!-- General Tweaks -->
@@ -33,17 +36,58 @@
   <!-- Buttons -->
   <!-- App Ops -->
   <!-- App info dialog -->
+  <string name="extensions_dialog_message">Hvis du finner en feil med noen av disse innstillingene, legger du inn i feilrapporter-delen på Google + -siden vår. Du må inkludere følgende når du legger ut en feilrapport: \n\n1. En logcat eller last_kmsg\n2. Kernel og mods brukt\n3. Nyttig informasjon\n\nHvis du ikke rapporterer noe tilstrekkelig, IKKE forvent at ting skal løses.</string>
   <!-- Color Picker -->
+  <string name="set">Sett</string>
   <!-- Footer warnings -->
   <!-- Battery light -->
+  <string name="battery_light_enable">Batterilampe</string>
+  <string name="battery_light_allow_on_dnd_title">Batterilampe i Ikke forstyrr modus</string>
+  <string name="battery_light_low_blinking_title">Blinkende lys på lavt batteri</string>
+  <string name="battery_light_cat">Batterilampefarge når du lader</string>
+  <string name="battery_light_low_color">Svakt batteri</string>
+  <string name="battery_light_medium_color">Middels batteri</string>
+  <string name="battery_light_full_color">Nesten fullt batteri</string>
+  <string name="battery_light_reallyfull_color">Fullt (100) batteri</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Nettverkstrafikk</string>
+  <string name="network_traffic_type">Velg nettaktivitetstype</string>
+  <string name="show_network_traffic_up">Uplink</string>
+  <string name="show_network_traffic_down">Nedlastingshastighet</string>
+  <string name="network_traffic_state_title">Vis nettaktivitet i statuslinjen</string>
+  <string name="network_traffic_autohide_threshold_title">Netto aktivitet autohide terskel (KB/s)</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Fjern alle knapper</string>
+  <string name="show_clear_all_recents_button_summary">Vis klar alle-knappen</string>
+  <string name="recents_clear_all_location_title">Fjern alt sted</string>
+  <string name="recents_clear_all_location_top_right">Øverst til høyre</string>
+  <string name="recents_clear_all_location_top_left">Øverst til venstre</string>
+  <string name="recents_clear_all_location_top_center">Øverst i midten</string>
+  <string name="recents_clear_all_location_bottom_right">Nede til høyre</string>
+  <string name="recents_clear_all_location_bottom_left">Nede til venstre</string>
+  <string name="recents_clear_all_location_bottom_center">Bunn senter</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Strømvarslingskontroller</string>
+  <string name="power_notification_controls_summary">Velg viktighetsnivå for varsler</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">Lysstyrke glidebryter</string>
+  <string name="qs_brightness_slider_summary">Vis en glidebryter i hurtiginnstillingspanelet</string>
+  <string name="toast_icon_title">Appens ikon i toast</string>
+  <string name="toast_icon_summary">Vis appikonet som samsvarer med ristet brød</string>
   <!-- Power Menu -->
+  <string name="power_menu_title">Strøm-meny</string>
+  <string name="power_menu_title_summary">Se eller endre innstillingene for strømmenyen</string>
+  <string name="powermenu_screenshot">Skjermbilde</string>
+  <string name="powermenu_screenrecord">Skjermopptak</string>
+  <string name="powermenu_power">Makt</string>
+  <string name="powermenu_restart">Omstart</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_summary">Deaktiver strømmenyen på sikker låseskjerm</string>
+  <string name="recents_show_membar_summary">Vis en linje med enhetens tilgjengelige minne</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_summary">Vis et lysstyrkeikon til høyre for glidebryteren for å justere automatisk lysstyrke</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Hurtig rullegardinmeny</string>
   <!-- Smart pulldown-->
   <!-- Lockscreen icons -->
   <!-- Force expanded notifications -->
@@ -57,37 +101,118 @@
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
   <!-- Language options - Volume rocker cursor control -->
+  <string name="volume_key_cursor_control_on_reverse">Volum opp/ned beveger markøren til høyre/venstre</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Volum rocker våkne</string>
+  <string name="volume_rocker_wake_summary">Hvis du trykker på volumtastene, vil enheten vekke enheten</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Volumtaster svarer</string>
+  <string name="volume_answer_call_summary">Svar på anropet når volumtastene trykkes</string>
   <!-- QS rows and columns -->
+  <string name="qs_layout_category">QS fliser layout</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Start musikkappen på hodetelefonforbindelsen</string>
   <!-- Headset ringtone audio focus -->
+  <string name="ringtone_focus_mode_title">Hvor å spille ringetoner fra</string>
+  <string name="ringtone_focus_mode_dynamic">Fra headset hvis tilkoblet og spiller musikk</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="hide_lockscreen_clock_summary">Endre klokkemodulens synlighet</string>
+  <string name="hide_lockscreen_date_summary">Endre datoens synlighet under klokke-widgeten</string>
+  <string name="hide_lockscreen_alarm_summary">Endre alarmtekstens synlighet under klokke-widgeten</string>
   <!-- Heads up -->
+  <string name="add_heads_up_stoplist_summary">Deaktiver hodene opp varslinger i disse programmene</string>
+  <string name="add_heads_up_blacklist_summary">Deaktiver hodene opp fra disse programmene</string>
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_summary">Peeking meldinger vil vise for <xliff:g id="number">%d</xliff:g> sekunder</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_summary_one_minute">Hvis du slår opp på kikkvarsler, vil du snooze heads up fra det programmet i 1 minutt</string>
   <!-- Incall vibrate options -->
   <!-- Disabling FC notifications -->
   <!-- Statusbar ticker -->
+  <string name="recents_icon_pack_summary">Bruk en egendefinert ikonpakke for Nyhetspanel</string>
   <!-- Slim Recents panel -->
+  <string name="use_slim_recents_summary">Bruk Slim Recents i stedet for standardoppdateringsvisningen</string>
+  <string name="slim_recents_settings_summary">Se innstillingene for Slim Recents</string>
+  <string name="recent_panel_expanded_mode_summary">Nylige oppgaver utvidet forhåndsvisning modus</string>
+  <string name="recent_reset_confirm">Er du sikker på at du vil nullstille Slim Recent til lagerfarge?</string>
+  <string name="slim_icon_pack_summary">Bruk en egendefinert ikonpakke for apper i panelet</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_summary">Vis nylig applikasjonspanel på venstre kant</string>
+  <string name="slim_blacklist_apps_cat_title">Svarteliste</string>
+  <string name="slim_blacklist_add_apps_summary">Trykk her for å legge til, trykk på lagt app for å fjerne det</string>
   <!-- DUI -->
+  <string name="navbar_mode_summary">Velg hvilken navigeringsmodus du vil bruke på enheten</string>
+  <string name="navigationbar_settings_summary">Tilpass navigeringsstil og oppførsel</string>
+  <string name="navigation_bar_left_summary">Plasser navigasjonslinjen på venstre side av skjermen i liggende modus</string>
+  <string name="invalid_icon_from_uri">Kan ikke laste inn bilde fra innholdsleverandør</string>
+  <string name="select_custom_activity_title">Velg tilpasset aktivitet</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
+  <string name="fling_long_swipe_summary">Finjuster lange sveipe-terskler basert på en prosentandel av Fling-grensesnittets bredde eller høyde</string>
+  <string name="fling_trails_enable_summary">Vis en sti på swipe-bevegelser</string>
+  <string name="fling_animate_logo_summary">Logoen animerer på berøringshendelser</string>
+  <string name="fling_show_ripple_summary">Rippel-effekt på berøringshendelser</string>
+  <string name="fling_longpress_summary">Øk eller reduser tiden det tar å utføre et langt trykk</string>
+  <string name="fling_keyboard_cursors_summary">Dobbeltklikk på venstre og høyre handling blir venstre og høyre tastaturmarkørhandlinger hvis tastaturet er åpent</string>
   <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_accent_color_summary">Aktivering av dette vil gjøre puls bruk din nåværende aksentfarge. Det vil deaktivere Lava Lamp</string>
+  <string name="fling_pulse_color_summary">Brukt også som tilbakeslag for automatisk farge</string>
+  <string name="eos_fling_lavalamp_summary">Pulse animerer en glatt lava lampestil fargeblanding</string>
+  <string name="pulse_legacy_mode_advanced_category">Fading blokkeringsmodusinnstillinger</string>
+  <string name="pulse_custom_buttons_opacity_title">Smartbar knapper opacity på Pulse</string>
+  <string name="pulse_auto_color_summary">Synkroniser farge med albumkunsten. Overstyrer Lava Lamp og linjer opacity.</string>
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <string name="smartbar_settings_summary">Fullt tilpassbar navigeringslinje</string>
+  <string name="smartbar_editor_summary">Åpne smartbarknappeditoren</string>
+  <string name="smartbar_context_menu_position_summary">Still inn posisjonen til kontekstuelle knapper som meny og tidsvelger</string>
+  <string name="smartbar_button_animation_title">Knappen berør animasjon</string>
+  <string name="smartbar_button_animation_summary">Still animasjonsstilen til de primære knappene når de trykkes</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Bare hjemmeknapp) og Ripple</string>
+  <string name="smartbar_factory_reset_confirm">Er du sikker på at du vil tilbakestille Smartbar til lagerinnstillinger?</string>
+  <string name="smartbar_ime_action_title">Inndatametode og mediehandlinger</string>
+  <string name="one_handed_mode_summary">Tillater sveiping i navigeringslinjen for å aktivere en håndholdt modus</string>
   <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_summary">Vis roamingindikator i signalikonet når du er i roamingmodus</string>
   <!-- 4G icon -->
+  <string name="show_fourg_icon_summary">Vis 4G-ikonet i signalikonet i stedet for LTE</string>
+  <string name="button_backlight_on_touch_only_summary">Aktiver bakgrunnsbelysning med tidsavbrudd bare ved å trykke på knappen</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Knapper bakgrunnsbelysning timeout</string>
   <!-- Enable keys backlight-->
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Skjerm av strømbryteren</string>
+  <string name="torch_power_button_gesture_dt">Dobbeltklikk på strøm til å bytte fakkel (vil legge til en liten forsinkelse til enkelt trykk)</string>
+  <string name="torch_power_button_gesture_lp">Lang trykk på strøm til å bytte fakkel</string>
+  <string name="force_ambient_for_media_pref_title">Ambient musikk ticker</string>
+  <string name="force_ambient_for_media_pref_summary">Konfigurer Ambient Music ticker</string>
+  <string name="ambient_ticker_footer">Denne funksjonen tillater muligheten til å vise gjeldende musikksporinformasjon på låseskjermen med eller uten omgivelsesvisning aktivert.\n\nDu kan velge mellom to layouter, normalt og minimalt. Mens denne funksjonen utnytter omgivelsesdisplayet, er det ikke avhengig av det. Den kan utløses uten at det er mulig å vise omgivende visning ved å bruke alternativene (tvunget).\n\nNormal visning inkluderer låseskjermsklokke, dato og ticker.\n\nMinimal visning inkluderer bare ticker midt på skjermen.</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimal (tvunget)</string>
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
+  <string name="notification_sound_vib_screen_on_title">Meldinger lyd og vibrasjon hvis skjermen er på</string>
+  <string name="smartbar_double_tap_sleep_summary">Dobbeltklikk på tomme navbarområder for å sove</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Smart varsling lyder</string>
+  <string name="less_notification_sounds_summary">Spill kunvarslingslyden av hver app bare en gang per sett tidsperiode</string>
+  <string name="face_auto_unlock_title">Ansiktet auto unlock</string>
+  <string name="face_auto_unlock_summary">Slå av låseskjerm etter ansiktsopplåsing</string>
+  <!-- Status bar clock options -->
+  <string name="clock_date_display_summary">Vis egendefinert dato før klokken</string>
+  <string name="clock_date_string_edittext_summary">Skriv inn streng</string>
+  <string name="clock_date_display_none">Ikke vis</string>
+  <string name="clock_date_display_small">Liten skriftstørrelse</string>
+  <string name="clock_date_display_normal">Normal skriftstørrelse</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Små bokstaver</string>
+  <string name="clock_date_style_uppercase">Stor bokstav</string>
+  <string name="clock_date_format_custom">Egendefinert java format</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

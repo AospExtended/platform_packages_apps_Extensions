@@ -18,6 +18,10 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="add">დამატება</string>
+  <string name="choose_app">აირჩიე აპლიკაცია</string>
+  <string name="music_category">მუსიკა</string>
+  <string name="security_category">უსაფრთხოება</string>
   <!-- Extensions categories -->
   <!-- Frags -->
   <!-- General Tweaks -->
@@ -89,5 +93,9 @@
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <!-- Status bar clock options -->
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

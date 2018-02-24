@@ -22,8 +22,8 @@
   <string name="add">添加</string>
   <string name="advanced">高级</string>
   <string name="cancel">取消</string>
-  <string name="choose_app">选择应用程序</string>
-  <string name="general_category">一般</string>
+  <string name="choose_app">选择应用</string>
+  <string name="general_category">常规</string>
   <string name="gestures_category">手势</string>
   <string name="music_category">音乐</string>
   <string name="security_category">安全</string>
@@ -51,7 +51,7 @@
   <string name="build_tweaks_summary_title">扩展您的设备!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">一般设置</string>
+  <string name="general_tweaks_title">常规设置</string>
   <!-- Network traffic -->
   <string name="traffic_title">网速指示器</string>
   <!-- Carrier Label -->
@@ -77,10 +77,10 @@
   <!-- App info dialog -->
   <string name="extensions_dialog_title">帮助我们也是帮助您！</string>
   <string name="extensions_dialog_message">如您发现这些设置有任何错误，请在我们的 Google+ 主页”错误报告“专栏发贴说明。 错误报告必须包含下列内容：\n\n1. logcat或last_kmsg\n2. 所用内核及mod版本\n3. 有用信息\n\n若您不能正确报告错误，问题将不会得到修复。</string>
-  <string name="extensions_dialog_toast">阅读全部内容！</string>
+  <string name="extensions_dialog_toast">务必阅读全部内容！</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">取色器</string>
-  <string name="press_color_to_apply">按选以下颜色以应用</string>
+  <string name="press_color_to_apply">选择以下颜色以应用</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex：</string>
@@ -110,7 +110,7 @@
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">“一键清理”按钮</string>
   <string name="show_clear_all_recents_button_summary">显示“一键清理”按钮</string>
-  <string name="recents_clear_all_location_title">清除所有位置</string>
+  <string name="recents_clear_all_location_title">“一键清理”按钮位置</string>
   <string name="recents_clear_all_location_top_right">右上方</string>
   <string name="recents_clear_all_location_top_left">左上方</string>
   <string name="recents_clear_all_location_top_center">上方中央</string>
@@ -215,9 +215,9 @@
   <string name="qs_rows_landscape_title">横向时瓷贴行数</string>
   <string name="qs_columns_portrait_title">纵向时瓷贴列数</string>
   <string name="qs_columns_landscape_title">横向时瓷贴列数</string>
-  <string name="qs_tile_title_visibility_title">显示图标标题</string>
+  <string name="qs_tile_title_visibility_title">显示瓷贴文本</string>
   <!-- Launch music player when headset is connected -->
-  <string name="headset_connect_player_title">耳机连接后打开音乐播放器</string>
+  <string name="headset_connect_player_title">耳机连接后打开音乐应用程序</string>
   <string name="headset_connect_player_disabled">禁用</string>
   <string name="headset_connect_player_wired">当有线耳机接入时</string>
   <string name="headset_connect_player_bt_no_carkit">当蓝牙耳机(非车载) 接入时</string>
@@ -232,7 +232,7 @@
   <string name="hide_lockscreen_clock_title">时钟部件</string>
   <string name="hide_lockscreen_clock_summary">更改时钟部件的可见性</string>
   <string name="hide_lockscreen_date_title">日期部件</string>
-  <string name="hide_lockscreen_date_summary">更改时钟部件下方的日期可见性</string>
+  <string name="hide_lockscreen_date_summary">更改时钟部件下方日期的可见性</string>
   <string name="hide_lockscreen_alarm_title">闹钟文本</string>
   <string name="hide_lockscreen_alarm_summary">更改时钟部件下方闹钟文本的可见性</string>
   <!-- Heads up -->
@@ -288,8 +288,8 @@
   <string name="default_iconpack_title">默认图标</string>
   <!-- Slim Recents panel -->
   <string name="slim_recents_title">Slim 最近任务</string>
-  <string name="use_slim_recents_title">使用备选最近任务面板</string>
-  <string name="use_slim_recents_summary">使用Slim最近任务而不是默认近期应用视图</string>
+  <string name="use_slim_recents_title">使用替代的最近任务面板</string>
+  <string name="use_slim_recents_summary">使用 Slim 最近任务而不是默认近期应用视图</string>
   <string name="slim_recents_settings_title">Slim 最近任务设置</string>
   <string name="slim_recents_settings_summary">查看 Slim 最近任务的设置</string>
   <string name="recents_max_apps_title">最大允许应用数量</string>
@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">对脉冲使用重音颜色</string>
   <string name="pulse_accent_color_summary">启用此功能将使导航栏使用当前的重音颜色。它将禁用按键动画</string>
   <string name="fling_pulse_color">Pulse 颜色</string>
+  <string name="fling_pulse_color_summary">也用作自动颜色的后备</string>
   <string name="eos_fling_lavalamp_title">开启霓虹灯</string>
   <string name="eos_fling_lavalamp_summary">平滑的颜色混合霓虹灯风格可视化样式</string>
   <string name="pulse_advanced_category">高级选项</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">实线不透明度</string>
   <string name="pulse_solid_dimen_category">实线模式设置</string>
   <string name="pulse_custom_buttons_opacity_title">自定义智能导航按键透明度</string>
+  <string name="pulse_auto_color_title">Pulse 自动调整颜色</string>
+  <string name="pulse_auto_color_summary">与专辑封面颜色同步。将会覆盖霓虹灯和线的不透明度。</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">栏宽度</string>
   <string name="pulse_custom_div">栏间距</string>
@@ -529,8 +532,8 @@
   <!-- Carrier Label -->
   <string name="carrier_options">选择显示位置</string>
   <string name="custom_carrier_label_title">自定义运营商标签</string>
-  <string name="custom_carrier_label_explain">输入自定义标签。若保留为空白则使用您的网络名称</string>
-  <string name="custom_carrier_label_notset">没有设置自定义运营商标签</string>
+  <string name="custom_carrier_label_explain">输入自定义运营商标签。若保留为空白则默认使用您的网络名称</string>
+  <string name="custom_carrier_label_notset">未设置自定义运营商标签</string>
   <string name="show_carrier_title">运营商标签</string>
   <string name="show_carrier_disabled">禁用</string>
   <string name="show_carrier_keyguard">仅在锁屏显示</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">从不</string>
   <string name="notification_sound_vib_screen_on_always">始终 (默认)</string>
   <string name="notification_sound_vib_screen_on_nomedia">如果没有媒体正在播放</string>
+  <string name="smartbar_double_tap_sleep_title">双击睡眠</string>
+  <string name="smartbar_double_tap_sleep_summary">双击导航栏的空白区域休眠</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">智能通知提示音</string>
+  <string name="less_notification_sounds_summary">每个应用的通知提示音在设定的时间段内只响一次</string>
+  <string name="less_notification_sounds_default">应用默认值</string>
+  <string name="less_notification_sounds_10s">每 10 秒</string>
+  <string name="less_notification_sounds_30s">每 30 秒</string>
+  <string name="less_notification_sounds_1m">每分钟</string>
+  <string name="less_notification_sounds_2m">每 2 分钟</string>
+  <string name="face_auto_unlock_title">面部自动解锁</string>
+  <string name="face_auto_unlock_summary">面部解锁后解除锁屏</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">位置</string>
+  <string name="status_bar_am_pm_title">上午/下午</string>
+  <string name="status_bar_am_pm_info">24 小时制已启用</string>
+  <string name="right_clock">时钟居右</string>
+  <string name="clock_date_display">日期</string>
+  <string name="clock_date_display_summary">在时钟前显示自定义日期</string>
+  <string name="clock_date_style">日期样式</string>
+  <string name="clock_date_format">日期格式</string>
+  <string name="clock_date_string_edittext_title">日期格式必须如：MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">输入字符串</string>
+  <string name="am_pm_clock_normal">正常字体</string>
+  <string name="am_pm_clock_small">小号字体</string>
+  <string name="am_pm_clock_none">隐藏</string>
+  <string name="clock_date_display_none">隐藏</string>
+  <string name="clock_date_display_small">小号字体</string>
+  <string name="clock_date_display_normal">正常字体</string>
+  <string name="clock_date_style_normal">正常</string>
+  <string name="clock_date_style_lowercase">小写</string>
+  <string name="clock_date_style_uppercase">大写</string>
+  <string name="clock_date_format_custom">自定义 java 时间格式</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

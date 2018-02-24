@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">Pre Pulse použiť farbu témy</string>
   <string name="pulse_accent_color_summary">Ak túto možnosť povolíte, Pulse použije vašu aktuálnu farbu. \"Lavová lampa\" sa vypne</string>
   <string name="fling_pulse_color">Farby Pulse</string>
+  <string name="fling_pulse_color_summary">Používa sa aj ako záloha pre automatickú farbu</string>
   <string name="eos_fling_lavalamp_title">Zapnúť Lávovú lampu</string>
   <string name="eos_fling_lavalamp_summary">Hladké pulzujúce prelínanie farieb v štýle Lávovej lampy</string>
   <string name="pulse_advanced_category">Rozšírené</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Priehľadnosť plných čiar</string>
   <string name="pulse_solid_dimen_category">Nastavenia režimu plných čiar</string>
   <string name="pulse_custom_buttons_opacity_title">Priehľadnosť navigačných tlačidiel pri Pulse</string>
+  <string name="pulse_auto_color_title">Automatická farba Pulse</string>
+  <string name="pulse_auto_color_summary">Synchronizuje farbu s obalom albumu. Prepisuje nastavenie Lávovej lampy a priehľadnosť čiar.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Šírka pruhu</string>
   <string name="pulse_custom_div">Medzera pruhu</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">Nikdy</string>
   <string name="notification_sound_vib_screen_on_always">Vždy (predvolené)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Ak sa multimédiá neprehrávajú</string>
+  <string name="smartbar_double_tap_sleep_title">Uspať dvojklikom</string>
+  <string name="smartbar_double_tap_sleep_summary">Uspať zariadenie dvojklikom na prázdne miesto navigačného panela</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Inteligentné zvuky upozornení</string>
+  <string name="less_notification_sounds_summary">Obmedziť počet prehratí zvuku upozornenia každej aplikácie iba raz za nastavené časové obdobie</string>
+  <string name="less_notification_sounds_default">Predvolené aplikáciou</string>
+  <string name="less_notification_sounds_10s">Každých 10 sekúnd</string>
+  <string name="less_notification_sounds_30s">Každých 30 sekúnd</string>
+  <string name="less_notification_sounds_1m">Každú minútu</string>
+  <string name="less_notification_sounds_2m">Každé 2 minúty</string>
+  <string name="face_auto_unlock_title">Automatické odomknutie pomocou tváre</string>
+  <string name="face_auto_unlock_summary">Nezobraziť obrazovku uzamknutia po odomknutí pomocou tváre</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Zarovnávanie</string>
+  <string name="status_bar_am_pm_title">Štýl AM/PM</string>
+  <string name="status_bar_am_pm_info">24-hodinový formát je povolený</string>
+  <string name="right_clock">Hodiny vpravo</string>
+  <string name="clock_date_display">Dátum</string>
+  <string name="clock_date_display_summary">Zobraziť vlastný dátum pred hodinami</string>
+  <string name="clock_date_style">Štýl datumu</string>
+  <string name="clock_date_format">Formát datumu</string>
+  <string name="clock_date_string_edittext_title">Musí byť vo formáte napr. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Vložte textový řeťazec</string>
+  <string name="am_pm_clock_normal">Normálna veľkosť písma</string>
+  <string name="am_pm_clock_small">Malá veľkosť písma</string>
+  <string name="am_pm_clock_none">Nezobrazovať</string>
+  <string name="clock_date_display_none">Nezobrazovať</string>
+  <string name="clock_date_display_small">Malá veľkosť písma</string>
+  <string name="clock_date_display_normal">Normálna veľkosť písma</string>
+  <string name="clock_date_style_normal">Normálne</string>
+  <string name="clock_date_style_lowercase">Malé písmená</string>
+  <string name="clock_date_style_uppercase">Velké písmená</string>
+  <string name="clock_date_format_custom">Vlastný java formát</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

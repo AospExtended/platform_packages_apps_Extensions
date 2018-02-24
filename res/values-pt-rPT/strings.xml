@@ -55,6 +55,7 @@
   <!-- Network traffic -->
   <string name="traffic_title">Indicadores de tráfego</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Nome da operadora</string>
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">Extensões diversas</string>
   <!-- Recents UI -->
@@ -84,13 +85,31 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
+  <string name="set">Definir</string>
+  <string name="color_default">Padrão</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Esteja ciente de que o rótulo de operadora personalizado não está disponível na área estendida statusbar, também conhecido como área de definições rápidas. Também usar emojis como seu rótulo de operadora pode causar alguns problemas de visibilidade em fundos mais leves.</string>
   <!-- Battery light -->
+  <string name="battery_light_settings">Luz de carregamento de bateria</string>
+  <string name="battery_light_enable">Luz da bateria</string>
+  <string name="battery_light_allow_on_dnd_title">Luzes no modo Não Incomodar</string>
+  <string name="battery_light_low_blinking_title">Piscar a luz de bateria fraca</string>
+  <string name="battery_light_low_color">Bateria fraca</string>
+  <string name="battery_light_medium_color">Bateria média</string>
+  <string name="battery_light_full_color">Bateria quase cheia</string>
+  <string name="battery_light_reallyfull_color">Bateria cheia (100)</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Tráfego de rede</string>
+  <string name="network_traffic_type">Selecione o tipo de atividade de rede</string>
+  <string name="show_network_traffic_up">Uplink</string>
+  <string name="show_network_traffic_down">Downlink</string>
+  <string name="show_network_traffic_all">Uplink e Downlink</string>
   <!-- Recents panel settings -->
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
+  <string name="power_menu_title">Menu de ligar/desligar</string>
+  <string name="power_menu_title_summary">Exibir ou alterar os itens do menu de energia</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Brightness icon-->
   <!-- Quick pull down-->
@@ -171,5 +190,9 @@
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <!-- Status bar clock options -->
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

@@ -76,11 +76,11 @@
   <string name="app_ops_category">Operações de aplicativos</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
-  <string name="extensions_dialog_message">Se você encontrar um bug em alguma dessas configurações, poste na seção de relatórios de bugs na nossa página do Google+. Você DEVE incluir o seguinte quando for reportar um bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não reportar algo de forma adequada, NÃO espera que as coisas sejam corrigidas.</string>
+  <string name="extensions_dialog_message">Se você encontrar algum bug nessas configurações, poste na seção de relatórios de bugs na nossa página do Google+. Você DEVE incluir o seguinte quando for reportar um bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não reportar algo de forma adequada, NÃO espere que as coisas sejam corrigidas.</string>
   <string name="extensions_dialog_toast">LEIA TUDO!</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seleção de cor</string>
-  <string name="press_color_to_apply">Pressione na cor abaixo para aplicar</string>
+  <string name="press_color_to_apply">Pressione uma cor abaixo para aplicar</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hexadecimal:</string>
@@ -413,6 +413,7 @@
  
 Contexto | Contexto de solicitação</string>
   <string name="fling_pulse_color">Cor do Pulse</string>
+  <string name="fling_pulse_color_summary">Usado também como fallback para cor automática</string>
   <string name="eos_fling_lavalamp_title">Ligar a Lâmpada de Lava</string>
   <string name="eos_fling_lavalamp_summary">Animar o Pulse com uma mistura de cor suave com um estilo de lâmpada Lava</string>
   <string name="pulse_advanced_category">Avançado</string>
@@ -424,6 +425,8 @@ Contexto | Contexto de solicitação</string>
   <string name="pulse_solid_units_opacity">Opacidade das linhas sólidas</string>
   <string name="pulse_solid_dimen_category">Personalização das linhas sólidas</string>
   <string name="pulse_custom_buttons_opacity_title">Opacidade dos botões da Barra Inteligente no Pulse</string>
+  <string name="pulse_auto_color_title">Cor de Pulso automática</string>
+  <string name="pulse_auto_color_summary">Cor de sincronização com artes do álbum. Substitui Lava Lamp e opacidade das linhas.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Largura da Barra Pulse</string>
   <string name="pulse_custom_div">Espaçamento da Barra Pulse</string>
@@ -548,6 +551,41 @@ Contexto | Contexto de solicitação</string>
   <string name="notification_sound_vib_screen_on_never">Nunca</string>
   <string name="notification_sound_vib_screen_on_always">Sempre (padrão)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Se nenhuma mídia está trocando</string>
+  <string name="smartbar_double_tap_sleep_title">Toque duplo para desligar a tela</string>
+  <string name="smartbar_double_tap_sleep_summary">Toque duplo nas áreas vazias da barra de navegação para dormir</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Sons de notificações inteligente</string>
+  <string name="less_notification_sounds_summary">Limitar os sons de notificação de cada aplicação para tocar apenas uma vez por período de tempo definido</string>
+  <string name="less_notification_sounds_default">Aplicativo padrão</string>
+  <string name="less_notification_sounds_10s">A cada 10 segundos</string>
+  <string name="less_notification_sounds_30s">A cada 30 segundos</string>
+  <string name="less_notification_sounds_1m">A Cada Minuto</string>
+  <string name="less_notification_sounds_2m">A cada 2 minutos</string>
+  <string name="face_auto_unlock_title">Desbloqueio automático com rosto</string>
+  <string name="face_auto_unlock_summary">Descartar o bloqueio após o desbloqueio com rosto</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Alinhamento</string>
+  <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+  <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
+  <string name="right_clock">Relógio à direita</string>
+  <string name="clock_date_display">Data</string>
+  <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
+  <string name="clock_date_style">Estilo da data</string>
+  <string name="clock_date_format">Formato da data</string>
+  <string name="clock_date_string_edittext_title">Deve estar no formato de data, por exemplo: MM/DD/AA</string>
+  <string name="clock_date_string_edittext_summary">Insira os caracteres</string>
+  <string name="am_pm_clock_normal">Tamanho normal da fonte</string>
+  <string name="am_pm_clock_small">Fonte pequena</string>
+  <string name="am_pm_clock_none">Nâo mostrar</string>
+  <string name="clock_date_display_none">Nâo mostrar</string>
+  <string name="clock_date_display_small">Fonte pequena</string>
+  <string name="clock_date_display_normal">Tamanho normal da fonte</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Minúscula</string>
+  <string name="clock_date_style_uppercase">Maiúscula</string>
+  <string name="clock_date_format_custom">Formato personalizado de java</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

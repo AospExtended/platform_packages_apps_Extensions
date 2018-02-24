@@ -149,7 +149,7 @@
   <string name="brightness_icon_summary">Zeigt ein Symbol für die Helligkeit auf der linken Seite des Helligkeitsreglers, um die Auto-Helligkeit anzupassen</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Schnelles Aufklappen</string>
-  <string name="quick_pulldown_summary">Das Herunterziehen der Statusleiste öffnet die Schnelleinstellungen</string>
+  <string name="quick_pulldown_summary">%1$s Das Herunterziehen der Statusleiste öffnet die Schnelleinstellungen</string>
   <string name="quick_pulldown_summary_always">Die Schnelleinstellungen beim Herunterziehen der Statusleiste immer anzeigen</string>
   <string name="quick_pulldown_off">Aus</string>
   <string name="quick_pulldown_left">Links</string>
@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">Nutze Akzentfarben für Puls</string>
   <string name="pulse_accent_color_summary">Bei Aktivierung wird Puls deine aktuelle Akzentfarbe nutzen. Es wird die Lavalamle deaktivieren</string>
   <string name="fling_pulse_color">Puls Farbe</string>
+  <string name="fling_pulse_color_summary">Wird auch als Ersatz für automatische Farbe verwendet</string>
   <string name="eos_fling_lavalamp_title">Aktiviere Lavalampe</string>
   <string name="eos_fling_lavalamp_summary">Pulse animiert einen seichten Lava-Lampeneffekt bei der Farbgebung</string>
   <string name="pulse_advanced_category">Erweitert</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Durchgezogene Linien Deckkraft</string>
   <string name="pulse_solid_dimen_category">Einstellungen für durchgezogene Linien</string>
   <string name="pulse_custom_buttons_opacity_title">Deckkraft der SmartBar-Tasten bei Pulse</string>
+  <string name="pulse_auto_color_title">Automatische Farbauswahl bei Pulse</string>
+  <string name="pulse_auto_color_summary">Farbe mit Musikcover synchronisieren. Überschreibt Deckkraft der Lavalampe und Linien.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Leisten-Breite</string>
   <string name="pulse_custom_div">Leisten-Abstand</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">Niemals</string>
   <string name="notification_sound_vib_screen_on_always">Immer (Standard)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Falls keine Medien abgespielt werden</string>
+  <string name="smartbar_double_tap_sleep_title">Doppeltes Tippen aktiviert Standby-Modus</string>
+  <string name="smartbar_double_tap_sleep_summary">Für Standby zweimal auf einen leeren Bereich der Navigationsleiste tippen</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Smarte Benachrichtigungstöne</string>
+  <string name="less_notification_sounds_summary">Die Benachrichtigungs-Töne einer App nur einmal pro festgelegtem Zeitraum wiedergeben</string>
+  <string name="less_notification_sounds_default">App-Standardeinstellung</string>
+  <string name="less_notification_sounds_10s">Alle 10 Sekunden</string>
+  <string name="less_notification_sounds_30s">Alle 30 Sekunden</string>
+  <string name="less_notification_sounds_1m">Minütlich</string>
+  <string name="less_notification_sounds_2m">Alle 2 Minuten</string>
+  <string name="face_auto_unlock_title">Entsperren per Gesichtserkennung</string>
+  <string name="face_auto_unlock_summary">Sperrbildschirm nach Gesichtserkennung automatisch übergehen</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Ausrichtung</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-Stunden Format ist aktiviert</string>
+  <string name="right_clock">Uhr rechts</string>
+  <string name="clock_date_display">Datum</string>
+  <string name="clock_date_display_summary">Zeige benutzerdefiniertes Datum vor der Uhr</string>
+  <string name="clock_date_style">Datums-Stil</string>
+  <string name="clock_date_format">Datumsformat</string>
+  <string name="clock_date_string_edittext_title">Datumsformat muss z.B. MM/dd/yy sein</string>
+  <string name="clock_date_string_edittext_summary">Zeichenfolge eingeben</string>
+  <string name="am_pm_clock_normal">Normale Schriftgröße</string>
+  <string name="am_pm_clock_small">Kleine Schriftgröße</string>
+  <string name="am_pm_clock_none">Nicht anzeigen</string>
+  <string name="clock_date_display_none">Nicht anzeigen</string>
+  <string name="clock_date_display_small">Kleine Schriftgröße</string>
+  <string name="clock_date_display_normal">Normale Schriftgröße</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
+  <string name="clock_date_style_uppercase">Großbuchstaben</string>
+  <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

@@ -411,6 +411,7 @@
   <string name="pulse_accent_color_title">Utilizza il colore primario per pulse</string>
   <string name="pulse_accent_color_summary">Abilitando questo pulse utilizzerà il tuo attuale colore primario. Questo disattiverà l\'effetto lampada di lava</string>
   <string name="fling_pulse_color">Colore Pulse</string>
+  <string name="fling_pulse_color_summary">Utilizzato anche come fallback per colore automatico</string>
   <string name="eos_fling_lavalamp_title">Attiva lampada di lava</string>
   <string name="eos_fling_lavalamp_summary">Pulse mescola e cambia colore come una lampada di lava</string>
   <string name="pulse_advanced_category">Avanzate</string>
@@ -422,6 +423,8 @@
   <string name="pulse_solid_units_opacity">Linee continue opache</string>
   <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
   <string name="pulse_custom_buttons_opacity_title">Trasparenza dei pulsanti in modalità Pulse</string>
+  <string name="pulse_auto_color_title">Colore Pulse automatico</string>
+  <string name="pulse_auto_color_summary">Sincronizza il colore con gli artisti dell\'album. Esegui la sovrapposizione della Lampada di Lava e l\'opacità delle linee.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Larghezza barra</string>
   <string name="pulse_custom_div">Distanza della barra</string>
@@ -546,6 +549,41 @@
   <string name="notification_sound_vib_screen_on_never">Mai</string>
   <string name="notification_sound_vib_screen_on_always">Sempre (predefinito)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Senza riproduzione multimediale</string>
+  <string name="smartbar_double_tap_sleep_title">Doppio tocco per sospendere</string>
+  <string name="smartbar_double_tap_sleep_summary">Doppio tocco su uno spazio vuoto della barra di navigazione per spegnere lo schermo</string>
   <!-- Less Notification sounds -->
-  <!-- Statusbar Clock options -->
+  <string name="less_notification_sounds_title">Suoni di notifica intelligente</string>
+  <string name="less_notification_sounds_summary">Riproduci i suoni di notifica di ogni app per il periodo di tempo impostato</string>
+  <string name="less_notification_sounds_default">App predefinita</string>
+  <string name="less_notification_sounds_10s">Ogni 10 secondi</string>
+  <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
+  <string name="less_notification_sounds_1m">Ogni minuto</string>
+  <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+  <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
+  <string name="face_auto_unlock_summary">Esci dalla schermata di blocco dopo aver sbloccato col viso</string>
+  <!-- Status bar clock options -->
+  <string name="clock_title_enable">Allineamento</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
+  <string name="right_clock">Orologio a destra</string>
+  <string name="clock_date_display">Data</string>
+  <string name="clock_date_display_summary">Visualizza data personalizzata prima dell\'orologio</string>
+  <string name="clock_date_style">Stile data</string>
+  <string name="clock_date_format">Formato data</string>
+  <string name="clock_date_string_edittext_title">Deve essere nel formato data es. MM/dd/yy</string>
+  <string name="clock_date_string_edittext_summary">Inserisci la stringa</string>
+  <string name="am_pm_clock_normal">Dimensione del carattere normale</string>
+  <string name="am_pm_clock_small">Dimensione del carattere piccolo</string>
+  <string name="am_pm_clock_none">Non mostrare</string>
+  <string name="clock_date_display_none">Non mostrare</string>
+  <string name="clock_date_display_small">Dimensione del carattere piccolo</string>
+  <string name="clock_date_display_normal">Dimensione del carattere normale</string>
+  <string name="clock_date_style_normal">Normale</string>
+  <string name="clock_date_style_lowercase">Minuscolo</string>
+  <string name="clock_date_style_uppercase">Maiuscolo</string>
+  <string name="clock_date_format_custom">Formato Java personalizzato</string>
+  <!-- Weather - OmniJaws Settings -->
+  <!-- StatusBar weather settings -->
+  <!-- Lockscreen Weather -->
+  <!-- Battery Styles -->
 </resources>

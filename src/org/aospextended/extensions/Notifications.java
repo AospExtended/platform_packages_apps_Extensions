@@ -49,6 +49,7 @@ import com.android.settings.Utils;
 public class Notifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private ListPreference mTickerMode;
+    private ListPreference mTickerAnimation;
     private ListPreference mNoisyNotification;
     private ListPreference mAnnoyingNotification;
 
@@ -68,6 +69,14 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                 0, UserHandle.USER_CURRENT);
         mTickerMode.setValue(String.valueOf(tickerMode));
         mTickerMode.setSummary(mTickerMode.getEntry());
+
+        mTickerAnimation = (ListPreference) findPreference("status_bar_ticker_animation_mode");
+        mTickerAnimation.setOnPreferenceChangeListener(this);
+        int tickerAnimationMode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE,
+                1, UserHandle.USER_CURRENT);
+        mTickerAnimation.setValue(String.valueOf(tickerAnimationMode));
+        mTickerAnimation.setSummary(mTickerAnimation.getEntry());
 
         mNoisyNotification = (ListPreference) findPreference("notification_sound_vib_screen_on");
         mNoisyNotification.setOnPreferenceChangeListener(this);
@@ -118,6 +127,14 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
             int mode = Integer.parseInt(((String) newValue).toString());
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, mode, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference.equals(mTickerAnimation)) {
+            int tickerAnimationMode = Integer.parseInt(((String) newValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE, tickerAnimationMode, UserHandle.USER_CURRENT);
+            int index = mTickerAnimation.findIndexOfValue((String) newValue);
+            mTickerAnimation.setSummary(
+                    mTickerAnimation.getEntries()[index]);
             return true;
         }
         return false;

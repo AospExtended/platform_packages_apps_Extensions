@@ -38,6 +38,15 @@
         android:defaultValue="true" />
 
     <ListPreference
+        android:key="recents_layout_style"
+        android:title="@string/recents_type_title"
+        android:dialogTitle="@string/recents_type_title"
+        android:entries="@array/recents_type_title_entries"
+        android:defaultValue="0"
+        android:entryValues="@array/recents_type_title_values"/>
+
+    
+    <ListPreference
         android:key="recents_clear_all_location"
         android:title="@string/recents_clear_all_location_title"
         android:entries="@array/recents_clear_all_location_entries"

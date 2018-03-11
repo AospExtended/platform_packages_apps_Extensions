@@ -18,22 +18,65 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">ส่วนเสริม</string>
+  <string name="add">เพิ่ม</string>
+  <string name="advanced">ขั้นสูง</string>
+  <string name="cancel">ยกเลิก</string>
+  <string name="choose_app">เลือกแอป</string>
+  <string name="general_category">ทั่วไป</string>
+  <string name="music_category">เพลง</string>
+  <string name="security_category">ความปลอดภัย</string>
+  <string name="hardware_category">ฮาร์ดแวร์</string>
+  <string name="icons_category">ไอคอน</string>
+  <string name="dlg_ok">ตกลง</string>
+  <string name="attention">ข้อควรระวัง</string>
+  <string name="loading">กำลังโหลด\u2026</string>
+  <string name="reset">รีเซ็ต</string>
+  <string name="reset_colors">รีเซ็ทการตั้งค่าสี</string>
+  <string name="reset_android">แอนดรอยด์</string>
+  <string name="text_title">ข้อความ</string>
+  <string name="icon_title">ไอคอน</string>
+  <string name="color_title">สี</string>
+  <string name="colors_title">สี</string>
   <!-- Extensions categories -->
+  <string name="recents_category">ล่า​สุด</string>
+  <string name="status_bar_category">แถบสถานะ</string>
+  <string name="system_category">ระบบ</string>
+  <string name="lockscreen_category">หน้าจอล็อก</string>
+  <string name="navigation_category">แถบนำทาง</string>
+  <string name="build_tweaks_summary_title">ส่วนเสริมอุปกรณ์ของคุณ</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">ปรับแต่งทั่วไป</string>
   <!-- Network traffic -->
+  <string name="traffic_title">แสดงผลการใช้บริการข้อมูล</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">ชื่อผู้ให้บริการ</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">ส่วนเสริมอื่น ๆ</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">รูปแบบหน้ารวมแอปล่าสุด</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">รูปหน้าจอล็อก</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">รายการที่แถบสถานะ</string>
   <!-- Notifications -->
+  <string name="notifications_title">การแจ้งเตือน</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">แถบนำทาง</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">การตั้งค่าด่วน</string>
   <!-- Buttons -->
+  <string name="buttons_title">ปุ่ม</string>
   <!-- App Ops -->
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">ช่วยเราช่วยคุณ</string>
+  <string name="extensions_dialog_message">ถ้าคุณพบข้อผิดพลาดกับการตั้งค่าเหล่านี้ ลงรายการบัญชีในส่วนรายงานจุดบกพร่องของหน้า Google + ของเรา คุณต้องรวมต่อไปนี้เมื่อลงรายการบัญชีมีข้อผิดพลาดรายงาน: \n\n1 Logcat หรือ last_kmsg\n2 Used\n3 เคอร์เนลและวัยรุ่น นอกจากนี้ประโยชน์ information\n\nIf คุณล้มเหลวในการรายงานอย่างเพียงพอ ไม่คาดหวังสิ่งที่แก้ไขได้</string>
+  <string name="extensions_dialog_toast">อ่านทั้งหมด!</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">ตัวเลือกสี</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
   <!-- Footer warnings -->
   <!-- Battery light -->
   <!-- Network traffic -->
@@ -41,9 +84,17 @@
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
+  <string name="powermenu_settings">การตั้งค่า</string>
+  <string name="powermenu_soundpanel">แผงระดับเสียง</string>
+  <string name="powermenu_users">ผู้ใช้</string>
+  <string name="powermenu_torch">ไฟฉาย</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="recents_show_membar_title">แสดงหน่วยความจำ</string>
+  <string name="recents_show_membar_summary">แสดงแถบที่มีหน่วยความจำของอุปกรณ์</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">ไอคอนความสว่าง </string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">ปัดแถบสถานะลงอย่างเร็ว</string>
   <!-- Smart pulldown-->
   <!-- Lockscreen icons -->
   <!-- Force expanded notifications -->
@@ -65,10 +116,25 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_2sec">2 วินาที</string>
+  <string name="heads_up_time_out_4sec">4 วินาที</string>
+  <string name="heads_up_time_out_5sec">5 วินาที</string>
+  <string name="heads_up_time_out_6sec">6 วินาที</string>
+  <string name="heads_up_time_out_8sec">8 วินาที</string>
+  <string name="heads_up_time_out_10sec">10 วินาที</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">ตั้งเวลาปลุก</string>
+  <string name="heads_up_snooze_1min">1 นาที</string>
+  <string name="heads_up_snooze_5min">5 นาที</string>
+  <string name="heads_up_snooze_10min">10 นาที</string>
+  <string name="heads_up_snooze_15min">15 นาที</string>
+  <string name="heads_up_snooze_20min">20 นาที</string>
   <!-- Incall vibrate options -->
   <!-- Disabling FC notifications -->
   <!-- Statusbar ticker -->
+  <string name="no_iconpacks_summary">ไม่มีชุดไอคอนที่ติดตั้งอยู่</string>
+  <string name="dialog_pick_iconpack_title">เลือกชุดไอคอน</string>
+  <string name="default_iconpack_title">ไอคอนเริ่มต้น</string>
   <!-- Slim Recents panel -->
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- DUI -->
@@ -80,7 +146,15 @@
   <!-- SmartBar -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
+  <string name="show_fourg_icon_title">ไอคอน 4G</string>
+  <string name="show_fourg_icon_summary">แสดงสัญลักษณ์ 4G แทนสัญลักษณ์ LTE</string>
+  <string name="button_backlight_on_touch_only_title">ปุ่มสัมผัส</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_3s">3 วินาที</string>
+  <string name="backlight_timeout_default">5 วินาที (เริ่มต้น)</string>
+  <string name="backlight_timeout_10s">10 วินาที</string>
+  <string name="backlight_timeout_15s">15 วินาที</string>
+  <string name="backlight_timeout_20s">20 วินาที</string>
   <!-- Enable keys backlight-->
   <!-- Enable keys backlight-->
   <!-- Hardware keys -->
@@ -89,9 +163,18 @@
   <!-- Screen Off animation -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_10s">ทุก 10 วินาที</string>
+  <string name="less_notification_sounds_30s">ทุก 30 วินาที</string>
+  <string name="less_notification_sounds_1m">ทุกนาที</string>
+  <string name="less_notification_sounds_2m">ทุก 2 นาที</string>
+  <string name="face_auto_unlock_title">ปลดล็อคใบหน้าอัตโนมัติ</string>
+  <string name="face_auto_unlock_summary">ยกเลิกหน้าจอล็อกหลังจากปลดล็อกใบหน้า</string>
   <!-- Status bar clock options -->
   <!-- Weather - OmniJaws Settings -->
   <!-- StatusBar weather settings -->
   <!-- Lockscreen Weather -->
   <!-- Battery Styles -->
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

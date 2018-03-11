@@ -18,7 +18,32 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Bővítmények</string>
+  <string name="add">Hozzáadás</string>
+  <string name="advanced">Haladó</string>
+  <string name="cancel">Mégse</string>
+  <string name="choose_app">Alkalmazás választása</string>
+  <string name="general_category">Általános</string>
+  <string name="gestures_category">Mozdulatok</string>
+  <string name="music_category">Zene</string>
+  <string name="security_category">Biztonság</string>
+  <string name="hardware_category">Hardver</string>
+  <string name="icons_category">Ikonok</string>
+  <string name="aosp_recents_category">AOSP előzmények</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Figyelmeztetés</string>
+  <string name="loading">Betöltés\u2026</string>
+  <string name="reset">Visszaállítás</string>
+  <string name="reset_colors">Színek visszaállítása</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Szöveg</string>
+  <string name="icon_title">Ikon</string>
+  <string name="color_title">Szín</string>
+  <string name="colors_title">Színek</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Előzmények</string>
+  <string name="status_bar_category">Állapotsor</string>
+  <string name="notifications_panel_category">Értesítési panel</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
@@ -38,6 +63,12 @@
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
+  <string name="recents_clear_all_location_top_right">Jobb felső</string>
+  <string name="recents_clear_all_location_top_left">Bal felső</string>
+  <string name="recents_clear_all_location_top_center">Fent középen</string>
+  <string name="recents_clear_all_location_bottom_right">Jobb alsó</string>
+  <string name="recents_clear_all_location_bottom_left">Bal alsó</string>
+  <string name="recents_clear_all_location_bottom_center">Alul középen</string>
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
@@ -94,4 +125,7 @@
   <!-- StatusBar weather settings -->
   <!-- Lockscreen Weather -->
   <!-- Battery Styles -->
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

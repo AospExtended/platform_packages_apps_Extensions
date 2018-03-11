@@ -76,7 +76,7 @@
   <string name="app_ops_category">权限管理</string>
   <!-- App info dialog -->
   <string name="extensions_dialog_title">帮助我们也是帮助您！</string>
-  <string name="extensions_dialog_message">如您发现这些设置有任何错误，请在我们的 Google+ 主页”错误报告“专栏发贴说明。 错误报告必须包含下列内容：\n\n1. logcat或last_kmsg\n2. 所用内核及mod版本\n3. 有用信息\n\n若您不能正确报告错误，问题将不会得到修复。</string>
+  <string name="extensions_dialog_message">如您发现这些设置有任何错误，请在我们的 Google+ 主页”错误报告“专栏发贴说明。 错误报告必须包含下列内容：\n\n1. logcat 或 last_kmsg\n2. 所用内核及mod版本\n3. 有用信息\n\n若您不能正确报告错误，问题将不会得到修复。</string>
   <string name="extensions_dialog_toast">务必阅读全部内容！</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">取色器</string>
@@ -519,7 +519,7 @@
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">熄屏状态按电源键开启手电筒</string>
   <string name="torch_power_button_gesture_none">禁用</string>
-  <string name="torch_power_button_gesture_dt">双击电源键开启手电筒（单击操作将会有小延迟）</string>
+  <string name="torch_power_button_gesture_dt">双击电源键开启手电筒（将会导致单击操作有微小延迟）</string>
   <string name="torch_power_button_gesture_lp">长按电源按钮开启手电筒</string>
   <string name="force_ambient_for_media_pref_title">环境音乐</string>
   <string name="force_ambient_for_media_pref_summary">配置环境音乐通知</string>
@@ -560,12 +560,23 @@
   <string name="less_notification_sounds_1m">每分钟</string>
   <string name="less_notification_sounds_2m">每 2 分钟</string>
   <string name="face_auto_unlock_title">面部自动解锁</string>
-  <string name="face_auto_unlock_summary">面部解锁后解除锁屏</string>
+  <string name="face_auto_unlock_summary">脸部解锁后自动解除锁屏</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">时钟和日期</string>
+  <string name="status_bar_clock_summary">配置状态栏时钟和日期外观</string>
   <string name="clock_title_enable">位置</string>
+  <string name="clock_enabled">启用</string>
+  <string name="clock_disabled">禁用</string>
+  <string name="status_bar_clock_style_reset">重置颜色</string>
+  <string name="status_bar_show_clock_title">显示时钟和日期</string>
+  <string name="status_bar_clock_seconds_title">显示秒数</string>
   <string name="status_bar_am_pm_title">上午/下午</string>
   <string name="status_bar_am_pm_info">24 小时制已启用</string>
+  <string name="enable_clock_weekday">星期计数</string>
+  <string name="enable_clock_weekday_summary">在时间前显示简写的星期</string>
   <string name="right_clock">时钟居右</string>
+  <string name="left_clock">时钟居左</string>
+  <string name="dont_show">隐藏</string>
   <string name="clock_date_display">日期</string>
   <string name="clock_date_display_summary">在时钟前显示自定义日期</string>
   <string name="clock_date_style">日期样式</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">小写</string>
   <string name="clock_date_style_uppercase">大写</string>
   <string name="clock_date_format_custom">自定义 java 时间格式</string>
+  <string name="clock_date_right">时间右侧</string>
+  <string name="clock_date_left">时间左侧</string>
+  <string name="clock_date_position">日期位置</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">天气</string>
+  <string name="weather_config_title">服务设置</string>
+  <string name="header_weather_title">顶部天气视图</string>
+  <string name="header_weather_summary">启用通知面板顶部天气显示</string>
+  <string name="weather_icon_pack_title">天气状况图标包</string>
+  <string name="weather_icon_pack_note">请注意\u003a 您可以在 Play 商店搜索 \"Chronus icons\" 安装新的图标包</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">状态栏天气</string>
+  <string name="statusbar_weather_summary">从 快速设置/天气 中配置</string>
+  <string name="statusbar_weather_dialog_title">状态栏天气样式</string>
+  <string name="status_bar_weather_hidden">隐藏天气</string>
+  <string name="status_bar_temperature_image_show_scale">显示带有单位和图像的温度</string>
+  <string name="status_bar_temperature_image_hide_scale">显示带有图像的温度（不带单位）</string>
+  <string name="status_bar_temperature_show_scale_hide_image">显示带有单位的温度（不带图标）</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">显示温度（不带单位和图标）</string>
+  <string name="status_bar_show_image">显示图像</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">锁屏</string>
+  <string name="lock_screen_show_weather_title">显示天气</string>
+  <string name="lock_screen_show_weather_summaryOn">在锁屏中显示天气</string>
+  <string name="lock_screen_show_weather_summaryOff">在锁屏中隐藏天气</string>
+  <string name="lock_screen_show_location_title">显示位置</string>
+  <string name="lock_screen_show_location_summaryOn">在锁屏中显示位置</string>
+  <string name="lock_screen_show_location_summaryOff">在锁屏中隐藏位置</string>
+  <string name="lock_screen_weather_condition_icon_title">显示天气状况图标</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">在锁屏中显示天气状况图标</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">在锁屏中隐藏天气状况图标</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">状态栏电池图标样式</string>
+  <string name="battery_style_title">电池图标样式</string>
+  <string name="battery_style_port">纵向</string>
+  <string name="battery_style_land">横向</string>
+  <string name="battery_style_circle">环形</string>
+  <string name="battery_style_dotted_circle">虚线圆圈</string>
+  <string name="battery_style_big_circle">大圆圈</string>
+  <string name="battery_style_big_dotted_circle">大虚线圆圈</string>
+  <string name="battery_style_square">方形</string>
+  <string name="battery_style_text">文本</string>
+  <string name="battery_style_hidden">隐藏</string>
+  <string name="show_battery_percent_title">显示电量百分比</string>
+  <string name="battery_percent_none">隐藏</string>
+  <string name="battery_percent_outside">在图标旁显示</string>
+  <string name="battery_percent_inside">在图标内显示</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

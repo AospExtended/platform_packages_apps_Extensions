@@ -164,14 +164,14 @@
   <string name="smart_pulldown_dismissable">nerevocabile</string>
   <string name="smart_pulldown_ongoing">nu este în curs de desfăşurare</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">Reglare ecran de blocare</string>
+  <string name="lockscreen_tuner_title">Comenzi rapide pe ecranul de blocare</string>
   <string name="hide_lockscreen_items_title">Elemente ecran de blocare</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Forţează notificări extinse</string>
   <string name="force_expanded_notifications_summary">Disponibil doar pentru aplicaţii care acceptă notificări extinse</string>
   <!-- Double Tap Lockscreen to Sleep -->
-  <string name="double_tap_to_sleep_lockscreen_title">Dublă atingere a ecranului de blocare pentru oprire ecran</string>
-  <string name="double_tap_to_sleep_lockscreen_summary">Atingeți dublu a treia parte de sus sau de jos a ecranului de blocare pentru a opri ecranul</string>
+  <string name="double_tap_to_sleep_lockscreen_title">Dublă atingere a ecranului de blocare pentru oprirea ecranului</string>
+  <string name="double_tap_to_sleep_lockscreen_summary">Atingeți dublu partea a treia de sus sau de jos a ecranului de blocare pentru a opri ecranul</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">Atingeți de două bara de stare pentru a opri ecranul</string>
   <string name="double_tap_to_sleep_summary">Atingeţi de două ori bara de stare pentru a bloca ecranul</string>
@@ -180,7 +180,7 @@
   <string name="status_bar_toggle_brightness_summary">Reglare luminozitate prin alunecare pe bara de stare</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
-  <string name="lockscreen_battery_info_summary">Afișează curentul, tensiunea și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
+  <string name="lockscreen_battery_info_summary">Afișare curent, tensiune și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
   <!-- Media art -->
   <string name="media_art_title">Copertă media</string>
   <string name="media_art_summary">Activaţi coperta media pe ecranul de blocare</string>
@@ -236,9 +236,9 @@
   <string name="hide_lockscreen_alarm_title">Textul alarmei</string>
   <string name="hide_lockscreen_alarm_summary">Modificați vizibilitatea alarmei sub widgetul ceas</string>
   <!-- Heads up -->
-  <string name="headsup_category">Setări HeadsUp</string>
+  <string name="headsup_category">Setări atenţionări</string>
   <string name="heads_up_notifications">Atenționări</string>
-  <string name="summary_heads_up_enabled">Notificările Pop-up sunt activate</string>
+  <string name="summary_heads_up_enabled">Notificările de atenţionare sunt activate</string>
   <string name="summary_heads_up_disabled">Notificările Pop-up sunt dezactivate</string>
   <string name="add_heads_up_package">Adăugați aplicaţie</string>
   <string name="add_heads_up_stoplist_summary">Dezactivaţi atenţionările în aceste aplicaţii</string>
@@ -258,7 +258,7 @@
   <string name="heads_up_time_out_8sec">8 secunde</string>
   <string name="heads_up_time_out_10sec">10 secunde</string>
   <!-- Heads up snooze -->
-  <string name="heads_up_snooze_title">Amânare cronometru</string>
+  <string name="heads_up_snooze_title">Amânare</string>
   <string name="heads_up_snooze_summary_one_minute">Glisarea în sus pe notificările rapide va amâna heads-up de la acea aplicație timp de 1 minut</string>
   <string name="heads_up_snooze_summary">Glisarea în sus pe notificările rapide va amâna heads-up de la acea aplicație timp de <xliff:g id="number">%d</xliff:g> minute</string>
   <string name="heads_up_snooze_disabled_summary">Amânarea este dezactivată</string>
@@ -313,7 +313,7 @@
   <string name="slim_blacklist_apps_cat_title">Listă neagră</string>
   <string name="slim_blacklist_apps_title">Lista neagră aplicaţii</string>
   <string name="slim_blacklist_apps_summary">Aplicațiile ce nu se afișează în panou</string>
-  <string name="slim_blacklist_add_apps_title">Adăugați aplicaţie</string>
+  <string name="slim_blacklist_add_apps_title">Adăugare aplicaţie</string>
   <string name="slim_blacklist_add_apps_summary">Atingeți aici pentru a adăuga, atingeți aplicația adăugată pentru a o elimina</string>
   <!-- DUI -->
   <string name="navbar_interface_title">Interfaţă</string>
@@ -562,15 +562,26 @@
   <string name="face_auto_unlock_title">Deblocare automată cu faţa</string>
   <string name="face_auto_unlock_summary">Deblocare ecran după recunoaşterea feței</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Ceas și dată</string>
+  <string name="status_bar_clock_summary">Configuraţi aspectul ceasului şi datei în bara de stare</string>
   <string name="clock_title_enable">Aliniere</string>
+  <string name="clock_enabled">Activat</string>
+  <string name="clock_disabled">Dezactivat</string>
+  <string name="status_bar_clock_style_reset">Resetare culoare</string>
+  <string name="status_bar_show_clock_title">Afișare ceas şi dată</string>
+  <string name="status_bar_clock_seconds_title">Afișare secunde</string>
   <string name="status_bar_am_pm_title">Stil AM/PM</string>
-  <string name="status_bar_am_pm_info">Format 24 ore activat</string>
+  <string name="status_bar_am_pm_info">Formatul 24 ore activat</string>
+  <string name="enable_clock_weekday">Ziua săptămânii</string>
+  <string name="enable_clock_weekday_summary">Ziua săptămânii abreviată, înaintea ceasului</string>
   <string name="right_clock">Ceas în dreapta</string>
+  <string name="left_clock">Ceas în stânga</string>
+  <string name="dont_show">Nu se afișează</string>
   <string name="clock_date_display">Dată</string>
   <string name="clock_date_display_summary">Afişare dată particularizată înainte de ceas</string>
   <string name="clock_date_style">Stil dată</string>
   <string name="clock_date_format">Format dată</string>
-  <string name="clock_date_string_edittext_title">Trebuie să fie în formatul datei. Ex. LL/ZZ/AA</string>
+  <string name="clock_date_string_edittext_title">Trebuie să fie în formatul datei. De ex. dd/MM/yy</string>
   <string name="clock_date_string_edittext_summary">Introduceți textul</string>
   <string name="am_pm_clock_normal">Font de dimensiune normală</string>
   <string name="am_pm_clock_small">Font de dimensiune mică</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">Minuscule</string>
   <string name="clock_date_style_uppercase">Majuscule</string>
   <string name="clock_date_format_custom">Format java particularizat</string>
+  <string name="clock_date_right">În dreptul timpului</string>
+  <string name="clock_date_left">În stânga timpului</string>
+  <string name="clock_date_position">Poziţie dată</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Meteo</string>
+  <string name="weather_config_title">Setări serviciu</string>
+  <string name="header_weather_title">Antet vreme</string>
+  <string name="header_weather_summary">Activați afișarea antetului vremii în panoul de notificări</string>
+  <string name="weather_icon_pack_title">Pictograme condiţii meteo</string>
+  <string name="weather_icon_pack_note">Notă\u003a puteți instala pachete noi de pictograme din Magazinul Google Play, căutând \"pictograme Chronus\"</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Vremea în bara de stare</string>
+  <string name="statusbar_weather_summary">Configurare din setări rapide/vreme</string>
+  <string name="statusbar_weather_dialog_title">Stil meteo în bara de stare</string>
+  <string name="status_bar_weather_hidden">Ascundere meteo</string>
+  <string name="status_bar_temperature_image_show_scale">Afișare temperatură cu scară şi imagine</string>
+  <string name="status_bar_temperature_image_hide_scale">Afișare temperatură cu imagine fără scară</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Afișare temperatură cu scară</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Afișare temperatură fără scară</string>
+  <string name="status_bar_show_image">Afişare imagini</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Ecran de blocare</string>
+  <string name="lock_screen_show_weather_title">Afișare vreme</string>
+  <string name="lock_screen_show_weather_summaryOn">Vremea este afișată pe ecranul de blocare</string>
+  <string name="lock_screen_show_weather_summaryOff">Vremea este ascunsă pe ecranul de blocare</string>
+  <string name="lock_screen_show_location_title">Afișare locație</string>
+  <string name="lock_screen_show_location_summaryOn">Locaţia este afișată pe ecranul de blocare</string>
+  <string name="lock_screen_show_location_summaryOff">Locaţia este ascunsă pe ecranul de blocare</string>
+  <string name="lock_screen_weather_condition_icon_title">Afișare pictogramă stare</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Pictograma de stare este afișată pe ecranul de blocare</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Pictograma de stare este ascunsă pe ecranul de blocare</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Stil baterie în bara de stare</string>
+  <string name="battery_style_title">Stil pictogramă baterie</string>
+  <string name="battery_style_port">Portret</string>
+  <string name="battery_style_land">Peisaj</string>
+  <string name="battery_style_circle">Cerc</string>
+  <string name="battery_style_dotted_circle">Cerc punctat</string>
+  <string name="battery_style_big_circle">Cerc mare</string>
+  <string name="battery_style_big_dotted_circle">Cerc mare punctat</string>
+  <string name="battery_style_square">Pătrat</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Ascunsă</string>
+  <string name="show_battery_percent_title">Afișare procentaj bateriei</string>
+  <string name="battery_percent_none">Nu se afișează</string>
+  <string name="battery_percent_outside">Afișare lângă pictogramă</string>
+  <string name="battery_percent_inside">Afișare în interiorul pictogramei</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

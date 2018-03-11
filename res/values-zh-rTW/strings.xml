@@ -562,10 +562,21 @@
   <string name="face_auto_unlock_title">臉部自動解鎖</string>
   <string name="face_auto_unlock_summary">解除鎖定畫面後的臉部解鎖</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">時鐘與日期</string>
+  <string name="status_bar_clock_summary">配置狀態列時鐘和日期外觀</string>
   <string name="clock_title_enable">對齊</string>
+  <string name="clock_enabled">啟用</string>
+  <string name="clock_disabled">停用</string>
+  <string name="status_bar_clock_style_reset">重設顏色</string>
+  <string name="status_bar_show_clock_title">顯示時鐘和日期</string>
+  <string name="status_bar_clock_seconds_title">顯示秒數</string>
   <string name="status_bar_am_pm_title">上午/下午</string>
   <string name="status_bar_am_pm_info">24 小時時鐘已啟用</string>
+  <string name="enable_clock_weekday">星期</string>
+  <string name="enable_clock_weekday_summary">在時間之前顯示星期幾的縮寫</string>
   <string name="right_clock">時鐘靠右</string>
+  <string name="left_clock">時鐘靠左</string>
+  <string name="dont_show">不顯示</string>
   <string name="clock_date_display">日期</string>
   <string name="clock_date_display_summary">在時鐘前顯示自訂日期</string>
   <string name="clock_date_style">日期樣式</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">小寫</string>
   <string name="clock_date_style_uppercase">大寫</string>
   <string name="clock_date_format_custom">自訂 java 格式</string>
+  <string name="clock_date_right">時鐘右側</string>
+  <string name="clock_date_left">時鐘左側</string>
+  <string name="clock_date_position">日期位置</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">天氣</string>
+  <string name="weather_config_title">服務設定</string>
+  <string name="header_weather_title">標頭檢視天氣資訊</string>
+  <string name="header_weather_summary">啟用狀態列通知列天氣顯示</string>
+  <string name="weather_icon_pack_title">天氣狀況圖示包</string>
+  <string name="weather_icon_pack_note">注意：您現在可以從 Play 商店安裝新的圖示包了，請搜尋「Chronus icons」</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">狀態列天氣</string>
+  <string name="statusbar_weather_summary">從配置快速設定/天氣</string>
+  <string name="statusbar_weather_dialog_title">狀態列天氣樣式</string>
+  <string name="status_bar_weather_hidden">隱藏天氣</string>
+  <string name="status_bar_temperature_image_show_scale">顯示溫度單位與圖片</string>
+  <string name="status_bar_temperature_image_hide_scale">隱藏溫度單位與圖片</string>
+  <string name="status_bar_temperature_show_scale_hide_image">顯示溫度單位</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">隱藏溫度單位</string>
+  <string name="status_bar_show_image">顯示圖片</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">鎖定畫面</string>
+  <string name="lock_screen_show_weather_title">顯示天氣</string>
+  <string name="lock_screen_show_weather_summaryOn">在鎖定畫面顯示天氣</string>
+  <string name="lock_screen_show_weather_summaryOff">在鎖定畫面隱藏天氣</string>
+  <string name="lock_screen_show_location_title">顯示定位</string>
+  <string name="lock_screen_show_location_summaryOn">在鎖定畫面顯示定位</string>
+  <string name="lock_screen_show_location_summaryOff">在鎖定畫面隱藏定位</string>
+  <string name="lock_screen_weather_condition_icon_title">天氣狀況圖示顯示</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">鎖定畫面上顯示天氣狀況圖示</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">鎖定畫面上隱藏天氣狀況圖示</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">狀態列電池樣式</string>
+  <string name="battery_style_title">電池圖示樣式</string>
+  <string name="battery_style_port">縱向</string>
+  <string name="battery_style_land">橫向</string>
+  <string name="battery_style_circle">環形</string>
+  <string name="battery_style_dotted_circle">點陣環形</string>
+  <string name="battery_style_big_circle">大圓</string>
+  <string name="battery_style_big_dotted_circle">大點陣環形</string>
+  <string name="battery_style_square">正方形</string>
+  <string name="battery_style_text">文字</string>
+  <string name="battery_style_hidden">隱藏</string>
+  <string name="show_battery_percent_title">顯示電量百分比</string>
+  <string name="battery_percent_none">不顯示</string>
+  <string name="battery_percent_outside">在圖示旁顯示</string>
+  <string name="battery_percent_inside">在圖示內顯示</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

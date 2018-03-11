@@ -562,10 +562,21 @@
   <string name="face_auto_unlock_title">Ang awtomatikong Face unlock</string>
   <string name="face_auto_unlock_summary">I-Dismiss ang Lockscreen bago ang pag-unlock ng muka</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Orsan at Petsa</string>
+  <string name="status_bar_clock_summary">Kumpirmahin ang statusbar sa orasan at anyo ng petsa</string>
   <string name="clock_title_enable">Ang Pagkakahanay</string>
+  <string name="clock_enabled">I-Enabled</string>
+  <string name="clock_disabled">I-Disabled</string>
+  <string name="status_bar_clock_style_reset">I-reset ang kulay</string>
+  <string name="status_bar_show_clock_title">Ipakita ang orasan at petsa</string>
+  <string name="status_bar_clock_seconds_title">Ipakita ang bawat sigundo</string>
   <string name="status_bar_am_pm_title">Ang AM/PM</string>
   <string name="status_bar_am_pm_info">Ang 24-na oras sa orasan ay gumagana</string>
+  <string name="enable_clock_weekday">Ang araw sa linggo</string>
+  <string name="enable_clock_weekday_summary">I-Abbreviate ang araw sa linggo bago ang oras</string>
   <string name="right_clock">Ang Tamang orasan</string>
+  <string name="left_clock">Ang Kaliwang orasan</string>
+  <string name="dont_show">Wag ipakita</string>
   <string name="clock_date_display">Ang Petsa</string>
   <string name="clock_date_display_summary">Ipakita ang pasadya sa petsa bago ang oras</string>
   <string name="clock_date_style">Ang Estilo sa Petsa</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">Ang Lowercase</string>
   <string name="clock_date_style_uppercase">Ang Uppercase</string>
   <string name="clock_date_format_custom">Ang Pasadya na pormat sa java</string>
+  <string name="clock_date_right">Oras sa Kanan</string>
+  <string name="clock_date_left">Oras sa Kaliwa</string>
+  <string name="clock_date_position">Posisyon ng Petsa</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Ang Panahon</string>
+  <string name="weather_config_title">Mga serbisyo sa setting</string>
+  <string name="header_weather_title">Tanaw ang panahon sa Header</string>
+  <string name="header_weather_summary">I-Enable ang notipikasyon sa header ng panel na makita sa panahon</string>
+  <string name="weather_icon_pack_title">Ang kondisyon ng icon sa pakete</string>
+  <string name="weather_icon_pack_note">Tandaan\u003a maaari mong i-install ang mga icon sa pakete mula sa plat store sa pamamagitan ng pagsasaliksik para sa \"mga Chronus icon\"</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Ang kalagayan ng panahon sa bar</string>
+  <string name="statusbar_weather_summary">I-Configure mula sa QS mga setting/panahaon</string>
+  <string name="statusbar_weather_dialog_title">Ang kalahayan ng bar sa panahon ng istilo</string>
+  <string name="status_bar_weather_hidden">Itago ang Panahon</string>
+  <string name="status_bar_temperature_image_show_scale">Ipakita ang temp sa timbangan at imahe</string>
+  <string name="status_bar_temperature_image_hide_scale">Ipakita ang temp kasama ang imahe ng walang timbangan</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Ipakita ang temp kasama ang timbangan</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Ipakita ang temp hindi kasama ang timbangan</string>
+  <string name="status_bar_show_image">Ipakita ang imahe</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Ang Lockscreen</string>
+  <string name="lock_screen_show_weather_title">I-Display ang panahon</string>
+  <string name="lock_screen_show_weather_summaryOn">Ipakita ang panahon sa Lockscreen</string>
+  <string name="lock_screen_show_weather_summaryOff">Ang panahon ay nakatago sa Lockscreen</string>
+  <string name="lock_screen_show_location_title">I-display ang Lokasyon</string>
+  <string name="lock_screen_show_location_summaryOn">Ang lokasyon ay ipinakita sa Lockscreen</string>
+  <string name="lock_screen_show_location_summaryOff">Ang Lokasyon ay nakatago sa Lockscreen</string>
+  <string name="lock_screen_weather_condition_icon_title">I-display ang kondisyon ng icon</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Ipakita ang kondisyon ng icon sa Lockscreen</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Ang nakatagong kondisyon ng icon sa Lockscreen</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Ang istilo ng baterya sa statusbar</string>
+  <string name="battery_style_title">Ang istilo ng icon sa battery</string>
+  <string name="battery_style_port">Ang Potrait</string>
+  <string name="battery_style_land">Ang tanawin</string>
+  <string name="battery_style_circle">Ang Bilog</string>
+  <string name="battery_style_dotted_circle">Mat Tuldok na tanawin</string>
+  <string name="battery_style_big_circle">Malaking bilog</string>
+  <string name="battery_style_big_dotted_circle">Ang malaking tuldok na bilog</string>
+  <string name="battery_style_square">Ang Parisukat</string>
+  <string name="battery_style_text">Ang Teksto</string>
+  <string name="battery_style_hidden">Ang Nakatago</string>
+  <string name="show_battery_percent_title">Ipakita ang porsyento ng battery</string>
+  <string name="battery_percent_none">Wag mo ipakita</string>
+  <string name="battery_percent_outside">Ipakita ang malapit icon</string>
+  <string name="battery_percent_inside">Ipakita ang nakatagong icon</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

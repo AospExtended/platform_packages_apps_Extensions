@@ -564,10 +564,21 @@ Contexto | Contexto de solicitação</string>
   <string name="face_auto_unlock_title">Desbloqueio automático com rosto</string>
   <string name="face_auto_unlock_summary">Descartar o bloqueio após o desbloqueio com rosto</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Relógio e data</string>
+  <string name="status_bar_clock_summary">Configure a aparência do relógio e da data na barra de status</string>
   <string name="clock_title_enable">Alinhamento</string>
+  <string name="clock_enabled">Ativado</string>
+  <string name="clock_disabled">Desativado</string>
+  <string name="status_bar_clock_style_reset">Redefinir cor</string>
+  <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
+  <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
   <string name="status_bar_am_pm_title">Estilo AM/PM</string>
   <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
+  <string name="enable_clock_weekday">Dia da semana</string>
+  <string name="enable_clock_weekday_summary">Abreviar dia da semana antes do relógio</string>
   <string name="right_clock">Relógio à direita</string>
+  <string name="left_clock">Relógio à esquerda</string>
+  <string name="dont_show">Não mostrar</string>
   <string name="clock_date_display">Data</string>
   <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
   <string name="clock_date_style">Estilo da data</string>
@@ -584,8 +595,54 @@ Contexto | Contexto de solicitação</string>
   <string name="clock_date_style_lowercase">Minúscula</string>
   <string name="clock_date_style_uppercase">Maiúscula</string>
   <string name="clock_date_format_custom">Formato personalizado de java</string>
+  <string name="clock_date_right">À direita do relógio</string>
+  <string name="clock_date_left">À esquerda do relógio</string>
+  <string name="clock_date_position">Posição da data</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Clima</string>
+  <string name="weather_config_title">Configurar previsão do tempo</string>
+  <string name="header_weather_title">Cabeçalho da previsão do tempo</string>
+  <string name="header_weather_summary">Habilitar painel do tempo no cabeçalho</string>
+  <string name="weather_icon_pack_title">Pacote de ícones do tempo</string>
+  <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Clima na barra de status</string>
+  <string name="statusbar_weather_summary">Configurar a partir das configurações rápidas/clima</string>
+  <string name="statusbar_weather_dialog_title">Estilo do clima na barra de status</string>
+  <string name="status_bar_weather_hidden">Ocultar clima</string>
+  <string name="status_bar_temperature_image_show_scale">Exibir temperatura com escala e imagem</string>
+  <string name="status_bar_temperature_image_hide_scale">Exibir temperatura com imagem sem escala</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Exibir temperatura com escala</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Exibir temperatura sem escala</string>
+  <string name="status_bar_show_image">Exibir imagem</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Tela de bloqueio</string>
+  <string name="lock_screen_show_weather_title">Mostrar clima</string>
+  <string name="lock_screen_show_weather_summaryOn">O tempo é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_show_weather_summaryOff">O tempo não é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_show_location_title">Mostrar localização</string>
+  <string name="lock_screen_show_location_summaryOn">A localização é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_show_location_summaryOff">A localização não é mostrada na tela de bloqueio</string>
+  <string name="lock_screen_weather_condition_icon_title">Pacote de ícones climáticos</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Ícone de tempo é mostrado na tela de bloqueio</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Ícone de tempo é mostrado na tela de bloqueio</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Estilo do ícone de bateria na barra de status</string>
+  <string name="battery_style_title">Estilo do ícone da bateria</string>
+  <string name="battery_style_port">Retrato</string>
+  <string name="battery_style_land">Paisagem</string>
+  <string name="battery_style_circle">Círculo</string>
+  <string name="battery_style_dotted_circle">Círculo pontilhado</string>
+  <string name="battery_style_big_circle">Círculo grande</string>
+  <string name="battery_style_big_dotted_circle">Círculo pontilhado grande</string>
+  <string name="battery_style_square">Quadrado</string>
+  <string name="battery_style_text">Texto</string>
+  <string name="battery_style_hidden">Escondido</string>
+  <string name="show_battery_percent_title">Mostrar a porcentagem da bateria</string>
+  <string name="battery_percent_none">Não mostrar</string>
+  <string name="battery_percent_outside">Mostrar junto ao ícone</string>
+  <string name="battery_percent_inside">Mostrar dentro do ícone</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

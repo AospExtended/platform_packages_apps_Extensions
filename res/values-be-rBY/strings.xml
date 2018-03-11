@@ -562,10 +562,21 @@
   <string name="face_auto_unlock_title">Аўтаматычная разблакоўка сканарам асобы</string>
   <string name="face_auto_unlock_summary">Прыбраць экран блакавання пасля разблакоўкі сканарам асобы</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Гадзіннік і дата</string>
+  <string name="status_bar_clock_summary">Налады адлюстравання даты і часу</string>
   <string name="clock_title_enable">Размяшчэнне</string>
+  <string name="clock_enabled">Уключана</string>
+  <string name="clock_disabled">Адключана</string>
+  <string name="status_bar_clock_style_reset">Скінуць колер</string>
+  <string name="status_bar_show_clock_title">Паказаць час і дату</string>
+  <string name="status_bar_clock_seconds_title">Паказаць секунды</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
   <string name="status_bar_am_pm_info">24-гадзінны фармат часу</string>
+  <string name="enable_clock_weekday">Дзень тыдня</string>
+  <string name="enable_clock_weekday_summary">Абрэвіятура дня тыдня перад гадзінамі</string>
   <string name="right_clock">Гадзіннік справа</string>
+  <string name="left_clock">Гадзіннік злева</string>
+  <string name="dont_show">Не паказваць</string>
   <string name="clock_date_display">Дата</string>
   <string name="clock_date_display_summary">Адлюстроўваць карыстацкі фармат даты перад гадзіннікам</string>
   <string name="clock_date_style">Стыль даты</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">Ніжні рэгістр</string>
   <string name="clock_date_style_uppercase">Верхні рэгістр</string>
   <string name="clock_date_format_custom">Карыстацкі java фармат</string>
+  <string name="clock_date_right">Справа ад гадзінніка</string>
+  <string name="clock_date_left">Злева ад гадзінніка</string>
+  <string name="clock_date_position">Размяшчэнне даты</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Надвор\'е</string>
+  <string name="weather_config_title">Налады службы</string>
+  <string name="header_weather_title">Надвор\'е ў загалоўку панэлі апавяшчэнняў</string>
+  <string name="header_weather_summary">Уключыць адлюстраванне надвор\'я ў загалоўку панэлі апавяшчэнняў</string>
+  <string name="weather_icon_pack_title">Стыль значкоў</string>
+  <string name="weather_icon_pack_note">Прымяненне\u003a можна ўсталяваць новыя пакеты значкоў пакеты з play market па пошуку «Chronus icons»</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Надвор\'е ў радку стану</string>
+  <string name="statusbar_weather_summary">Кіраваць хуткімі наладамі надвор\'я</string>
+  <string name="statusbar_weather_dialog_title">Стыль надвор\'я ў радку стану</string>
+  <string name="status_bar_weather_hidden">Схаваць надвор\'е</string>
+  <string name="status_bar_temperature_image_show_scale">Паказваць тэмпературу з адзінкамі вымярэння і выявай</string>
+  <string name="status_bar_temperature_image_hide_scale">Паказваць тэмпературу з выявай без адзінак вымярэння</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Паказваць тэмпературу з адзінкамі вымярэння</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Паказваць тэмпературу без адзінкамі вымярэння</string>
+  <string name="status_bar_show_image">Паказаць выявы</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Экран блакавання</string>
+  <string name="lock_screen_show_weather_title">Адлюстраванне надвор\'я</string>
+  <string name="lock_screen_show_weather_summaryOn">Адлюстроўваць надвор\'е на экране блакавання</string>
+  <string name="lock_screen_show_weather_summaryOff">Не адлюстроўваць надвор\'е на экране блакавання</string>
+  <string name="lock_screen_show_location_title">Адлюстраванне месцазнаходжання</string>
+  <string name="lock_screen_show_location_summaryOn">Адлюстроўваць месцазнаходжанне на экране блакавання</string>
+  <string name="lock_screen_show_location_summaryOff">Не адлюстроўваць месцазнаходжанне на экране блакавання</string>
+  <string name="lock_screen_weather_condition_icon_title">Адлюстраванне значка надвор\'я</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Адлюстроўваць значок надвор\'я на экране блакавання</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Не адлюстроўваць значок надвор\'я на экране блакавання</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Стыль батарэі ў радку стану</string>
+  <string name="battery_style_title">Стыль значка батарэі</string>
+  <string name="battery_style_port">Партрэтная</string>
+  <string name="battery_style_land">Альбомная</string>
+  <string name="battery_style_circle">Круг</string>
+  <string name="battery_style_dotted_circle">Пункцірны круг</string>
+  <string name="battery_style_big_circle">Вялікі круг</string>
+  <string name="battery_style_big_dotted_circle">Вялікі пункцірны круг</string>
+  <string name="battery_style_square">Квадрат</string>
+  <string name="battery_style_text">Тэкст</string>
+  <string name="battery_style_hidden">Схавана</string>
+  <string name="show_battery_percent_title">Паказваць працэнт зарада батарэі</string>
+  <string name="battery_percent_none">Не паказваць</string>
+  <string name="battery_percent_outside">Паказаць значок побач</string>
+  <string name="battery_percent_inside">Паказаць значок унутры</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

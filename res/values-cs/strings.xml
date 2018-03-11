@@ -562,10 +562,21 @@
   <string name="face_auto_unlock_title">Automatické odemčení pomocí obličeje</string>
   <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Hodiny a datum</string>
+  <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data v stavové liště</string>
   <string name="clock_title_enable">Zarovnání</string>
+  <string name="clock_enabled">Povoleno</string>
+  <string name="clock_disabled">Zakázáno</string>
+  <string name="status_bar_clock_style_reset">Obnovit barvu</string>
+  <string name="status_bar_show_clock_title">Zobrazit hodiny a datum</string>
+  <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
   <string name="status_bar_am_pm_title">DOP/ODP</string>
   <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
+  <string name="enable_clock_weekday">Den v týdnu</string>
+  <string name="enable_clock_weekday_summary">Zkratka dne v týdnu před hodinami</string>
   <string name="right_clock">Hodiny vpravo</string>
+  <string name="left_clock">Hodiny vlevo</string>
+  <string name="dont_show">Nezobrazovat</string>
   <string name="clock_date_display">Datum</string>
   <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
   <string name="clock_date_style">Styl data</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">Malá písmena</string>
   <string name="clock_date_style_uppercase">Velká písmena</string>
   <string name="clock_date_format_custom">Vlastní formát Java</string>
+  <string name="clock_date_right">Vpravo od času</string>
+  <string name="clock_date_left">Vlevo od času</string>
+  <string name="clock_date_position">Pozice data</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Počasí</string>
+  <string name="weather_config_title">Nastavení služby</string>
+  <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
+  <string name="header_weather_summary">Povolit zobrazení počasí v záhlaví panelu oznámení</string>
+  <string name="weather_icon_pack_title">Balíček ikon stavu počasí</string>
+  <string name="weather_icon_pack_note">Poznámka\u003a nové balíčky ikon můžete nainstalovat z obchodu play vyhledáním \"Chronus icons\"</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Počasí ve stavové liště</string>
+  <string name="statusbar_weather_summary">Konfigurace nastavení QS/Počasí</string>
+  <string name="statusbar_weather_dialog_title">Styl počasí ve stavové liště</string>
+  <string name="status_bar_weather_hidden">Skrýt počasí</string>
+  <string name="status_bar_temperature_image_show_scale">Zobrazit teplotu se stupnicí a obrázkem</string>
+  <string name="status_bar_temperature_image_hide_scale">Zobrazit teplotu s obrázkem bez stupnice</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Zobrazit teplotu se stupnicí</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Zobrazit teplotu bez stupnice</string>
+  <string name="status_bar_show_image">Zobrazit obrázek</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Zamykací obrazovka</string>
+  <string name="lock_screen_show_weather_title">Zobrazení počasí</string>
+  <string name="lock_screen_show_weather_summaryOn">Počasí je zobrazeno na zamykací obrazovce</string>
+  <string name="lock_screen_show_weather_summaryOff">Počasí je skryto na zamykací obrazovce</string>
+  <string name="lock_screen_show_location_title">Zobrazení polohy</string>
+  <string name="lock_screen_show_location_summaryOn">Poloha je zobrazena na zamykací obrazovce</string>
+  <string name="lock_screen_show_location_summaryOff">Poloha je skryta na zamykací obrazovce</string>
+  <string name="lock_screen_weather_condition_icon_title">Zobrazení ikon stavu počasí</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Ikony stavu počasí jsou zobrazeny na zamykací obrazovce</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Ikony stavu počasí jsou skryty na zamykací obrazovce</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Styl baterie ve stavové liště</string>
+  <string name="battery_style_title">Styl ikony baterie</string>
+  <string name="battery_style_port">Na výšku</string>
+  <string name="battery_style_land">Na šířku</string>
+  <string name="battery_style_circle">Kruh</string>
+  <string name="battery_style_dotted_circle">Tečkovaný kruh</string>
+  <string name="battery_style_big_circle">Velký kruh</string>
+  <string name="battery_style_big_dotted_circle">Velký tečkovaný kruh</string>
+  <string name="battery_style_square">Čtverec</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Nezobrazovat</string>
+  <string name="show_battery_percent_title">Zobrazit stav baterie v procentech</string>
+  <string name="battery_percent_none">Nezobrazovat</string>
+  <string name="battery_percent_outside">Zobrazit vedle ikony</string>
+  <string name="battery_percent_inside">Zobrazit uvnitř ikony</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

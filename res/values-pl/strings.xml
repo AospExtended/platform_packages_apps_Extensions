@@ -562,10 +562,21 @@
   <string name="face_auto_unlock_title">Automatyczne odblokowanie twarzy</string>
   <string name="face_auto_unlock_summary">Odsuń blokadę ekranu po odblokowaniu twarzy</string>
   <!-- Status bar clock options -->
+  <string name="status_bar_clock_title">Zegar i data</string>
+  <string name="status_bar_clock_summary">Skonfiguruj pasek stanu zegar i datę</string>
   <string name="clock_title_enable">Wyrównanie</string>
+  <string name="clock_enabled">Włączone</string>
+  <string name="clock_disabled">Wyłączone</string>
+  <string name="status_bar_clock_style_reset">Przywróć domyślny kolor</string>
+  <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
+  <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
   <string name="status_bar_am_pm_title">Znacznik AM/PM</string>
   <string name="status_bar_am_pm_info">24 godzinny format zegara jest włączony</string>
+  <string name="enable_clock_weekday">Dzień tygodnia</string>
+  <string name="enable_clock_weekday_summary">Skrót dnia tygodnia przed zegarem</string>
   <string name="right_clock">Zegar po prawej</string>
+  <string name="left_clock">Zegar po lewej</string>
+  <string name="dont_show">Nie pokazuj</string>
   <string name="clock_date_display">Data</string>
   <string name="clock_date_display_summary">Wyświetlanie niestandardowych daty przed zegar</string>
   <string name="clock_date_style">Styl daty</string>
@@ -582,8 +593,54 @@
   <string name="clock_date_style_lowercase">Małe litery</string>
   <string name="clock_date_style_uppercase">Wielkie litery</string>
   <string name="clock_date_format_custom">Niestandardowy format Java</string>
+  <string name="clock_date_right">Po prawej stronie zegara</string>
+  <string name="clock_date_left">Po lewej stronie zegara</string>
+  <string name="clock_date_position">Położenie daty</string>
   <!-- Weather - OmniJaws Settings -->
+  <string name="weather_title">Pogoda</string>
+  <string name="weather_config_title">Ustawienia usługi</string>
+  <string name="header_weather_title">Pogoda w nagłówku</string>
+  <string name="header_weather_summary">Włącz pogodynkę w panelu powiadomień</string>
+  <string name="weather_icon_pack_title">Pakiet ikon warunków</string>
+  <string name="weather_icon_pack_note">Uwaga\u003a możesz zainstalować nowe paczki ikon ze sklepu Play, wyszukując: \"Chronus icons\"</string>
   <!-- StatusBar weather settings -->
+  <string name="statusbar_weather_title">Pogoda na pasku statusu</string>
+  <string name="statusbar_weather_summary">Konfiguruj szybkie ustawienia/Pogoda</string>
+  <string name="statusbar_weather_dialog_title">Styl pogody w pasku stanu</string>
+  <string name="status_bar_weather_hidden">Ukryj pogodę</string>
+  <string name="status_bar_temperature_image_show_scale">Pokaż temperaturę ze skalą i obrazem</string>
+  <string name="status_bar_temperature_image_hide_scale">Pokaż temperaturę z obrazem, bez skali</string>
+  <string name="status_bar_temperature_show_scale_hide_image">Pokaż temperaturę ze skalą</string>
+  <string name="status_bar_temperature_hide_scale_hide_image">Pokaż temperaturę bez skali</string>
+  <string name="status_bar_show_image">Pokaż obrazek</string>
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Ekran blokady</string>
+  <string name="lock_screen_show_weather_title">Wyświetlanie pogody</string>
+  <string name="lock_screen_show_weather_summaryOn">Pogoda jest pokazana na ekranie blokady</string>
+  <string name="lock_screen_show_weather_summaryOff">Pogoda jest ukryta na ekranie blokady</string>
+  <string name="lock_screen_show_location_title">Wyświetlanie lokalizacji</string>
+  <string name="lock_screen_show_location_summaryOn">Lokalizacja jest wyświetlana na ekranie blokady</string>
+  <string name="lock_screen_show_location_summaryOff">Lokalizacja jest ukryta na ekranie blokady</string>
+  <string name="lock_screen_weather_condition_icon_title">Wyświetlanie ikony warunków</string>
+  <string name="lock_screen_weather_condition_icon_summaryOn">Ikona warunków jest wyświetlana na ekranie blokady</string>
+  <string name="lock_screen_weather_condition_icon_summaryOff">Ikona warunków jest ukryta na ekranie blokady</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Styl wskaźnika baterii</string>
+  <string name="battery_style_title">Wygląd ikony baterii</string>
+  <string name="battery_style_port">Pionowy</string>
+  <string name="battery_style_land">Poziomy</string>
+  <string name="battery_style_circle">Okrąg</string>
+  <string name="battery_style_dotted_circle">Przerywany okrąg</string>
+  <string name="battery_style_big_circle">Duże koło</string>
+  <string name="battery_style_big_dotted_circle">Duże kropkowane koło</string>
+  <string name="battery_style_square">Kwadrat</string>
+  <string name="battery_style_text">Tekst</string>
+  <string name="battery_style_hidden">Ukryty</string>
+  <string name="show_battery_percent_title">Pokaż procenty naładowania baterii</string>
+  <string name="battery_percent_none">Nie pokazuj</string>
+  <string name="battery_percent_outside">Pokaż obok ikony</string>
+  <string name="battery_percent_inside">Pokaż wewnątrz ikony</string>
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

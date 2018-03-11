@@ -18,6 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Laajennukset</string>
   <!-- Extensions categories -->
   <!-- Frags -->
   <!-- General Tweaks -->
@@ -35,6 +36,7 @@
   <!-- App info dialog -->
   <!-- Color Picker -->
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">On suositeltavaa että custom operaattorin etiketti ei ole saatavilla extended statusbar alueella, joka tunnetaan myös nimellä pika asetukset alueella. Myös käyttäen emojis kuin operaattorin etiketti saattaa aiheuttaa jonkin verran näkyvyyttä kysymyksiä kevyempi taustat.</string>
   <!-- Battery light -->
   <!-- Network traffic -->
   <!-- Recents panel settings -->
@@ -94,4 +96,7 @@
   <!-- StatusBar weather settings -->
   <!-- Lockscreen Weather -->
   <!-- Battery Styles -->
+  <!-- Data disabled icon -->
+  <!-- Notification guts kill app button -->
+  <!-- SlimSizer  -->
 </resources>

@@ -52,6 +52,12 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_qs_disabled"
+            android:title="@string/lockscreen_qs_disabled_title"
+            android:summary="@string/lockscreen_qs_disabled_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
      <PreferenceCategory

@@ -48,12 +48,19 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import org.aospextended.extensions.Utils;
 
+import android.hardware.fingerprint.FingerprintManager;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
+
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_FACE_AUTO_UNLOCK = "face_auto_unlock";
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
+    private static final String FP_CAT = "lockscreen_ui_general_category";
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
 
     private SwitchPreference mFaceUnlock;
+    private SystemSettingSwitchPreference mFingerprintVib;
+    private FingerprintManager mFingerprintManager;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -73,6 +80,20 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             mFaceUnlock.setOnPreferenceChangeListener(this);
         }
 
+        PreferenceCategory fingerprintCategory = (PreferenceCategory) findPreference(FP_CAT);
+
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+
+        if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()){
+        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
+        mFingerprintVib.setOnPreferenceChangeListener(this);
+        } else {
+        fingerprintCategory.removePreference(mFingerprintVib);
+        }
+
+
     }
 
     @Override
@@ -87,10 +108,16 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mFaceUnlock) {
             boolean value = (Boolean) objValue;
             Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.FACE_AUTO_UNLOCK, value ? 1 : 0);
+            return true;
+        } else if (preference == mFingerprintVib) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
             return true;
         }
         return false;

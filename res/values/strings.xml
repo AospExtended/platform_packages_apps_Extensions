@@ -785,5 +785,8 @@
 
     <string name="toast">Toast</string>
 
+    <!-- Animations -->
+    <string name="animations_title">Animations</string>
+
 </resources>
 

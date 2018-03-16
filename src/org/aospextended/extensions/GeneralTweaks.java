@@ -17,11 +17,15 @@
 package org.aospextended.extensions;
 
 import android.app.ActivityManagerNative;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.Intent;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -41,24 +45,35 @@ import java.util.regex.Pattern;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import org.aospextended.extensions.preference.ScreenshotEditPackageListAdapter;
+import org.aospextended.extensions.preference.ScreenshotEditPackageListAdapter.PackageItem;
 
-public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class GeneralTweaks extends SettingsPreferenceFragment implements 
+       Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
     private static final String RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
+    private static final int DIALOG_SCREENSHOT_EDIT_APP = 1;
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
+    private Preference mScreenshotEditAppPref;
     private ListPreference mLaunchPlayerHeadsetConnection;
     private ListPreference mHeadsetRingtoneFocus;
     private ListPreference mScreenOffAnimation;
+    private ScreenshotEditPackageListAdapter mPackageAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -106,7 +121,48 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
 
+        mPackageAdapter = new ScreenshotEditPackageListAdapter(getActivity());
+        mScreenshotEditAppPref = findPreference("screenshot_edit_app");
+        mScreenshotEditAppPref.setOnPreferenceClickListener(this);
+
     }
+
+    @Override
+    public Dialog onCreateDialog(int dialogId) {
+        switch (dialogId) {
+            case DIALOG_SCREENSHOT_EDIT_APP: {
+                Dialog dialog;
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
+                final ListView list = new ListView(getActivity());
+                list.setAdapter(mPackageAdapter);
+                alertDialog.setTitle(R.string.profile_choose_app);
+                alertDialog.setView(list);
+                dialog = alertDialog.create();
+                list.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        // Add empty application definition, the user will be able to edit it later
+                        PackageItem info = (PackageItem) parent.getItemAtPosition(position);
+                        Settings.System.putString(getActivity().getContentResolver(),
+                                Settings.System.SCREENSHOT_EDIT_USER_APP, info.packageName);
+                        dialog.cancel();
+                    }
+                });
+                return dialog;
+            }
+         }
+        return super.onCreateDialog(dialogId);
+    }
+
+    @Override
+    public int getDialogMetricsCategory(int dialogId) {
+        switch (dialogId) {
+            case DIALOG_SCREENSHOT_EDIT_APP:
+                return MetricsEvent.EXTENSIONS;
+            default:
+                return 0;
+        }
+     }
 
     @Override
     public int getMetricsCategory() {
@@ -146,5 +202,17 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceClick(Preference preference) {
+        // Don't show the dialog if there are no available editor apps
+        if (preference == mScreenshotEditAppPref && mPackageAdapter.getCount() > 0) {
+            showDialog(DIALOG_SCREENSHOT_EDIT_APP);
+        } else {
+            Toast.makeText(getActivity(), getActivity().getString(R.string.screenshot_edit_app_no_editor),
+                    Toast.LENGTH_LONG).show();
+        }
+        return true;
     }
 }

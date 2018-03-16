@@ -83,6 +83,11 @@
             android:summary="@string/three_finger_gesture_summary"
             android:defaultValue="false" />
 
+    <Preference
+        android:key="screenshot_edit_app"
+        android:title="@string/screenshot_edit_app"
+        android:summary="@string/screenshot_edit_app_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

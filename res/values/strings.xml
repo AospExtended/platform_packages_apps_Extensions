@@ -788,5 +788,10 @@
     <!-- Animations -->
     <string name="animations_title">Animations</string>
 
+    <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+    <string name="screenshot_options_category">Screenshot options</string>
+
 </resources>
 

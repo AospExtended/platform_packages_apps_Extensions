@@ -73,6 +73,18 @@
 
     </PreferenceCategory>
 
+        <PreferenceCategory
+            android:key="screenshot_options"
+            android:title="@string/screenshot_options_category" >
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="three_finger_gesture"
+            android:title="@string/three_finger_gesture"
+            android:summary="@string/three_finger_gesture_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="light_category"
         android:title="@string/light_category">

@@ -70,6 +70,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
     private static final String WALLPAPER_CLOSE = "wallpaper_close";
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
     private static final String WALLPAPER_INTRA_CLOSE = "wallpaper_intra_close";
+    private static final String TASK_OPEN_BEHIND = "task_open_behind";
     private static final String KEY_TOAST_ANIMATION = "toast_animation";
 
     ListPreference mActivityOpenPref;
@@ -82,6 +83,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
     ListPreference mWallpaperClose;
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
+    ListPreference mTaskOpenBehind;
     SwitchPreference mAnimNoOverride;
     private ListPreference mToastAnimation;
 
@@ -175,6 +177,12 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
         mWallpaperIntraClose.setEntries(mAnimationsStrings);
         mWallpaperIntraClose.setEntryValues(mAnimationsNum);
 
+        mTaskOpenBehind = (ListPreference) findPreference(TASK_OPEN_BEHIND);
+        mTaskOpenBehind.setOnPreferenceChangeListener(this);
+        mTaskOpenBehind.setSummary(getProperSummary(mTaskOpenBehind));
+        mTaskOpenBehind.setEntries(mAnimationsStrings);
+        mTaskOpenBehind.setEntryValues(mAnimationsNum);
+
         mToastAnimation = (ListPreference) findPreference(KEY_TOAST_ANIMATION);
         mToastAnimation.setSummary(mToastAnimation.getEntry());
         int CurrentToastAnimation = Settings.System.getInt(getContentResolver(), Settings.System.TOAST_ANIMATION, 1);
@@ -196,7 +204,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-
+	boolean result = false;
         if (preference == mActivityOpenPref) {
             int val = Integer.parseInt((String) objValue);
             result = Settings.System.putInt(mContentRes,
@@ -237,6 +245,10 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
             int val = Integer.parseInt((String) objValue);
             result = Settings.System.putInt(mContentRes,
                     Settings.System.ACTIVITY_ANIMATION_CONTROLS[9], val);
+        } else if (preference == mTaskOpenBehind) {
+            int val = Integer.parseInt((String) objValue);
+            result = Settings.System.putInt(mContentRes,
+                    Settings.System.ACTIVITY_ANIMATION_CONTROLS[10], val);
         } else if (preference == mToastAnimation) {
             int index = mToastAnimation.findIndexOfValue((String) objValue);
             Settings.System.putString(getContentResolver(), Settings.System.TOAST_ANIMATION, (String) objValue);
@@ -271,6 +283,8 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
             mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[8];
         } else if (preference == mWallpaperIntraClose) {
             mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[9];
+        } else if (preference == mTaskOpenBehind) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[10];
         }
 
         int mNum = Settings.System.getInt(mContentRes, mString, 0);

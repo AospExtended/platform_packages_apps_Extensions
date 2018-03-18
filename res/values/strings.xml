@@ -854,6 +854,10 @@
     <string name="pref_scrollingcache_default_disable">Default disable</string>
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Opacity</string>
+    <string name="qs_opacity_category">QS panel opacity</string>
+
 </resources>
 
 

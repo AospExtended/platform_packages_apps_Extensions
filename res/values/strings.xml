@@ -17,7 +17,7 @@
  -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
+
     <!-- General app strings -->
     <string name="extensions_title">Extensions</string>
     <string name="add">Add</string>
@@ -221,7 +221,7 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
-    
+
      <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
@@ -483,5 +483,17 @@
     <string name="gesture_category">Gestures</string>
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_style_off">no animation</string>
+    <string name="qs_tile_animation_style_flip">flip</string>
+    <string name="qs_tile_animation_style_rotate">rotate</string>
+    <string name="qs_tile_animation_duration_low">low</string>
+    <string name="qs_tile_animation_duration_default">default</string>
+    <string name="qs_tile_animation_duration_fast">fast</string>
+    <string name="qs_set_animation_style">Animation is set to %1$s</string>
+    <string name="qs_set_animation_duration">Animation duration is set to %1$s</string>
 
 </resources>

@@ -106,6 +106,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
                     Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0,
                     UserHandle.USER_CURRENT);
             mNetMonitor.setChecked(value);
+            mNetTrafficType.setEnabled(value);
             mThreshold.setEnabled(value);
             return true;
         } else if (preference == mThreshold) {

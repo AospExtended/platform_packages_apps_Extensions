@@ -66,7 +66,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
     private static final String TASK_CLOSE = "task_close";
     private static final String TASK_MOVE_TO_FRONT = "task_move_to_front";
     private static final String TASK_MOVE_TO_BACK = "task_move_to_back";
-    private static final String ANIMATION_NO_OVERRIDE = "animation_no_override";
+//  private static final String ANIMATION_NO_OVERRIDE = "animation_no_override";
     private static final String WALLPAPER_OPEN = "wallpaper_open";
     private static final String WALLPAPER_CLOSE = "wallpaper_close";
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
@@ -91,7 +91,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
     ListPreference mTaskOpenBehind;
-    SwitchPreference mAnimNoOverride;
+//  SwitchPreference mAnimNoOverride;
     private ListPreference mToastAnimation;
     private ListPreference mListViewAnimation;
     private ListPreference mListViewInterpolator;
@@ -135,66 +135,77 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
         mActivityOpenPref.setSummary(getProperSummary(mActivityOpenPref));
         mActivityOpenPref.setEntries(mAnimationsStrings);
         mActivityOpenPref.setEntryValues(mAnimationsNum);
+        mActivityOpenPref.setValueIndex(getProperIndex(mActivityOpenPref));
 
         mActivityClosePref = (ListPreference) findPreference(ACTIVITY_CLOSE);
         mActivityClosePref.setOnPreferenceChangeListener(this);
         mActivityClosePref.setSummary(getProperSummary(mActivityClosePref));
         mActivityClosePref.setEntries(mAnimationsStrings);
         mActivityClosePref.setEntryValues(mAnimationsNum);
+        mActivityClosePref.setValueIndex(getProperIndex(mActivityClosePref));
 
         mTaskOpenPref = (ListPreference) findPreference(TASK_OPEN);
         mTaskOpenPref.setOnPreferenceChangeListener(this);
         mTaskOpenPref.setSummary(getProperSummary(mTaskOpenPref));
         mTaskOpenPref.setEntries(mAnimationsStrings);
         mTaskOpenPref.setEntryValues(mAnimationsNum);
+        mTaskOpenPref.setValueIndex(getProperIndex(mTaskOpenPref));
 
         mTaskClosePref = (ListPreference) findPreference(TASK_CLOSE);
         mTaskClosePref.setOnPreferenceChangeListener(this);
         mTaskClosePref.setSummary(getProperSummary(mTaskClosePref));
         mTaskClosePref.setEntries(mAnimationsStrings);
         mTaskClosePref.setEntryValues(mAnimationsNum);
+        mTaskClosePref.setValueIndex(getProperIndex(mTaskClosePref));
 
         mTaskMoveToFrontPref = (ListPreference) findPreference(TASK_MOVE_TO_FRONT);
         mTaskMoveToFrontPref.setOnPreferenceChangeListener(this);
         mTaskMoveToFrontPref.setSummary(getProperSummary(mTaskMoveToFrontPref));
         mTaskMoveToFrontPref.setEntries(mAnimationsStrings);
         mTaskMoveToFrontPref.setEntryValues(mAnimationsNum);
+        mTaskMoveToFrontPref.setValueIndex(getProperIndex(mTaskMoveToFrontPref));
 
         mTaskMoveToBackPref = (ListPreference) findPreference(TASK_MOVE_TO_BACK);
         mTaskMoveToBackPref.setOnPreferenceChangeListener(this);
         mTaskMoveToBackPref.setSummary(getProperSummary(mTaskMoveToBackPref));
         mTaskMoveToBackPref.setEntries(mAnimationsStrings);
         mTaskMoveToBackPref.setEntryValues(mAnimationsNum);
+        mTaskMoveToBackPref.setValueIndex(getProperIndex(mTaskMoveToBackPref));
 
         mWallpaperOpen = (ListPreference) findPreference(WALLPAPER_OPEN);
         mWallpaperOpen.setOnPreferenceChangeListener(this);
         mWallpaperOpen.setSummary(getProperSummary(mWallpaperOpen));
         mWallpaperOpen.setEntries(mAnimationsStrings);
         mWallpaperOpen.setEntryValues(mAnimationsNum);
+        mWallpaperOpen.setValueIndex(getProperIndex(mWallpaperOpen));
 
         mWallpaperClose = (ListPreference) findPreference(WALLPAPER_CLOSE);
         mWallpaperClose.setOnPreferenceChangeListener(this);
         mWallpaperClose.setSummary(getProperSummary(mWallpaperClose));
         mWallpaperClose.setEntries(mAnimationsStrings);
         mWallpaperClose.setEntryValues(mAnimationsNum);
+        mWallpaperClose.setValueIndex(getProperIndex(mWallpaperClose));
 
         mWallpaperIntraOpen = (ListPreference) findPreference(WALLPAPER_INTRA_OPEN);
         mWallpaperIntraOpen.setOnPreferenceChangeListener(this);
         mWallpaperIntraOpen.setSummary(getProperSummary(mWallpaperIntraOpen));
         mWallpaperIntraOpen.setEntries(mAnimationsStrings);
         mWallpaperIntraOpen.setEntryValues(mAnimationsNum);
+        mWallpaperIntraOpen.setValueIndex(getProperIndex(mWallpaperIntraOpen));
 
         mWallpaperIntraClose = (ListPreference) findPreference(WALLPAPER_INTRA_CLOSE);
         mWallpaperIntraClose.setOnPreferenceChangeListener(this);
         mWallpaperIntraClose.setSummary(getProperSummary(mWallpaperIntraClose));
         mWallpaperIntraClose.setEntries(mAnimationsStrings);
         mWallpaperIntraClose.setEntryValues(mAnimationsNum);
+        mWallpaperIntraClose.setValueIndex(getProperIndex(mWallpaperIntraClose));
 
         mTaskOpenBehind = (ListPreference) findPreference(TASK_OPEN_BEHIND);
         mTaskOpenBehind.setOnPreferenceChangeListener(this);
         mTaskOpenBehind.setSummary(getProperSummary(mTaskOpenBehind));
         mTaskOpenBehind.setEntries(mAnimationsStrings);
         mTaskOpenBehind.setEntryValues(mAnimationsNum);
+        mTaskOpenBehind.setValueIndex(getProperIndex(mTaskOpenBehind));
 
         mToastAnimation = (ListPreference) findPreference(KEY_TOAST_ANIMATION);
         mToastAnimation.setSummary(mToastAnimation.getEntry());
@@ -310,7 +321,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
             return true;
         }
 	preference.setSummary(getProperSummary(preference));
-        return false;
+        return result;
 
     }
 
@@ -343,5 +354,35 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
         int mNum = Settings.System.getInt(mContentRes, mString, 0);
         return mAnimationsStrings[mNum];
     }
+
+     private int getProperIndex(Preference preference) {
+        String mString = "";
+        if (preference == mActivityOpenPref) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[0];
+        } else if (preference == mActivityClosePref) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[1];
+        } else if (preference == mTaskOpenPref) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[2];
+        } else if (preference == mTaskClosePref) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[3];
+        } else if (preference == mTaskMoveToFrontPref) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[4];
+        } else if (preference == mTaskMoveToBackPref) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[5];
+        } else if (preference == mWallpaperOpen) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[6];
+        } else if (preference == mWallpaperClose) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[7];
+        } else if (preference == mWallpaperIntraOpen) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[8];
+        } else if (preference == mWallpaperIntraClose) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[9];
+        } else if (preference == mTaskOpenBehind) {
+            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[10];
+        }
+
+        int mNum = Settings.System.getInt(mContentRes, mString, 0);
+        return mNum;
+     }
 
 }

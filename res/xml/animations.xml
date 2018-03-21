@@ -27,10 +27,10 @@
 	    android:entries="@array/entries_scrollingcache"
 	    android:entryValues="@array/values_scrollingcache" />
 
-        <SwitchPreference
+     <!--   <SwitchPreference
             android:key="animation_no_override"
             android:title="@string/title_animation_no_override"
-            android:summary="@string/summary_animation_no_override" />
+            android:summary="@string/summary_animation_no_override" /> -->
 
         <ListPreference
             android:key="activity_open"

@@ -1095,4 +1095,7 @@
   <!-- Sensor block per-package -->
   <string name="sensor_block_title">阻止个別应用使用传感器</string>
   <string name="sensor_block_summary">阻止某些应用访问特定传感器以节省耗电</string>
+  <!-- Face auto unlock -->
+  <string name="face_auto_unlock_title">自动人脸解锁</string>
+  <string name="face_auto_unlock_summary">人脸认证成功后自动跳过锁屏界面！</string>
 </resources>

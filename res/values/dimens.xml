@@ -19,6 +19,14 @@
 
     <dimen name="header_icon_width">28dp</dimen>
 
+    <!-- Cardview Preference -->
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_corner_radius">1.5dp</dimen>
+    <dimen name="card_margin_top">6dp</dimen>
+    <dimen name="card_margin_bottom">6dp</dimen>
+    <dimen name="card_margin_right">12dp</dimen>
+    <dimen name="card_margin_left">12dp</dimen>
+
     <!-- ActionBar contentInsetStart -->
     <dimen name="actionbar_contentInsetStart">16dp</dimen>
 

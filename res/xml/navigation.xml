@@ -18,10 +18,9 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/navigation_category"
-    android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="navbar_settings"
             android:fragment="org.aospextended.extensions.NavbarSettings"
             android:icon="@drawable/ic_navigation"

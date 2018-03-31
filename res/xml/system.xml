@@ -18,40 +18,39 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/system_category"
-    android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="general_tweaks"
             android:fragment="org.aospextended.extensions.GeneralTweaks"
             android:icon="@drawable/ic_general_tweaks"
             android:title="@string/general_tweaks_title" />
 
-          <Preference
+          <org.aospextended.extensions.preference.CardviewPreference
             android:key="animations"
             android:fragment="org.aospextended.extensions.Animations"
-	    android:icon="@drawable/ic_animations"
+	          android:icon="@drawable/ic_animations"
             android:title="@string/animations_title" />
 
-         <Preference
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="weather"
             android:fragment="org.aospextended.extensions.Weather"
             android:icon="@drawable/ic_weather"
             android:title="@string/weather_title" />
 
-         <Preference
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="buttons"
             android:fragment="org.aospextended.extensions.Buttons"
             android:icon="@drawable/ic_buttons"
             android:title="@string/buttons_title" />
 
-         <Preference
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="app_ops"
             android:fragment="com.android.settings.applications.AppOpsSummary"
             android:icon="@drawable/ic_settings_appops"
             android:title="@string/app_ops_category" />
 
-         <PreferenceScreen
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="systemappremover"
             android:fragment="org.aospextended.extensions.SystemappRemover"
             android:icon="@drawable/ic_systemappremover"

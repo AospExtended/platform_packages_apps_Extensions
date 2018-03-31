@@ -18,10 +18,9 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/recents_category"
-    android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="recents_ui"
             android:fragment="org.aospextended.extensions.RecentsUI"
             android:icon="@drawable/ic_recents_ui"

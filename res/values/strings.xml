@@ -889,7 +889,9 @@
     <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
     <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
 
+    <!-- System default animation -->
+    <string name="system_default_animation_title">Android P animation style</string>
+    <string name="system_default_animation_summary">Enable Android P \"Default\" animations</string>
+
 </resources>
-
-
 

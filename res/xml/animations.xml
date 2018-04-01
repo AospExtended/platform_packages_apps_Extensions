@@ -19,6 +19,12 @@
      <PreferenceCategory
         android:title="@string/system_animations">
 
+        <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+            android:key="system_default_animation"
+            android:title="@string/system_default_animation_title"
+            android:summary="@string/system_default_animation_summary"
+            android:defaultValue="false" />
+
 	<ListPreference
 	    android:key="pref_scrollingcache"
 	    android:dialogTitle="@string/pref_scrollingcache_title"

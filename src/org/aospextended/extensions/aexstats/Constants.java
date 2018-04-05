@@ -16,7 +16,7 @@ public class Constants {
 
     public static final String KEY_DEVICE = "ro.aex.device";
     public static final String KEY_MODEL = "ro.product.model";
-    public static final String KEY_VERSION = "5.3";
+    public static final String KEY_VERSION = "5.4";
     public static final String KEY_BUILD_TYPE = "ro.extended.releasetype";
     public static final String KEY_BUILD_DATE = "ro.build.date";
 }

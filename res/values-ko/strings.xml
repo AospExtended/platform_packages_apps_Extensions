@@ -33,6 +33,7 @@
   <!-- Buttons -->
   <!-- App Ops -->
   <!-- App info dialog -->
+  <!-- System theme -->
   <!-- Color Picker -->
   <!-- Footer warnings -->
   <!-- Battery light -->
@@ -41,7 +42,18 @@
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
+  <string name="powermenu_restart">재시작</string>
+  <string name="powermenu_restart_recovery">고급 재시작</string>
+  <string name="powermenu_airplane">비행기 모드</string>
+  <string name="powermenu_settings">설정</string>
+  <string name="powermenu_lockdown">잠금</string>
+  <string name="powermenu_soundpanel">소리 패널</string>
+  <string name="powermenu_users">사용자들</string>
+  <string name="powermenu_torch">손전등</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">잠겨 있을 때 전원 메뉴</string>
+  <string name="recents_show_membar_title">메모리 바</string>
+  <string name="recents_show_membar_summary">장치 가용 메모리 상태창</string>
   <!-- Brightness icon-->
   <!-- Quick pull down-->
   <!-- Smart pulldown-->
@@ -62,6 +74,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -78,15 +91,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -97,4 +109,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

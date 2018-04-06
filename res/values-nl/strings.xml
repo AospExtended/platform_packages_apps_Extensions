@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">Help ons jou helpen!</string>
   <string name="extensions_dialog_message">Als je een bug vindt in een van deze settings, post het in de Bug Reports sectie van onze Google+ pagina. Je MOET het volgende toevoegen wanneer je een bug report post:\n\n1. Een logcat of last_kmsg\n2. Kernel en gebruikte mods\n3. Nuttige informatie\n\nAls je iets niet adequaat rapporteert, verwacht dan NIET dat dingen gefixt worden.</string>
   <string name="extensions_dialog_toast">LEES HET HELE DING!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Kleurkiezer</string>
   <string name="press_color_to_apply">Druk op de kleur hieronder om toe te passen</string>
@@ -228,6 +229,7 @@
   <string name="ringtone_focus_mode_title">Waarvandaan beltonen afspelen</string>
   <string name="ringtone_focus_mode_dynamic">Van headset als deze is aangesloten en muziek speelt</string>
   <string name="ringtone_focus_mode_stock">"Van telefoonluidspreker (aosp standaard)"</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Klok widget</string>
   <string name="hide_lockscreen_clock_summary">Zichtbaarheid van de klok widget wijzigen</string>
@@ -481,28 +483,7 @@
   <string name="smartbar_custom_icon_size_title">Aangepaste pictrogramschaling</string>
   <string name="one_handed_mode_title">Een hand modus</string>
   <string name="one_handed_mode_summary">Over de navigatiebalk slepen om één hand modus te activeren</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Roaming indicator</string>
-  <string name="roaming_indicator_icon_summary">Toon roaming indicator in het signaal pictogram wanneer het toestel aan het roamen is</string>
-  <!-- 4G icon -->
-  <string name="show_fourg_icon_title">4G pictogram</string>
-  <string name="show_fourg_icon_summary">Toon 4G pictogram in signaal pictogram in plaats van LTE</string>
-  <string name="button_backlight_on_touch_only_title">Knop aanraking</string>
-  <string name="button_backlight_on_touch_only_summary">Schakel verlichting met time-out alleen in als u op de knop drukt</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Verlichting timeout</string>
-  <string name="backlight_timeout_on">Altijd aan</string>
-  <string name="backlight_timeout_3s">3 sec</string>
-  <string name="backlight_timeout_default">5 sec (standaard)</string>
-  <string name="backlight_timeout_10s">10 sec</string>
-  <string name="backlight_timeout_15s">15 sec</string>
-  <string name="backlight_timeout_20s">20 sec</string>
-  <string name="backlight_timeout_30s">30 sec</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Achtergrondverlichting</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Achtergrondverlichting inschakelen</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
   <string name="hardware_keys_home_key_title">Thuisknop</string>
   <string name="hardware_keys_menu_key_title">Menuknop</string>
   <string name="hardware_keys_assist_key_title">Zoekknop</string>
@@ -514,8 +495,13 @@
   <string name="hardware_keys_single_tap_title">Enkele tik actie</string>
   <string name="hardware_keys_long_press_title">Actie lang indrukken</string>
   <string name="hardware_keys_double_tap_title">Actie twee keer indrukken</string>
-  <string name="hardware_keys_category">Hardware toetsen</string>
-  <string name="hardware_keys_disable_title">Schakel de toetsen uit</string>
+  <!-- Button brightness -->
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Roaming indicator</string>
+  <string name="roaming_indicator_icon_summary">Toon roaming indicator in het signaal pictogram wanneer het toestel aan het roamen is</string>
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">4G pictogram</string>
+  <string name="show_fourg_icon_summary">Toon 4G pictogram in signaal pictogram in plaats van LTE</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Scherm af aan-uitknop zaklamp</string>
   <string name="torch_power_button_gesture_none">Uitgeschakeld</string>
@@ -544,6 +530,7 @@
   <string name="screen_off_animation_default">Standaard</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Schaal</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Meldingsgeluiden en vibratie als scherm aan staat</string>
   <string name="notification_sound_vib_screen_on_never">Nooit</string>
@@ -589,4 +576,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

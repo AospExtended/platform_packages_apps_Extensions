@@ -73,6 +73,7 @@
   <string name="extensions_dialog_title">ช่วยเราช่วยคุณ</string>
   <string name="extensions_dialog_message">ถ้าคุณพบข้อผิดพลาดกับการตั้งค่าเหล่านี้ ลงรายการบัญชีในส่วนรายงานจุดบกพร่องของหน้า Google + ของเรา คุณต้องรวมต่อไปนี้เมื่อลงรายการบัญชีมีข้อผิดพลาดรายงาน: \n\n1 Logcat หรือ last_kmsg\n2 Used\n3 เคอร์เนลและวัยรุ่น นอกจากนี้ประโยชน์ information\n\nIf คุณล้มเหลวในการรายงานอย่างเพียงพอ ไม่คาดหวังสิ่งที่แก้ไขได้</string>
   <string name="extensions_dialog_toast">อ่านทั้งหมด!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">ตัวเลือกสี</string>
   <string name="arrow_right">→</string>
@@ -113,6 +114,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -144,23 +146,16 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
   <string name="show_fourg_icon_title">ไอคอน 4G</string>
   <string name="show_fourg_icon_summary">แสดงสัญลักษณ์ 4G แทนสัญลักษณ์ LTE</string>
-  <string name="button_backlight_on_touch_only_title">ปุ่มสัมผัส</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_3s">3 วินาที</string>
-  <string name="backlight_timeout_default">5 วินาที (เริ่มต้น)</string>
-  <string name="backlight_timeout_10s">10 วินาที</string>
-  <string name="backlight_timeout_15s">15 วินาที</string>
-  <string name="backlight_timeout_20s">20 วินาที</string>
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_10s">ทุก 10 วินาที</string>
@@ -177,4 +172,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

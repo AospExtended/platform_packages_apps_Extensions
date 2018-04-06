@@ -18,25 +18,83 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">הרחבות</string>
+  <string name="add">הוסף</string>
+  <string name="advanced">מתקדם</string>
+  <string name="cancel">ביטול</string>
+  <string name="choose_app">בחר יישום</string>
+  <string name="general_category">כללי</string>
+  <string name="gestures_category">מחוות</string>
+  <string name="music_category">מוזיקה</string>
+  <string name="security_category">אבטחה</string>
+  <string name="hardware_category">חומרה</string>
+  <string name="icons_category">אייקונים</string>
+  <string name="aosp_recents_category">יישומים אחרונים של AOSP</string>
+  <string name="light_category">תאורה</string>
+  <string name="dlg_ok">אישור</string>
+  <string name="attention">לידיעתך</string>
+  <string name="loading">טוען\u2026</string>
+  <string name="reset">אפס</string>
+  <string name="reset_colors">אפס צבעים</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">טקסט</string>
+  <string name="icon_title">סמל</string>
+  <string name="color_title">צבע</string>
+  <string name="colors_title">צבעים</string>
   <!-- Extensions categories -->
+  <string name="recents_category">אחרונים</string>
+  <string name="status_bar_category">שורת המצב</string>
+  <string name="notifications_panel_category">חלון התראות</string>
+  <string name="system_category">מערכת</string>
+  <string name="lockscreen_category">מסך הנעילה</string>
+  <string name="navigation_category">ניווט</string>
+  <string name="build_tweaks_summary_title">הרחב את המכשיר שלך!</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
+  <string name="traffic_title">חיווי תעבורת אינטרנט</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">תווית המפעיל</string>
   <!-- Misc Extensions -->
   <!-- Recents UI -->
+  <string name="recents_ui_title">ממשק יישומים אחרונים</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">ממשק מסך הנעילה</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">פריטים בשורת המצב</string>
   <!-- Notifications -->
+  <string name="notifications_title">התראות</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">שורת הניווט</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">הגדרות מהירות</string>
   <!-- Buttons -->
+  <string name="buttons_title">מקשים</string>
   <!-- App Ops -->
+  <string name="app_ops_category">הרשאות יישומים</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">עזור לנו לעזור לך!</string>
+  <string name="extensions_dialog_message">אם מצאת באג עם כל אחת מהגדרות אלה, דווח בעמוד הגוגל+ שלנו תחת הקטגוריה bug report. עליך לכלול את הדברים הבאים בעת דיווח על באג: \n\n‏1. Logcat או last_kmsg\n‏2. באיזה קרנל ומודים אתה משתמש\n‏3. מידע שימושי\n\n‏אם לא תדווח כראוי אל תצפה שהבעיה תפתר.</string>
+  <string name="extensions_dialog_toast">קרא את ה-כ-ל!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
+  <string name="dialog_color_picker">בוחר צבעים</string>
+  <string name="press_color_to_apply">לחץ על צבע לבחירה</string>
+  <string name="set">הגדר</string>
+  <string name="color_default">ברירת מחדל</string>
   <!-- Footer warnings -->
   <!-- Battery light -->
+  <string name="battery_light_settings">הדלק נורית בעת טעינת הסוללה</string>
+  <string name="battery_light_enable">נורית הסוללה</string>
+  <string name="battery_light_allow_on_dnd_title">נורית הסוללה במצב \"נא לא להפריע\"</string>
+  <string name="battery_light_low_blinking_title">הבהב נורית כאשר הסוללה חלשה</string>
+  <string name="battery_light_cat">צבע הנורית בטעינה</string>
+  <string name="battery_light_low_color">סוללה חלשה</string>
+  <string name="battery_light_medium_color">סוללה בינונית</string>
+  <string name="battery_light_full_color">סוללה כמעט מלאה</string>
+  <string name="battery_light_reallyfull_color">סוללה מלאה (100)</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">תעבורת רשת</string>
   <!-- Recents panel settings -->
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
@@ -62,6 +120,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -78,15 +137,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -97,4 +155,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

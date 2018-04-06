@@ -77,6 +77,7 @@
   <!-- App info dialog -->
   <string name="extensions_dialog_title">Hjælp os med at hjælpe dig!</string>
   <string name="extensions_dialog_toast">LÆS DET HELE!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Farvevælger</string>
   <string name="press_color_to_apply">Tryk på farve nedenfor for at anvende</string>
@@ -114,6 +115,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -130,15 +132,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -149,4 +150,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

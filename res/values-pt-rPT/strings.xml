@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">Ajude-nos a ajudá-lo!</string>
   <string name="extensions_dialog_message">Se encontrar um bug com alguma dessas configurações, publicar na secção de relatórios de bugs de nossa página de Google+. DEVE incluir o seguinte ao publicar um relatório de bug: \n\n1. Um logcat ou last_kmsg\n2. Kernels e mods utilizados\n3. Informações úteis\n\nSe não reportar corretamente, NÃO espere que as coisas sejam corrigidas.</string>
   <string name="extensions_dialog_toast">LEIA A COISA TODA!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Escolher Cor</string>
   <string name="press_color_to_apply">Pressione a cor abaixo para aplicar</string>
@@ -163,6 +164,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -179,15 +181,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -198,4 +199,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

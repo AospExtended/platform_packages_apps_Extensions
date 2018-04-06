@@ -43,12 +43,20 @@
   <string name="colors_title">顏色</string>
   <!-- Extensions categories -->
   <string name="recents_category">總覽</string>
+  <string name="recents_category_summary">自訂最近使用的應用程式預覽</string>
   <string name="status_bar_category">狀態列</string>
+  <string name="status_bar_category_summary">自訂狀態列</string>
   <string name="notifications_panel_category">通知面板</string>
+  <string name="notifications_panel_category_summary">自訂快速設定面板和通知</string>
   <string name="system_category">系統</string>
+  <string name="system_category_summary">各類系統延伸</string>
   <string name="lockscreen_category">鎖定畫面</string>
+  <string name="lockscreen_category_summary">自訂鎖定螢幕介面</string>
   <string name="navigation_category">導覽列</string>
+  <string name="navigation_category_summary">自訂導航列</string>
   <string name="build_tweaks_summary_title">擴充您的裝置！</string>
+  <string name="system_animations">系統動畫</string>
+  <string name="listview">清單視圖</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">一般調整</string>
@@ -78,6 +86,11 @@
   <string name="extensions_dialog_title">幫助我們也幫助您！</string>
   <string name="extensions_dialog_message">發現這些錯誤有任何 BUG 時，請到我們的 Google+ 頁面的 BUG 報告文章並 PO 文說明。 BUG 報告必須包含下列內容：\n\n1. logcat 或是 last_kmsg\n2. 所用的内核及mod 版本\n3. 有用的資訊\n\n若不能適當回報 BUG，請不要期望問題會得到修復。</string>
   <string name="extensions_dialog_toast">請閱讀全部的內容！</string>
+  <!-- System theme -->
+  <string name="accent_picker_dialog_title">選取一個強調色</string>
+  <string name="theme_accent_picker_title">強調色</string>
+  <string name="theme_accent_picker_summary">選擇系統主題強調色</string>
+  <string name="theme_accent_picker_default">預設</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">色彩選擇器</string>
   <string name="press_color_to_apply">按下下面的顏色套用</string>
@@ -228,6 +241,7 @@
   <string name="ringtone_focus_mode_title">播放鈴聲來自於</string>
   <string name="ringtone_focus_mode_dynamic">來自正在撥放音樂的有線耳機</string>
   <string name="ringtone_focus_mode_stock">"來自擴音器 ( AOSP 預設)"</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">時鐘小工具</string>
   <string name="hide_lockscreen_clock_summary">更改時鐘小工具的可見度</string>
@@ -281,6 +295,9 @@
   <string name="ticker_disabled">已停用</string>
   <string name="ticker_enabled">通知提示</string>
   <string name="ticker_media_enabled">通知與音樂提示</string>
+  <string name="ticker_animation_mode_title">狀態列通知動畫樣式</string>
+  <string name="ticker_animation_mode_alpha_fade">淡入</string>
+  <string name="ticker_animation_mode_scroll">捲動</string>
   <string name="recents_icon_pack_title">圖示包</string>
   <string name="recents_icon_pack_summary">在面板中為應用程式套用自訂圖示包</string>
   <string name="no_iconpacks_summary">沒有已安裝的圖示包</string>
@@ -481,28 +498,8 @@
   <string name="smartbar_custom_icon_size_title">自訂圖示大小</string>
   <string name="one_handed_mode_title">單手模式</string>
   <string name="one_handed_mode_summary">允許在導覽列上滑動以啟用單手模式</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">漫遊指示器</string>
-  <string name="roaming_indicator_icon_summary">在漫遊模式下顯示訊號圖示中的漫遊指示符號</string>
-  <!-- 4G icon -->
-  <string name="show_fourg_icon_title">4G 圖示</string>
-  <string name="show_fourg_icon_summary">顯示 4G 圖示，而不是 LTE</string>
-  <string name="button_backlight_on_touch_only_title">按鈕觸控</string>
-  <string name="button_backlight_on_touch_only_summary">僅在按鈕被觸碰時啟用背光逾時</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">按鍵背光逾時</string>
-  <string name="backlight_timeout_on">一律啟用</string>
-  <string name="backlight_timeout_3s">3 秒</string>
-  <string name="backlight_timeout_default">5 秒 (預設)</string>
-  <string name="backlight_timeout_10s">10秒</string>
-  <string name="backlight_timeout_15s">15秒</string>
-  <string name="backlight_timeout_20s">20秒</string>
-  <string name="backlight_timeout_30s">30秒</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">背光</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">啟用按鍵背光</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">音量鍵</string>
   <string name="hardware_keys_home_key_title">主畫面鍵</string>
   <string name="hardware_keys_menu_key_title">選單鍵</string>
   <string name="hardware_keys_assist_key_title">搜尋按鈕</string>
@@ -514,8 +511,23 @@
   <string name="hardware_keys_single_tap_title">輕觸一下動作</string>
   <string name="hardware_keys_long_press_title">長按動作</string>
   <string name="hardware_keys_double_tap_title">輕觸兩下動作</string>
-  <string name="hardware_keys_category">實體按鍵</string>
-  <string name="hardware_keys_disable_title">停用實體按鍵</string>
+  <string name="hardware_keys_category">導覽列按鍵</string>
+  <string name="hardware_keys_disable_title">停用導覽列按鍵</string>
+  <!-- Button brightness -->
+  <string name="button_backlight_options_category">背光選項</string>
+  <string name="button_backlight_enable_title">允許按鍵背光</string>
+  <string name="button_link_brightness">連結至螢幕亮度</string>
+  <string name="button_link_brightness_summary">按鈕背光亮度將根據螢幕的亮度調整</string>
+  <string name="button_manual_brightness">亮度等級</string>
+  <string name="button_timeout_title">背光逾時</string>
+  <string name="button_backlight_on_touch_only_title">按鍵背光觸控</string>
+  <string name="button_backlight_on_touch_only_summary">按鍵背光只會在按下按鍵時出現，而不是一直按下。逾時仍會影響此功能。</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">漫遊指示器</string>
+  <string name="roaming_indicator_icon_summary">在漫遊模式下顯示訊號圖示中的漫遊指示符號</string>
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">4G 圖示</string>
+  <string name="show_fourg_icon_summary">顯示 4G 圖示，而不是 LTE</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">螢幕關閉狀態按電源鍵開啟手電筒</string>
   <string name="torch_power_button_gesture_none">已停用</string>
@@ -544,6 +556,7 @@
   <string name="screen_off_animation_default">預設</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">縮放</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">若螢幕為開啟狀態, 發出通知提醒聲音和震動</string>
   <string name="notification_sound_vib_screen_on_never">永不</string>
@@ -641,6 +654,102 @@
   <string name="battery_percent_outside">在圖示旁顯示</string>
   <string name="battery_percent_inside">在圖示內顯示</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">顯示數據停用圖示</string>
+  <string name="data_disabled_icon_summary">當數據停用時，顯示圖示旁邊的「×」圖示</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">終止應用程式按鈕</string>
+  <string name="notification_guts_kill_app_button_summary">在通知長按選單中顯示終止應用程式按鈕</string>
   <!-- SlimSizer  -->
+  <string name="caution">注意！</string>
+  <string name="sizer_message_startup">此工具允許您刪除系統應用程式。請謹慎使用，並只刪除您確定能安全移除的應用程式。</string>
+  <string name="sizer_message_delete">您確定嗎？</string>
+  <string name="btn_delete">立即刪除選擇的應用程式 ！</string>
+  <string name="delete_progress_title">正在刪除...</string>
+  <string name="delete_progress">正在刪除所選的檔案......</string>
+  <string name="sizer_message_noselect">尚未選擇</string>
+  <string name="system_app_remover">移除系統應用程式</string>
+  <string name="sizer_message_error">解除安裝失敗，請檢查 Root 權限</string>
+  <string name="sizer_message_success">成功</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">指紋認證震動</string>
+  <string name="fprint_sucess_vib_summary">成功認證指紋時震動</string>
+  <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">鎖定時無快速設定</string>
+  <string name="lockscreen_qs_disabled_summary">在安全鎖定畫面上停用快速設定圖塊</string>
+  <!-- Toast Animation -->
+  <string name="toast_animation_title">提示訊息動畫</string>
+  <string name="toast_none_animation">無</string>
+  <string name="toast_default_animation">預設</string>
+  <string name="toast_fade_animation">淡出</string>
+  <string name="toast_SlideRight_animation">向右滑動</string>
+  <string name="toast_SlideLeft_animation">向左滑動</string>
+  <string name="toast_Xylon_animation">木質</string>
+  <string name="toast_Toko_animation">東光</string>
+  <string name="toast_Tn_animation">Tn</string>
+  <string name="toast_Honami_animation">Honami</string>
+  <string name="toast_FastFade_animation">快速淡化</string>
+  <string name="toast_GrowFade_animation">縮放淡化</string>
+  <string name="toast_GrowFadeCenter_animation">於中央縮放淡化</string>
+  <string name="toast_GrowFadeBottom_animation">於底部縮放淡化</string>
+  <string name="toast_Translucent_animation">半透明</string>
+  <string name="toast_SlideLeftRight_animation">從左向右滑動</string>
+  <string name="toast_SlideRightLeft_animation">從右向左滑動</string>
+  <string name="toast_animation_test">這是針對選擇的提示訊息動畫所顯示的測試</string>
+  <string name="toast">提示訊息</string>
+  <!-- Animations -->
+  <string name="animations_title">動畫</string>
+  <!--3-Finger screenshot-->
+  <string name="three_finger_gesture">三指手勢</string>
+  <string name="three_finger_gesture_summary">同時滑動三支指頭以擷取螢幕畫面</string>
+  <string name="screenshot_options_category">擷取螢幕畫面選項</string>
+  <!-- AOKP custom system animations -->
+  <string name="system_animation_title">系統動畫</string>
+  <string name="activity_open_title">活動開啟動畫</string>
+  <string name="activity_close_title">活動關閉動畫</string>
+  <string name="task_open_title">應用程式開啟動畫</string>
+  <string name="task_open_behind_title">背景開啟應用程式動畫</string>
+  <string name="task_close_title">應用程式關閉動畫</string>
+  <string name="task_move_to_front_title">移動到前面的動畫</string>
+  <string name="task_move_to_back_title">移動到後面的動畫</string>
+  <string name="wallpaper_open_title">桌布開啟動畫</string>
+  <string name="wallpaper_close_title">桌布關閉動畫</string>
+  <string name="wallpaper_intra_open_title">桌布內部開啟動畫</string>
+  <string name="wallpaper_intra_close_title">桌布內部關閉動畫</string>
+  <string name="animation_duration_title">動畫持續時間</string>
+  <string name="title_animation_no_override">防止應用程式覆寫</string>
+  <string name="summary_animation_no_override">防止應用程式覆寫動畫設定</string>
+  <string name="animation_duration_default">預設</string>
+  <!-- ListView animation -->
+  <string name="listview_animation_title">「清單檢視」動畫</string>
+  <string name="listview_off">預設</string>
+  <string name="listview_wave_left">波浪 (左)</string>
+  <string name="listview_wave_right">波浪 (右)</string>
+  <string name="listview_alpha">透明</string>
+  <string name="listview_scale">縮放</string>
+  <string name="listview_stack_top">堆疊 (上)</string>
+  <string name="listview_stack_bottom">堆疊 (下)</string>
+  <string name="listview_unfold">展開</string>
+  <string name="listview_fold">摺疊</string>
+  <string name="listview_translate_left">飛入 (左)</string>
+  <string name="listview_translate_right">飛入 (右)</string>
+  <!-- ListView interpolator -->
+  <string name="listview_interpolator_title">「清單檢視」動畫加速器</string>
+  <string name="listview_accelerate_interpolator">加速</string>
+  <string name="listview_decelerate_interpolator">減速</string>
+  <string name="listview_accelerate_decelerate_interpolator">先加速再減速</string>
+  <string name="listview_anticipate_interpolator">先後退一小步然後向前加速</string>
+  <string name="listview_overshoot_interpolator">快速到達終點超出一小步然後回到終點</string>
+  <string name="listview_anticipate_overshoot_interpolator">預備和過衝</string>
+  <string name="listview_bounce_interpolator">彈跳</string>
+  <!-- Option to enable/disable scrolling cache -->
+  <string name="pref_scrollingcache_title">滑動快取</string>
+  <string name="pref_scrollingcache_summary">滑動快取可提升滑動時的效能，但同時也會提高記憶體使用量</string>
+  <string name="pref_scrollingcache_force_enable">強制啟用</string>
+  <string name="pref_scrollingcache_default_enable">預設啟用</string>
+  <string name="pref_scrollingcache_default_disable">預設停用</string>
+  <string name="pref_scrollingcache_force_disable">強制停用</string>
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

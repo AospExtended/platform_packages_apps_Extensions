@@ -37,6 +37,7 @@
   <!-- App Ops -->
   <!-- App info dialog -->
   <string name="extensions_dialog_message">Hvis du finner en feil med noen av disse innstillingene, legger du inn i feilrapporter-delen på Google + -siden vår. Du må inkludere følgende når du legger ut en feilrapport: \n\n1. En logcat eller last_kmsg\n2. Kernel og mods brukt\n3. Nyttig informasjon\n\nHvis du ikke rapporterer noe tilstrekkelig, IKKE forvent at ting skal løses.</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="set">Sett</string>
   <!-- Footer warnings -->
@@ -115,6 +116,7 @@
   <!-- Headset ringtone audio focus -->
   <string name="ringtone_focus_mode_title">Hvor å spille ringetoner fra</string>
   <string name="ringtone_focus_mode_dynamic">Fra headset hvis tilkoblet og spiller musikk</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_summary">Endre klokkemodulens synlighet</string>
   <string name="hide_lockscreen_date_summary">Endre datoens synlighet under klokke-widgeten</string>
@@ -173,16 +175,12 @@
   <string name="smartbar_factory_reset_confirm">Er du sikker på at du vil tilbakestille Smartbar til lagerinnstillinger?</string>
   <string name="smartbar_ime_action_title">Inndatametode og mediehandlinger</string>
   <string name="one_handed_mode_summary">Tillater sveiping i navigeringslinjen for å aktivere en håndholdt modus</string>
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_summary">Vis roamingindikator i signalikonet når du er i roamingmodus</string>
   <!-- 4G icon -->
   <string name="show_fourg_icon_summary">Vis 4G-ikonet i signalikonet i stedet for LTE</string>
-  <string name="button_backlight_on_touch_only_summary">Aktiver bakgrunnsbelysning med tidsavbrudd bare ved å trykke på knappen</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Knapper bakgrunnsbelysning timeout</string>
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Skjerm av strømbryteren</string>
   <string name="torch_power_button_gesture_dt">Dobbeltklikk på strøm til å bytte fakkel (vil legge til en liten forsinkelse til enkelt trykk)</string>
@@ -193,6 +191,7 @@
   <string name="force_ambient_for_media_on_forced_clean">Minimal (tvunget)</string>
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Meldinger lyd og vibrasjon hvis skjermen er på</string>
   <string name="smartbar_double_tap_sleep_summary">Dobbeltklikk på tomme navbarområder for å sove</string>
@@ -218,4 +217,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

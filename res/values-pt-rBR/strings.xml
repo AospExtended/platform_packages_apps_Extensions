@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
   <string name="extensions_dialog_message">Se você encontrar algum bug nessas configurações, poste na seção de relatórios de bugs na nossa página do Google+. Você DEVE incluir o seguinte quando for reportar um bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não reportar algo de forma adequada, NÃO espere que as coisas sejam corrigidas.</string>
   <string name="extensions_dialog_toast">LEIA TUDO!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seleção de cor</string>
   <string name="press_color_to_apply">Pressione uma cor abaixo para aplicar</string>
@@ -228,6 +229,7 @@
   <string name="ringtone_focus_mode_title">Onde reproduzir os toques</string>
   <string name="ringtone_focus_mode_dynamic">Fone de ouvido com fio se estiver conectado e tocando música</string>
   <string name="ringtone_focus_mode_stock">"De viva-voz (aosp padrão)"</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget de relógio</string>
   <string name="hide_lockscreen_clock_summary">Alterar a visibilidade do widget de relógio</string>
@@ -281,6 +283,9 @@
   <string name="ticker_disabled">Desativado</string>
   <string name="ticker_enabled">Notificação</string>
   <string name="ticker_media_enabled">Ticker para notificações e música</string>
+  <string name="ticker_animation_mode_title">Estilo de animação do ticker de notificações</string>
+  <string name="ticker_animation_mode_alpha_fade">Desvanecer</string>
+  <string name="ticker_animation_mode_scroll">Rolar</string>
   <string name="recents_icon_pack_title">Pacote de ícones</string>
   <string name="recents_icon_pack_summary">Aplicar um pacote de ícones personalizadas para aplicativos no painel</string>
   <string name="no_iconpacks_summary">Nenhum pacote de ícones instalado</string>
@@ -483,28 +488,7 @@ Contexto | Contexto de solicitação</string>
   <string name="smartbar_custom_icon_size_title">Tamanho de ícone personalizado</string>
   <string name="one_handed_mode_title">Modo para uma mão</string>
   <string name="one_handed_mode_summary">Permite percorrer na barra de navegação para habilitar o modo de uma mão</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Indicador de roaming ativado</string>
-  <string name="roaming_indicator_icon_summary">Mostrar o indicador de roaming no ícone de sinal quando no modo de roaming</string>
-  <!-- 4G icon -->
-  <string name="show_fourg_icon_title">Icone 4G</string>
-  <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez de LTE</string>
-  <string name="button_backlight_on_touch_only_title">Luz de fundo ao tocar</string>
-  <string name="button_backlight_on_touch_only_summary">Ativar a luz de fundo das teclas físicas apenas quando tocar o botão</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Tempo de iluminação</string>
-  <string name="backlight_timeout_on">Sempre ativar</string>
-  <string name="backlight_timeout_3s">3 seg</string>
-  <string name="backlight_timeout_default">5 seg (padrão)</string>
-  <string name="backlight_timeout_10s">10 seg</string>
-  <string name="backlight_timeout_15s">15 seg</string>
-  <string name="backlight_timeout_20s">20 seg</string>
-  <string name="backlight_timeout_30s">30 seg</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Luz de fundo</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Ativar luz de fundo</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
   <string name="hardware_keys_home_key_title">Botão de início</string>
   <string name="hardware_keys_menu_key_title">Botão de Menu</string>
   <string name="hardware_keys_assist_key_title">Botão de buscar</string>
@@ -516,8 +500,13 @@ Contexto | Contexto de solicitação</string>
   <string name="hardware_keys_single_tap_title">Ação para toque único</string>
   <string name="hardware_keys_long_press_title">Ação de toque longo</string>
   <string name="hardware_keys_double_tap_title">Ação de duplo toque</string>
-  <string name="hardware_keys_category">Teclas físicas</string>
-  <string name="hardware_keys_disable_title">Desabilitar teclas</string>
+  <!-- Button brightness -->
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Indicador de roaming ativado</string>
+  <string name="roaming_indicator_icon_summary">Mostrar o indicador de roaming no ícone de sinal quando no modo de roaming</string>
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">Icone 4G</string>
+  <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez de LTE</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Lanterna com o botão liga/desliga</string>
   <string name="torch_power_button_gesture_none">Desabilitado</string>
@@ -546,6 +535,7 @@ Contexto | Contexto de solicitação</string>
   <string name="screen_off_animation_default">Padrão</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Escala</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Som de notificações e vibração se na tela</string>
   <string name="notification_sound_vib_screen_on_never">Nunca</string>
@@ -643,6 +633,33 @@ Contexto | Contexto de solicitação</string>
   <string name="battery_percent_outside">Mostrar junto ao ícone</string>
   <string name="battery_percent_inside">Mostrar dentro do ícone</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Mostrar ícone de dados desligados</string>
+  <string name="data_disabled_icon_summary">Mostrar um X junto do ícone de rede quando os dados estiverem desligados</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Botão de encerrar tarefa</string>
+  <string name="notification_guts_kill_app_button_summary">Mostrar um botão para finalizar a tarefa ao tocar e segurar em uma notificação</string>
   <!-- SlimSizer  -->
+  <string name="caution">Cuidado!</string>
+  <string name="sizer_message_startup">Esta ferramenta permite que remova aplicações de sistema. Usa-a com cuidado e apague só as aplicações que tenhas a certeza que podem ser removidas com segurança.</string>
+  <string name="sizer_message_delete">Tem certeza ?</string>
+  <string name="btn_delete">Remover aplicações selecionadas agora</string>
+  <string name="delete_progress_title">Excluindo</string>
+  <string name="delete_progress">Arquivos selecionados estão sendo excluidos...</string>
+  <string name="sizer_message_noselect">Nada selecionado.</string>
+  <string name="system_app_remover">Removedor de aplicativos do sistema</string>
+  <string name="sizer_message_error">Falha ao desinstalar, verifique se o dispositivo tem acesso root</string>
+  <string name="sizer_message_success">Sucesso</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

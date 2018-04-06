@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">మాకు సహాయపడండి!</string>
   <string name="extensions_dialog_message">మీరు ఈ సెట్టింగుల్లో ఏదో ఒక బగ్ కనుగొంటే, మా Google+ పేజీలోని బగ్ నివేదికల విభాగంలో పోస్ట్ చేయండి. దోష నివేదికను పోస్ట్ చేసేటప్పుడు కింది వాటిని చేర్చండి:\n\n1. లాగ్కాట్ లేదా లాస్ట్_కెఎస్జి\n2. కెర్నల్ మరియు మోడ్లు ఉపయోగించారు\nఉపయోగకరమైన సమాచారం\n\nమీరు తగినంతగా ఏదైనా నివేదికను నివేదించకపోతే, విషయాలు సరిచేయబడవద్దు.</string>
   <string name="extensions_dialog_toast">మొత్తం విషయం చదవండి!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">రంగు పిక్కర్</string>
   <string name="press_color_to_apply">వర్తింపజేయడానికి క్రింది రంగులో నొక్కండి</string>
@@ -146,6 +147,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -162,15 +164,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -181,4 +182,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

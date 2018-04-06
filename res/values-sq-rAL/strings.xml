@@ -18,7 +18,34 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Shtesat</string>
+  <string name="add">Shto</string>
+  <string name="advanced">E avancuar</string>
+  <string name="cancel">Anulo</string>
+  <string name="choose_app">Zgjidh aplikacionin</string>
+  <string name="general_category">Të përgjithshme</string>
+  <string name="gestures_category">Gjestet</string>
+  <string name="music_category">Muzikë</string>
+  <string name="security_category">Siguria</string>
+  <string name="hardware_category">Pajisje fizike</string>
+  <string name="icons_category">Ikonat</string>
+  <string name="aosp_recents_category">Të fundit nga AOSP</string>
+  <string name="light_category">Dritat</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Kujdes</string>
+  <string name="loading">Duke u ngarkuar\u2026</string>
+  <string name="reset">Rivendos</string>
+  <string name="reset_colors">Rivendos ngjyrat</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Tekst</string>
+  <string name="icon_title">Ikona</string>
+  <string name="color_title">Ngjyra</string>
+  <string name="colors_title">Ngjyrat</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Të fundit</string>
+  <string name="status_bar_category">Shiriti i statusit</string>
+  <string name="notifications_panel_category">Paneli i njoftimeve</string>
+  <string name="system_category">Sistemi</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
@@ -33,6 +60,7 @@
   <!-- Buttons -->
   <!-- App Ops -->
   <!-- App info dialog -->
+  <!-- System theme -->
   <!-- Color Picker -->
   <!-- Footer warnings -->
   <!-- Battery light -->
@@ -62,6 +90,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -78,15 +107,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -97,4 +125,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

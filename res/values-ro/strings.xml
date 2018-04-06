@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">Ajutați-ne să vă ajutăm!</string>
   <string name="extensions_dialog_message">Dacă găsiți o eroare cu oricare dintre aceste setări, postați în secțiunea Rapoarte de erori a paginii Google+. TREBUIE să includeți următoarele elemente la postarea unui raport de eroare: \n\n1. Un logcat sau last_kmsg\n2. Kernel și moduri utilizate\n3. Informații utile\n\nDacă nu reușiți să raportați ceva în mod adecvat, NU așteptați ca lucrurile să fie reparate.</string>
   <string name="extensions_dialog_toast">CITIŢI TOT!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selector de Culoare</string>
   <string name="press_color_to_apply">Apăsaţi pe culoarea de mai jos pentru a aplica</string>
@@ -228,6 +229,7 @@
   <string name="ringtone_focus_mode_title">Unde se redau tonurile de apel</string>
   <string name="ringtone_focus_mode_dynamic">În căşti, dacă sunt conectate şi se redă muzica</string>
   <string name="ringtone_focus_mode_stock">"În difuzor (implicit)"</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget ceas</string>
   <string name="hide_lockscreen_clock_summary">Modificați vizibilitatea widgetului ceasului</string>
@@ -281,6 +283,9 @@
   <string name="ticker_disabled">Dezactivat</string>
   <string name="ticker_enabled">Derulare notificări</string>
   <string name="ticker_media_enabled">Derulare text notificări şi muzică</string>
+  <string name="ticker_animation_mode_title">Stil animație</string>
+  <string name="ticker_animation_mode_alpha_fade">Estompare</string>
+  <string name="ticker_animation_mode_scroll">Derulare</string>
   <string name="recents_icon_pack_title">Set de pictograme</string>
   <string name="recents_icon_pack_summary">Aplicați un pachet de pictograme personalizat pentru panoul aplicaţiilor recente</string>
   <string name="no_iconpacks_summary">Nu sunt instalate pachete de pictograme</string>
@@ -481,28 +486,7 @@
   <string name="smartbar_custom_icon_size_title">Scalarea personalizată a pictogramelor</string>
   <string name="one_handed_mode_title">Modul \"o singură mână\"</string>
   <string name="one_handed_mode_summary">Glisați pe bara de navigare pentru a activa modul \"o singură mână\"</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Indicator roaming</string>
-  <string name="roaming_indicator_icon_summary">Afișați indicatorul de roaming în modul roaming</string>
-  <!-- 4G icon -->
-  <string name="show_fourg_icon_title">Pictograma 4G</string>
-  <string name="show_fourg_icon_summary">Afișare pictogramă 4G în loc de LTE</string>
-  <string name="button_backlight_on_touch_only_title">Atingere butoane</string>
-  <string name="button_backlight_on_touch_only_summary">Activați iluminarea de fundal cu timpul de expirare numai la atingerea butoanelor</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Timp expirare iluminare</string>
-  <string name="backlight_timeout_on">Activat mereu</string>
-  <string name="backlight_timeout_3s">3 sec</string>
-  <string name="backlight_timeout_default">5 sec (implicit)</string>
-  <string name="backlight_timeout_10s">10 sec</string>
-  <string name="backlight_timeout_15s">15 sec</string>
-  <string name="backlight_timeout_20s">20 de sec</string>
-  <string name="backlight_timeout_30s">30 de sec</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Lumină de fundal</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Activare iluminare</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
   <string name="hardware_keys_home_key_title">Butonul Acasă</string>
   <string name="hardware_keys_menu_key_title">Butonul Meniu</string>
   <string name="hardware_keys_assist_key_title">Butonul Căutare</string>
@@ -514,8 +498,13 @@
   <string name="hardware_keys_single_tap_title">Acțiune la apăsare unică</string>
   <string name="hardware_keys_long_press_title">Acțiune apăsare lungă</string>
   <string name="hardware_keys_double_tap_title">Acțiune apăsare dublă</string>
-  <string name="hardware_keys_category">Butoane fizice</string>
-  <string name="hardware_keys_disable_title">Dezactivare taste</string>
+  <!-- Button brightness -->
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Indicator roaming</string>
+  <string name="roaming_indicator_icon_summary">Afișați indicatorul de roaming în modul roaming</string>
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">Pictograma 4G</string>
+  <string name="show_fourg_icon_summary">Afișare pictogramă 4G în loc de LTE</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Lanternă cu butonul de pornire</string>
   <string name="torch_power_button_gesture_none">Dezactivat</string>
@@ -544,6 +533,7 @@
   <string name="screen_off_animation_default">Implicită</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Dimensionare</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Notificările de sunet şi vibraţii în cazul în care ecranul este aprins</string>
   <string name="notification_sound_vib_screen_on_never">Niciodată</string>
@@ -641,6 +631,33 @@
   <string name="battery_percent_outside">Afișare lângă pictogramă</string>
   <string name="battery_percent_inside">Afișare în interiorul pictogramei</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Afișați pictograma datelor dezactivate</string>
+  <string name="data_disabled_icon_summary">Afișarea semnului x lângă bara de semnal atunci când datele sunt dezactivate</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Butonul oprire aplicație</string>
+  <string name="notification_guts_kill_app_button_summary">Afișează unu buton pentru închiderea aplicaţiei în meniul notificării apăsării lungi</string>
   <!-- SlimSizer  -->
+  <string name="caution">Avertisment!</string>
+  <string name="sizer_message_startup">Acest instrument vă permite să ştergeţi aplicațiile din sistem. Utilizaţi cu precauţie şi ştergeți numai aplicațiile pe care ştiţi că pot fi înlăturate fără probleme.</string>
+  <string name="sizer_message_delete">Sunteți sigur?</string>
+  <string name="btn_delete">Ștergeţi aplicațiile selectate acum</string>
+  <string name="delete_progress_title">Ştergere</string>
+  <string name="delete_progress">Fișierele selectate sunt în curs de ștergere...</string>
+  <string name="sizer_message_noselect">Nimic selectat.</string>
+  <string name="system_app_remover">Dezinstalare aplicații de sistem</string>
+  <string name="sizer_message_error">Nu s-a putut dezinstala, verificaţi accesul la root</string>
+  <string name="sizer_message_success">Succes</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

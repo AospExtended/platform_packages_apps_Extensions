@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">Aidez-nous à vous aider !</string>
   <string name="extensions_dialog_message">Si vous trouvez un bug avec l\'un de ces paramètres, postez-le dans la section Bug Reports de notre page Google+. Vous DEVEZ inclure les informations suivantes lorsque vous signalez un bug:\n\n1. Un logcat ou last_kmsg\n2. Noyaux et modes utilisés\n3. Informations utiles\n\nSi vous indiquez un bug sans renseigner les informations demandées, NE VOUS ATTENDEZ PAS à voir ce bug corrigé.</string>
   <string name="extensions_dialog_toast">À LIRE ENTIÈREMENT !</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Sélecteur de couleur</string>
   <string name="press_color_to_apply">Sélectionner la couleur ci-dessous pour appliquer</string>
@@ -228,6 +229,7 @@
   <string name="ringtone_focus_mode_title">Jouer les sonneries à partir</string>
   <string name="ringtone_focus_mode_dynamic">Du casque filaire s\'il est connecté et avec de la musique en cours</string>
   <string name="ringtone_focus_mode_stock">"Du haut-parleur (valeur par défaut)"</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget horloge</string>
   <string name="hide_lockscreen_clock_summary">Modifier l\'affichage du widget de l\'horloge</string>
@@ -281,6 +283,9 @@
   <string name="ticker_disabled">Désactivé</string>
   <string name="ticker_enabled">Notifications animées</string>
   <string name="ticker_media_enabled">Aperçu pour les notifications et la musique</string>
+  <string name="ticker_animation_mode_title">Style d’animation de Ticker</string>
+  <string name="ticker_animation_mode_alpha_fade">Fondu</string>
+  <string name="ticker_animation_mode_scroll">Défilement</string>
   <string name="recents_icon_pack_title">Pack d\'icônes</string>
   <string name="recents_icon_pack_summary">Appliquer un pack d\'icône personnalisée pour le panneau récents</string>
   <string name="no_iconpacks_summary">Pas de packs d\'icônes installé</string>
@@ -481,28 +486,7 @@
   <string name="smartbar_custom_icon_size_title">Taille d\'icône personnalisée</string>
   <string name="one_handed_mode_title">Mode à une main</string>
   <string name="one_handed_mode_summary">Autoriser les gestes de glissements sur la barre de navigation pour activer le mode d\'utilisation à une main</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Indicateur d\'itinérance</string>
-  <string name="roaming_indicator_icon_summary">Afficher l\'indicateur d\'itinérance dans l\'icône du signal lorsque celle-ci est active</string>
-  <!-- 4G icon -->
-  <string name="show_fourg_icon_title">Icône 4G</string>
-  <string name="show_fourg_icon_summary">Afficher l’icône de 4G plutôt que LTE</string>
-  <string name="button_backlight_on_touch_only_title">Bouton tactile</string>
-  <string name="button_backlight_on_touch_only_summary">Activer le rétro-éclairage avec minuteur uniquement sur le bouton tactile</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Délai de rétroéclairage des boutons</string>
-  <string name="backlight_timeout_on">Toujours activé</string>
-  <string name="backlight_timeout_3s">3 secondes</string>
-  <string name="backlight_timeout_default">5 secondes (Par défaut)</string>
-  <string name="backlight_timeout_10s">10 secondes</string>
-  <string name="backlight_timeout_15s">15 secondes</string>
-  <string name="backlight_timeout_20s">20 secondes</string>
-  <string name="backlight_timeout_30s">30 secondes</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Rétroéclairage</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Activer le rétroéclairage</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
   <string name="hardware_keys_home_key_title">Bouton d\'accueil</string>
   <string name="hardware_keys_menu_key_title">Bouton menu</string>
   <string name="hardware_keys_assist_key_title">Bouton de recherche</string>
@@ -514,8 +498,13 @@
   <string name="hardware_keys_single_tap_title">Action simple appui</string>
   <string name="hardware_keys_long_press_title">Action  appui long</string>
   <string name="hardware_keys_double_tap_title">Action double appui</string>
-  <string name="hardware_keys_category">Boutons physiques</string>
-  <string name="hardware_keys_disable_title">Désactiver les boutons</string>
+  <!-- Button brightness -->
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Indicateur d\'itinérance</string>
+  <string name="roaming_indicator_icon_summary">Afficher l\'indicateur d\'itinérance dans l\'icône du signal lorsque celle-ci est active</string>
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">Icône 4G</string>
+  <string name="show_fourg_icon_summary">Afficher l’icône de 4G plutôt que LTE</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Lampe de poche écran éteint</string>
   <string name="torch_power_button_gesture_none">Désactivé</string>
@@ -544,6 +533,7 @@
   <string name="screen_off_animation_default">Par défaut</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Mise à l\'échelle</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Notifications sonores et vibrations si l\'écran est allumé</string>
   <string name="notification_sound_vib_screen_on_never">Jamais</string>
@@ -641,6 +631,33 @@
   <string name="battery_percent_outside">Affiché à coté de l’icône</string>
   <string name="battery_percent_inside">Affiché dans l’icône</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Afficher l\'icône lorsque les données sont désactivées</string>
+  <string name="data_disabled_icon_summary">Afficher une croix à côté du signal lorsque les données sont désactivées</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Bouton pour tuer les apps</string>
+  <string name="notification_guts_kill_app_button_summary">Afficher un bouton tuer l’application dans le menu lors d\'un appui long sur la notification</string>
   <!-- SlimSizer  -->
+  <string name="caution">Attention!</string>
+  <string name="sizer_message_startup">Cet outil permet de supprimer des applications système. Utiliser avec prudence et supprimer uniquement les applications que vous savez sûrs d\'être enlevé.</string>
+  <string name="sizer_message_delete">Êtes-vous sûr ?</string>
+  <string name="btn_delete">Supprimez les applications sélectionnées maintenant</string>
+  <string name="delete_progress_title">Suppression</string>
+  <string name="delete_progress">Les fichiers sélectionnés ont été supprimés...</string>
+  <string name="sizer_message_noselect">Rien n\'est sélectionné.</string>
+  <string name="system_app_remover">Suppression d\'applications système</string>
+  <string name="sizer_message_error">Impossible de désinstaller, vérifiez les accès root</string>
+  <string name="sizer_message_success">Succès</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

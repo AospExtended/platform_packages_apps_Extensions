@@ -78,6 +78,7 @@
   <string name="extensions_dialog_title">Sizə kömək etməyimizə kömək edin!</string>
   <string name="extensions_dialog_message">Bu tənzimləmələrdə hər hansı bir səhv tapsanız, Google+ səhifəmizin Bug Hesabatları bölməsinə göndərin. Bir səhv hesabatına aşağıdakılar daxil edilməlidir:\n\n1. Bur logcat və ya last_kmsg\n2. Kernel və istifadə edilən özəlləşdirmələr\n3. Faydalı məlumat\n\nDüzgün bir hesabat təqdim etməsəniz, səhvlərin düzəldilməsini gözləməyin.</string>
   <string name="extensions_dialog_toast">HƏRŞEYİ OXUYUN!</string>
+  <!-- System theme -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Rəng Seçici</string>
   <string name="press_color_to_apply">Tətbiq etmək üçün aşağıdaki rəngin üzərinə basın</string>
@@ -206,6 +207,7 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_disabled">Deaktiv</string>
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Saat wideti</string>
   <string name="hide_lockscreen_date_title">Tarix widgeti</string>
@@ -398,16 +400,7 @@
   <string name="smartbar_custom_icon_size_title">Xüsusi ikon ölçüləndirmə</string>
   <string name="one_handed_mode_title">Tək əl modu</string>
   <string name="one_handed_mode_summary">Bir əl rejimini təmin etmək üçün naviqasiya barında sürətlə hərəkət etməyə imkan verir</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Rouminq göstəricisi</string>
-  <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_30s">30 saniyə</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Arxa işıq</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Arxa işığı aktivləşdir</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
   <string name="hardware_keys_home_key_title">Əsas ekran düyməsi</string>
   <string name="hardware_keys_menu_key_title">Menyu düyməsi</string>
   <string name="hardware_keys_assist_key_title">Axtarış düyməsi</string>
@@ -416,8 +409,10 @@
   <string name="hardware_keys_single_tap_summary">Tək toxunma hərəkəti seç</string>
   <string name="hardware_keys_long_press_summary">Uzun basma hərəkəti seç</string>
   <string name="hardware_keys_single_tap_title">Təx toxunma hərəkəti</string>
-  <string name="hardware_keys_category">Cihaz düymələri</string>
-  <string name="hardware_keys_disable_title">Düymələri deaktiv et</string>
+  <!-- Button brightness -->
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Rouminq göstəricisi</string>
+  <!-- 4G icon -->
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_none">Deaktiv</string>
   <string name="force_ambient_for_media_off">Deaktiv</string>
@@ -428,6 +423,7 @@
   <string name="show_carrier_enabled">Hər ikisi</string>
   <!-- Screen Off animation -->
   <string name="screen_off_animation_crt">CRT</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_never">Heç vaxt</string>
   <!-- Less Notification sounds -->
@@ -455,4 +451,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

@@ -18,21 +18,72 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Tiện ích mở rộng</string>
+  <string name="add">Thêm</string>
+  <string name="advanced">Tuỳ chọn nâng cao</string>
+  <string name="cancel">Huỷ</string>
+  <string name="choose_app">Chọn ứng dụng</string>
+  <string name="general_category">Chung</string>
+  <string name="gestures_category">Cử chỉ</string>
+  <string name="music_category">Âm nhạc</string>
+  <string name="security_category">Bảo mật</string>
+  <string name="hardware_category">Hardware</string>
+  <string name="icons_category">Biểu tượng</string>
+  <string name="aosp_recents_category">Sử dụng gần đây kiểu AOSP</string>
+  <string name="light_category">Đèn thông báo</string>
+  <string name="dlg_ok">Đồng ý</string>
+  <string name="attention">Chú ý</string>
+  <string name="loading">Đang nạp\u2026</string>
+  <string name="reset">Thiết lập lại</string>
+  <string name="reset_colors">Thiết lập lại màu</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Văn bản</string>
+  <string name="icon_title">Biểu tượng</string>
+  <string name="color_title">Màu sắc</string>
+  <string name="colors_title">Màu sắc</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Gần đây</string>
+  <string name="recents_category_summary">Tuỳ chỉnh gần đây</string>
+  <string name="status_bar_category">Thanh trạng thái</string>
+  <string name="status_bar_category_summary">Tùy chỉnh thanh trạng thái</string>
+  <string name="notifications_panel_category">Bảng thông báo</string>
+  <string name="notifications_panel_category_summary">Tùy chỉnh bảng điều khiển QS và thông báo</string>
+  <string name="system_category">Hệ thống</string>
+  <string name="system_category_summary">Mở rộng hệ thống</string>
+  <string name="lockscreen_category">Màn hình khóa</string>
+  <string name="lockscreen_category_summary">Tuỳ chỉnh của màn hình khóa</string>
+  <string name="navigation_category">Điều hướng</string>
+  <string name="navigation_category_summary">Tùy chỉnh thanh điều hướng</string>
+  <string name="build_tweaks_summary_title">Tuỳ biến thiết bị của bạn!</string>
+  <string name="system_animations">Hoạt ảnh hệ thống</string>
+  <string name="listview">Xem kiểu Danh sách</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Tổng hợp Tweaks</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Bộ giám sát lưu lượng mạng</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Tên nhà cung cấp</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Misc Tiện ích mở rộng</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Giao diện gần đây</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Giao diện màn hình khóa</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Biểu tượng thanh trạng thái</string>
   <!-- Notifications -->
+  <string name="notifications_title">Các thông báo</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Thanh điều hướng</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Cài đặt nhanh</string>
   <!-- Buttons -->
+  <string name="buttons_title">Phím</string>
   <!-- App Ops -->
+  <string name="app_ops_category">Hoạt động của ứng dụng</string>
   <!-- App info dialog -->
+  <!-- System theme -->
   <!-- Color Picker -->
   <!-- Footer warnings -->
   <!-- Battery light -->
@@ -41,6 +92,16 @@
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
+  <string name="powermenu_screenrecord">Quay màn hình</string>
+  <string name="powermenu_power">Nguồn</string>
+  <string name="powermenu_restart">Khởi động lại</string>
+  <string name="powermenu_restart_recovery">Tùy chọn khởi động lại</string>
+  <string name="powermenu_airplane">Chế độ máy bay</string>
+  <string name="powermenu_settings">Thiết lập</string>
+  <string name="powermenu_lockdown">Khóa lại</string>
+  <string name="powermenu_soundpanel">Bảng điều khiển âm thanh</string>
+  <string name="powermenu_users">Người dùng</string>
+  <string name="powermenu_torch">Đèn pin</string>
   <!-- Power menu on secure lockscreen -->
   <!-- Brightness icon-->
   <!-- Quick pull down-->
@@ -62,6 +123,7 @@
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
   <!-- Headset ringtone audio focus -->
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
@@ -78,15 +140,14 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <!-- Hardware button navigation -->
+  <!-- Button brightness -->
   <!-- Roaming indicator icon -->
   <!-- 4G icon -->
-  <!-- Buttons backlight timeout -->
-  <!-- Enable keys backlight-->
-  <!-- Enable keys backlight-->
-  <!-- Hardware keys -->
   <!-- Torch Power button gestures -->
   <!-- Carrier Label -->
   <!-- Screen Off animation -->
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
   <!-- Status bar clock options -->
@@ -97,4 +158,17 @@
   <!-- Data disabled icon -->
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
+  <!-- Fingerprint authentication vibration -->
+  <!-- Disable QS on secure Lockscreen -->
+  <!-- Toast Animation -->
+  <!-- Animations -->
+  <!--3-Finger screenshot-->
+  <!-- AOKP custom system animations -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Option to enable/disable scrolling cache -->
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

@@ -43,12 +43,20 @@
   <string name="colors_title">Kolory</string>
   <!-- Extensions categories -->
   <string name="recents_category">Ostatnie</string>
+  <string name="recents_category_summary">Dostosuj swój podgląd ostatnich aplikacji</string>
   <string name="status_bar_category">Pasek stanu</string>
+  <string name="status_bar_category_summary">Dostosuj pasek stanu</string>
   <string name="notifications_panel_category">Panel powiadomień</string>
+  <string name="notifications_panel_category_summary">Dostosuj panel Szybkich Ustawień i obszar powiadomień</string>
   <string name="system_category">System</string>
+  <string name="system_category_summary">Różne rozszerzenia systemu</string>
   <string name="lockscreen_category">Ekran blokady</string>
+  <string name="lockscreen_category_summary">Dostosuj ekran blokady</string>
   <string name="navigation_category">Nawigacja</string>
+  <string name="navigation_category_summary">Dostosuj pasek nawigacji</string>
   <string name="build_tweaks_summary_title">Rozszerzenie urządzenia!</string>
+  <string name="system_animations">Animacje systemu</string>
+  <string name="listview">Widok listy</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">Ogólne poprawki</string>
@@ -78,6 +86,11 @@
   <string name="extensions_dialog_title">Pomóż nam, pomóż sobie!</string>
   <string name="extensions_dialog_message">Jeśli znajdziesz błąd w którymkolwiek z tych ustawień, poinformuj o tym w dziale raporty błędów naszej społeczności na Google+. Raport MUSI zawierać następujące dane: \n\n1. Logcat lub last_kmsg\n2. Używany\n3 kernel i zastosowane modyfikacje.\n3. Przydatna informacja\n\nJeśli nie dołączysz odpowiednich danych, nie spodziewaj się pomocy z naszej strony.</string>
   <string name="extensions_dialog_toast">PRZECZYTAJ CAŁOŚĆ!</string>
+  <!-- System theme -->
+  <string name="accent_picker_dialog_title">Wybierz kolor akcentu</string>
+  <string name="theme_accent_picker_title">Kolor akcentu</string>
+  <string name="theme_accent_picker_summary">Wybierz kolor akcentu motywu systemowego</string>
+  <string name="theme_accent_picker_default">Domyślny</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Wybór kolorów</string>
   <string name="press_color_to_apply">Naciśnij na kolor poniżej, aby zastosować</string>
@@ -228,6 +241,7 @@
   <string name="ringtone_focus_mode_title">Czego używać do odtwarzania dzwonków</string>
   <string name="ringtone_focus_mode_dynamic">Z zestawu słuchawkowego, jeżeli jest podłączony i odtwarza muzykę</string>
   <string name="ringtone_focus_mode_stock">"Z głośnika (domyślny AOSP)"</string>
+  <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget zegarka</string>
   <string name="hide_lockscreen_clock_summary">Zmień widoczność widgetu zegarka</string>
@@ -281,6 +295,9 @@
   <string name="ticker_disabled">Wyłączone</string>
   <string name="ticker_enabled">Pasek powiadomień</string>
   <string name="ticker_media_enabled">Powiadomienie i pasek muzyki</string>
+  <string name="ticker_animation_mode_title">Styl animacji tickera</string>
+  <string name="ticker_animation_mode_alpha_fade">Zanikanie</string>
+  <string name="ticker_animation_mode_scroll">Przewijanie</string>
   <string name="recents_icon_pack_title">Pakiet ikon</string>
   <string name="recents_icon_pack_summary">Zastosuj niestandardowy pakiet ikon dla panelu</string>
   <string name="no_iconpacks_summary">Nie zainstalowano pakietów ikon</string>
@@ -481,28 +498,8 @@
   <string name="smartbar_custom_icon_size_title">Skalowanie ikon niestandardowych</string>
   <string name="one_handed_mode_title">Tryb jednoręczny</string>
   <string name="one_handed_mode_summary">Umożliwia przesuwanie na pasku nawigacyjnym, aby włączyć tryb jednoręczny</string>
-  <!-- Roaming indicator icon -->
-  <string name="roaming_indicator_icon_title">Wskaźnik roamingu</string>
-  <string name="roaming_indicator_icon_summary">Wyświetl wskaźnik sygnału roamingu w trybie roamingu</string>
-  <!-- 4G icon -->
-  <string name="show_fourg_icon_title">Ikona 4G</string>
-  <string name="show_fourg_icon_summary">Wyświetlana ikona 4G zamiast LTE</string>
-  <string name="button_backlight_on_touch_only_title">Przy naciśnięciu</string>
-  <string name="button_backlight_on_touch_only_summary">Włącz podświetlenie z limitem czasu tylko po naciśnięciu przycisku</string>
-  <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Czas podświetlenia</string>
-  <string name="backlight_timeout_on">Zawsze włączone</string>
-  <string name="backlight_timeout_3s">3 sek</string>
-  <string name="backlight_timeout_default">5 sek. (domyślnie)</string>
-  <string name="backlight_timeout_10s">10 sek</string>
-  <string name="backlight_timeout_15s">15 sek</string>
-  <string name="backlight_timeout_20s">20 sek</string>
-  <string name="backlight_timeout_30s">30 sek</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Podświetlenie</string>
-  <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Włączyć podświetlenie</string>
-  <!-- Hardware keys -->
+  <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
   <string name="hardware_keys_home_key_title">Przycisk Home</string>
   <string name="hardware_keys_menu_key_title">Przycisk Menu</string>
   <string name="hardware_keys_assist_key_title">Przycisk Szukaj</string>
@@ -514,8 +511,23 @@
   <string name="hardware_keys_single_tap_title">Akcja po pojedynczym dotknięciu</string>
   <string name="hardware_keys_long_press_title">Akcja długiego naciśnięcia</string>
   <string name="hardware_keys_double_tap_title">Akcja podwójnego naciśnięcia</string>
-  <string name="hardware_keys_category">Przyciski sprzętowe</string>
-  <string name="hardware_keys_disable_title">Wyłączanie klawiszy</string>
+  <string name="hardware_keys_category">Przyciski nawigacyjne</string>
+  <string name="hardware_keys_disable_title">Wyłącz przyciski nawigacji</string>
+  <!-- Button brightness -->
+  <string name="button_backlight_options_category">Opcje podświetlenia</string>
+  <string name="button_backlight_enable_title">Zezwól na podświetlanie przycisków</string>
+  <string name="button_link_brightness">Ustaw jasność ekranu</string>
+  <string name="button_link_brightness_summary">Jasność podświetlenia przycisków dostosuje się w zależności od poziomu jasności ekranu</string>
+  <string name="button_manual_brightness">Poziom jasności</string>
+  <string name="button_timeout_title">Czas podświetlania</string>
+  <string name="button_backlight_on_touch_only_title">Podświetlenie przycisków podczas naciskania</string>
+  <string name="button_backlight_on_touch_only_summary">Podświetlenie przycisków włączy się tylko gdy przyciski są używane, zamiast świecić się cały czas. Czas podświetlenia ma wpływ na tę funkcję.</string>
+  <!-- Roaming indicator icon -->
+  <string name="roaming_indicator_icon_title">Wskaźnik roamingu</string>
+  <string name="roaming_indicator_icon_summary">Wyświetl wskaźnik sygnału roamingu w trybie roamingu</string>
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">Ikona 4G</string>
+  <string name="show_fourg_icon_summary">Wyświetlana ikona 4G zamiast LTE</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Przytrzymaj przycisk zasilania, aby włączyć latarkę, gdy ekran jest wyłączony</string>
   <string name="torch_power_button_gesture_none">Wyłączone</string>
@@ -544,6 +556,7 @@
   <string name="screen_off_animation_default">Domyślne</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Skalowanie</string>
+  <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Powiadomienia dźwiękowe i wibracje, jeśli ekran jest wyłaczony</string>
   <string name="notification_sound_vib_screen_on_never">Nigdy</string>
@@ -641,6 +654,102 @@
   <string name="battery_percent_outside">Pokaż obok ikony</string>
   <string name="battery_percent_inside">Pokaż wewnątrz ikony</string>
   <!-- Data disabled icon -->
+  <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
+  <string name="data_disabled_icon_summary">Wyświetl znak krzyża obok paska sygnału, gdy dane są wyłączone</string>
   <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Przycisk zamykania aplikacji</string>
+  <string name="notification_guts_kill_app_button_summary">Pokaż przycisk wyłączania aplikacji po długim przytrzymaniu w menu powiadomień</string>
   <!-- SlimSizer  -->
+  <string name="caution">Uwaga!</string>
+  <string name="sizer_message_startup">To narzędzie pozwala na usuwanie aplikacji systemowych. Używaj ostrożnie i usuwaj aplikacje, które są bezpieczne do usunięcia.</string>
+  <string name="sizer_message_delete">Jesteś pewien?</string>
+  <string name="btn_delete">Usuń wybrane aplikacje</string>
+  <string name="delete_progress_title">Usuwanie</string>
+  <string name="delete_progress">Wybrane pliki są usuwane...</string>
+  <string name="sizer_message_noselect">Nic nie zaznaczono.</string>
+  <string name="system_app_remover">Narzędzie usuwania aplikacji systemowych</string>
+  <string name="sizer_message_error">Nie można odinstalować, sprawdź dostęp na poziomie administratora</string>
+  <string name="sizer_message_success">Sukces</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Wibracja podczas uwierzytelniania odcisku palca</string>
+  <string name="fprint_sucess_vib_summary">Wibracje po udanym uwierzytelnianiu odcisku palca</string>
+  <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Brak szybkich ustawień na zabezpieczonym ekranie blokady</string>
+  <string name="lockscreen_qs_disabled_summary">Wyłącza szybkie ustawienia na zabezpieczonym ekranie blokady</string>
+  <!-- Toast Animation -->
+  <string name="toast_animation_title">Animacje dymka z komunikatami</string>
+  <string name="toast_none_animation">Brak</string>
+  <string name="toast_default_animation">Domyślna</string>
+  <string name="toast_fade_animation">Zanikanie</string>
+  <string name="toast_SlideRight_animation">Przesunięcie w prawo</string>
+  <string name="toast_SlideLeft_animation">Przesunięcie w lewo</string>
+  <string name="toast_Xylon_animation">Xylon</string>
+  <string name="toast_Toko_animation">Toko</string>
+  <string name="toast_Tn_animation">Tn</string>
+  <string name="toast_Honami_animation">Honami</string>
+  <string name="toast_FastFade_animation">Szybkie zanikanie</string>
+  <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
+  <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie do środka</string>
+  <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie ku dołowi</string>
+  <string name="toast_Translucent_animation">Prześwitywanie</string>
+  <string name="toast_SlideLeftRight_animation">Przesunięcie z lewej do prawej</string>
+  <string name="toast_SlideRightLeft_animation">Przesunięcie z prawej do lewej</string>
+  <string name="toast_animation_test">To jest test dymka z komunikatami</string>
+  <string name="toast">Krótkie powiadomienie</string>
+  <!-- Animations -->
+  <string name="animations_title">Animacje</string>
+  <!--3-Finger screenshot-->
+  <string name="three_finger_gesture">Gest trzema palcami</string>
+  <string name="three_finger_gesture_summary">Przeciągnij trzema palcami w dół, aby wykonać zrzut ekranu</string>
+  <string name="screenshot_options_category">Opcje zrzutu ekranu</string>
+  <!-- AOKP custom system animations -->
+  <string name="system_animation_title">Animacje systemu</string>
+  <string name="activity_open_title">Animacja otwierania aktywności</string>
+  <string name="activity_close_title">Animacja zamykania aktywności</string>
+  <string name="task_open_title">Animacja otwarcia zadania</string>
+  <string name="task_open_behind_title">Animacja po otwarciu zadania</string>
+  <string name="task_close_title">Animacja zamknięcia zadania</string>
+  <string name="task_move_to_front_title">Animacja przysunięcia</string>
+  <string name="task_move_to_back_title">Animacja odsunięcia</string>
+  <string name="wallpaper_open_title">Animacja otwarcia tapety</string>
+  <string name="wallpaper_close_title">Animacja zamknięcia tapety</string>
+  <string name="wallpaper_intra_open_title">Animacja wewnętrznego otwarcia tapety</string>
+  <string name="wallpaper_intra_close_title">Animacja wewnętrznego zamknięcia tapety</string>
+  <string name="animation_duration_title">Czas trwania animacji</string>
+  <string name="title_animation_no_override">Zapobiegaj zastąpieniu animacji przez aplikacje</string>
+  <string name="summary_animation_no_override">Zapobiegaj zastąpieniu efektów przejścia przez aplikacje</string>
+  <string name="animation_duration_default">Domyślne</string>
+  <!-- ListView animation -->
+  <string name="listview_animation_title">Animacja widoku listy</string>
+  <string name="listview_off">Domyślne</string>
+  <string name="listview_wave_left">Fala (lewo)</string>
+  <string name="listview_wave_right">Fala (prawo)</string>
+  <string name="listview_alpha">Przenikanie</string>
+  <string name="listview_scale">Skalowanie</string>
+  <string name="listview_stack_top">Stos (góra)</string>
+  <string name="listview_stack_bottom">Stos (dół)</string>
+  <string name="listview_unfold">Rozwijanie</string>
+  <string name="listview_fold">Zwijanie</string>
+  <string name="listview_translate_left">Przełóż (z lewej)</string>
+  <string name="listview_translate_right">Przełóż (z prawej)</string>
+  <!-- ListView interpolator -->
+  <string name="listview_interpolator_title">Interpolacja widoku listy</string>
+  <string name="listview_accelerate_interpolator">Przyspieszanie</string>
+  <string name="listview_decelerate_interpolator">Spowolnienie</string>
+  <string name="listview_accelerate_decelerate_interpolator">Przyspieszanie i zwalnianie</string>
+  <string name="listview_anticipate_interpolator">Przewidywanie</string>
+  <string name="listview_overshoot_interpolator">Przekroczenie</string>
+  <string name="listview_anticipate_overshoot_interpolator">Przewidywanie i przekroczenie</string>
+  <string name="listview_bounce_interpolator">Odbicie</string>
+  <!-- Option to enable/disable scrolling cache -->
+  <string name="pref_scrollingcache_title">Pamięć podręczna przewijania</string>
+  <string name="pref_scrollingcache_summary">Pamięć podręczna przewijania może poprawić wydajność przewijania kosztem pamięci</string>
+  <string name="pref_scrollingcache_force_enable">Wymuś włączenie</string>
+  <string name="pref_scrollingcache_default_enable">Domyślnie włączone</string>
+  <string name="pref_scrollingcache_default_disable">Domyślnie wyłączone</string>
+  <string name="pref_scrollingcache_force_disable">Wymuś wyłączenie</string>
+  <!-- QuickSettings Panel Transparency -->
+  <!-- Tiles animation/interpolator style  -->
+  <!-- Lockscreen visualizer -->
+  <!-- System default animation -->
 </resources>

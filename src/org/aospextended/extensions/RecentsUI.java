@@ -64,7 +64,7 @@ import android.widget.ListView;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-import org.aospextended.extensions.Utils;
+import com.android.settings.Utils;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -103,12 +103,9 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
     private SwitchPreference mRecentsClearAll;
     private SwitchPreference mSlimToggle;
     private Preference mStockIconPacks;
-    private ListPreference mRecentsType;
-    private static final String RECENTS_TYPE = "recents_layout_style";
     private SwitchPreference mRecentsUseOmniSwitch;
     private Preference mOmniSwitchSettings;
     private boolean mOmniSwitchInitCalled;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -136,15 +133,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
         mSlimToggle.setChecked(enabled);
         mStockIconPacks.setEnabled(!enabled);
         mSlimToggle.setOnPreferenceChangeListener(this);
-
-
-        // recents type
-        mRecentsType = (ListPreference) findPreference(RECENTS_TYPE);
-        int style = Settings.System.getIntForUser(resolver,
-                Settings.System.RECENTS_LAYOUT_STYLE, 0, UserHandle.USER_CURRENT);
-        mRecentsType.setValue(String.valueOf(style));
-        mRecentsType.setSummary(mRecentsType.getEntry());
-        mRecentsType.setOnPreferenceChangeListener(this);
         
         mRecentsUseOmniSwitch = (SwitchPreference)
                 prefScreen.findPreference(RECENTS_USE_OMNISWITCH);
@@ -161,7 +149,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
         mOmniSwitchSettings = (Preference)
                 prefScreen.findPreference(OMNISWITCH_START_SETTINGS);
         mOmniSwitchSettings.setEnabled(mRecentsUseOmniSwitch.isChecked());
-
     }
 
     @Override
@@ -192,14 +179,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
             mSlimToggle.setChecked(value);
             mStockIconPacks.setEnabled(!value);
             return true;
-        } else if (preference == mRecentsType) {
-            int style = Integer.valueOf((String) objValue);
-            int index = mRecentsType.findIndexOfValue((String) objValue);
-            Settings.System.putIntForUser(getActivity().getContentResolver(),
-                    Settings.System.RECENTS_LAYOUT_STYLE, style, UserHandle.USER_CURRENT);
-            mRecentsType.setSummary(mRecentsType.getEntries()[index]);
-            Utils.restartSystemUi(getContext());
-        return true;
         }  else if (preference == mRecentsUseOmniSwitch) {
             boolean value = (Boolean) objValue;
             // if value has never been set before

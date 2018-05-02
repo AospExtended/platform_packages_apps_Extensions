@@ -56,6 +56,13 @@
             android:summary="@string/sensor_block_summary"
             android:defaultValue="false" />
 
+        <Preference
+            android:key="chooser_activity_blacklist"
+            android:fragment="org.aospextended.extensions.ChooserActivityBlacklist"
+            android:title="@string/chooser_activity_blacklist_title"
+            android:summary="@string/chooser_activity_blacklist_summary"
+            android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -13,7 +13,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen
+android:title="@string/heads_up_notifications" 
+xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+xmlns:android="http://schemas.android.com/apk/res/android">
 
     <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"

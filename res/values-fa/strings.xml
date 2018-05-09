@@ -18,6 +18,21 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">افزونه‌ها</string>
+  <string name="add">افزودن</string>
+  <string name="advanced">پیشرفته</string>
+  <string name="cancel">لغو</string>
+  <string name="choose_app">انتخاب برنامه‌</string>
+  <string name="general_category">عمومی</string>
+  <string name="gestures_category">حرکات دست</string>
+  <string name="music_category">موسیقی</string>
+  <string name="security_category">امنیت</string>
+  <string name="hardware_category">سخت‌افزار</string>
+  <string name="icons_category">آیکن‌‌ها</string>
+  <string name="light_category">چراغ‌ها</string>
+  <string name="dlg_ok">تأیید</string>
+  <string name="attention">توجه</string>
+  <string name="reset">بازنشانی</string>
   <!-- Extensions categories -->
   <!-- Frags -->
   <!-- General Tweaks -->
@@ -28,6 +43,7 @@
   <!-- Lockscreen UI -->
   <!-- Statusbar Iten -->
   <!-- Notifications -->
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <!-- Quick Settings -->
   <!-- Buttons -->
@@ -111,4 +127,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

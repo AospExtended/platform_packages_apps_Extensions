@@ -66,6 +66,7 @@
   <string name="statusbar_items_category">Ang Mga item sa statusbar</string>
   <!-- Notifications -->
   <string name="notifications_title">Ang mga notipikasyon</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Ang pag-nabigasyon sa bar</string>
   <!-- Quick Settings -->
@@ -402,7 +403,6 @@
   <string name="fling_longpress_title">I-delay ang pag pindot ng mahaba</string>
   <string name="fling_longpress_summary">Dagdagagan o bawasan ang oras ang kukunin na oras para ma magawa ang mahabanag pang pindot</string>
   <string name="fling_keyboard_cursors_title">Ang daynamikong mga cursor ng sa aksyon ng keyboard</string>
-  <string name="fling_keyboard_cursors_summary">I-tap ng doble sa kaliwa at kanan ang mga aksyon upang maging nasa kaliwa at kanan ang aksyon ng kursor keyboard kung ang keyboard ay bukas</string>
   <string name="fling_logo_opacity_title">Ang kalabuan ang na-fling na logo</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Ang tibok ang hindi gumagana kasama ang ibang mga pinag mulan ng ausio kung saan nakikinig sa instrumento ng espiker</string>
@@ -660,4 +660,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

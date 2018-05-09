@@ -19,7 +19,40 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
   <string name="extensions_title">Laajennukset</string>
+  <string name="add">Lisää</string>
+  <string name="advanced">Lisäasetukset</string>
+  <string name="cancel">Peruuta</string>
+  <string name="choose_app">Valitse sovellus</string>
+  <string name="general_category">Yleiset</string>
+  <string name="gestures_category">Eleet</string>
+  <string name="music_category">Musiikki</string>
+  <string name="security_category">Turvallisuus</string>
+  <string name="hardware_category">Laitteisto</string>
+  <string name="icons_category">Kuvakkeet</string>
+  <string name="aosp_recents_category">AOSP viimeaikaiset-näkymä</string>
+  <string name="light_category">Valot</string>
+  <string name="dlg_ok">OK</string>
+  <string name="attention">Huomio</string>
+  <string name="loading">Ladataan\u2026</string>
+  <string name="reset">Nollaa</string>
+  <string name="reset_colors">Nollaa värit</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Teksti</string>
+  <string name="icon_title">Kuvake</string>
+  <string name="color_title">Väri</string>
+  <string name="colors_title">Värit</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Viimeaikaiset</string>
+  <string name="recents_category_summary">Muokkaa sinun viimeiset- näkymä</string>
+  <string name="status_bar_category">Tilapalkki</string>
+  <string name="status_bar_category_summary">Muokkaa Ilmoituspalkkia</string>
+  <string name="notifications_panel_category">Ilmoituspaneeli</string>
+  <string name="notifications_panel_category_summary">Muokkaa sinun QS paneeli ja ilmoitukset</string>
+  <string name="system_category">Järjestelmä</string>
+  <string name="system_category_summary">Erilaiset järjestelmälaajennukset</string>
+  <string name="lockscreen_category">Lukitusnäyttö</string>
+  <string name="lockscreen_category_summary">Muokkaa Lukitusnäyttöä</string>
+  <string name="navigation_category">Siirtyminen</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
@@ -29,6 +62,7 @@
   <!-- Lockscreen UI -->
   <!-- Statusbar Iten -->
   <!-- Notifications -->
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <!-- Quick Settings -->
   <!-- Buttons -->
@@ -113,4 +147,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

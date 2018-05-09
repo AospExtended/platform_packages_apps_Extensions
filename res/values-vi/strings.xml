@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">Biểu tượng thanh trạng thái</string>
   <!-- Notifications -->
   <string name="notifications_title">Các thông báo</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Thanh điều hướng</string>
   <!-- Quick Settings -->
@@ -83,11 +84,30 @@
   <!-- App Ops -->
   <string name="app_ops_category">Hoạt động của ứng dụng</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Giúp chúng tôi giúp bạn!</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">Chọn màu nhấn</string>
+  <string name="theme_accent_picker_title">Màu nhấn</string>
+  <string name="theme_accent_picker_summary">Chọn màu nhấn của chủ đề hệ thống</string>
+  <string name="theme_accent_picker_default">Mặc định</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Bộ chọn màu</string>
+  <string name="press_color_to_apply">Nhấn vào màu bên dưới để áp dụng</string>
+  <string name="color_default">Mặc định</string>
   <!-- Footer warnings -->
+  <string name="carrier_label_warning_text">Lưu ý rằng nhãn của nhà cung cấp dịch vụ tùy chỉnh không có sẵn trong khu vực thanh trạng thái mở rộng, còn được gọi là khu vực cài đặt nhanh. Cũng sử dụng biểu tượng cảm xúc làm nhãn của nhà cung cấp dịch vụ có thể gây ra một số hiển thị.</string>
   <!-- Battery light -->
+  <string name="battery_light_settings">Đèn sạc pin</string>
+  <string name="battery_light_enable">Đèn pin</string>
+  <string name="battery_light_allow_on_dnd_title">Đèn pin ở chế độ Không làm phiền</string>
+  <string name="battery_light_low_blinking_title">Đèn nhấp nháy trên pin yếu</string>
+  <string name="battery_light_cat">Pin màu ánh sáng khi sạc</string>
+  <string name="battery_light_low_color">Pin yếu</string>
+  <string name="battery_light_medium_color">Pin vừa</string>
+  <string name="battery_light_full_color">Gần hết pin</string>
+  <string name="battery_light_reallyfull_color">Pin đầy (100)</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Lưu lượng mạng</string>
   <!-- Recents panel settings -->
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
@@ -103,19 +123,57 @@
   <string name="powermenu_users">Người dùng</string>
   <string name="powermenu_torch">Đèn pin</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">Tùy chọn nguồn khi khóa</string>
+  <string name="lockscreen_power_menu_disabled_summary">Tắt cài đặt nhanh khi ở màn hình khóa có bảo mật</string>
+  <string name="recents_show_membar_title">Thanh hiển thị bộ nhớ</string>
+  <string name="recents_show_membar_summary">Hiện một thanh với bộ nhớ có sẵn của thiết bị</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">Biểu tượng độ sáng </string>
+  <string name="brightness_icon_summary">Hiển thị biểu tượng độ sáng bên phải của thanh trượt độ sáng để điều chỉnh độ sáng tự động</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">Kéo xuống nhanh</string>
+  <string name="quick_pulldown_summary">Kéo từ cạnh %1$s thanh trạng thái xuống để truy cập Cài đặt nhanh</string>
+  <string name="quick_pulldown_summary_always">Luôn hiển thị Cài đặt nhanh khi kéo xuống thanh trạng thái</string>
+  <string name="quick_pulldown_off">Tắt</string>
+  <string name="quick_pulldown_left">Trái</string>
+  <string name="quick_pulldown_right">Phải</string>
+  <string name="quick_pulldown_always">Luôn luôn</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">Kéo xuống thông minh</string>
+  <string name="smart_pulldown_summary">Mở cài đặt nhanh khi có %1$s thông báo</string>
+  <string name="smart_pulldown_none_summary">Mở cài đặt nhanh khi không có thông báo</string>
+  <string name="smart_pulldown_off">Tắt</string>
+  <string name="smart_pulldown_none">không có thông báo</string>
+  <string name="smart_pulldown_dismissable">không thể loại bỏ</string>
+  <string name="smart_pulldown_ongoing">không liên tục</string>
   <!-- Lockscreen icons -->
+  <string name="lockscreen_tuner_title">Chỉ màn hình khoá</string>
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">Buộc thông báo mở rộng</string>
+  <string name="force_expanded_notifications_summary">Chỉ khả dụng cho các ứng dụng hỗ trợ mở rộng thông báo</string>
   <!-- Double Tap Lockscreen to Sleep -->
+  <string name="double_tap_to_sleep_lockscreen_title">Gõ 2 lần tắt màn hình</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">Gõ 2 lần tắt màn hình trên thanh thông báo</string>
+  <string name="double_tap_to_sleep_summary">Chạm hai lần vào thanh điều hướng để tắt màn hình</string>
   <!-- Brightness control -->
+  <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
+  <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>
   <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
+  <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
   <!-- Media art -->
+  <string name="media_art_title">Ảnh bìa phương tiện</string>
+  <string name="media_art_summary">Bật ảnh bìa phương tiện trên màn hình khóa</string>
   <!-- Buttons title -->
+  <string name="volume_category">Cân bằng âm lượng</string>
+  <string name="power_category">Phím nguồn</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Đảo vị trí nút âm lượng</string>
+  <string name="swap_volume_buttons_summary">Đảo chiều nút âm lượng theo khi xoay máy</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Phím âm lượng điều khiển âm lượng phương tiện</string>
+  <string name="volume_keys_control_media_stream_summary">Luôn dùng nút âm lượng để điều khiển các phương tiện truyền thông</string>
   <!-- Volume rocker music control -->
   <!-- Language options - Volume rocker cursor control -->
   <!-- Volume rocker wake -->
@@ -127,11 +185,49 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Hết giờ</string>
+  <string name="heads_up_time_out_summary">Thông báo nổi sẽ hiển thị trong <xliff:g id="number">%d</xliff:g> giây</string>
+  <string name="heads_up_time_out_2sec">2 giây</string>
+  <string name="heads_up_time_out_4sec">4 giây</string>
+  <string name="heads_up_time_out_5sec">5 giây</string>
+  <string name="heads_up_time_out_6sec">6 giây</string>
+  <string name="heads_up_time_out_8sec">8 giây</string>
+  <string name="heads_up_time_out_10sec">10 giây</string>
   <!-- Heads up snooze -->
+  <string name="heads_up_snooze_title">Thời gian báo lại</string>
+  <string name="heads_up_snooze_summary_one_minute">Vuốt lên trên thông báo nổi sẽ báo lại thông báo đó trong 1 phút</string>
+  <string name="heads_up_snooze_summary">Vuốt lên trên thông báo nổi sẽ báo lại thông báo đó trong <xliff:g id="number">%d</xliff:g> phút</string>
+  <string name="heads_up_snooze_disabled_summary">Bộ đếm tạm ngưng bị vô hiệu</string>
+  <string name="heads_up_snooze_1min">1 phút</string>
+  <string name="heads_up_snooze_5min">5 phút</string>
+  <string name="heads_up_snooze_10min">10 phút</string>
+  <string name="heads_up_snooze_15min">15 phút</string>
+  <string name="heads_up_snooze_20min">20 phút</string>
   <!-- Incall vibrate options -->
+  <string name="incall_vibration_category">Các tùy chọn rung trong cuộc gọi</string>
+  <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+  <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
+  <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
   <!-- Disabling FC notifications -->
+  <string name="disable_fc_notifications_title">Tắt thông báo Buộc Dừng</string>
+  <string name="disable_fc_notifications_summary">Việc này sẽ ẩn tất cả các thông báo buộc dừng</string>
   <!-- Statusbar ticker -->
+  <string name="ticker_screen_title">Thông báo dạng tường thuật</string>
+  <string name="ticker_mode_title">Thanh thông báo dạng tường thuật</string>
+  <string name="ticker_disabled">Vô hiệu hóa</string>
+  <string name="ticker_enabled">Thông báo tường thuật</string>
+  <string name="ticker_media_enabled">Thông báo và tường thuật âm nhạc</string>
+  <string name="ticker_animation_mode_title">Kiểu tích tắc</string>
+  <string name="ticker_animation_mode_alpha_fade">Mờ dần</string>
+  <string name="ticker_animation_mode_scroll">Cuộn</string>
+  <string name="recents_icon_pack_title">Gói Biểu Tượng</string>
+  <string name="recents_icon_pack_summary">Áp dụng một gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng điều khiển</string>
+  <string name="no_iconpacks_summary">Không có gói biểu tượng nào được cài đặt</string>
+  <string name="dialog_pick_iconpack_title">Chọn gói biểu tượng</string>
+  <string name="default_iconpack_title">Biểu tượng mặc định</string>
   <!-- Slim Recents panel -->
+  <string name="slim_recents_title">Màn hình gần đây Mỏng</string>
+  <string name="recent_card_bg_color_title">Màu nền thẻ</string>
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- DUI -->
   <!-- Actions dialog and default task values set in ActionPreference xml-->
@@ -171,4 +267,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

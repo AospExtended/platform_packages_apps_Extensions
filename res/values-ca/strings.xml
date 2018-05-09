@@ -18,7 +18,42 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">Extensions</string>
+  <string name="add">Afegeix</string>
+  <string name="advanced">Avançat</string>
+  <string name="cancel">Cancel·la</string>
+  <string name="choose_app">Escull aplicació</string>
+  <string name="general_category">General</string>
+  <string name="gestures_category">Gestos</string>
+  <string name="music_category">Música</string>
+  <string name="security_category">Seguretat</string>
+  <string name="hardware_category">Hardware</string>
+  <string name="icons_category">Icones</string>
+  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="light_category">Llums</string>
+  <string name="dlg_ok">Accepta</string>
+  <string name="attention">Atenció</string>
+  <string name="loading">Carregant\u2026</string>
+  <string name="reset">Restableix</string>
+  <string name="reset_colors">Restableix els colors</string>
+  <string name="reset_android">Android</string>
+  <string name="text_title">Text</string>
+  <string name="icon_title">Icona</string>
+  <string name="color_title">Color</string>
+  <string name="colors_title">Colors</string>
   <!-- Extensions categories -->
+  <string name="recents_category">Recents</string>
+  <string name="recents_category_summary">Personalitza el resum de recents</string>
+  <string name="status_bar_category">Barra d\'estat</string>
+  <string name="status_bar_category_summary">Personalitza la barra d\'estat</string>
+  <string name="notifications_panel_category">Panell de notificacions</string>
+  <string name="notifications_panel_category_summary">Personalitzar el panell QS i les notificacions</string>
+  <string name="system_category">Sistema</string>
+  <string name="system_category_summary">Diverses extensions de sistema</string>
+  <string name="lockscreen_category">Pantalla de bloqueig</string>
+  <string name="lockscreen_category_summary">Personalitzar el seu lockscreen</string>
+  <string name="navigation_category">Navegació</string>
+  <string name="navigation_category_summary">Personalitzar la barra de navegació</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
@@ -28,6 +63,7 @@
   <!-- Lockscreen UI -->
   <!-- Statusbar Iten -->
   <!-- Notifications -->
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <!-- Quick Settings -->
   <!-- Buttons -->
@@ -111,4 +147,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

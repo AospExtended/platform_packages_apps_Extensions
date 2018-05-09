@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">Ikony paska stanu</string>
   <!-- Notifications -->
   <string name="notifications_title">Powiadomienia</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Pasek nawigacji</string>
   <!-- Quick Settings -->
@@ -242,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">Z zestawu słuchawkowego, jeżeli jest podłączony i odtwarza muzykę</string>
   <string name="ringtone_focus_mode_stock">"Z głośnika (domyślny AOSP)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">Ostrzeżenia stopki QS</string>
+  <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu QS, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget zegarka</string>
   <string name="hide_lockscreen_clock_summary">Zmień widoczność widgetu zegarka</string>
@@ -414,7 +417,6 @@
   <string name="fling_longpress_title">Długie naciśnięcie opóźnienie</string>
   <string name="fling_longpress_summary">Zwiększ lub zmniejsz czas potrzebny na wykrycie długiego przytrzymania</string>
   <string name="fling_keyboard_cursors_title">Dynamiczne działanie kursorów klawiatury</string>
-  <string name="fling_keyboard_cursors_summary">Dwukrotne dotknięcie lewej i prawej akcji staje się lewymi i prawymi klawiszami, jeśli klawiatura jest otwarta</string>
   <string name="fling_logo_opacity_title">Logo funkcyjne nieprzezroczyste</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Puls nie działa z niektórymi źródłami dźwięku podczas słuchania głośnika urządzenia</string>
@@ -557,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Skalowanie</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Edytor zrzutów ekranu</string>
+  <string name="screenshot_edit_app_summary">Wybierz edytor który ma być używany do edycji zrzutów ekranu</string>
+  <string name="screenshot_edit_app_no_editor">Brak dostępnych edytorów obrazków</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Powiadomienia dźwiękowe i wibracje, jeśli ekran jest wyłaczony</string>
   <string name="notification_sound_vib_screen_on_never">Nigdy</string>
@@ -588,6 +593,7 @@
   <string name="enable_clock_weekday">Dzień tygodnia</string>
   <string name="enable_clock_weekday_summary">Skrót dnia tygodnia przed zegarem</string>
   <string name="right_clock">Zegar po prawej</string>
+  <string name="center_clock">Zegar środkowy</string>
   <string name="left_clock">Zegar po lewej</string>
   <string name="dont_show">Nie pokazuj</string>
   <string name="clock_date_display">Data</string>
@@ -749,7 +755,44 @@
   <string name="pref_scrollingcache_default_disable">Domyślnie wyłączone</string>
   <string name="pref_scrollingcache_force_disable">Wymuś wyłączenie</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Krycie</string>
+  <string name="qs_opacity_category">Przeźroczystość panelu Szybkich Ustawień</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Kafelek animacji QS</string>
+  <string name="qs_tile_animation_style_title">Styl animacji</string>
+  <string name="qs_tile_animation_duration_title">Czas trwania animacji</string>
+  <string name="qs_tile_animation_interpolator_title">Szybkość animacji kafelków</string>
+  <string name="qs_tile_animation_style_off">Brak animacji</string>
+  <string name="qs_tile_animation_style_flip">Obróć</string>
+  <string name="qs_tile_animation_style_rotate">Obrót</string>
+  <string name="qs_tile_animation_duration_low">Niski</string>
+  <string name="qs_tile_animation_duration_default">Domyślne</string>
+  <string name="qs_tile_animation_duration_fast">Szybko</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Liniowe</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Przyspieszanie</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Spowolnienie</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Przyspiesz i zwolnij</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Podskok</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Przekroczenie</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Przewidywanie</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Przewiduj i przekrocz</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">Widoczność ekranu blokady</string>
+  <string name="lockscreen_visualizer_summary">Wyświetlaj wizualizację muzyki na ekranie blokady gdy gra muzyka</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Styl animacji z Androida P</string>
+  <string name="system_default_animation_summary">Włącz domyślne animacje z Androida P</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

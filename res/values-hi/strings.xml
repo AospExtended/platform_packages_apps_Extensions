@@ -66,6 +66,7 @@
   <string name="statusbar_items_category">स्टेटस बार की चीज़ें</string>
   <!-- Notifications -->
   <string name="notifications_title">सूचनाएँ</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">नेविगेशन पट्टी</string>
   <!-- Quick Settings -->
@@ -399,7 +400,6 @@
   <string name="fling_longpress_title">देर तक बटन दबाने से विलंब</string>
   <string name="fling_longpress_summary">लंबा प्रेस को निष्पादित करने के लिए लगने वाले समय को काम या ज्यादा करे</string>
   <string name="fling_keyboard_cursors_title">डायनेमिक कुंजीपटल कर्सर क्रिया</string>
-  <string name="fling_keyboard_cursors_summary">डबल नल बाएँ और दाएँ कार्रवाई बाएँ और दाएँ कुंजीपटल कर्सर क्रियाएँ हो जाता है, तो कुंजीपटल खुला है</string>
   <string name="fling_logo_opacity_title">लात लोगो अस्पष्टता</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">पल्स कुछ ऑडियो स्रोतों के साथ काम नहीं करता है जब डिवाइस वक्ता पर सुन</string>
@@ -589,4 +589,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

@@ -31,6 +31,7 @@
   <!-- Lockscreen UI -->
   <!-- Statusbar Iten -->
   <!-- Notifications -->
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <!-- Quick Settings -->
   <!-- Buttons -->
@@ -155,7 +156,6 @@
   <string name="fling_animate_logo_summary">Logoen animerer på berøringshendelser</string>
   <string name="fling_show_ripple_summary">Rippel-effekt på berøringshendelser</string>
   <string name="fling_longpress_summary">Øk eller reduser tiden det tar å utføre et langt trykk</string>
-  <string name="fling_keyboard_cursors_summary">Dobbeltklikk på venstre og høyre handling blir venstre og høyre tastaturmarkørhandlinger hvis tastaturet er åpent</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_accent_color_summary">Aktivering av dette vil gjøre puls bruk din nåværende aksentfarge. Det vil deaktivere Lava Lamp</string>
   <string name="fling_pulse_color_summary">Brukt også som tilbakeslag for automatisk farge</string>
@@ -230,4 +230,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

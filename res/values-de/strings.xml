@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">Statusleistenelemente</string>
   <!-- Notifications -->
   <string name="notifications_title">Benachrichtigungen</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Navigationsleiste</string>
   <!-- Quick Settings -->
@@ -242,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">Aus dem Headset, falls es verbunden ist und Musik spielt</string>
   <string name="ringtone_focus_mode_stock">"Aus dem Telefonlautsprecher (AOSP-Standard)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">QS Fußzeile Warnungen</string>
+  <string name="qs_footer_warnings_summary">Zeige eine Warnung in der Fußzeile der Schnelleinstellungen, wenn das Netzwerk von einer externen App oder VPN überwacht wird</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Uhr-Widget</string>
   <string name="hide_lockscreen_clock_summary">SIchtbarkeit des Uhr-Widgets ändern</string>
@@ -414,7 +417,6 @@
   <string name="fling_longpress_title">Verzögerung bei langem Druck</string>
   <string name="fling_longpress_summary">Erhöht oder verringert die Zeit bei langem Druck bis eine Aktion ausgeführt wird</string>
   <string name="fling_keyboard_cursors_title">Dynamische Cursor-Aktionen der Tastatur</string>
-  <string name="fling_keyboard_cursors_summary">Doppeltes Tippen auf der rechten oder linken Seite wird bei Anzeige der Tastatur als Bewegung interpretiert</string>
   <string name="fling_logo_opacity_title">Deckkraft des Fling-Logos</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Puls funktioniert nicht mit einigen Audioquellen, wenn die Ausgabe über Lautsprecher erfolgt</string>
@@ -557,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Skalierung</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Bildschirmfoto-Editor</string>
+  <string name="screenshot_edit_app_summary">Wähle eine App zum Bearbeiten des Bildschirmfotos</string>
+  <string name="screenshot_edit_app_no_editor">Kein Foto-Editor verfügbar</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Benachrichtigungston und Vibration wenn Bildschirm an ist</string>
   <string name="notification_sound_vib_screen_on_never">Niemals</string>
@@ -588,6 +593,7 @@
   <string name="enable_clock_weekday">Wochentag</string>
   <string name="enable_clock_weekday_summary">Wochentagabkürzung vor Uhrzeit</string>
   <string name="right_clock">Uhr rechts</string>
+  <string name="center_clock">Zentrierte Uhr</string>
   <string name="left_clock">Uhr links</string>
   <string name="dont_show">Nicht anzeigen</string>
   <string name="clock_date_display">Datum</string>
@@ -749,7 +755,44 @@
   <string name="pref_scrollingcache_default_disable">Standardmäßig deaktivieren</string>
   <string name="pref_scrollingcache_force_disable">Deaktivierung erzwingen</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Deckkraft</string>
+  <string name="qs_opacity_category">Deckkraft des QS Menüs</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Animation der QS Kacheln</string>
+  <string name="qs_tile_animation_style_title">Animationsstil</string>
+  <string name="qs_tile_animation_duration_title">Dauer der Animation</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolation der Kachelanimation</string>
+  <string name="qs_tile_animation_style_off">Keine Animation</string>
+  <string name="qs_tile_animation_style_flip">Umdrehen</string>
+  <string name="qs_tile_animation_style_rotate">Rotieren</string>
+  <string name="qs_tile_animation_duration_low">Niedrig</string>
+  <string name="qs_tile_animation_duration_default">Standard</string>
+  <string name="qs_tile_animation_duration_fast">Schnell</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Beschleunigen</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Verlangsamen</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Beschleunigen Verlangsamen</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Abprallen</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Überschwingen</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Schwung holen</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Schwung holen und Überschwingen</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">Sperrbildschirm Visualisierungen</string>
+  <string name="lockscreen_visualizer_summary">Zeige Visualisierungen auf dem Sperrbildschirm während Musik spielt</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Android P Animationsstil</string>
+  <string name="system_default_animation_summary">Aktiviert die Android P Standard-Animationen</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

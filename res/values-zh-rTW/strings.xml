@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">狀態列項目</string>
   <!-- Notifications -->
   <string name="notifications_title">通知</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">導航列</string>
   <!-- Quick Settings -->
@@ -242,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">來自正在撥放音樂的有線耳機</string>
   <string name="ringtone_focus_mode_stock">"來自擴音器 ( AOSP 預設)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">快速設定頁尾警告</string>
+  <string name="qs_footer_warnings_summary">當你的網路被 VPN 或者應用程式監測時，在快速設定底部顯示一個警告。</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">時鐘小工具</string>
   <string name="hide_lockscreen_clock_summary">更改時鐘小工具的可見度</string>
@@ -255,8 +258,8 @@
   <string name="summary_heads_up_enabled">浮動通知已啟用</string>
   <string name="summary_heads_up_disabled">浮動通知已停用</string>
   <string name="add_heads_up_package">加入應用程式</string>
-  <string name="add_heads_up_stoplist_summary">禁用來自這些應用程式的浮動通知</string>
-  <string name="add_heads_up_blacklist_summary">針對這些應用程式關閉浮動通知</string>
+  <string name="add_heads_up_stoplist_summary">針對這些應用關閉浮動通知</string>
+  <string name="add_heads_up_blacklist_summary">禁用來自這些應用程式的浮動通知</string>
   <string name="heads_up_stoplist_title">阻止名單</string>
   <string name="heads_up_blacklist_title">黑名單</string>
   <string name="profile_choose_app">選擇應用程式</string>
@@ -414,7 +417,6 @@
   <string name="fling_longpress_title">長按延遲</string>
   <string name="fling_longpress_summary">增加或減少執行長按所需的時間</string>
   <string name="fling_keyboard_cursors_title">動態鍵盤游標動作</string>
-  <string name="fling_keyboard_cursors_summary">如鍵盤開啟，則輕觸兩下左右動作成為左右鍵盤游標的動作</string>
   <string name="fling_logo_opacity_title">滑動手勢標誌不透明度</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">在裝置喇叭上聆聽時，呼吸燈不適用於某些音訊來源</string>
@@ -557,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">縮放</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">螢幕擷取畫面編輯器</string>
+  <string name="screenshot_edit_app_summary">選擇要用於編輯螢幕截圖的影像編輯器。</string>
+  <string name="screenshot_edit_app_no_editor">沒有可用的圖片編輯器</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">若螢幕為開啟狀態, 發出通知提醒聲音和震動</string>
   <string name="notification_sound_vib_screen_on_never">永不</string>
@@ -588,6 +593,7 @@
   <string name="enable_clock_weekday">星期</string>
   <string name="enable_clock_weekday_summary">在時間之前顯示星期幾的縮寫</string>
   <string name="right_clock">時鐘靠右</string>
+  <string name="center_clock">時鐘置中</string>
   <string name="left_clock">時鐘靠左</string>
   <string name="dont_show">不顯示</string>
   <string name="clock_date_display">日期</string>
@@ -749,7 +755,44 @@
   <string name="pref_scrollingcache_default_disable">預設停用</string>
   <string name="pref_scrollingcache_force_disable">強制停用</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">透明度</string>
+  <string name="qs_opacity_category">快速設置面板透明度</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">圖塊動畫</string>
+  <string name="qs_tile_animation_style_title">動畫樣式</string>
+  <string name="qs_tile_animation_duration_title">動畫持續時間</string>
+  <string name="qs_tile_animation_interpolator_title">動畫插值器</string>
+  <string name="qs_tile_animation_style_off">無動畫</string>
+  <string name="qs_tile_animation_style_flip">反轉</string>
+  <string name="qs_tile_animation_style_rotate">旋轉</string>
+  <string name="qs_tile_animation_duration_low">慢</string>
+  <string name="qs_tile_animation_duration_default">預設</string>
+  <string name="qs_tile_animation_duration_fast">快</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">直線</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">減速</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">先快後慢</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">彈跳</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">過衝</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">預備</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">預備和過衝</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">鎖定螢幕視覺化效果</string>
+  <string name="lockscreen_visualizer_summary">在音樂播放時在鎖定畫面顯示即時設計</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Android P 動畫風格</string>
+  <string name="system_default_animation_summary">啟用 Andoird P \"預設\" 的動畫</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

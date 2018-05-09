@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">Položky stavové lišty</string>
   <!-- Notifications -->
   <string name="notifications_title">Oznámení</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Navigační panel</string>
   <!-- Quick Settings -->
@@ -171,7 +172,7 @@
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
   <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde je přítomno %1$s oznámení</string>
-  <string name="smart_pulldown_none_summary">Otevře Rychlé Nastavení pokud nejsou přítomny žádné oznámení</string>
+  <string name="smart_pulldown_none_summary">Otevře nabídku rychlého nastavení, kde není přítomno oznámení</string>
   <string name="smart_pulldown_off">Vypnuto</string>
   <string name="smart_pulldown_none">žádné oznámení</string>
   <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
@@ -242,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">Ze sluchátek, pokud jsou připojena a přehrávání hudby</string>
   <string name="ringtone_focus_mode_stock">"Z reproduktoru (AOSP výchozí)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu rychlého nastavení</string>
+  <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu rychlého nastavení při monitorování sítě externími aplikacemi nebo VPN</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget hodin</string>
   <string name="hide_lockscreen_clock_summary">Změna viditelnosti widgetu hodin</string>
@@ -252,8 +255,8 @@
   <!-- Heads up -->
   <string name="headsup_category">Nastavení plovoucího oznámení</string>
   <string name="heads_up_notifications">Plovoucí upozornění</string>
-  <string name="summary_heads_up_enabled">Plovoucí upozornění je povoleno</string>
-  <string name="summary_heads_up_disabled">Plovoucí upozornění je vypnuto</string>
+  <string name="summary_heads_up_enabled">Plovoucí oznámení jsou povolena</string>
+  <string name="summary_heads_up_disabled">Plovoucí oznámení jsou zakázána</string>
   <string name="add_heads_up_package">Přidat aplikaci</string>
   <string name="add_heads_up_stoplist_summary">Zakázat plovoucí oznámení v těchto aplikacích</string>
   <string name="add_heads_up_blacklist_summary">Zakázat plovoucí oznámení z těchto aplikací</string>
@@ -290,7 +293,7 @@
   <string name="disable_fc_notifications_title">Vypnout oznámení nuceného ukončení \'Force Close\'</string>
   <string name="disable_fc_notifications_summary">Skryje všechny oznámení při vynuceném ukončení aplikace \'Force Close\'</string>
   <!-- Statusbar ticker -->
-  <string name="ticker_screen_title">Animace oznámení</string>
+  <string name="ticker_screen_title">Text oznámení</string>
   <string name="ticker_mode_title">Notifikační oznámení ve stavové liště</string>
   <string name="ticker_disabled">Zakázáno</string>
   <string name="ticker_enabled">Notifikační oznámení</string>
@@ -414,7 +417,6 @@
   <string name="fling_longpress_title">Zpoždění dlouhým stiskem</string>
   <string name="fling_longpress_summary">Zvýšit nebo snížit dobu potřebnou k provedení akce dlouhým stisknutím</string>
   <string name="fling_keyboard_cursors_title">Akce kurzorů dynamické klávesnice</string>
-  <string name="fling_keyboard_cursors_summary">Dvojím poklepáním doleva a doprava se pohybují kurzorové klávesy vlevo a vpravo při otevřené klávesnici</string>
   <string name="fling_logo_opacity_title">Průhlednost loga Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse nefunguje s některými zvukovými zdroji při poslechu z reproduktoru zařízení</string>
@@ -499,7 +501,7 @@
   <string name="one_handed_mode_title">Režim jedné ruky</string>
   <string name="one_handed_mode_summary">Umožnit zapnutí režimu jednou rukou posunutím přes navigační lištu</string>
   <!-- Hardware button navigation -->
-  <string name="hardware_keys_volume_keys_title">Probudit tlačítky</string>
+  <string name="hardware_keys_volume_keys_title">Tlačítka hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
   <string name="hardware_keys_menu_key_title">Tlačítko Menu</string>
   <string name="hardware_keys_assist_key_title">Tlačítko Vyhledávání</string>
@@ -531,7 +533,7 @@
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Svítilna při vypnuté obrazovce</string>
   <string name="torch_power_button_gesture_none">Zakázáno</string>
-  <string name="torch_power_button_gesture_dt">Dvojím klepnutím zapnout svítilnu (přidá malé zpoždění při jednom klenutí)</string>
+  <string name="torch_power_button_gesture_dt">Dvojím klepnutím zapnout svítilnu (přidá malé zpoždění při jednom klepnutí)</string>
   <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
   <string name="force_ambient_for_media_pref_title">Hudební oznámení na Ambientním displeji</string>
   <string name="force_ambient_for_media_pref_summary">Nastavení hudebního oznámení na Ambientním displeji</string>
@@ -557,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Měřítko</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Editor snímků obrazovky</string>
+  <string name="screenshot_edit_app_summary">Vyberte, který editor obrázků chcete použít pro úpravu snímků obrazovky</string>
+  <string name="screenshot_edit_app_no_editor">Není k dispozici žádný editor obrázků</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Zvuky a vibrace oznámení při zapnuté obrazovce</string>
   <string name="notification_sound_vib_screen_on_never">Nikdy</string>
@@ -576,7 +581,7 @@
   <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Hodiny a datum</string>
-  <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data v stavové liště</string>
+  <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data ve stavové liště</string>
   <string name="clock_title_enable">Zarovnání</string>
   <string name="clock_enabled">Povoleno</string>
   <string name="clock_disabled">Zakázáno</string>
@@ -588,6 +593,7 @@
   <string name="enable_clock_weekday">Den v týdnu</string>
   <string name="enable_clock_weekday_summary">Zkratka dne v týdnu před hodinami</string>
   <string name="right_clock">Hodiny vpravo</string>
+  <string name="center_clock">Hodiny uprostřed</string>
   <string name="left_clock">Hodiny vlevo</string>
   <string name="dont_show">Nezobrazovat</string>
   <string name="clock_date_display">Datum</string>
@@ -749,7 +755,44 @@
   <string name="pref_scrollingcache_default_disable">Zakázat výchozí</string>
   <string name="pref_scrollingcache_force_disable">Vynuceně zakázat</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Neprůhlednost</string>
+  <string name="qs_opacity_category">Neprůhlednost panelu QS</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Animace dlaždic QS</string>
+  <string name="qs_tile_animation_style_title">Styl animace</string>
+  <string name="qs_tile_animation_duration_title">Doba trvání animace</string>
+  <string name="qs_tile_animation_interpolator_title">Interpolace animace</string>
+  <string name="qs_tile_animation_style_off">Bez animace</string>
+  <string name="qs_tile_animation_style_flip">Překlopit</string>
+  <string name="qs_tile_animation_style_rotate">Otočit</string>
+  <string name="qs_tile_animation_duration_low">Nízká</string>
+  <string name="qs_tile_animation_duration_default">Výchozí</string>
+  <string name="qs_tile_animation_duration_fast">Rychlá</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Lineární</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Zrychlit</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zpomalit</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Zrychlit a zpomalit</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Odrazit</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročit</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Předběhnout</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Předběhnout a překročit</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">Vizualizér na zamykací obrazovce</string>
+  <string name="lockscreen_visualizer_summary">Při přehrávání hudby se na zamykací obrazovce zobrazí živý design</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Styl animace Android P</string>
+  <string name="system_default_animation_summary">Povolit \"Výchozí\" animace Android P</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

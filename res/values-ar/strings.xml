@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">عناصر شريط الحالة</string>
   <!-- Notifications -->
   <string name="notifications_title">الإشعارات</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">شريط التنقل</string>
   <!-- Quick Settings -->
@@ -242,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">من سماعة الرأس إذا كان متصلة وتشغيل الموسيقى</string>
   <string name="ringtone_focus_mode_stock">"من مكبر الصوت (aosp الافتراضي)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">تحذيرات تذييل الإعدادات السريعة</string>
+  <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">أداة الساعة</string>
   <string name="hide_lockscreen_clock_summary">تغير درجة رؤية أداة الساعة</string>
@@ -414,7 +417,6 @@
   <string name="fling_longpress_title">تأخير الضغط المطوّل</string>
   <string name="fling_longpress_summary">زيادة او نقصان الوقت المستغرق لتنفيذ ضغطة طويلة</string>
   <string name="fling_keyboard_cursors_title">عمل مؤشرات ديناميكية للوحة المفاتيح</string>
-  <string name="fling_keyboard_cursors_summary">عمل الضغط المزدوج يساراً أو يميناً يصبح محركاً لمؤشر لوحة المفاتيح حين فتحها</string>
   <string name="fling_logo_opacity_title">عتمة شعار الاندفاع</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">النبض لا يعمل مع بعض المصادر الصوتية عندما تستخدم سماعة الهاتف</string>
@@ -557,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">مقياس</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">محرر لقطة الشاشة</string>
+  <string name="screenshot_edit_app_summary">تحديد محرر الصور الذي سيتم استخدامه لتحرير لقطات الشاشة</string>
+  <string name="screenshot_edit_app_no_editor">لا يوجد محرر الصور</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">صوت الإشعارات والاهتزاز إذا كانت الشاشة قيد التشغيل</string>
   <string name="notification_sound_vib_screen_on_never">أبداً</string>
@@ -588,6 +593,7 @@
   <string name="enable_clock_weekday">يوم الأسبوع</string>
   <string name="enable_clock_weekday_summary">مختصر يوم الأسبوع قبل الوقت</string>
   <string name="right_clock">الساعة على اليسار</string>
+  <string name="center_clock">الساعة بالوسط</string>
   <string name="left_clock">الساعة على اليمين</string>
   <string name="dont_show">لا تظهر</string>
   <string name="clock_date_display">التاريخ</string>
@@ -749,7 +755,44 @@
   <string name="pref_scrollingcache_default_disable">تعطيل الافتراضي</string>
   <string name="pref_scrollingcache_force_disable">تعطيل بالقوة</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">الشفافية</string>
+  <string name="qs_opacity_category">شفافية لوحة الإعدادات السريعة</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">المؤثرات الحركية لبلاط الإعدادات السريعة</string>
+  <string name="qs_tile_animation_style_title">نمط الرسوم المتحركة</string>
+  <string name="qs_tile_animation_duration_title">مدة الرسوم المتحركة</string>
+  <string name="qs_tile_animation_interpolator_title">مستقطب حركة الرسوم</string>
+  <string name="qs_tile_animation_style_off">بلا رسوم متحركة</string>
+  <string name="qs_tile_animation_style_flip">انقلاب</string>
+  <string name="qs_tile_animation_style_rotate">تدوير</string>
+  <string name="qs_tile_animation_duration_low">منخفض</string>
+  <string name="qs_tile_animation_duration_default">الافتراضي</string>
+  <string name="qs_tile_animation_duration_fast">سريع</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">خطي</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">تسارع</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">تباطىء</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">تسارع ثم تباطئ</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">ارتداد</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">الانحسار</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">توقع</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">توقع ثم انحسار</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">المؤثرات البصرية لشاشة القفل</string>
+  <string name="lockscreen_visualizer_summary">عرض تصميم حي على شاشة القفل بينما يتم تشغيل الموسيقى</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">نمط الرسوم المتحركة لاندرويد P</string>
+  <string name="system_default_animation_summary">تمكين الرسوم المتحركة لاندرويدP \"الافتراضي\"</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

@@ -34,17 +34,20 @@
   <string name="attention">Perhatian</string>
   <string name="reset">Tatapkan semula</string>
   <string name="reset_colors">Reset warna semula</string>
+  <string name="reset_android">Android</string>
   <string name="text_title">Teks</string>
   <string name="icon_title">Ikon</string>
   <string name="color_title">Warna</string>
   <string name="colors_title">Warna</string>
   <!-- Extensions categories -->
   <string name="recents_category">Terbaru</string>
+  <string name="status_bar_category">Bar status</string>
   <string name="notifications_panel_category">Panel pemberitahuan</string>
   <string name="system_category">Sistem</string>
   <string name="lockscreen_category">Kunci</string>
   <string name="navigation_category">Navigasi</string>
   <string name="build_tweaks_summary_title">Melanjutkan anda!</string>
+  <string name="system_animations">Sistem animasi</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <!-- Network traffic -->
@@ -61,6 +64,7 @@
   <string name="statusbar_items_category">Status barang-barang</string>
   <!-- Notifications -->
   <string name="notifications_title">Pemberitahuan</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Navigasi bar</string>
   <!-- Quick Settings -->
@@ -73,14 +77,36 @@
   <string name="extensions_dialog_title">Bantu kami membantu anda!</string>
   <string name="extensions_dialog_toast">MEMBACA SEMUANYA!</string>
   <!-- System theme -->
+  <string name="theme_accent_picker_default">Asal</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Warna Pemetik</string>
   <string name="press_color_to_apply">Tekan pada warna di bawah untuk memohon</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Tetapkan</string>
+  <string name="color_default">Asal</string>
   <!-- Footer warnings -->
   <!-- Battery light -->
+  <string name="battery_light_low_color">Bateri lemah</string>
+  <string name="battery_light_medium_color">Bateri medium</string>
+  <string name="battery_light_full_color">Bateri hampir penuh</string>
+  <string name="battery_light_reallyfull_color">Bateri penuh (100)</string>
   <!-- Network traffic -->
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Butang kosongkan semua</string>
+  <string name="show_clear_all_recents_button_summary">Paparkan butang kosongkan semua</string>
+  <string name="recents_clear_all_location_title">Padam kesemua lokasi</string>
+  <string name="recents_clear_all_location_top_right">Kanan atas</string>
+  <string name="recents_clear_all_location_top_left">Kiri atas</string>
+  <string name="recents_clear_all_location_top_center">Tengah Atas</string>
+  <string name="recents_clear_all_location_bottom_right">Kanan bawah</string>
+  <string name="recents_clear_all_location_bottom_left">Kiri bawah</string>
+  <string name="recents_clear_all_location_bottom_center">Tengah Bawah</string>
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">Kawalan notifikasi kuasa</string>
+  <string name="power_notification_controls_summary">Pilih tahap kepentingan untuk notifikasi</string>
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
   <string name="powermenu_restart_recovery">Maju semula</string>
@@ -149,11 +175,19 @@
   <!-- The volume key answer -->
   <!-- QS rows and columns -->
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Lancarkan aplikasi muzik bila set kepala disambungkan</string>
+  <string name="headset_connect_player_wired">Set kepala berbayar dicucukkan</string>
   <!-- Headset ringtone audio focus -->
   <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
   <!-- Heads up -->
+  <string name="add_heads_up_package">Tambah aplikasi</string>
+  <string name="heads_up_blacklist_title">Senarai hitam</string>
+  <string name="profile_choose_app">Pilih aplikasi</string>
+  <string name="dialog_delete_title">Hapuskan</string>
+  <string name="dialog_delete_message">Padam item yang dipilih?</string>
   <!-- Heads up timeout -->
+  <string name="heads_up_time_out_2sec">2 saat</string>
   <string name="heads_up_time_out_4sec">4 detik</string>
   <string name="heads_up_time_out_5sec">5 detik</string>
   <string name="heads_up_time_out_6sec">6 detik</string>
@@ -249,7 +283,6 @@
   <string name="fling_longpress_title">Tekan lama kelewatan</string>
   <string name="fling_longpress_summary">Meningkat atau menurun waktu yang dibutuhkan untuk melaksanakan tekan lama</string>
   <string name="fling_keyboard_cursors_title">Tindakan kursor papan kekunci dinamik</string>
-  <string name="fling_keyboard_cursors_summary">Tindakan dua kali kiri dan kanan menjadi tindakan kursor keyboard kiri dan kanan jika papan kekunci dibuka</string>
   <string name="fling_logo_opacity_title">Melemparkan logo fungsi</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Nadi tidak bekerja dengan beberapa sumber audio apabila mendengar peranti di speaker</string>
@@ -344,4 +377,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

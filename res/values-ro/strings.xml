@@ -66,6 +66,7 @@
   <string name="statusbar_items_category">Elemente bară de stare</string>
   <!-- Notifications -->
   <string name="notifications_title">Notificări</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Bară de navigare</string>
   <!-- Quick Settings -->
@@ -402,7 +403,6 @@
   <string name="fling_longpress_title">Întârziere la apăsare lungă</string>
   <string name="fling_longpress_summary">Creşte sau descreşte timpul necesar pentru a executa o apăsare lungă</string>
   <string name="fling_keyboard_cursors_title">Acțiune cursor de tastatură dinamică</string>
-  <string name="fling_keyboard_cursors_summary">Acțiunile de atingere dublă stânga și dreapta devin acțiuni cursor stânga și dreapta, dacă tastatura este deschisă</string>
   <string name="fling_logo_opacity_title">Opacitate siglă Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulsul nu funcționează cu unele surse audio atunci când ascultați la difuzorul dispozitivului</string>
@@ -660,4 +660,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

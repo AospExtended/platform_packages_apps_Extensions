@@ -66,6 +66,7 @@
   <string name="statusbar_items_category">Status çubuğu elementləri</string>
   <!-- Notifications -->
   <string name="notifications_title">Bildirişlər</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Naviqasiya çubuğu</string>
   <!-- Quick Settings -->
@@ -352,7 +353,6 @@
   <string name="fling_longpress_title">Uzun basma gecikməsi</string>
   <string name="fling_longpress_summary">Bir uzun basmanın həyata keçməsi üçün lazım olan vaxtı artırmaq və ya azaltmaq</string>
   <string name="fling_keyboard_cursors_title">Dinamik klaviatura kursor hərəkətləri</string>
-  <string name="fling_keyboard_cursors_summary">Klaviatura açıqdırsa sola və sağa iki dəfə yüngülcə vurun, sol və sağ klaviatura hərəkət əməliyyatları baş verər</string>
   <string name="fling_logo_opacity_title">Fling loqo opaklığı</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse, cihazın dinləyicisini dinləyərkən bəzi audio qaynaqları ilə işləməyəbilər</string>
@@ -464,4 +464,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

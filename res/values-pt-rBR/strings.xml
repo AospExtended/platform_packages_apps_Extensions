@@ -43,12 +43,20 @@
   <string name="colors_title">Cores</string>
   <!-- Extensions categories -->
   <string name="recents_category">Recentes</string>
+  <string name="recents_category_summary">Personalize a aba recentes</string>
   <string name="status_bar_category">Barra de status</string>
+  <string name="status_bar_category_summary">Personalize sua barra de status</string>
   <string name="notifications_panel_category">Painel de notificações</string>
+  <string name="notifications_panel_category_summary">Personalizar o painel de QS e notificações</string>
   <string name="system_category">Sistema</string>
+  <string name="system_category_summary">Várias extensões do sistema</string>
   <string name="lockscreen_category">Tela de bloqueio</string>
+  <string name="lockscreen_category_summary">Personalizar sua tela de bloqueio</string>
   <string name="navigation_category">Navegação</string>
+  <string name="navigation_category_summary">Personalize sua barra de navegação</string>
   <string name="build_tweaks_summary_title">Personalize seu dispositivo!</string>
+  <string name="system_animations">Animações do sistema</string>
+  <string name="listview">ListView</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">Ajustes gerais</string>
@@ -66,6 +74,7 @@
   <string name="statusbar_items_category">Itens da barra de status</string>
   <!-- Notifications -->
   <string name="notifications_title">Notificações</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Barra de navegação</string>
   <!-- Quick Settings -->
@@ -79,6 +88,10 @@
   <string name="extensions_dialog_message">Se você encontrar algum bug nessas configurações, poste na seção de relatórios de bugs na nossa página do Google+. Você DEVE incluir o seguinte quando for reportar um bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não reportar algo de forma adequada, NÃO espere que as coisas sejam corrigidas.</string>
   <string name="extensions_dialog_toast">LEIA TUDO!</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">Selecione uma cor para os detalhes</string>
+  <string name="theme_accent_picker_title">Cor dos detalhes</string>
+  <string name="theme_accent_picker_summary">Selecione a cor de destaque de tema do sistema</string>
+  <string name="theme_accent_picker_default">Padrão</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seleção de cor</string>
   <string name="press_color_to_apply">Pressione uma cor abaixo para aplicar</string>
@@ -230,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">Fone de ouvido com fio se estiver conectado e tocando música</string>
   <string name="ringtone_focus_mode_stock">"De viva-voz (aosp padrão)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">Avisos do rodapé nas configurações rápidas</string>
+  <string name="qs_footer_warnings_summary">Exibir um aviso na parte inferior do painel QS quando a rede é monitorada por aplicativos externos ou VPN</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget de relógio</string>
   <string name="hide_lockscreen_clock_summary">Alterar a visibilidade do widget de relógio</string>
@@ -402,7 +417,6 @@
   <string name="fling_longpress_title">Atraso do toque longo</string>
   <string name="fling_longpress_summary">Aumentar ou diminuir o tempo que leva para executar um toque longo</string>
   <string name="fling_keyboard_cursors_title">Ação de cursores dinâmicos do teclado</string>
-  <string name="fling_keyboard_cursors_summary">As ações de toque duplo e direito se tornam ações do cursor do teclado esquerdo e direito se o teclado estiver aberto</string>
   <string name="fling_logo_opacity_title">Opacidade da logo do Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse não funciona com algumas fontes de áudio quando ouvir no alto-falante do dispositivo</string>
@@ -489,6 +503,7 @@ Contexto | Contexto de solicitação</string>
   <string name="one_handed_mode_title">Modo para uma mão</string>
   <string name="one_handed_mode_summary">Permite percorrer na barra de navegação para habilitar o modo de uma mão</string>
   <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">Seletor de volume</string>
   <string name="hardware_keys_home_key_title">Botão de início</string>
   <string name="hardware_keys_menu_key_title">Botão de Menu</string>
   <string name="hardware_keys_assist_key_title">Botão de buscar</string>
@@ -500,7 +515,17 @@ Contexto | Contexto de solicitação</string>
   <string name="hardware_keys_single_tap_title">Ação para toque único</string>
   <string name="hardware_keys_long_press_title">Ação de toque longo</string>
   <string name="hardware_keys_double_tap_title">Ação de duplo toque</string>
+  <string name="hardware_keys_category">Botões de navegação</string>
+  <string name="hardware_keys_disable_title">Desativar botões de navegação</string>
   <!-- Button brightness -->
+  <string name="button_backlight_options_category">Opções de luz de fundo</string>
+  <string name="button_backlight_enable_title">Permitir luz de fundo dos botões</string>
+  <string name="button_link_brightness">Atalho para o brilho da tela</string>
+  <string name="button_link_brightness_summary">O brilho da luz de fundo do botão irá ajustar-se com base no nível de brilho da tela</string>
+  <string name="button_manual_brightness">Nível de brilho</string>
+  <string name="button_timeout_title">Tempo limite da luz de fundo</string>
+  <string name="button_backlight_on_touch_only_title">Tempo de iluminação dos botões</string>
+  <string name="button_backlight_on_touch_only_summary">A iluminação do botão só aparece quando os botões são pressionados, em vez do tempo todo. O tempo limite ainda afeta esse recurso.</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Indicador de roaming ativado</string>
   <string name="roaming_indicator_icon_summary">Mostrar o indicador de roaming no ícone de sinal quando no modo de roaming</string>
@@ -536,6 +561,9 @@ Contexto | Contexto de solicitação</string>
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Escala</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Editor de captura de tela</string>
+  <string name="screenshot_edit_app_summary">Selecione qual editor de imagem para usar para editar capturas de tela com</string>
+  <string name="screenshot_edit_app_no_editor">Nenhum editor de imagem disponível</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Som de notificações e vibração se na tela</string>
   <string name="notification_sound_vib_screen_on_never">Nunca</string>
@@ -567,6 +595,7 @@ Contexto | Contexto de solicitação</string>
   <string name="enable_clock_weekday">Dia da semana</string>
   <string name="enable_clock_weekday_summary">Abreviar dia da semana antes do relógio</string>
   <string name="right_clock">Relógio à direita</string>
+  <string name="center_clock">Relógio centralizado</string>
   <string name="left_clock">Relógio à esquerda</string>
   <string name="dont_show">Não mostrar</string>
   <string name="clock_date_display">Data</string>
@@ -650,16 +679,122 @@ Contexto | Contexto de solicitação</string>
   <string name="sizer_message_error">Falha ao desinstalar, verifique se o dispositivo tem acesso root</string>
   <string name="sizer_message_success">Sucesso</string>
   <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibração na autenticação da impressão digital</string>
+  <string name="fprint_sucess_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
   <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Desativa as configurações rápidas com o dispositivo protegido</string>
+  <string name="lockscreen_qs_disabled_summary">Desativar configurações rápidas na tela de bloqueio</string>
   <!-- Toast Animation -->
+  <string name="toast_animation_title">Animação do Toast</string>
+  <string name="toast_none_animation">Nenhum</string>
+  <string name="toast_default_animation">Padrão</string>
+  <string name="toast_fade_animation">Desvanecer</string>
+  <string name="toast_SlideRight_animation">Deslizar para a direita</string>
+  <string name="toast_SlideLeft_animation">Deslizar para a esquerda</string>
+  <string name="toast_Xylon_animation">Xylon</string>
+  <string name="toast_Toko_animation">Toko</string>
+  <string name="toast_Tn_animation">Tn</string>
+  <string name="toast_Honami_animation">Honami</string>
+  <string name="toast_FastFade_animation">Desvanecer rapidamente</string>
+  <string name="toast_GrowFade_animation">Desvanecer crescendo</string>
+  <string name="toast_GrowFadeCenter_animation">Desvanecer crescendo para o meio</string>
+  <string name="toast_GrowFadeBottom_animation">Desvanecer crescendo para baixo</string>
+  <string name="toast_Translucent_animation">Translúcido</string>
+  <string name="toast_SlideLeftRight_animation">Deslizar da esquerda para a direita</string>
+  <string name="toast_SlideRightLeft_animation">Deslizar da direita para a esquerda</string>
+  <string name="toast_animation_test">Este é um teste para a animação do aviso de tela selecionada</string>
+  <string name="toast">Aviso de tela</string>
   <!-- Animations -->
+  <string name="animations_title">Animações</string>
   <!--3-Finger screenshot-->
+  <string name="three_finger_gesture">Gesto de três dedos</string>
+  <string name="three_finger_gesture_summary">Deslizar 3 dedos para capturar a tela</string>
+  <string name="screenshot_options_category">Opções de captura de tela</string>
   <!-- AOKP custom system animations -->
+  <string name="system_animation_title">Animações do Sistema</string>
+  <string name="activity_open_title">Animação ao abrir atividade</string>
+  <string name="activity_close_title">Animação ao fechar atividade</string>
+  <string name="task_open_title">Animação ao abrir tarefa</string>
+  <string name="task_open_behind_title">Animação de tarefa aberta atrás</string>
+  <string name="task_close_title">Animação ao fechar tarefa</string>
+  <string name="task_move_to_front_title">Animação ao mover para frente</string>
+  <string name="task_move_to_back_title">Animação ao mover para trás</string>
+  <string name="wallpaper_open_title">Animação ao abrir plano de fundo</string>
+  <string name="wallpaper_close_title">Animação ao fechar plano de fundo</string>
+  <string name="wallpaper_intra_open_title">Animação de abertura da página de apps recentes</string>
+  <string name="wallpaper_intra_close_title">Animação de fechamento da página de apps recentes</string>
+  <string name="animation_duration_title">Duração da animação</string>
+  <string name="title_animation_no_override">Impedir sobreposições de aplicativos</string>
+  <string name="summary_animation_no_override">Impedir que aplicativos substituam transições</string>
+  <string name="animation_duration_default">Padrão</string>
   <!-- ListView animation -->
+  <string name="listview_animation_title">Animação da visualização em lista</string>
+  <string name="listview_off">Padrão</string>
+  <string name="listview_wave_left">Onda (à esquerda)</string>
+  <string name="listview_wave_right">Onda (à direita)</string>
+  <string name="listview_alpha">Transparência</string>
+  <string name="listview_scale">Escala</string>
+  <string name="listview_stack_top">Pilha (topo)</string>
+  <string name="listview_stack_bottom">Pilha (inferior)</string>
+  <string name="listview_unfold">Abrir</string>
+  <string name="listview_fold">Fechar</string>
+  <string name="listview_translate_left">Traduzir (à esquerda)</string>
+  <string name="listview_translate_right">Traduzir (à direita)</string>
   <!-- ListView interpolator -->
+  <string name="listview_interpolator_title">Interpolador da visualização em lista</string>
+  <string name="listview_accelerate_interpolator">Acelerar</string>
+  <string name="listview_decelerate_interpolator">Desacelerar</string>
+  <string name="listview_accelerate_decelerate_interpolator">Acelerar e desacelerar</string>
+  <string name="listview_anticipate_interpolator">Antecipar</string>
+  <string name="listview_overshoot_interpolator">Ultrapassar</string>
+  <string name="listview_anticipate_overshoot_interpolator">Antecipar e ultrapassar</string>
+  <string name="listview_bounce_interpolator">Efeito elástico</string>
   <!-- Option to enable/disable scrolling cache -->
+  <string name="pref_scrollingcache_title">Cache de rolagem</string>
+  <string name="pref_scrollingcache_summary">O cache de rolagem pode melhorar a performance de rolagem porém vai usar mais memória</string>
+  <string name="pref_scrollingcache_force_enable">Forçar ativação</string>
+  <string name="pref_scrollingcache_default_enable">Ativo por padrão</string>
+  <string name="pref_scrollingcache_default_disable">Desativado por padrão</string>
+  <string name="pref_scrollingcache_force_disable">Forçar desativação</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Opacidade</string>
+  <string name="qs_opacity_category">Opacidade do painel Conf. Rápidas</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Animaçao do bloco de configurações rápidas</string>
+  <string name="qs_tile_animation_style_title">Estilo de animação</string>
+  <string name="qs_tile_animation_duration_title">Duração da Animação</string>
+  <string name="qs_tile_animation_interpolator_title">Animação de telhas do interpolador</string>
+  <string name="qs_tile_animation_style_off">Sem animação</string>
+  <string name="qs_tile_animation_style_flip">Inverter</string>
+  <string name="qs_tile_animation_style_rotate">Rotacionar</string>
+  <string name="qs_tile_animation_duration_low">Baixa</string>
+  <string name="qs_tile_animation_duration_default">Padrão</string>
+  <string name="qs_tile_animation_duration_fast">Rápido</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar desacelerar</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Salto</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Ultrapassar</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Antecipar</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antecipar a ultrapassagem</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">Mostrar na tela de bloqueio</string>
+  <string name="lockscreen_visualizer_summary">Exibir uma animação na tela de bloqueio enquanto estiver tocando música</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Animação estilo Android P</string>
+  <string name="system_default_animation_summary">Ativar animações \"Padrão\" do Android P</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

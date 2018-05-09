@@ -43,12 +43,20 @@
   <string name="colors_title">Колеры</string>
   <!-- Extensions categories -->
   <string name="recents_category">Нядаўнія</string>
+  <string name="recents_category_summary">Наладзіць выгляд нядаўніх праграм</string>
   <string name="status_bar_category">Радок стану</string>
+  <string name="status_bar_category_summary">Наладзіць радок стану</string>
   <string name="notifications_panel_category">Панэль апавяшчэнняў</string>
+  <string name="notifications_panel_category_summary">Наладзьце панэль хуткага доступу і апавяшчэнняў</string>
   <string name="system_category">Сістэма</string>
+  <string name="system_category_summary">Розныя дапаўненні сістэмы</string>
   <string name="lockscreen_category">Экран блакавання</string>
+  <string name="lockscreen_category_summary">Наладзіць экран блакавання</string>
   <string name="navigation_category">Навігацыя</string>
+  <string name="navigation_category_summary">Налада раскладкі панэлі навігацыі</string>
   <string name="build_tweaks_summary_title">Розныя налады!</string>
+  <string name="system_animations">Сістэмныя анімацыі</string>
+  <string name="listview">Анімацыя спісу</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">Асноўныя налады</string>
@@ -66,6 +74,7 @@
   <string name="statusbar_items_category">Значкі радку стану</string>
   <!-- Notifications -->
   <string name="notifications_title">Апавяшчэнні</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Панэль навігацыі</string>
   <!-- Quick Settings -->
@@ -79,6 +88,10 @@
   <string name="extensions_dialog_message">Калі Вы знойдзеце памылку ў гэтым аддзеле налад, паведаміце ў раздзеле багрэпортаў на нашай старонцы Google+. Вы ПАВІННЫ прымацаваць наступнае:\n\n1. Logcat або last_kmsg\n2. Якое выкарыстоўваецца ядро ​​і моды\n3. Любую карысную інфармацыю.\n\nКалі Вы не зможаце адэкватна паведаміць аб праблеме, не чакайце, што мы яе выправім.</string>
   <string name="extensions_dialog_toast">ПРАЧЫТАЙЦЕ ГЭТА ЦАЛКАМ!</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">Выберыце адценне колеру</string>
+  <string name="theme_accent_picker_title">Асноўны колер</string>
+  <string name="theme_accent_picker_summary">Выберыце адценне колеру сістэмнай тэмы</string>
+  <string name="theme_accent_picker_default">Па змаўчанні</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Палітра колераў</string>
   <string name="press_color_to_apply">Націсніце на колер знізу, каб прымяніць</string>
@@ -230,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">Навушнікі, калі яны падлучаныя і грае музыка</string>
   <string name="ringtone_focus_mode_stock">"Праз дынамік (aosp па змаўчанні)"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">Папярэджанне ў ніжняй частцы хуткіх налад</string>
+  <string name="qs_footer_warnings_summary">Паказваць папярэджанне ў ніжняй частцы панэлі хуткіх налад, калі сетка кантралюецца іншымі праграмамі або VPN</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Віджэт гадзінніка</string>
   <string name="hide_lockscreen_clock_summary">Змяніць бачнасць віджэта гадзінніка</string>
@@ -402,7 +417,6 @@
   <string name="fling_longpress_title">Затрымка доўгага націску</string>
   <string name="fling_longpress_summary">Павялічыць або паменшыць час, неабходнае для працяглага націску</string>
   <string name="fling_keyboard_cursors_title">Дынамічнае дзеянне курсора клавіятуры</string>
-  <string name="fling_keyboard_cursors_summary">Падвойнае націск злева і справа становіцца рухамі курсора клавіятуры налева і направа пры адкрытай клавіятуры</string>
   <string name="fling_logo_opacity_title">Празрыстасць лагатыпа Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse не працуе з некаторымі крыніцамі аўдыё падчас праслухоўвання праз дынамік</string>
@@ -487,6 +501,7 @@
   <string name="one_handed_mode_title">Рэжым «Кіраванне адной рукой»</string>
   <string name="one_handed_mode_summary">Дазваляе свайпом па панэлі навігацыі ўключаць рэжым \"Кіраванне адной рукой\"</string>
   <!-- Hardware button navigation -->
+  <string name="hardware_keys_volume_keys_title">Рэгуляванне гучнасці</string>
   <string name="hardware_keys_home_key_title">Кнопка Дадому</string>
   <string name="hardware_keys_menu_key_title">Кнопка Меню</string>
   <string name="hardware_keys_assist_key_title">Кнопка Пошук</string>
@@ -498,7 +513,17 @@
   <string name="hardware_keys_single_tap_title">Дзеянне адзінарнага націску</string>
   <string name="hardware_keys_long_press_title">Дзеянні пры доўгім націску</string>
   <string name="hardware_keys_double_tap_title">Дзеянне пры падвойным націску</string>
+  <string name="hardware_keys_category">Кнопкі навігацыі</string>
+  <string name="hardware_keys_disable_title">Адключыць кнопкі навігацыі</string>
   <!-- Button brightness -->
+  <string name="button_backlight_options_category">Налады падсвятлення кнопак</string>
+  <string name="button_backlight_enable_title">Уключыць падсвятленне кнопак</string>
+  <string name="button_link_brightness">Звязаць з яркасцю экрана</string>
+  <string name="button_link_brightness_summary">Яркасць падсвятлення кнопак будзе рэгулявацца ў залежнасці ад яркасці экрана</string>
+  <string name="button_manual_brightness">Узровень яркасці</string>
+  <string name="button_timeout_title">Працягласць падсвятлення кнопак</string>
+  <string name="button_backlight_on_touch_only_title">Падсвятленне кнопак пры дотыку</string>
+  <string name="button_backlight_on_touch_only_summary">Падсвятляць кнопкі толькі пры дотыку, а не ўвесь час. Працягласць падсвятлення ўплывае на гэтую функцыю.</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Індыкатар роўмінгу</string>
   <string name="roaming_indicator_icon_summary">Адлюстроўваць індыкатар роўмінгу ў значку сеткі пры знаходжанні ў роўмінгу</string>
@@ -534,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Маштаб</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Рэдактар ​​скрыншотаў</string>
+  <string name="screenshot_edit_app_summary">Выберыце які рэдактар ​​выяў выкарыстоўваць для рэдагавання скрыншотаў</string>
+  <string name="screenshot_edit_app_no_editor">Няма даступнага рэдактара малюнкаў</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Гукавыя апавяшчэння і вібрацыя пры ўключаным экране</string>
   <string name="notification_sound_vib_screen_on_never">Ніколі</string>
@@ -565,6 +593,7 @@
   <string name="enable_clock_weekday">Дзень тыдня</string>
   <string name="enable_clock_weekday_summary">Абрэвіятура дня тыдня перад гадзінамі</string>
   <string name="right_clock">Гадзіннік справа</string>
+  <string name="center_clock">Гадзіннік па цэнтры</string>
   <string name="left_clock">Гадзіннік злева</string>
   <string name="dont_show">Не паказваць</string>
   <string name="clock_date_display">Дата</string>
@@ -648,16 +677,122 @@
   <string name="sizer_message_error">Не атрымалася выдаліць, праверце root-правы</string>
   <string name="sizer_message_success">Паспяхова</string>
   <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Вібрацыя пры распазнаванне адбітка пальца</string>
+  <string name="fprint_sucess_vib_summary">Вібраваць пры паспяховай аўтэнтыфікацыі па адбітках пальцаў</string>
   <!-- Disable QS on secure Lockscreen -->
+  <string name="lockscreen_qs_disabled_title">Адключыць хуткія налады на экране блакавання</string>
+  <string name="lockscreen_qs_disabled_summary">Адключыць хуткія налады на экране блакавання</string>
   <!-- Toast Animation -->
+  <string name="toast_animation_title">Анімацыя ўсплываючых апавяшчэнняў</string>
+  <string name="toast_none_animation">Няма</string>
+  <string name="toast_default_animation">Па змаўчанні</string>
+  <string name="toast_fade_animation">Згасанне</string>
+  <string name="toast_SlideRight_animation">Зрух управа</string>
+  <string name="toast_SlideLeft_animation">Зрух улева</string>
+  <string name="toast_Xylon_animation">Xylon</string>
+  <string name="toast_Toko_animation">Toko</string>
+  <string name="toast_Tn_animation">Tn</string>
+  <string name="toast_Honami_animation">Honami</string>
+  <string name="toast_FastFade_animation">Хуткае згасанне</string>
+  <string name="toast_GrowFade_animation">Паступовае згасанне</string>
+  <string name="toast_GrowFadeCenter_animation">Паступовае згасанне ад цэнтра</string>
+  <string name="toast_GrowFadeBottom_animation">Нарастаючае згасанне ўніз</string>
+  <string name="toast_Translucent_animation">Напаўпразрысты</string>
+  <string name="toast_SlideLeftRight_animation">Слайд злева направа</string>
+  <string name="toast_SlideRightLeft_animation">Слайд справа налева</string>
+  <string name="toast_animation_test">Тэст анімацыі ўсплывальных апавяшчэнняў</string>
+  <string name="toast">Усплывальныя апавяшчэнні</string>
   <!-- Animations -->
+  <string name="animations_title">Анімацыі</string>
   <!--3-Finger screenshot-->
+  <string name="three_finger_gesture">Жэст трыма пальцамі</string>
+  <string name="three_finger_gesture_summary">Правядзіце трыма пальцамі для стварэння скрыншота</string>
+  <string name="screenshot_options_category">Опцыі скрыншота</string>
   <!-- AOKP custom system animations -->
+  <string name="system_animation_title">Сістэмныя анімацыі</string>
+  <string name="activity_open_title">Анімацыя адкрыцця дзеяння</string>
+  <string name="activity_close_title">Анімацыя закрыцця дзеяння</string>
+  <string name="task_open_title">Анімацыя адкрыцця задачы</string>
+  <string name="task_open_behind_title">Анімацыя адкрыцця фонавай задачы</string>
+  <string name="task_close_title">Анімацыя закрыцця задачы</string>
+  <string name="task_move_to_front_title">Анімацыя перамяшчэння на пярэдні план</string>
+  <string name="task_move_to_back_title">Анімацыя перамяшчэння на задні план</string>
+  <string name="wallpaper_open_title">Анімацыя адкрыцця шпалер</string>
+  <string name="wallpaper_close_title">Анімацыя закрыцця шпалер</string>
+  <string name="wallpaper_intra_open_title">Анімацыя адкрыцця шпалер знутры</string>
+  <string name="wallpaper_intra_close_title">Анімацыя закрыцця шпалер знутры</string>
+  <string name="animation_duration_title">Працягласць анімацыі</string>
+  <string name="title_animation_no_override">Забараніць анімацыю праграм</string>
+  <string name="summary_animation_no_override">Забараніць праграмам змяняць анімацыю</string>
+  <string name="animation_duration_default">Па змаўчанні</string>
   <!-- ListView animation -->
+  <string name="listview_animation_title">Анімацыя спісаў</string>
+  <string name="listview_off">Па змаўчанні</string>
+  <string name="listview_wave_left">Хваля (злева)</string>
+  <string name="listview_wave_right">Хваля (справа)</string>
+  <string name="listview_alpha">Празрыстасць</string>
+  <string name="listview_scale">Маштаб</string>
+  <string name="listview_stack_top">Зрушэнне (зверху)</string>
+  <string name="listview_stack_bottom">Зрушэнне (знізу)</string>
+  <string name="listview_unfold">Разгортванне</string>
+  <string name="listview_fold">Згортванне</string>
+  <string name="listview_translate_left">Зрушэнне (злева)</string>
+  <string name="listview_translate_right">Зрушэнне (справа)</string>
   <!-- ListView interpolator -->
+  <string name="listview_interpolator_title">Эфекты анімацыі спісаў</string>
+  <string name="listview_accelerate_interpolator">Паскарэнне</string>
+  <string name="listview_decelerate_interpolator">Запаволенне</string>
+  <string name="listview_accelerate_decelerate_interpolator">Паскарэннеі запаволенне</string>
+  <string name="listview_anticipate_interpolator">Апераджэнне</string>
+  <string name="listview_overshoot_interpolator">Выкід</string>
+  <string name="listview_anticipate_overshoot_interpolator">Паскорыць і праскочыць</string>
+  <string name="listview_bounce_interpolator">Адскок</string>
   <!-- Option to enable/disable scrolling cache -->
+  <string name="pref_scrollingcache_title">Кэш пракруткі</string>
+  <string name="pref_scrollingcache_summary">Кэш пракруткі можа павысіць плыўнасць пракруткі за кошт выкарыстання АЗП</string>
+  <string name="pref_scrollingcache_force_enable">Уключыць прымусова</string>
+  <string name="pref_scrollingcache_default_enable">Уключыць па змаўчанні</string>
+  <string name="pref_scrollingcache_default_disable">Адключыць па змаўчанні</string>
+  <string name="pref_scrollingcache_force_disable">Адключыць прымусова</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Памутненне</string>
+  <string name="qs_opacity_category"> Памутненне панелі хуткіх налад</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Стыль анімацыі плітак</string>
+  <string name="qs_tile_animation_style_title">Стыль анімацыі</string>
+  <string name="qs_tile_animation_duration_title">Працягласць анімацыі</string>
+  <string name="qs_tile_animation_interpolator_title">Інтэрпаляцыя анімацыі</string>
+  <string name="qs_tile_animation_style_off">Без анімацыі</string>
+  <string name="qs_tile_animation_style_flip">Пераварот</string>
+  <string name="qs_tile_animation_style_rotate">Кручэнне</string>
+  <string name="qs_tile_animation_duration_low">Павольная</string>
+  <string name="qs_tile_animation_duration_default">Па змаўчанні</string>
+  <string name="qs_tile_animation_duration_fast">Хуткая</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Лінейна</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Паскарэнне</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Запаволенне</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Паскарэнне і запаволенне</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Адскок</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Выкід</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Апераджэнне</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Апераждэнне/Выкід</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">Адлюстраванне на экране блакавання</string>
+  <string name="lockscreen_visualizer_summary">Дысплей адлюстроўвае выяву альбома на экране блакавання</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Стыль анімацыі Android P</string>
+  <string name="system_default_animation_summary">Уключыць анімацыю «Па змаўчанні» з Android P</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

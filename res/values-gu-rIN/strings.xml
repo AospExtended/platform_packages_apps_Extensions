@@ -65,6 +65,7 @@
   <string name="statusbar_items_category">સ્થિતિપટ્ટી આઇટમ્સ</string>
   <!-- Notifications -->
   <string name="notifications_title">સૂચના</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">સંશોધક પટ્ટી</string>
   <!-- Quick Settings -->
@@ -179,4 +180,14 @@
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
   <!-- System default animation -->
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

@@ -74,6 +74,7 @@
   <string name="statusbar_items_category">Значки строки состояния</string>
   <!-- Notifications -->
   <string name="notifications_title">Уведомления</string>
+  <!-- Footer warnings -->
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Панель навигации</string>
   <!-- Quick Settings -->
@@ -242,6 +243,8 @@
   <string name="ringtone_focus_mode_dynamic">Наушники, если они подключены и включена музыка</string>
   <string name="ringtone_focus_mode_stock">"Через динамик"</string>
   <!-- QS footer warnings -->
+  <string name="qs_footer_warnings_title">Предупреждения внизу панели QS</string>
+  <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней части панели QS, когда сеть контролируется сторонними приложениями или VPN</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Виджет часов</string>
   <string name="hide_lockscreen_clock_summary">Изменить видимость виджета часов</string>
@@ -414,7 +417,6 @@
   <string name="fling_longpress_title">Задержка длительного нажатия</string>
   <string name="fling_longpress_summary">Увеличить или уменьшить время, необходимое для длительного нажатия</string>
   <string name="fling_keyboard_cursors_title">Динамическое действие курсора клавиатуры</string>
-  <string name="fling_keyboard_cursors_summary">Двойное нажатие слева и справа становится движениями курсора клавиатуры влево и вправо при открытой клавиатуре</string>
   <string name="fling_logo_opacity_title">Прозрачность логотипа Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Пульс не работает с некоторыми источниками аудио во время прослушивания через динамик</string>
@@ -557,6 +559,9 @@
   <string name="screen_off_animation_crt">CRT</string>
   <string name="screen_off_animation_scale">Маштабирование</string>
   <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Редактор скриншотов</string>
+  <string name="screenshot_edit_app_summary">Выберите какой редактор изображений использовать для редактирования скриншотов</string>
+  <string name="screenshot_edit_app_no_editor">Нет доступного редактора изображений</string>
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">Звуковые уведомления и вибрация при включенном экране</string>
   <string name="notification_sound_vib_screen_on_never">Никогда</string>
@@ -588,6 +593,7 @@
   <string name="enable_clock_weekday">День недели</string>
   <string name="enable_clock_weekday_summary">Аббревиатура дня недели перед часами</string>
   <string name="right_clock">Справа</string>
+  <string name="center_clock">Часы по центру</string>
   <string name="left_clock">Слева</string>
   <string name="dont_show">Не показывать</string>
   <string name="clock_date_display">Дата</string>
@@ -704,6 +710,8 @@
   <string name="screenshot_options_category">Настройки снимка экрана</string>
   <!-- AOKP custom system animations -->
   <string name="system_animation_title">Системные анимации</string>
+  <string name="activity_open_title">Анимация открытия Activity</string>
+  <string name="activity_close_title">Анимация закрытия Activity</string>
   <string name="task_open_title">Анимация открытия задачи</string>
   <string name="task_open_behind_title">Анимация открытия фоновой задачи</string>
   <string name="task_close_title">Анимация закрытия задачи</string>
@@ -733,9 +741,58 @@
   <!-- ListView interpolator -->
   <string name="listview_interpolator_title">Эффекты анимации списков</string>
   <string name="listview_accelerate_interpolator">Ускорение</string>
+  <string name="listview_decelerate_interpolator">Замедление</string>
+  <string name="listview_accelerate_decelerate_interpolator">Ускорение и замедление</string>
+  <string name="listview_anticipate_interpolator">Опережение</string>
+  <string name="listview_overshoot_interpolator">Превышать</string>
+  <string name="listview_anticipate_overshoot_interpolator">Опережение и превышение</string>
+  <string name="listview_bounce_interpolator">Отскок</string>
   <!-- Option to enable/disable scrolling cache -->
+  <string name="pref_scrollingcache_title">Кэш прокрутки</string>
+  <string name="pref_scrollingcache_summary">Кэш прокрутки может повысить плавность прокрутки за счёт использования ОЗУ</string>
+  <string name="pref_scrollingcache_force_enable">Включить принудительно</string>
+  <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
+  <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
+  <string name="pref_scrollingcache_force_disable">Отключить принудительно</string>
   <!-- QuickSettings Panel Transparency -->
+  <string name="qs_panel_alpha_title">Затенение</string>
+  <string name="qs_opacity_category">Непрозрачность панели быстрых настроек</string>
   <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Стиль анимации плиток</string>
+  <string name="qs_tile_animation_style_title">Стиль анимации</string>
+  <string name="qs_tile_animation_duration_title">Длительность анимации</string>
+  <string name="qs_tile_animation_interpolator_title">Интерполяция анимации</string>
+  <string name="qs_tile_animation_style_off">Без анимации</string>
+  <string name="qs_tile_animation_style_flip">Переворот</string>
+  <string name="qs_tile_animation_style_rotate">Вращение</string>
+  <string name="qs_tile_animation_duration_low">Медленная</string>
+  <string name="qs_tile_animation_duration_default">По умолчанию</string>
+  <string name="qs_tile_animation_duration_fast">Быстрая</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Линейно</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение и замедление</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Отскок</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Перекрытие</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Опережение</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Ускорение/Вылет</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
   <!-- Lockscreen visualizer -->
+  <string name="lockscreen_visualizer_title">Отображение на экране блокировки</string>
+  <string name="lockscreen_visualizer_summary">Дисплей отображает картинку альбома на Локскрине</string>
   <!-- System default animation -->
+  <string name="system_default_animation_title">Стиль анимации Android P</string>
+  <string name="system_default_animation_summary">Включить анимацию «По умолчанию» из Android P</string>
+  <!-- Sensor block per-package -->
+  <!-- Battery Bar -->
+  <!-- ANBI -->
+  <!-- Wakelock blocker -->
+  <!-- Alarm blocker -->
+  <!-- Pocket judge -->
+  <!-- Smart Pixels -->
+  <!-- Small quick settings scroller -->
+  <!-- Screen state service -->
+  <!-- QS Headers -->
 </resources>

@@ -53,10 +53,14 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String FP_CAT = "lockscreen_ui_general_category";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String KEY_LOCKSCREEN_CLOCK_SELECTION = "lockscreen_clock_selection";
+    private static final String KEY_LOCKSCREEN_DATE_SELECTION = "lockscreen_date_selection";
 
 
     private SystemSettingSwitchPreference mFingerprintVib;
     private FingerprintManager mFingerprintManager;
+    private ListPreference mLockscreenClockSelection;
+    private ListPreference mLockscreenDateSelection;
 
     private ContentResolver mResolver;
 
@@ -86,6 +90,20 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         fingerprintCategory.removePreference(mFingerprintVib);
         }
 
+        mLockscreenClockSelection = (ListPreference) findPreference(KEY_LOCKSCREEN_CLOCK_SELECTION);
+        int clockSelection = Settings.System.getIntForUser(resolver,
+                Settings.System.LOCKSCREEN_CLOCK_SELECTION, 0, UserHandle.USER_CURRENT);
+        mLockscreenClockSelection.setValue(String.valueOf(clockSelection));
+        mLockscreenClockSelection.setSummary(mLockscreenClockSelection.getEntry());
+        mLockscreenClockSelection.setOnPreferenceChangeListener(this);
+
+        mLockscreenDateSelection = (ListPreference) findPreference(KEY_LOCKSCREEN_DATE_SELECTION);
+        int dateSelection = Settings.System.getIntForUser(resolver,
+                Settings.System.LOCKSCREEN_DATE_SELECTION, 0, UserHandle.USER_CURRENT);
+        mLockscreenDateSelection.setValue(String.valueOf(dateSelection));
+        mLockscreenDateSelection.setSummary(mLockscreenDateSelection.getEntry());
+        mLockscreenDateSelection.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -106,6 +124,20 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
+            return true;
+        } else if (preference == mLockscreenClockSelection) {
+            int clockSelection = Integer.valueOf((String) objValue);
+            int index = mLockscreenClockSelection.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.LOCKSCREEN_CLOCK_SELECTION, clockSelection, UserHandle.USER_CURRENT);
+            mLockscreenClockSelection.setSummary(mLockscreenClockSelection.getEntries()[index]);
+            return true;
+        } else if (preference == mLockscreenDateSelection) {
+            int dateSelection = Integer.valueOf((String) objValue);
+            int index = mLockscreenDateSelection.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.LOCKSCREEN_DATE_SELECTION, dateSelection, UserHandle.USER_CURRENT);
+            mLockscreenDateSelection.setSummary(mLockscreenDateSelection.getEntries()[index]);
             return true;
         }
         

@@ -39,6 +39,12 @@
         android:summary="@string/fprint_sucess_vib_summary"
         android:defaultValue="true" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="wallpaper_keyguard_wallpaper_tint"
+        android:title="@string/wallpaper_tint_keyguard"
+        android:summary="@string/wallpaper_tint_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

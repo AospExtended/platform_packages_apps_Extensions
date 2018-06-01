@@ -305,6 +305,7 @@
     <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_small">Small Digital</string>
     <string name="hide_lockscreen_date_title">Date widget</string>
     <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
     <string name="lockscreen_date_selection_title">Date style</string>

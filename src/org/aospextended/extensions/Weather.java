@@ -69,6 +69,8 @@ public class Weather extends SettingsPreferenceFragment
         final ContentResolver resolver = getActivity().getContentResolver();
         final PackageManager pm = getActivity().getPackageManager();
 
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.lockscreen_weather_footer_warning);
+
         if (Utils.isPackageInstalled(WEATHER_SERVICE_PACKAGE, pm)) {
             String settingsJaws = Settings.System.getString(resolver,
                     Settings.System.OMNIJAWS_WEATHER_ICON_PACK);

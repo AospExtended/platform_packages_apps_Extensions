@@ -1088,5 +1088,7 @@
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For all changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
 
+    <string name="lockscreen_weather_footer_warning">Avoid using Lockscreen weather along with custom Lockscreen clock styles, specially on lower DPI as clock might cut out of screen.</string>
+
 </resources>
 

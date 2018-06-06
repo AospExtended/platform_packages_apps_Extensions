@@ -38,7 +38,8 @@
         <item>@string/lockscreen_clock_selection_analog_deadpool</item>
         <item>@string/lockscreen_clock_selection_sammy</item>
         <item>@string/lockscreen_clock_selection_sammy_bold</item>
-	<item>@string/lockscreen_clock_selection_small</item>
+	    <item>@string/lockscreen_clock_selection_small</item>
+        <item>@string/lockscreen_clock_selection_analog_spidey</item>
     </string-array>
 
     <string-array name="lockscreen_clock_selection_values" translatable="false">
@@ -48,7 +49,8 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
-	<item>6</item>
+	    <item>6</item>
+        <item>7</item>
     </string-array>
 
     <!-- Lockscreen date styles -->

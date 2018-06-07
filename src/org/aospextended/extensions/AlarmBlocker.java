@@ -33,12 +33,14 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.AdapterView;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Iterator;
 import java.util.ArrayList;
@@ -47,8 +49,10 @@ import java.util.HashMap;
 import java.util.Collections;
 
 import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Index;
+import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
-
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 public class AlarmBlocker extends SettingsPreferenceFragment {

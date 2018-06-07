@@ -20,18 +20,25 @@ import android.os.Bundle;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.view.MenuItem;
 
 import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Index;
+import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
+
+import java.util.Arrays;
+import java.util.List;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 public class PieSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        OnPreferenceChangeListener, Indexable {
 
     private static final String KEY_PIE_BATTERY = "pie_battery_mode";
     private static final String KEY_PIE_THEME = "pie_theme_mode";
@@ -115,4 +122,16 @@ public class PieSettings extends SettingsPreferenceFragment implements
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(
+                    Context context, boolean enabled) {
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.pie_settings;
+                return Arrays.asList(sir);
+            }
+    };
 }

@@ -32,24 +32,30 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Index;
+import com.android.settings.search.Indexable;
 import com.android.settings.util.Helpers;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
 
-public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
 
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
     private static final String RECENTS_TYPE = "navigation_bar_recents";
@@ -130,5 +136,17 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
            mGridPinning.setEnabled(true);
 	}
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(
+                    Context context, boolean enabled) {
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.recents_ui;
+                return Arrays.asList(sir);
+            }
+    };
 
 }

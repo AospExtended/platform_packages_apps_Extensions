@@ -17,6 +17,7 @@
 package org.aospextended.extensions;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.res.Resources;
@@ -28,6 +29,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.Menu;
@@ -36,12 +38,18 @@ import android.view.MenuItem;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Index;
+import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
+import java.util.Arrays;
+import java.util.List;
+
 
 public class Traffic extends SettingsPreferenceFragment
-    implements OnPreferenceChangeListener {
+    implements OnPreferenceChangeListener, Indexable {
 
     private static final String TAG = "Traffic";
 
@@ -205,4 +213,16 @@ public class Traffic extends SettingsPreferenceFragment
     private boolean getBit(int intNumber, int intMask) {
         return (intNumber & intMask) == intMask;
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(
+                    Context context, boolean enabled) {
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.traffic;
+                return Arrays.asList(sir);
+            }
+    };
 }

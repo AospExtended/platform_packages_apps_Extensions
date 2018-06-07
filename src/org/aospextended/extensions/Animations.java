@@ -33,6 +33,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
@@ -45,6 +46,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Index;
+import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.aospextended.AwesomeAnimationHelper;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -55,7 +59,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-public class Animations extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class Animations extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
 
     private static final String ACTIVITY_OPEN = "activity_open";
     private static final String ACTIVITY_CLOSE = "activity_close";
@@ -340,5 +344,16 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
         return mAnimationsStrings[mNum];
     }
 
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(
+                    Context context, boolean enabled) {
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.animations;
+                return Arrays.asList(sir);
+            }
+    };
 
 }

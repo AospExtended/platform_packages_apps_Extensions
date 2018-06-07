@@ -39,6 +39,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
@@ -49,6 +50,7 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -59,6 +61,9 @@ import org.aospextended.extensions.preference.CustomSeekBarPreference;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Index;
+import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
@@ -66,7 +71,7 @@ import com.android.internal.util.du.DuUtils;
 import android.hardware.fingerprint.FingerprintManager;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
-public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
 
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
@@ -334,4 +339,16 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         }
         return installed;
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(
+                    Context context, boolean enabled) {
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.lockscreen_ui;
+                return Arrays.asList(sir);
+            }
+    };
 }

@@ -88,6 +88,15 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
 
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
+    private static final String RECENTS_USE_OMNISWITCH = "recents_use_omniswitch";
+    private static final String OMNISWITCH_START_SETTINGS = "omniswitch_start_settings";
+
+    // Package name of the omnniswitch app
+    public static final String OMNISWITCH_PACKAGE_NAME = "org.omnirom.omniswitch";
+    // Intent for launching the omniswitch settings actvity
+    public static Intent INTENT_OMNISWITCH_SETTINGS = new Intent(Intent.ACTION_MAIN)
+            .setClassName(OMNISWITCH_PACKAGE_NAME, OMNISWITCH_PACKAGE_NAME + ".SettingsActivity");
+
     private AlertDialog mDialog;
     private ListView mListView;
     private ListPreference mRecentsClearAllLocation;
@@ -96,6 +105,9 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
     private Preference mStockIconPacks;
     private ListPreference mRecentsType;
     private static final String RECENTS_TYPE = "recents_layout_style";
+    private SwitchPreference mRecentsUseOmniSwitch;
+    private Preference mOmniSwitchSettings;
+    private boolean mOmniSwitchInitCalled;
 
 
     @Override
@@ -104,6 +116,7 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
 
         addPreferencesFromResource(R.xml.recents_ui);
 
+        final PreferenceScreen prefScreen = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
@@ -132,6 +145,22 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
         mRecentsType.setValue(String.valueOf(style));
         mRecentsType.setSummary(mRecentsType.getEntry());
         mRecentsType.setOnPreferenceChangeListener(this);
+        
+        mRecentsUseOmniSwitch = (SwitchPreference)
+                prefScreen.findPreference(RECENTS_USE_OMNISWITCH);
+
+        try {
+            mRecentsUseOmniSwitch.setChecked(Settings.System.getInt(resolver,
+                    Settings.System.RECENTS_OMNI_SWITCH_ENABLED) == 1);
+            mOmniSwitchInitCalled = true;
+        } catch(Exception e){
+            // if the settings value is unset
+        }
+        mRecentsUseOmniSwitch.setOnPreferenceChangeListener(this);
+
+        mOmniSwitchSettings = (Preference)
+                prefScreen.findPreference(OMNISWITCH_START_SETTINGS);
+        mOmniSwitchSettings.setEnabled(mRecentsUseOmniSwitch.isChecked());
 
     }
 
@@ -171,7 +200,18 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
             mRecentsType.setSummary(mRecentsType.getEntries()[index]);
             Utils.restartSystemUi(getContext());
         return true;
-        }
+        }  else if (preference == mRecentsUseOmniSwitch) {
+            boolean value = (Boolean) objValue;
+            // if value has never been set before
+            if (value && !mOmniSwitchInitCalled){
+                openOmniSwitchFirstTimeWarning();
+                mOmniSwitchInitCalled = true;
+            }
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.RECENTS_OMNI_SWITCH_ENABLED, value ? 1 : 0);
+            mOmniSwitchSettings.setEnabled(value);
+            return true;
+         }
         return false;
     }
 
@@ -180,8 +220,21 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
         if (preference == mStockIconPacks) {
             pickIconPack(getContext());
             return true;
-        }
+        } else if (preference == mOmniSwitchSettings) {
+            startActivity(INTENT_OMNISWITCH_SETTINGS);
+            return true;
+		}
         return super.onPreferenceTreeClick(preference);
+    }
+    
+    private void openOmniSwitchFirstTimeWarning() {
+        new AlertDialog.Builder(getActivity())
+                .setTitle(getResources().getString(R.string.omniswitch_first_time_title))
+                .setMessage(getResources().getString(R.string.omniswitch_first_time_message))
+                .setNegativeButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                        }
+                }).show();
     }
 
     /** Recents Icon Pack Dialog **/

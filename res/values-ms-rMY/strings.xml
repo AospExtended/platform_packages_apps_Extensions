@@ -307,7 +307,6 @@
   <string name="smartbar_config_restore_success_toast">Masa profil berjaya dipulihkan</string>
   <string name="smartbar_config_backup_error_toast">Ralat menyimpan Masa profil</string>
   <string name="smartbar_config_restore_error_toast">Ralat mengembalikan Masa profil</string>
-  <string name="navbar_buttons_alpha_title">Butang transparansi</string>
   <string name="smartbar_longpress_delay_title">Butang longpress kelewatan</string>
   <string name="smartbar_longpress_delay_summary">Set berapa lama sistem akan menunggu sebelum memicu suatu tindakan longpress</string>
   <string name="smartbar_longpress_delay_default">Lalai kelewatan (segera)</string>
@@ -346,6 +345,7 @@
   <!-- Less Notification sounds -->
   <string name="face_auto_unlock_title">Muka auto membuka kunci</string>
   <string name="face_auto_unlock_summary">Memecat kunci selepas muka membuka</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="clock_date_format">Format tarikh</string>
   <string name="clock_date_string_edittext_title">Mesti berada di dalam DateFormat contohnya. MM/dd/tt</string>
@@ -383,8 +383,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

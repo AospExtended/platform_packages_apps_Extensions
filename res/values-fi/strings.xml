@@ -53,28 +53,78 @@
   <string name="lockscreen_category">Lukitusnäyttö</string>
   <string name="lockscreen_category_summary">Muokkaa Lukitusnäyttöä</string>
   <string name="navigation_category">Siirtyminen</string>
+  <string name="navigation_category_summary">Muokaa siirtymispalkkia</string>
+  <string name="build_tweaks_summary_title">Viritä sinun laitettasi!</string>
+  <string name="system_animations">Järjestelmän animaatiot</string>
+  <string name="listview">Listanäkymä</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Yleiset Säädöt</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Nettiliikenteen mittari</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Operaattorin nimen teksti</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Muut Laajennukset</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">Viimeaikaiset Sovellusten KL</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">Lukitysnäytön KL</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Tilapalkin sisällöt</string>
   <!-- Notifications -->
+  <string name="notifications_title">Ilmoitukset</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Älykkäät pikselit on virtaa säästävä ominaisuus. Riippuen siitä, kuinka monta pikseliä päätät sammuttaa, pariston parantuminen parani merkittävästi. Hyvän käyttökokemuksen vuoksi suosittelemme, että määrität vammaisten pikselien määrän 75 prosenttiin.</string>
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">Navigointipalkki</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">Pika-asetukset</string>
   <!-- Buttons -->
+  <string name="buttons_title">Painikkeet</string>
   <!-- App Ops -->
+  <string name="app_ops_category">Sovellusten toiminta</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">Auttamalla meitä autat sinua!</string>
+  <string name="extensions_dialog_message">Jos löydät bugin jossain näissä asetuksista, ilmoita siitä \"Bug Reports\" osiossa meidän Google+ sivulla. Sinun on pakko liitää nämä asiat kun raportoit bugista: \n1. Logcat tai last_kmsg \n2. Ydin ja modit jota/joita käytät \n3. Hyödyllistä tietoa. \n\nJos epäonnistut raportoimaan jotain jostakin syystä, ÄLÄ ihmettele, että bugia ei korjata.</string>
+  <string name="extensions_dialog_toast">LUE KOKO JUTTU!</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">Valitse korostusväri</string>
+  <string name="theme_accent_picker_title">Korostusväri</string>
+  <string name="theme_accent_picker_summary">Valitse järjestelmäteeman korostusväri</string>
+  <string name="theme_accent_picker_default">Oletus</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Värin valitsin</string>
+  <string name="press_color_to_apply">Suorita toiminto valitsemalla väri alta</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Aseta</string>
+  <string name="color_default">Oletus</string>
   <!-- Footer warnings -->
   <string name="carrier_label_warning_text">On suositeltavaa että custom operaattorin etiketti ei ole saatavilla extended statusbar alueella, joka tunnetaan myös nimellä pika asetukset alueella. Myös käyttäen emojis kuin operaattorin etiketti saattaa aiheuttaa jonkin verran näkyvyyttä kysymyksiä kevyempi taustat.</string>
   <!-- Battery light -->
+  <string name="battery_light_settings">Akun latauksen ilmotusvalo</string>
+  <string name="battery_light_enable">Akun merkkivalo</string>
+  <string name="battery_light_allow_on_dnd_title">Akun ilmoitusvalo Älä Häiritse-tilassa</string>
+  <string name="battery_light_low_blinking_title">Vilkkuva ilmoitusvalo kun akku vähissä</string>
+  <string name="battery_light_cat">Akun valon väri kun se on latauksessa</string>
+  <string name="battery_light_low_color">Akku vähissä</string>
+  <string name="battery_light_medium_color">Akku puolivälissä</string>
+  <string name="battery_light_full_color">Melkein täysi akku</string>
+  <string name="battery_light_reallyfull_color">Täysi (100%) akku</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Verkkoliikenne</string>
+  <string name="network_traffic_type">Valitse Nettiliikenteen tyyppi</string>
+  <string name="show_network_traffic_up">Ylälinkki</string>
+  <string name="show_network_traffic_down">Alalinkki</string>
+  <string name="show_network_traffic_all">Ylälinkki ja Alalinkki</string>
+  <string name="network_traffic_state_title">Näytä netin aktiivisuus statusbar: ssa</string>
+  <string name="network_traffic_autohide_threshold_title">Netin aktiivisuuden automaattisen piilotuksen raja (KB/s)</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">Tyhjennä kaikki-painike</string>
+  <string name="show_clear_all_recents_button_summary">Ota käyttöön Tyhjennä kaikki -painike</string>
   <!-- Power notification controls -->
   <!-- Quick Settings brightness slider -->
   <!-- Power Menu -->
@@ -126,6 +176,7 @@
   <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <!-- Weather - OmniJaws Settings -->
   <!-- StatusBar weather settings -->
@@ -153,8 +204,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

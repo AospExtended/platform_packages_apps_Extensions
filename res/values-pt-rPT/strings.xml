@@ -44,11 +44,15 @@
   <!-- Extensions categories -->
   <string name="recents_category">Aplicações recentes</string>
   <string name="status_bar_category">Barra de estado</string>
+  <string name="status_bar_category_summary">Personalize a sua gaveta de aplicações</string>
   <string name="notifications_panel_category">Painel de notificações</string>
   <string name="system_category">Sistema</string>
   <string name="lockscreen_category">Ecrã de bloqueio</string>
   <string name="navigation_category">Navegação</string>
+  <string name="navigation_category_summary">Personalizar a barra de navegação</string>
   <string name="build_tweaks_summary_title">Expanda o seu dispositivo!</string>
+  <string name="system_animations">Animações do sistema</string>
+  <string name="listview">Vista de lista</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">Ajustes gerais</string>
@@ -192,6 +196,7 @@
   <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <!-- Weather - OmniJaws Settings -->
   <!-- StatusBar weather settings -->
@@ -219,8 +224,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

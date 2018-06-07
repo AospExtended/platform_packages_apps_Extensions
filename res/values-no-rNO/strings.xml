@@ -200,6 +200,7 @@
   <string name="less_notification_sounds_summary">Spill kunvarslingslyden av hver app bare en gang per sett tidsperiode</string>
   <string name="face_auto_unlock_title">Ansiktet auto unlock</string>
   <string name="face_auto_unlock_summary">Slå av låseskjerm etter ansiktsopplåsing</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="clock_date_display_summary">Vis egendefinert dato før klokken</string>
   <string name="clock_date_string_edittext_summary">Skriv inn streng</string>
@@ -236,8 +237,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

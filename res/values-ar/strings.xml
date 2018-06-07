@@ -54,7 +54,7 @@
   <string name="lockscreen_category_summary">تخصيص شاشة القفل</string>
   <string name="navigation_category">التنقل</string>
   <string name="navigation_category_summary">تخصيص شريط التنقل الخاص بك</string>
-  <string name="build_tweaks_summary_title">قم بتوسيع الجهاز الخاص بك!</string>
+  <string name="build_tweaks_summary_title">قم بتخصيص الجهاز الخاص بك!</string>
   <string name="system_animations">الرسوم المتحركة للنظام</string>
   <string name="listview">عرض القائمة</string>
   <!-- Frags -->
@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">الإشعارات</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">الدقة الذكية هي ميزة حفظ الطاقة. اعتماداً على كم من البكسلات ترغب في إيقاف تشغيلها، يمكن أن ترى تحسنا كبيرا في عمر البطارية. لتجربة جيدة للمستخدم، نوصي بتعيين مقدار بكسل ذوي نسبة 75 في المائة.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">شريط التنقل</string>
   <!-- Quick Settings -->
@@ -243,7 +244,7 @@
   <string name="ringtone_focus_mode_dynamic">من سماعة الرأس إذا كان متصلة وتشغيل الموسيقى</string>
   <string name="ringtone_focus_mode_stock">"من مكبر الصوت (aosp الافتراضي)"</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">تحذيرات تذييل الإعدادات السريعة</string>
+  <string name="qs_footer_warnings_title">تحذيرات أسفل الإعدادات السريعة</string>
   <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">أداة الساعة</string>
@@ -253,7 +254,7 @@
   <string name="hide_lockscreen_alarm_title">نص التنبيه</string>
   <string name="hide_lockscreen_alarm_summary">تغيير درجة الرؤية لنص المنبه تحت أداة الساعة</string>
   <!-- Heads up -->
-  <string name="headsup_category">إعدادات الإشعارات المنبثقة</string>
+  <string name="headsup_category">إعدادات الإشعارات العلوية</string>
   <string name="heads_up_notifications">الإشعارات العلوية</string>
   <string name="summary_heads_up_enabled">تمكين الاشعارات المنبثقة</string>
   <string name="summary_heads_up_disabled">تعطيـل الاشعارات المنبثقة</string>
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">تأخير الضغط المطوّل</string>
   <string name="fling_longpress_summary">زيادة او نقصان الوقت المستغرق لتنفيذ ضغطة طويلة</string>
   <string name="fling_keyboard_cursors_title">عمل مؤشرات ديناميكية للوحة المفاتيح</string>
+  <string name="fling_keyboard_cursors_move_summary">عندما تكون لوحة المفاتيح ظاهرة، ضغطة طويلة الى اليسار أو اليمين لتحريك مؤشر النص إلى اليسار أو اليمين.\nوابقى ضاغطاً للحفاظ على تحريك المؤشر،ضغطة واحدة على الشريط للذهاب إلى الشاشة الرئيسية.</string>
   <string name="fling_logo_opacity_title">عتمة شعار الاندفاع</string>
+  <string name="fling_factory_reset_title">إعادة ضبط للأصلي</string>
+  <string name="fling_factory_reset_confirm">متأكد من انك تريد إعادة ضبط إعدادات الشريط الذكي للإفتراضي؟</string>
+  <string name="fling_backup_current_config_title">حفظ الملف الشخصي</string>
+  <string name="fling_restore_config_title">استعادة الملف الشخصي</string>
+  <string name="fling_config_name_edit_dialog_title">اسم ملف الشريط الذكي</string>
+  <string name="fling_config_name_edit_dialog_message">إختر إسماً أو إتركه فارغاً</string>
+  <string name="fling_config_dialog_title">ملفات الشريط الذكي</string>
+  <string name="fling_config_backup_success_toast">ملف التعريف للشريط الذكي حفظ بنجاح</string>
+  <string name="fling_config_restore_success_toast">تم إستعادة ملف حالة الشريط الذكي بنجاح</string>
+  <string name="fling_config_backup_error_toast">خطأ بحفظ حالة الشريط الذكي</string>
+  <string name="fling_config_restore_error_toast">خطأ بإستعادة حالة الشريط الذكي</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">النبض لا يعمل مع بعض المصادر الصوتية عندما تستخدم سماعة الهاتف</string>
   <string name="pulse_settings">النبض</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">تم إستعادة ملف حالة الشريط الذكي بنجاح</string>
   <string name="smartbar_config_backup_error_toast">خطأ بحفظ حالة الشريط الذكي</string>
   <string name="smartbar_config_restore_error_toast">خطأ بإستعادة حالة الشريط الذكي</string>
-  <string name="navbar_buttons_alpha_title">شفافية الأزرار</string>
   <string name="smartbar_longpress_delay_title">مدة الضغط الطويل على المفتاح</string>
   <string name="smartbar_longpress_delay_summary">تعيين كم من الوقت ينتظر النظام قبل تنفيذ إجراء الضغط الطويل</string>
   <string name="smartbar_longpress_delay_default">المهلة الافتراضية (سريع)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">كل دقيقتين</string>
   <string name="face_auto_unlock_title">إلغاء قفل الوجه تلقائياً</string>
   <string name="face_auto_unlock_summary">صرف النظر عن قفل الشاشة بعد إلغاء قفل الوجه</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">الساعة والتاريخ</string>
   <string name="status_bar_clock_summary">تهيئة ساعة شريط الحالة ومظهر التاريخ</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">نمط الرسوم المتحركة لاندرويد P</string>
   <string name="system_default_animation_summary">تمكين الرسوم المتحركة لاندرويدP \"الافتراضي\"</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">منع الاستشعار لكل حزمة</string>
+  <string name="sensor_block_summary">منع الوصول إلى بعض أجهزة الاستشعار لبعض التطبيقات لحفظ البطارية.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">شريط البطارية</string>
+  <string name="battery_bar_summary">عرض وتخصيص شريط البطارية بالقرب من شريط الحالة أو شريط التنقل</string>
+  <string name="battery_bar">موضع شريط البطارية</string>
+  <string name="battery_bar_no_navbar">موضع شريط البطارية</string>
+  <string name="battery_bar_location_hide">إخفاء</string>
+  <string name="battery_bar_location_statusbar">شريط الحالة</string>
+  <string name="battery_bar_location_top_navbar">أعلى شريط التنقل</string>
+  <string name="battery_bar_location_bottom_navbar">أسفل شريط التنقل</string>
+  <string name="battery_bar_color">لون شريط البطارية</string>
+  <string name="battery_bar_charging_color">لون شريط البطارية عند الشحن</string>
+  <string name="battery_bar_battery_low_color">لون شريط البطارية المنخفضة</string>
+  <string name="battery_bar_cat">نمط شريط البطارية</string>
+  <string name="battery_bar_style_title">محاذاة شريط البطارية</string>
+  <string name="battery_bar_thickness_title">سُمك شريط البطارية</string>
+  <string name="battery_bar_animate_title">مؤثر الحركة أثناء الشحن</string>
+  <string name="battery_bar_style_regular">عادي</string>
+  <string name="battery_bar_style_center_mirrored">معكوس من المركز</string>
+  <string name="battery_bar_style_reversed">عكس</string>
+  <string name="battery_bar_use_charging_color">لون شحن البطارية المخصص</string>
+  <string name="battery_bar_blend_color_title">مزج الألوان</string>
+  <string name="battery_bar_blend_color_summary">مزج الألوان كامل / فارغ تبعا لنسبة البطارية</string>
+  <string name="battery_bar_blend_color_reverse_title">عكس اتجاه الألوان</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">ممتلئ &#8594; فارغ: أحمر &#8592; أخضر &#8592; أزرق &#8592; أحمر</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">ممتلئ &#8594; فارغ: أحمر &#8594; أخضر &#8594; أزرق &#8594; أحمر</string>
   <!-- ANBI -->
+  <string name="anbi_title">اللمس العرضي</string>
+  <string name="anbi_summary">منع التفاعل مع أزرار التنقل أثناء لمس الشاشة</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">قفل التنبيه ومانع التنبيه</string>
+  <string name="wakelock_blocker_title">مانع قفل المنبه</string>
+  <string name="wakelock_blocker_summary">إمنع أقفال منبهات النظام</string>
+  <string name="wakelock_blocker_save">حفظ</string>
+  <string name="wakelock_list_header">أقفال المنبهات المتاحة</string>
+  <string name="wakelock_blocker_reload">إعادة تحميل</string>
+  <string name="wakelock_blocker_warning_title">تقدم بحذر</string>
+  <string name="wakelock_blocker_warning">لمنع اقفال التنبيه إحتمالية تسبيب عدم إستقرار، إنهيارات أو فقدان بيانات</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">مانع المنبه</string>
+  <string name="alarm_blocker_title">تمكين</string>
+  <string name="alarm_blocker_summary">إمنع المنبهات أثناء قفل الشاشة</string>
+  <string name="alarm_blocker_save">حفظ</string>
+  <string name="alarm_list_header">المنبهات المتاحة</string>
+  <string name="alarm_blocker_reload">إعادة تحميل</string>
+  <string name="alarm_blocker_warning_title">تقدم بحذر</string>
+  <string name="alarm_blocker_warning">لمنع المنبهات إحتمالية تسبيب عدم إستقرار، إنهيارات أو فقدان بيانات.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">استشعار الجيب</string>
+  <string name="pocket_judge_summary">إلغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">القائمة السوداء للنشاط المختار</string>
+  <string name="chooser_activity_blacklist_summary">تطبيقات لا تظهر عند النقر على زر المشاركة</string>
+  <string name="chooser_activity_blacklist_cat_title">القائمة السوداء</string>
+  <string name="chooser_activity_blacklist_pref_title">أضف تطبيق</string>
+  <string name="chooser_activity_blacklist_pref_summary">اضغط هنا للأضافة، اضغط على التطبيق المضاف لإزالته</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">الدقة الذكية</string>
+  <string name="smart_pixels_summary">توفير الطاقة بإيقاف الدقة العالية</string>
+  <string name="smart_pixels_enable_title">تمكين الدقة الذكية</string>
+  <string name="smart_pixels_enable_summary">ايقاف الدقة لتوفير الطاقةقم بإيقاف وحدات البكسل لتقليل استهلاك الطاقة</string>
+  <string name="smart_pixels_on_power_save_title">تشغيل تلقائي في وضع توفير الطاقة</string>
+  <string name="smart_pixels_on_power_save_summary">تمكين الدقة الذكية عندما يكون وضع توفير الطاقة قيد التشغيل</string>
+  <string name="smart_pixels_percent">نسبة الدقة لايقافها</string>
+  <string name="smart_pixels_shift_title">حماية الاحتراق</string>
+  <string name="smart_pixels_shift_summary">منع الاحتراق في اجهزة OLED عن طريق نقل وحدات البكسل في كل مرة</string>
+  <string name="lockscreen_items_other">غير ذلك</string>
+  <string name="qs_header_category">ترويسة الإعدادات السريعة</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">تمرير ازرار الإعدادات السريعة الصغيرة</string>
+  <string name="qqs_scroll_summary">السماح بالتمرير خلال الأزرار الصغيرة للإعدادات السريعة</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">تعليق الإجراءات</string>
+  <string name="screen_state_toggles_enable_title">تمكين</string>
+  <string name="screen_state_toggles_enable_summary">سيتم تنفيذ الاجراءات عند قفل الشاشة. عند تشغيل الشاشة سيتم إستعادة الحالة السابقة.</string>
+  <string name="screen_state_toggles_mobile_title">شبكات الهاتف النقال</string>
+  <string name="screen_state_toggles_location_title">الموقع</string>
+  <string name="screen_state_toggles_twog">حول للجيل الثاني</string>
+  <string name="screen_state_toggles_twog_summary">نمط الشبكة سيتحول للجيل الثاني عند قفل الشاشة</string>
+  <string name="screen_state_toggles_gps">تعطيل GPS</string>
+  <string name="screen_state_toggles_gps_summary">سيتم تعطيل GPS عند قفل الشاشة</string>
+  <string name="screen_state_toggles_mobile_data">عطّل بيانات الهاتف</string>
+  <string name="screen_state_toggles_mobile_data_summary">بيانات الهاتف ستتعطل عند قفل الشاشة</string>
+  <string name="screen_state_off_delay_title">مدة تأخير إجراءات قفل الشاشة</string>
+  <string name="screen_state_off_delay_summary">عدد ثواني الإنتظار قبل تأدية الإجراءات بعد قَفل الشاشة</string>
+  <string name="screen_state_on_delay_title">مدة تأخير إجراءات تشغيل الشاشة</string>
+  <string name="screen_state_on_delay_summary">عدد ثواني الإنتظار قبل تأدية الإجراءات بعد تشغيل الشاشة</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">فعّل</string>
+  <string name="daylight_header_pack_title">مجموعة صور الرأس</string>
+  <string name="status_bar_custom_header_shadow_title">تظليل صورة الترويسة</string>
+  <string name="status_bar_custom_header_shadow_summary">لرؤية أفضل على الصور الساطعة</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">صورة ثابتة</string>
+  <string name="daylight_header_provider_title">مجموعة الصور</string>
+  <string name="custom_header_provider_title">مزود الترويسة</string>
+  <string name="custom_header_browse_title">تصفح الترويسات المثبتة</string>
+  <string name="custom_header_browse_summary">إضغط على أي صورة لإختيارها للوضع الثابت</string>
+  <string name="custom_header_browse_summary_new">تصفح كل مجموعات الرؤوس المتاحة</string>
+  <string name="custom_header_pick_title">أختر صورة الترويسة</string>
+  <string name="custom_header_pick_summary">إختر صورة لاستخدامها في الوضع الثابت</string>
+  <string name="style_enabled_summary">الصورة المخصصة للرأس مفعلة</string>
+  <string name="style_disabled_summary">الصورة المخصصة للرأس معطلة</string>
+  <string name="header_provider_disabled">معطل</string>
+  <string name="custom_header_title">صورة ترويسة مخصصة</string>
+  <string name="file_header_select_title">إختار صورة</string>
+  <string name="file_header_select_summary">حدد صورة مخصصة</string>
+  <string name="file_header_provider_title">صورة مخصصة</string>
+  <string name="qs_header_title">ترويسات مخصصة</string>
+  <string name="qs_header_summary">تجميل الإعدادات السريعة مع صور الترويسات المخصصة</string>
+  <string name="qs_running_services_title">رمز الخدمات قيد التشغيل</string>
+  <string name="qs_running_services_summary">إيقاف رمز الخدمات قيد التشغيل في رأس اللوحة</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

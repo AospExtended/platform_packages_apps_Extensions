@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">通知</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">智慧 Pixels 是一項省電功能。這取決於你要關掉多少 Pixels，你就可以看見電池的續航力有明顯的改進。為了讓使用者有比較好的體驗，我們建議你將停用的 Pixels 數量設置為75%。</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">導航列</string>
   <!-- Quick Settings -->
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">長按延遲</string>
   <string name="fling_longpress_summary">增加或減少執行長按所需的時間</string>
   <string name="fling_keyboard_cursors_title">動態鍵盤游標動作</string>
+  <string name="fling_keyboard_cursors_move_summary">當鍵盤顯示時, 長按左或右鍵可將文字游標向左或向右移動. \n 保持長時間的移動游標, 在列上輕觸進入主畫面。</string>
   <string name="fling_logo_opacity_title">滑動手勢標誌不透明度</string>
+  <string name="fling_factory_reset_title">重設為預設值</string>
+  <string name="fling_factory_reset_confirm">確定將掃動手勢重設為預設值？</string>
+  <string name="fling_backup_current_config_title">儲存設定檔</string>
+  <string name="fling_restore_config_title">還原設定檔</string>
+  <string name="fling_config_name_edit_dialog_title">掃動手勢設定檔名稱</string>
+  <string name="fling_config_name_edit_dialog_message">輸入名稱或留白</string>
+  <string name="fling_config_dialog_title">掃動手勢設定檔</string>
+  <string name="fling_config_backup_success_toast">「掃動手勢」設定檔儲存成功</string>
+  <string name="fling_config_restore_success_toast">「掃動手勢」設定檔還原成功</string>
+  <string name="fling_config_backup_error_toast">儲存「掃動手勢」設定檔時發生錯誤</string>
+  <string name="fling_config_restore_error_toast">還原「掃動手勢」設定檔時發生錯誤</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">在裝置喇叭上聆聽時，呼吸燈不適用於某些音訊來源</string>
   <string name="pulse_settings">呼吸燈</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">「智慧列」設定檔還原成功</string>
   <string name="smartbar_config_backup_error_toast">儲存「智慧列」設定檔時發生錯誤</string>
   <string name="smartbar_config_restore_error_toast">還原「智慧列」設定檔時發生錯誤</string>
-  <string name="navbar_buttons_alpha_title">按鈕的透明度</string>
   <string name="smartbar_longpress_delay_title">按鈕長按延遲</string>
   <string name="smartbar_longpress_delay_summary">設定在觸發長按動作之前，系統將等待多少時間</string>
   <string name="smartbar_longpress_delay_default">預設延遲(快)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">每隔 2 分鐘</string>
   <string name="face_auto_unlock_title">臉部自動解鎖</string>
   <string name="face_auto_unlock_summary">解除鎖定畫面後的臉部解鎖</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">時鐘與日期</string>
   <string name="status_bar_clock_summary">配置狀態列時鐘和日期外觀</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Android P 動畫風格</string>
   <string name="system_default_animation_summary">啟用 Andoird P \"預設\" 的動畫</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">阻止個別套件存取感應器</string>
+  <string name="sensor_block_summary">阻止應用程式存取某些傳感器以節省電量</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">電量列</string>
+  <string name="battery_bar_summary">在狀態欄或導航列旁邊顯示和自訂電量條</string>
+  <string name="battery_bar">電量條位置</string>
+  <string name="battery_bar_no_navbar">電量條位置</string>
+  <string name="battery_bar_location_hide">隱藏</string>
+  <string name="battery_bar_location_statusbar">狀態列</string>
+  <string name="battery_bar_location_top_navbar">頂部的導航列</string>
+  <string name="battery_bar_location_bottom_navbar">底部的導航列</string>
+  <string name="battery_bar_color">電量條顏色</string>
+  <string name="battery_bar_charging_color">電量條充電顏色</string>
+  <string name="battery_bar_battery_low_color">電量條低電量顏色</string>
+  <string name="battery_bar_cat">電量條樣式</string>
+  <string name="battery_bar_style_title">電量條對齊方式</string>
+  <string name="battery_bar_thickness_title">電量條粗度</string>
+  <string name="battery_bar_animate_title">充電動畫</string>
+  <string name="battery_bar_style_regular">普通</string>
+  <string name="battery_bar_style_center_mirrored">對稱中央</string>
+  <string name="battery_bar_style_reversed">反向</string>
+  <string name="battery_bar_use_charging_color">自訂充電時的顏色</string>
+  <string name="battery_bar_blend_color_title">混合顏色</string>
+  <string name="battery_bar_blend_color_summary">根據電量百分比混合滿/空顏色</string>
+  <string name="battery_bar_blend_color_reverse_title">反轉顏色方向</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">滿 &#8594; 空：紅 &#8592; 綠 &#8592; 藍 &#8592; 紅</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">滿 &#8594; 空：紅 &#8594; 綠 &#8594; 藍 &#8594; 紅</string>
   <!-- ANBI -->
+  <string name="anbi_title">誤觸</string>
+  <string name="anbi_summary">當觸控螢幕時，避免與導覽列互動</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">喚醒和警報阻擋</string>
+  <string name="wakelock_blocker_title">喚醒阻擋</string>
+  <string name="wakelock_blocker_summary">阻擋系統喚醒</string>
+  <string name="wakelock_blocker_save">儲存</string>
+  <string name="wakelock_list_header">可用的喚醒鎖</string>
+  <string name="wakelock_blocker_reload">重新載入</string>
+  <string name="wakelock_blocker_warning_title">請謹慎操作</string>
+  <string name="wakelock_blocker_warning">阻止喚醒可能會導致不穩定性，發生錯誤或資料遺失</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">警報阻止工具</string>
+  <string name="alarm_blocker_title">開啟</string>
+  <string name="alarm_blocker_summary">螢幕關閉時阻止警報</string>
+  <string name="alarm_blocker_save">儲存</string>
+  <string name="alarm_list_header">可用警報</string>
+  <string name="alarm_blocker_reload">重新載入</string>
+  <string name="alarm_blocker_warning_title">請謹慎操作</string>
+  <string name="alarm_blocker_warning">阻止警報有可能導致不穩定，發生錯誤或資料遺失。</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">口袋檢測</string>
+  <string name="pocket_judge_summary">當裝置在口袋中時阻止螢幕和按鈕輸入</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">選擇器活動黑名單</string>
+  <string name="chooser_activity_blacklist_summary">在點擊分享按鈕時不顯示的應用程式</string>
+  <string name="chooser_activity_blacklist_cat_title">黑名單</string>
+  <string name="chooser_activity_blacklist_pref_title">新增應用程式</string>
+  <string name="chooser_activity_blacklist_pref_summary">輕觸這裡新增、輕觸新增應用程式並移除</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">智慧 Pixels</string>
+  <string name="smart_pixels_summary">透過關閉多餘的 pixels 來節省電池電量</string>
+  <string name="smart_pixels_enable_title">啟用智慧 Pixels</string>
+  <string name="smart_pixels_enable_summary">關閉 pixels 以降低功耗</string>
+  <string name="smart_pixels_on_power_save_title">自動啟用省電模式</string>
+  <string name="smart_pixels_on_power_save_summary">啟用省電模式時啟用智慧 Pixels</string>
+  <string name="smart_pixels_percent">要停用的 pixels 的百分比</string>
+  <string name="smart_pixels_shift_title">螢幕烙印保護</string>
+  <string name="smart_pixels_shift_summary">透過經常移動像素塊來防止使用 OLED 螢幕的裝置烙印</string>
+  <string name="lockscreen_items_other">其它</string>
+  <string name="qs_header_category">QS 標頭</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">滾動快速設定小磁磚</string>
+  <string name="qqs_scroll_summary">允許滾動快速設定小磁磚</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">暫停動作</string>
+  <string name="screen_state_toggles_enable_title">開啟</string>
+  <string name="screen_state_toggles_enable_summary">在螢幕關閉時才執行操作。螢幕開啟後會還原先前的狀態。</string>
+  <string name="screen_state_toggles_mobile_title">行動網路</string>
+  <string name="screen_state_toggles_location_title">位置</string>
+  <string name="screen_state_toggles_twog">切換至 2G</string>
+  <string name="screen_state_toggles_twog_summary">螢幕關閉時網路模式將會切換至 2G</string>
+  <string name="screen_state_toggles_gps">停用 GPS</string>
+  <string name="screen_state_toggles_gps_summary">螢幕關閉時根據 GPS 的定位服務將被停用</string>
+  <string name="screen_state_toggles_mobile_data">停用行動數據</string>
+  <string name="screen_state_toggles_mobile_data_summary">螢幕關閉時將會停用行動數據</string>
+  <string name="screen_state_off_delay_title">螢幕關閉動作延遲</string>
+  <string name="screen_state_off_delay_summary">螢幕關閉後執行動作之前等待的秒數</string>
+  <string name="screen_state_on_delay_title">螢幕關閉動作延遲</string>
+  <string name="screen_state_on_delay_summary">螢幕開啟後執行動作之前等待的秒數</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">開啟</string>
+  <string name="daylight_header_pack_title">標頭圖片集合</string>
+  <string name="status_bar_custom_header_shadow_title">標頭圖片陰影</string>
+  <string name="status_bar_custom_header_shadow_summary">在使用較明亮的圖片時能有更好的可見度</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">靜態圖片</string>
+  <string name="daylight_header_provider_title">圖像集合</string>
+  <string name="custom_header_provider_title">標頭提供者</string>
+  <string name="custom_header_browse_title">瀏覽已安裝的標頭</string>
+  <string name="custom_header_browse_summary">按一下任何圖片以供靜態模式使用</string>
+  <string name="custom_header_browse_summary_new">瀏覽所有可用的標頭集合</string>
+  <string name="custom_header_pick_title">選擇標頭圖片</string>
+  <string name="custom_header_pick_summary">選擇要用於靜態模式的圖片</string>
+  <string name="style_enabled_summary">自訂標頭圖片已開啟</string>
+  <string name="style_disabled_summary">自訂標頭圖片已關閉</string>
+  <string name="header_provider_disabled">停用</string>
+  <string name="custom_header_title">自訂標頭圖片</string>
+  <string name="file_header_select_title">選擇圖片</string>
+  <string name="file_header_select_summary">選擇自訂圖片</string>
+  <string name="file_header_provider_title">自定圖片</string>
+  <string name="qs_header_title">自訂標頭</string>
+  <string name="qs_header_summary">使用自訂標頭美化快速設置</string>
+  <string name="qs_running_services_title">運行服務圖標</string>
+  <string name="qs_running_services_summary">停用標頭上執行中的服務圖示</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

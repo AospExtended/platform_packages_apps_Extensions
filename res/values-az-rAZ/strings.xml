@@ -391,7 +391,6 @@
   <string name="smartbar_ime_action_none">Heç biri</string>
   <string name="smartbar_backup_current_config_title">Profili yaddaşda saxla</string>
   <string name="smartbar_restore_config_title">Profili bərpa et</string>
-  <string name="navbar_buttons_alpha_title">Düymə şəffaflığı</string>
   <string name="smartbar_longpress_delay_title">Düyməyə uzun basma gecikməsi</string>
   <string name="smartbar_longpress_delay_summary">Sistemin uzun basma hərəkəti tətiklənmədən əvvəl nə qədər vaxt gözləyəcəyini seçin</string>
   <string name="smartbar_longpress_delay_default">Standart gecikmə (sürətli)</string>
@@ -431,6 +430,7 @@
   <string name="less_notification_sounds_30s">Hər 30 saniyədə</string>
   <string name="less_notification_sounds_1m">Hər dəqiqə</string>
   <string name="face_auto_unlock_title">Üz ilə avtomatik kilid açma</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="clock_date_display">Tarix</string>
   <string name="clock_date_style">Tarix stili</string>
@@ -470,8 +470,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

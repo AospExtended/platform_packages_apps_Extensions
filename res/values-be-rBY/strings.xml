@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Апавяшчэнні</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Разумныя пікселі - сродак эканоміі зарада. У залежнасці ад таго, колькі пікселяў вы захочаце адключыць, гэта можа прывесці да значнага павелічэння часу жыцця батарэі. Для аптымальнага карыстання прыладай, раім вам усталяваць колькасць адключаных пікселяў на 75%.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Панэль навігацыі</string>
   <!-- Quick Settings -->
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">Затрымка доўгага націску</string>
   <string name="fling_longpress_summary">Павялічыць або паменшыць час, неабходнае для працяглага націску</string>
   <string name="fling_keyboard_cursors_title">Дынамічнае дзеянне курсора клавіятуры</string>
+  <string name="fling_keyboard_cursors_move_summary">Калі адлюстроўваецца клавіятура, доўгі націск на стрэлачкі налева або направа перамяшчае тэкставы курсор налева або направа.\nУтрымлівайце, каб працягнуць перасоўванне курсора або націсніце на панэль, каб перайсці да хатняга экрану.</string>
   <string name="fling_logo_opacity_title">Празрыстасць лагатыпа Fling</string>
+  <string name="fling_factory_reset_title">Скінуць да налад па змаўчанні</string>
+  <string name="fling_factory_reset_confirm">Вы ўпэўненыя што вы хочаце скінуць налады Fling да налад па змаўчанні?</string>
+  <string name="fling_backup_current_config_title">Захаваць профіль</string>
+  <string name="fling_restore_config_title">Аднавіць профіль</string>
+  <string name="fling_config_name_edit_dialog_title">Назва профілю Fling</string>
+  <string name="fling_config_name_edit_dialog_message">Увядзіце назву або пакіньце пустым</string>
+  <string name="fling_config_dialog_title">Профілі Fling</string>
+  <string name="fling_config_backup_success_toast">Профіль Fling паспяхова захаваны</string>
+  <string name="fling_config_restore_success_toast">Профіль Fling паспяхова адноўлены</string>
+  <string name="fling_config_backup_error_toast">Памылка пры захаванні профілю Fling</string>
+  <string name="fling_config_restore_error_toast">Памылка пры аднаўленні профілю Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse не працуе з некаторымі крыніцамі аўдыё падчас праслухоўвання праз дынамік</string>
   <string name="pulse_settings">Pulse</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Профіль Smartbar паспяхова адноўлены</string>
   <string name="smartbar_config_backup_error_toast">Памылка пры захаванні профілю Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Памылка пры аднаўленні профілю Smartbar</string>
-  <string name="navbar_buttons_alpha_title">Празрыстасць кнопак</string>
   <string name="smartbar_longpress_delay_title">Затрымка доўгага націску кнопкі</string>
   <string name="smartbar_longpress_delay_summary">Усталюйце, як доўга сістэма будзе чакаць, перш чым рэагаваць на доўгі націск</string>
   <string name="smartbar_longpress_delay_default">Стандартная затрымка (хутка)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">Кожныя 2 хвіліны</string>
   <string name="face_auto_unlock_title">Аўтаматычная разблакоўка сканарам асобы</string>
   <string name="face_auto_unlock_summary">Прыбраць экран блакавання пасля разблакоўкі сканарам асобы</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Гадзіннік і дата</string>
   <string name="status_bar_clock_summary">Налады адлюстравання даты і часу</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Стыль анімацыі Android P</string>
   <string name="system_default_animation_summary">Уключыць анімацыю «Па змаўчанні» з Android P</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Блакіроўка датчыкаў</string>
+  <string name="sensor_block_summary">Заблакаваць доступ да датчыкаў для некаторых праграм для эканоміі зарада батарэі.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Індыкатар зарада батарэі</string>
+  <string name="battery_bar_summary">Адлюстраванне і налада панэлі батарэі каля панэлі стану ці панэлі навігацыі</string>
+  <string name="battery_bar">Размяшчэнне індыкатара батарэі</string>
+  <string name="battery_bar_no_navbar">Размяшчэнне індыкатара батарэі</string>
+  <string name="battery_bar_location_hide">Схаваць</string>
+  <string name="battery_bar_location_statusbar">Радок стану</string>
+  <string name="battery_bar_location_top_navbar">Зверху панэлі навігацыі</string>
+  <string name="battery_bar_location_bottom_navbar">Знізу панэлі навігацыі</string>
+  <string name="battery_bar_color">Колер панэлі зарада батарэі</string>
+  <string name="battery_bar_charging_color">Колер панэлі зарада батарэі пры зарадцы</string>
+  <string name="battery_bar_battery_low_color">Колер панэлі зарада батарэі пры нізкім зарадзе акумулятара</string>
+  <string name="battery_bar_cat">Стыль панэлі зарада батарэі</string>
+  <string name="battery_bar_style_title">Выраўноўванне панэлі зарада батарэі</string>
+  <string name="battery_bar_thickness_title">Таўшчыня панэлі зарада батарэі</string>
+  <string name="battery_bar_animate_title">Анімацыя зарадкі</string>
+  <string name="battery_bar_style_regular">Звычайная</string>
+  <string name="battery_bar_style_center_mirrored">Па цэнтры (люстрана)</string>
+  <string name="battery_bar_style_reversed">Наадварот</string>
+  <string name="battery_bar_use_charging_color">Наладзіць колер пры зарадцы</string>
+  <string name="battery_bar_blend_color_title">Змешваць колеры</string>
+  <string name="battery_bar_blend_color_summary">Змешаныя поўныя/пустыя колеры ў адпаведнасці з адсоткаў акумулятара</string>
+  <string name="battery_bar_blend_color_reverse_title">Адваротны напрамак колеру</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Поўны &#8594; пусты: чырвоны &#8592; зялёны &#8592; сіні &#8592; чырвоны</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Поўны &#8594; пусты: чырвоны &amp;&#8594; зялёны &#8594; сіні &#8594; чырвоны</string>
   <!-- ANBI -->
+  <string name="anbi_title">Выпадковы дотык</string>
+  <string name="anbi_summary">Прадухіляць узаемадзеяння з кнопкамі навігацыі пры націску на экран</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">Блакіроўка Wakelock і Alarm</string>
+  <string name="wakelock_blocker_title">Блакавальнік Wakelock</string>
+  <string name="wakelock_blocker_summary">Блакаваць сістэмныя Wakelock</string>
+  <string name="wakelock_blocker_save">Захаваць</string>
+  <string name="wakelock_list_header">Даступныя wakelocks</string>
+  <string name="wakelock_blocker_reload">Абнавіць</string>
+  <string name="wakelock_blocker_warning_title">Выкарыстоўвайце на свой страх і рызыку</string>
+  <string name="wakelock_blocker_warning">Блакіроўка wakelocks можа выклікаць нестабільнасць, памылкі і страту дадзеных</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Блакіроўка *alarms*</string>
+  <string name="alarm_blocker_title">Уключыць</string>
+  <string name="alarm_blocker_summary">Заблакаваць *alarms* пры выключаным экране</string>
+  <string name="alarm_blocker_save">Захаваць</string>
+  <string name="alarm_list_header">Даступныя *alarms*</string>
+  <string name="alarm_blocker_reload">Абнавіць</string>
+  <string name="alarm_blocker_warning_title">Выкарыстоўвайце на свой страх і рызыку</string>
+  <string name="alarm_blocker_warning">Блакіроўка *alarms* можа выклікаць нестабільнасць, памылкі і страту дадзеных.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Рэжым \"У кішэні\"</string>
+  <string name="pocket_judge_summary">Блакаваць экран і кнопкі, калі прылада знаходзіцца ў кішэні</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">Выберыце дзейнасць у чорным спісе</string>
+  <string name="chooser_activity_blacklist_summary">Праграмы не будуць адлюстроўвацца пры націску кнопкі Падзяліцца</string>
+  <string name="chooser_activity_blacklist_cat_title">Чорны спіс</string>
+  <string name="chooser_activity_blacklist_pref_title">Дадаць праграму</string>
+  <string name="chooser_activity_blacklist_pref_summary">Націсніце тут, каб дадаць, або націсніце на дададзеную праграму, каб выдаліць яе</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Разумныя пікселі</string>
+  <string name="smart_pixels_summary">Эканомце зарад батарэі, адключаючы дадатковыя пікселі</string>
+  <string name="smart_pixels_enable_title">Уключыць разумныя пікселі</string>
+  <string name="smart_pixels_enable_summary">Для таго, каб паменшыць спажыванне энергіі, перакрыць пікселі</string>
+  <string name="smart_pixels_on_power_save_title">Аўтаматычнае ўключэнне пры энэргазахаванні</string>
+  <string name="smart_pixels_on_power_save_summary">Актываваць разумныя пікселі пры ўключэнні энэргазахавання</string>
+  <string name="smart_pixels_percent">Адсотак пікселяў, для адключэння</string>
+  <string name="smart_pixels_shift_title">Абарона ад выгарання</string>
+  <string name="smart_pixels_shift_summary">Пазбягайце выгаранне экрана OLED, перамяшчаючы час ад часу пікселі</string>
+  <string name="lockscreen_items_other">Iншае</string>
+  <string name="qs_header_category">Загаловак хуткіх налад</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">Прагортка маленькіх плітак</string>
+  <string name="qqs_scroll_summary">Дазволіць прагортку маленькіх плітак хуткіх налад</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Дзеянні пры выключэнні экрана</string>
+  <string name="screen_state_toggles_enable_title">Уключыць</string>
+  <string name="screen_state_toggles_enable_summary">Дзеянні будуць выконвацца пры выключэнні экрана. Пры ўключэнні будзе адноўлены папярэдні стан.</string>
+  <string name="screen_state_toggles_mobile_title">Мабільныя сеткі</string>
+  <string name="screen_state_toggles_location_title">Месцазнаходжанне</string>
+  <string name="screen_state_toggles_twog">Пераключыцца на 2G</string>
+  <string name="screen_state_toggles_twog_summary">Рэжым сеткі будзе пераключаны ў 2G пры выключаным экране</string>
+  <string name="screen_state_toggles_gps">Адключыць GPS</string>
+  <string name="screen_state_toggles_gps_summary">Месцазнаходжанне па GPS будзе адключана пры выключэнні экрана</string>
+  <string name="screen_state_toggles_mobile_data">Адключыць перадачу дадзеных</string>
+  <string name="screen_state_toggles_mobile_data_summary">Выключыць перадачу дадзеных пасля адключэння экрана</string>
+  <string name="screen_state_off_delay_title">Затрымка адключэння экрана</string>
+  <string name="screen_state_off_delay_summary">Затрымка перад выкананнем дзеянняў пасля выключэння экрана</string>
+  <string name="screen_state_on_delay_title">Затрымка пры ўключэнні экрана</string>
+  <string name="screen_state_on_delay_summary">Затрымка перад выкананнем дзеянняў пасля ўключэння экрана</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">Уключыць</string>
+  <string name="daylight_header_pack_title">Калекцыя выяў загалоўка</string>
+  <string name="status_bar_custom_header_shadow_title">Цень выявы ў загалоўку</string>
+  <string name="status_bar_custom_header_shadow_summary">Для лепшай бачнасці на светлых выявах</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Статычная выява</string>
+  <string name="daylight_header_provider_title">Калекцыя выяў</string>
+  <string name="custom_header_provider_title">Аператар у загалоўку</string>
+  <string name="custom_header_browse_title">Агляд усталяваных загалоўкаў</string>
+  <string name="custom_header_browse_summary">Націск на любую выяву, для пераводу ў статычны рэжым</string>
+  <string name="custom_header_browse_summary_new">Вы можаце праглядзець усе даступныя калекцыі загалоўкаў</string>
+  <string name="custom_header_pick_title">Абярыце выяву загалоўка</string>
+  <string name="custom_header_pick_summary">Абярыце выяву, якую вы хочаце выкарыстоўваць для статычнага рэжыму</string>
+  <string name="style_enabled_summary">Загалоўкі карыстацкіх выяў уключаны</string>
+  <string name="style_disabled_summary">Загалоўкі карыстацкіх выяў адключаны</string>
+  <string name="header_provider_disabled">Адключана</string>
+  <string name="custom_header_title">Карыстацкая выява ў загалоўку</string>
+  <string name="file_header_select_title">Выберыце выяву</string>
+  <string name="file_header_select_summary">Выбар карыстацкіх выяў</string>
+  <string name="file_header_provider_title">Карыстацкая выява</string>
+  <string name="qs_header_title">Карыстацкія загалоўкі</string>
+  <string name="qs_header_summary">Упрыгожыць хуткія налады карыстацкімі загалоўкамі</string>
+  <string name="qs_running_services_title">Значок запуску паслугі</string>
+  <string name="qs_running_services_summary">Адключыць значок пліткі запушчаных службаў у зносцы</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

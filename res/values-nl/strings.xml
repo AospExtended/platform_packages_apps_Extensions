@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Meldingen</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Slimme pixels is een energiebesparende functie. Afhankelijk van hoeveel pixels je uitschakelt, zie je een aanzienlijke verbetering van de prestatie van de batterij. Voor een goede gebruikservaring adviseren wij een waarde van 75 procent.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Navigatiebalk</string>
   <!-- Quick Settings -->
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">Lang klik vertraging</string>
   <string name="fling_longpress_summary">Verlengen of verkorten van de tijd die nodig is voor het uitvoeren van een lange druk</string>
   <string name="fling_keyboard_cursors_title">Dynamische toetsenbord cursors actie</string>
+  <string name="fling_keyboard_cursors_move_summary">Wanneer het toetsenbord wordt weergegeven, druk lang links of rechts om de tekstcursor naar links of rechts te verplaatsen. \nBlijf indrukken om de cursor te blijven verplaatsen, druk eenmaal op de balk om terug naar het home scherm te gaan.</string>
   <string name="fling_logo_opacity_title">Transparantie Fling logo</string>
+  <string name="fling_factory_reset_title">Reset naar standaard</string>
+  <string name="fling_factory_reset_confirm">Weet u zeker dat u Fling naar standaard instellingen wilt herstellen?</string>
+  <string name="fling_backup_current_config_title">Profiel opslaan</string>
+  <string name="fling_restore_config_title">Profiel herstellen</string>
+  <string name="fling_config_name_edit_dialog_title">Fling profielnaam</string>
+  <string name="fling_config_name_edit_dialog_message">Voer naam in of laat leeg</string>
+  <string name="fling_config_dialog_title">Fling profielen</string>
+  <string name="fling_config_backup_success_toast">Fling profiel opgeslagen</string>
+  <string name="fling_config_restore_success_toast">Fling profiel ingeladen</string>
+  <string name="fling_config_backup_error_toast">Fout bij opslaan Fling profiel</string>
+  <string name="fling_config_restore_error_toast">Fout bij inladen Fling profiel</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse werkt niet met sommige audio bronnen bij het luisteren via luidspreker</string>
   <string name="pulse_settings">Pulse</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Slimme balk profiel hersteld</string>
   <string name="smartbar_config_backup_error_toast">Fout bij opslaan Slimme balk profiel</string>
   <string name="smartbar_config_restore_error_toast">Fout bij herstellen Slimme balk profiel</string>
-  <string name="navbar_buttons_alpha_title">Knop transparantie</string>
   <string name="smartbar_longpress_delay_title">Vertraging lang drukken knop</string>
   <string name="smartbar_longpress_delay_summary">Instellen hoe lang het systeem zal wachten voor triggeren van een lange druk actie</string>
   <string name="smartbar_longpress_delay_default">Standaard vertraging (snel)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">Elke 2 minuten</string>
   <string name="face_auto_unlock_title">Gezicht automatisch ontgrendelen</string>
   <string name="face_auto_unlock_summary">Vergrendelscherm afwijzen na gezichtsontgrendeling</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Klok en Datum</string>
   <string name="status_bar_clock_summary">Weergave klok en datum aanpassen</string>
@@ -786,13 +799,58 @@
   <string name="system_default_animation_title">Android P animatiestijl</string>
   <string name="system_default_animation_summary">\"Standaard\" animaties van Android P inschakelen</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Sensorblokkering per pakket</string>
+  <string name="sensor_block_summary">Weiger toegang tot bepaalde sensoren voor bepaalde apps om batterij te besparen.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Accubalk</string>
+  <string name="battery_bar_summary">Weergeven en aanpassen van de accubalk naast de statusbalk of navigatiebalk</string>
+  <string name="battery_bar">Accubalk locatie</string>
+  <string name="battery_bar_no_navbar">Accubalk locatie</string>
+  <string name="battery_bar_location_hide">Verbergen</string>
+  <string name="battery_bar_location_statusbar">Statusbalk</string>
+  <string name="battery_bar_location_top_navbar">Bovenkant van de navigatiebalk</string>
+  <string name="battery_bar_location_bottom_navbar">Onderkant van de navigatiebalk</string>
+  <string name="battery_bar_color">Kleur accubalk</string>
+  <string name="battery_bar_charging_color">Kleur accubalk bij opladen</string>
+  <string name="battery_bar_battery_low_color">Kleur accubalk bij bijna-leeg</string>
+  <string name="battery_bar_cat">Accubalk stijl</string>
+  <string name="battery_bar_style_title">Accubalk uitlijning</string>
+  <string name="battery_bar_thickness_title">Dikte accubalk</string>
+  <string name="battery_bar_animate_title">Oplaad animatie</string>
+  <string name="battery_bar_style_regular">Normaal</string>
+  <string name="battery_bar_style_center_mirrored">Midden-gespiegeld</string>
+  <string name="battery_bar_style_reversed">Omgekeerd</string>
+  <string name="battery_bar_use_charging_color">Aangepaste kleur opladen</string>
+  <string name="battery_bar_blend_color_title">Kleuren mengen</string>
+  <string name="battery_bar_blend_color_summary">Meng volle/lege kleuren aan de hand van batterij percentage</string>
+  <string name="battery_bar_blend_color_reverse_title">Kleurrichting omdraaien</string>
   <!-- ANBI -->
+  <string name="anbi_title">Toevallige aanraking</string>
   <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_save">Opslaan</string>
+  <string name="wakelock_list_header">Beschikbare wakelocks</string>
+  <string name="wakelock_blocker_reload">Opnieuw laden</string>
+  <string name="wakelock_blocker_warning_title">Wees voorzichtig</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker_title">Inschakelen</string>
+  <string name="alarm_blocker_summary">Blokkeer alarmen als het scherm uit is</string>
+  <string name="alarm_blocker_save">Opslaan</string>
+  <string name="alarm_list_header">Beschikbare alarmen</string>
+  <string name="alarm_blocker_reload">Opnieuw laden</string>
+  <string name="alarm_blocker_warning_title">Wees voorzichtig</string>
+  <string name="alarm_blocker_warning">Het blokkeren van alarmen kan instabiliteit of dataverlies veroorzaken.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Broekzak detectie</string>
+  <string name="pocket_judge_summary">Scherm- en toetsaanrakingen blokkeren wanneer het apparaat in de broekzak zit</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_cat_title">Zwarte lijst</string>
+  <string name="chooser_activity_blacklist_pref_title">App toevoegen</string>
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

@@ -477,7 +477,6 @@
   <string name="smartbar_config_restore_success_toast">Tagumpay na ibalik ang smartbar propayl</string>
   <string name="smartbar_config_backup_error_toast">Mali ang pa-save ng smartbar propayl</string>
   <string name="smartbar_config_restore_error_toast">Mali ang pag balik ng smartbar propayl</string>
-  <string name="navbar_buttons_alpha_title">Ang pag aninag sa button</string>
   <string name="smartbar_longpress_delay_title">Antala sa pag pindot ng mahaba sa button</string>
   <string name="smartbar_longpress_delay_summary">I-set kung gaano katagal mag aantay ang sistema bago kalabitin ng aksyon sa mahabang pag pinduto</string>
   <string name="smartbar_longpress_delay_default">Naantala ang pag-default (fast)</string>
@@ -551,6 +550,7 @@
   <string name="less_notification_sounds_2m">Tuwing 2 minuto</string>
   <string name="face_auto_unlock_title">Mukha unlock ng auto</string>
   <string name="face_auto_unlock_summary">Bale-walain ang lockscreen pagkatapos ma-unlock ang mukha</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Orasan at Petsa</string>
   <string name="status_bar_clock_summary">I-configure ang hitsura ng statusbar na orasan at petsa</string>
@@ -666,8 +666,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

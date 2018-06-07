@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">通知</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">智能像素是一种省电功能。根据您决定关闭的像素数量，您可以看到手机续航时间有了显著的改善。为了良好的用户体验，建议您将禁用的像素数量设置为75%</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">导航栏</string>
   <!-- Quick Settings -->
@@ -244,7 +245,7 @@
   <string name="ringtone_focus_mode_stock">"从麦克风（aosp默认）"</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">快速设置页脚警告</string>
-  <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示警告。</string>
+  <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置面板底部显示警告。</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">时钟部件</string>
   <string name="hide_lockscreen_clock_summary">更改时钟部件的可见性</string>
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">长按延迟</string>
   <string name="fling_longpress_summary">增加或减少执行长按的时间</string>
   <string name="fling_keyboard_cursors_title">动态键盘光标操作</string>
+  <string name="fling_keyboard_cursors_move_summary">显示键盘时，长按左键或右键可将光标向左或向右移动。\n长按按键以移动光标，单击按键栏回到主屏幕。</string>
   <string name="fling_logo_opacity_title">Fling logo 不透明度</string>
+  <string name="fling_factory_reset_title">恢复默认设置</string>
+  <string name="fling_factory_reset_confirm">你确定重置 Fling 为默认设置？</string>
+  <string name="fling_backup_current_config_title">保存配置文件</string>
+  <string name="fling_restore_config_title">恢复配置文件</string>
+  <string name="fling_config_name_edit_dialog_title">Fling 配置文件名称</string>
+  <string name="fling_config_name_edit_dialog_message">请输入名称或留空</string>
+  <string name="fling_config_dialog_title">Fling 配置文件</string>
+  <string name="fling_config_backup_success_toast">Fling 配置文件保存成功</string>
+  <string name="fling_config_restore_success_toast">Fling 配置文件还原成功</string>
+  <string name="fling_config_backup_error_toast">保存 Fling 配置文件时出错</string>
+  <string name="fling_config_restore_error_toast">恢复 Fling 配置文件时出错</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">当扬声器正在播放音频时，某些音频脉冲将不能正常工作</string>
   <string name="pulse_settings">Pulse</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Smartbar 配置文件已成功恢复</string>
   <string name="smartbar_config_backup_error_toast">保存 Smart Bar 配置文件时出错</string>
   <string name="smartbar_config_restore_error_toast">恢复 Smart Bar 配置文件时出错</string>
-  <string name="navbar_buttons_alpha_title">按键透明度</string>
   <string name="smartbar_longpress_delay_title">按键长按延迟</string>
   <string name="smartbar_longpress_delay_summary">设置系统在触发长按动作之前的等待时间</string>
   <string name="smartbar_longpress_delay_default">默认(低)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">每 2 分钟</string>
   <string name="face_auto_unlock_title">人脸自动解锁</string>
   <string name="face_auto_unlock_summary">人脸解锁后自动解除锁屏</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">时钟和日期</string>
   <string name="status_bar_clock_summary">配置状态栏时钟和日期外观</string>
@@ -649,9 +662,9 @@
   <string name="battery_style_port">纵向</string>
   <string name="battery_style_land">横向</string>
   <string name="battery_style_circle">环形</string>
-  <string name="battery_style_dotted_circle">虚线圆圈</string>
+  <string name="battery_style_dotted_circle">环形虚线</string>
   <string name="battery_style_big_circle">大圆圈</string>
-  <string name="battery_style_big_dotted_circle">大虚线圆圈</string>
+  <string name="battery_style_big_dotted_circle">大环形虚线</string>
   <string name="battery_style_square">方形</string>
   <string name="battery_style_text">文本</string>
   <string name="battery_style_hidden">隐藏</string>
@@ -758,7 +771,7 @@
   <string name="qs_panel_alpha_title">不透明度</string>
   <string name="qs_opacity_category">快速设置面板不透明度</string>
   <!-- Tiles animation/interpolator style  -->
-  <string name="qs_tile_animation_category">快速设置瓷贴动画</string>
+  <string name="qs_tile_animation_category">快速设置磁贴动画</string>
   <string name="qs_tile_animation_style_title">动画样式</string>
   <string name="qs_tile_animation_duration_title">动画时长</string>
   <string name="qs_tile_animation_interpolator_title">动画插值器</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Android P 动画风格</string>
   <string name="system_default_animation_summary">启用 Android P \"默认\" 动画</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">阻止个別应用使用传感器</string>
+  <string name="sensor_block_summary">阻止某些应用访问特定的传感器以节省电池电量。</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">电量条</string>
+  <string name="battery_bar_summary">显示和自定义在状态栏或导航栏附近的电量条</string>
+  <string name="battery_bar">电量条位置</string>
+  <string name="battery_bar_no_navbar">电量条位置</string>
+  <string name="battery_bar_location_hide">隐藏</string>
+  <string name="battery_bar_location_statusbar">状态栏</string>
+  <string name="battery_bar_location_top_navbar">导航栏顶部</string>
+  <string name="battery_bar_location_bottom_navbar">导航栏底部</string>
+  <string name="battery_bar_color">电量条颜色</string>
+  <string name="battery_bar_charging_color">充电时电量条颜色</string>
+  <string name="battery_bar_battery_low_color">低电量时电量条颜色</string>
+  <string name="battery_bar_cat">电量条样式</string>
+  <string name="battery_bar_style_title">电量条对齐方式</string>
+  <string name="battery_bar_thickness_title">电量条厚度</string>
+  <string name="battery_bar_animate_title">充电动画</string>
+  <string name="battery_bar_style_regular">常规</string>
+  <string name="battery_bar_style_center_mirrored">中心镜像</string>
+  <string name="battery_bar_style_reversed">反转</string>
+  <string name="battery_bar_use_charging_color">自定义充电颜色</string>
+  <string name="battery_bar_blend_color_title">混合颜色</string>
+  <string name="battery_bar_blend_color_summary">根据电量百分比混合满/空颜色</string>
+  <string name="battery_bar_blend_color_reverse_title">反转颜色方向</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">满 → 空： 红 ← 绿 ← 蓝 ← 红 </string>
+  <string name="battery_bar_blend_color_reverse_summary_on">满 → 空： 红→  绿→  蓝 → 红</string>
   <!-- ANBI -->
+  <string name="anbi_title">误触</string>
+  <string name="anbi_summary">当触摸屏幕时防止和导航按键交互</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">唤醒锁和警报拦截器</string>
+  <string name="wakelock_blocker_title">唤醒锁拦截器</string>
+  <string name="wakelock_blocker_summary">阻断系统唤醒锁</string>
+  <string name="wakelock_blocker_save">保存</string>
+  <string name="wakelock_list_header">可用唤醒锁</string>
+  <string name="wakelock_blocker_reload">重新加载</string>
+  <string name="wakelock_blocker_warning_title">请谨慎操作</string>
+  <string name="wakelock_blocker_warning">拦截唤醒锁可能导致系统不稳定、崩溃或数据丢失。</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">警报拦截器</string>
+  <string name="alarm_blocker_title">启用</string>
+  <string name="alarm_blocker_summary">在屏幕关闭时禁用警报</string>
+  <string name="alarm_blocker_save">保存</string>
+  <string name="alarm_list_header">可用警报</string>
+  <string name="alarm_blocker_reload">重新载入</string>
+  <string name="alarm_blocker_warning_title">请谨慎操作</string>
+  <string name="alarm_blocker_warning">拦截警报可能导致系统不稳定、崩溃或数据丢失。</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">口袋检测</string>
+  <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">选择器活动黑名单</string>
+  <string name="chooser_activity_blacklist_summary">在点击 \"分享\" 按钮时不显示的应用程序</string>
+  <string name="chooser_activity_blacklist_cat_title">黑名单</string>
+  <string name="chooser_activity_blacklist_pref_title">添加应用</string>
+  <string name="chooser_activity_blacklist_pref_summary">点击此处添加应用, 点击已添加的应用程序来删除</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">智能像素</string>
+  <string name="smart_pixels_summary">通过关闭额外的像素来节省电量</string>
+  <string name="smart_pixels_enable_title">启用智能像素</string>
+  <string name="smart_pixels_enable_summary">减少像素以降低功耗</string>
+  <string name="smart_pixels_on_power_save_title">省电模式时自动启用</string>
+  <string name="smart_pixels_on_power_save_summary">开启省电模式时自动启用智能像素</string>
+  <string name="smart_pixels_percent">禁用的像素数量</string>
+  <string name="smart_pixels_shift_title">烧屏保护</string>
+  <string name="smart_pixels_shift_summary">通过经常移动像素来防止 OLED 屏幕的设备发生烧屏</string>
+  <string name="lockscreen_items_other">其它</string>
+  <string name="qs_header_category">快速设置页眉</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">滚动小型快速设置瓷贴</string>
+  <string name="qqs_scroll_summary">允许滚动小型快速设置瓷贴</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@空值</string>
+  <string name="screen_state_toggles_title">暂停动作</string>
+  <string name="screen_state_toggles_enable_title">启用</string>
+  <string name="screen_state_toggles_enable_summary">操作将在屏幕关闭时执行。屏幕上的当前状态将会被还原。</string>
+  <string name="screen_state_toggles_mobile_title">移动网络</string>
+  <string name="screen_state_toggles_location_title">位置</string>
+  <string name="screen_state_toggles_twog">切换到 2G</string>
+  <string name="screen_state_toggles_twog_summary">网络将在屏幕关闭时切换至 2G</string>
+  <string name="screen_state_toggles_gps">禁用 GPS</string>
+  <string name="screen_state_toggles_gps_summary">GPS 定位服务将在屏幕关闭后禁用</string>
+  <string name="screen_state_toggles_mobile_data">禁用移动数据</string>
+  <string name="screen_state_toggles_mobile_data_summary">移动数据将在屏幕关闭后禁用</string>
+  <string name="screen_state_off_delay_title">屏幕关闭操作延迟</string>
+  <string name="screen_state_off_delay_summary">在屏幕关闭后执行操作前等待的秒数</string>
+  <string name="screen_state_on_delay_title">屏幕点亮操作延迟</string>
+  <string name="screen_state_on_delay_summary">在屏幕点亮后执行操作前等待的秒数</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">启用</string>
+  <string name="daylight_header_pack_title">页眉图像收集</string>
+  <string name="status_bar_custom_header_shadow_title">页眉图像阴影</string>
+  <string name="status_bar_custom_header_shadow_summary">在明亮的图片上有更好的可见性</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">静态图像</string>
+  <string name="daylight_header_provider_title">图像收集</string>
+  <string name="custom_header_provider_title">页眉图像供应程序</string>
+  <string name="custom_header_browse_title">浏览已安装的页眉图像</string>
+  <string name="custom_header_browse_summary">单击任何图像以用于静态模式</string>
+  <string name="custom_header_browse_summary_new">浏览所有可用的页眉图像集合</string>
+  <string name="custom_header_pick_title">选择页眉图像</string>
+  <string name="custom_header_pick_summary">选择静态模式使用的图片</string>
+  <string name="style_enabled_summary">已开启自定义页眉图像</string>
+  <string name="style_disabled_summary">已关闭自定义页眉图像</string>
+  <string name="header_provider_disabled">禁用</string>
+  <string name="custom_header_title">自定义页眉图像</string>
+  <string name="file_header_select_title">选择图像</string>
+  <string name="file_header_select_summary">选择自定义图像</string>
+  <string name="file_header_provider_title">自定义图像</string>
+  <string name="qs_header_title">自定义页眉</string>
+  <string name="qs_header_summary">用自定义页眉来美化快速设置</string>
+  <string name="qs_running_services_title">运行中的服务图标</string>
+  <string name="qs_running_services_summary">禁用页脚中的运行中的服务图标</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

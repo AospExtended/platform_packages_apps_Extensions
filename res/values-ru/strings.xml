@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Уведомления</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Умные пиксели - средство экономии заряда. В зависимости от того, сколько пикселей вы захотите отключить, это может привести к значительному увеличению времени жизни батареи. Для оптимального пользования устройством, советуем вам установить количество отключённых пикселей на 75%.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Панель навигации</string>
   <!-- Quick Settings -->
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">Задержка длительного нажатия</string>
   <string name="fling_longpress_summary">Увеличить или уменьшить время, необходимое для длительного нажатия</string>
   <string name="fling_keyboard_cursors_title">Динамическое действие курсора клавиатуры</string>
+  <string name="fling_keyboard_cursors_move_summary">Когда отображается клавиатура, длительное нажатие на стрелочки влево или вправо перемещает текстовый курсор влево или вправо.\nУдерживайте, чтобы продолжить перемещение курсора или нажмите на панель, чтобы перейти к домашнему экрану.</string>
   <string name="fling_logo_opacity_title">Прозрачность логотипа Fling</string>
+  <string name="fling_factory_reset_title">Сброс к настройкам по умолчанию</string>
+  <string name="fling_factory_reset_confirm">Вы уверены, что вы хотите сбросить Smartbar к настройкам по умолчанию?</string>
+  <string name="fling_backup_current_config_title">Сохранить профиль</string>
+  <string name="fling_restore_config_title">Восстановить профиль</string>
+  <string name="fling_config_name_edit_dialog_title">Имя профиля Fling</string>
+  <string name="fling_config_name_edit_dialog_message">Введите имя или оставьте пустым</string>
+  <string name="fling_config_dialog_title">Профили Fling</string>
+  <string name="fling_config_backup_success_toast">Профиль Fling успешно сохранен</string>
+  <string name="fling_config_restore_success_toast">Профиль Fling успешно восстановлен</string>
+  <string name="fling_config_backup_error_toast">Ошибка при сохранении профиля Fling</string>
+  <string name="fling_config_restore_error_toast">Ошибка при восстановлении профиля Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Пульс не работает с некоторыми источниками аудио во время прослушивания через динамик</string>
   <string name="pulse_settings">Пульс</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Профиль Smartbar успешно восстановлен</string>
   <string name="smartbar_config_backup_error_toast">Ошибка при сохранении профиля Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Ошибка при восстановлении профиля Smartbar</string>
-  <string name="navbar_buttons_alpha_title">Прозрачность кнопок</string>
   <string name="smartbar_longpress_delay_title">Задержка длительного нажатия</string>
   <string name="smartbar_longpress_delay_summary">Укажите, как долго система будет ждать, прежде чем реагировать на долгое нажатие</string>
   <string name="smartbar_longpress_delay_default">Стандартная задержка (быстро)</string>
@@ -578,7 +590,8 @@
   <string name="less_notification_sounds_1m">Каждую минуту</string>
   <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
   <string name="face_auto_unlock_title">Автоматическая разблокировка сканером лица</string>
-  <string name="face_auto_unlock_summary">Убарть экран блокировки после разблокировки сканером лица</string>
+  <string name="face_auto_unlock_summary">Убрать экран блокировки после разблокировки сканером лица</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Время и дата</string>
   <string name="status_bar_clock_summary">Настройка отображения даты и времени</string>
@@ -616,7 +629,7 @@
   <string name="clock_date_left">Слева от часов</string>
   <string name="clock_date_position">Расположение даты</string>
   <!-- Weather - OmniJaws Settings -->
-  <string name="weather_title">Weather</string>
+  <string name="weather_title">Погода</string>
   <string name="weather_config_title">Параметры службы</string>
   <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
   <string name="header_weather_summary">Включить отображение погоды в заголовке панели уведомлений</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Стиль анимации Android P</string>
   <string name="system_default_animation_summary">Включить анимацию «По умолчанию» из Android P</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Блокировка датчиков</string>
+  <string name="sensor_block_summary">Заблокировать доступ к датчикам для некоторых приложений для экономии заряда батареи.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Панель заряда батареи</string>
+  <string name="battery_bar_summary">Отображение и настройка панели батареи возле панели состояния или панели навигации</string>
+  <string name="battery_bar">Расположение панели заряда батареи</string>
+  <string name="battery_bar_no_navbar">Расположение панели заряда батареи</string>
+  <string name="battery_bar_location_hide">Скрыть</string>
+  <string name="battery_bar_location_statusbar">Строка состояния</string>
+  <string name="battery_bar_location_top_navbar">Верх панели навигации</string>
+  <string name="battery_bar_location_bottom_navbar">Низ панели навигации</string>
+  <string name="battery_bar_color">Цвет панели заряда батареи</string>
+  <string name="battery_bar_charging_color">Цвет панели заряда батареи при зарядке</string>
+  <string name="battery_bar_battery_low_color">Цвет панели заряда батареи при низком заряде аккумулятора</string>
+  <string name="battery_bar_cat">Стиль панели заряда батареи</string>
+  <string name="battery_bar_style_title">Выравнивание панели заряда батареи</string>
+  <string name="battery_bar_thickness_title">Толщина панели заряда батареи</string>
+  <string name="battery_bar_animate_title">Анимация панели заряда батареи во время зарядки</string>
+  <string name="battery_bar_style_regular">Стандартный</string>
+  <string name="battery_bar_style_center_mirrored">По центру (зеркально)</string>
+  <string name="battery_bar_style_reversed">Наоборот</string>
+  <string name="battery_bar_use_charging_color">Настроить цвет при зарядке</string>
+  <string name="battery_bar_blend_color_title">Смешивание цветов</string>
+  <string name="battery_bar_blend_color_summary">Смешать полные / пустые цвета, соответствующие проценту батареи</string>
+  <string name="battery_bar_blend_color_reverse_title">Инвентировать</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Полный &#8594; пустой: красный &#8592; зеленый &#8592; синий &#8592; красный</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Полный &#8594; пустой: красный &#8592; зеленый &#8592; синий &#8592; красный</string>
   <!-- ANBI -->
+  <string name="anbi_title">Случайное нажатие</string>
+  <string name="anbi_summary">Запретить взаимодействие с навигационными кнопками во время касания экрана</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">Блокировка вэйков и alarm</string>
+  <string name="wakelock_blocker_title">Блокировка вэйков</string>
+  <string name="wakelock_blocker_summary">Блокировать системные вэйклоки</string>
+  <string name="wakelock_blocker_save">Сохранить</string>
+  <string name="wakelock_list_header">Доступные вэйки</string>
+  <string name="wakelock_blocker_reload">Обновить</string>
+  <string name="wakelock_blocker_warning_title">Испрлользуйте на свой старх и риск</string>
+  <string name="wakelock_blocker_warning">Блокировка вэйклоков может вызвать нестабильну работу и потерю данных</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Блокировка Alarm</string>
+  <string name="alarm_blocker_title">Включить</string>
+  <string name="alarm_blocker_summary">Заблокировать сигналы при выключенном экране</string>
+  <string name="alarm_blocker_save">Сохранить</string>
+  <string name="alarm_list_header">Доступные сигналы</string>
+  <string name="alarm_blocker_reload">Перезагрузить</string>
+  <string name="alarm_blocker_warning_title">Используйте на свой страх и риск</string>
+  <string name="alarm_blocker_warning">Блокировка вэйклоков может вызвать нестабильную работу и потерю данных.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Режим «В кармане»</string>
+  <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">Добавить в черный список</string>
+  <string name="chooser_activity_blacklist_summary">Приложения, чтобы не показывать при нажатии на кнопку Поделиться</string>
+  <string name="chooser_activity_blacklist_cat_title">Черный список</string>
+  <string name="chooser_activity_blacklist_pref_title">Добавить приложение</string>
+  <string name="chooser_activity_blacklist_pref_summary">Нажмите здесь, чтобы добавить, нажмите на добавленное приложение, чтобы удалить его</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Умные пиксели</string>
+  <string name="smart_pixels_summary">Экономить заряд батареи, выключая дополнительные пиксели</string>
+  <string name="smart_pixels_enable_title">Включить умные пиксели</string>
+  <string name="smart_pixels_enable_summary">Выключить пиксели для снижения расхода заряда батареи</string>
+  <string name="smart_pixels_on_power_save_title">Включать автоматически при экономии заряда</string>
+  <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
+  <string name="smart_pixels_percent">Процент отключенных пикселей</string>
+  <string name="smart_pixels_shift_title">Защита от выгорания</string>
+  <string name="smart_pixels_shift_summary">Предотвращение выгорания на экране устройства благодаря перемещению пикселей с такой частотой</string>
+  <string name="lockscreen_items_other">Другие</string>
+  <string name="qs_header_category">Быстрые настройки</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">Прокрутка маленьких плиток быстрых настроек</string>
+  <string name="qqs_scroll_summary">Разрешить прокрутку маленьких плиток быстрых настроек</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">Пусто</string>
+  <string name="screen_state_toggles_title">Действия в режиме ожидания</string>
+  <string name="screen_state_toggles_enable_title">Включить</string>
+  <string name="screen_state_toggles_enable_summary">Действия будут выполняться при переходе в режим ожидания. При пробуждении будет восстановлено предыдущее состояние.</string>
+  <string name="screen_state_toggles_mobile_title">Мобильная сеть</string>
+  <string name="screen_state_toggles_location_title">Местоположение</string>
+  <string name="screen_state_toggles_twog">Переключить на 2G</string>
+  <string name="screen_state_toggles_twog_summary">Мобильный интернет будет переключаться на 2G при отключении экрана</string>
+  <string name="screen_state_toggles_gps">Отключить GPS</string>
+  <string name="screen_state_toggles_gps_summary">Определение местоположения по GPS будет выключено в режиме ожидания</string>
+  <string name="screen_state_toggles_mobile_data">Отключить передачу данных</string>
+  <string name="screen_state_toggles_mobile_data_summary">Не использовать передачу данных в режиме ожидания</string>
+  <string name="screen_state_off_delay_title">Задержка при отключении экрана</string>
+  <string name="screen_state_off_delay_summary">Время в секундах перед выполнением действий после выключения экрана</string>
+  <string name="screen_state_on_delay_title">Задержка при включении экрана</string>
+  <string name="screen_state_on_delay_summary">Время в секундах перед выполнением действий после включения экрана</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">Включить</string>
+  <string name="daylight_header_pack_title">Коллекция изображений для заголовка</string>
+  <string name="status_bar_custom_header_shadow_title">Затемнение изображения</string>
+  <string name="status_bar_custom_header_shadow_summary">Регулировка для лучшей видимости значков на ярких изображениях</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Статическое изображение</string>
+  <string name="daylight_header_provider_title">Коллекция изображений</string>
+  <string name="custom_header_provider_title">Провайдер заголовка</string>
+  <string name="custom_header_browse_title">Обзор установленных заголовков</string>
+  <string name="custom_header_browse_summary">Используйте длительное нажатие на изображение для установки его в заголовок</string>
+  <string name="custom_header_browse_summary_new">Просмотр всех доступных пакетов заголовков</string>
+  <string name="custom_header_pick_title">Выбрать изображение заголовка</string>
+  <string name="custom_header_pick_summary">Выберите изображение для использования в заголовке</string>
+  <string name="style_enabled_summary">Пользовательское изображение заголовка ВКЛЮЧЕНО</string>
+  <string name="style_disabled_summary">Пользовательское изображение заголовка ВЫКЛЮЧЕНО</string>
+  <string name="header_provider_disabled">Не отоброжать</string>
+  <string name="custom_header_title">Пользовательское изображение в заголовке</string>
+  <string name="file_header_select_title">Выберите пикчу</string>
+  <string name="file_header_select_summary">Выбрать пользовательскую фотку (отслеживается Фсб)</string>
+  <string name="file_header_provider_title">Пользовательское изображение</string>
+  <string name="qs_header_title">Пользовательский заголовок</string>
+  <string name="qs_header_summary">Усовершенствовать быстрые настройки с помощью настраиваемых заголовков</string>
+  <string name="qs_running_services_title">Иконка запущенных служб</string>
+  <string name="qs_running_services_summary">Отключить значок работающих приложений в заголовке</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

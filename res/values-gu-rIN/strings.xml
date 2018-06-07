@@ -159,6 +159,7 @@
   <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <!-- Weather - OmniJaws Settings -->
   <!-- StatusBar weather settings -->
@@ -186,8 +187,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

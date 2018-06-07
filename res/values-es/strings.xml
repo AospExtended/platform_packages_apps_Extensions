@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Notificaciones</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Píxeles Inteligentes es un característica para ahorrar energía. Podrás ver una mejoría significativa en la duración de la batería dependiendo de cuántos píxeles decidas apagar. Para garantizar una buena experiencia de usuario, recomendamos establecer la cantidad de píxeles deshabilitados al 75%.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Barra de navegación</string>
   <!-- Quick Settings -->
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">Retardo de pulsación larga</string>
   <string name="fling_longpress_summary">Aumentar o disminuir el tiempo que toma realizar una pulsación larga</string>
   <string name="fling_keyboard_cursors_title">Acción dinámica de los cursores del teclado</string>
+  <string name="fling_keyboard_cursors_move_summary">Cuando se muestre el teclado, realiza una pulsación larga a la izquierda o derecha para mover el cursor. Mantén la pulsación larga para seguir moviéndolo, toca en la barra para ir a la pantalla de inicio.</string>
   <string name="fling_logo_opacity_title">Opacidad del logo de Fling</string>
+  <string name="fling_factory_reset_title">Restablecer a valores de fabrica</string>
+  <string name="fling_factory_reset_confirm">¿Seguro que quieres restablecer la configuración de fábrica?</string>
+  <string name="fling_backup_current_config_title">Guardar perfil</string>
+  <string name="fling_restore_config_title">Restaurar perfil</string>
+  <string name="fling_config_name_edit_dialog_title">Nombre del perfil</string>
+  <string name="fling_config_name_edit_dialog_message">Introduzca nombre o deje en blanco</string>
+  <string name="fling_config_dialog_title">Perfiles de Fling</string>
+  <string name="fling_config_backup_success_toast">Perfil de Fling guardado con éxito</string>
+  <string name="fling_config_restore_success_toast">Perfil de Fling restaurado con éxito</string>
+  <string name="fling_config_backup_error_toast">Error al guardar el perfil de Fling</string>
+  <string name="fling_config_restore_error_toast">Error al restaurar el perfil de Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse no funciona con algunas fuentes de audio cuando se escucha en el altavoz del dispositivo</string>
   <string name="pulse_settings">Pulse</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Perfil de Smartbar restaurado con éxito</string>
   <string name="smartbar_config_backup_error_toast">Error al guardar el perfil de Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Error al restaurar el perfil de Smartbar</string>
-  <string name="navbar_buttons_alpha_title">Transparencia de botón</string>
   <string name="smartbar_longpress_delay_title">Boton de pulsacion larga para retrasar</string>
   <string name="smartbar_longpress_delay_summary">Hacer que el conjunto del sistema espere antes de provocar una pulsacion larga</string>
   <string name="smartbar_longpress_delay_default">Retraso por defecto (rápido)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">Cada 2 minutos</string>
   <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
   <string name="face_auto_unlock_summary">Quita la pantalla de bloqueo tras desbloqueo facial</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Reloj y Fecha</string>
   <string name="status_bar_clock_summary">Configurar el reloj de la barra de estado y la apariencia de la fecha</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Animaciones de Android P</string>
   <string name="system_default_animation_summary">Activar animaciones de Android P predeterminadas</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Bloquear sensor por aplicación</string>
+  <string name="sensor_block_summary">Bloquea el acceso a ciertos sensores para ciertas apps para ahorrar batería.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Barra de batería</string>
+  <string name="battery_bar_summary">Mostrar y personalizar la barra de batería junto a la barra de estado o barra de navegación</string>
+  <string name="battery_bar">Ubicación de barra de batería</string>
+  <string name="battery_bar_no_navbar">Ubicación de la barra de batería</string>
+  <string name="battery_bar_location_hide">Ocultar</string>
+  <string name="battery_bar_location_statusbar">Barra de estado</string>
+  <string name="battery_bar_location_top_navbar">Parte superior de la barra de navegación</string>
+  <string name="battery_bar_location_bottom_navbar">Parte inferior de la barra de navegación</string>
+  <string name="battery_bar_color">Color de la barra de la batería</string>
+  <string name="battery_bar_charging_color">Color de la barra de bateria durante la carga</string>
+  <string name="battery_bar_battery_low_color">Color de la barra de bateria con bateria baja</string>
+  <string name="battery_bar_cat">Estilo de la barra de batería</string>
+  <string name="battery_bar_style_title">Alineamiento de la barra de batería</string>
+  <string name="battery_bar_thickness_title">Grosor de la barra de batería</string>
+  <string name="battery_bar_animate_title">Animación de carga</string>
+  <string name="battery_bar_style_regular">Regular</string>
+  <string name="battery_bar_style_center_mirrored">Centrada-reflejada</string>
+  <string name="battery_bar_style_reversed">Invertida</string>
+  <string name="battery_bar_use_charging_color">Personalizar el color de la barra de batería</string>
+  <string name="battery_bar_blend_color_title">Mezcla de colores</string>
+  <string name="battery_bar_blend_color_summary">Mezcla de colores lleno/vacío correspondiente al porcentaje de la batería</string>
+  <string name="battery_bar_blend_color_reverse_title">Invertir dirección de colores</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Completo → vacio: rojo ← verde ← azul ← rojo</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Completo → vacio: rojo → verde → azul → rojo</string>
   <!-- ANBI -->
+  <string name="anbi_title">Toque por accidente</string>
+  <string name="anbi_summary">Previene la interacción con los botones de navegación mientras se está tocando la pantalla</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">Wakelock y bloqueador de alarma</string>
+  <string name="wakelock_blocker_title">Bloquear el despertador de Bloqueo</string>
+  <string name="wakelock_blocker_summary">Bloquear Wakelocks del Sistema</string>
+  <string name="wakelock_blocker_save">Guardar</string>
+  <string name="wakelock_list_header">Wakelocks disponibles</string>
+  <string name="wakelock_blocker_reload">Recargar</string>
+  <string name="wakelock_blocker_warning_title">Proceder con precaución</string>
+  <string name="wakelock_blocker_warning">Bloquear wakelocks pueden causar inestabilidad, cierres inesperados o pérdida de datos</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Bloqueador de alarma</string>
+  <string name="alarm_blocker_title">Habilitar</string>
+  <string name="alarm_blocker_summary">Bloquear alarmas mientras la pantalla esté apagada</string>
+  <string name="alarm_blocker_save">Guardar</string>
+  <string name="alarm_list_header">Alarmas disponibles</string>
+  <string name="alarm_blocker_reload">Recargar</string>
+  <string name="alarm_blocker_warning_title">Proceder con precaución</string>
+  <string name="alarm_blocker_warning">Bloquear alarmas puede causar inestabilidad, cierres forzados o pérdida de datos.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detección de bolsillo</string>
+  <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">Selector de actividades en lista negra</string>
+  <string name="chooser_activity_blacklist_summary">Aplicaciones que no se muestran cuando se pulsa el botón de compartir</string>
+  <string name="chooser_activity_blacklist_cat_title">Lista negra</string>
+  <string name="chooser_activity_blacklist_pref_title">Añadir aplicación</string>
+  <string name="chooser_activity_blacklist_pref_summary">Toque aquí para agregar, toque en una aplicación agregada para quitarla</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Píxeles inteligentes _@mazork_</string>
+  <string name="smart_pixels_summary">Ahorra batería apagando píxeles adicionales</string>
+  <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
+  <string name="smart_pixels_enable_summary">Apagar píxeles para reducir el consumo de energía</string>
+  <string name="smart_pixels_on_power_save_title">Activar automáticamente en modo ahorro de batería</string>
+  <string name="smart_pixels_on_power_save_summary">Habilitar Smart Pixels cuando el ahorro de batería está habilitado</string>
+  <string name="smart_pixels_percent">Desactivar porcentaje de píxeles</string>
+  <string name="smart_pixels_shift_title">Protección contra quemado</string>
+  <string name="smart_pixels_shift_summary">Previene el quemado de la pantalla en dispositivos con tecnología OLED alternando píxeles de vez en cuando</string>
+  <string name="lockscreen_items_other">Otro</string>
+  <string name="qs_header_category">Cabecera de ajustes rapidos</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">Desplazamiento de ajustes rápidos pequeños</string>
+  <string name="qqs_scroll_summary">Permitir el desplazamiento de los ajustes rápidos pequeños</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Suspender acciones</string>
+  <string name="screen_state_toggles_enable_title">Habilitar</string>
+  <string name="screen_state_toggles_enable_summary">Las acciones se ejecutarán al apagar la pantalla. Al encenderla, el estado anterior se restaurará.</string>
+  <string name="screen_state_toggles_mobile_title">Redes móviles</string>
+  <string name="screen_state_toggles_location_title">Ubicación</string>
+  <string name="screen_state_toggles_twog">Cambiar a 2G</string>
+  <string name="screen_state_toggles_twog_summary">Modo de red se cambiará a 2G al apagar la pantalla</string>
+  <string name="screen_state_toggles_gps">Desactivar GPS</string>
+  <string name="screen_state_toggles_gps_summary">Servicio de localización basado en GPS se desactivará al apagar la pantalla</string>
+  <string name="screen_state_toggles_mobile_data">Desactivar los datos móviles</string>
+  <string name="screen_state_toggles_mobile_data_summary">Los datos móviles se deshabilatarán al apagar la pantalla</string>
+  <string name="screen_state_off_delay_title">Retardo de las acciones con la pantalla apagada</string>
+  <string name="screen_state_off_delay_summary">Número de segundos a esperar antes de realizar acciones después de apagar la pantalla</string>
+  <string name="screen_state_on_delay_title">Retardo de las acciones con la pantalla encendida</string>
+  <string name="screen_state_on_delay_summary">Número de segundos a esperar antes de realizar acciones después de apagar la pantalla</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">Habilitar</string>
+  <string name="daylight_header_pack_title">Colección de imágenes de encabezado</string>
+  <string name="status_bar_custom_header_shadow_title">Sombra de imágenes de encabezado</string>
+  <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes con alto brillo</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Imagen estática</string>
+  <string name="daylight_header_provider_title">Colección de imágenes</string>
+  <string name="custom_header_provider_title">Proveedor de encabezados</string>
+  <string name="custom_header_browse_title">Buscar encabezados instalados</string>
+  <string name="custom_header_browse_summary">Pulse cualquier imagen para usarla en modo estático</string>
+  <string name="custom_header_browse_summary_new">Buscar todas las colecciones de encabezados disponibles</string>
+  <string name="custom_header_pick_title">Elegir imagen de encabezado</string>
+  <string name="custom_header_pick_summary">Seleccione una imagen para usarla en modo estático</string>
+  <string name="style_enabled_summary">Imagen de encabezado personalizada está habilitado</string>
+  <string name="style_disabled_summary">Imagen de encabezado personalizada está deshabilitado</string>
+  <string name="header_provider_disabled">Deshabilitado</string>
+  <string name="custom_header_title">Imagen de encabezado personalizada</string>
+  <string name="file_header_select_title">Seleccionar imagen</string>
+  <string name="file_header_select_summary">Seleccione imagen personalizada</string>
+  <string name="file_header_provider_title">Imagen personalizada</string>
+  <string name="qs_header_title">Encabezado personalizado</string>
+  <string name="qs_header_summary">Embellece los ajustes rápidos con cabeceras personalizadas</string>
+  <string name="qs_running_services_title">Icono de servicios en ejecución</string>
+  <string name="qs_running_services_summary">Deshabilita el icono de acceso directo de servicios en ejecución en la parte inferior</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

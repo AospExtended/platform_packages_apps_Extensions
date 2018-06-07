@@ -46,9 +46,13 @@
   <string name="status_bar_category">स्टेटस बार</string>
   <string name="notifications_panel_category">सुचना पटल</string>
   <string name="system_category">सिस्टम</string>
+  <string name="system_category_summary">विभिन्न सिस्टम एक्सटेंशन</string>
   <string name="lockscreen_category">लॉकस्क्रीन</string>
   <string name="navigation_category">नेविगेशन</string>
+  <string name="navigation_category_summary">अपनी नेविगेशन पट्टी अनुकूलित करें</string>
   <string name="build_tweaks_summary_title">अपने डिवाइस का विस्तार करें!</string>
+  <string name="system_animations">सिस्टम एनिमेशन</string>
+  <string name="listview">सूची दृश्य</string>
   <!-- Frags -->
   <!-- General Tweaks -->
   <string name="general_tweaks_title">जनरल बदलाव</string>
@@ -67,6 +71,7 @@
   <!-- Notifications -->
   <string name="notifications_title">सूचनाएँ</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">स्मार्ट पिक्सल एक बिजली की बचत की सुविधा है । आप बंद करने के लिए तय कितने पिक्सल पर निर्भर करता है, आप बैटरी जीवन में एक महत्वपूर्ण सुधार देख सकता है । एक अच्छा उपयोगकर्ता अनुभव के लिए, हम अनुशंसा करते हैं आप अक्षम पिक्सेल की मात्रा ७५ प्रतिशत पर सेट करें ।</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">नेविगेशन पट्टी</string>
   <!-- Quick Settings -->
@@ -80,6 +85,10 @@
   <string name="extensions_dialog_message">यदि आप इन सेटिंग्स में से किसी के साथ एक Bug मिल जाए, हमारे Google + पृष्ठ के बग रिपोर्ट अनुभाग में पोस्ट. बग रिपोर्ट पोस्ट करते समय आपको निम्न शामिल करना होगा: \ n\n1. एक logcat या last_kmsg\n2. कर्नेल और mods used\n3. उपयोगी information\n\n अगर आप पर्याप्त रूप से कुछ की रिपोर्ट करने में असफल रहे, उम्मीद मत करो Bug ठीक की है.</string>
   <string name="extensions_dialog_toast">पूरी बात पढ़ें!</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">किसी एक्सेंट रंग का चयन करें</string>
+  <string name="theme_accent_picker_title">एक्सेंट रंग</string>
+  <string name="theme_accent_picker_summary">सिस्टम थीम एक्सेंट रंग का चयन करें</string>
+  <string name="theme_accent_picker_default">पूर्व निर्धारित</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">रंग चयन</string>
   <string name="press_color_to_apply">नीचे दिए गए रंग को लागू करने के लिए दबाएँ</string>
@@ -474,7 +483,6 @@
   <string name="smartbar_config_restore_success_toast">Smartbar प्रोफ़ाइल सफलतापूर्वक पुनर्स्थापित</string>
   <string name="smartbar_config_backup_error_toast">Smartbar प्रोफ़ाइल सहेजने में त्रुटि</string>
   <string name="smartbar_config_restore_error_toast">Smartbar प्रोफ़ाइल पुनर्स्थापित करने में त्रुटि</string>
-  <string name="navbar_buttons_alpha_title">बटन पारदर्शिता</string>
   <string name="smartbar_longpress_delay_title">बटन लंबा दबाने पर देरी</string>
   <string name="smartbar_longpress_delay_summary">स्थापित करे कि जब देर तक दबाए तब प्रणाली कितनी देर तक इंतज़ार करे किसी करवाई को शुरू करने से पहले</string>
   <string name="smartbar_longpress_delay_default">डिफ़ॉल्ट देरी (फास्ट)</string>
@@ -548,6 +556,7 @@
   <string name="less_notification_sounds_2m">हर 2 मिनट</string>
   <string name="face_auto_unlock_title">चेहरा ऑटो अनलॉक</string>
   <string name="face_auto_unlock_summary">चेहरा अनलॉक करने के बाद लॉकस्क्रीन खारिज करें</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="clock_title_enable">अलाइनमेंट</string>
   <string name="status_bar_am_pm_title">AM/PM</string>
@@ -595,8 +604,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

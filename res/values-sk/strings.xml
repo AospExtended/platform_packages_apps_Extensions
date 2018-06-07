@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Upozornenia</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Smart pixels (Inteligentné pixely) sú funkciou šetrenia energie. V závislosti od toho, koľko pixelov sa rozhodnete vypnúť, môžete vidieť výrazné zlepšenie životnosti batérie. Pre dobrý zážitok používateľov odporúčame nastaviť počet vypnutých pixelov na 75 percent.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Navigačný panel</string>
   <!-- Quick Settings -->
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">Oneskorenie pri dlhom stlačení</string>
   <string name="fling_longpress_summary">Zvýšiť alebo znížiť časový limit na vykonanie dlhého stlačenia</string>
   <string name="fling_keyboard_cursors_title">Akcie kurzorov dynamickej klávesnice</string>
+  <string name="fling_keyboard_cursors_move_summary">Keď je zobrazená klávesnica, dlho stlačte doľava alebo doprava, aby ste posunuli textový kurzor doľava alebo doprava..\nPokračovaním v dlhom stlačení sa bude kurzor stále posúvať. Kliknite raz na panel pre návrat na domovskú obrazovku.</string>
   <string name="fling_logo_opacity_title">Priehľadnosť loga Fling</string>
+  <string name="fling_factory_reset_title">Obnoviť predvolené</string>
+  <string name="fling_factory_reset_confirm">Naozaj chcete obnoviť nastavenia lišty Fling na predvolené hodnoty?</string>
+  <string name="fling_backup_current_config_title">Uložiť profil</string>
+  <string name="fling_restore_config_title">Obnoviť profil</string>
+  <string name="fling_config_name_edit_dialog_title">Názov profilu Fling</string>
+  <string name="fling_config_name_edit_dialog_message">Zadajte meno alebo ponechajte prázdne</string>
+  <string name="fling_config_dialog_title">Fling profily</string>
+  <string name="fling_config_backup_success_toast">Profil Fling bol úspešne uložený</string>
+  <string name="fling_config_restore_success_toast">Profil Fling bol úspešne obnovený</string>
+  <string name="fling_config_backup_error_toast">Chyba pri ukladaní profilu Fling</string>
+  <string name="fling_config_restore_error_toast">Chyba pri obnovení profilu Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse nefunguje s niektorými zvukovými zdrojmi pri počúvaní z reproduktora zariadenia</string>
   <string name="pulse_settings">Grafický ekvalizér Pulse</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Profil Smartbar bol úspešne obnovený</string>
   <string name="smartbar_config_backup_error_toast">Chyba pri ukladaní profilu Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Chyba pri obnovení profilu Smartbar</string>
-  <string name="navbar_buttons_alpha_title">Priehľadnosť tlačidiel</string>
   <string name="smartbar_longpress_delay_title">Oneskorenie dlhého stlačenia</string>
   <string name="smartbar_longpress_delay_summary">Nastavte, ako dlho bude systém čakať pred spustením akcie dlhého stlačenia</string>
   <string name="smartbar_longpress_delay_default">Predvolené oneskorenie (rýchlo)</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">Každé 2 minúty</string>
   <string name="face_auto_unlock_title">Automatické odomknutie pomocou tváre</string>
   <string name="face_auto_unlock_summary">Nezobraziť obrazovku uzamknutia po odomknutí pomocou tváre</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Hodiny a dátum</string>
   <string name="status_bar_clock_summary">Konfigurácia zobrazenia hodín a dátumu v stavovom riadku</string>
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Štýl animácie Android P</string>
   <string name="system_default_animation_summary">Povoliť \"Predvolené\" animácie Android P</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Blokovanie senzorov podľa aplikácií</string>
+  <string name="sensor_block_summary">Zablokovanie prístupu k niektorým senzorom pre niektoré aplikácie, za účelom úspory energie.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Pruh batérie</string>
+  <string name="battery_bar_summary">Zobrazte a prispôsobte pruh batérie v blízkosti stavovej lišty alebo navigačného panela</string>
+  <string name="battery_bar">Umiestnenie pruhu batérie</string>
+  <string name="battery_bar_no_navbar">Umiestnenie pruhu batérie</string>
+  <string name="battery_bar_location_hide">Skryť</string>
+  <string name="battery_bar_location_statusbar">Stavový riadok</string>
+  <string name="battery_bar_location_top_navbar">V hornej časti navigačnej lišty</string>
+  <string name="battery_bar_location_bottom_navbar">V spodnej části navigační lišty</string>
+  <string name="battery_bar_color">Farba pruhu batérie</string>
+  <string name="battery_bar_charging_color">Farba pruhu batérie pri nabíjaní</string>
+  <string name="battery_bar_battery_low_color">Farba pruhu batérie pri vybití</string>
+  <string name="battery_bar_cat">Štýl pruhu batérie</string>
+  <string name="battery_bar_style_title">Zarovnánie pruhu batérie</string>
+  <string name="battery_bar_thickness_title">Hrúbka pruhu batérie</string>
+  <string name="battery_bar_animate_title">Animácia nabíjania</string>
+  <string name="battery_bar_style_regular">Normálny</string>
+  <string name="battery_bar_style_center_mirrored">Zrkadlovo na stred</string>
+  <string name="battery_bar_style_reversed">Obrátený</string>
+  <string name="battery_bar_use_charging_color">Vlastná farba nabíjania</string>
+  <string name="battery_bar_blend_color_title">Zmiešané farby</string>
+  <string name="battery_bar_blend_color_summary">Miešanie farieb zodpovedajúce percentu batérie - plná/prázdna</string>
+  <string name="battery_bar_blend_color_reverse_title">Poradie farieb</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Nabitá → vybitá: červená ← zelená ← modrá ← červená</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Nabitá → vybit: červená → zelená → modrá → červená</string>
   <!-- ANBI -->
+  <string name="anbi_title">Náhodný dotyk</string>
+  <string name="anbi_summary">Zabrániť interakcii s navigačnými tlačidlami počas dotyku obrazovky</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">Blokovanie prebudení a alarmov</string>
+  <string name="wakelock_blocker_title">Blokovanie prebudení</string>
+  <string name="wakelock_blocker_summary">Blokovanie systémových prebudení</string>
+  <string name="wakelock_blocker_save">Uložiť</string>
+  <string name="wakelock_list_header">Dostupné prebudenia</string>
+  <string name="wakelock_blocker_reload">Znovu načítať</string>
+  <string name="wakelock_blocker_warning_title">Postupujte opatrne</string>
+  <string name="wakelock_blocker_warning">Blokovanie prebudení môže potencionálne spôsobovať nestabilitu, havárie alebo stratu dát</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Blokovanie výstrah</string>
+  <string name="alarm_blocker_title">Zapnúť</string>
+  <string name="alarm_blocker_summary">Blokovať výstrahy pri vypnutej obrazovke</string>
+  <string name="alarm_blocker_save">Uložiť</string>
+  <string name="alarm_list_header">Dostupné výstrahy</string>
+  <string name="alarm_blocker_reload">Znovu načítať</string>
+  <string name="alarm_blocker_warning_title">Postupujte opatrne</string>
+  <string name="alarm_blocker_warning">Blokovanie výstrah môže spôsobiť nestabilitu, pády alebo stratu dát.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Detekcia režimu Vo vrecku</string>
+  <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">Nevybrateľné aplikácie</string>
+  <string name="chooser_activity_blacklist_summary">Aplikácie, ktoré sa nezobrazia pri kliknutí na tlačidlo Zdieľať</string>
+  <string name="chooser_activity_blacklist_cat_title">Zoznam zakázaných (čierna listina)</string>
+  <string name="chooser_activity_blacklist_pref_title">Pridať aplikáciu</string>
+  <string name="chooser_activity_blacklist_pref_summary">Kliknutím sem pridáte, kliknutím na pridanú aplikáciu ju môžete odstrániť</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Smart Pixels</string>
+  <string name="smart_pixels_summary">Ušetrite batériu vypnutím pixelov navyše</string>
+  <string name="smart_pixels_enable_title">Povoliť Smart Pixels</string>
+  <string name="smart_pixels_enable_summary">Vypnite pixely, aby ste znížili spotrebu energie</string>
+  <string name="smart_pixels_on_power_save_title">Automatické zapnutie pri spustení šetriča batérie</string>
+  <string name="smart_pixels_on_power_save_summary">Zapnúť Smart Pixels ak je aktivovaný šetrič batérie</string>
+  <string name="smart_pixels_percent">Percento pixelov, ktoré chcete vypnúť</string>
+  <string name="smart_pixels_shift_title">Ochrana pred vypálením pixelov</string>
+  <string name="smart_pixels_shift_summary">Zabraňuje vypáleniu OLED displejov zariadení častou zmenou pixelov</string>
+  <string name="lockscreen_items_other">Ostatné</string>
+  <string name="qs_header_category">Záhlavie Rýchlych nastavení</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">Rolovanie malých dlaždíc Rýchl. nastavení</string>
+  <string name="qqs_scroll_summary">Povoliť rolovanie malých dlaždíc rýchlych nastavení</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">\@null</string>
+  <string name="screen_state_toggles_title">Pozastavené akcie</string>
+  <string name="screen_state_toggles_enable_title">Zapnúť</string>
+  <string name="screen_state_toggles_enable_summary">Akcie budú vykonané pri vypnutí obrazovky. Pri zapnutí a uvedení do predchádzajúceho stavu budú obnovené.</string>
+  <string name="screen_state_toggles_mobile_title">Mobilné siete</string>
+  <string name="screen_state_toggles_location_title">Poloha</string>
+  <string name="screen_state_toggles_twog">Prepnúť na 2G</string>
+  <string name="screen_state_toggles_twog_summary">Pri vypnutí obrazovky sa mobilná sieť prepne na 2G</string>
+  <string name="screen_state_toggles_gps">Vypnúť GPS</string>
+  <string name="screen_state_toggles_gps_summary">Pri vypnutí obrazovky bude GPS služba vypnutá</string>
+  <string name="screen_state_toggles_mobile_data">Vypnúť mobilné dáta</string>
+  <string name="screen_state_toggles_mobile_data_summary">Pri vypnutí obrazovky budú mobilné dáta vypnuté</string>
+  <string name="screen_state_off_delay_title">Oneskorenie akcí po vypnutí obrazovky</string>
+  <string name="screen_state_off_delay_summary">Počet sekúnd čakania pred vykonaním akcie po vypnutí obrazovky</string>
+  <string name="screen_state_on_delay_title">Oneskorenie akcí po zapnutí obrazovky</string>
+  <string name="screen_state_on_delay_summary">Počet sekúnd čakania pred vykonaním akcie po zapnutí obrazovky</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">Zapnúť</string>
+  <string name="daylight_header_pack_title">Zbierka obrázkov záhlavia</string>
+  <string name="status_bar_custom_header_shadow_title">Tieň obrázkov záhlavia</string>
+  <string name="status_bar_custom_header_shadow_summary">Pre lepšiu viditeľnosť na jasnom pozadí</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Statický obrázok</string>
+  <string name="daylight_header_provider_title">Zbierka obrázkov</string>
+  <string name="custom_header_provider_title">Operátor v záhlaví</string>
+  <string name="custom_header_browse_title">Prezerať nainštalované záhlavia</string>
+  <string name="custom_header_browse_summary">Kliknite na ľubovoľný obrázok pre použitie v statickom režime</string>
+  <string name="custom_header_browse_summary_new">Prehľadávať všetky dostupné zbierky záhlaví</string>
+  <string name="custom_header_pick_title">Vyberať obrázok záhlavia</string>
+  <string name="custom_header_pick_summary">Vyberte obrázok, ktorý chcete použiť v statickom režime</string>
+  <string name="style_enabled_summary">Vlastný obrázok záhlavia je zapnutý</string>
+  <string name="style_disabled_summary">Vlastný obrázok záhlavia je vypnutý</string>
+  <string name="header_provider_disabled">Vypnuté</string>
+  <string name="custom_header_title">Vlastný obrázok záhlavia</string>
+  <string name="file_header_select_title">Vybrať obrázok</string>
+  <string name="file_header_select_summary">Vybrať vlastný obrázok</string>
+  <string name="file_header_provider_title">Vlastný obrázok</string>
+  <string name="qs_header_title">Vlastné záhlavia</string>
+  <string name="qs_header_summary">Skrášliť rýchle nastavenia pomocou vlastných záhlaví</string>
+  <string name="qs_running_services_title">Ikona spustených služieb</string>
+  <string name="qs_running_services_summary">Zakázať ikonu spustených služieb v záhlaví</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

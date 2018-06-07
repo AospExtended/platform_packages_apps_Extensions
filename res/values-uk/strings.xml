@@ -45,7 +45,7 @@
   <string name="recents_category">Нещодавні</string>
   <string name="recents_category_summary">Налаштуйте вид нещодавніх програм</string>
   <string name="status_bar_category">Рядок стану</string>
-  <string name="status_bar_category_summary">Налаштуйте статусбар</string>
+  <string name="status_bar_category_summary">Налаштуйте рядок стану</string>
   <string name="notifications_panel_category">Панель сповіщень</string>
   <string name="notifications_panel_category_summary">Налаштуйте панель швидких налаштувань та сповіщень</string>
   <string name="system_category">Система</string>
@@ -75,6 +75,7 @@
   <!-- Notifications -->
   <string name="notifications_title">Сповіщення</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Смарт-пікселі - засіб економії заряду. Залежно від того, скільки пікселів ви вирішили вимкнути, можна побачити значне поліпшення часу роботи акумулятора. Для оптимального користування пристроєм, радимо встановити кількість вимкнених пікселів на 75 відсотків.</string>
   <!-- Navigation -->
   <string name="navigationbar_settings_title">Панель навігації</string>
   <!-- Quick Settings -->
@@ -104,7 +105,7 @@
   <!-- Footer warnings -->
   <string name="carrier_label_warning_text">Зверніть увагу, що користувацька назва оператора не відображається на панелі швидких налаштувань. Крім того, використання емоджі в якості назви оператора може викликати проблеми з відображенням на більш світлих фонах.</string>
   <!-- Battery light -->
-  <string name="battery_light_settings">Індикація зарядки акумулятора</string>
+  <string name="battery_light_settings">Індикація заряджання акумулятора</string>
   <string name="battery_light_enable">Індикація батареї</string>
   <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
   <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
@@ -178,7 +179,7 @@
   <string name="smart_pulldown_dismissable">без тих, що видаляються</string>
   <string name="smart_pulldown_ongoing">без постійних</string>
   <!-- Lockscreen icons -->
-  <string name="lockscreen_tuner_title">Тільки на екрані блокування</string>
+  <string name="lockscreen_tuner_title">Налаштування екрану блокування</string>
   <string name="hide_lockscreen_items_title">Елементи екрану блокування</string>
   <!-- Force expanded notifications -->
   <string name="force_expanded_notifications_title">Примусово розгортати сповіщення</string>
@@ -243,7 +244,7 @@
   <string name="ringtone_focus_mode_dynamic">Навушники, якщо вони під\'єднані і грає музика</string>
   <string name="ringtone_focus_mode_stock">"Через динамік (за замовчуванням aosp)"</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">Попередження знизу швидких налаштувань</string>
+  <string name="qs_footer_warnings_title">Попередження знизу панелі швидких налаштувань</string>
   <string name="qs_footer_warnings_summary">Відображати попередження знизу панелі налаштувань, коли мережа контролюється зовнішніми додатками або VPN</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Віджет годинника</string>
@@ -298,7 +299,7 @@
   <string name="ticker_disabled">Вимкнено</string>
   <string name="ticker_enabled">Текст сповіщень</string>
   <string name="ticker_media_enabled">Текст сповіщень і музики</string>
-  <string name="ticker_animation_mode_title">Стиль анімації біжучої стрічки</string>
+  <string name="ticker_animation_mode_title">Стиль анімації рухомого рядка</string>
   <string name="ticker_animation_mode_alpha_fade">Згасання</string>
   <string name="ticker_animation_mode_scroll">Прокрутка</string>
   <string name="recents_icon_pack_title">Набір іконок</string>
@@ -417,7 +418,19 @@
   <string name="fling_longpress_title">Затримка тривалого натискання</string>
   <string name="fling_longpress_summary">Збільшити або зменшити час, необхідний для тривалого натискання</string>
   <string name="fling_keyboard_cursors_title">Динамічна дія курсорів клавіатури</string>
+  <string name="fling_keyboard_cursors_move_summary">Коли відображається клавіатура, довго натискайте вліво або вправо, щоб перемістити текстовий курсор вліво або вправо.\nПродовжуйте утримувати для того, щоб курсор продовжував переміщатися, натисніть один раз на панель, щоб повернутися на домашній екран.</string>
   <string name="fling_logo_opacity_title">Непрозорість логотипу Fling</string>
+  <string name="fling_factory_reset_title">Скинути до налаштувань за замовчуванням</string>
+  <string name="fling_factory_reset_confirm">Ви впевнені, що хочете повернути налаштування в початковий стан?</string>
+  <string name="fling_backup_current_config_title">Зберегти профіль</string>
+  <string name="fling_restore_config_title">Відновити профіль</string>
+  <string name="fling_config_name_edit_dialog_title">Назва профілю Fling</string>
+  <string name="fling_config_name_edit_dialog_message">Введіть назву або залиште поле пустим</string>
+  <string name="fling_config_dialog_title">Назва профілю Fling</string>
+  <string name="fling_config_backup_success_toast">Профіль Fling успішно збережено</string>
+  <string name="fling_config_restore_success_toast">Профіль Fling успішно відновлено</string>
+  <string name="fling_config_backup_error_toast">Помилка при збереженні профілю Fling</string>
+  <string name="fling_config_restore_error_toast">Помилка при відновленні профілю Fling</string>
   <!-- Pulse navigation bar music visualizer -->
   <string name="pulse_help_policy_notice_summary">Pulse не працює з деякими джерелами аудіо під час прослуховування через динамік</string>
   <string name="pulse_settings">Pulse</string>
@@ -491,7 +504,6 @@
   <string name="smartbar_config_restore_success_toast">Профіль SmartBar успішно відновлено</string>
   <string name="smartbar_config_backup_error_toast">Помилка при збереженні профілю Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Помилка при відновленні профілю Smartbar</string>
-  <string name="navbar_buttons_alpha_title">Прозорість кнопок</string>
   <string name="smartbar_longpress_delay_title">Затримка довгого натиснення кнопки</string>
   <string name="smartbar_longpress_delay_summary">Встановити, як довго система буде чекати, перш ніж спрацює дія на довгому натисненні</string>
   <string name="smartbar_longpress_delay_default">Стандартна затримка (швидко)</string>
@@ -563,7 +575,7 @@
   <string name="screenshot_edit_app_summary">Виберіть який редактор скріншотів використовувати для редагування</string>
   <string name="screenshot_edit_app_no_editor">Немає доступних редакторів зображень</string>
   <!-- Suppress notification sound/vibration -->
-  <string name="notification_sound_vib_screen_on_title">Звуков сповіщення та вібрація при включеному екрані</string>
+  <string name="notification_sound_vib_screen_on_title">Звуки сповіщення та вібрація при увімкненому екрані</string>
   <string name="notification_sound_vib_screen_on_never">Ніколи</string>
   <string name="notification_sound_vib_screen_on_always">Завжди (за замовчуванням)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Коли медіа не відтворюється</string>
@@ -579,6 +591,7 @@
   <string name="less_notification_sounds_2m">Кожні 2 хвилини</string>
   <string name="face_auto_unlock_title">Автоматичне розблокування обличчям</string>
   <string name="face_auto_unlock_summary">Закрити вікно блокування після розблокування обличчям</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Годинник і дата</string>
   <string name="status_bar_clock_summary">Налаштування вигляду годинника та дати</string>
@@ -673,7 +686,7 @@
   <string name="delete_progress_title">Видалення</string>
   <string name="delete_progress">Вибрані файли видалені...</string>
   <string name="sizer_message_noselect">Нічого не вибрано.</string>
-  <string name="system_app_remover">Засіб видалення Системних Програм</string>
+  <string name="system_app_remover">Видалення системних програм</string>
   <string name="sizer_message_error">Не вдалося видалити, перевірте root-права</string>
   <string name="sizer_message_success">Успішно</string>
   <!-- Fingerprint authentication vibration -->
@@ -786,13 +799,122 @@
   <string name="system_default_animation_title">Стиль анімації Android P</string>
   <string name="system_default_animation_summary">Увімкніти анімацію Android P за замовчуванням</string>
   <!-- Sensor block per-package -->
+  <string name="sensor_block_title">Блокування датчиків попакетно</string>
+  <string name="sensor_block_summary">Блокувати доступ до певних датчиків для деяких додатків для економії батареї.</string>
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Панель заряду батареї</string>
+  <string name="battery_bar_summary">Показ та налаштування панелі заряду біля рядка стану або панелі навігації</string>
+  <string name="battery_bar">Розташування панелі заряду батареї</string>
+  <string name="battery_bar_no_navbar">Розташування панелі заряду батареї</string>
+  <string name="battery_bar_location_hide">Приховати</string>
+  <string name="battery_bar_location_statusbar">Рядок стану</string>
+  <string name="battery_bar_location_top_navbar">Верх панелі навігації</string>
+  <string name="battery_bar_location_bottom_navbar">Низ панелі навігації</string>
+  <string name="battery_bar_color">Колір смужки батареї</string>
+  <string name="battery_bar_charging_color">Колір смужки при заряджанні</string>
+  <string name="battery_bar_battery_low_color">Колір смужки при низькому заряді</string>
+  <string name="battery_bar_cat">Стиль смужки батареї</string>
+  <string name="battery_bar_style_title">Вирівнювання смужки батареї</string>
+  <string name="battery_bar_thickness_title">Товщина смужки батареї</string>
+  <string name="battery_bar_animate_title">Анімація заряджання</string>
+  <string name="battery_bar_style_regular">Звичайний</string>
+  <string name="battery_bar_style_center_mirrored">Дзеркально по центру</string>
+  <string name="battery_bar_style_reversed">Навпаки</string>
+  <string name="battery_bar_use_charging_color">Власний колір при заряджанні</string>
+  <string name="battery_bar_blend_color_title">Змішування кольорів</string>
+  <string name="battery_bar_blend_color_summary">Змішані повні/пусті кольори відповідно до відсотків акумулятора</string>
+  <string name="battery_bar_blend_color_reverse_title">Зворотній напрямок кольорів</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Повний &#8594; пустий: червоний &#8592; зелений &#8592; блакитний &#8592; червоний</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Повний &#8594; пустий: червоний &#8594; зелений &#8594; блакитний &#8594; червоний</string>
   <!-- ANBI -->
+  <string name="anbi_title">Випадковий дотик</string>
+  <string name="anbi_summary">Запобігати взаємодії з кнопками навігації при натисканні на екран</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">Wakelock and Alarm Blocker</string>
+  <string name="wakelock_blocker_title">Wakelock Blocker</string>
+  <string name="wakelock_blocker_summary">Блокувати системні wakelock\'и</string>
+  <string name="wakelock_blocker_save">Зберегти</string>
+  <string name="wakelock_list_header">Доступні wakelock\'и</string>
+  <string name="wakelock_blocker_reload">Оновити</string>
+  <string name="wakelock_blocker_warning_title">Використовуйте на свій страх та ризик</string>
+  <string name="wakelock_blocker_warning">Блокування wakelock\'ів може викликати нестабільність, збої чи втрату даних</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Блокування *alarms*</string>
+  <string name="alarm_blocker_title">Увімкнути</string>
+  <string name="alarm_blocker_summary">Блокування *alarms* при вимкненому екрані</string>
+  <string name="alarm_blocker_save">Зберегти</string>
+  <string name="alarm_list_header">Доступні *alarms*</string>
+  <string name="alarm_blocker_reload">Оновити</string>
+  <string name="alarm_blocker_warning_title">Використовуйте на свій страх та ризик</string>
+  <string name="alarm_blocker_warning">Блокування *alarms* може викликати нестабільність, збої чи втрату даних.</string>
   <!-- Pocket judge -->
+  <string name="pocket_judge_title">Виявлення телефону в кишені</string>
+  <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
+  <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_title">Чорний список активності</string>
+  <string name="chooser_activity_blacklist_summary">Додатки, що не слід показувати при натисканні кнопки \"Поділитися\"</string>
+  <string name="chooser_activity_blacklist_cat_title">Чорний список</string>
+  <string name="chooser_activity_blacklist_pref_title">Додати додаток</string>
+  <string name="chooser_activity_blacklist_pref_summary">Натисніть тут, щоб додати, або натисніть на доданий додаток, щоб видалити його</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Розумні пікселі</string>
+  <string name="smart_pixels_summary">Збережіть акумулятор, вимкнувши додаткові пікселі</string>
+  <string name="smart_pixels_enable_title">Увімкнути розумні пікселі</string>
+  <string name="smart_pixels_enable_summary">Вимкніть пікселі, щоб зменшити споживання енергії</string>
+  <string name="smart_pixels_on_power_save_title">Автоматичне увімкнення для збереження акумулятора</string>
+  <string name="smart_pixels_on_power_save_summary">Увімкнути смарт-пікселі, коли ввімкнено збереження акумулятора</string>
+  <string name="smart_pixels_percent">Відсоток пікселів для відключення</string>
+  <string name="smart_pixels_shift_title">Захист від вигоряння</string>
+  <string name="smart_pixels_shift_summary">Запобігає вигорянню на OLED-пристроях, часто зрушуючи пікселі</string>
+  <string name="lockscreen_items_other">Інше</string>
+  <string name="qs_header_category">Заголовок швидких налаштувань</string>
   <!-- Small quick settings scroller -->
+  <string name="qqs_scroll_title">Прокручування дрібних плиток в панелі швидких налаштувань</string>
+  <string name="qqs_scroll_summary">Дозволити прокрутку дрібних значків швидких налаштувань</string>
   <!-- Screen state service -->
+  <string name="screen_state_toggles_summary">Пусто</string>
+  <string name="screen_state_toggles_title">Призупинення дій</string>
+  <string name="screen_state_toggles_enable_title">Увімкнути</string>
+  <string name="screen_state_toggles_enable_summary">Дії, що будуть виконуватися на вимкненому екрані. При увімкненому екрані буде відновлено попередній стан.</string>
+  <string name="screen_state_toggles_mobile_title">Мобільні мережі</string>
+  <string name="screen_state_toggles_location_title">Місцезнаходження</string>
+  <string name="screen_state_toggles_twog">Перемкнути на 2G</string>
+  <string name="screen_state_toggles_twog_summary">Режим мережі буде змінено на 2G після вимкнення екрану</string>
+  <string name="screen_state_toggles_gps">Вимкнути GPS</string>
+  <string name="screen_state_toggles_gps_summary">Послуги GPS буде вимкнуто після вимкнення екрану</string>
+  <string name="screen_state_toggles_mobile_data">Вимкнути мобільні дані</string>
+  <string name="screen_state_toggles_mobile_data_summary">Мобільні дані буде вимкнуто після вимкнення екрану</string>
+  <string name="screen_state_off_delay_title">Затримка дій при вимкненні екрану</string>
+  <string name="screen_state_off_delay_summary">Затримка очікування перед виконанням дій після вимкнення екрану</string>
+  <string name="screen_state_on_delay_title">Затримка дій при ввімкненні</string>
+  <string name="screen_state_on_delay_summary">Затримка очікування перед виконанням дій після увімкнення екрану</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">Увімкнути</string>
+  <string name="daylight_header_pack_title">Колекція зображень заголовка</string>
+  <string name="status_bar_custom_header_shadow_title">Тінь зображення в заголовку</string>
+  <string name="status_bar_custom_header_shadow_summary">Для кращої видимості на яскравому тлі</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Статичне зображення</string>
+  <string name="daylight_header_provider_title">Колекція зображень</string>
+  <string name="custom_header_provider_title">Оператор у заголовку</string>
+  <string name="custom_header_browse_title">Огляд встановлених заголовків</string>
+  <string name="custom_header_browse_summary">Натисніть на зображення для статичного режиму</string>
+  <string name="custom_header_browse_summary_new">Перегляд всіх доступних колекцій заголовків</string>
+  <string name="custom_header_pick_title">Користувацька картинка заголовку</string>
+  <string name="custom_header_pick_summary">Виберіть зображення для статичного режиму</string>
+  <string name="style_enabled_summary">Користувацьке зображення заголовка УВІМК.</string>
+  <string name="style_disabled_summary">Користувацьке зображення заголовка ВИМК.</string>
+  <string name="header_provider_disabled">Вимкнено</string>
+  <string name="custom_header_title">Користувацька картинка заголовку</string>
+  <string name="file_header_select_title">Обрати зображення</string>
+  <string name="file_header_select_summary">Обрати власне зображення</string>
+  <string name="file_header_provider_title">Власне зображення</string>
+  <string name="qs_header_title">Користувацькі заголовки</string>
+  <string name="qs_header_summary">Вдосконалити швидкі налаштування за допомогою власних заголовків</string>
+  <string name="qs_running_services_title">Іконка запущених додатків</string>
+  <string name="qs_running_services_summary">Вимкнути іконку запущених додатків у заголовку</string>
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

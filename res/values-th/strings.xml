@@ -165,6 +165,7 @@
   <string name="less_notification_sounds_2m">ทุก 2 นาที</string>
   <string name="face_auto_unlock_title">ปลดล็อคใบหน้าอัตโนมัติ</string>
   <string name="face_auto_unlock_summary">ยกเลิกหน้าจอล็อกหลังจากปลดล็อกใบหน้า</string>
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <!-- Weather - OmniJaws Settings -->
   <!-- StatusBar weather settings -->
@@ -192,8 +193,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

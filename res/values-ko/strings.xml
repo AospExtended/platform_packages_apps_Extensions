@@ -18,20 +18,62 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General app strings -->
+  <string name="extensions_title">확장 기능</string>
+  <string name="add">추가</string>
+  <string name="advanced">고급</string>
+  <string name="cancel">취소</string>
+  <string name="choose_app">앱 선택</string>
+  <string name="general_category">일반</string>
+  <string name="gestures_category">제스처</string>
+  <string name="music_category">음악</string>
+  <string name="security_category">보안</string>
+  <string name="hardware_category">하드웨어</string>
+  <string name="icons_category">아이콘</string>
+  <string name="aosp_recents_category">AOSP recents</string>
+  <string name="loading">불러오는 중\u2026</string>
+  <string name="reset">초기화</string>
+  <string name="reset_colors">색 초기화</string>
+  <string name="reset_android">안드로이드</string>
+  <string name="text_title">텍스트</string>
+  <string name="icon_title">아이콘</string>
+  <string name="color_title">색상</string>
+  <string name="colors_title">색상</string>
   <!-- Extensions categories -->
+  <string name="status_bar_category">상태 표시줄</string>
+  <string name="status_bar_category_summary">상태 표시줄을 커스터마이즈</string>
+  <string name="notifications_panel_category">알림 패널</string>
+  <string name="notifications_panel_category_summary">퀵세팅 패널 및 알림창을 커스터마이즈</string>
+  <string name="system_category">시스템</string>
+  <string name="lockscreen_category">잠금 화면</string>
+  <string name="lockscreen_category_summary">잠금 화면을 커스터마이즈</string>
+  <string name="navigation_category">내비게이션 바</string>
+  <string name="navigation_category_summary">내비게이션 바를 커스터마이즈</string>
+  <string name="system_animations">시스템 애니메이션</string>
+  <string name="listview">리스트뷰</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">일반 트윅</string>
   <!-- Network traffic -->
+  <string name="traffic_title">송수신 표시</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">통신사 문구 표시</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">기타 확장 기능</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">최근 실행 목록</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">잠금화면 UI</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">상태 표시줄 항목</string>
   <!-- Notifications -->
+  <string name="notifications_title">알림창</string>
   <!-- Footer warnings -->
   <!-- Navigation -->
+  <string name="navigationbar_settings_title">내비게이션 바</string>
   <!-- Quick Settings -->
+  <string name="quick_settings_title">퀵세팅</string>
   <!-- Buttons -->
+  <string name="buttons_title">버튼</string>
   <!-- App Ops -->
   <!-- App info dialog -->
   <!-- System theme -->
@@ -41,8 +83,16 @@
   <!-- Network traffic -->
   <!-- Recents panel settings -->
   <!-- Power notification controls -->
+  <string name="power_notification_controls_title">알림 강도 조절</string>
+  <string name="power_notification_controls_summary">알림 중요도 선택</string>
   <!-- Quick Settings brightness slider -->
+  <string name="qs_brightness_slider_title">밝기 조절 슬라이더</string>
+  <string name="qs_brightness_slider_summary">퀵세팅 패널에 밝기 조절 슬라이더를 표시합니다</string>
   <!-- Power Menu -->
+  <string name="power_menu_title">전원 메뉴</string>
+  <string name="powermenu_screenshot">스크린샷</string>
+  <string name="powermenu_screenrecord">화면 녹화</string>
+  <string name="powermenu_power">전원</string>
   <string name="powermenu_restart">재시작</string>
   <string name="powermenu_restart_recovery">고급 재시작</string>
   <string name="powermenu_airplane">비행기 모드</string>
@@ -53,22 +103,55 @@
   <string name="powermenu_torch">손전등</string>
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">잠겨 있을 때 전원 메뉴</string>
+  <string name="lockscreen_power_menu_disabled_summary">잠금 화면에서 전원 메뉴 비활성화</string>
   <string name="recents_show_membar_title">메모리 바</string>
   <string name="recents_show_membar_summary">장치 가용 메모리 상태창</string>
   <!-- Brightness icon-->
+  <string name="brightness_icon_title">밝기 아이콘</string>
   <!-- Quick pull down-->
+  <string name="quick_pulldown_title">빠르게 패널 내리기</string>
+  <string name="quick_pulldown_summary">상태 표시줄의 %1$s 끝을 끌어내리면 빠른 설정을 보여줍니다</string>
+  <string name="quick_pulldown_summary_always">상태 표시줄을 끌어 내릴 때 항상 설정 패널 보기</string>
+  <string name="quick_pulldown_off">끄기</string>
+  <string name="quick_pulldown_left">왼쪽</string>
+  <string name="quick_pulldown_right">오른쪽</string>
+  <string name="quick_pulldown_always">항상</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_title">스마트 내리기</string>
+  <string name="smart_pulldown_summary">%1$s개 이상의 알림이 있으면 빠른 설정을 표시합니다</string>
+  <string name="smart_pulldown_none_summary">표시할 알림이 없으면 빠른 설정을 표시합니다</string>
+  <string name="smart_pulldown_off">끄기</string>
+  <string name="smart_pulldown_none">알림 없음</string>
+  <string name="smart_pulldown_ongoing">진행 중 알림 없음</string>
   <!-- Lockscreen icons -->
+  <string name="hide_lockscreen_items_title">잠금화면 항목</string>
   <!-- Force expanded notifications -->
+  <string name="force_expanded_notifications_title">알림 강제 확장</string>
+  <string name="force_expanded_notifications_summary">확장된 알림을 지원하는 앱에서만 사용 가능합니다</string>
   <!-- Double Tap Lockscreen to Sleep -->
+  <string name="double_tap_to_sleep_lockscreen_title">잠금 화면에서 두번 두드려 화면 끄기</string>
+  <string name="double_tap_to_sleep_lockscreen_summary">잠금 화면의 상단 또는 하단 바로 가기 영역을 두 번 탭하여 화면 끄기</string>
   <!-- Double tap-to-sleep -->
+  <string name="double_tap_to_sleep_title">상태 표시줄을 두 번 두드려 화면 끄기</string>
   <!-- Brightness control -->
+  <string name="status_bar_toggle_brightness">밝기 조절</string>
+  <string name="status_bar_toggle_brightness_summary">상태 표시줄을 슬라이드하여 화면 밝기 조절</string>
   <!-- Lockscreen battery info indicator  -->
+  <string name="lockscreen_battery_info_title">잠금 화면 배터리 정보</string>
   <!-- Media art -->
+  <string name="media_art_title">미디어 커버 아트</string>
+  <string name="media_art_summary">잠금 화면에서 미디어 커버 아트를 활성화 합니다</string>
   <!-- Buttons title -->
+  <string name="power_category">전원 버튼</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">볼륨 버튼 방향 바꾸기</string>
+  <string name="swap_volume_buttons_summary">화면 회전을 기준으로 버튼 방향 조정</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">볼륨 버튼으로 미디어 음량 조절</string>
+  <string name="volume_keys_control_media_stream_summary">볼륨 버튼으로 미디어 스트림을 조정</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">재생 컨트롤</string>
+  <string name="volume_rocker_music_controls_summary">화면이 꺼져 있을 때 볼륨 버튼을 길게 눌러 음악을 탐색</string>
   <!-- Language options - Volume rocker cursor control -->
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
@@ -102,6 +185,7 @@
   <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
   <!-- Less Notification sounds -->
+  <!-- Notification count -->
   <!-- Status bar clock options -->
   <!-- Weather - OmniJaws Settings -->
   <!-- StatusBar weather settings -->
@@ -129,8 +213,13 @@
   <!-- Wakelock blocker -->
   <!-- Alarm blocker -->
   <!-- Pocket judge -->
+  <!-- Chooser activity blacklist -->
   <!-- Smart Pixels -->
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
   <!-- QS Headers -->
+  <!-- Wallpaper tint -->
+  <!-- Edge gestures -->
+  <!-- AOSP Recents Style -->
+  <!-- SystemUI Restart -->
 </resources>

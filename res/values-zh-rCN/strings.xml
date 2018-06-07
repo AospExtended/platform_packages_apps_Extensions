@@ -249,8 +249,20 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">时钟部件</string>
   <string name="hide_lockscreen_clock_summary">更改时钟部件的可见性</string>
+  <string name="lockscreen_clock_selection_title">时钟样式</string>
+  <string name="lockscreen_clock_selection_digital">默认</string>
+  <string name="lockscreen_clock_selection_digital_bold">数字时钟（粗体）</string>
+  <string name="lockscreen_clock_selection_analog">模拟时钟</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">模拟时钟（死侍）</string>
+  <string name="lockscreen_clock_selection_small">小型数字时钟</string>
+  <string name="lockscreen_clock_selection_analog_spidey">模拟时钟（蜘蛛侠）</string>
   <string name="hide_lockscreen_date_title">日期部件</string>
   <string name="hide_lockscreen_date_summary">更改时钟部件下方日期的可见性</string>
+  <string name="lockscreen_date_selection_title">日期样式</string>
+  <string name="lockscreen_date_selection_default_aosp">默认</string>
+  <string name="lockscreen_date_selection_default">默认（更大）</string>
+  <string name="lockscreen_date_selection_str_box">半透明方块</string>
+  <string name="lockscreen_date_selection_str_round">半透明方块（圆角）</string>
   <string name="hide_lockscreen_alarm_title">闹钟文本</string>
   <string name="hide_lockscreen_alarm_summary">更改时钟部件下方闹钟文本的可见性</string>
   <!-- Heads up -->
@@ -504,6 +516,7 @@
   <string name="smartbar_config_restore_success_toast">Smartbar 配置文件已成功恢复</string>
   <string name="smartbar_config_backup_error_toast">保存 Smart Bar 配置文件时出错</string>
   <string name="smartbar_config_restore_error_toast">恢复 Smart Bar 配置文件时出错</string>
+  <string name="navbar_buttons_alpha_title">按钮不透明度</string>
   <string name="smartbar_longpress_delay_title">按键长按延迟</string>
   <string name="smartbar_longpress_delay_summary">设置系统在触发长按动作之前的等待时间</string>
   <string name="smartbar_longpress_delay_default">默认(低)</string>
@@ -592,6 +605,8 @@
   <string name="face_auto_unlock_title">人脸自动解锁</string>
   <string name="face_auto_unlock_summary">人脸解锁后自动解除锁屏</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">显示通知数量</string>
+  <string name="status_bar_notif_count_summary">显示未读的通知数量</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">时钟和日期</string>
   <string name="status_bar_clock_summary">配置状态栏时钟和日期外观</string>

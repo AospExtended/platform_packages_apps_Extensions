@@ -868,7 +868,6 @@ Contexto | Contexto de solicitação</string>
   <string name="smart_pixels_percent">Percentagem de pixels a desativar</string>
   <string name="smart_pixels_shift_title">Proteção contra Burn-in</string>
   <string name="smart_pixels_shift_summary">Impede burn-in em dispositivos OLED, deslocando pixels de vez em quando</string>
-  <string name="lockscreen_items_other">#-#-#-#-# messages. po (udemy-website) #-#-#-#-#\nOutro\n#-#-#-#-# user. po (udemy-website) #-#-#-#-#\n#-#-#-#-# messages. po (udemy-website) #-#-#-#-#\nOutro\n#-#-#-#-# user. po (udemy-website) #-#-#-#-#\nOther</string>
   <string name="qs_header_category">Cabeçalho QS</string>
   <!-- Small quick settings scroller -->
   <string name="qqs_scroll_title">Rolagem nas QS pequenas</string>

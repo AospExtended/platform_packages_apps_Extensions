@@ -36,17 +36,26 @@ import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+import android.content.pm.PackageInfo;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
-
+import android.content.pm.PackageManager.NameNotFoundException;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 public class MiscExtensions extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+
+    private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
+    private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
+    private Context mContext;
+    private CustomSeekBarPreference mCornerRadius;
+    private CustomSeekBarPreference mContentPadding;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +65,19 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        // Rounded Corner Radius
+        mCornerRadius = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_SIZE);
+        int cornerRadius = Settings.System.getInt(getContentResolver(),
+                Settings.System.SYSUI_ROUNDED_SIZE, 0);
+        mCornerRadius.setValue(cornerRadius / 1);
+        mCornerRadius.setOnPreferenceChangeListener(this);
+        // Rounded Content Padding
+        mContentPadding = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_CONTENT_PADDING);
+        int contentPadding = Settings.System.getInt(getContentResolver(),
+                Settings.System.SYSUI_ROUNDED_CONTENT_PADDING, 0);
+        mContentPadding.setValue(contentPadding / 1);
+        mContentPadding.setOnPreferenceChangeListener(this);
 
     }
 
@@ -71,6 +93,15 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        return false;
+        if (preference == mCornerRadius) {
+            int value = (Integer) objValue;
+            Settings.Secure.putInt(getContentResolver(),
+                Settings.System.SYSUI_ROUNDED_SIZE, value * 1);
+        } else if (preference == mContentPadding) {
+            int value = (Integer) objValue;
+            Settings.Secure.putInt(getContentResolver(),
+                Settings.System.SYSUI_ROUNDED_CONTENT_PADDING, value * 1);
+        }
+        return true;
     }
 }

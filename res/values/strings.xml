@@ -1079,15 +1079,6 @@
     <string name="edge_gestures_back_screen_percent_summary">Trigger below % of screen</string>
     <string name="edge_gestures_summary">Navigate using edge gestures</string>
 
-
-
-   <!-- AOSP Recents Style -->
-    <string name="recents_type_title">Recents Layout</string>
-    <string name="recents_stock">Stock</string>
-    <string name="recents_grid">Grid</string>
-    <string name="recents_go">Android Go</string>
-
-
     <!-- SystemUI Restart -->
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For all changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>

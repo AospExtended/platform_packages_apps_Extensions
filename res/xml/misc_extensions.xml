@@ -60,5 +60,32 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/corners_category" >
+     <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="sysui_rounded_fwvals"
+            android:title="@string/corner_fwvals"
+            android:summary="@string/corner_fwvals_summary"
+            android:defaultValue="false"
+            android:disableDependentsState="true" />
+     <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="sysui_rounded_size"
+            android:title="@string/corner_radius"
+            android:max="25"
+            settings:min="0"
+            android:defaultValue="12"
+            settings:units=""
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
+    <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="sysui_rounded_content_padding"
+            android:title="@string/content_padding"
+            android:max="10"
+            settings:min="0"
+            settings:units=""
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
+    </PreferenceCategory>
+
 
 </PreferenceScreen>

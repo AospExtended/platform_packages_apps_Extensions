@@ -328,4 +328,8 @@
     <string name="qs_rows_landscape_title">Rows (Landscape)</string>
     <string name="qs_columns_portrait_title">Columns (Portrait)</string>
     <string name="qs_columns_landscape_title">Columns (Landscape)</string>
+
+    <!-- Quick Setting tile titles -->
+    <string name="qs_tile_title_visibility_title">Tile title</string> 
+    <string name="qs_tile_title_visibility_summary">Display title below each tile</string> 
 </resources>

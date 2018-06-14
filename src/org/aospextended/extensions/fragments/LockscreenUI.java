@@ -57,9 +57,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
     private static final String FP_CAT = "lockscreen_ui_general_category";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
     private SwitchPreference mFaceUnlock;
     private SystemSettingSwitchPreference mFingerprintVib;
+    private SystemSettingSwitchPreference mFpKeystore;
     private FingerprintManager mFingerprintManager;
 
     @Override
@@ -84,6 +86,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
 
         if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()){
         mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
@@ -91,6 +94,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mFingerprintVib.setOnPreferenceChangeListener(this);
         } else {
         fingerprintCategory.removePreference(mFingerprintVib);
+        fingerprintCategory.removePreference(mFpKeystore);
         }
 
 

@@ -49,7 +49,7 @@
     <string name="status_bar_category">Statusbar</string>
     <string name="status_bar_category_summary">Customize your statusbar</string>
     <string name="notifications_panel_category">Notifications panel</string>
-    <string name="notifications_panel_category_summary">Customize your QS panel and notificaitons</string>
+    <string name="notifications_panel_category_summary">Customize your QS panel and notifications</string>
     <string name="system_category">System</string>
     <string name="system_category_summary">Various system extensions</string>
     <string name="lockscreen_category">Lockscreen</string>
@@ -208,7 +208,7 @@
     <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
     <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">no notifications</string>
-    <string name="smart_pulldown_dismissable">no dismissable</string>
+    <string name="smart_pulldown_dismissable">no dismissible</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
     <!-- Lockscreen icons -->
@@ -231,7 +231,7 @@
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
@@ -360,7 +360,7 @@
 
     <!-- Disabling FC notifications -->
     <string name="disable_fc_notifications_title">Disable FC Notifications</string>
-    <string name="disable_fc_notifications_summary">This will hide all force close notificaitons</string>
+    <string name="disable_fc_notifications_summary">This will hide all force close notifications</string>
 
     <!-- Statusbar ticker -->
     <string name="ticker_screen_title">Ticker</string>
@@ -1092,7 +1092,7 @@
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For all changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
 
-    <string name="lockscreen_weather_footer_warning">Avoid using Lockscreen weather along with custom Lockscreen clock styles, specially on lower DPI as clock might cut out of screen.</string>
+    <string name="lockscreen_weather_footer_warning">Avoid using Lockscreen weather along with custom Lockscreen clock styles, especially on lower DPI as clock might cut out of screen.</string>
 
 </resources>
 

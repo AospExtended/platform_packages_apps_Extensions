@@ -169,7 +169,7 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.RECENTS_LAYOUT_STYLE, style, UserHandle.USER_CURRENT);
             mRecentsType.setSummary(mRecentsType.getEntries()[index]);
-            Utils.restartSystemUi(getContext());
+            Utils.showSystemUiRestartDialog(getContext());
         return true;
         }
         return false;

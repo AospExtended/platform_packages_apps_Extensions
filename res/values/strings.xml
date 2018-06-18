@@ -1085,8 +1085,6 @@
     <string name="recents_type_title">Recents Layout</string>
     <string name="recents_stock">Stock</string>
     <string name="recents_grid">Grid</string>
-    <string name="recents_go">Android Go</string>
-
 
     <!-- SystemUI Restart -->
     <string name="systemui_restart_title">SystemUI restart required</string>

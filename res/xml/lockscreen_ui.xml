@@ -40,6 +40,12 @@
         android:defaultValue="true" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="fp_unlock_keystore"
+        android:title="@string/fp_unlock_keystore_title"
+        android:summary="@string/fp_unlock_keystore_summary"
+        android:defaultValue="false" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="wallpaper_keyguard_wallpaper_tint"
         android:title="@string/wallpaper_tint_keyguard"
         android:summary="@string/wallpaper_tint_summary"

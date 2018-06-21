@@ -840,6 +840,11 @@
     </string-array>
 
     <string-array name="edge_gestures_long_press_time_labels">
+        <item>0 ms</item>
+        <item>50 ms</item>
+        <item>100 ms</item>
+        <item>150 ms</item>
+        <item>200 ms</item>
         <item>250 ms</item>
         <item>500 ms</item>
         <item>750 ms</item>
@@ -849,6 +854,11 @@
     </string-array>
 
     <string-array name="edge_gestures_long_press_time" translatable="false">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
         <item>250</item>
         <item>500</item>
         <item>750</item>

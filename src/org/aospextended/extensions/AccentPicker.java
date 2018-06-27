@@ -443,11 +443,11 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
         Button blackAccent = null;
         if (mView != null) {
             blackAccent = mView.findViewById(R.id.blackAccent);
-            // Change the accent picker button depending on whether or not the dark, black, extended theme is applied
+            // Change the accent picker button depending on whether or not the dark, black, extended, chocolate theme is applied
             blackAccent.setBackgroundColor(getResources().getColor(
-                    (isUsingDarkTheme() || isUsingBlackTheme() || isUsingExtendedTheme()) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
+                    (isUsingDarkTheme() || isUsingBlackTheme() || isUsingExtendedTheme() || isUsingChocolateTheme()) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
             blackAccent.setBackgroundTintList(getResources().getColorStateList(
-                    (isUsingDarkTheme() || isUsingBlackTheme() || isUsingExtendedTheme()) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
+                    (isUsingDarkTheme() || isUsingBlackTheme() || isUsingExtendedTheme() || isUsingChocolateTheme()) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
         }
         if (blackAccent != null) {
             blackAccent.setOnClickListener(new View.OnClickListener() {
@@ -504,6 +504,18 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
         OverlayInfo themeInfo = null;
         try {
             themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.extended",
+                    UserHandle.USER_CURRENT);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+        return themeInfo != null && themeInfo.isEnabled();
+    }
+
+    // Check for the chocolate theme overlay
+    private boolean isUsingChocolateTheme() {
+        OverlayInfo themeInfo = null;
+        try {
+            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.chocolate",
                     UserHandle.USER_CURRENT);
         } catch (RemoteException e) {
             e.printStackTrace();

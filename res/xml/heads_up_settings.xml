@@ -61,4 +61,10 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             android:summary="@string/add_heads_up_blacklist_summary" />
     </PreferenceCategory>
 
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>

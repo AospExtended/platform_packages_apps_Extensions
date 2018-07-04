@@ -41,6 +41,12 @@
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
 
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:defaultValue="true" />
+
     <ListPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"

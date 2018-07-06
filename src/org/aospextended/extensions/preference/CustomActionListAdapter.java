@@ -50,7 +50,7 @@ public class CustomActionListAdapter extends BaseAdapter {
     private IOverlayManager mOverlayManager;
     private int mCurrentUserId;
 
-    private boolean mIsUsingWhiteAccent;
+//    private boolean mIsUsingWhiteAccent;
 
     public CustomActionListAdapter(Context context) {
         mContext = context;
@@ -58,7 +58,7 @@ public class CustomActionListAdapter extends BaseAdapter {
         mOverlayManager = IOverlayManager.Stub.asInterface(
                 ServiceManager.getService(Context.OVERLAY_SERVICE));
         mCurrentUserId = ActivityManager.getCurrentUser();
-        mIsUsingWhiteAccent = ThemeAccentUtils.isUsingWhiteAccent(mOverlayManager, mCurrentUserId);
+//        mIsUsingWhiteAccent = ThemeAccentUtils.isUsingWhiteAccent(mOverlayManager, mCurrentUserId);
         reloadActions();
     }
 
@@ -120,7 +120,8 @@ public class CustomActionListAdapter extends BaseAdapter {
             holder.icon.setLayoutParams(params);
             holder.icon.setScaleType(ScaleType.CENTER);
             holder.icon.setCropToPadding(true);
-            holder.icon.setBackgroundResource(mIsUsingWhiteAccent ? R.drawable.fab_white : R.drawable.fab_accent);
+//            holder.icon.setBackgroundResource(mIsUsingWhiteAccent ? R.drawable.fab_white : R.drawable.fab_accent);
+            holder.icon.setBackgroundResource(R.drawable.fab_accent);
             convertView.setTag(holder);
         }
         ActionConfigs config = getItem(position);

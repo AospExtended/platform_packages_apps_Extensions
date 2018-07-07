@@ -48,10 +48,14 @@ import com.android.settings.Utils;
 
 public class Notifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+
     private ListPreference mTickerMode;
     private ListPreference mTickerAnimation;
     private ListPreference mNoisyNotification;
     private ListPreference mAnnoyingNotification;
+    private PreferenceCategory mLedsCategory;
+    private Preference mChargingLeds;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,6 +65,16 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mLedsCategory = (PreferenceCategory) findPreference("light_category");
+        mChargingLeds = (Preference) findPreference("battery_charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+                mLedsCategory.removePreference(mChargingLeds);
+        }
+        if (mChargingLeds == null) {
+                prefSet.removePreference(mLedsCategory);
+        }
 
         mTickerMode = (ListPreference) findPreference("ticker_mode");
         mTickerMode.setOnPreferenceChangeListener(this);
@@ -92,6 +106,11 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD,
                 30000, UserHandle.USER_CURRENT);
         mAnnoyingNotification.setValue(String.valueOf(threshold));
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+                prefSet.removePreference(incallVibCategory);
+        }
     }
 
     @Override

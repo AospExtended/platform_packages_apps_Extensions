@@ -32,12 +32,6 @@
             android:summary="@string/disable_fc_notifications_summary"
             android:defaultValue="false" />
 
-    <ListPreference
-        android:key="screen_off_animation"
-        android:title="@string/screen_off_animation_title"
-        android:entries="@array/screen_off_animation_entries"
-        android:entryValues="@array/screen_off_animation_values" />
-
         <ListPreference
             android:key="headset_connect_player"
             android:title="@string/headset_connect_player_title"
@@ -66,27 +60,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="incall_vib_options"
-        android:title="@string/incall_vibration_category" >
-
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-            android:key="vibrate_on_connect"
-            android:title="@string/incall_vibrate_connect_title"
-            android:defaultValue="false" />
-
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-            android:key="vibrate_on_callwaiting"
-            android:title="@string/incall_vibrate_call_wait_title"
-            android:defaultValue="false" />
-
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-            android:key="vibrate_on_disconnect"
-            android:title="@string/incall_vibrate_disconnect_title"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
-
-        <PreferenceCategory
             android:key="screenshot_options"
             android:title="@string/screenshot_options_category" >
 
@@ -103,7 +76,7 @@
 
     </PreferenceCategory>
 
-        <PreferenceCategory
+    <PreferenceCategory
             android:key="blocker_options"
             android:title="@string/blocker_category" >
 
@@ -119,9 +92,9 @@
              android:title="@string/alarm_blocker"
              android:summary="@string/alarm_blocker_summary" />
 
-        </PreferenceCategory>
+    </PreferenceCategory>
 
-        <PreferenceCategory
+    <PreferenceCategory
             android:key="screenstate_options"
             android:title="@string/screen_state_toggles_title" >
 
@@ -130,18 +103,6 @@
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
         android:fragment="org.aospextended.extensions.ScreenStateToggles" />
-
-       </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="light_category"
-        android:title="@string/light_category">
-
-     <Preference
-         android:key="battery_charging_light"
-         android:fragment="org.aospextended.extensions.BatteryLightSettings"
-         android:title="@string/battery_light_settings" />
-
 
     </PreferenceCategory>
 

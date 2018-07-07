@@ -743,4 +743,8 @@
 
     <string name="batterylight_title">Battery LED settings</string>
     <string name="notification_light_title">Notification light</string>
+
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
+    <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
 </resources>

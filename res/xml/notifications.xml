@@ -78,6 +78,12 @@
         android:title="@string/notification_light_title" >
     </Preference>
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="battery_fully_charged_notif"
+        android:title="@string/battery_fully_charged_notif_title"
+        android:summary="@string/battery_fully_charged_notif_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

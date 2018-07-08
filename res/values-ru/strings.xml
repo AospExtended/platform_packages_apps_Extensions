@@ -47,7 +47,6 @@
   <string name="status_bar_category">Строка состояния</string>
   <string name="status_bar_category_summary">Настроить строку состояния</string>
   <string name="notifications_panel_category">Панель уведомлений</string>
-  <string name="notifications_panel_category_summary">Настройте панель быстрого доступа и уведомления</string>
   <string name="system_category">Система</string>
   <string name="system_category_summary">Различные дополнения системы</string>
   <string name="lockscreen_category">Экран блокировки</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Открывать быстрые настройки, если %1$s уведомлений</string>
   <string name="smart_pulldown_none_summary">Открывать панель быстрых настроек, когда уведомления отсутствуют</string>
   <string name="smart_pulldown_off">Выкл</string>
-  <string name="smart_pulldown_none">нет уведомлений</string>
-  <string name="smart_pulldown_dismissable">не удаляемые</string>
   <string name="smart_pulldown_ongoing">нет постоянных</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Только на экране блокировки</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
-  <string name="lockscreen_battery_info_summary">Показывать примерное максимальное текущее напряжение и температуру аккумулятора на экране блокировки во время зарядки</string>
   <!-- Media art -->
   <string name="media_art_title">Обложки медиафайлов</string>
   <string name="media_art_summary">Показывать обложки медиафайлов на экране блокировки</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Виджет часов</string>
   <string name="hide_lockscreen_clock_summary">Изменить видимость виджета часов</string>
+  <string name="lockscreen_clock_selection_title">Стиль часов</string>
+  <string name="lockscreen_clock_selection_digital">По умолчанию</string>
+  <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
+  <string name="lockscreen_clock_selection_analog">Аналоговые</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Аналоговые (Deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
+  <string name="lockscreen_clock_selection_small">Цифровые (маленькие)</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Аналоговые (Spider-Man)</string>
   <string name="hide_lockscreen_date_title">Виджет даты</string>
   <string name="hide_lockscreen_date_summary">Изменить видимость даты под виджетом часов</string>
+  <string name="lockscreen_date_selection_title">Стиль даты</string>
+  <string name="lockscreen_date_selection_default_aosp">По умолчанию</string>
+  <string name="lockscreen_date_selection_default">По умолчанию (большие)</string>
+  <string name="lockscreen_date_selection_str_box">Полупрозрачная подложка</string>
+  <string name="lockscreen_date_selection_str_round">Полупрозрачная подложка (скругленная)</string>
   <string name="hide_lockscreen_alarm_title">Текст будильника</string>
   <string name="hide_lockscreen_alarm_summary">Изменить видимость текста будильника под виджетом часов</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Отключить уведомления о принудительном закрытии</string>
-  <string name="disable_fc_notifications_summary">Это скроет все уведомления о принудительном закрытии</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Бегущая строка</string>
   <string name="ticker_mode_title">Бегущая строка в строке состояния</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Профиль Smartbar успешно восстановлен</string>
   <string name="smartbar_config_backup_error_toast">Ошибка при сохранении профиля Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Ошибка при восстановлении профиля Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Прозрачность кнопок</string>
   <string name="smartbar_longpress_delay_title">Задержка длительного нажатия</string>
   <string name="smartbar_longpress_delay_summary">Укажите, как долго система будет ждать, прежде чем реагировать на долгое нажатие</string>
   <string name="smartbar_longpress_delay_default">Стандартная задержка (быстро)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Автоматическая разблокировка сканером лица</string>
   <string name="face_auto_unlock_summary">Убрать экран блокировки после разблокировки сканером лица</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Показывать счетчик уведомлений</string>
+  <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Время и дата</string>
   <string name="status_bar_clock_summary">Настройка отображения даты и времени</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальцев</string>
   <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
   <string name="lockscreen_qs_disabled_summary">Отключить быстрые настройки на экране блокировки</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Иконка запущенных служб</string>
   <string name="qs_running_services_summary">Отключить значок работающих приложений в заголовке</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Затенение фона меню питания</string>
+  <string name="wallpaper_tint_recents">Затенение фона панели недавних приложений</string>
+  <string name="wallpaper_tint_keyguard">Затенение фона экрана блокировки</string>
+  <string name="wallpaper_tint_notification_shade">Затенение фона шторки уведомлений</string>
+  <string name="wallpaper_tint_summary">Применить затенение на обои домашнего экрана</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Edge жесты</string>
+  <string name="edge_gestures_feedback_duration_title">Длительность виброотклика</string>
+  <string name="edge_gestures_long_press_delay_title">Задержка до следующего действия</string>
+  <string name="edge_gestures_back_category_title">Жест Назад</string>
+  <string name="edge_gestures_back_edges_title">Область жеста</string>
+  <string name="edge_gestures_landscape_back_edges_title">Область жеста в горизонтальной ориентации</string>
+  <string name="edge_gestures_back_screen_percent_title">Активная область жеста \"Назад\" будет ниже этого процента экрана</string>
+  <string name="edge_gestures_back_screen_percent_summary">Активная область ниже % экрана</string>
+  <string name="edge_gestures_summary">Навигация с помощью жестов</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Стиль</string>
+  <string name="recents_stock">По умолчанию</string>
+  <string name="recents_grid">Сетка</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Необходима перезагрузка пользовательского интерфейса</string>
+  <string name="systemui_restart_message">Чтобы все изменения вступили в силу, требуется перезагрузка пользовательского интерфейса. Перезагрузить интерфейс сейчас?</string>
 </resources>

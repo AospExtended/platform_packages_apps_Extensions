@@ -47,7 +47,6 @@
   <string name="status_bar_category">Barre d\'état</string>
   <string name="status_bar_category_summary">Personnaliser la barre de status</string>
   <string name="notifications_panel_category">Panneau de notification</string>
-  <string name="notifications_panel_category_summary">Personnaliser le panneau de réglage rapide et de notifications</string>
   <string name="system_category">Système</string>
   <string name="system_category_summary">Différentes extensions du système</string>
   <string name="lockscreen_category">Écran de verrouillage</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Ouvrir les réglages rapides quand il y a %1$s notifications</string>
   <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand aucune notification n\'est présente</string>
   <string name="smart_pulldown_off">Arrêt</string>
-  <string name="smart_pulldown_none">aucune notification</string>
-  <string name="smart_pulldown_dismissable">non rejetable</string>
   <string name="smart_pulldown_ongoing">aucune en cours</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Réglages de l\'écran de verrouillage</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en glissant sur la barre d\'état</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
-  <string name="lockscreen_battery_info_summary">Afficher la tension de charge actuelle et la température de la batterie sur l\'écran de verrouillage pendant le chargement</string>
   <!-- Media art -->
   <string name="media_art_title">Pochette de l\'album</string>
   <string name="media_art_summary">Afficher la pochette de l\'album sur l\'écran de déverrouillage</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget horloge</string>
   <string name="hide_lockscreen_clock_summary">Modifier l\'affichage du widget de l\'horloge</string>
+  <string name="lockscreen_clock_selection_title">Style de l\'horloge</string>
+  <string name="lockscreen_clock_selection_digital">Par défaut</string>
+  <string name="lockscreen_clock_selection_digital_bold">Numérique (gras)</string>
+  <string name="lockscreen_clock_selection_analog">Analogique</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analogique (Deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (gras)</string>
+  <string name="lockscreen_clock_selection_small">Petite numérique</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analogique (Spidey)</string>
   <string name="hide_lockscreen_date_title">Widget de date</string>
   <string name="hide_lockscreen_date_summary">Change la visibilité de la date sous le widget d\'horloge</string>
+  <string name="lockscreen_date_selection_title">Style de la date</string>
+  <string name="lockscreen_date_selection_default_aosp">Par défaut</string>
+  <string name="lockscreen_date_selection_default">Par défaut (grande taille)</string>
+  <string name="lockscreen_date_selection_str_box">Cadre translucide</string>
+  <string name="lockscreen_date_selection_str_round">Cadre translucide (coins arrondis)</string>
   <string name="hide_lockscreen_alarm_title">Texte d\'alarme</string>
   <string name="hide_lockscreen_alarm_summary">Change la visibilité du texte d\'alarme sous le widget d\'horloge</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Désactiver les notifications FC</string>
-  <string name="disable_fc_notifications_summary">Ceci va cacher toutes les notifications de Force Close</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Notifications animées</string>
   <string name="ticker_mode_title">Notifications animées dans la barre d\'état</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Profil Smartbar restauré avec succès</string>
   <string name="smartbar_config_backup_error_toast">Erreur lors de l\'enregistrement du profil Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Erreur lors de la restauration du profil de Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Opacité des boutons</string>
   <string name="smartbar_longpress_delay_title">Délais de la pression longue</string>
   <string name="smartbar_longpress_delay_summary">Définir combien de temps le système attendra avant de déclencher une action par appui long</string>
   <string name="smartbar_longpress_delay_default">Délai par défaut (rapide)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Déverrouillage automatique par reconnaissance faciale</string>
   <string name="face_auto_unlock_summary">Déverrouiller l\'écran après la reconnaissance faciale</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Afficher le compteur de notification</string>
+  <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Horloge et date</string>
   <string name="status_bar_clock_summary">Configurer l\'apparence de la date et de l\'heure dans la barre de status</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Activer le vibreur pour l’authentification</string>
   <string name="fprint_sucess_vib_summary">Vibrer en cas de succès de l\'authentification par empreintes digitales</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Pas de réglages rapides lorsque l\'écran de verrouillage est sécurisé</string>
   <string name="lockscreen_qs_disabled_summary">Désactiver les réglages rapides sur écran de verrouillage sécurisé</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Icône des services en cours d’exécution</string>
   <string name="qs_running_services_summary">Désactiver la tuile des services en cours en bas des réglages rapides</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Couleur d\'arrière-plan du menu d\'alimentation</string>
+  <string name="wallpaper_tint_recents">Couleur d\'arrière-plan des applications récentes</string>
+  <string name="wallpaper_tint_keyguard">Couleur d\'arrière-plan de l\'écran de verrouillage</string>
+  <string name="wallpaper_tint_notification_shade">Couleur d\'arrière-plan des notifications</string>
+  <string name="wallpaper_tint_summary">Définir la couleur d\'arrière-plan en fonction du fond d\'écran d\'accueil</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Geste latéral</string>
+  <string name="edge_gestures_feedback_duration_title">Durée du retour haptique</string>
+  <string name="edge_gestures_long_press_delay_title">Durée pour démarrer l\'action d\'appui long</string>
+  <string name="edge_gestures_back_category_title">Geste de retour</string>
+  <string name="edge_gestures_back_edges_title">Déclencher l\'action de retour à partir de</string>
+  <string name="edge_gestures_landscape_back_edges_title">Déclencher l\'action de retour en paysage à partir de</string>
+  <string name="edge_gestures_back_screen_percent_title">Le geste de retour doit démarrer en dessous de ce pourcentage de l\'écran</string>
+  <string name="edge_gestures_back_screen_percent_summary">Déclencher à moins de % de l\'écran</string>
+  <string name="edge_gestures_summary">Naviguer en utilisant les gestes latéraux</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Mise en page des applications récents</string>
+  <string name="recents_stock">Stock</string>
+  <string name="recents_grid">Grille</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Un redémarrage de SystemUI est nécessaire</string>
+  <string name="systemui_restart_message">Afin que toutes les modifications soient prises en compte, un redémarrage de SystemUI est nécessaire. Voulez vous redémarrer SystemUI maintenant ?</string>
 </resources>

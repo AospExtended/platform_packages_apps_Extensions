@@ -108,8 +108,6 @@
   <string name="smart_pulldown_summary">જ્યારે %1$s સૂચનાઓ હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
   <string name="smart_pulldown_none_summary">કોઈ સૂચનાઓ ન હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
   <string name="smart_pulldown_off">બંધ</string>
-  <string name="smart_pulldown_none">કોઈ સૂચનાઓ નથી</string>
-  <string name="smart_pulldown_dismissable">બરતરફી નહીં</string>
   <string name="smart_pulldown_ongoing">કોઈ ચાલુ નહીં</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">લૉકસ્ક્રીન ટ્યુનર</string>
@@ -169,6 +167,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

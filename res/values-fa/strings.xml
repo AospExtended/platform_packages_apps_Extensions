@@ -32,8 +32,21 @@
   <string name="light_category">چراغ‌ها</string>
   <string name="dlg_ok">تأیید</string>
   <string name="attention">توجه</string>
+  <string name="loading">در حال بارگیری</string>
   <string name="reset">بازنشانی</string>
+  <string name="reset_colors">بازنشانی به رنگ پیشفرض</string>
+  <string name="reset_android">اندروید</string>
+  <string name="text_title">متن</string>
+  <string name="icon_title">آیکون</string>
+  <string name="color_title">رنگ</string>
+  <string name="colors_title">رنگ ها</string>
   <!-- Extensions categories -->
+  <string name="status_bar_category">نوار وضعیت</string>
+  <string name="status_bar_category_summary">شخصی سازی نوار وضعیت</string>
+  <string name="notifications_panel_category">صفحه اعلان ها</string>
+  <string name="system_category">سیستم</string>
+  <string name="lockscreen_category">صفحه قفل</string>
+  <string name="lockscreen_category_summary">شخصی سازی صفحه قفل</string>
   <string name="listview">لیست ویو</string>
   <!-- Frags -->
   <!-- General Tweaks -->
@@ -117,6 +130,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

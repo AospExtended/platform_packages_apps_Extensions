@@ -47,7 +47,6 @@
   <string name="status_bar_category">Statusbalk</string>
   <string name="status_bar_category_summary">Statusbalk aanpassen</string>
   <string name="notifications_panel_category">Notificatie paneel</string>
-  <string name="notifications_panel_category_summary">Snelinstellingen-paneel en notificaties aanpassen</string>
   <string name="system_category">Systeem</string>
   <string name="system_category_summary">Verscheidene systeemextensies</string>
   <string name="lockscreen_category">Vergrendelscherm</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Open snelle instellingen wanneer er %1$s meldingen zijn</string>
   <string name="smart_pulldown_none_summary">Open snelle instellingen wanneer er geen meldingen zijn</string>
   <string name="smart_pulldown_off">Uit</string>
-  <string name="smart_pulldown_none">geen meldingen</string>
-  <string name="smart_pulldown_dismissable">niet af te wijzen</string>
   <string name="smart_pulldown_ongoing">geen lopende</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Vergrendelscherm Tuner</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Helderheid aanpassen door over de statusbalk te vegen</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Accu informatie op vergrendelscherm</string>
-  <string name="lockscreen_battery_info_summary">Toon maximum opladerstroom, spanning en accutemperatuur op vergrendelscherm tijdens opladen</string>
   <!-- Media art -->
   <string name="media_art_title">Media albumhoes</string>
   <string name="media_art_summary">Media cover art op vergrendelscherm inschakelen</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Klok widget</string>
   <string name="hide_lockscreen_clock_summary">Zichtbaarheid van de klok widget wijzigen</string>
+  <string name="lockscreen_clock_selection_title">Klok stijl</string>
+  <string name="lockscreen_clock_selection_digital">Standaard</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digitaal (vet)</string>
+  <string name="lockscreen_clock_selection_analog">Analoog</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analoog (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (vet)</string>
+  <string name="lockscreen_clock_selection_small">Klein digitaal</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analoog (spidey)</string>
   <string name="hide_lockscreen_date_title">Datum widget</string>
   <string name="hide_lockscreen_date_summary">Wijzig de zichtbaarheid van de datum onder de klok widget</string>
+  <string name="lockscreen_date_selection_title">Stijl datum</string>
+  <string name="lockscreen_date_selection_default_aosp">Standaard</string>
+  <string name="lockscreen_date_selection_default">Standaard (groter)</string>
+  <string name="lockscreen_date_selection_str_box">Semi-transparante box</string>
+  <string name="lockscreen_date_selection_str_round">Semi-transparante box (afgerond)</string>
   <string name="hide_lockscreen_alarm_title">Alarmtekst</string>
   <string name="hide_lockscreen_alarm_summary">Wijzig de zichtbaarheid van de alarmtekst onder de klok widget</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Trillen tijdens ophangen</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Forced Closed meldingen uitschakelen</string>
-  <string name="disable_fc_notifications_summary">Dit verbergt alle Force Close meldingen</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Meldingenticker</string>
   <string name="ticker_mode_title">Statusbalk ticker voor meldingen</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Slimme balk profiel hersteld</string>
   <string name="smartbar_config_backup_error_toast">Fout bij opslaan Slimme balk profiel</string>
   <string name="smartbar_config_restore_error_toast">Fout bij herstellen Slimme balk profiel</string>
+  <string name="navbar_buttons_alpha_title">Doorzichtigheid van knop</string>
   <string name="smartbar_longpress_delay_title">Vertraging lang drukken knop</string>
   <string name="smartbar_longpress_delay_summary">Instellen hoe lang het systeem zal wachten voor triggeren van een lange druk actie</string>
   <string name="smartbar_longpress_delay_default">Standaard vertraging (snel)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Gezicht automatisch ontgrendelen</string>
   <string name="face_auto_unlock_summary">Vergrendelscherm afwijzen na gezichtsontgrendeling</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Geef aantal notificaties weer</string>
+  <string name="status_bar_notif_count_summary">Geef het aantal ongelezen notificaties weer</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Klok en Datum</string>
   <string name="status_bar_clock_summary">Weergave klok en datum aanpassen</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vingerafdruk herkenning trillen</string>
   <string name="fprint_sucess_vib_summary">Trillen bij succesvolle vingerafdruk herkenning</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Geen SI wanneer beveiligd</string>
   <string name="lockscreen_qs_disabled_summary">Uitschakelen Snelle instellingen-tegels op vergrendeld vergrendelscherm</string>
@@ -824,14 +837,22 @@
   <string name="battery_bar_blend_color_title">Kleuren mengen</string>
   <string name="battery_bar_blend_color_summary">Meng volle/lege kleuren aan de hand van batterij percentage</string>
   <string name="battery_bar_blend_color_reverse_title">Kleurrichting omdraaien</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Vol &#8594; leeg: rood &#8592; groen &#8592; blauw &#8592; rood</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Vol &#8594; leeg: rood &#8594; groen &#8594; blauw &#8594; rood</string>
   <!-- ANBI -->
   <string name="anbi_title">Toevallige aanraking</string>
+  <string name="anbi_summary">Interactie met navigatieknoppen voorkomen terwijl het scherm wordt aangeraakt</string>
   <!-- Wakelock blocker -->
+  <string name="blocker_category">Wakelock and Alarm Blocker</string>
+  <string name="wakelock_blocker_title">Wakelock Blocker</string>
+  <string name="wakelock_blocker_summary">Blokkeer systeem-wakelocks</string>
   <string name="wakelock_blocker_save">Opslaan</string>
   <string name="wakelock_list_header">Beschikbare wakelocks</string>
   <string name="wakelock_blocker_reload">Opnieuw laden</string>
   <string name="wakelock_blocker_warning_title">Wees voorzichtig</string>
+  <string name="wakelock_blocker_warning">Het blokkeren van wakelocks kan instabiliteit of dataverlies veroorzaken</string>
   <!-- Alarm blocker -->
+  <string name="alarm_blocker">Blokkeer alarmen</string>
   <string name="alarm_blocker_title">Inschakelen</string>
   <string name="alarm_blocker_summary">Blokkeer alarmen als het scherm uit is</string>
   <string name="alarm_blocker_save">Opslaan</string>
@@ -843,14 +864,69 @@
   <string name="pocket_judge_title">Broekzak detectie</string>
   <string name="pocket_judge_summary">Scherm- en toetsaanrakingen blokkeren wanneer het apparaat in de broekzak zit</string>
   <!-- Chooser activity blacklist -->
+  <string name="chooser_activity_blacklist_summary">Apps die niet getoond worden bij het tikken op het Delen pictogram</string>
   <string name="chooser_activity_blacklist_cat_title">Zwarte lijst</string>
   <string name="chooser_activity_blacklist_pref_title">App toevoegen</string>
+  <string name="chooser_activity_blacklist_pref_summary">Tik hier om toe te voegen, tik op toegevoegde app om weer te verwijderen</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Smart Pixels</string>
+  <string name="smart_pixels_summary">Energie besparen door extra pixels uit te schakelen</string>
+  <string name="smart_pixels_enable_title">Smart Pixels inschakelen</string>
+  <string name="smart_pixels_enable_summary">Pixels uitschakelen om het energieverbruik te verlagen</string>
+  <string name="smart_pixels_on_power_save_title">Automatisch inschakelen bij ingeschakelde energiebesparing</string>
+  <string name="smart_pixels_on_power_save_summary">Smart Pixels inschakelen als energiebesparing is geactiveerd</string>
+  <string name="smart_pixels_percent">Percentage uit te schakelen pixels</string>
+  <string name="smart_pixels_shift_title">Inbrand-bescherming</string>
+  <string name="smart_pixels_shift_summary">Voorkomt inbranden op OLED schermen door regelmatig pixels te verschuiven</string>
+  <string name="lockscreen_items_other">Overige</string>
   <!-- Small quick settings scroller -->
   <!-- Screen state service -->
+  <string name="screen_state_toggles_title">Acties onderbreken</string>
+  <string name="screen_state_toggles_enable_title">Inschakelen</string>
+  <string name="screen_state_toggles_enable_summary">De acties zullen worden uitgevoerd bij uitgeschakeld scherm. Bij het inschakelen van het scherm zal de vorige staat worden hersteld.</string>
+  <string name="screen_state_toggles_mobile_title">Mobiele netwerken</string>
+  <string name="screen_state_toggles_location_title">Locatie</string>
+  <string name="screen_state_toggles_twog">Overschakelen naar 2G</string>
+  <string name="screen_state_toggles_twog_summary">Netwerkmodus zal worden overgeschakeld naar 2G bij uitgeschakeld scherm</string>
+  <string name="screen_state_toggles_gps">Schakel GPS uit</string>
+  <string name="screen_state_toggles_gps_summary">GPS gebaseerde locatie service wordt niet gebruikt bij uitgeschakeld scherm</string>
+  <string name="screen_state_toggles_mobile_data">Schakel mobiele gegevens uit</string>
+  <string name="screen_state_toggles_mobile_data_summary">Mobiele gegevens wordt gestopt bij uitgeschakeld scherm</string>
+  <string name="screen_state_off_delay_title">Uitgeschakeld scherm vertraging</string>
+  <string name="screen_state_off_delay_summary">Aantal seconden dat wordt gewacht na uitschakelen scherm voordat acties uitgevoerd worden</string>
+  <string name="screen_state_on_delay_summary">Aantal seconden dat wordt gewacht na inschakelen scherm voordat acties uitgevoerd worden</string>
   <!-- QS Headers -->
+  <string name="status_bar_custom_header_title">Inschakelen</string>
+  <string name="status_bar_custom_header_shadow_summary">Voor betere zichtbaarheid op heldere afbeeldingen</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider_title">Statisch beeld</string>
+  <string name="daylight_header_provider_title">Foto album</string>
+  <string name="custom_header_browse_summary">Selecteer een afbeelding om te gebruiken voor de statische modus</string>
+  <string name="custom_header_browse_summary_new">Blader door alle beschikbare header verzamelingen</string>
+  <string name="custom_header_pick_title">Selecteer de header-afbeelding</string>
+  <string name="custom_header_pick_summary">Selecteer een afbeelding om te gebruiken voor de statische modus</string>
+  <string name="style_enabled_summary">Aangepaste header-afbeelding is AAN</string>
+  <string name="style_disabled_summary">Aangepaste header-afbeelding is UIT</string>
+  <string name="header_provider_disabled">Uitgeschakeld</string>
+  <string name="custom_header_title">Aangepaste kopbalk afbeelding</string>
+  <string name="file_header_select_title">Selecteer afbeelding</string>
+  <string name="file_header_select_summary">Selecteer een custom afbeelding</string>
+  <string name="file_header_provider_title">Aangepaste afbeelding</string>
+  <string name="qs_header_title">Custom Headers</string>
+  <string name="qs_running_services_title">Pictogram voor actieve services</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_keyguard">Schermbeveiliging achtergrond stijl</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_feedback_duration_title">Duur trilsignaal</string>
+  <string name="edge_gestures_long_press_delay_title">Wachttijd tot langdruk-actie start</string>
+  <string name="edge_gestures_back_category_title">Terug-gebaar</string>
+  <string name="edge_gestures_summary">Navigeren met randgebaren</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Opmaak van het overzicht van Recente apps</string>
+  <string name="recents_stock">Stock</string>
+  <string name="recents_grid">Raster</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">SysteemUI herstart vereist</string>
+  <string name="systemui_restart_message">Een herstart van de Ui is nodig om alle wijzigingen door te voeren. Ui nu herstarten?</string>
 </resources>

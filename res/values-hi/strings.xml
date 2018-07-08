@@ -171,8 +171,6 @@
   <string name="smart_pulldown_summary">%1$s नोटिफिकेशन होने पर त्वरित सेटिंग्स खोलें</string>
   <string name="smart_pulldown_none_summary">नोटिफिकेशन होने पर त्वरित सेटिंग्स खोलें</string>
   <string name="smart_pulldown_off">बंद</string>
-  <string name="smart_pulldown_none">कोई नोटिफिकेशन नहीं</string>
-  <string name="smart_pulldown_dismissable">कोई खारिज करने योग्य नहीं</string>
   <string name="smart_pulldown_ongoing">नहीं चल रहे</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Lockscreen ट्यूनर</string>
@@ -191,7 +189,6 @@
   <string name="status_bar_toggle_brightness_summary">स्टेटस बार पर स्लाइड करने से चमक समायोजित करें</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">लॉकसक्रीन पर चार्ज होने कि जानकारी</string>
-  <string name="lockscreen_battery_info_summary">चार्ज करते समय lockscreen पर negociated अभियोक्ता मैक्स वर्तमान और वोल्टेज और बैटरी तापमान प्रदर्शन</string>
   <!-- Media art -->
   <string name="media_art_title">मीडिया आवरण चित्र</string>
   <string name="media_art_summary">लॉकस्क्रीन पर मीडिया आवरण चित्र सछम करें</string>
@@ -286,7 +283,6 @@
   <string name="incall_vibrate_disconnect_title">डिसकनेक्ट होने पर कंपन करें</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">क्या आप शांत अधिसूचना को अक्षम करना चाहते हैं?</string>
-  <string name="disable_fc_notifications_summary">इससे सभी फोर्स छुप जाएंगे करीब notificaitons</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">टिकर</string>
   <string name="ticker_mode_title">स्टेटसबार अधिसूचना टिकर</string>
@@ -586,6 +582,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

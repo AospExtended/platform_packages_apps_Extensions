@@ -162,8 +162,6 @@
   <string name="smart_pulldown_summary">%1$s ədəd bildiriş olanda sürətli parametləri aç</string>
   <string name="smart_pulldown_none_summary">Heç bir bildiş olmayanda sürətli parametrləri aç</string>
   <string name="smart_pulldown_off">Bağlı</string>
-  <string name="smart_pulldown_none">heç bir bildiriş yoxdur</string>
-  <string name="smart_pulldown_dismissable">bağlanıla bilən bildiriş yoxdur</string>
   <string name="smart_pulldown_ongoing">davam edən yoxdur</string>
   <!-- Lockscreen icons -->
   <string name="hide_lockscreen_items_title">Kilid Ekranı İkonları</string>
@@ -181,7 +179,6 @@
   <string name="status_bar_toggle_brightness_summary">Vəziyyət çubuğuna sürüşdürərək paraqlığı nizamla</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Kilid ekranı enerji məlumatə</string>
-  <string name="lockscreen_battery_info_summary">Şarj edərkən şarj cihazının maksimum cərəyan və gərginlik və batareyanın temperaturunu kilidi ekrana göstər</string>
   <!-- Media art -->
   <string name="media_art_title">Media örtük şəkili</string>
   <string name="media_art_summary">Kilid ekranında media örtük şəklini aktivləşdir</string>
@@ -245,7 +242,6 @@
   <string name="incall_vibrate_disconnect_title">Əlaqə kəsiləndə titrət</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Dayanmağa Məcbur Et Bildirişlərini Deaktiv Et</string>
-  <string name="disable_fc_notifications_summary">Tətbiq etmələrin məcburən dayandırıldı bildirişlərini gizlədər</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Lent</string>
   <string name="ticker_mode_title">Status çubuğu bildiriş lenti</string>
@@ -452,6 +448,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

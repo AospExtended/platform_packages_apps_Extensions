@@ -112,8 +112,6 @@
   <string name="smart_pulldown_summary">ఉన్నప్పుడు శీఘ్ర సెట్టింగులను తెరవండి %1$s ప్రకటనలను</string>
   <string name="smart_pulldown_none_summary">నోటిఫికేషన్లు లేనప్పుడు శీఘ్ర సెట్టింగులను తెరవండి</string>
   <string name="smart_pulldown_off">ఆఫ్</string>
-  <string name="smart_pulldown_none">నోటిఫికేషన్‌లు లేవు</string>
-  <string name="smart_pulldown_dismissable">తొలగించలేరు</string>
   <string name="smart_pulldown_ongoing">కొనసాగుతున్నది</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">లాక్ స్క్రీన్ ట్యూనర్</string>
@@ -132,7 +130,6 @@
   <string name="status_bar_toggle_brightness_summary">స్థితి బార్లో స్లైడింగ్ ద్వారా ప్రకాశాన్ని సర్దుబాటు చేయండి</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">లాక్ స్క్రీన్ ఛార్జింగ్ సమాచారం</string>
-  <string name="lockscreen_battery_info_summary">ఛార్జర్ చేస్తున్నప్పుడు లాక్ స్క్రీన్పై ఛార్జర్ మాక్స్ ప్రస్తుత మరియు వోల్టేజ్ మరియు బ్యాటరీ ఉష్ణోగ్రతతో చర్చలు ప్రదర్శిస్తాయి</string>
   <!-- Media art -->
   <string name="media_art_title">మీడియా కవర్ ఆర్ట్</string>
   <string name="media_art_summary">లాక్స్క్రీన్లో మీడియా కవర్ కళను ప్రారంభించండి</string>
@@ -185,6 +182,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

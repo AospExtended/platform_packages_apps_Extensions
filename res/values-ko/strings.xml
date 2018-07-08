@@ -30,6 +30,9 @@
   <string name="hardware_category">하드웨어</string>
   <string name="icons_category">아이콘</string>
   <string name="aosp_recents_category">AOSP recents</string>
+  <string name="light_category">조명</string>
+  <string name="dlg_ok">확인</string>
+  <string name="attention">주의</string>
   <string name="loading">불러오는 중\u2026</string>
   <string name="reset">초기화</string>
   <string name="reset_colors">색 초기화</string>
@@ -39,15 +42,16 @@
   <string name="color_title">색상</string>
   <string name="colors_title">색상</string>
   <!-- Extensions categories -->
+  <string name="recents_category">최근 실행 목록</string>
   <string name="status_bar_category">상태 표시줄</string>
   <string name="status_bar_category_summary">상태 표시줄을 커스터마이즈</string>
   <string name="notifications_panel_category">알림 패널</string>
-  <string name="notifications_panel_category_summary">퀵세팅 패널 및 알림창을 커스터마이즈</string>
   <string name="system_category">시스템</string>
   <string name="lockscreen_category">잠금 화면</string>
   <string name="lockscreen_category_summary">잠금 화면을 커스터마이즈</string>
   <string name="navigation_category">내비게이션 바</string>
   <string name="navigation_category_summary">내비게이션 바를 커스터마이즈</string>
+  <string name="build_tweaks_summary_title">당신의 기기를 확장하세요!</string>
   <string name="system_animations">시스템 애니메이션</string>
   <string name="listview">리스트뷰</string>
   <!-- Frags -->
@@ -75,13 +79,55 @@
   <!-- Buttons -->
   <string name="buttons_title">버튼</string>
   <!-- App Ops -->
+  <string name="app_ops_category">앱 작업</string>
   <!-- App info dialog -->
+  <string name="extensions_dialog_title">도움을 드릴 수 있도록 협조하여 주십시오!</string>
+  <string name="extensions_dialog_message">만약 이 설정들과 관련된 어떤 버그라도 찾게 되면, 우리의 Google+ 페이지에 버그리포트를 게시해주세요. 반드시 다음 내용들을 포함해서 게시하셔야 합니다.
+
+1. logcat 또는 last_kmsg
+2. 사용중인 커널이나 모드
+3. 기타 유용한 정보
+
+만약 적절하게 리포트되지 않으면 해당 버그들이 수정되지 않을 수 있습니다.</string>
+  <string name="extensions_dialog_toast">본문을 모두 읽어주세요!</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">강조색 선택</string>
+  <string name="theme_accent_picker_title">강조 색</string>
+  <string name="theme_accent_picker_summary">시스템 테마 강조 색상 선택</string>
+  <string name="theme_accent_picker_default">기본값</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">색상 선택기</string>
+  <string name="press_color_to_apply">적용할 색상을 아래에서 선택하세요</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">16진수:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">설정</string>
+  <string name="color_default">기본값</string>
   <!-- Footer warnings -->
   <!-- Battery light -->
+  <string name="battery_light_settings">배터리 충전등</string>
+  <string name="battery_light_enable">배터리 표시등</string>
+  <string name="battery_light_allow_on_dnd_title">방해 금지 모드에서 배터리 표시등 사용</string>
+  <string name="battery_light_low_blinking_title">배터리 부족시 표시등 깜박임</string>
+  <string name="battery_light_cat">충전시 배터리 표시등</string>
+  <string name="battery_light_low_color">배터리 부족</string>
+  <string name="battery_light_medium_color">배터리 중간</string>
+  <string name="battery_light_full_color">거의 충전됨</string>
+  <string name="battery_light_reallyfull_color">충전 완료</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">네트워크 트래픽</string>
+  <string name="network_traffic_type">활동 종류를 선택하세요</string>
+  <string name="network_traffic_autohide_threshold_title">네트워크 트래픽 자동으로 숨기기 (KB/s)</string>
   <!-- Recents panel settings -->
+  <string name="show_clear_all_recents_button_title">모두 지우기 버튼</string>
+  <string name="show_clear_all_recents_button_summary">모두 지우기 버튼을 표시합니다</string>
+  <string name="recents_clear_all_location_top_right">우측 상단</string>
+  <string name="recents_clear_all_location_top_left">좌측 상단</string>
+  <string name="recents_clear_all_location_top_center">상단 중앙</string>
+  <string name="recents_clear_all_location_bottom_right">우측 하단</string>
+  <string name="recents_clear_all_location_bottom_left">좌측 하단</string>
+  <string name="recents_clear_all_location_bottom_center">하단 중앙</string>
   <!-- Power notification controls -->
   <string name="power_notification_controls_title">알림 강도 조절</string>
   <string name="power_notification_controls_summary">알림 중요도 선택</string>
@@ -121,7 +167,6 @@
   <string name="smart_pulldown_summary">%1$s개 이상의 알림이 있으면 빠른 설정을 표시합니다</string>
   <string name="smart_pulldown_none_summary">표시할 알림이 없으면 빠른 설정을 표시합니다</string>
   <string name="smart_pulldown_off">끄기</string>
-  <string name="smart_pulldown_none">알림 없음</string>
   <string name="smart_pulldown_ongoing">진행 중 알림 없음</string>
   <!-- Lockscreen icons -->
   <string name="hide_lockscreen_items_title">잠금화면 항목</string>
@@ -160,6 +205,9 @@
   <!-- Headset ringtone audio focus -->
   <!-- QS footer warnings -->
   <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="lockscreen_clock_selection_digital_bold">디지털 (굵게 표시)</string>
+  <string name="lockscreen_clock_selection_analog">아날로그</string>
+  <string name="hide_lockscreen_date_title">날짜 위젯</string>
   <!-- Heads up -->
   <!-- Heads up timeout -->
   <!-- Heads up snooze -->
@@ -195,6 +243,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

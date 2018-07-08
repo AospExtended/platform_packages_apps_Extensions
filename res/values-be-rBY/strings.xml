@@ -47,7 +47,6 @@
   <string name="status_bar_category">Радок стану</string>
   <string name="status_bar_category_summary">Наладзіць радок стану</string>
   <string name="notifications_panel_category">Панэль апавяшчэнняў</string>
-  <string name="notifications_panel_category_summary">Наладзьце панэль хуткага доступу і апавяшчэнняў</string>
   <string name="system_category">Сістэма</string>
   <string name="system_category_summary">Розныя дапаўненні сістэмы</string>
   <string name="lockscreen_category">Экран блакавання</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Адкрыць хуткія налады %1$s апавяшчэнняў</string>
   <string name="smart_pulldown_none_summary">Адкрыць хуткія налады без апавяшчэнняў</string>
   <string name="smart_pulldown_off">Адкл</string>
-  <string name="smart_pulldown_none">няма апавяшчэнняў</string>
-  <string name="smart_pulldown_dismissable">не выдаляныя</string>
   <string name="smart_pulldown_ongoing">няма пастаянных</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Толькі на экране блакавання</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасць экрану рухам пальца, па радку стану</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Інфармацыя аб зарадцы на экране блакавання</string>
-  <string name="lockscreen_battery_info_summary">Паказваць максімальнае бягучае напружанне і тэмпературу акумулятара на экране блакавання падчас зарадкі</string>
   <!-- Media art -->
   <string name="media_art_title">Вокладкі альбомаў</string>
   <string name="media_art_summary">Паказваць вокладкі альбомаў на экране блакавання</string>
@@ -292,7 +288,6 @@
   <string name="incall_vibrate_disconnect_title">Вібрацыя пры раз\'яднанні</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Адключыць апавяшчэння пра памылку</string>
-  <string name="disable_fc_notifications_summary">Гэта схавае ўсе апавяшчэння аб прымусовым закрыцці</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Тэкставыя апавяшчэнні</string>
   <string name="ticker_mode_title">Бягучы радок у радку стану</string>
@@ -692,6 +687,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Вібрацыя пры распазнаванне адбітка пальца</string>
   <string name="fprint_sucess_vib_summary">Вібраваць пры паспяховай аўтэнтыфікацыі па адбітках пальцаў</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Адключыць хуткія налады на экране блакавання</string>
   <string name="lockscreen_qs_disabled_summary">Адключыць хуткія налады на экране блакавання</string>

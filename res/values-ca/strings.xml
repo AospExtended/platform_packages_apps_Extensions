@@ -47,23 +47,34 @@
   <string name="status_bar_category">Barra d\'estat</string>
   <string name="status_bar_category_summary">Personalitza la barra d\'estat</string>
   <string name="notifications_panel_category">Panell de notificacions</string>
-  <string name="notifications_panel_category_summary">Personalitzar el panell QS i les notificacions</string>
   <string name="system_category">Sistema</string>
   <string name="system_category_summary">Diverses extensions de sistema</string>
   <string name="lockscreen_category">Pantalla de bloqueig</string>
   <string name="lockscreen_category_summary">Personalitzar el seu lockscreen</string>
   <string name="navigation_category">Navegació</string>
   <string name="navigation_category_summary">Personalitzar la barra de navegació</string>
+  <string name="build_tweaks_summary_title">Extén el teu dispositiu!</string>
+  <string name="system_animations">Animacions del sistema</string>
+  <string name="listview">Vista de llista</string>
   <!-- Frags -->
   <!-- General Tweaks -->
+  <string name="general_tweaks_title">Retocs Generals</string>
   <!-- Network traffic -->
+  <string name="traffic_title">Indicadors de tràfic</string>
   <!-- Carrier Label -->
+  <string name="carrierlabel_title">Etiqueta de l\'operador</string>
   <!-- Misc Extensions -->
+  <string name="misc_extensions_title">Extensions varies</string>
   <!-- Recents UI -->
+  <string name="recents_ui_title">UI de tasques recents</string>
   <!-- Lockscreen UI -->
+  <string name="lockscreen_ui_title">UI de Bloqueig de Pantalla</string>
   <!-- Statusbar Iten -->
+  <string name="statusbar_items_category">Elements de la barra d\'estat</string>
   <!-- Notifications -->
+  <string name="notifications_title">Notificacions</string>
   <!-- Footer warnings -->
+  <string name="smart_pixels_warning_text">Els píxels intel·ligents són una funció per estalvi d\'energia. Depenent de quants píxels decideixi apagar, podrà veure un increment en la duració de la bateria. Per a una bona experiència d\'usuari, recomanem que deshabiliti un 75 per cent.</string>
   <!-- Navigation -->
   <!-- Quick Settings -->
   <!-- Buttons -->
@@ -136,6 +147,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

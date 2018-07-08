@@ -162,8 +162,6 @@
   <string name="smart_pulldown_summary">Buksan ang mga setting ng mabilis kapag may mga notification na %1$s</string>
   <string name="smart_pulldown_none_summary">Buksan ang mga setting ng mabilis kapag walang mga notification</string>
   <string name="smart_pulldown_off">Ang tanggalin</string>
-  <string name="smart_pulldown_none">ang walang mga notipikasyon</string>
-  <string name="smart_pulldown_dismissable">ang walang dismissable</string>
   <string name="smart_pulldown_ongoing">ang hindi ma tuloy</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Ang Lockscreen ng Tuner</string>
@@ -182,7 +180,6 @@
   <string name="status_bar_toggle_brightness_summary">I-adjust ang liwanag sa pamamagitan ng pag-slide sa status bar</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ang Impormasyon sa pagkakaraga ng locksreen</string>
-  <string name="lockscreen_battery_info_summary">I-display ang negosasyon sa charger sa kasalukuyang pinakatodo na boltahe ng temperatura ng baterya sa locksreen habang ito ay nagkakarga</string>
   <!-- Media art -->
   <string name="media_art_title">Ang sining sa pabalat ng Media</string>
   <string name="media_art_summary">I-enable ang pabalat ng sining sa media locksreen</string>
@@ -277,7 +274,6 @@
   <string name="incall_vibrate_disconnect_title">Ang pag-disconnect sa pag-vibrate</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Hindi gumagana ang mga FC notipikasyon</string>
-  <string name="disable_fc_notifications_summary">Ito ay itatago sa lahat ng mga force close na notpikasyon</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Ang Ticker</string>
   <string name="ticker_mode_title">Ang notipikasyon sa statusbar ng ticker</string>
@@ -648,6 +644,7 @@
   <string name="sizer_message_error">Nabigo ang pagtanggal, i-check yung root access</string>
   <string name="sizer_message_success">Tagumpay</string>
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

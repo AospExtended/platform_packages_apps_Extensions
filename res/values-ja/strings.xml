@@ -31,7 +31,7 @@
   <string name="icons_category">アイコン</string>
   <string name="aosp_recents_category">AOSPのアプリ履歴</string>
   <string name="light_category">ライト</string>
-  <string name="dlg_ok">はい</string>
+  <string name="dlg_ok">OK</string>
   <string name="attention">注意</string>
   <string name="loading">読み込み中...</string>
   <string name="reset">リセット</string>
@@ -47,7 +47,6 @@
   <string name="status_bar_category">ステータスバー</string>
   <string name="status_bar_category_summary">ステータスバーをカスタマイズする</string>
   <string name="notifications_panel_category">通知パネル</string>
-  <string name="notifications_panel_category_summary">クイック設定パネルと通知をカスタマイズする</string>
   <string name="system_category">システム</string>
   <string name="system_category_summary">様々なシステム拡張機能</string>
   <string name="lockscreen_category">ロック画面</string>
@@ -67,7 +66,7 @@
   <!-- Misc Extensions -->
   <string name="misc_extensions_title">その他の拡張</string>
   <!-- Recents UI -->
-  <string name="recents_ui_title">アプリ履歴</string>
+  <string name="recents_ui_title">アプリ履歴のUI</string>
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">ロック画面</string>
   <!-- Statusbar Iten -->
@@ -90,7 +89,7 @@
   <string name="extensions_dialog_toast">全部読んで下さい！</string>
   <!-- System theme -->
   <string name="accent_picker_dialog_title">アクセント色を選択する</string>
-  <string name="theme_accent_picker_title">アクセント色</string>
+  <string name="theme_accent_picker_title">アクセントカラー</string>
   <string name="theme_accent_picker_summary">システムテーマのアクセントカラー選択</string>
   <string name="theme_accent_picker_default">デフォルト</string>
   <!-- Color Picker -->
@@ -107,25 +106,25 @@
   <!-- Battery light -->
   <string name="battery_light_settings">バッテリー充電中のライト</string>
   <string name="battery_light_enable">バッテリーライト</string>
-  <string name="battery_light_allow_on_dnd_title">おやすみモード中のバッテリーライト</string>
+  <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
   <string name="battery_light_low_blinking_title">バッテリ低下時の点滅</string>
   <string name="battery_light_cat">充電中のバッテリーの色</string>
   <string name="battery_light_low_color">バッテリー残量低下</string>
   <string name="battery_light_medium_color">中程度のバッテリー残量</string>
-  <string name="battery_light_full_color">おおむねフル充電</string>
-  <string name="battery_light_reallyfull_color">フル充電</string>
+  <string name="battery_light_full_color">ほぼ充電完了</string>
+  <string name="battery_light_reallyfull_color">充電完了</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">ネットワークトラフィック</string>
   <string name="network_traffic_type">表示する通信方向を選択</string>
-  <string name="show_network_traffic_up">上り</string>
-  <string name="show_network_traffic_down">下り</string>
-  <string name="show_network_traffic_all">上りと下り</string>
+  <string name="show_network_traffic_up">送信</string>
+  <string name="show_network_traffic_down">受信</string>
+  <string name="show_network_traffic_all">送信と受信</string>
   <string name="network_traffic_state_title">ステータスバーに通信速度を表示</string>
   <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値（KB/s）</string>
   <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">「全てを終了」ボタン</string>
-  <string name="show_clear_all_recents_button_summary">「全てを終了」ボタンを表示する</string>
-  <string name="recents_clear_all_location_title">「全てを終了」ボタンの場所</string>
+  <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
+  <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
+  <string name="recents_clear_all_location_title">全て終了ボタンの場所</string>
   <string name="recents_clear_all_location_top_right">右上</string>
   <string name="recents_clear_all_location_top_left">左上</string>
   <string name="recents_clear_all_location_top_center">中央上</string>
@@ -150,7 +149,7 @@
   <string name="powermenu_restart_recovery">高度な再起動</string>
   <string name="powermenu_airplane">機内モード</string>
   <string name="powermenu_settings">設定</string>
-  <string name="powermenu_lockdown">ロックダウン</string>
+  <string name="powermenu_lockdown">今すぐロック</string>
   <string name="powermenu_soundpanel">サウンドパネル</string>
   <string name="powermenu_users">ユーザー</string>
   <string name="powermenu_torch">フラッシュライト</string>
@@ -161,7 +160,7 @@
   <string name="recents_show_membar_summary">デバイスで使用可能なメモリを表示する</string>
   <!-- Brightness icon-->
   <string name="brightness_icon_title">画面の明るさアイコン </string>
-  <string name="brightness_icon_summary">明るさスライダーの右に「画面の明るさ」ボタンを表示する</string>
+  <string name="brightness_icon_summary">明るさスライダーの右に画面の明るさボタンを表示する</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">クイックプルダウン</string>
   <string name="quick_pulldown_summary">ステータスバーの%1$s端をプルダウンしてクイック設定を開く</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">%1$s直接クイック設定を開く</string>
   <string name="smart_pulldown_none_summary">通知がない場合直接クイック設定を開く</string>
   <string name="smart_pulldown_off">オフ</string>
-  <string name="smart_pulldown_none">通知が無い場合</string>
-  <string name="smart_pulldown_dismissable">消せる通知が無い場合</string>
   <string name="smart_pulldown_ongoing">消せない通知が無い場合</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">ロック画面チューナー</string>
@@ -186,7 +183,7 @@
   <string name="force_expanded_notifications_summary">通知の展開をサポートしているアプリでのみ有効です</string>
   <!-- Double Tap Lockscreen to Sleep -->
   <string name="double_tap_to_sleep_lockscreen_title">ロック画面でダブルタップするとスリープ</string>
-  <string name="double_tap_to_sleep_lockscreen_summary">ロック画面の最上部の3番目または最下部のショートカット領域をダブルタップしてデバイスをスリープ状態にする</string>
+  <string name="double_tap_to_sleep_lockscreen_summary">ロック画面の上の1/3または最下部のショートカット領域をダブルタップしてデバイスをスリープ状態にする</string>
   <!-- Double tap-to-sleep -->
   <string name="double_tap_to_sleep_title">ステータスバーのダブルタップでスリープ</string>
   <string name="double_tap_to_sleep_summary">ステータスバーをダブルタップしたらスリープする</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">ステータスバー上をスライドして明るさを調整する</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-  <string name="lockscreen_battery_info_summary">充電中はロック画面に充電器の最大電流・電圧・バッテリー温度を表示する</string>
   <!-- Media art -->
   <string name="media_art_title">アルバムアート</string>
   <string name="media_art_summary">ロック画面にアルバムアートを表示する</string>
@@ -249,18 +245,32 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">時計ウィジェット</string>
   <string name="hide_lockscreen_clock_summary">時計ウィジェットの表示を変更する</string>
+  <string name="lockscreen_clock_selection_title">時計のスタイル</string>
+  <string name="lockscreen_clock_selection_digital">デフォルト</string>
+  <string name="lockscreen_clock_selection_digital_bold">デジタル（太字）</string>
+  <string name="lockscreen_clock_selection_analog">アナログ</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">アナログ（デッドプール）</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy（太字）</string>
+  <string name="lockscreen_clock_selection_small">小さなデジタル</string>
+  <string name="lockscreen_clock_selection_analog_spidey">アナログ（スパイダーマン）</string>
   <string name="hide_lockscreen_date_title">日付ウィジェット</string>
   <string name="hide_lockscreen_date_summary">時計の下の日付の表示を変更する</string>
-  <string name="hide_lockscreen_alarm_title">アラーム テキスト</string>
-  <string name="hide_lockscreen_alarm_summary">時計の下のアラーム テキストの表示を変更する</string>
+  <string name="lockscreen_date_selection_title">日付のスタイル</string>
+  <string name="lockscreen_date_selection_default_aosp">デフォルト</string>
+  <string name="lockscreen_date_selection_default">デフォルト（大きなサイズ）</string>
+  <string name="lockscreen_date_selection_str_box">半透明ボックス</string>
+  <string name="lockscreen_date_selection_str_round">半透明ボックス（円形）</string>
+  <string name="hide_lockscreen_alarm_title">アラームテキスト</string>
+  <string name="hide_lockscreen_alarm_summary">時計の下のアラームテキストの表示を変更する</string>
   <!-- Heads up -->
   <string name="headsup_category">Heads Upの設定</string>
   <string name="heads_up_notifications">Heads Up</string>
   <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
   <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>
   <string name="add_heads_up_package">アプリを追加</string>
-  <string name="add_heads_up_stoplist_summary">これらのアプリ起動中にはヘッドアップ通知を無効化する</string>
-  <string name="add_heads_up_blacklist_summary">このアプリのヘッドアップ通知を無効にする</string>
+  <string name="add_heads_up_stoplist_summary">これらのアプリ起動中にはHeads Upを無効化する</string>
+  <string name="add_heads_up_blacklist_summary">このアプリのHeads Upを無効にする</string>
   <string name="heads_up_stoplist_title">ストップリスト</string>
   <string name="heads_up_blacklist_title">ブラックリスト</string>
   <string name="profile_choose_app">アプリを選択</string>
@@ -268,7 +278,7 @@
   <string name="dialog_delete_message">選択した項目を削除しますか？</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">表示時間</string>
-  <string name="heads_up_time_out_summary">Heads Up通知は<xliff:g id="number">%d</xliff:g> 秒間表示されます</string>
+  <string name="heads_up_time_out_summary">Heads Upは<xliff:g id="number">%d</xliff:g> 秒間表示されます</string>
   <string name="heads_up_time_out_2sec">2秒</string>
   <string name="heads_up_time_out_4sec">4秒</string>
   <string name="heads_up_time_out_5sec">5秒</string>
@@ -277,8 +287,8 @@
   <string name="heads_up_time_out_10sec">10秒</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">スヌーズタイマー</string>
-  <string name="heads_up_snooze_summary_one_minute">Heads Up通知を上にスワイプするとこのアプリからの通知を1分間無効にする</string>
-  <string name="heads_up_snooze_summary">Heads Up通知を上にスワイプするとこのアプリからの通知を<xliff:g id="number">%d</xliff:g>分間無効にする</string>
+  <string name="heads_up_snooze_summary_one_minute">Heads Upを上にスワイプするとこのアプリからの通知を1分間無効にする</string>
+  <string name="heads_up_snooze_summary">Heads Upを上にスワイプするとこのアプリからの通知を<xliff:g id="number">%d</xliff:g>分間無効にする</string>
   <string name="heads_up_snooze_disabled_summary">スヌーズタイマーは無効です</string>
   <string name="heads_up_snooze_1min">1分</string>
   <string name="heads_up_snooze_5min">5分</string>
@@ -289,10 +299,9 @@
   <string name="incall_vibration_category">通話中の振動オプション</string>
   <string name="incall_vibrate_connect_title">接続時に振動させる</string>
   <string name="incall_vibrate_call_wait_title">割込通話時に振動させる</string>
-  <string name="incall_vibrate_disconnect_title">切れた時に振動させる</string>
+  <string name="incall_vibrate_disconnect_title">切断時に振動させる</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">強制終了通知を無効にする</string>
-  <string name="disable_fc_notifications_summary">すべての強制終了通知を非表示にする</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">通知ティッカー</string>
   <string name="ticker_mode_title">ステータスバー通知ティッカー</string>
@@ -308,22 +317,22 @@
   <string name="dialog_pick_iconpack_title">アイコンパックを選択</string>
   <string name="default_iconpack_title">デフォルトアイコン</string>
   <!-- Slim Recents panel -->
-  <string name="slim_recents_title">スリムなアプリ履歴</string>
+  <string name="slim_recents_title">Slimアプリ履歴</string>
   <string name="use_slim_recents_title">ほかのアプリ履歴パネルを使用する</string>
-  <string name="use_slim_recents_summary">スリムなアプリ履歴をデフォルトのものの代わりに使用する</string>
-  <string name="slim_recents_settings_title">スリムなアプリ履歴の設定</string>
-  <string name="slim_recents_settings_summary">スリムなアプリ履歴の設定を表示する</string>
+  <string name="use_slim_recents_summary">Slimアプリ履歴をデフォルトの代わりに使用する</string>
+  <string name="slim_recents_settings_title">Slimアプリ履歴の設定</string>
+  <string name="slim_recents_settings_summary">Slimアプリ履歴の設定を表示する</string>
   <string name="recents_max_apps_title">許可されたアプリの最大数</string>
   <string name="recent_panel_scale_title">サイズ</string>
-  <string name="recent_panel_expanded_mode_title">プレビュー拡張モード</string>
+  <string name="recent_panel_expanded_mode_title">拡張モードのプレビュー</string>
   <string name="recent_panel_expanded_mode_summary">最近のタスクの拡張プレビューモード</string>
   <string name="recent_panel_expanded_mode_auto">自動（デフォルト）</string>
   <string name="recent_panel_expanded_mode_always">すべてのプレビュー</string>
   <string name="recent_panel_expanded_mode_never">オフ（高速エンジン モード）</string>
   <string name="recent_panel_bg_color_title">パネルの背景色</string>
   <string name="recent_card_bg_color_title">カードの背景色</string>
-  <string name="recent_reset_title">標準色に戻す</string>
-  <string name="recent_reset_confirm">スリムなアプリ履歴の色設定を標準に戻しますか？</string>
+  <string name="recent_reset_title">標準の色に戻す</string>
+  <string name="recent_reset_confirm">Slimアプリ履歴の色設定を標準に戻しますか？</string>
   <string name="default_auto_string">デフォルト（アプリケーションベース）</string>
   <string name="slim_icon_pack_title">アイコンパック</string>
   <string name="slim_icon_pack_summary">パネルのアプリにカスタムアイコンパックを適用する</string>
@@ -335,7 +344,7 @@
   <string name="slim_blacklist_apps_title">アプリのブラックリスト</string>
   <string name="slim_blacklist_apps_summary">パネルに表示しないアプリ</string>
   <string name="slim_blacklist_add_apps_title">アプリを追加</string>
-  <string name="slim_blacklist_add_apps_summary">ここをタップして追加、追加済みアプリをタップして削除</string>
+  <string name="slim_blacklist_add_apps_summary">ここをタップして追加し追加済みアプリをタップして削除</string>
   <!-- DUI -->
   <string name="navbar_interface_title">インターフェース</string>
   <string name="navbar_size">バーのサイズ</string>
@@ -354,7 +363,7 @@
   <string name="select_custom_app_title">アプリを選択</string>
   <string name="select_custom_activity_title">カスタムのアクティビティを選択</string>
   <string name="profile_applist_title">アプリ</string>
-  <string name="default_string">既定</string>
+  <string name="default_string">標準</string>
   <string name="default_settings">標準の設定</string>
   <string name="default_settings_summary">標準AOSPのナビゲーションバー</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
@@ -365,7 +374,7 @@
   <!-- Fling -->
   <string name="fling_settings">Flingの設定</string>
   <string name="fling_settings_summary">ユニークで完全カスタマイズ可能なジェスチャーベースのナビゲーションバー</string>
-  <string name="fling_interface">Flingジェスチャー</string>
+  <string name="fling_interface">Fling</string>
   <string name="fling_enable_title">Flingを有効にする</string>
   <string name="fling_back_home_policy">戻るとホームは常に設定する必要があります。戻るまたはホームの割り当てを変更するには、最初に目的の割り当てを設定します。\n\nまた、ダブルタップを設定すると、シングルタップは少し遅れます。</string>
   <string name="fling_split_bar_policy">左右どちらかにのみアクションが割り当てられている場合、バー全体にアクションが適用されます。</string>
@@ -504,9 +513,10 @@
   <string name="smartbar_config_restore_success_toast">スマートバープロファイルは正常に復元されました</string>
   <string name="smartbar_config_backup_error_toast">スマートバープロファイルの保存でエラーが発生しました</string>
   <string name="smartbar_config_restore_error_toast">スマートバープロファイルの復元でエラーが発生しました</string>
+  <string name="navbar_buttons_alpha_title">ボタンの不透明度</string>
   <string name="smartbar_longpress_delay_title">ボタンの長押し遅延</string>
   <string name="smartbar_longpress_delay_summary">長押し動作を検知する前にシステムがどれくらい待機するかを設定する</string>
-  <string name="smartbar_longpress_delay_default">規定の遅延（高速）</string>
+  <string name="smartbar_longpress_delay_default">デフォルトの遅延（高速）</string>
   <string name="smartbar_longpress_delay_normal">通常の遅延</string>
   <string name="smartbar_longpress_delay_long">長時間の遅延</string>
   <string name="smartbar_custom_icon_size_title">カスタムアイコンスケーリング</string>
@@ -547,9 +557,9 @@
   <string name="torch_power_button_gesture_none">無効</string>
   <string name="torch_power_button_gesture_dt">2回プッシュでライト点灯（1回プッシュの反応が少々遅れます）</string>
   <string name="torch_power_button_gesture_lp">ロングプレスでライト点灯</string>
-  <string name="force_ambient_for_media_pref_title">アンビエント音楽ティッカー</string>
-  <string name="force_ambient_for_media_pref_summary">アンビエント音楽ティッカーを設定する</string>
-  <string name="ambient_ticker_footer">この機能を使用すると、アンビエントディスプレイを有効または無効にした時に、ロック画面上に現在の曲情報を表示することができます。\n\n通常表示と最小表示の2つのレイアウトから選択できます。この機能はアンビエントディスプレイを利用しますが、それに依存しません。「強制」オプションを使用することで周囲の表示を有効にせずにトリガーさせることができます。\n\n通常表示には、ロック画面の時計、日付、ティッカーが含まれます。\n\n最小表示には、画面中央にティッカーだけが含まれます。</string>
+  <string name="force_ambient_for_media_pref_title">アンビエントミュージックティッカー</string>
+  <string name="force_ambient_for_media_pref_summary">アンビエントミュージックティッカーを設定する</string>
+  <string name="ambient_ticker_footer">この機能を使用すると、アンビエント表示を有効または無効にした時に、ロック画面上に現在の曲情報を表示することができます。\n\n通常表示と最小表示の2つのレイアウトから選択できます。この機能はアンビエント表示を利用しますが、それの設定に依存しません。「強制」オプションを使用することでアンビエント表示を有効にせずにトリガーさせることができます。\n\n通常表示には、ロック画面の時計、日付、ティッカーが含まれます。\n\n最小表示には、画面中央にティッカーだけが含まれます。</string>
   <string name="force_ambient_for_media_title">レイアウトの選択</string>
   <string name="force_ambient_for_media_off">無効</string>
   <string name="force_ambient_for_media_on">標準</string>
@@ -563,7 +573,7 @@
   <string name="show_carrier_title">通信キャリア名</string>
   <string name="show_carrier_disabled">表示しない</string>
   <string name="show_carrier_keyguard">ロック画面</string>
-  <string name="show_carrier_statusbar">ステータス バー</string>
+  <string name="show_carrier_statusbar">ステータスバー</string>
   <string name="show_carrier_enabled">両方</string>
   <!-- Screen Off animation -->
   <string name="screen_off_animation_title">画面オフ時のアニメーション</string>
@@ -577,14 +587,14 @@
   <!-- Suppress notification sound/vibration -->
   <string name="notification_sound_vib_screen_on_title">画面が点灯中に通知とサウンドを有効</string>
   <string name="notification_sound_vib_screen_on_never">なし</string>
-  <string name="notification_sound_vib_screen_on_always">常に（既定値）</string>
+  <string name="notification_sound_vib_screen_on_always">常に（デフォルト）</string>
   <string name="notification_sound_vib_screen_on_nomedia">メディアが再生されていない場合</string>
   <string name="smartbar_double_tap_sleep_title">ダブルタップでスリープ</string>
   <string name="smartbar_double_tap_sleep_summary">ナビゲーションバーの空きエリアをダブルタップしてスリープ</string>
   <!-- Less Notification sounds -->
   <string name="less_notification_sounds_title">スマート通知サウンド</string>
   <string name="less_notification_sounds_summary">一定時間に一度だけ各アプリの通知音を再生する</string>
-  <string name="less_notification_sounds_default">アプリの既定</string>
+  <string name="less_notification_sounds_default">アプリのデフォルト</string>
   <string name="less_notification_sounds_10s">10秒ごと</string>
   <string name="less_notification_sounds_30s">30秒ごと</string>
   <string name="less_notification_sounds_1m">毎分</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">フェイスアンロック</string>
   <string name="face_auto_unlock_summary">顔認証したときロック画面をスキップする</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">通知の数を表示</string>
+  <string name="status_bar_notif_count_summary">保留中の通知の数を表示する</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">時計と日付</string>
   <string name="status_bar_clock_summary">ステータスバーの時計と日付の外観を設定する</string>
@@ -684,21 +696,22 @@
   <string name="sizer_message_delete">よろしいですか？</string>
   <string name="btn_delete">選択したアプリを削除する</string>
   <string name="delete_progress_title">削除中</string>
-  <string name="delete_progress">選択したファイルは削除されています…</string>
+  <string name="delete_progress">選択したファイルは現在削除されています</string>
   <string name="sizer_message_noselect">何も選択されていません</string>
   <string name="system_app_remover">システムアプリリムーバー</string>
   <string name="sizer_message_error">アンインストールに失敗しました。rootアクセスを確認してください。</string>
   <string name="sizer_message_success">成功</string>
   <!-- Fingerprint authentication vibration -->
-  <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
-  <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
+  <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
+  <string name="fprint_sucess_vib_summary">指紋認証に成功した際に振動させる</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">セキュリティ保護時はクイック設定パネル非表示</string>
   <string name="lockscreen_qs_disabled_summary">保護されたロック画面でクイック設定タイルを無効化する</string>
   <!-- Toast Animation -->
   <string name="toast_animation_title">トーストアニメーション</string>
   <string name="toast_none_animation">なし</string>
-  <string name="toast_default_animation">既定</string>
+  <string name="toast_default_animation">デフォルト</string>
   <string name="toast_fade_animation">フェード</string>
   <string name="toast_SlideRight_animation">右からスライド</string>
   <string name="toast_SlideLeft_animation">左からスライド</string>
@@ -779,7 +792,7 @@
   <string name="qs_tile_animation_style_flip">左右に回転</string>
   <string name="qs_tile_animation_style_rotate">回転</string>
   <string name="qs_tile_animation_duration_low">遅い</string>
-  <string name="qs_tile_animation_duration_default">既定</string>
+  <string name="qs_tile_animation_duration_default">デフォルト</string>
   <string name="qs_tile_animation_duration_fast">速い</string>
   <string name="qs_tile_animation_interpolator_linearInterpolator">等速</string>
   <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
@@ -830,23 +843,23 @@
   <string name="anbi_title">誤タッチ防止</string>
   <string name="anbi_summary">画面がタッチされている間はナビゲーションボタンを無効化して誤操作を防ぎます</string>
   <!-- Wakelock blocker -->
-  <string name="blocker_category">WakelockとAlarmの遮断</string>
-  <string name="wakelock_blocker_title">Wakelockブロッカー</string>
-  <string name="wakelock_blocker_summary">システムアプリのWakalockを阻止</string>
+  <string name="blocker_category">WakeLockとAlarmの遮断</string>
+  <string name="wakelock_blocker_title">WakeLockブロッカー</string>
+  <string name="wakelock_blocker_summary">システムアプリのWakeLockを阻止</string>
   <string name="wakelock_blocker_save">保存</string>
-  <string name="wakelock_list_header">有効なWakelock</string>
+  <string name="wakelock_list_header">有効なWakeLock</string>
   <string name="wakelock_blocker_reload">再読込</string>
   <string name="wakelock_blocker_warning_title">注意して進めてください</string>
-  <string name="wakelock_blocker_warning">Wakelocksのブロックは、端末が不安定になったりクラッシュやデータ損失などが発生する可能性があります。</string>
+  <string name="wakelock_blocker_warning">WakeLockのブロックは、端末が不安定になったりクラッシュやデータ損失などが発生する可能性があります。</string>
   <!-- Alarm blocker -->
-  <string name="alarm_blocker">アラームブロッカー</string>
+  <string name="alarm_blocker">Alarmブロッカー</string>
   <string name="alarm_blocker_title">有効</string>
-  <string name="alarm_blocker_summary">画面がオフの間はアラームをブロックする</string>
+  <string name="alarm_blocker_summary">画面がオフの間はAlarmをブロックする</string>
   <string name="alarm_blocker_save">保存</string>
-  <string name="alarm_list_header">使用可能なアラーム</string>
+  <string name="alarm_list_header">使用可能なAlarm</string>
   <string name="alarm_blocker_reload">再読込</string>
   <string name="alarm_blocker_warning_title">注意して進めてください</string>
-  <string name="alarm_blocker_warning">アラームのブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります。</string>
+  <string name="alarm_blocker_warning">Alarmのブロックは端末を不安定にしたり、クラッシュやデータの損失などを起こす可能性があります。</string>
   <!-- Pocket judge -->
   <string name="pocket_judge_title">ポケット検出</string>
   <string name="pocket_judge_summary">ポケットに入っているときにタッチやボタン入力を無効化する</string>
@@ -902,8 +915,8 @@
   <string name="custom_header_browse_summary_new">利用可能な全てのヘッダーコレクションを参照</string>
   <string name="custom_header_pick_title">ヘッダー画像の選択</string>
   <string name="custom_header_pick_summary">固定モードで使う画像を選択する</string>
-  <string name="style_enabled_summary">カスタムヘッダー画像は ON です</string>
-  <string name="style_disabled_summary">カスタムヘッダー画像は OFF です</string>
+  <string name="style_enabled_summary">カスタムヘッダー画像はオンです</string>
+  <string name="style_disabled_summary">カスタムヘッダー画像はオフです</string>
   <string name="header_provider_disabled">無効</string>
   <string name="custom_header_title">カスタムヘッダー画像</string>
   <string name="file_header_select_title">画像を選択</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">実行中のサービスアイコン</string>
   <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを無効化する</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">電源メニューの背景の色合い</string>
+  <string name="wallpaper_tint_recents">アプリ履歴の背景の色合い</string>
+  <string name="wallpaper_tint_keyguard">ロック画面の背景の色合い</string>
+  <string name="wallpaper_tint_notification_shade">通知の影の色合い</string>
+  <string name="wallpaper_tint_summary">ホーム画面の壁紙に基づく色合いを背景に適用する</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">エッジジェスチャー</string>
+  <string name="edge_gestures_feedback_duration_title">振動フィードバックの長さ</string>
+  <string name="edge_gestures_long_press_delay_title">長押し開始までの遅延時間</string>
+  <string name="edge_gestures_back_category_title">戻るジェスチャー</string>
+  <string name="edge_gestures_back_edges_title">戻るジェスチャーを始める場所</string>
+  <string name="edge_gestures_landscape_back_edges_title">横向きで戻るジェスチャーを始める場所</string>
+  <string name="edge_gestures_back_screen_percent_title">戻るジェスチャーは以下の画面の下からの割合から始めます</string>
+  <string name="edge_gestures_back_screen_percent_summary">画面の以下の割合より下から始める</string>
+  <string name="edge_gestures_summary">エッジジェスチャーを使って操作する</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">アプリ履歴のレイアウト</string>
+  <string name="recents_stock">標準</string>
+  <string name="recents_grid">グリッド</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">システムUIの再起動が必要です</string>
+  <string name="systemui_restart_message">すべての変更を反映するには、システムUIの再起動が必要です。再起動しますか？</string>
 </resources>

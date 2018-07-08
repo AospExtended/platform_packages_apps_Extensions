@@ -47,7 +47,6 @@
   <string name="status_bar_category">Statusbar</string>
   <string name="status_bar_category_summary">Sesuaikan statusbar anda</string>
   <string name="notifications_panel_category">Panel Notifikasi</string>
-  <string name="notifications_panel_category_summary">Sesuaikan QS panel dan notifikasi anda</string>
   <string name="system_category">Sistem</string>
   <string name="system_category_summary">Berbagai ekstensi sistem</string>
   <string name="lockscreen_category">Layar Kunci</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Buka setelan cepat ketika ada %1$s notifikasi</string>
   <string name="smart_pulldown_none_summary">Buka setelan cepat ketika tidak ada notifikasi</string>
   <string name="smart_pulldown_off">Mati</string>
-  <string name="smart_pulldown_none">tidak ada notifikasi</string>
-  <string name="smart_pulldown_dismissable">tidak dapat dihilangkan</string>
   <string name="smart_pulldown_ongoing">tidak sedang berlangsung</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Penyetelan Layar Kunci</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Sesuaikan kecerahan dengan menggeser statusbar</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info baterai pada kunci layar</string>
-  <string name="lockscreen_battery_info_summary">Tampilkan maksimal arus-tegangan yang dinegosiasikan pengisi daya dan suhu baterai pada layar terkunci saat pengisian</string>
   <!-- Media art -->
   <string name="media_art_title">Sampul album media</string>
   <string name="media_art_summary">Hidupkan sampul album media pada layar terkunci</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget jam</string>
   <string name="hide_lockscreen_clock_summary">Ubah visibilitas widget jam</string>
+  <string name="lockscreen_clock_selection_title">Gaya jam</string>
+  <string name="lockscreen_clock_selection_digital">Bawaan</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digital (huruf tebal)</string>
+  <string name="lockscreen_clock_selection_analog">Analog</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analog (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (huruf tebal)</string>
+  <string name="lockscreen_clock_selection_small">Digital kecil</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analog (spidey)</string>
   <string name="hide_lockscreen_date_title">Widget tanggal</string>
   <string name="hide_lockscreen_date_summary">Ubah visibilitas tanggal di bawah widget jam</string>
+  <string name="lockscreen_date_selection_title">Gaya tanggal</string>
+  <string name="lockscreen_date_selection_default_aosp">Bawaan</string>
+  <string name="lockscreen_date_selection_default">Default (ukuran yang lebih besar)</string>
+  <string name="lockscreen_date_selection_str_box">Kotak semi transparan</string>
+  <string name="lockscreen_date_selection_str_round">Kotak semi transparan (bulat)</string>
   <string name="hide_lockscreen_alarm_title">Teks alarm</string>
   <string name="hide_lockscreen_alarm_summary">Ubah visibilitas teks alarm di bawah widget jam</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Matikan Notifikasi FC</string>
-  <string name="disable_fc_notifications_summary">Ini akan menyembunyikan semua kekuatan pemberitahuan yang tertutup</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Ticker</string>
   <string name="ticker_mode_title">Notifikasi ticker statusbar</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Profil Smartbar berhasil dipulihkan</string>
   <string name="smartbar_config_backup_error_toast">Kesalahan saat menyimpan profil Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Kesalahan memulihkan profil Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Kepekatan Tombol</string>
   <string name="smartbar_longpress_delay_title">Jeda tekan tombol lama</string>
   <string name="smartbar_longpress_delay_summary">Tetapkan berapa lama sistem akan menunggu sebelum memicu tindakan tekan tombol lama</string>
   <string name="smartbar_longpress_delay_default">Standar penundaan (cepat)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Wajah membuka kunci otomatis</string>
   <string name="face_auto_unlock_summary">Hilangkan kunci layar setelah terbuka dengan wajah</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Tampilkan hitungan notifikasi</string>
+  <string name="status_bar_notif_count_summary">Menampilkan jumlah dari notifikasi tertunda</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Jam dan Tanggal</string>
   <string name="status_bar_clock_summary">Mengkonfigurasi statusbar jam dan tanggal penampilan</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Getaran otentikasi sidik jari</string>
   <string name="fprint_sucess_vib_summary">Bergetar saat otentikasi fingerprint sukses</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Tidak ada QS saat mengunci</string>
   <string name="lockscreen_qs_disabled_summary">Matikan ikon setelan cepat saat layar kunci aman</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Menjalankan Ikon Layanan</string>
   <string name="qs_running_services_summary">Nonaktifkan ubin ikon layanan berjalan di footer</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Warna latar belakang power menu</string>
+  <string name="wallpaper_tint_recents">Warna latar belakang recent</string>
+  <string name="wallpaper_tint_keyguard">Warna latar belakang lockscreen</string>
+  <string name="wallpaper_tint_notification_shade">Warna bayangan Pemberitahuan</string>
+  <string name="wallpaper_tint_summary">Menerapkan warna latar belakang berdasarkan wallpaper home screen</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Gestur Tepi</string>
+  <string name="edge_gestures_feedback_duration_title">Durasi Umpan balik haptic</string>
+  <string name="edge_gestures_long_press_delay_title">Tunda sampai ditekan lama</string>
+  <string name="edge_gestures_back_category_title">Gestur mundur</string>
+  <string name="edge_gestures_back_edges_title">Memicu gerakan kembali dari</string>
+  <string name="edge_gestures_landscape_back_edges_title">Memicu kembali gerakan pada lanskap dari</string>
+  <string name="edge_gestures_back_screen_percent_title">Gerakan kembali harus mulai di bawah persentase layar ini</string>
+  <string name="edge_gestures_back_screen_percent_summary">Memicu di bawah % dari layar</string>
+  <string name="edge_gestures_summary">Navigate menggunakan gestur tepi</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Tata letak Recents</string>
+  <string name="recents_stock">Bawaan</string>
+  <string name="recents_grid">Grid</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Diperlukan memulai ulang SystemUI</string>
+  <string name="systemui_restart_message">Untuk melihat semua perubahan, diperlukannya memulai ulang SystemUI. mulai ulang sekarang?</string>
 </resources>

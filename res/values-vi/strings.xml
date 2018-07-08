@@ -47,7 +47,6 @@
   <string name="status_bar_category">Thanh trạng thái</string>
   <string name="status_bar_category_summary">Tùy chỉnh thanh trạng thái</string>
   <string name="notifications_panel_category">Bảng thông báo</string>
-  <string name="notifications_panel_category_summary">Tùy chỉnh bảng điều khiển QS và thông báo</string>
   <string name="system_category">Hệ thống</string>
   <string name="system_category_summary">Mở rộng hệ thống</string>
   <string name="lockscreen_category">Màn hình khóa</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Mở cài đặt nhanh khi có %1$s thông báo</string>
   <string name="smart_pulldown_none_summary">Mở cài đặt nhanh khi không có thông báo</string>
   <string name="smart_pulldown_off">Tắt</string>
-  <string name="smart_pulldown_none">không có thông báo</string>
-  <string name="smart_pulldown_dismissable">không thể loại bỏ</string>
   <string name="smart_pulldown_ongoing">không liên tục</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Chỉ màn hình khoá</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
-  <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
   <!-- Media art -->
   <string name="media_art_title">Ảnh bìa phương tiện</string>
   <string name="media_art_summary">Bật ảnh bìa phương tiện trên màn hình khóa</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Tiện ích đồng hồ</string>
   <string name="hide_lockscreen_clock_summary">Thay đổi khả năng hiển thị tiện ích đồng hồ</string>
+  <string name="lockscreen_clock_selection_title">Kiểu đồng hồ</string>
+  <string name="lockscreen_clock_selection_digital">Mặc định</string>
+  <string name="lockscreen_clock_selection_digital_bold">Đồng hồ số (in đậm)</string>
+  <string name="lockscreen_clock_selection_analog">Đồng hồ kim</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Đồng hồ kim (mặt Deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (đậm)</string>
+  <string name="lockscreen_clock_selection_small">Đồng hồ số nhỏ</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Đồng hồ kim (Mặt nhện)</string>
   <string name="hide_lockscreen_date_title">Lịch</string>
   <string name="hide_lockscreen_date_summary">Thay đổi hiển thị ngày bên dưới các widget đồng hồ</string>
+  <string name="lockscreen_date_selection_title">Kiểu ngày</string>
+  <string name="lockscreen_date_selection_default_aosp">Mặc định</string>
+  <string name="lockscreen_date_selection_default">Mặc định (kích thước lớn hơn)</string>
+  <string name="lockscreen_date_selection_str_box">Hộp bán trong suốt</string>
+  <string name="lockscreen_date_selection_str_round">Hộp bán trong suốt (bo tròn)</string>
   <string name="hide_lockscreen_alarm_title">Nội dung báo thức</string>
   <string name="hide_lockscreen_alarm_summary">Thay đổi khả năng hiển thị của văn bản báo thức bên dưới tiện ích đồng hồ</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Tắt thông báo Buộc Dừng</string>
-  <string name="disable_fc_notifications_summary">Việc này sẽ ẩn tất cả các thông báo buộc dừng</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Thông báo dạng tường thuật</string>
   <string name="ticker_mode_title">Thanh thông báo dạng tường thuật</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Cấu hình Smartbar đã khôi phục thành công</string>
   <string name="smartbar_config_backup_error_toast">Lỗi lưu cấu hình Thanh thông minh</string>
   <string name="smartbar_config_restore_error_toast">Lỗi khôi phục cấu hình Thanh thông minh</string>
+  <string name="navbar_buttons_alpha_title">Độ mờ nút</string>
   <string name="smartbar_longpress_delay_title">Độ trễ khi bấm giữ nút</string>
   <string name="smartbar_longpress_delay_summary">Thời gian hệ thống sẽ chờ đợi trước khi kích hoạt một hành động nhấn và giữ</string>
   <string name="smartbar_longpress_delay_default">Độ trễ mặc định (nhanh)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Tự động mở khoá khuôn mặt</string>
   <string name="face_auto_unlock_summary">Bỏ qua màn hình khoá sau mở khoá gương mặt</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Hiện số lượng thông báo</string>
+  <string name="status_bar_notif_count_summary">Hiển thị số lượng thông báo đang chờ</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Đồng hồ và ngày tháng</string>
   <string name="status_bar_clock_summary">Cài đặt đồng hồ và ngày trên thanh trạng thái</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Rung khi xác thực dấu vân tay</string>
   <string name="fprint_sucess_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Không cài đặt nhanh khi khóa</string>
   <string name="lockscreen_qs_disabled_summary">Tắt cài đặt nhanh khi ở màn hình khóa bảo mật</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Hiện biểu tượng Các dịch vụ đang chạy</string>
   <string name="qs_running_services_summary">Tắt biểu tượng Các dịch vụ đang chạy</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Sắc thái nền menu nguồn</string>
+  <string name="wallpaper_tint_recents">Sắc thái nền trình các ứng dụng gần đây</string>
+  <string name="wallpaper_tint_keyguard">Sắc thái nền màn hình khóa</string>
+  <string name="wallpaper_tint_notification_shade">Sắc thái bóng thông báo</string>
+  <string name="wallpaper_tint_summary">Dùng sắc thái nền dựa trên màu hình nền màn hình chính</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Cử chỉ toàn màn hình</string>
+  <string name="edge_gestures_feedback_duration_title">Thời gian chờ phản hồi</string>
+  <string name="edge_gestures_long_press_delay_title">Chờ cho tới khi bắt đầu ấn lâu</string>
+  <string name="edge_gestures_back_category_title">Cử chỉ quay lại</string>
+  <string name="edge_gestures_back_edges_title">Kích hoạt cử chỉ quay lại từ</string>
+  <string name="edge_gestures_landscape_back_edges_title">Kích hoạt cử chỉ quay lại khi màn hình nằm ngang từ</string>
+  <string name="edge_gestures_back_screen_percent_title">Cử chỉ quay lại phải bắt đầu dưới từng này phần trăm của màn hình</string>
+  <string name="edge_gestures_back_screen_percent_summary">Kích hoạt dưới % của màn hình</string>
+  <string name="edge_gestures_summary">Điều hướng bằng cử chỉ viền</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Kiểu trình các ứng dụng gần đây</string>
+  <string name="recents_stock">Gốc</string>
+  <string name="recents_grid">Dạng lưới</string>
+  <string name="recents_go">Android rút gọn</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Phải khởi động lại giao diện hệ thống</string>
+  <string name="systemui_restart_message">Để mọi thay đổi được áp dụng, phải khởi động lại giao diện hệ thống. Khởi động lại bây giờ?</string>
 </resources>

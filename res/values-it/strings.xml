@@ -47,7 +47,6 @@
   <string name="status_bar_category">Barra di stato</string>
   <string name="status_bar_category_summary">Personalizza la tua barra di stato</string>
   <string name="notifications_panel_category">Pannello notifiche</string>
-  <string name="notifications_panel_category_summary">Personalizza il pannello delle impostazioni rapide e delle notifiche</string>
   <string name="system_category">Sistema</string>
   <string name="system_category_summary">Varie estensioni di sistema</string>
   <string name="lockscreen_category">Schermata di blocco</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche presenti</string>
   <string name="smart_pulldown_none_summary">Apri le impostazioni rapide quando non ci sono notifiche presenti</string>
   <string name="smart_pulldown_off">Spento</string>
-  <string name="smart_pulldown_none">nessuna notifica</string>
-  <string name="smart_pulldown_dismissable">non rimovibili</string>
   <string name="smart_pulldown_ongoing">non in corso</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Scorciatoie schermata di blocco</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Modifica la luminosità strisciando sulla barra di stato</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
-  <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la carica</string>
   <!-- Media art -->
   <string name="media_art_title">Copertina applicazioni multimediali</string>
   <string name="media_art_summary">Abilita la visualizzazione della copertina dei file multimediali nella schermata di blocco</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget orologio</string>
   <string name="hide_lockscreen_clock_summary">Cambia la visibilità del widget orologio</string>
+  <string name="lockscreen_clock_selection_title">Stile orologio</string>
+  <string name="lockscreen_clock_selection_digital">Predefinito</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+  <string name="lockscreen_clock_selection_analog">Analogico</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analogico (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+  <string name="lockscreen_clock_selection_small">Digitale piccolo</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analogico (spidey)</string>
   <string name="hide_lockscreen_date_title">Widget data</string>
   <string name="hide_lockscreen_date_summary">Cambia la visibilità della data sotto il widget dell\'orologio</string>
+  <string name="lockscreen_date_selection_title">Stile data</string>
+  <string name="lockscreen_date_selection_default_aosp">Predefinita</string>
+  <string name="lockscreen_date_selection_default">Predefinita (dimensioni grandi)</string>
+  <string name="lockscreen_date_selection_str_box">Riquadro semi-trasparente</string>
+  <string name="lockscreen_date_selection_str_round">Riquadro semi-trasparente (tondo)</string>
   <string name="hide_lockscreen_alarm_title">Sveglia</string>
   <string name="hide_lockscreen_alarm_summary">Cambia la visibilità del testo della sveglia sotto il widget dell\'orologio</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Disabilita notifiche chiusura forzata</string>
-  <string name="disable_fc_notifications_summary">Questo nasconderà tutte le notifiche con chiusura forzata</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Ticker di notifica</string>
   <string name="ticker_mode_title">Ticker per le notifiche nella barra di stato</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Profilo SmartBar ripristinato correttamente</string>
   <string name="smartbar_config_backup_error_toast">Errore salvataggio del profilo Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Errore ripristino del profilo Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
   <string name="smartbar_longpress_delay_title">Ritardo pressione prolungata</string>
   <string name="smartbar_longpress_delay_summary">Imposta quanto tempo il sistema deve attendere prima di far scattare un\'azione a pressione prolungata</string>
   <string name="smartbar_longpress_delay_default">Ritardo predefinito (veloce)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
   <string name="face_auto_unlock_summary">Sblocca automaticamente il dispositivo dopo il riconoscimento del viso</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
+  <string name="status_bar_notif_count_summary">Mostra il numero di notifiche in sospeso</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Orologio e data</string>
   <string name="status_bar_clock_summary">Configura l\'orologio della barra di stato e l\'aspetto della data</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Autenticazione impronta digitale con vibrazione</string>
   <string name="fprint_sucess_vib_summary">Vibra all\'avvenuta autenticazione tramite impronta digitale</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide</string>
   <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla schermata di blocco protetta</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Icona servizi in esecuzione</string>
   <string name="qs_running_services_summary">Disabilita le icone dei servizi in esecuzione nel piè di pagina</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Colore dello sfondo del menù di accensione</string>
+  <string name="wallpaper_tint_recents">Colore dello sfondo dei recenti</string>
+  <string name="wallpaper_tint_keyguard">Colore dello sfondo della schermata di blocco</string>
+  <string name="wallpaper_tint_notification_shade">Colore ombra della notifica</string>
+  <string name="wallpaper_tint_summary">Applica un colore basato sullo sfondo della schermata principale</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Gesti sul bordo</string>
+  <string name="edge_gestures_feedback_duration_title">Durata della vibrazione</string>
+  <string name="edge_gestures_long_press_delay_title">Ritarda fino all\'avvio dell\'azione della pressione prolungata</string>
+  <string name="edge_gestures_back_category_title">Gesto indietro</string>
+  <string name="edge_gestures_back_edges_title">Esegui il gesto indietro da</string>
+  <string name="edge_gestures_landscape_back_edges_title">Esegui il gesto indietro in orizzontale da</string>
+  <string name="edge_gestures_back_screen_percent_title">Il gesto indietro deve iniziare al di sotto di questa percentuale dello schermo</string>
+  <string name="edge_gestures_back_screen_percent_summary">Esegui sotto la % dello schermo</string>
+  <string name="edge_gestures_summary">Naviga usando i gesti del bordo</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Disposizione dei recenti</string>
+  <string name="recents_stock">Predefinito</string>
+  <string name="recents_grid">Griglia</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Riavvio del SystemUI richiesto</string>
+  <string name="systemui_restart_message">Per rendere effettive tutte le modifiche, è necessario un riavvio dell\'Interfaccia Utente. Riavviare l\'Interfaccia Utente ora?</string>
 </resources>

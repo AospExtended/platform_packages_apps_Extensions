@@ -47,7 +47,6 @@
   <string name="status_bar_category">Statusleiste</string>
   <string name="status_bar_category_summary">Statusbar anpassen</string>
   <string name="notifications_panel_category">Benachrichtigungsleiste</string>
-  <string name="notifications_panel_category_summary">Anpassen Quicksettings und Benachrichtigungen</string>
   <string name="system_category">System</string>
   <string name="system_category_summary">Diverse System Erweiterungen</string>
   <string name="lockscreen_category">Sperrbildschirm</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Öffnen der Schnelleinstellungen wenn %1$s Benachtichtigungen vorliegen</string>
   <string name="smart_pulldown_none_summary">Schnelleinstellungen öffnen, wenn keine Benachrichtigungen vorhanden sind</string>
   <string name="smart_pulldown_off">Aus</string>
-  <string name="smart_pulldown_none">keine Benachrichtigungen</string>
-  <string name="smart_pulldown_dismissable">keine entfernbaren</string>
   <string name="smart_pulldown_ongoing">keine fortlaufenden</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Sperrbildschirm-Tuner</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Helligkeit durch wischen über die Statusleiste regeln</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ladeinfo auf dem Sperrbildschirm</string>
-  <string name="lockscreen_battery_info_summary">Zeige maximal ermittelte/n Ladespannung/-Strom und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
   <!-- Media art -->
   <string name="media_art_title">Albumcover</string>
   <string name="media_art_summary">Albumcover auf dem Sperrbildschirm anzeigen</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Uhr-Widget</string>
   <string name="hide_lockscreen_clock_summary">SIchtbarkeit des Uhr-Widgets ändern</string>
+  <string name="lockscreen_clock_selection_title">Darstellung der Uhr</string>
+  <string name="lockscreen_clock_selection_digital">Standard</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digital (Fett)</string>
+  <string name="lockscreen_clock_selection_analog">Analog</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analog (Deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (Fett)</string>
+  <string name="lockscreen_clock_selection_small">Digital (Klein)</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analog (Spiderman)</string>
   <string name="hide_lockscreen_date_title">Datum-Widget</string>
   <string name="hide_lockscreen_date_summary">Sichtbarkeit des Datums unterhalb des Uhr-Widgets anpassen</string>
+  <string name="lockscreen_date_selection_title">Datumsformat</string>
+  <string name="lockscreen_date_selection_default_aosp">Standard</string>
+  <string name="lockscreen_date_selection_default">Standard (größer)</string>
+  <string name="lockscreen_date_selection_str_box">Halbtransparente Box</string>
+  <string name="lockscreen_date_selection_str_round">Halbtransparente Box (Rund)</string>
   <string name="hide_lockscreen_alarm_title">Wecker</string>
   <string name="hide_lockscreen_alarm_summary">Sichtbarkeit des Weckers unterhalb des Uhr-Widgets anpassen</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Deaktiviere Meldungen zu Abstürzen</string>
-  <string name="disable_fc_notifications_summary">Damit werden alle Absturz-Meldungen ausgeblendet</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Ticker</string>
   <string name="ticker_mode_title">Statusleisten-Ticker für Benachrichtigungen</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">SmartBar-Profil erfolgreich wiederhergestellt</string>
   <string name="smartbar_config_backup_error_toast">Fehler beim Speichern des SmartBar-Profils</string>
   <string name="smartbar_config_restore_error_toast">Fehler beim Wiederherstellen des SmartBar-Profils</string>
+  <string name="navbar_buttons_alpha_title">Schaltflächendeckkraft</string>
   <string name="smartbar_longpress_delay_title">Tastenverzögerung bei langem Druck</string>
   <string name="smartbar_longpress_delay_summary">Einstellen, wie lange das System wartet, bevor die Aktion als \"langer Druck\" erkannt wird</string>
   <string name="smartbar_longpress_delay_default">Standardverzögerung (schnell)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Entsperren per Gesichtserkennung</string>
   <string name="face_auto_unlock_summary">Sperrbildschirm nach Gesichtserkennung automatisch übergehen</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Benachrichtigungszähler anzeigen</string>
+  <string name="status_bar_notif_count_summary">Anzahl der ungelesenen Benachrichtigungen anzeigen</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Datum und Uhrzeit</string>
   <string name="status_bar_clock_summary">Uhrzeit und Datum der Statusbar einstellen</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibration bei Authentifizierung per Fingerabdruck</string>
   <string name="fprint_sucess_vib_summary">Bei erfolgreicher Fingerabdruck-Erkennung vibrieren</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Keine Schnelleinstellungen bei gesperrtem Gerät</string>
   <string name="lockscreen_qs_disabled_summary">Deaktiviert den Zugriff auf die Schnelleinstellungen bei gesperrtem Sperrbildschirm</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">\"Task Manager\"-Symbol</string>
   <string name="qs_running_services_summary">Deaktiviere das Icon für laufende Prozesse in den Schnelleinstellungen</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Tönung des Power-Menü-Hintergrundes</string>
+  <string name="wallpaper_tint_recents">Tönung des Anwendungsverlaufs-Hintergrundes</string>
+  <string name="wallpaper_tint_keyguard">Tönung des Sperrbildschirms</string>
+  <string name="wallpaper_tint_notification_shade">Tönung von Benachrichtigungen</string>
+  <string name="wallpaper_tint_summary">Eine Tönung basierend auf dem Hintergrundbild zuweisen</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Kantengesten</string>
+  <string name="edge_gestures_feedback_duration_title">Dauer der haptischen Rückmeldung</string>
+  <string name="edge_gestures_long_press_delay_title">Verzögerung, bis langes Drücken beginnt</string>
+  <string name="edge_gestures_back_category_title">Zurück-Geste</string>
+  <string name="edge_gestures_back_edges_title">Zurück-Geste auslösen von</string>
+  <string name="edge_gestures_landscape_back_edges_title">Zurück-Geste im Querformat auslösen von</string>
+  <string name="edge_gestures_back_screen_percent_title">Zurück-Geste muss unter diesem Prozentsatz des Bildschirms beginnen</string>
+  <string name="edge_gestures_back_screen_percent_summary">Auslösen unter % des Bildschirms</string>
+  <string name="edge_gestures_summary">Navigieren mit Kantengesten</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Layout des Anwendungsverlaufs</string>
+  <string name="recents_stock">Standard</string>
+  <string name="recents_grid">Raster</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Neustart von SystemUI erforderlich</string>
+  <string name="systemui_restart_message">Um alle Änderungen anzuwenden ist ein Neustart von SystemUI notwendig. SystemUI jetzt neustarten?</string>
 </resources>

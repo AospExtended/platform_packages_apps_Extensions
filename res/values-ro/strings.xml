@@ -47,7 +47,6 @@
   <string name="status_bar_category">Bară de stare</string>
   <string name="status_bar_category_summary">Personalizați bara de stare</string>
   <string name="notifications_panel_category">Panou notificări</string>
-  <string name="notifications_panel_category_summary">Personalizați panoul QS și notificările</string>
   <string name="system_category">Sistem</string>
   <string name="system_category_summary">Diferite extensii de sistem</string>
   <string name="lockscreen_category">Ecran de blocare</string>
@@ -59,7 +58,7 @@
   <string name="listview">Vizualizare listă</string>
   <!-- Frags -->
   <!-- General Tweaks -->
-  <string name="general_tweaks_title">Tweak-uri generale</string>
+  <string name="general_tweaks_title">Setări generale</string>
   <!-- Network traffic -->
   <string name="traffic_title">Indicatori de trafic</string>
   <!-- Carrier Label -->
@@ -166,17 +165,15 @@
   <string name="quick_pulldown_title">Derulare rapidă în jos</string>
   <string name="quick_pulldown_summary">La tragerea în jos a barei de stare din partea %1$s se deschid Setările Rapide</string>
   <string name="quick_pulldown_summary_always">Afișați întotdeauna Setări rapide în bara de stare</string>
-  <string name="quick_pulldown_off">Oprit</string>
-  <string name="quick_pulldown_left">stângă</string>
-  <string name="quick_pulldown_right">dreptă</string>
+  <string name="quick_pulldown_off">Dezactivată</string>
+  <string name="quick_pulldown_left">Din partea stângă</string>
+  <string name="quick_pulldown_right">Din partea dreptă</string>
   <string name="quick_pulldown_always">Mereu</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Tragere inteligentă</string>
   <string name="smart_pulldown_summary">Deschideţi setări rapide atunci când există %1$s notificări</string>
   <string name="smart_pulldown_none_summary">Deschideţi setări rapide atunci când nu există nici o notificare</string>
   <string name="smart_pulldown_off">Oprit</string>
-  <string name="smart_pulldown_none">nicio notificare</string>
-  <string name="smart_pulldown_dismissable">nerevocabile</string>
   <string name="smart_pulldown_ongoing">nu este în curs de desfăşurare</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Comenzi rapide pe ecranul de blocare</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Reglare luminozitate prin alunecare pe bara de stare</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informații despre încărcare pe ecranul de blocare</string>
-  <string name="lockscreen_battery_info_summary">Afișare curent, tensiune și temperatura bateriei în timpul încărcării pe ecranul de blocare</string>
   <!-- Media art -->
   <string name="media_art_title">Copertă media</string>
   <string name="media_art_summary">Activaţi coperta media pe ecranul de blocare</string>
@@ -224,7 +220,7 @@
   <string name="volume_answer_call_title">Răspundeţi cu tastele de volum</string>
   <string name="volume_answer_call_summary">Răspundeţi la apel la apăsarea tastelor de volum</string>
   <!-- QS rows and columns -->
-  <string name="qs_layout_category">Aspect dale QS</string>
+  <string name="qs_layout_category">Aspect dale setări rapide</string>
   <string name="qs_rows_columns_title">Rânduri şi coloane setări rapide</string>
   <string name="qs_rows_portrait_title">Rânduri în modul portret</string>
   <string name="qs_rows_landscape_title">Rânduri în modul peisaj</string>
@@ -244,31 +240,45 @@
   <string name="ringtone_focus_mode_dynamic">În căşti, dacă sunt conectate şi se redă muzica</string>
   <string name="ringtone_focus_mode_stock">"În difuzor (implicit)"</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">Avertismente de subsol QS</string>
+  <string name="qs_footer_warnings_title">Avertismente de subsol setări rapide</string>
   <string name="qs_footer_warnings_summary">Afișare avertisment în partea de jos a panoului setărilor rapide atunci când rețeaua este monitorizată de aplicații externe sau vpn</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget ceas</string>
   <string name="hide_lockscreen_clock_summary">Modificați vizibilitatea widgetului ceasului</string>
+  <string name="lockscreen_clock_selection_title">Stil ceas</string>
+  <string name="lockscreen_clock_selection_digital">Implicit</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digital (aldin)</string>
+  <string name="lockscreen_clock_selection_analog">Analogic</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analogic (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (aldin)</string>
+  <string name="lockscreen_clock_selection_small">Digital mic</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analogic (păianjen)</string>
   <string name="hide_lockscreen_date_title">Widget dată</string>
   <string name="hide_lockscreen_date_summary">Modificați vizibilitatea datei sub widgetul ceas</string>
+  <string name="lockscreen_date_selection_title">Stil dată</string>
+  <string name="lockscreen_date_selection_default_aosp">Implicit</string>
+  <string name="lockscreen_date_selection_default">Implicit (dimensiune mai mare)</string>
+  <string name="lockscreen_date_selection_str_box">Casetă semi-transparentă</string>
+  <string name="lockscreen_date_selection_str_round">Casetă semi-transparentă (rotundă)</string>
   <string name="hide_lockscreen_alarm_title">Textul alarmei</string>
   <string name="hide_lockscreen_alarm_summary">Modificați vizibilitatea alarmei sub widgetul ceas</string>
   <!-- Heads up -->
   <string name="headsup_category">Setări atenţionări</string>
   <string name="heads_up_notifications">Atenționări</string>
   <string name="summary_heads_up_enabled">Notificările de atenţionare sunt activate</string>
-  <string name="summary_heads_up_disabled">Notificările Pop-up sunt dezactivate</string>
-  <string name="add_heads_up_package">Adăugați aplicaţie</string>
+  <string name="summary_heads_up_disabled">Notificările de atenţionare sunt dezactivate</string>
+  <string name="add_heads_up_package">Adăugați o aplicaţie</string>
   <string name="add_heads_up_stoplist_summary">Dezactivaţi atenţionările în aceste aplicaţii</string>
   <string name="add_heads_up_blacklist_summary">Dezactivaţi atenţionările de la aceste aplicaţii</string>
-  <string name="heads_up_stoplist_title">Stop-listă</string>
+  <string name="heads_up_stoplist_title">Listă aplicaţii dezactivate</string>
   <string name="heads_up_blacklist_title">Listă neagră</string>
   <string name="profile_choose_app">Alegeți aplicația</string>
   <string name="dialog_delete_title">Ștergeţi</string>
   <string name="dialog_delete_message">Ştergeți elementul selectat?</string>
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Timp expirare</string>
-  <string name="heads_up_time_out_summary">Notificările de atenţionare vor apărea pentru <xliff:g id="number">%d</xliff:g> secunde</string>
+  <string name="heads_up_time_out_summary">Notificările de atenţionare se vor afişa pe durata a <xliff:g id="number">%d</xliff:g> secunde</string>
   <string name="heads_up_time_out_2sec">2 secunde</string>
   <string name="heads_up_time_out_4sec">4 secunde</string>
   <string name="heads_up_time_out_5sec">5 secunde</string>
@@ -277,8 +287,8 @@
   <string name="heads_up_time_out_10sec">10 secunde</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Amânare</string>
-  <string name="heads_up_snooze_summary_one_minute">Glisarea în sus pe notificările rapide va amâna heads-up de la acea aplicație timp de 1 minut</string>
-  <string name="heads_up_snooze_summary">Glisarea în sus pe notificările rapide va amâna heads-up de la acea aplicație timp de <xliff:g id="number">%d</xliff:g> minute</string>
+  <string name="heads_up_snooze_summary_one_minute">Glisarea în sus pe notificările de atenţionare va amâna atenţionarea de la acea aplicație pentru 1 minut</string>
+  <string name="heads_up_snooze_summary">Glisarea în sus pe notificările de atenţionare va amâna atenţionarea de la acea aplicație pentru <xliff:g id="number">%d</xliff:g> minute</string>
   <string name="heads_up_snooze_disabled_summary">Amânarea este dezactivată</string>
   <string name="heads_up_snooze_1min">1 minut</string>
   <string name="heads_up_snooze_5min">5 minute</string>
@@ -292,11 +302,10 @@
   <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Dezactivare notificari de oprire forţată</string>
-  <string name="disable_fc_notifications_summary">Aceasta va ascunde toate notificarile de oprire forţată</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Derulare text</string>
-  <string name="ticker_mode_title">Notificări în bara de stare</string>
-  <string name="ticker_disabled">Dezactivat</string>
+  <string name="ticker_mode_title">Derulare notificări în bara de stare</string>
+  <string name="ticker_disabled">Dezactivată</string>
   <string name="ticker_enabled">Derulare notificări</string>
   <string name="ticker_media_enabled">Derulare text notificări şi muzică</string>
   <string name="ticker_animation_mode_title">Stil animație</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Profilul SmartBar restaurat cu succes</string>
   <string name="smartbar_config_backup_error_toast">Eroare la salvarea profilului SmartBar</string>
   <string name="smartbar_config_restore_error_toast">Eroare la restabilirea profilului SmartBar</string>
+  <string name="navbar_buttons_alpha_title">Opacitate butoane</string>
   <string name="smartbar_longpress_delay_title">Întârziere apăsare lungă</string>
   <string name="smartbar_longpress_delay_summary">Setați cât timp va aștepta sistemul înainte de a declanșa o acțiune de apăsare lungă</string>
   <string name="smartbar_longpress_delay_default">Întârziere implicită (rapid)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Deblocare automată cu faţa</string>
   <string name="face_auto_unlock_summary">Deblocare ecran după recunoaşterea feței</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Afişare număr de notificări</string>
+  <string name="status_bar_notif_count_summary">Afișează numărul notificărilor în așteptare</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Ceas și dată</string>
   <string name="status_bar_clock_summary">Configuraţi aspectul ceasului şi datei în bara de stare</string>
@@ -677,7 +689,7 @@
   <string name="data_disabled_icon_summary">Afișarea semnului x lângă bara de semnal atunci când datele sunt dezactivate</string>
   <!-- Notification guts kill app button -->
   <string name="notification_guts_kill_app_button_title">Butonul oprire aplicație</string>
-  <string name="notification_guts_kill_app_button_summary">Afișează unu buton pentru închiderea aplicaţiei în meniul notificării apăsării lungi</string>
+  <string name="notification_guts_kill_app_button_summary">Se afișează un buton pentru închiderea aplicaţiei în meniul apăsării lungi pe notificare</string>
   <!-- SlimSizer  -->
   <string name="caution">Avertisment!</string>
   <string name="sizer_message_startup">Acest instrument vă permite să ştergeţi aplicațiile din sistem. Utilizaţi cu precauţie şi ştergeți numai aplicațiile pe care ştiţi că pot fi înlăturate fără probleme.</string>
@@ -692,8 +704,9 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrații la autentificarea cu amprenta</string>
   <string name="fprint_sucess_vib_summary">Vibrează la autentificarea cu succes prin amprentă</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
-  <string name="lockscreen_qs_disabled_title">Fără QS când este securizat</string>
+  <string name="lockscreen_qs_disabled_title">Fără setări rapide când este securizat</string>
   <string name="lockscreen_qs_disabled_summary">Dezactivați plăcile de setări rapide pe ecranul de blocare securizat</string>
   <!-- Toast Animation -->
   <string name="toast_animation_title">Animație toast</string>
@@ -769,9 +782,9 @@
   <string name="pref_scrollingcache_force_disable">Dezactivat forţat</string>
   <!-- QuickSettings Panel Transparency -->
   <string name="qs_panel_alpha_title">Opacitate</string>
-  <string name="qs_opacity_category">Opacitate QS</string>
+  <string name="qs_opacity_category">Opacitate setări rapide</string>
   <!-- Tiles animation/interpolator style  -->
-  <string name="qs_tile_animation_category">Animații tile-uri</string>
+  <string name="qs_tile_animation_category">Animații dale</string>
   <string name="qs_tile_animation_style_title">Stil animație</string>
   <string name="qs_tile_animation_duration_title">Durata animaţiei</string>
   <string name="qs_tile_animation_interpolator_title">Interpolator animație</string>
@@ -867,10 +880,10 @@
   <string name="smart_pixels_shift_title">Protecție Burn-in</string>
   <string name="smart_pixels_shift_summary">Împiedică arderea ecranelor OLED prin deplasarea pixelilor</string>
   <string name="lockscreen_items_other">Altele</string>
-  <string name="qs_header_category">Antet QS</string>
+  <string name="qs_header_category">Antet setări rapide</string>
   <!-- Small quick settings scroller -->
-  <string name="qqs_scroll_title">Derulare dale mici Setări rapide</string>
-  <string name="qqs_scroll_summary">Permite derularea prin plăcile mici a Setărilor rapide</string>
+  <string name="qqs_scroll_title">Derulare dale mici ale setărilor rapide</string>
+  <string name="qqs_scroll_summary">Permite derularea prin dalele mici ale setărilor rapide</string>
   <!-- Screen state service -->
   <string name="screen_state_toggles_summary">\@null</string>
   <string name="screen_state_toggles_title">Acţiuni la suspendare</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Pictograma Servicii în execuție</string>
   <string name="qs_running_services_summary">Dezactivați pictograma serviciilor în curs de rulare</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Nuanţă fundal meniu de alimentare</string>
+  <string name="wallpaper_tint_recents">Nuanţă fundal aplicaţii recente</string>
+  <string name="wallpaper_tint_keyguard">Nuanţă fundal ecran de blocare</string>
+  <string name="wallpaper_tint_notification_shade">Nuanţă panou de notificare</string>
+  <string name="wallpaper_tint_summary">Aplică o nuanță la fundal bazat pe imaginea de fundal de pe ecran</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Gesturi de la margini</string>
+  <string name="edge_gestures_feedback_duration_title">Durată vibrare</string>
+  <string name="edge_gestures_long_press_delay_title">Întârziere până la începerea acțiunii de apăsare lungă</string>
+  <string name="edge_gestures_back_category_title">Gestul înapoi</string>
+  <string name="edge_gestures_back_edges_title">Gest de întoarcere de la</string>
+  <string name="edge_gestures_landscape_back_edges_title">Gest de declanșare peisaj inapoi de la</string>
+  <string name="edge_gestures_back_screen_percent_title">Gestul înapoi trebuie să înceapă sub acest procentaj al ecranului</string>
+  <string name="edge_gestures_back_screen_percent_summary">Se declanșează sub % din ecran</string>
+  <string name="edge_gestures_summary">Navigați utilizând gesturi la margine</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Stil aplicaţii recente</string>
+  <string name="recents_stock">Stoc</string>
+  <string name="recents_grid">Grilă</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Repornire IU sistem necesară</string>
+  <string name="systemui_restart_message">Pentru ca toate modificările să aibă efect, este necesară o repornire a IU sistem. Reporniţi IU sistem acum?</string>
 </resources>

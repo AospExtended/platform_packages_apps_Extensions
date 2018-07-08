@@ -47,7 +47,6 @@
   <string name="status_bar_category">Barra de estado</string>
   <string name="status_bar_category_summary">Personalizar la barra de estado</string>
   <string name="notifications_panel_category">Panel de notificaciones</string>
-  <string name="notifications_panel_category_summary">Personalizar tu panel de opciones rápidas y notificaciones</string>
   <string name="system_category">Sistema</string>
   <string name="system_category_summary">Otras extensiones para el sistema</string>
   <string name="lockscreen_category">Pantalla de bloqueo</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Mostrar los ajustes rápidos cuando hay %1$s notificaciones</string>
   <string name="smart_pulldown_none_summary">Mostrar los ajustes rápidos cuando no hay notificaciones</string>
   <string name="smart_pulldown_off">Desactivado</string>
-  <string name="smart_pulldown_none">sin notificaciones</string>
-  <string name="smart_pulldown_dismissable">sin notificaciones descartables</string>
   <string name="smart_pulldown_ongoing">sin notificaciones en curso</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Personalizar pantalla de bloqueo</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Ajustar el brillo deslizando a través de la barra de estado</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Información de la batería en pantalla de bloqueo</string>
-  <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
   <!-- Media art -->
   <string name="media_art_title">Carátula de multimedia</string>
   <string name="media_art_summary">Habilitar carátula multimedia en la pantalla de bloqueo</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget del reloj</string>
   <string name="hide_lockscreen_clock_summary">Cambiar la visibilidad del widget de reloj</string>
+  <string name="lockscreen_clock_selection_title">Estilo de reloj</string>
+  <string name="lockscreen_clock_selection_digital">Por defecto</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digital (negrita)</string>
+  <string name="lockscreen_clock_selection_analog">Análogo</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analógico (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
+  <string name="lockscreen_clock_selection_small">Digital pequeño</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analógico (spidey)</string>
   <string name="hide_lockscreen_date_title">Widget de la fecha</string>
   <string name="hide_lockscreen_date_summary">Cambiar la visibilidad de la fecha debajo del widget de reloj</string>
+  <string name="lockscreen_date_selection_title">Estilo de la fecha</string>
+  <string name="lockscreen_date_selection_default_aosp">Por defecto</string>
+  <string name="lockscreen_date_selection_default">Por defecto (un tamaño más grande)</string>
+  <string name="lockscreen_date_selection_str_box">Semi transparente</string>
+  <string name="lockscreen_date_selection_str_round">Caja semitransparente (redondeada)</string>
   <string name="hide_lockscreen_alarm_title">Texto de alarma</string>
   <string name="hide_lockscreen_alarm_summary">Cambiar la visibilidad del texto de alarma debajo del widget de reloj</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Desactivar notificaciones de cierre forzado</string>
-  <string name="disable_fc_notifications_summary">Esto ocultará todas las notificaciones de cierre forzado</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Ticker</string>
   <string name="ticker_mode_title">Ticker en la barra de estado</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Perfil de Smartbar restaurado con éxito</string>
   <string name="smartbar_config_backup_error_toast">Error al guardar el perfil de Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Error al restaurar el perfil de Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Opacidad de los botones</string>
   <string name="smartbar_longpress_delay_title">Boton de pulsacion larga para retrasar</string>
   <string name="smartbar_longpress_delay_summary">Hacer que el conjunto del sistema espere antes de provocar una pulsacion larga</string>
   <string name="smartbar_longpress_delay_default">Retraso por defecto (rápido)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
   <string name="face_auto_unlock_summary">Quita la pantalla de bloqueo tras desbloqueo facial</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
+  <string name="status_bar_notif_count_summary">Mostrar el número de notificaciones pendientes en la barra de estado</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Reloj y Fecha</string>
   <string name="status_bar_clock_summary">Configurar el reloj de la barra de estado y la apariencia de la fecha</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar cuando la autenticación con la huella es correcta</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Desactivar QS en pantalla de bloqueo segura</string>
   <string name="lockscreen_qs_disabled_summary">Deshabilitar los ajustes rápidos en la pantalla de bloqueo</string>
@@ -857,7 +870,7 @@
   <string name="chooser_activity_blacklist_pref_title">Añadir aplicación</string>
   <string name="chooser_activity_blacklist_pref_summary">Toque aquí para agregar, toque en una aplicación agregada para quitarla</string>
   <!-- Smart Pixels -->
-  <string name="smart_pixels_title">Píxeles inteligentes _@mazork_</string>
+  <string name="smart_pixels_title">Píxeles inteligentes</string>
   <string name="smart_pixels_summary">Ahorra batería apagando píxeles adicionales</string>
   <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
   <string name="smart_pixels_enable_summary">Apagar píxeles para reducir el consumo de energía</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Icono de servicios en ejecución</string>
   <string name="qs_running_services_summary">Deshabilita el icono de acceso directo de servicios en ejecución en la parte inferior</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Matiz de fondo de menú de apagado</string>
+  <string name="wallpaper_tint_recents">Matiz de fondo de recientes</string>
+  <string name="wallpaper_tint_keyguard">Matiz de fondo de pantalla de bloqueo</string>
+  <string name="wallpaper_tint_notification_shade">Matiz de sombra de notificaciones</string>
+  <string name="wallpaper_tint_summary">Aplicar un tinte de fondo basado en el fondo de pantalla de inicio</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Habilitar gestos</string>
+  <string name="edge_gestures_feedback_duration_title">Duración de la vibración</string>
+  <string name="edge_gestures_long_press_delay_title">Demora hasta que comience la acción de presión prolongada</string>
+  <string name="edge_gestures_back_category_title">Gesto de retroceso</string>
+  <string name="edge_gestures_back_edges_title">Lanzar gesto de retroceso de</string>
+  <string name="edge_gestures_landscape_back_edges_title">Lanzar gesto de retroceso en posición vertical de</string>
+  <string name="edge_gestures_back_screen_percent_title">Gesto de retroceder debe empezar por debajo de este porcentaje de la pantalla</string>
+  <string name="edge_gestures_back_screen_percent_summary">Lanzar debajo de cierto porcentaje de pantalla</string>
+  <string name="edge_gestures_summary">Navegar usando gestos \"Edge\"</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Estilo de Recientes</string>
+  <string name="recents_stock">Predeterminado</string>
+  <string name="recents_grid">Cuadricula</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Se requiere reinicio de SystemUI</string>
+  <string name="systemui_restart_message">Para que todos los cambios surtan efecto, se necesita reiniciar SystemUI ¿reiniciar ahora?</string>
 </resources>

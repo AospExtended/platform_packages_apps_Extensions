@@ -47,7 +47,6 @@
   <string name="status_bar_category">Állapotsor</string>
   <string name="status_bar_category_summary">Értesítési sáv testreszabása</string>
   <string name="notifications_panel_category">Értesítési panel</string>
-  <string name="notifications_panel_category_summary">A gyorsbeállítási panel és értesítések testreszabása</string>
   <string name="system_category">Rendszer</string>
   <string name="system_category_summary">Különféle rendszerbővítmények</string>
   <string name="lockscreen_category">Záróképernyő</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Gyorsbeállítások megnyitása, %1$s</string>
   <string name="smart_pulldown_none_summary">Gyorsbeállítások megnyitása, ha nincsenek értesítések</string>
   <string name="smart_pulldown_off">Kikapcsolás</string>
-  <string name="smart_pulldown_none">ha nincsenek értesítések</string>
-  <string name="smart_pulldown_dismissable">ha nincsenek törölhető értesítések</string>
   <string name="smart_pulldown_ongoing">ha nincsenek folyamatban lévő értesítések</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Képernyőzár hangolása</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Fényerő szabályozása az állapotsoron való csúsztatással</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
-  <string name="lockscreen_battery_info_summary">Töltés közben megjeleníti a maximális aktuális töltőfeszültséget és az akkumulátor hőmérsékletét a zárképernyőn</string>
   <!-- Media art -->
   <string name="media_art_title">Média borítója</string>
   <string name="media_art_summary">Engedélyezi a médiaborító megjelenítését a képernyőzáron</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Óra modul</string>
   <string name="hide_lockscreen_clock_summary">Az óra modul láthatóságának módosítása</string>
+  <string name="lockscreen_clock_selection_title">Az Óra stílusa</string>
+  <string name="lockscreen_clock_selection_digital">Alapértelmezett</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digitális (félkövér)</string>
+  <string name="lockscreen_clock_selection_analog">Analóg</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analóg (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
+  <string name="lockscreen_clock_selection_small">Kis digitális</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analóg (spidey)</string>
   <string name="hide_lockscreen_date_title">Dátum modul</string>
   <string name="hide_lockscreen_date_summary">Az óra modul alatti dátum láthatóságának módosítása</string>
+  <string name="lockscreen_date_selection_title">A dátum stílusa</string>
+  <string name="lockscreen_date_selection_default_aosp">Alapértelmezett</string>
+  <string name="lockscreen_date_selection_default">Alapértelmezett (nagyobb méret)</string>
+  <string name="lockscreen_date_selection_str_box">Félig átlátszó doboz</string>
+  <string name="lockscreen_date_selection_str_round">Félig átlátszó doboz (lekerekített)</string>
   <string name="hide_lockscreen_alarm_title">Ébresztési szöveg</string>
   <string name="hide_lockscreen_alarm_summary">Az óra modul alatti ébresztési szöveg láthatóságának módosítása</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Kényszerített leállások értesítéseinek tiltása</string>
-  <string name="disable_fc_notifications_summary">Elrejti az összes értesítést a kényszerített leállásokról</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Gördülő értesítés</string>
   <string name="ticker_mode_title">Értesítés gördítése állapotsoron</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Okossáv-profil sikeresen visszaállítva</string>
   <string name="smartbar_config_backup_error_toast">Hiba történt az Okossáv-profil mentése során</string>
   <string name="smartbar_config_restore_error_toast">Hiba történt az Okossáv-profil visszaállítása során</string>
+  <string name="navbar_buttons_alpha_title">A Gomb átlátszósága</string>
   <string name="smartbar_longpress_delay_title">Gomb hosszan nyomási késleltetése</string>
   <string name="smartbar_longpress_delay_summary">Beállíthatja, mennyi ideig várjon a rendszer egy hosszan nyomási művelet elindítása előtt</string>
   <string name="smartbar_longpress_delay_default">Alapértelmezett késleltetés (gyors)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Automatikus arcfeloldás</string>
   <string name="face_auto_unlock_summary">Záróképernyő kihagyása arcfeloldás után</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Értesítési számláló megjelenítése</string>
+  <string name="status_bar_notif_count_summary">Megjeleníti a függőben lévő értesítések számát</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Óra és dátum</string>
   <string name="status_bar_clock_summary">Állapotsori óra és dátum megjelenésének beállítása</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Ujjlenyomatos hitelesítés utáni rezgés</string>
   <string name="fprint_sucess_vib_summary">Rezgés sikeres ujjlenyomatos hitelesítéskor</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Nincsenek gyorsbeállítási csempék biztonságos zárképernyőn</string>
   <string name="lockscreen_qs_disabled_summary">Gyorsbeállítási csempék tiltása biztonságos zárképernyőn</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Futó szolgáltatások ikonja</string>
   <string name="qs_running_services_summary">Futó szolgáltatások ikoncsempe letiltása a láblécen</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Kikapcsolómenü-háttérárnyalat</string>
+  <string name="wallpaper_tint_recents">Előzmények-háttérárnyalat</string>
+  <string name="wallpaper_tint_keyguard">Záróképernyő-háttérárnyalat</string>
+  <string name="wallpaper_tint_notification_shade">Értesítésifelület-háttérárnyalat</string>
+  <string name="wallpaper_tint_summary">A kezdőoldal háttérképéhez alkalmazkodó háttérárnyalat alkalmazása</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Élvezérlési gesztusok</string>
+  <string name="edge_gestures_feedback_duration_title">Érintési visszajelzés hosszúsága</string>
+  <string name="edge_gestures_long_press_delay_title">Késleltetés, amíg a hosszan érintési művelet elindul</string>
+  <string name="edge_gestures_back_category_title">Vissza gesztus</string>
+  <string name="edge_gestures_back_edges_title">Vissza gesztus indítása innen</string>
+  <string name="edge_gestures_landscape_back_edges_title">Vissza gesztus indítása fekvő módban innen</string>
+  <string name="edge_gestures_back_screen_percent_title">A Vissza gesztust a képernyő ennyi százalékos aránya alatt kell indtani</string>
+  <string name="edge_gestures_back_screen_percent_summary">Indítás a képernyő bizonyos százalékos aránya alatt</string>
+  <string name="edge_gestures_summary">Navigálás élvezérlés használatával</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Az Előzmények elrendezési módja</string>
+  <string name="recents_stock">Gyári</string>
+  <string name="recents_grid">Rács</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Rendszerfelület-újraindítás szükséges</string>
+  <string name="systemui_restart_message">Az összes módosítás érvénybe léptetéséhez a rendszerfelület újraindítása szükséges. Újraindítja most?</string>
 </resources>

@@ -47,7 +47,6 @@
   <string name="status_bar_category">Рядок стану</string>
   <string name="status_bar_category_summary">Налаштуйте рядок стану</string>
   <string name="notifications_panel_category">Панель сповіщень</string>
-  <string name="notifications_panel_category_summary">Налаштуйте панель швидких налаштувань та сповіщень</string>
   <string name="system_category">Система</string>
   <string name="system_category_summary">Різні налаштування системи</string>
   <string name="lockscreen_category">Екран блокування</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Відкрити швидкі налаштування при %1$s сповіщеннях</string>
   <string name="smart_pulldown_none_summary">Відкрити швидкі налаштування коли немає сповіщень</string>
   <string name="smart_pulldown_off">Вимк</string>
-  <string name="smart_pulldown_none">без сповіщень</string>
-  <string name="smart_pulldown_dismissable">без тих, що видаляються</string>
   <string name="smart_pulldown_ongoing">без постійних</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Налаштування екрану блокування</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Регулювання яскравості ковзанням вліво/вправо по рядку стану</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
-  <string name="lockscreen_battery_info_summary">Відображення максильної напруги струму і температуру акумулятора на екрані блокування під час зарядки</string>
   <!-- Media art -->
   <string name="media_art_title">Показати обкладинку альбому музики</string>
   <string name="media_art_summary">Увімкнути обкладинки на на екрані блокування</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Віджет годинника</string>
   <string name="hide_lockscreen_clock_summary">Змінити видимість віджета годинника</string>
+  <string name="lockscreen_clock_selection_title">Стиль годинника</string>
+  <string name="lockscreen_clock_selection_digital">За замовчуванням</string>
+  <string name="lockscreen_clock_selection_digital_bold">Цифровий (жирний)</string>
+  <string name="lockscreen_clock_selection_analog">Аналогові</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Аналогові (Deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Вертикальні</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Вертикальні (жирні)</string>
+  <string name="lockscreen_clock_selection_small">Цифровий (маленький)</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Аналогові (Spider-Man)</string>
   <string name="hide_lockscreen_date_title">Віджет дати</string>
   <string name="hide_lockscreen_date_summary">Змінити видимість дати під віджетом годинника</string>
+  <string name="lockscreen_date_selection_title">Стиль дати</string>
+  <string name="lockscreen_date_selection_default_aosp">За замовчуванням</string>
+  <string name="lockscreen_date_selection_default">За замовчуванням (більший)</string>
+  <string name="lockscreen_date_selection_str_box">Напів-прозора коробка</string>
+  <string name="lockscreen_date_selection_str_round">Напів-прозора коробка (зкруглена)</string>
   <string name="hide_lockscreen_alarm_title">Текст будильника</string>
   <string name="hide_lockscreen_alarm_summary">Змінити видимість тексту будильника під віджетом годинника</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Відключити повідомлення про примусове закриття</string>
-  <string name="disable_fc_notifications_summary">Це приховає всі повідомлення про примусове закриття</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Текстові сповіщення</string>
   <string name="ticker_mode_title">Рухомий рядок в рядку стану</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Профіль SmartBar успішно відновлено</string>
   <string name="smartbar_config_backup_error_toast">Помилка при збереженні профілю Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Помилка при відновленні профілю Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Прозорість кнопки</string>
   <string name="smartbar_longpress_delay_title">Затримка довгого натиснення кнопки</string>
   <string name="smartbar_longpress_delay_summary">Встановити, як довго система буде чекати, перш ніж спрацює дія на довгому натисненні</string>
   <string name="smartbar_longpress_delay_default">Стандартна затримка (швидко)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Автоматичне розблокування обличчям</string>
   <string name="face_auto_unlock_summary">Закрити вікно блокування після розблокування обличчям</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Показати лічильник сповіщень</string>
+  <string name="status_bar_notif_count_summary">Показувати кількість очікуючих сповіщень</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Годинник і дата</string>
   <string name="status_bar_clock_summary">Налаштування вигляду годинника та дати</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Вібрація при розпізнаванні відбитку пальця</string>
   <string name="fprint_sucess_vib_summary">Вібрувати при успішному розпізнаванні відбитку пальця</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Швидкі налаштування вимкнено на заблокованому екрані</string>
   <string name="lockscreen_qs_disabled_summary">Вимкнути швидкі налаштування на захищеному екрані блокування</string>
@@ -914,6 +927,7 @@
   <string name="qs_running_services_title">Іконка запущених додатків</string>
   <string name="qs_running_services_summary">Вимкнути іконку запущених додатків у заголовку</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Відтінок фону в меню живлення</string>
   <!-- Edge gestures -->
   <!-- AOSP Recents Style -->
   <!-- SystemUI Restart -->

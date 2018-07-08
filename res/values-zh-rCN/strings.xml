@@ -47,7 +47,6 @@
   <string name="status_bar_category">状态栏</string>
   <string name="status_bar_category_summary">自定义您的状态栏</string>
   <string name="notifications_panel_category">通知面板</string>
-  <string name="notifications_panel_category_summary">自定义您的快速设置面板和通知</string>
   <string name="system_category">系统</string>
   <string name="system_category_summary">各种系统扩展</string>
   <string name="lockscreen_category">锁屏</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">当有%1$s条通知时打开快速设置</string>
   <string name="smart_pulldown_none_summary">没有通知时打开快速设置面板</string>
   <string name="smart_pulldown_off">关闭</string>
-  <string name="smart_pulldown_none">没有通知时</string>
-  <string name="smart_pulldown_dismissable">没有可清除通知时</string>
   <string name="smart_pulldown_ongoing">没有正在进行的通知时</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">锁屏界面调节</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动调整亮度</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">锁屏充电信息</string>
-  <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示适配充电器的最大电流电压以及电池温度</string>
   <!-- Media art -->
   <string name="media_art_title">音乐封面</string>
   <string name="media_art_summary">在锁屏界面启用音乐封面</string>
@@ -254,6 +250,8 @@
   <string name="lockscreen_clock_selection_digital_bold">数字时钟（粗体）</string>
   <string name="lockscreen_clock_selection_analog">模拟时钟</string>
   <string name="lockscreen_clock_selection_analog_deadpool">模拟时钟（死侍）</string>
+  <string name="lockscreen_clock_selection_sammy">竖式时钟</string>
+  <string name="lockscreen_clock_selection_sammy_bold">竖式时钟（粗体）</string>
   <string name="lockscreen_clock_selection_small">小型数字时钟</string>
   <string name="lockscreen_clock_selection_analog_spidey">模拟时钟（蜘蛛侠）</string>
   <string name="hide_lockscreen_date_title">日期部件</string>
@@ -304,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">挂断时振动</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">禁用 FC 通知</string>
-  <string name="disable_fc_notifications_summary">这将隐藏所有的强制关闭通知</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">通知提示</string>
   <string name="ticker_mode_title">状态栏通知</string>
@@ -707,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指纹认证振动</string>
   <string name="fprint_sucess_vib_summary">验证指纹身份成功时振动</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">安全锁屏时无快速设置</string>
   <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用快速设置</string>
@@ -927,9 +925,29 @@
   <string name="qs_header_title">自定义页眉</string>
   <string name="qs_header_summary">用自定义页眉来美化快速设置</string>
   <string name="qs_running_services_title">运行中的服务图标</string>
-  <string name="qs_running_services_summary">禁用页脚中的运行中的服务图标</string>
+  <string name="qs_running_services_summary">禁用页脚中的编辑磁块图标</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">电源菜单背景色调</string>
+  <string name="wallpaper_tint_recents">最近任务背景色调</string>
+  <string name="wallpaper_tint_keyguard">锁屏界面背景色调</string>
+  <string name="wallpaper_tint_notification_shade">通知栏阴影色调</string>
+  <string name="wallpaper_tint_summary">根据主屏幕壁纸将背景色应用于背景</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">边缘手势</string>
+  <string name="edge_gestures_feedback_duration_title">触觉反馈持续时间</string>
+  <string name="edge_gestures_long_press_delay_title">长按操作启动延迟</string>
+  <string name="edge_gestures_back_category_title">返回手势</string>
+  <string name="edge_gestures_back_edges_title">触发返回手势从</string>
+  <string name="edge_gestures_landscape_back_edges_title">触发横屏返回手势从</string>
+  <string name="edge_gestures_back_screen_percent_title">返回手势必须在屏幕的这个百分比以下开始</string>
+  <string name="edge_gestures_back_screen_percent_summary">在屏幕的 % 以下触发</string>
+  <string name="edge_gestures_summary">使用边缘手势导航栏</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">最近任务布局</string>
+  <string name="recents_stock">原生</string>
+  <string name="recents_grid">网格</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">需要重启系统界面</string>
+  <string name="systemui_restart_message">要使所有更改生效，需要重新启动系统界面。现在重新启动系统界面吗？</string>
 </resources>

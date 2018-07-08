@@ -47,7 +47,6 @@
   <string name="status_bar_category">Stavová lišta</string>
   <string name="status_bar_category_summary">Přizpůsobte stavovou lištu</string>
   <string name="notifications_panel_category">Panel oznámení</string>
-  <string name="notifications_panel_category_summary">Přizpůsobte panel QS a oznámení</string>
   <string name="system_category">Systém</string>
   <string name="system_category_summary">Různá rozšíření systému</string>
   <string name="lockscreen_category">Zamykací obrazovka</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde je přítomno %1$s oznámení</string>
   <string name="smart_pulldown_none_summary">Otevře nabídku rychlého nastavení, kde není přítomno oznámení</string>
   <string name="smart_pulldown_off">Vypnuto</string>
-  <string name="smart_pulldown_none">žádné oznámení</string>
-  <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
   <string name="smart_pulldown_ongoing">žádné probíhající</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Nastavení zamykací obrazovky</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
-  <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
   <!-- Media art -->
   <string name="media_art_title">Obal alba</string>
   <string name="media_art_summary">Povolit zobrazení obalu alba na zamčené obrazovce</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">Widget hodin</string>
   <string name="hide_lockscreen_clock_summary">Změna viditelnosti widgetu hodin</string>
+  <string name="lockscreen_clock_selection_title">Styl hodin</string>
+  <string name="lockscreen_clock_selection_digital">Výchozí</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digitální (tučné)</string>
+  <string name="lockscreen_clock_selection_analog">Analogové</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analogové (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (tučné)</string>
+  <string name="lockscreen_clock_selection_small">Malé digitální</string>
+  <string name="lockscreen_clock_selection_analog_spidey">Analogové (spidey)</string>
   <string name="hide_lockscreen_date_title">Widget datumu</string>
   <string name="hide_lockscreen_date_summary">Změna viditelnost data pod widgetem hodin</string>
+  <string name="lockscreen_date_selection_title">Styl data</string>
+  <string name="lockscreen_date_selection_default_aosp">Výchozí</string>
+  <string name="lockscreen_date_selection_default">Výchozí (větší velikost)</string>
+  <string name="lockscreen_date_selection_str_box">Poloprůhledný box</string>
+  <string name="lockscreen_date_selection_str_round">Poloprůhledný box (kulatý)</string>
   <string name="hide_lockscreen_alarm_title">Text budíku</string>
   <string name="hide_lockscreen_alarm_summary">Změna viditelnost textu budíku pod widgetem hodin</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Vypnout oznámení nuceného ukončení \'Force Close\'</string>
-  <string name="disable_fc_notifications_summary">Skryje všechny oznámení při vynuceném ukončení aplikace \'Force Close\'</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Text oznámení</string>
   <string name="ticker_mode_title">Notifikační oznámení ve stavové liště</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">Profil lišty Smartbar byl úspěšně obnoven</string>
   <string name="smartbar_config_backup_error_toast">Chyba při ukládání profilu lišty Smartbar</string>
   <string name="smartbar_config_restore_error_toast">Chyba při obnovení profilu lišty Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Průhlednost tlačítka</string>
   <string name="smartbar_longpress_delay_title">Prodleva dlouhého stisku</string>
   <string name="smartbar_longpress_delay_summary">Nastavte, jak dlouho bude systém čekat před spuštěním dlouhého stisknutí</string>
   <string name="smartbar_longpress_delay_default">Výchozí prodleva (rychle)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">Automatické odemčení pomocí obličeje</string>
   <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Zobrazit počet oznámení</string>
+  <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených oznámení</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">Hodiny a datum</string>
   <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data ve stavové liště</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrovat při ověření otisků prstů</string>
   <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Nezobrazovat rychlé nastavení při zabezpečení</string>
   <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlého nastavení na zabezpečené zamykací obrazovce</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">Ikona spuštěných služeb</string>
   <string name="qs_running_services_summary">Zakázat ikonu dlaždice spuštěných služeb v záhlaví</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Odstín pozadí menu napájení</string>
+  <string name="wallpaper_tint_recents">Odstín pozadí nedávných aplikací</string>
+  <string name="wallpaper_tint_keyguard">Odstín pozadí zamykací obrazovky</string>
+  <string name="wallpaper_tint_notification_shade">Odstín pozadí oznámení</string>
+  <string name="wallpaper_tint_summary">Použít odstín pozadí podle tapety domovské obrazovky</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">Gesta na okraji</string>
+  <string name="edge_gestures_feedback_duration_title">Doba trvání hmatové odezvy</string>
+  <string name="edge_gestures_long_press_delay_title">Zpoždění, než se spustí akce po dlouhém stisknutí</string>
+  <string name="edge_gestures_back_category_title">Gesto zpět</string>
+  <string name="edge_gestures_back_edges_title">Spustit gesto zpět od</string>
+  <string name="edge_gestures_landscape_back_edges_title">Spustit gesto zpět od (v režimu na šířku)</string>
+  <string name="edge_gestures_back_screen_percent_title">Gesto zpět musí být nastaveno pod tímto procentním rozměrem obrazovky</string>
+  <string name="edge_gestures_back_screen_percent_summary">Spustit pod procentem obrazovky</string>
+  <string name="edge_gestures_summary">Navigece pomocí gest na okraji</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">Rozvržení nedávných</string>
+  <string name="recents_stock">Stock</string>
+  <string name="recents_grid">Mřížka</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">Je vyžadován restart SystemUI</string>
+  <string name="systemui_restart_message">Aby se projevily všechny změny, je třeba restartovat SystemUI. Restartovat nyní?</string>
 </resources>

@@ -47,7 +47,6 @@
   <string name="status_bar_category">狀態列</string>
   <string name="status_bar_category_summary">自訂狀態列</string>
   <string name="notifications_panel_category">通知面板</string>
-  <string name="notifications_panel_category_summary">自訂快速設定面板和通知</string>
   <string name="system_category">系統</string>
   <string name="system_category_summary">各類系統延伸</string>
   <string name="lockscreen_category">鎖定畫面</string>
@@ -175,8 +174,6 @@
   <string name="smart_pulldown_summary">當有%1$s 通知時打開快速設置</string>
   <string name="smart_pulldown_none_summary">當沒有通知時打開快速設置</string>
   <string name="smart_pulldown_off">關閉</string>
-  <string name="smart_pulldown_none">沒有通知</string>
-  <string name="smart_pulldown_dismissable">沒有可清除的通知時</string>
   <string name="smart_pulldown_ongoing">沒有正在進行</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">鎖定畫面調整器</string>
@@ -195,7 +192,6 @@
   <string name="status_bar_toggle_brightness_summary">在狀態列上滑動以調節亮度</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">鎖定畫面充電資訊</string>
-  <string name="lockscreen_battery_info_summary">在充電時在鎖定畫面上顯示判斷的充電器最大電流電壓和電池溫度</string>
   <!-- Media art -->
   <string name="media_art_title">媒體專輯封面</string>
   <string name="media_art_summary">啟用鎖定畫面媒體專輯封面</string>
@@ -249,8 +245,22 @@
   <!-- Hide Lockscreen clock, date, & alarm -->
   <string name="hide_lockscreen_clock_title">時鐘小工具</string>
   <string name="hide_lockscreen_clock_summary">更改時鐘小工具的可見度</string>
+  <string name="lockscreen_clock_selection_title">時鐘樣式</string>
+  <string name="lockscreen_clock_selection_digital">預設</string>
+  <string name="lockscreen_clock_selection_digital_bold">數位 (粗體)</string>
+  <string name="lockscreen_clock_selection_analog">類比</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">類比 (死侍)</string>
+  <string name="lockscreen_clock_selection_sammy">薩米</string>
+  <string name="lockscreen_clock_selection_sammy_bold">薩米 (粗體)</string>
+  <string name="lockscreen_clock_selection_small">小型數位</string>
+  <string name="lockscreen_clock_selection_analog_spidey">類比 (蜘蛛俠)</string>
   <string name="hide_lockscreen_date_title">日期小工具</string>
   <string name="hide_lockscreen_date_summary">更改時鐘小工具下方的日期可見度</string>
+  <string name="lockscreen_date_selection_title">日期樣式</string>
+  <string name="lockscreen_date_selection_default_aosp">預設</string>
+  <string name="lockscreen_date_selection_default">預設值 (較大大小)</string>
+  <string name="lockscreen_date_selection_str_box">半透明</string>
+  <string name="lockscreen_date_selection_str_round">半透明 (圓邊)</string>
   <string name="hide_lockscreen_alarm_title">鬧鐘文字</string>
   <string name="hide_lockscreen_alarm_summary">更改鬧鐘小工具下面的鬧鐘文字的可見度</string>
   <!-- Heads up -->
@@ -292,7 +302,6 @@
   <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">停用強制關閉通知</string>
-  <string name="disable_fc_notifications_summary">這將會隱藏所有強制關閉通知</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">通知提示</string>
   <string name="ticker_mode_title">狀態列通知提示</string>
@@ -504,6 +513,7 @@
   <string name="smartbar_config_restore_success_toast">「智慧列」設定檔還原成功</string>
   <string name="smartbar_config_backup_error_toast">儲存「智慧列」設定檔時發生錯誤</string>
   <string name="smartbar_config_restore_error_toast">還原「智慧列」設定檔時發生錯誤</string>
+  <string name="navbar_buttons_alpha_title">按鈕不透明度</string>
   <string name="smartbar_longpress_delay_title">按鈕長按延遲</string>
   <string name="smartbar_longpress_delay_summary">設定在觸發長按動作之前，系統將等待多少時間</string>
   <string name="smartbar_longpress_delay_default">預設延遲(快)</string>
@@ -592,6 +602,8 @@
   <string name="face_auto_unlock_title">臉部自動解鎖</string>
   <string name="face_auto_unlock_summary">解除鎖定畫面後的臉部解鎖</string>
   <!-- Notification count -->
+  <string name="status_bar_notif_count_title">顯示通知數量</string>
+  <string name="status_bar_notif_count_summary">顯示未處理通知的數量</string>
   <!-- Status bar clock options -->
   <string name="status_bar_clock_title">時鐘與日期</string>
   <string name="status_bar_clock_summary">配置狀態列時鐘和日期外觀</string>
@@ -692,6 +704,7 @@
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指紋認證震動</string>
   <string name="fprint_sucess_vib_summary">成功認證指紋時震動</string>
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">鎖定時無快速設定</string>
   <string name="lockscreen_qs_disabled_summary">在安全鎖定畫面上停用快速設定圖塊</string>
@@ -914,7 +927,27 @@
   <string name="qs_running_services_title">運行服務圖標</string>
   <string name="qs_running_services_summary">停用標頭上執行中的服務圖示</string>
   <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">電源功能表背景色調</string>
+  <string name="wallpaper_tint_recents">總覽背景色調</string>
+  <string name="wallpaper_tint_keyguard">鎖定畫面背景色調</string>
+  <string name="wallpaper_tint_notification_shade">通知陰影色調</string>
+  <string name="wallpaper_tint_summary">根據桌面桌布對背景應用的色調</string>
   <!-- Edge gestures -->
+  <string name="edge_gestures_title">邊緣手勢</string>
+  <string name="edge_gestures_feedback_duration_title">觸覺反饋持續時間</string>
+  <string name="edge_gestures_long_press_delay_title">長按操作啟動延遲</string>
+  <string name="edge_gestures_back_category_title">返回手勢</string>
+  <string name="edge_gestures_back_edges_title">觸發返回鍵從</string>
+  <string name="edge_gestures_landscape_back_edges_title">在橫向上觸發返回鍵</string>
+  <string name="edge_gestures_back_screen_percent_title">返回手勢必須在多少百分比下才開始</string>
+  <string name="edge_gestures_back_screen_percent_summary">觸發在螢幕的 % 以下</string>
+  <string name="edge_gestures_summary">使用邊緣手勢進行導航</string>
   <!-- AOSP Recents Style -->
+  <string name="recents_type_title">總覽佈局</string>
+  <string name="recents_stock">原始</string>
+  <string name="recents_grid">格線</string>
+  <string name="recents_go">Android Go</string>
   <!-- SystemUI Restart -->
+  <string name="systemui_restart_title">系統使用者介面需要重新啟動</string>
+  <string name="systemui_restart_message">要使所有更改生效，需要重新啟動使用者介面。 現在重新啟動使用者介面？</string>
 </resources>

@@ -134,8 +134,6 @@
   <string name="smart_pulldown_title">Pintar tarik</string>
   <string name="smart_pulldown_summary">Buka yang cepat tatacara ketika terdapat %1$s pemberitahuan</string>
   <string name="smart_pulldown_none_summary">Buka yang cepat tatacara ketika tidak ada pemberitahuan</string>
-  <string name="smart_pulldown_none">tidak ada pemberitahuan</string>
-  <string name="smart_pulldown_dismissable">tidak boleh dipecat</string>
   <string name="smart_pulldown_ongoing">tidak berterusan</string>
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Kunci Tuner</string>
@@ -153,7 +151,6 @@
   <string name="status_bar_toggle_brightness_summary">Menyesuaikan kecerahan oleh tergelincir di bar status</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Maklumat pengecasan skrin kunci</string>
-  <string name="lockscreen_battery_info_summary">Paparan dinasihatkan pengecas max arus dan voltan dan suhu bateri pada skrin kunci semasa mengecas</string>
   <!-- Media art -->
   <string name="media_art_title">Seni penutup media</string>
   <string name="media_art_summary">Dayakan seni penutup media pada skrin kunci</string>
@@ -209,7 +206,6 @@
   <string name="incall_vibrate_disconnect_title">Bergetar di cabut</string>
   <!-- Disabling FC notifications -->
   <string name="disable_fc_notifications_title">Melumpuhkan FC Pemberitahuan</string>
-  <string name="disable_fc_notifications_summary">Ini akan menyembunyikan semua pemberitahuan rapat daya</string>
   <!-- Statusbar ticker -->
   <string name="ticker_mode_title">Status pemberitahuan ticker</string>
   <string name="ticker_disabled">Dilumpuhkan</string>
@@ -365,6 +361,7 @@
   <!-- Notification guts kill app button -->
   <!-- SlimSizer  -->
   <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
   <!-- Disable QS on secure Lockscreen -->
   <!-- Toast Animation -->
   <!-- Animations -->

@@ -20,6 +20,13 @@
         android:key="navbar_visibility"
         android:title="@string/navbar_visibility" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="use_bottom_gesture_navigation"
+        android:title="@string/use_bottom_gesture_title"
+        android:summary="@string/use_bottom_gesture_summary"
+        android:defaultValue="false" />
+
+
     <PreferenceCategory
         android:key="category_navbar_interface"
         android:title="@string/navbar_interface_title" >

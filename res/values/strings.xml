@@ -1098,5 +1098,12 @@
 
     <string name="lockscreen_weather_footer_warning">Avoid using Lockscreen weather along with custom Lockscreen clock styles, especially on lower DPI as clock might cut out of screen.</string>
 
+    <!-- QS Tile Theme/Tinting -->
+    <string name="qs_tile_theme_title">QS Tile Accents</string>
+    <string name="qs_tile_theme_summary">It will enable Device Accent on QS Tiles</string>
+
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_toast">This feature requires a SystemUI restart to be applied. Restart SystemUI now?</string>
+
 </resources>
 

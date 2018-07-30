@@ -38,16 +38,15 @@ import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
-
+import android.support.v14.preference.SwitchPreference; 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.Utils;
+import org.aospextended.extensions.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -57,7 +56,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
-
+    private static final String QS_TILE_TINTING = "qs_tile_tinting_enable"; 
     private ListPreference mQuickPulldown;
     ListPreference mSmartPulldown;
     private CustomSeekBarPreference mQsPanelAlpha;
@@ -68,15 +67,21 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
-
+    private SwitchPreference mEnableQsTileTinting; 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.quick_settings);
-
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+
+        //QS Tile Theme
+        mEnableQsTileTinting = (SwitchPreference) findPreference(QS_TILE_TINTING);
+        mEnableQsTileTinting.setChecked(Settings.System.getInt(resolver,
+                Settings.System.QS_TILE_TINTING_ENABLE, 1) == 1);
+        mEnableQsTileTinting.setOnPreferenceChangeListener(this);
 
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
@@ -254,6 +259,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                     tileAnimationInterpolator, UserHandle.USER_CURRENT);
             updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
             return true;
+        } else if (preference == mEnableQsTileTinting) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_TILE_TINTING_ENABLE, value ? 1 : 0);
+             Utils.restartSystemUi(getContext());
+             return true;
        }
         return false;
     }

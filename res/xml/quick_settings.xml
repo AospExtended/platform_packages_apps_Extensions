@@ -53,6 +53,12 @@
             android:persistent="false" />
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="qs_tile_tinting_enable"
+        android:title="@string/qs_tile_theme_title"
+        android:summary="@string/qs_tile_theme_summary"
+        android:defaultValue="true" />
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="qs_footer_warnings"
             android:title="@string/qs_footer_warnings_title"
             android:summary="@string/qs_footer_warnings_summary"

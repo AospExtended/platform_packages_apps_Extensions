@@ -34,6 +34,7 @@ import android.provider.Settings;
 
 import com.android.settings.SettingsPreferenceFragment;
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.Config;
@@ -43,6 +44,7 @@ import com.android.settings.R;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
     private static final String NAVBAR_VISIBILITY = "navbar_visibility";
+    private static final String KEY_GESTURE_NAVIGATION = "use_bottom_gesture_navigation";
     private static final String KEY_NAVBAR_MODE = "navbar_mode";
     private static final String KEY_DEFAULT_NAVBAR_SETTINGS = "default_settings";
     private static final String KEY_FLING_NAVBAR_SETTINGS = "fling_settings";
@@ -56,6 +58,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
     private static final String KEY_PULSE_SETTINGS = "pulse_settings";
 
     private SwitchPreference mNavbarVisibility;
+    private SystemSettingSwitchPreference mGestureNavigation;
     private ListPreference mNavbarMode;
     private PreferenceScreen mFlingSettings;
     private PreferenceCategory mNavInterface;
@@ -73,6 +76,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
         addPreferencesFromResource(R.xml.navbar_settings);
 
         mNavInterface = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_INTERFACE);
+        mGestureNavigation = (SystemSettingSwitchPreference) findPreference(KEY_GESTURE_NAVIGATION);
         mNavGeneral = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_GENERAL);
         mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
         mNavbarMode = (ListPreference) findPreference(KEY_NAVBAR_MODE);
@@ -92,6 +96,11 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
 
         updateBarModeSettings(mode);
         mNavbarMode.setOnPreferenceChangeListener(this);
+
+        boolean gestures = Settings.System.getInt(getContentResolver(),
+                Settings.System.USE_BOTTOM_GESTURE_NAVIGATION, 0) == 1;
+        updateGestures(gestures);
+        mGestureNavigation.setOnPreferenceChangeListener(this);
 
         int size = Settings.Secure.getIntForUser(getContentResolver(),
                 Settings.Secure.NAVIGATION_BAR_HEIGHT, 100, UserHandle.USER_CURRENT);
@@ -155,6 +164,16 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
 
     private void updateBarVisibleAndUpdatePrefs(boolean showing) {
         mNavbarVisibility.setChecked(showing);
+        mGestureNavigation.setChecked(!showing);
+        mGestureNavigation.setEnabled(!showing);
+        mNavInterface.setEnabled(mNavbarVisibility.isChecked());
+        mNavGeneral.setEnabled(mNavbarVisibility.isChecked());
+    }
+
+    private void updateGestures(boolean showing) {
+        mGestureNavigation.setChecked(showing);
+        mNavbarVisibility.setChecked(!showing);
+        mNavbarVisibility.setEnabled(!showing);
         mNavInterface.setEnabled(mNavbarVisibility.isChecked());
         mNavGeneral.setEnabled(mNavbarVisibility.isChecked());
     }
@@ -171,7 +190,17 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
             boolean showing = ((Boolean)newValue);
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE,
                     showing ? 1 : 0);
+            Settings.System.putInt(getContentResolver(), Settings.System.USE_BOTTOM_GESTURE_NAVIGATION,
+                    showing ? 0 : 1);
             updateBarVisibleAndUpdatePrefs(showing);
+            return true;
+        } else if (preference == mGestureNavigation) {
+            boolean showing = ((Boolean)newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.USE_BOTTOM_GESTURE_NAVIGATION,
+                    showing ? 1 : 0);
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE,
+                    showing ? 0 : 1);
+            updateGestures(showing);
             return true;
         } else if (preference == mBarHeightPort) {
             int val = (Integer) newValue;

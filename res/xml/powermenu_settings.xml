@@ -55,12 +55,12 @@
             android:title="@string/powermenu_lockdown"
             android:defaultValue="false" />
 
-         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+         <SwitchPreference
             android:key="powermenu_users"
             android:title="@string/powermenu_users"
             android:defaultValue="false" />
 
-         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+         <SwitchPreference
             android:key="powermenu_logout"
             android:title="@string/powermenu_logout"
             android:defaultValue="false" />

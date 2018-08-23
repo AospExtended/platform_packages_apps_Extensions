@@ -20,11 +20,5 @@
     android:title="@string/recents_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="recents_ui"
-            android:fragment="org.aospextended.extensions.RecentsUI"
-            android:icon="@drawable/ic_recents_ui"
-            android:title="@string/recents_ui_title" />
-
 
 </PreferenceScreen>

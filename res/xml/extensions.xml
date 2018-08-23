@@ -20,41 +20,41 @@
     android:icon="@drawable/ic_status_bar_category"
     android:title="@string/status_bar_category"
     android:summary="@string/status_bar_category_summary"
-    android:fragment="org.aospextended.extensions.tabs.StatusBar"/>
+    android:fragment="org.aospextended.extensions.categories.StatusBar"/>
 
 <org.aospextended.extensions.preference.CardviewPreference
     android:key="notifications_panel_category"
     android:icon="@drawable/ic_notifications_panel_category"
     android:title="@string/notifications_panel_category"
     android:summary="@string/notifications_panel_category_summary"
-    android:fragment="org.aospextended.extensions.tabs.NotificationsPanel"/>
+    android:fragment="org.aospextended.extensions.categories.NotificationsPanel"/>
 
 <org.aospextended.extensions.preference.CardviewPreference
     android:key="navigation_category"
     android:icon="@drawable/ic_navigation_category"
     android:title="@string/navigation_category"
     android:summary="@string/navigation_category_summary"
-    android:fragment="org.aospextended.extensions.tabs.Navigation"/>
+    android:fragment="org.aospextended.extensions.categories.Navigation"/>
 
 <org.aospextended.extensions.preference.CardviewPreference
     android:key="recents_category"
     android:icon="@drawable/ic_recents_category"
     android:title="@string/recents_category"
     android:summary="@string/recents_category_summary"
-    android:fragment="org.aospextended.extensions.tabs.Recents"/>
+    android:fragment="org.aospextended.extensions.categories.Recents"/>
 
 <org.aospextended.extensions.preference.CardviewPreference
     android:key="lockscreen_category"
     android:icon="@drawable/ic_lockscreen_category"
     android:title="@string/lockscreen_category"
     android:summary="@string/lockscreen_category_summary"
-    android:fragment="org.aospextended.extensions.tabs.Lockscreen"/>
+    android:fragment="org.aospextended.extensions.categories.Lockscreen"/>
 
 <org.aospextended.extensions.preference.CardviewPreference
     android:key="system_category"
     android:icon="@drawable/ic_system_category"
     android:title="@string/system_category"
     android:summary="@string/system_category_summary"
-    android:fragment="org.aospextended.extensions.tabs.System"/>
+    android:fragment="org.aospextended.extensions.categories.System"/>
 
 </PreferenceScreen>

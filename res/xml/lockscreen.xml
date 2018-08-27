@@ -19,5 +19,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="lockscreen_shortcuts"
+            android:fragment="org.aospextended.extensions.fragments.LockscreenShortcuts"
+            android:icon="@drawable/ic_sub_lockscreen_shortcuts"
+            android:title="@string/lockscreen_shortcuts" />
 </PreferenceScreen>
 

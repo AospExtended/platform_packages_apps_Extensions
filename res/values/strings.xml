@@ -44,6 +44,19 @@
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="listview">ListView</string>
 
+    <!-- Frags -->
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_shortcuts">Lockscreen Shortcuts</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen Shortcuts</string>
+
+    <!-- Lockscreen general category -->
+    <string name="general_category">General</string>
+
+    <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Statusbar Items</string>
+
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>
     <string name="extensions_dialog_message">If you find a bug with any of these settings, report it in our Telegram Group. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>

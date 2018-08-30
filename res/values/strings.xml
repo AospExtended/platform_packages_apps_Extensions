@@ -264,4 +264,13 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
+    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 </resources>

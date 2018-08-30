@@ -56,6 +56,8 @@ import org.aospextended.extensions.preference.CustomSeekBarPreference;
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
+    private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT =
+            "torch_long_press_power_timeout";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -86,6 +88,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
     private ListPreference mVolumeKeyCursorControl;
+    private ListPreference mTorchLongPressPowerTimeout;
 
 
     @Override
@@ -106,6 +109,15 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
         }
+
+        mTorchLongPressPowerTimeout =
+                    (ListPreference) findPreference(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT);
+
+         mTorchLongPressPowerTimeout.setOnPreferenceChangeListener(this);
+        int TorchTimeout = Settings.System.getInt(getContentResolver(),
+                        Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
+        mTorchLongPressPowerTimeout.setValue(Integer.toString(TorchTimeout));
+        mTorchLongPressPowerTimeout.setSummary(mTorchLongPressPowerTimeout.getEntry());
 
 
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
@@ -237,6 +249,16 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
                     .findIndexOfValue(volumeKeyCursorControl);
             mVolumeKeyCursorControl
                     .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
+            return true;
+        } else if (preference == mTorchLongPressPowerTimeout) {
+            String TorchTimeout = (String) newValue;
+            int TorchTimeoutValue = Integer.parseInt(TorchTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, TorchTimeoutValue);
+            int TorchTimeoutIndex = mTorchLongPressPowerTimeout
+                    .findIndexOfValue(TorchTimeout);
+            mTorchLongPressPowerTimeout
+                    .setSummary(mTorchLongPressPowerTimeout.getEntries()[TorchTimeoutIndex]);
             return true;
         } else {
             return false;

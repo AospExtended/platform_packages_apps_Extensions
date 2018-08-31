@@ -340,4 +340,8 @@
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
 </resources>

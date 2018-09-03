@@ -28,4 +28,10 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </org.aospextended.extensions.preference.CardviewPreference>
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="misc_extensions"
+            android:fragment="org.aospextended.extensions.fragments.MiscExtensions"
+            android:icon="@drawable/ic_sub_misc_extensions"
+            android:title="@string/misc_extensions_title" />
+
 </PreferenceScreen>

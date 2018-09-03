@@ -48,11 +48,17 @@
     <!-- Buttons -->
     <string name="buttons_title">Buttons</string>
 
+    <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Misc Extensions</string>
+
     <!-- Lockscreen icons -->
     <string name="lockscreen_shortcuts">Lockscreen Shortcuts</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen Shortcuts</string>
+
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
 
     <!-- Lockscreen general category -->
     <string name="general_category">General</string>

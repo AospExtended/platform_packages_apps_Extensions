@@ -45,9 +45,14 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.Utils;
+import org.aospextended.extensions.preference.Utils;
 
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private static final String KEY_FACE_AUTO_UNLOCK = "face_auto_unlock";
+    private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
+
+    private SwitchPreference mFaceUnlock;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +62,15 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mFaceUnlock = (SwitchPreference) findPreference(KEY_FACE_AUTO_UNLOCK);
+        if (!Utils.isPackageInstalled(getActivity(), KEY_FACE_UNLOCK_PACKAGE)){
+            prefScreen.removePreference(mFaceUnlock);
+        } else {
+            mFaceUnlock.setChecked((Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.FACE_AUTO_UNLOCK, 0) == 1));
+            mFaceUnlock.setOnPreferenceChangeListener(this);
+        }
 
     }
 
@@ -72,6 +86,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mFaceUnlock) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.FACE_AUTO_UNLOCK, value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 }

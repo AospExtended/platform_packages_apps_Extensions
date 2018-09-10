@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2017 AospExtended ROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -11,21 +11,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/notifications_title">
 
-         <org.aospextended.support.preference.CardviewPreference
-            android:key="quick_settings"
-            android:fragment="org.aospextended.extensions.fragments.QuickSettings"
-            android:icon="@drawable/ic_quicksettings"
-            android:title="@string/quick_settings_title" />
-
-         <org.aospextended.support.preference.CardviewPreference
-            android:key="notifications"
-            android:fragment="org.aospextended.extensions.fragments.Notifications"
-            android:icon="@drawable/ic_notification"
-            android:title="@string/notifications_title" />
 
 </PreferenceScreen>

@@ -43,10 +43,21 @@ import android.view.View;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
+    private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
+    private static final String PREF_COLUMNS_PORTRAIT = "qs_columns_portrait";
+    private static final String PREF_COLUMNS_LANDSCAPE = "qs_columns_landscape";
+
+    private CustomSeekBarPreference mRowsPortrait;
+    private CustomSeekBarPreference mRowsLandscape;
+    private CustomSeekBarPreference mQsColumnsPortrait;
+    private CustomSeekBarPreference mQsColumnsLandscape;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +67,27 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mRowsPortrait = (CustomSeekBarPreference) findPreference(PREF_ROWS_PORTRAIT);
+        int rowsPortrait = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_ROWS_PORTRAIT, 3, UserHandle.USER_CURRENT);
+        mRowsPortrait.setValue(rowsPortrait);
+        mRowsPortrait.setOnPreferenceChangeListener(this);
+         mRowsLandscape = (CustomSeekBarPreference) findPreference(PREF_ROWS_LANDSCAPE);
+        int rowsLandscape = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_ROWS_LANDSCAPE, 2, UserHandle.USER_CURRENT);
+        mRowsLandscape.setValue(rowsLandscape);
+        mRowsLandscape.setOnPreferenceChangeListener(this);
+         mQsColumnsPortrait = (CustomSeekBarPreference) findPreference(PREF_COLUMNS_PORTRAIT);
+        int columnsQs = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_COLUMNS_PORTRAIT, 3, UserHandle.USER_CURRENT);
+        mQsColumnsPortrait.setValue(columnsQs);
+        mQsColumnsPortrait.setOnPreferenceChangeListener(this);
+         mQsColumnsLandscape = (CustomSeekBarPreference) findPreference(PREF_COLUMNS_LANDSCAPE);
+        columnsQs = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_COLUMNS_LANDSCAPE, 5, UserHandle.USER_CURRENT);
+        mQsColumnsLandscape.setValue(columnsQs);
+        mQsColumnsLandscape.setOnPreferenceChangeListener(this);
 
     }
 
@@ -71,6 +103,30 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        if (preference == mRowsPortrait) {
+            int value = (Integer) objValue;
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_ROWS_PORTRAIT, value, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mRowsLandscape) {
+            int value = (Integer) objValue;
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_ROWS_LANDSCAPE, value, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mQsColumnsPortrait) {
+            int value = (Integer) objValue;
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_COLUMNS_PORTRAIT, value, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mQsColumnsLandscape) {
+            int value = (Integer) objValue;
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_COLUMNS_LANDSCAPE, value, UserHandle.USER_CURRENT);
+            return true;
+       }
+
         return false;
     }
 }

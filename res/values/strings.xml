@@ -155,5 +155,8 @@
     <string name="double_tap_to_sleep_title">Status bar</string>
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
 
+    <string name="navbar_toggle_title">Allow navigation bar</string>
+    <string name="navbar_toggle_summary">Enable or disable navigation bar</string>
+
 </resources>
 

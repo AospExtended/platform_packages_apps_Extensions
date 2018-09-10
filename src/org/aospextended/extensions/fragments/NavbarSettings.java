@@ -45,8 +45,13 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import com.android.internal.util.aospextended.AEXUtils;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show";
+
+    private SwitchPreference mEnableNavBar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +61,12 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mEnableNavBar = (SwitchPreference) prefSet.findPreference(KEYS_SHOW_NAVBAR_KEY);
+        boolean showNavBarDefault = AEXUtils.deviceSupportNavigationBar(getActivity());
+        boolean showNavBar = Settings.System.getInt(resolver,
+                Settings.System.NAVIGATION_BAR_SHOW, showNavBarDefault ? 1 : 0) == 1;
+        mEnableNavBar.setChecked(showNavBar);
 
     }
 
@@ -72,5 +83,16 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mEnableNavBar) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.NAVIGATION_BAR_SHOW, checked ? 1:0);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
     }
 }

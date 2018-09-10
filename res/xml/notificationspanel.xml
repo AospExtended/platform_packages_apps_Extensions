@@ -23,5 +23,11 @@
             android:icon="@drawable/ic_quick_settings"
             android:title="@string/quick_settings_title" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="notifications"
+            android:fragment="org.aospextended.extensions.fragments.Notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notifications_title" />
+
 
 </PreferenceScreen>

@@ -52,9 +52,6 @@
     <!-- General Tweaks -->
     <string name="general_tweaks_title">General Tweaks</string>
 
-    <!-- Misc Extensions -->
-    <string name="misc_extensions_title">Misc Extensions</string>
-
     <!-- Lockscreen icons -->
     <string name="lockscreen_shortcuts">Lockscreen Shortcuts</string>
 
@@ -66,6 +63,12 @@
 
     <!-- Lockscreen general category -->
     <string name="general_category">General</string>
+
+    <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Misc Extensions</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>

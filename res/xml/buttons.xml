@@ -28,6 +28,19 @@
 
     </PreferenceCategory>
 
+
+   <PreferenceCategory
+        android:key="power_menu"
+        android:title="@string/power_menu_title">
+
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="lockscreen_power_menu_disabled"
+        android:title="@string/lockscreen_power_menu_disabled_title"
+        android:summary="@string/lockscreen_power_menu_disabled_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
    <PreferenceCategory
         android:key="volume_category"
         android:title="@string/volume_category">

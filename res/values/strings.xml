@@ -318,4 +318,7 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Statusbar battery style</string>
+
 </resources>

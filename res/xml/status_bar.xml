@@ -30,6 +30,12 @@
     </org.aospextended.extensions.preference.CardviewPreference>
 
          <org.aospextended.extensions.preference.CardviewPreference
+            android:key="status_bar_battery_style"
+            android:fragment="org.aospextended.extensions.fragments.StatusbarBatteryStyle"
+            android:icon="@drawable/ic_battery_settings"
+            android:title="@string/status_bar_battery_style_title" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="traffic"
             android:fragment="org.aospextended.extensions.fragments.Traffic"
             android:icon="@drawable/ic_traffic"

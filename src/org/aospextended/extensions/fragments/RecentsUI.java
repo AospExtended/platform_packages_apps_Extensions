@@ -45,8 +45,12 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import com.android.internal.util.aospextended.AEXUtils;
 
 public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private ListPreference mRecentsComponentType;
+    private static final String RECENTS_COMPONENT_TYPE = "recents_component";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +60,14 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        // recents component type
+        mRecentsComponentType = (ListPreference) findPreference(RECENTS_COMPONENT_TYPE);
+        int type = Settings.System.getInt(resolver,
+                Settings.System.RECENTS_COMPONENT, 0);
+        mRecentsComponentType.setValue(String.valueOf(type));
+        mRecentsComponentType.setSummary(mRecentsComponentType.getEntry());
+        mRecentsComponentType.setOnPreferenceChangeListener(this);
 
     }
 
@@ -71,6 +83,19 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mRecentsComponentType) {
+            int type = Integer.valueOf((String) objValue);
+            int index = mRecentsComponentType.findIndexOfValue((String) objValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_COMPONENT, type);
+            mRecentsComponentType.setSummary(mRecentsComponentType.getEntries()[index]);
+            if (type == 1) { // Disable swipe up gesture, if oreo type selected
+               Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
+            }
+            AEXUtils.showSystemUiRestartDialog(getContext());
+        return true;
+        }
         return false;
     }
 }

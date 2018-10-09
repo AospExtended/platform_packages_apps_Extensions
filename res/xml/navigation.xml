@@ -22,7 +22,7 @@
 
          <org.aospextended.extensions.preference.CardviewPreference
             android:key="navbar_settings"
-            android:fragment="org.aospextended.extensions.fragments.NavbarSettings"
+            android:fragment="com.android.settings.smartnav.NavigationBarSettings"
             android:icon="@drawable/ic_navigation"
             android:title="@string/navigationbar_settings_title" />
 

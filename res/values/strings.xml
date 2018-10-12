@@ -49,6 +49,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Buttons</string>
 
+    <!-- General Tweaks -->
+    <string name="general_tweaks_title">General Tweaks</string>
+
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Misc Extensions</string>
 

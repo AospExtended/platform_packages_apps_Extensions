@@ -363,4 +363,8 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon</string>
 </resources>

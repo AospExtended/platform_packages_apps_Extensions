@@ -46,6 +46,13 @@
            android:entryValues="@array/flashlight_on_call_values"
            android:defaultValue="0" />
 
+        <org.aospextended.extensions.preference.SystemSettingMasterSwitchPreference
+            android:key="status_bar_show_ticker"
+            android:title="@string/status_bar_show_ticker_title"
+            android:summary="@string/status_bar_show_ticker_summary"
+            android:defaultValue="false"
+            android:fragment="org.aospextended.extensions.fragments.StatusBarTicker" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

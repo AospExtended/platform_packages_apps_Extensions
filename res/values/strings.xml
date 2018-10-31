@@ -431,4 +431,9 @@
     <string name="screen_state_on_delay_title">Screen On actions delay</string>
     <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
 
+    <!-- Weather -->
+    <string name="weather_title">Weather</string>
+    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 </resources>

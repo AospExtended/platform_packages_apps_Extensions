@@ -494,5 +494,6 @@
     <string name="corners_category">Corners</string>
     <string name="corner_radius">Rounded Corner Radius</string>
     <string name="content_padding">Corner Content Padding</string>
+    <string name="qs_styles_dialog_title">Select a QS tile style</string>
 
 </resources>

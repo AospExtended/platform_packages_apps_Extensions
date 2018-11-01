@@ -51,4 +51,6 @@
     <dimen name="shortcut_picker_left_padding">70dip</dimen>
 
 
+    <dimen name="qs_styles_layout_opacity" format="float">0.50</dimen>
+
 </resources>

@@ -88,7 +88,16 @@
     <string name="lockscreen_tuner_title">Lockscreen tuner</string>
     <string name="hide_lockscreen_items_title">Lockscreen items</string>
 
-    <!-- Statusbar Iten -->
+    <!-- Statusbar ticker -->
+    <string name="ticker_title">Notifications Ticker</string>
+    <string name="ticker_category">Ticker</string>
+    <string name="ticker_summary">Notification preview in status bar</string>
+    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+
+    <!-- Statusbar Item -->
     <string name="statusbar_items_category">Statusbar items</string>
 
     <!-- Notifications -->
@@ -722,4 +731,5 @@
     <!-- AEX logo -->
     <string name="aex_logo_title">AEX logo</string>
     <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
+
 </resources>

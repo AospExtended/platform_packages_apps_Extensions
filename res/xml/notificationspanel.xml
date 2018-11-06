@@ -29,5 +29,10 @@
             android:icon="@drawable/ic_notification"
             android:title="@string/notifications_title" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="ticker"
+            android:fragment="org.aospextended.extensions.fragments.TickerCateegory"
+            android:icon="@drawable/ic_ticker"
+            android:title="@string/ticker_title" />
 
 </PreferenceScreen>

@@ -71,4 +71,10 @@
             android:icon="@drawable/ic_cutout"
             android:title="@string/cutout_main" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="ticker"
+            android:fragment="org.aospextended.extensions.categories.TickerCategory"
+            android:icon="@drawable/ic_ticker"
+            android:title="@string/ticker_title" />
+
 </PreferenceScreen>

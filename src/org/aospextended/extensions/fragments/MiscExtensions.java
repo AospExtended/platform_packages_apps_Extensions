@@ -26,7 +26,6 @@ import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
@@ -53,6 +52,7 @@ import java.util.List;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.preference.ListPreference;
 import org.aospextended.extensions.preference.SecureSettingSwitchPreference;
 
 public class MiscExtensions extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
@@ -61,12 +61,17 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
     private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
+    private static final String KEY_STATUS_BAR_SHOW_TICKER = "status_bar_show_ticker";
+    private static final String KEY_STATUS_BAR_TICKER_ANIMATION_MODE ="status_bar_ticker_animation_mode";
+    private static final String KEY_STATUS_BAR_TICKER_TICK_DURATION = "status_bar_ticker_tick_duration";
 
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
     private SwitchPreference mShowAexLogo;
-
+    private SwitchPreference mShowTicker;
+    private ListPreference mTickerAnimation;
+    private CustomSeekBarPreference mTickerDuration;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -114,6 +119,27 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
 
+        // Show Ticker
+        mShowTicker = (SwitchPreference) findPreference(KEY_STATUS_BAR_SHOW_TICKER);
+        mShowTicker.setChecked((Settings.System.getInt(getContentResolver(),
+             Settings.System.STATUS_BAR_SHOW_TICKER, 0) == 1));
+        mShowTicker.setOnPreferenceChangeListener(this);
+
+        // Tikcer Animation mode
+        mTickerAnimation = (ListPreference) findPreference(KEY_STATUS_BAR_TICKER_ANIMATION_MODE);
+        int TickerAnimation = Settings.System.getInt(getContentResolver(),
+                        Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE, 0);
+        mTickerAnimation.setValue(Integer.toString(TickerAnimation));
+        mTickerAnimation.setSummary(mTickerAnimation.getEntry());
+        mTickerAnimation.setOnPreferenceChangeListener(this);
+
+        // Ticker Duration
+        mTickerDuration = (CustomSeekBarPreference) findPreference(KEY_STATUS_BAR_TICKER_TICK_DURATION);
+        int TickerDuration = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_TICKER_TICK_DURATION, 3000);
+        mTickerDuration.setValue(TickerDuration);
+        mTickerDuration.setOnPreferenceChangeListener(this);
+
     }
 
     private void restoreCorners() {
@@ -160,6 +186,24 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
+            return true;
+        } else if  (preference == mShowTicker) {
+            boolean ticker = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_SHOW_TICKER, ticker ? 1 : 0);
+            return true;
+        } else if (preference == mTickerAnimation) {
+            String TickerAnimation = (String) newValue;
+            int TickerAnimationValue = Integer.parseInt(TickerAnimation);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE, TickerAnimationValue);
+            int TickerAnimationIndex = mTickerAnimation.findIndexOfValue(TickerAnimation);
+            mTickerAnimation.setSummary(mTickerAnimation.getEntries()[TickerAnimationIndex]);
+            return true;
+        } else if (preference == mTickerDuration) {
+            int tickerDuration = (Integer) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_TICKER_TICK_DURATION, tickerDuration);
             return true;
         }
         return false;

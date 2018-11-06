@@ -380,6 +380,16 @@
         <item>@string/pref_scrollingcache_default_enable</item>
         <item>@string/pref_scrollingcache_default_disable</item>
         <item>@string/pref_scrollingcache_force_disable</item>
+
+    <!-- Notification ticker -->
+     <string-array name="ticker_animation_mode_entries" translatable="false">
+        <item>@string/ticker_animation_mode_alpha_fade</item>
+        <item>@string/ticker_animation_mode_scroll</item>
+    </string-array>
+
+     <string-array name="ticker_animation_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 
     <string-array name="values_scrollingcache" translatable="false">

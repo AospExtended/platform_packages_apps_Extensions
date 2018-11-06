@@ -101,5 +101,33 @@
             android:dependency="sysui_rounded_fwvals" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="ticker_category"
+        android:title="@string/ticker_category" >
+
+        <SwitchPreference
+            android:key="status_bar_show_ticker"
+            android:title="@string/ticker_category"
+            android:summary="@string/ticker_summary"
+            android:defaultValue="false" />
+
+        <org.aospextended.extensions.preference.ListPreference
+            android:key="status_bar_ticker_animation_mode"
+            android:title="@string/ticker_animation_mode_title"
+            android:entries="@array/ticker_animation_mode_entries"
+            android:entryValues="@array/ticker_animation_mode_values"
+            android:dependency="status_bar_show_ticker"
+            android:defaultValue="0" />
+
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="status_bar_ticker_tick_duration"
+            android:title="@string/ticker_tick_duration_title"
+            android:dependency="status_bar_show_ticker"
+            settings:defaultValue="3000"
+            android:max="10000"
+            settings:min="1000"
+            settings:interval="100"
+            settings:units="s" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

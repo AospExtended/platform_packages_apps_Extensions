@@ -250,4 +250,8 @@
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="network_traffic_arrow">Show arrows</string>
     <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
 </resources>

@@ -450,7 +450,7 @@
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 
-   <!-- Battery Settings -->
+    <!-- Battery Settings -->
     <string name="battery_settings_title">Battery Settings</string>   
 
     <!-- Battery Styles -->
@@ -514,6 +514,10 @@
     <string name="show_carrier_keyguard">Lockscreen</string>
     <string name="show_carrier_statusbar">Statusbar</string>
     <string name="show_carrier_enabled">Both</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 
 </resources>
 

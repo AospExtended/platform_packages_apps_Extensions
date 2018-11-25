@@ -16,6 +16,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
+    <PreferenceCategory
+           android:key="notifications_general_category"
+           android:title="@string/general_category">
+
+        <org.aospextended.support.preference.SystemSettingSwitchPreference
+           android:key="notification_guts_kill_app_button"
+           android:title="@string/notification_guts_kill_app_button_title"
+           android:summary="@string/notification_guts_kill_app_button_summary"
+           android:defaultValue="false" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="headsup_notifications_category"
@@ -55,5 +65,4 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
-
 </PreferenceScreen>

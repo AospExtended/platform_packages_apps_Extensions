@@ -222,6 +222,13 @@
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
 
+    <!-- Volume keys control media stream -->
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="volume_keys_control_ring_tone"
+        android:title="@string/volume_keys_control_ring_tone_title"
+        android:summary="@string/volume_keys_control_ring_tone_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:dialogTitle="@string/volume_key_cursor_control_title"
         android:entries="@array/volume_key_cursor_control_entries"

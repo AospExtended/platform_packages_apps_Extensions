@@ -26,6 +26,12 @@
              android:summary="@string/aex_logo_summary"
              android:defaultValue="false" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
          <org.aospextended.extensions.preference.SystemSettingSwitchPreference
              android:key="show_fourg_icon"
              android:title="@string/show_fourg_icon_title"

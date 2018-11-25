@@ -496,4 +496,7 @@
     <string name="content_padding">Corner Content Padding</string>
     <string name="qs_styles_dialog_title">Select a QS tile style</string>
 
+    <!-- Volume keys control ringtone stream -->
+    <string name="volume_keys_control_ring_tone_title">Control ring volume</string>
+    <string name="volume_keys_control_ring_tone_summary">Keys control media slider by default. Enable to switch to ring tone slider.</string>
 </resources>

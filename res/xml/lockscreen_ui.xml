@@ -78,17 +78,4 @@
             android:defaultValue="0" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="music_lockscreen_key"
-        android:title="@string/music_category" >
-
-        <Preference
-            android:key="force_ambient_for_media_pref"
-            android:fragment="org.aospextended.extensions.fragments.AmbientTicker"
-            android:title="@string/force_ambient_for_media_pref_title"
-            android:summary="@string/force_ambient_for_media_pref_summary"
-            settings:userRestriction="no_ambient_display" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>

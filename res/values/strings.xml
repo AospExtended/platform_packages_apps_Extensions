@@ -37,6 +37,7 @@
 
     <!-- Extensions categories -->
     <string name="gestures_category">Gestures</string>
+    <string name="icons_category">Icons</string>
     <string name="status_bar_category">Statusbar</string>
     <string name="notifications_panel_category">QS panel</string>
     <string name="system_category">System</string>
@@ -233,5 +234,9 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
+
+    <!-- AEX logo -->
+    <string name="aex_logo_title">AEX logo</string>
+    <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 
 </resources>

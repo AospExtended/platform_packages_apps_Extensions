@@ -299,5 +299,9 @@
     <string name="qs_edit_title">Edit Icon</string>
     <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
 
+	    <!-- AEX logo -->
+    <string name="aex_logo_title">AEX logo</string>
+    <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
+
 </resources>
 

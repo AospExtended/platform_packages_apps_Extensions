@@ -44,6 +44,9 @@
                 <include layout="@layout/qs_styles_roundedsquare" />
                 <include layout="@layout/qs_styles_squircle" />
                 <include layout="@layout/qs_styles_teardrop" />
+                <include layout="@layout/qs_styles_circlegradient" />
+                <include layout="@layout/qs_styles_circleoutline" />
+                <include layout="@layout/qs_styles_justicons" />
 
             </GridLayout>
         </HorizontalScrollView>

@@ -37,4 +37,14 @@
         android:fragment="org.aospextended.extensions.ScreenStateToggles" />
       </PreferenceCategory>
 
+      <PreferenceCategory
+       android:key="gesture"
+       android:tile="@string/gesture_title"
+       <org.aospextended.extensions.preference.SystemSettingsSwitchPreference
+         android:key="three_finger_gesture"
+         android:title="@string/three_finger_gesture"
+         android:summary="@string/three_finger_gesture_summary"
+         android:defaultValue="false" />
+      </PreferenceCategory>
+
 </PreferenceScreen>

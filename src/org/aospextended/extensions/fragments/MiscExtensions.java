@@ -30,6 +30,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.provider.SearchIndexableResource;
 import android.util.Log;
@@ -59,10 +60,13 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
+    private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
 
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
+    private SwitchPreference mShowAexLogo;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,6 +76,11 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mShowAexLogo = (SwitchPreference) findPreference(KEY_STATUS_BAR_LOGO);
+        mShowAexLogo.setChecked((Settings.System.getInt(getContentResolver(),
+             Settings.System.STATUS_BAR_LOGO, 0) == 1));
+        mShowAexLogo.setOnPreferenceChangeListener(this);
 
         Resources res = null;
         Context ctx = getContext();
@@ -139,13 +148,21 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         if (preference == mCornerRadius) {
             Settings.Secure.putInt(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_SIZE,
                     ((int) newValue) * 1);
+            return true;
         } else if (preference == mContentPadding) {
             Settings.Secure.putInt(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_CONTENT_PADDING,
                     ((int) newValue) * 1);
+            return true;
         } else if (preference == mRoundedFwvals) {
             restoreCorners();
+            return true;
+        } else if  (preference == mShowAexLogo) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
+            return true;
         }
-        return true;
+        return false;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

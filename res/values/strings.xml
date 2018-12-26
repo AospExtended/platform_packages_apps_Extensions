@@ -717,4 +717,8 @@
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+
+    <!-- AEX logo -->
+    <string name="aex_logo_title">AEX logo</string>
+    <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 </resources>

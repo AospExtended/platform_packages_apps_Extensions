@@ -479,4 +479,8 @@
     <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
 
+    <!-- AEX logo -->
+    <string name="aex_logo_title">AEX logo</string>
+    <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
+
 </resources>

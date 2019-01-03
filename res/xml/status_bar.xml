@@ -58,4 +58,10 @@
             android:icon="@drawable/ic_sub_misc_extensions"
             android:title="@string/misc_extensions_title" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="cutout_settings"
+            android:fragment="org.aospextended.extensions.fragments.CutoutFragment"
+            android:icon="@drawable/ic_cutout"
+            android:title="@string/cutout_main" />
+
 </PreferenceScreen>

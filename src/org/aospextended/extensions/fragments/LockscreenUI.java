@@ -50,7 +50,7 @@ import org.aospextended.extensions.Utils;
 
 import android.hardware.fingerprint.FingerprintManager;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
-import com.android.internal.util.custom.weather.WeatherClient;
+import com.android.internal.util.aospextended.AEXUtils;
 
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -78,7 +78,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         final PreferenceCategory weatherCategory = (PreferenceCategory) prefSet
                 .findPreference(WEATHER_LS_CAT);
 
-        if (!WeatherClient.isAvailable(getContext())) {
+        if (!AEXUtils.isPackageInstalled(getActivity(), "org.pixelexperience.weather.client")) {
             prefSet.removePreference(weatherCategory);
         }
 

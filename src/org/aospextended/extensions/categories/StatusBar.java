@@ -16,6 +16,7 @@
 
 package org.aospextended.extensions.categories;
 
+import android.content.Context;
 import android.content.ContentResolver;
 import android.os.Bundle;
 import androidx.preference.Preference;
@@ -29,6 +30,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     
     private static final String TAG = "StatusBar";
+    private static final String PREF_KEY_CUTOUT = "cutout_settings";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
         setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
+
+        Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
     }
 
     @Override

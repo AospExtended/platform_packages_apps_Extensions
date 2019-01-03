@@ -53,6 +53,12 @@
             android:title="@string/traffic_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
+            android:key="cutout_settings"
+            android:fragment="org.aospextended.extensions.fragments.CutoutFragment"
+            android:icon="@drawable/ic_sub_cutout"
+            android:title="@string/cutout_main" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="misc_extensions"
             android:fragment="org.aospextended.extensions.fragments.MiscExtensions"
             android:icon="@drawable/ic_sub_misc_extensions"

@@ -38,6 +38,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     
     private static final String TAG = "StatusBar";
+    private static final String PREF_KEY_CUTOUT = "cutout_settings";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,15 @@ public class StatusBar extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.status_bar);
 
         ContentResolver resolver = getActivity().getContentResolver();
+
+        Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
+        if (!hasPhysicalDisplayCutout(getContext()))
+            getPreferenceScreen().removePreference(mCutoutPref);
+    }
+
+        private static boolean hasPhysicalDisplayCutout(Context context) {
+        return context.getResources().getBoolean(
+                com.android.internal.R.bool.config_physicalDisplayCutout);
     }
 
     @Override

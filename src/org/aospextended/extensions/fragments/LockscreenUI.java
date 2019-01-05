@@ -33,6 +33,7 @@ import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
@@ -45,6 +46,11 @@ import android.view.View;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
+import java.util.ArrayList;
+import java.util.List;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import org.aospextended.extensions.Utils;
 
@@ -52,7 +58,7 @@ import android.hardware.fingerprint.FingerprintManager;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 import com.android.internal.util.aospextended.AEXUtils;
 
-public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
 
     private static final String KEY_FACE_AUTO_UNLOCK = "face_auto_unlock";
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
@@ -135,4 +141,22 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         }
         return false;
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                 @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+                     final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.lockscreen_ui;
+                    result.add(sir);
+                    return result;
+                }
+                 @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

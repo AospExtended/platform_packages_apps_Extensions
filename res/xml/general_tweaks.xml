@@ -34,7 +34,7 @@
       <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
-        android:fragment="org.aospextended.extensions.ScreenStateToggles" />
+        android:fragment="org.aospextended.extensions.fragments.ScreenStateToggles" />
       </PreferenceCategory>
 
 </PreferenceScreen>

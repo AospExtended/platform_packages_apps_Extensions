@@ -34,7 +34,7 @@
 
      <Preference
          android:key="battery_charging_light"
-         android:fragment="org.aospextended.extensions.BatteryLightSettings"
+         android:fragment="org.aospextended.extensions.fragments.BatteryLightSettings"
          android:title="@string/battery_light_settings" />
 
     <Preference

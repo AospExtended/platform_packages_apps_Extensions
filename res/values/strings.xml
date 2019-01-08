@@ -31,6 +31,7 @@
     <string name="hardware_category">Hardware</string>
     <string name="icons_category">Icons</string>
     <string name="aosp_recents_category">AOSP recents</string>
+    <string name="oreo_recents_category">Oreo recents</string>
     <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
@@ -580,5 +581,16 @@
     <!-- Lockscreen visualizer -->
     <string name="lockscreen_visualizer_title">Lockscreen visualizer</string>
     <string name="lockscreen_visualizer_summary">Displays a live design on lockscreen while music is playing</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
 </resources>

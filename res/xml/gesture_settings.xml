@@ -14,7 +14,9 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<PreferenceScreen 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:key="gesture_settings"
         android:title="@string/gesture_settings_title" >
 
@@ -23,5 +25,23 @@
             android:title="@string/use_bottom_gesture_title"
             android:summary="@string/use_bottom_gesture_summary"
             android:defaultValue="false" />
+
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="gesture_swipe_length"
+            android:title="@string/gesture_swipe_length_title"
+            android:summary="@string/gesture_swipe_length_summary"
+            android:persistent="false"
+            settings:units="px"
+            android:dependency="use_bottom_gesture_navigation" />
+
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="gesture_swipe_timeout"
+            android:title="@string/gesture_action_timeout_title"
+            android:summary="@string/gesture_action_timeout_summary"
+            android:max="500"
+            settings:min="100"
+            android:persistent="false"
+            settings:units="ms"
+            android:dependency="use_bottom_gesture_navigation" />
 
 </PreferenceScreen>

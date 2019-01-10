@@ -108,7 +108,7 @@
     <string name="buttons_title">Buttons</string>
 
     <!-- App Ops -->
-    <string name="app_ops_category">App Ops</string>
+    <string name="app_ops_category">Privacy Guard</string>
 
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help us help you!</string>

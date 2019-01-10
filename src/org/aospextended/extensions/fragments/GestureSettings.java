@@ -32,6 +32,7 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -43,9 +44,11 @@ import java.util.Arrays;
 public class GestureSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
     private static final String TAG = "GestureSettings";
+    private static final String KEY_GESTURES_TOGGLE = "use_bottom_gesture_navigation";
     private static final String KEY_SWIPE_LENGTH = "gesture_swipe_length";
     private static final String KEY_SWIPE_TIMEOUT = "gesture_swipe_timeout";
 
+    private SystemSettingSwitchPreference mGesturesToggle;
     private CustomSeekBarPreference mSwipeTriggerLength;
     private CustomSeekBarPreference mSwipeTriggerTimeout;
 
@@ -59,6 +62,11 @@ public class GestureSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.gesture_settings);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.gesture_settings_info_new);
+
+        mGesturesToggle = (SystemSettingSwitchPreference) findPreference(KEY_GESTURES_TOGGLE);
+        mGesturesToggle.setChecked(Settings.System.getInt(getContentResolver(),
+            Settings.System.OMNI_USE_BOTTOM_GESTURE_NAVIGATION, 0) == 1);
+        mGesturesToggle.setOnPreferenceChangeListener(this);
 
         mSwipeTriggerLength = (CustomSeekBarPreference) findPreference(KEY_SWIPE_LENGTH);
         int value = Settings.System.getInt(getContentResolver(),
@@ -95,6 +103,12 @@ public class GestureSettings extends SettingsPreferenceFragment implements
             int value = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.OMNI_BOTTOM_GESTURE_TRIGGER_TIMEOUT, value);
+        } else if (preference == mGesturesToggle) {
+            Boolean enabled = ((Boolean)objValue);
+            if (enabled) {
+            // Disable navbar on enabling gestures
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE, 0);
+            }
         } else {
             return false;
         }

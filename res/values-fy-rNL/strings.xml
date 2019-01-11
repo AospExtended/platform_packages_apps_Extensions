@@ -67,7 +67,7 @@
     <!-- QS footer warnings -->
     <!-- Power menu on secure lockscreen -->
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <!-- Status bar clock and date options -->
     <!-- Quick pull down-->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Smart pulldown-->
@@ -78,4 +78,23 @@
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
     <!-- Ambient display music ticker -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

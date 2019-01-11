@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Изскачащите уведомления са разрешени</string>
     <string name="summary_heads_up_disabled">Изскачащите уведомления са забранени</string>
     <string name="add_heads_up_package">Добави приложение</string>
-    <string name="add_heads_up_stoplist_summary">Забраняване на главите уведомления за тези приложения</string>
     <string name="add_heads_up_blacklist_summary">Забраняване на главите уведомления от тези приложения</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Черен списък</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрация при докосване</string>
     <string name="quick_settings_vibrate_summary">Вибрира при докосване на плочка</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Час и Дата</string>
-    <string name="status_bar_clock_summary">Конфигурирайте показването на часовника и датата в лентата на състоянието</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Настройки на часовника</string>
-    <string name="status_bar_clock_show">Показване на часовника и датата</string>
-    <string name="status_bar_clock_style_title">Стил на часовника</string>
-    <string name="status_bar_clock_style_right">Вдясно</string>
-    <string name="status_bar_clock_style_center">В средата</string>
-    <string name="status_bar_clock_style_left">Вляво</string>
-    <string name="status_bar_am_pm_title">AM/PM стил</string>
     <string name="status_bar_am_pm_info">Включен 24-часов формат за време</string>
-    <string name="status_bar_am_pm_normal">Нормален</string>
-    <string name="status_bar_am_pm_small">Малък</string>
-    <string name="status_bar_am_pm_hidden">Скрити (по подразбиране)</string>
-    <string name="clock_seconds_display">Покажи секунди</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Покажи персонализирана дата преди часовника</string>
-    <string name="clock_date_display_none">Не показвай</string>
-    <string name="clock_date_display_small">Малък размер на шрифта</string>
-    <string name="clock_date_display_normal">Нормален размер на шрифта</string>
     <string name="clock_date_style">Стил на датата</string>
-    <string name="clock_date_style_normal">Нормален</string>
-    <string name="clock_date_style_lowercase">Малки букви</string>
-    <string name="clock_date_style_uppercase">Главни букви</string>
-    <string name="clock_date_format_custom">Потребителски формат на java</string>
     <string name="clock_date_format">Формат на датата</string>
     <string name="clock_date_string_edittext_title">Трябва да е във формат за дата например. ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Въведете низ</string>
+    <string name="clock_date_display_none">Не показвай</string>
+    <string name="clock_date_display_small">Малък размер на шрифта</string>
+    <string name="clock_date_display_normal">Нормален размер на шрифта</string>
+    <string name="clock_date_style_normal">Нормален</string>
+    <string name="clock_date_style_lowercase">Малки букви</string>
+    <string name="clock_date_style_uppercase">Главни букви</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Бързи настройки</string>
     <string name="quick_pulldown_summary">Дръпнете %1$s страна на лентата на състоянието за бързи настройки</string>
@@ -326,8 +312,13 @@
     <!-- Weather -->
     <string name="weather_title">Времето</string>
     <string name="weather_unit">Температурни единици</string>
+    <string name="qs_styles_dialog_title">Изберете стил на плочките</string>
     <!-- Volume keys control ringtone stream -->
+    <string name="volume_keys_control_ring_tone_title">Силата на звука при звънене</string>
+    <string name="volume_keys_control_ring_tone_summary">По подразбиране клавишите управлват силата на звука на мултимедийните файлове. Включете, за да контролирате силата на звънене.</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Покажи икона при забранени данни</string>
+    <string name="data_disabled_icon_summary">Показва кръст до иконата за сигнала, когато данните са забранени</string>
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">Бутон \"Начало\"</string>
     <string name="hardware_keys_menu_key_title">Бутон за меню</string>
@@ -340,6 +331,8 @@
     <string name="hardware_keys_single_tap_title">Действие при еднократно натискане</string>
     <string name="hardware_keys_long_press_title">Действие при задържане</string>
     <string name="hardware_keys_double_tap_title">Действие при двукратно натискане</string>
+    <string name="hardware_keys_category">Бутони за навигация</string>
+    <string name="hardware_keys_disable_title">Деактивирайте навигационните бутони</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Опции за подсветка</string>
     <string name="button_backlight_enable_title">Включване на подсветката на бутоните</string>
@@ -350,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Подсветка на бутоните при докосване</string>
     <string name="button_backlight_on_touch_only_summary">Подсветката ще се включи само когато бутоните се натискат, а не през цялото време. Времето за изчакване оказва влияние върху тази функция.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Функция «В момента се изпълнява»</string>
+    <string name="force_ambient_for_media_pref_summary">Информация за текущата песен в режим «Ambient Display»</string>
+    <string name="force_ambient_for_media_title">Включен</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Cửa sổ bật lên thông báo được bật</string>
     <string name="summary_heads_up_disabled">Cửa sổ bật lên thông báo bị tắt</string>
     <string name="add_heads_up_package">Thêm ứng dụng</string>
-    <string name="add_heads_up_stoplist_summary">Vô hiệu hóa các thông báo nổi trên các ứng dụng này</string>
     <string name="add_heads_up_blacklist_summary">Vô hiệu hóa thông báo nổi từ ứng dụng này</string>
     <string name="heads_up_stoplist_title">Danh sách dừng</string>
     <string name="heads_up_blacklist_title">Danh sách đen</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Rung khi chạm</string>
     <string name="quick_settings_vibrate_summary">Rung khi chạm các ô cài đặt nhanh</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Đồng hồ và ngày tháng</string>
-    <string name="status_bar_clock_summary">Cài đặt đồng hồ và ngày trên thanh trạng thái</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Cài đặt đồng hồ</string>
-    <string name="status_bar_clock_show">Hiển thị đồng hồ và ngày</string>
-    <string name="status_bar_clock_style_title">Kiểu đồng hồ</string>
-    <string name="status_bar_clock_style_right">Phải</string>
-    <string name="status_bar_clock_style_center">Giữa</string>
-    <string name="status_bar_clock_style_left">Trái</string>
-    <string name="status_bar_am_pm_title">Kiểu Sáng/Chiều</string>
     <string name="status_bar_am_pm_info">Đồng hồ dạng 24-giờ được bật</string>
-    <string name="status_bar_am_pm_normal">Bình Thường</string>
-    <string name="status_bar_am_pm_small">Nhỏ</string>
-    <string name="status_bar_am_pm_hidden">Không hiện (mặc định)</string>
-    <string name="clock_seconds_display">Hiển thị giây</string>
     <string name="clock_date_display">Ngày</string>
     <string name="clock_date_display_summary">Hiển thị ngày tùy chỉnh trước đồng hồ</string>
-    <string name="clock_date_display_none">Không hiển thị</string>
-    <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
-    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
     <string name="clock_date_style">Kiểu ngày</string>
-    <string name="clock_date_style_normal">Bình Thường</string>
-    <string name="clock_date_style_lowercase">Chữ thường</string>
-    <string name="clock_date_style_uppercase">Chữ in hoa</string>
-    <string name="clock_date_format_custom">Định dạng java tùy chỉnh</string>
     <string name="clock_date_format">Định dạng ngày tháng</string>
     <string name="clock_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Nhập Chuỗi</string>
+    <string name="clock_date_display_none">Không hiển thị</string>
+    <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
+    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
+    <string name="clock_date_style_normal">Bình Thường</string>
+    <string name="clock_date_style_lowercase">Chữ thường</string>
+    <string name="clock_date_style_uppercase">Chữ in hoa</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Kéo xuống nhanh</string>
     <string name="quick_pulldown_summary">Kéo từ cạnh %1$s thanh trạng thái xuống để truy cập Cài đặt nhanh</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Đèn nền phím chiếu sáng</string>
     <string name="button_backlight_on_touch_only_summary">Đèn nền phím sẽ chỉ bật khi các phím được nhấn chứ không phải bật mọi lúc. Thời gian chờ vẫn ảnh hưởng đến tính năng này.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Thẻ âm nhạc ẩn hiện</string>
+    <string name="force_ambient_for_media_pref_summary">Cấu hình thẻ âm nhạc</string>
+    <string name="force_ambient_for_media_title">Bật</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

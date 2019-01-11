@@ -123,10 +123,10 @@
     <string name="powermenu_logout">Выход</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Ползунок регулировки яркости</string>
-    <string name="qs_brightness_slider_summary">Показать ползунок регулировки яркости в панели Быстрый настроек</string>
+    <string name="qs_brightness_slider_summary">Показывать слайдер регулировки яркости в панели быстрых настроек</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Двойное нажатие для выключения экрана</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь верхней части или в области ярлыков экрана блокировки, чтобы отправить устройство в режим сна</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь верхней части или области ярлыков экрана блокировки, чтобы отправить устройство в спящий режим</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Строка состояния</string>
     <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
     <string name="summary_heads_up_disabled">Всплывающие уведомления выключены</string>
     <string name="add_heads_up_package">Добавить приложение</string>
-    <string name="add_heads_up_stoplist_summary">Отключить всплывающие уведомления в этих приложениях</string>
     <string name="add_heads_up_blacklist_summary">Не показывать всплывающие уведомления от этих приложений</string>
     <string name="heads_up_stoplist_title">Белый список</string>
     <string name="heads_up_blacklist_title">Чёрный список</string>
@@ -239,7 +238,7 @@
     <string name="status_bar_battery_style_hidden">Скрыт</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Стиль недавних приложений</string>
-    <string name="recents_pie">Пирог</string>
+    <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Прозрачность</string>
@@ -254,39 +253,26 @@
     <string name="qs_footer_warnings_title">Предупреждения в нижней части</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждения в нижней части панели быстрых настроек, когда сеть контролируется сторонними приложениями или VPN</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="powermenu_lockscreen_title">Отображение на экране блокировки</string>
-    <string name="powermenu_lockscreen_summary">Включите, чтобы показать меню питания на экране блокировки</string>
+    <string name="powermenu_lockscreen_title">Разрешить на экране блокировки</string>
+    <string name="powermenu_lockscreen_summary">Включите, чтобы была возможность показывать меню питания на экране блокировки</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрировать при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при касании плитки быстрых настроек</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Время и дата</string>
-    <string name="status_bar_clock_summary">Настройка отображения даты и времени</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Настройки часов</string>
-    <string name="status_bar_clock_show">Показывать дату и время</string>
-    <string name="status_bar_clock_style_title">Стиль часов</string>
-    <string name="status_bar_clock_style_right">Справа</string>
-    <string name="status_bar_clock_style_center">По центру</string>
-    <string name="status_bar_clock_style_left">Слева</string>
-    <string name="status_bar_am_pm_title">Стиль AM/PM</string>
     <string name="status_bar_am_pm_info">Включен 24-часовой формат времени</string>
-    <string name="status_bar_am_pm_normal">Обычный</string>
-    <string name="status_bar_am_pm_small">Маленький</string>
-    <string name="status_bar_am_pm_hidden">Скрыт (по умолчанию)</string>
-    <string name="clock_seconds_display">Показывать секунды</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Показывать дату перед часами</string>
-    <string name="clock_date_display_none">Не показывать</string>
-    <string name="clock_date_display_small">Маленький шрифт</string>
-    <string name="clock_date_display_normal">Обычный шрифт</string>
     <string name="clock_date_style">Стиль даты</string>
-    <string name="clock_date_style_normal">Нормальный</string>
-    <string name="clock_date_style_lowercase">Строчные</string>
-    <string name="clock_date_style_uppercase">Прописные</string>
-    <string name="clock_date_format_custom">Пользовательский (java-формат)</string>
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должен быть в формате даты. Например: ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Введите значение</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький шрифт</string>
+    <string name="clock_date_display_normal">Обычный шрифт</string>
+    <string name="clock_date_style_normal">Нормальный</string>
+    <string name="clock_date_style_lowercase">Строчные</string>
+    <string name="clock_date_style_uppercase">Прописные</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Быстрый доступ</string>
     <string name="quick_pulldown_summary">%1$s строки состояния вытягивает быстрые настройки</string>
@@ -328,7 +314,7 @@
     <string name="weather_unit">Единицы измерения</string>
     <string name="qs_styles_dialog_title">Выбор стиля плиток быстрых настроек</string>
     <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Контроль громкости</string>
+    <string name="volume_keys_control_ring_tone_title">Контроль громкости звонка</string>
     <string name="volume_keys_control_ring_tone_summary">По умолчанию клавиши управляют громкостью мультимедиа. Включите, чтобы управлять громкостью мелодии звонка.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Значок выключенной передачи данных</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
     <string name="button_backlight_on_touch_only_summary">Подсветка кнопок будет работать только при их нажатии. Длительность по-прежнему влияет на эту функцию.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Сейчас играет</string>
+    <string name="force_ambient_for_media_pref_summary">Отображение информации о текущей музыкальной дорожке</string>
+    <string name="force_ambient_for_media_title">Включить</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

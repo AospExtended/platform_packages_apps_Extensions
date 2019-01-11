@@ -18,7 +18,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
-    <string name="extensions_title">附加元件</string>
+    <string name="extensions_title">擴充</string>
     <string name="add">新增</string>
     <string name="advanced">進階</string>
     <string name="cancel">取消</string>
@@ -91,7 +91,7 @@
     <string name="app_ops_category">權限管理</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">幫助我們也幫助您！</string>
-    <string name="extensions_dialog_message">發現這些錯誤有任何 BUG 時，請到我們的 Google+ 頁面的 BUG 報告文章並 PO 文說明。 BUG 報告必須包含下列內容：\n\n1. logcat 或是 last_kmsg\n2. 所用的内核及mod 版本\n3. 有用的資訊\n\n若不能適當回報 BUG，請不要期望問題會得到修復。</string>
+    <string name="extensions_dialog_message">發現這些錯誤有任何 BUG 時，請到我們的 Google+ 頁面的 BUG 報告文章並貼文說明。 BUG 報告必須包含下列內容：\n\n1. logcat 或是 last_kmsg\n2. 所用的内核及mod 版本\n3. 有用的資訊\n\n若不能適當回報 BUG，請不要期望問題會得到修復。</string>
     <string name="extensions_dialog_toast">請閱讀全部的內容！</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">選取一個強調色</string>
@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">浮動通知已啟用</string>
     <string name="summary_heads_up_disabled">浮動通知已停用</string>
     <string name="add_heads_up_package">增加應用程式</string>
-    <string name="add_heads_up_stoplist_summary">針對這些應用關閉浮動通知</string>
     <string name="add_heads_up_blacklist_summary">禁用來自這些應用程式的浮動通知</string>
     <string name="heads_up_stoplist_title">阻止名單</string>
     <string name="heads_up_blacklist_title">黑名單</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">觸控時震動</string>
     <string name="quick_settings_vibrate_summary">輕觸圖塊時震動</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">時鐘與日期</string>
-    <string name="status_bar_clock_summary">配置狀態列時鐘和日期外觀</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">時鐘設定</string>
-    <string name="status_bar_clock_show">顯示時鐘和日期</string>
-    <string name="status_bar_clock_style_title">時鐘樣式</string>
-    <string name="status_bar_clock_style_right">靠右對齊</string>
-    <string name="status_bar_clock_style_center">置中</string>
-    <string name="status_bar_clock_style_left">靠左對齊</string>
-    <string name="status_bar_am_pm_title">上午/下午樣式</string>
     <string name="status_bar_am_pm_info">24 小時時鐘已啟用</string>
-    <string name="status_bar_am_pm_normal">正常</string>
-    <string name="status_bar_am_pm_small">較小</string>
-    <string name="status_bar_am_pm_hidden">隱藏 (預設)</string>
-    <string name="clock_seconds_display">顯示秒數</string>
     <string name="clock_date_display">日期</string>
     <string name="clock_date_display_summary">在時鐘前顯示自訂日期</string>
-    <string name="clock_date_display_none">不顯示</string>
-    <string name="clock_date_display_small">小字體大小</string>
-    <string name="clock_date_display_normal">正常字體大小</string>
     <string name="clock_date_style">日期樣式</string>
-    <string name="clock_date_style_normal">正常</string>
-    <string name="clock_date_style_lowercase">小寫</string>
-    <string name="clock_date_style_uppercase">大寫</string>
-    <string name="clock_date_format_custom">自訂 java 格式</string>
     <string name="clock_date_format">日期格式</string>
     <string name="clock_date_string_edittext_title">必須符合 DateFormat 格式 例如：MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">輸入字串</string>
+    <string name="clock_date_display_none">不顯示</string>
+    <string name="clock_date_display_small">小字體大小</string>
+    <string name="clock_date_display_normal">正常字體大小</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="clock_date_style_lowercase">小寫</string>
+    <string name="clock_date_style_uppercase">大寫</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">快速下拉</string>
     <string name="quick_pulldown_summary">從狀態列的%1$s邊拉下近入快速設定</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">按鍵背光觸控</string>
     <string name="button_backlight_on_touch_only_summary">按鍵背光只會在按下按鍵時出現，而不是一直按下。逾時仍會影響此功能。</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">環境音樂通知</string>
+    <string name="force_ambient_for_media_pref_summary">設定環境音樂通知</string>
+    <string name="force_ambient_for_media_title">啟用</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

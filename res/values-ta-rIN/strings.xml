@@ -388,10 +388,6 @@ summary_heads_up_disabled
 
 add_heads_up_package
 கோப்பு: strings. xml</string>
-    <string name="add_heads_up_stoplist_summary">இந்த பயன்பாடுகளில் தலைப்புகள் அறிவிப்புகளை முடக்கு
-
-add_heads_up_stoplist_summary
-கோப்பு: strings. xml</string>
     <string name="add_heads_up_blacklist_summary">இந்த பயன்பாடுகளிலிருந்து தலைமைகளை முடக்கவும்
 
 add_heads_up_blacklist_summary
@@ -680,40 +676,21 @@ text_title
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">தொடும் போது அதிர்வுரு</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Clock and Date</string>
-    <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">வலது
-
-quick_pulldown_right
-கோப்பு: strings. xml</string>
-    <string name="status_bar_clock_style_center">மையம்</string>
-    <string name="status_bar_clock_style_left">இடது
-
-smartbar_left
-கோப்பு: strings. xml</string>
-    <string name="status_bar_am_pm_title">AM/PM ஸ்டைல்</string>
     <string name="status_bar_am_pm_info">24-மணிநேர கடிகாரம் செயல்படுத்தப்பட்டுள்ளது</string>
-    <string name="status_bar_am_pm_normal">இயல்பு</string>
-    <string name="status_bar_am_pm_small">சிறியது</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
     <string name="clock_date_display">தேதி</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">காண்பிக்காதே</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
     <string name="clock_date_style">Date style</string>
-    <string name="clock_date_style_normal">இயல்பு</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_display_none">காண்பிக்காதே</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style_normal">இயல்பு</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">விரைவு பில்டவுன்
 
@@ -850,4 +827,23 @@ hardware_keys_double_tap_title
     <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
     <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
     <!-- Ambient display music ticker -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

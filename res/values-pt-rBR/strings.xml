@@ -29,7 +29,7 @@
     <string name="security_category">Segurança</string>
     <string name="hardware_category">Hardware</string>
     <string name="icons_category">Ícones</string>
-    <string name="aosp_recents_category">AOPS Recentes</string>
+    <string name="aosp_recents_category">AOSP Recentes</string>
     <string name="light_category">Luzes</string>
     <string name="dlg_ok">Ok</string>
     <string name="attention">Atenção</string>
@@ -47,7 +47,7 @@
     <string name="status_bar_category">Barra de status</string>
     <string name="status_bar_category_summary">Personalize sua barra de status</string>
     <string name="notifications_panel_category">Painel de notificações</string>
-    <string name="notifications_panel_category_summary">Personalizar o painel de QS e notificações</string>
+    <string name="notifications_panel_category_summary">Personalizar o painel de configurações rápidas e notificações</string>
     <string name="system_category">Sistema</string>
     <string name="system_category_summary">Várias extensões do sistema</string>
     <string name="lockscreen_category">Tela de bloqueio</string>
@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">As notificações pop-up estão ativadas</string>
     <string name="summary_heads_up_disabled">As notificações pop-up estão desativadas</string>
     <string name="add_heads_up_package">Adicionar aplicativo</string>
-    <string name="add_heads_up_stoplist_summary">Desativar notificações pop-up nestes aplicativos</string>
     <string name="add_heads_up_blacklist_summary">Bloquear as notificações desde aplicativos</string>
     <string name="heads_up_stoplist_title">Bloquear pertubações visuais</string>
     <string name="heads_up_blacklist_title">Lista negra</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Relógio e data</string>
-    <string name="status_bar_clock_summary">Configure a aparência do relógio e da data na barra de status</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Configurações do Relógio</string>
-    <string name="status_bar_clock_show">Mostrar o relógio e data</string>
-    <string name="status_bar_clock_style_title">Estilo do relógio</string>
-    <string name="status_bar_clock_style_right">Direita</string>
-    <string name="status_bar_clock_style_center">Centralizado</string>
-    <string name="status_bar_clock_style_left">Esquerda</string>
-    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Pequeno</string>
-    <string name="status_bar_am_pm_hidden">Oculto (padrão)</string>
-    <string name="clock_seconds_display">Mostrar segundos</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
-    <string name="clock_date_display_none">Nâo mostrar</string>
-    <string name="clock_date_display_small">Tamanho da letra pequena</string>
-    <string name="clock_date_display_normal">Tamanho da letra normal</string>
     <string name="clock_date_style">Estilo de data</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Minúscula</string>
-    <string name="clock_date_style_uppercase">Maiúscula</string>
-    <string name="clock_date_format_custom">Formato personalizado de java</string>
     <string name="clock_date_format">Formato da data</string>
     <string name="clock_date_string_edittext_title">Deve estar no formato de data, por exemplo: MM/DD/AA</string>
     <string name="clock_date_string_edittext_summary">Insira os caracteres</string>
+    <string name="clock_date_display_none">Nâo mostrar</string>
+    <string name="clock_date_display_small">Tamanho da letra pequena</string>
+    <string name="clock_date_display_normal">Tamanho da letra normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúscula</string>
+    <string name="clock_date_style_uppercase">Maiúscula</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Deslizar rápido para baixo</string>
     <string name="quick_pulldown_summary">%1$s Borda da barra de status desliza para baixo as Configurações Rápidas</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Tempo de iluminação dos botões</string>
     <string name="button_backlight_on_touch_only_summary">A iluminação do botão só aparece quando os botões são pressionados, em vez do tempo todo. O tempo limite ainda afeta esse recurso.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ticker de Música em Ambiente</string>
+    <string name="force_ambient_for_media_pref_summary">Configurar o Ticker de Música em Ambiente</string>
+    <string name="force_ambient_for_media_title">Ativar</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

@@ -122,16 +122,65 @@
     <string name="powermenu_users">Gebruikers</string>
     <string name="powermenu_logout">Uitloggen</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Helderheidsniveau</string>
+    <string name="qs_brightness_slider_summary">Toon helderheidsregelaar in Snelle instellingen</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Dubbeltik op het vergrendelscherm om te scherm uit te schakelen</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Dubbeltik op het bovenste of onderste snelkoppelings gedeelte om scherm uit te schakelen</string>
     <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Statusbalk</string>
+    <string name="double_tap_to_sleep_summary">Dubbeltik op de statusbalk om scherm uit te schakelen</string>
     <!-- Network traffic -->
+    <string name="network_traffic_title">Netwerkactiviteit</string>
+    <string name="network_traffic_type">Selecteer net activiteitstype</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink en Downlink</string>
+    <string name="network_traffic_state_title">Netwerkactiviteit weergeven in statusbalk</string>
+    <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
     <!-- Heads up -->
+    <string name="headsup_category">HeadsUp Instellingen</string>
+    <string name="heads_up_notifications">Heads-up</string>
+    <string name="summary_heads_up_enabled">Pop-up meldingen ingeschakeld</string>
+    <string name="summary_heads_up_disabled">Pop-up meldingen uitgeschakeld</string>
+    <string name="add_heads_up_package">App toevoegen</string>
+    <string name="add_heads_up_blacklist_summary">Heads-up van deze applicaties uitschakelen</string>
+    <string name="heads_up_stoplist_title">Stoplijst</string>
+    <string name="heads_up_blacklist_title">Zwarte lijst</string>
+    <string name="profile_choose_app">App selecteren</string>
+    <string name="dialog_delete_title">Verwijderen</string>
+    <string name="dialog_delete_message">Geselecteerd item verwijderen?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time-out</string>
+    <string name="heads_up_time_out_summary">Heads-up meldingen worden weergegeven gedurende <xliff:g id="number">%d</xliff:g> seconden</string>
+    <string name="heads_up_time_out_2sec">2 seconden</string>
+    <string name="heads_up_time_out_4sec">4 seconden</string>
+    <string name="heads_up_time_out_5sec">5 seconden</string>
+    <string name="heads_up_time_out_6sec">6 seconden</string>
+    <string name="heads_up_time_out_8sec">8 seconden</string>
+    <string name="heads_up_time_out_10sec">10 seconden</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Sluimer timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Omhoog vegen op een heads-up melding zal die app sluimeren voor 1 minuut</string>
+    <string name="heads_up_snooze_summary">Omhoog vegen van notificatiebalk zal voor die applicatie voor <xliff:g id="number">%d</xliff:g> minuten notificaties onderdrukken</string>
+    <string name="heads_up_snooze_disabled_summary">Sluimer timer is uitgeschakeld</string>
+    <string name="heads_up_snooze_1min">1 minuut</string>
+    <string name="heads_up_snooze_5min">5 minuten</string>
+    <string name="heads_up_snooze_10min">10 minuten</string>
+    <string name="heads_up_snooze_15min">15 minuten</string>
+    <string name="heads_up_snooze_20min">20 minuten</string>
+    <string name="face_auto_unlock_title">Automatisch ontgrendelen met gezichtsherkenning</string>
+    <string name="face_auto_unlock_summary">Vergrendelscherm afwijzen na gezichtsontgrendeling</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Toon roaming indicator in het signaal pictogram wanneer het toestel aan het roamen is</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icoon</string>
+    <string name="show_fourg_icon_summary">4G icoon weergeven in plaats van LTE</string>
     <!-- Buttons title -->
+    <string name="volume_category">Volumeknoppen</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Muziek bediening</string>
     <!-- Fingerprint authentication vibration -->
     <!-- Fingerprint unlock keystore -->
     <!-- Language options - Volume rocker cursor control -->
@@ -145,11 +194,12 @@
     <!-- AOSP Recents component Style -->
     <!-- QuickSettings Panel Transparency -->
     <!-- Toast app icon -->
+    <string name="toast_icon_title">Toast app icoon</string>
     <!-- Quick Settings brightness slider -->
     <!-- QS footer warnings -->
     <!-- Power menu on secure lockscreen -->
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <!-- Status bar clock and date options -->
     <!-- Quick pull down-->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Smart pulldown-->
@@ -160,4 +210,25 @@
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ambiente muziekticker</string>
+    <string name="force_ambient_for_media_pref_summary">Ambiente muziekticker instellen</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

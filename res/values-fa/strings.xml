@@ -150,7 +150,6 @@
     <string name="summary_heads_up_enabled">اطلاعیه های پاپ آپ فعال می شوند</string>
     <string name="summary_heads_up_disabled">اطلاعیه های پاپ آپ غیر فعال شده اند</string>
     <string name="add_heads_up_package">اضافه کردن نرم افزار</string>
-    <string name="add_heads_up_stoplist_summary">غیر فعال کردن اعلان فوری در این برنامه ها</string>
     <string name="add_heads_up_blacklist_summary">غیر فعال کردن اعلان فوری از برنامه ها</string>
     <string name="heads_up_stoplist_title">لیست متوقف شده</string>
     <string name="heads_up_blacklist_title">لیست سیاه</string>
@@ -266,34 +265,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">لرزش هنگام لمس صفحه</string>
     <string name="quick_settings_vibrate_summary">لرزش در هنگام لمس کردن آیکون های تنطیمات سریع</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">ساعت و تاریخ</string>
-    <string name="status_bar_clock_summary">تنظیم ظاهر ساعت و تاریخ در نوار اعلان وضعیت</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">تنظیمات ساعت</string>
-    <string name="status_bar_clock_show">نمایش ساعت و تاریخ</string>
-    <string name="status_bar_clock_style_title">سبک ساعت</string>
-    <string name="status_bar_clock_style_right">راست</string>
-    <string name="status_bar_clock_style_center">مرکز</string>
-    <string name="status_bar_clock_style_left">چپ</string>
-    <string name="status_bar_am_pm_title">سبک ق‌ظ/ب‌ظ</string>
     <string name="status_bar_am_pm_info">ساعت ۲۴ ساعته فعال است</string>
-    <string name="status_bar_am_pm_normal">معمولی</string>
-    <string name="status_bar_am_pm_small">کوچک</string>
-    <string name="status_bar_am_pm_hidden">پنهان (پیش فرض)</string>
-    <string name="clock_seconds_display">نمایش ثانیه ها</string>
     <string name="clock_date_display">تاریخ</string>
     <string name="clock_date_display_summary">تاریخ سفارشی را قبل از ساعت نمایش بده</string>
-    <string name="clock_date_display_none">عدم نمایش</string>
-    <string name="clock_date_display_small">اندازه فونت کوچک</string>
-    <string name="clock_date_display_normal">اندازه فونت عادی</string>
     <string name="clock_date_style">سبک تاریخ</string>
-    <string name="clock_date_style_normal">معمولی</string>
-    <string name="clock_date_style_lowercase">حروف کوچک</string>
-    <string name="clock_date_style_uppercase">حروف بزرگ</string>
-    <string name="clock_date_format_custom">فرمت سفارشی جاوا</string>
     <string name="clock_date_format">قالب تاریخ</string>
     <string name="clock_date_string_edittext_title">باید به عنوان مثال فرمت تاریخ ماه/روز/سال باشد</string>
     <string name="clock_date_string_edittext_summary">متن را وارد کنید</string>
+    <string name="clock_date_display_none">عدم نمایش</string>
+    <string name="clock_date_display_small">اندازه فونت کوچک</string>
+    <string name="clock_date_display_normal">اندازه فونت عادی</string>
+    <string name="clock_date_style_normal">معمولی</string>
+    <string name="clock_date_style_lowercase">حروف کوچک</string>
+    <string name="clock_date_style_uppercase">حروف بزرگ</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">پایین کشیدن سریع</string>
     <string name="quick_pulldown_summary">%1$s لبه نوار وضعیت تنظیمات سریع را پایین می آورد</string>
@@ -364,4 +350,24 @@
     <string name="button_backlight_on_touch_only_title">نور پس زمینه دکمه در زمان لمس</string>
     <string name="button_backlight_on_touch_only_summary">نور پس زمینه دکمه‌ها به جای اینکه دائما روشن باشد تنها در زمان فشردن آنها روشن خواهد شد. زمان خاموش شدن نور پس زمینه بر روی این قابلیت نیز عمل می‌کند.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_title">فعال‌سازی</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

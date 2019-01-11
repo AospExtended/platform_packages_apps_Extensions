@@ -18,11 +18,52 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="extensions_title">Extensii</string>
+    <string name="add">Adaugă</string>
+    <string name="advanced">Avansate</string>
+    <string name="cancel">Anulați</string>
+    <string name="choose_app">Alege aplicația</string>
+    <string name="general_category">Comune</string>
+    <string name="gestures_category">Gesturi</string>
+    <string name="music_category">Muzică</string>
+    <string name="security_category">Securitate</string>
+    <string name="hardware_category">Hardware</string>
+    <string name="icons_category">Iconițe</string>
+    <string name="aosp_recents_category">Recente AOSP</string>
+    <string name="light_category">Lumini</string>
+    <string name="dlg_ok">OK</string>
+    <string name="attention">Atenție</string>
+    <string name="loading">Se încarcă\u2026</string>
+    <string name="reset">Resetare</string>
+    <string name="reset_colors">Resetare culori</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Iconiță</string>
+    <string name="color_title">Culoare</string>
+    <string name="colors_title">Culori</string>
     <!-- Extensions categories -->
+    <string name="recents_category">Recente</string>
+    <string name="recents_category_summary">Configurează modul de afișare recente</string>
+    <string name="status_bar_category">Bara de stare</string>
+    <string name="status_bar_category_summary">Configurează bara de stare</string>
+    <string name="notifications_panel_category">Panoul de notificări</string>
+    <string name="notifications_panel_category_summary">Configurează panoul SR și notificări</string>
+    <string name="system_category">Sistem</string>
+    <string name="system_category_summary">Extensii de sistem variate</string>
+    <string name="lockscreen_category">Ecran de blocare</string>
+    <string name="lockscreen_category_summary">Configurează ecranul de blocare</string>
+    <string name="navigation_category">Navigare</string>
+    <string name="navigation_category_summary">Configurează bara de navigare</string>
+    <string name="build_tweaks_summary_title">Extindeți dispozitivul!</string>
+    <string name="system_animations">Animațiile sistemului</string>
+    <string name="listview">Vizualizare sub formă de listă</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">Ajustări generale</string>
     <!-- Network traffic -->
+    <string name="traffic_title">Indicatorii de trafic</string>
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">Etichetă operator</string>
     <!-- Misc Extensions -->
     <!-- Recents UI -->
     <!-- Lockscreen UI -->
@@ -43,16 +84,65 @@
     <!-- Double Tap Lockscreen to Sleep -->
     <!-- Double tap-to-sleep -->
     <!-- Network traffic -->
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink și Downlink</string>
+    <string name="network_traffic_state_title">Afișează activitatea rețelei în bara de stare</string>
+    <string name="network_traffic_autohide_threshold_title">Pragul de ascundere automată a activității de rețea (KB/s)</string>
     <!-- Heads up -->
+    <string name="headsup_category">Setări HeadsUp</string>
+    <string name="heads_up_notifications">Head Up</string>
+    <string name="summary_heads_up_enabled">Notificările pop-up sunt activate</string>
+    <string name="summary_heads_up_disabled">Notificările pop-up sunt dezactivate</string>
+    <string name="add_heads_up_package">Adaugă aplicație</string>
+    <string name="add_heads_up_blacklist_summary">Dezactivează heads up de la aceste aplicații</string>
+    <string name="heads_up_stoplist_title">Listă aplicații oprite</string>
+    <string name="heads_up_blacklist_title">Listă neagră</string>
+    <string name="profile_choose_app">Alegeți aplicația</string>
+    <string name="dialog_delete_title">Șterge</string>
+    <string name="dialog_delete_message">Ștergeți elementul selectat?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Timp expirat</string>
+    <string name="heads_up_time_out_summary">Notificările vor fi afișate pentru <xliff:g id="number">%d</xliff:g> secunde</string>
+    <string name="heads_up_time_out_2sec">2 secunde</string>
+    <string name="heads_up_time_out_4sec">4 secunde</string>
+    <string name="heads_up_time_out_5sec">5 secunde</string>
+    <string name="heads_up_time_out_6sec">6 secunde</string>
+    <string name="heads_up_time_out_8sec">8 secunde</string>
+    <string name="heads_up_time_out_10sec">10 secunde</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Temporarizator amânare</string>
+    <string name="heads_up_snooze_summary_one_minute">Glisând în sus pe notificările în curs de afișare vor amână notificările heads up ale aplicației pentru 1 minut</string>
+    <string name="heads_up_snooze_summary">Glisând în sus pe notificările în curs de afișare vor amână notificările heads up ale aplicației pentru <xliff:g id="number">%d</xliff:g> minute</string>
+    <string name="heads_up_snooze_disabled_summary">Temporarizator amânare dezactivat</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minute</string>
+    <string name="heads_up_snooze_10min">10 minute</string>
+    <string name="heads_up_snooze_15min">15 minute</string>
+    <string name="heads_up_snooze_20min">20 minute</string>
+    <string name="face_auto_unlock_title">Deblocare facială automată</string>
+    <string name="face_auto_unlock_summary">După deblocarea facială ecranul se va debloca</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicator roaming</string>
+    <string name="roaming_indicator_icon_summary">Afișează indicatorul roaming în cadrul iconiței de semnal în timpul modului roaming</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Iconiță 4G</string>
+    <string name="show_fourg_icon_summary">Afișează iconița 4G în cadrul iconiței semnal în locul LTE</string>
     <!-- Buttons title -->
+    <string name="volume_category">Butoane de volum</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Control redare</string>
+    <string name="volume_rocker_music_controls_summary">Când ecranul este oprit, apăsarea îndelungată a butoanelor de volum va derula muzica</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibrație la autentificarea cu amprentă</string>
+    <string name="fprint_sucess_vib_summary">Vibrare la autentificarea reușită cu amprentă</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Deblocare cu amprentă</string>
+    <string name="fp_unlock_keystore_summary">Deblochează acest dispozitiv după restart fără PIN/Parolă/Model\nNotă: pe riscul tău!</string>
     <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Cursor</string>
+    <string name="volume_key_cursor_control_title">Control cursor prin taste de volum</string>
+    <string name="volume_key_cursor_control_off">Dezactivată</string>
+    <string name="volume_key_cursor_control_on">Tasta de volum sus/jos mută cursorul stânga/dreapta</string>
     <!-- Volume rocker wake -->
     <!-- The volume key answer -->
     <!-- Battery light -->
@@ -67,7 +157,8 @@
     <!-- QS footer warnings -->
     <!-- Power menu on secure lockscreen -->
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <string name="quick_settings_vibrate_summary">Vibrare la atingerea unei dale SR</string>
+    <!-- Status bar clock and date options -->
     <!-- Quick pull down-->
     <!-- Show VoLTE icon on statusbar -->
     <!-- Smart pulldown-->
@@ -78,4 +169,23 @@
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
     <!-- Ambient display music ticker -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

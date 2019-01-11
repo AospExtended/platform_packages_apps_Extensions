@@ -18,64 +18,351 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="extensions_title">Razširitve</string>
+    <string name="add">Dodaj</string>
+    <string name="advanced">Napredno</string>
+    <string name="cancel">Prekliči</string>
+    <string name="choose_app">Izberite aplikacijo</string>
+    <string name="general_category">Splošno</string>
+    <string name="gestures_category">Poteze</string>
+    <string name="music_category">Glasba</string>
+    <string name="security_category">Varnost</string>
+    <string name="hardware_category">Strojna oprema</string>
+    <string name="icons_category">Ikone</string>
+    <string name="aosp_recents_category">AOSP nedavne</string>
+    <string name="light_category">Lučke</string>
+    <string name="dlg_ok">V REDU</string>
+    <string name="attention">Pozor</string>
+    <string name="loading">Nalaganje \u2026</string>
+    <string name="reset">Ponastavi</string>
+    <string name="reset_colors">Ponastavi barve</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Besedilo</string>
+    <string name="icon_title">Ikona</string>
+    <string name="color_title">Barva</string>
+    <string name="colors_title">Barve</string>
     <!-- Extensions categories -->
+    <string name="recents_category">Nedavne</string>
+    <string name="recents_category_summary">Prilagodite vaš pregled nedavnih</string>
+    <string name="status_bar_category">Vrstica stanja</string>
+    <string name="status_bar_category_summary">Prilagodite vašo vrstico stanja</string>
+    <string name="notifications_panel_category">Plošča za obvestila</string>
+    <string name="notifications_panel_category_summary">Prilagodite vašo ploščo hitrih nastavitev in obvestil</string>
+    <string name="system_category">Sistem</string>
+    <string name="system_category_summary">Različne sistemske razširitve</string>
+    <string name="lockscreen_category">Zaklenjen zaslon</string>
+    <string name="lockscreen_category_summary">Prilagodite vaš zaklenjen zaslon</string>
+    <string name="navigation_category">Krmarjenje</string>
+    <string name="navigation_category_summary">Prilagodite vašo vrstico za krmarjenje</string>
+    <string name="build_tweaks_summary_title">Razširite vašo napravo!</string>
+    <string name="system_animations">Sistemske animacije</string>
+    <string name="listview">Seznamski pogled</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">Splošne prilagoditve</string>
     <!-- Network traffic -->
+    <string name="traffic_title">Kazalniki omrežnega prometa</string>
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">Oznaka ponudnika</string>
     <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Razne razširitve</string>
     <!-- Recents UI -->
+    <string name="recents_ui_title">Uporabniški vmesnik nedavnih</string>
     <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Uporabniški vmesnik zaklenjenega zaslona</string>
     <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts">Bližnjice na zaklenjenem zaslonu</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Urejevalnik zaklenjenega zaslona</string>
+    <string name="hide_lockscreen_items_title">Predmeti zaklenjenega zaslona</string>
     <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Predmeti vrstice stanja</string>
     <!-- Notifications -->
+    <string name="notifications_title">Obvestila</string>
     <!-- Footer warnings -->
+    <string name="smart_pixels_warning_text">Smart pixels je značilnost varčevanja z energijo. Glede na to, koliko pik ste se odločili izklopiti, lahko opazite precejšno izboljšavo življenjske dobe akumulatorja. Za dobro uporabniško izkušnjo, priporočamo, da nastavite vrednost onemogočenih pik na 75 procentov.</string>
     <!-- Navigation -->
+    <string name="navigationbar_settings_title">Vrstica za krmarjenje</string>
     <!-- Quick Settings -->
+    <string name="quick_settings_title">Hitre nastavitve</string>
     <!-- Buttons -->
+    <string name="buttons_title">Gumbi</string>
     <!-- App Ops -->
+    <string name="app_ops_category">Dovoljenja za aplikacijo</string>
     <!-- App info dialog -->
+    <string name="extensions_dialog_title">Pomagajte nam, da vam pomagamo!</string>
+    <string name="extensions_dialog_message">Če najdete napako v katerikoli od teh nastavitev, objavite to v Bug Reports kategorijo na naši Google+ strani. Ob prijavi napake MORATE vključiti naslednje:\n\n1. Logcat ali last_kmsg\n2. Uporabljeno jedro (kernel) in modifikacije\n3. Uporabne podatke\n\nČe prijave ne izpolnite ustrezno, NE pričakujte, da bodo stvari popravljene.</string>
+    <string name="extensions_dialog_toast">PREBERITE CELOTNO STVAR!</string>
     <!-- System theme -->
+    <string name="accent_picker_dialog_title">Izberite barvo poudarka</string>
+    <string name="theme_accent_picker_title">Barva poudarka</string>
+    <string name="theme_accent_picker_summary">Izberite barvo poudarka teme sistema</string>
+    <string name="theme_accent_picker_default">Privzeto</string>
     <!-- Color Picker -->
+    <string name="dialog_color_picker">Izbor barve</string>
+    <string name="press_color_to_apply">Pritisnite na barvo, da jo uveljavite</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Šest.:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Nastavi</string>
+    <string name="color_default">Privzeto</string>
     <!-- Power Menu -->
+    <string name="power_menu_title">Meni za izklop</string>
+    <string name="power_menu_title_summary">Poglejte ali spremenite vnose menija za izklop</string>
+    <string name="powermenu_screenshot">Posnetek zaslona</string>
+    <string name="powermenu_torch">Svetilka</string>
+    <string name="powermenu_power">Izklopi</string>
+    <string name="powermenu_restart">Vnovičen zagon</string>
+    <string name="powermenu_restart_recovery">Napredni vnovičen zagon</string>
+    <string name="powermenu_airplane">Letalo</string>
+    <string name="powermenu_settings">Nastavitve</string>
+    <string name="powermenu_lockdown">Zaklep</string>
+    <string name="powermenu_soundpanel">Zvočna plošča</string>
+    <string name="powermenu_users">Uporabniki</string>
+    <string name="powermenu_logout">Odjava</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Drsnik za svetlost</string>
+    <string name="qs_brightness_slider_summary">Prikaži drsnik za svetlost v plošči hitrih nastavitev</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Dvojni tap na zaklenjen zaslon za spanje</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Dvakrat tapnite na zgornjo tretjino ali spodnje področje z bližnjicami, da gre naprava v spanje</string>
     <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Vrstica stanja</string>
+    <string name="double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja, da gre naprava v spanje</string>
     <!-- Network traffic -->
+    <string name="network_traffic_title">Omrežni promet</string>
+    <string name="network_traffic_type">Izberite vrsto omrežne dejavnosti</string>
+    <string name="show_network_traffic_up">Pošiljanje</string>
+    <string name="show_network_traffic_down">Prejemanje</string>
+    <string name="show_network_traffic_all">Pošiljanje in prejemanje</string>
+    <string name="network_traffic_state_title">Prikaz omrežne dejavnosti v vrstici stanja</string>
+    <string name="network_traffic_autohide_threshold_title">Prag samodejnega skrivanja omrežne dejavnosti (KB/s)</string>
     <!-- Heads up -->
+    <string name="headsup_category">Nastavitve obvestil na zaslonu</string>
+    <string name="heads_up_notifications">Obvestila na zaslonu</string>
+    <string name="summary_heads_up_enabled">Pojavna obvestila so omogočena</string>
+    <string name="summary_heads_up_disabled">Pojavna obvestila so onemogočena</string>
+    <string name="add_heads_up_package">Dodaj aplikacijo</string>
+    <string name="add_heads_up_blacklist_summary">Onemogoči obvestila na zaslonu za te aplikacije</string>
+    <string name="heads_up_stoplist_title">Seznam ustavitev</string>
+    <string name="heads_up_blacklist_title">Seznam prepovedanih</string>
+    <string name="profile_choose_app">Izberite aplikacijo</string>
+    <string name="dialog_delete_title">Izbriši</string>
+    <string name="dialog_delete_message">Odstrani izbrani predmet?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Časovna omejitev</string>
+    <string name="heads_up_time_out_summary">Kukajoča obvestila bodo prikazana za <xliff:g id="number">%d</xliff:g> sekund</string>
+    <string name="heads_up_time_out_2sec">2 sekundi</string>
+    <string name="heads_up_time_out_4sec">4 sekunde</string>
+    <string name="heads_up_time_out_5sec">5 sekund</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Časovnik dremeža</string>
+    <string name="heads_up_snooze_summary_one_minute">Poteg navzgor na kukajoča obvestila bo obvestila na zaslonu za to aplikacijo dalo v dremež za eno minuto</string>
+    <string name="heads_up_snooze_summary">Poteg navzgor na kukajoča obvestila bo obvestila na zaslonu za to aplikacijo dalo v dremež za <xliff:g id="number">%d</xliff:g> minut</string>
+    <string name="heads_up_snooze_disabled_summary">Časovnik dremeža je onemogočen</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
+    <string name="heads_up_snooze_15min">15 minut</string>
+    <string name="heads_up_snooze_20min">20 minut</string>
+    <string name="face_auto_unlock_title">Samodejni odklep s prepoznavo obraza</string>
+    <string name="face_auto_unlock_summary">Opusti zaklenjen zaslon po odklepanju s prepoznavo obraza</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Kazalnik gostovanja</string>
+    <string name="roaming_indicator_icon_summary">Pokaži kazalnik gostovanja v ikoni signala med gostovanjem</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikona 4G</string>
+    <string name="show_fourg_icon_summary">Pokaži ikono 4G v ikoni signala namesto LTE</string>
     <!-- Buttons title -->
+    <string name="volume_category">Gumb za glasnost</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Nadzor predvajanja</string>
+    <string name="volume_rocker_music_controls_summary">Kadar je zaslon izklopljen, bo dolg pritisk na gumbe za glasnost iskal skladbe</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibracija ob prepoznavi prstnega odtisa</string>
+    <string name="fprint_sucess_vib_summary">Vibriraj ob uspešni prepoznavi prstnega odtisa</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Odklepanje s prstnim odtisom</string>
+    <string name="fp_unlock_keystore_summary">Odklenite napravo s prstnim odtisom po vnovičnemu zagonu brez PIN-a/gesla/vzorca\nOpomba: na lastno odgovornost!</string>
     <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Kazalec</string>
+    <string name="volume_key_cursor_control_title">Nadzor kazalca s tipkama za glasnost</string>
+    <string name="volume_key_cursor_control_off">Onemogočeno</string>
+    <string name="volume_key_cursor_control_on">Glasnost gor/dol premakne kazalec levo/desno</string>
+    <string name="volume_key_cursor_control_on_reverse">Glasnost gor/dol premakne kazalec desno/levo</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Bujenje z gumbom za glasnost</string>
+    <string name="volume_rocker_wake_summary">Pritisk tipk za glasnost bo zbudilo vašo napravo</string>
     <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Odgovor s tipkama za glasnost</string>
+    <string name="volume_answer_call_summary">Odgovorite na klic s pritiskom tipk za glasnost</string>
+    <string name="torch_long_press_power_gesture_title">Svetilka pri izklopljenem zaslonu</string>
+    <string name="torch_long_press_power_gesture_desc">Dolgo pritisnite na gumb za izkiop pri izklopljenem zaslonu, da vklopite svetilko</string>
+    <string name="torch_long_press_power_timeout_title">Samodejno izklopi svetilko</string>
+    <string name="torch_long_press_power_timeout_never">Nikoli</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+    <string name="torch_long_press_power_timeout_2min">2 minuti</string>
+    <string name="torch_long_press_power_timeout_5min">5 minut</string>
+    <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Lučka polnjenja akumulatorja</string>
+    <string name="battery_light_enable">Lučka za akumulator</string>
+    <string name="battery_light_allow_on_dnd_title">Lučka za akumulator v načinu Ne moti</string>
+    <string name="battery_light_low_blinking_title">Utripajoča lučka ob nizkem stanju akumulatorja</string>
+    <string name="battery_light_cat">Barva lučke za akumulator med polnjenjem</string>
+    <string name="battery_light_low_color">Nizko stanje akumulatorja</string>
+    <string name="battery_light_medium_color">Srednje stanje akumulatorja</string>
+    <string name="battery_light_full_color">Akumulator skoraj napolnjen</string>
+    <string name="battery_light_reallyfull_color">Akumulator napolnjen (100)</string>
+    <string name="notification_light_settings">Lučka za obvestila</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Podatki o polnjenju na zaklenjenem zaslonu</string>
+    <string name="lockscreen_battery_info_summary">Pokaži pogojni najvišji tok in napetost napajalnika in temperaturo akumulatorja na zaklenjenem zaslonu med polnjenjem</string>
     <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Slog akumulatorja v vrstici stanja</string>
     <!-- Battery percentage -->
+    <string name="battery_style_category_title">Ikona akumulatorja</string>
+    <string name="status_bar_battery_percentage_title">Odstotek napolnjenosti akumulatorja</string>
+    <string name="status_bar_battery_percentage_default">Skrito</string>
+    <string name="status_bar_battery_percentage_text_next">Poleg ikone</string>
+    <string name="status_bar_battery_percentage_text_inside">V ikoni</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_port">Pokončno</string>
+    <string name="status_bar_battery_style_circle">Krog</string>
+    <string name="battery_style_dotted_circle">Pikčast krog</string>
+    <string name="status_bar_battery_style_text">Besedilo</string>
+    <string name="status_bar_battery_style_hidden">Skrito</string>
     <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Slog nedavnih</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
     <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Prosojnost</string>
+    <string name="qs_opacity_category">Prosojnost plošče hitrih nastavitev</string>
     <!-- Toast app icon -->
+    <string name="toast_icon_title">Ikona aplikacije pojavnega obvestila</string>
+    <string name="toast_icon_summary">Pokaži ikono aplikacije v pojavnem obvestilu</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_position_bottom_title">Drsnik za svetlost na dnu</string>
+    <string name="qs_brightness_position_bottom_summary">Prikaži drsnik za svetlost pod hitrimi nastavitvami</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Opozorila v nogi hitrih nastavitev</string>
+    <string name="qs_footer_warnings_summary">Pokaži opozorilo na dnu plošče hitrih nastavitev, ko je omrežje nadzorovano z zunanjimi aplikacijami ali vpn-jem</string>
     <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Vidnost na zaklenjenem zaslonu</string>
+    <string name="powermenu_lockscreen_summary">Omogoči sposobnost prikaza in uporabe menija za izklop na zaklenjenem zaslonu</string>
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <string name="quick_settings_vibrate_title">Vibriraj ob dotiku</string>
+    <string name="quick_settings_vibrate_summary">Vibriraj ob dotiku ploščic hitrih nastavitev</string>
+    <!-- Status bar clock and date options -->
+    <string name="status_bar_clock_title">Nastavitve ure</string>
+    <string name="status_bar_am_pm_info">24-urni način je omogočen</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Pokaži datum po meri pred uro</string>
+    <string name="clock_date_style">Slog datuma</string>
+    <string name="clock_date_format">Oblika datuma</string>
+    <string name="clock_date_string_edittext_title">Mora biti v obliki datuma npr. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Vnesite niz</string>
+    <string name="clock_date_display_none">Ne prikaži</string>
+    <string name="clock_date_display_small">Mala velikost pisave</string>
+    <string name="clock_date_display_normal">Običajna velikost pisave</string>
+    <string name="clock_date_style_normal">Običajen</string>
+    <string name="clock_date_style_lowercase">Male tiskane črke</string>
+    <string name="clock_date_style_uppercase">Velike tiskane črke</string>
     <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Hitro spuščanje</string>
+    <string name="quick_pulldown_summary">%1$s rob vrstice stanja spusti Hitre nastavitve</string>
+    <string name="quick_pulldown_summary_always">Vedno prikaži hitre nastavitve ob spustu vrstice stanja</string>
+    <string name="quick_pulldown_off">Izklopljeno</string>
+    <string name="quick_pulldown_left">Levi</string>
+    <string name="quick_pulldown_right">Desni</string>
+    <string name="quick_pulldown_always">Vedno</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Ikona VoLTE</string>
+    <string name="volte_icon_summary">Pokaži ikono VoLTE</string>
     <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Pametno spuščanje</string>
+    <string name="smart_pulldown_summary">Odpri hitre nastavitve, ko %1$s obvestil</string>
+    <string name="smart_pulldown_none_summary">Odpri hitre nastavitve, ko ni obvestil</string>
+    <string name="smart_pulldown_off">Izklopljeno</string>
+    <string name="smart_pulldown_none">ni obvestil</string>
+    <string name="smart_pulldown_dismissable">ni opuščajočih</string>
+    <string name="smart_pulldown_ongoing">ni tekočih</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Začasno ustavljena dejanja</string>
+    <string name="screen_state_toggles_enable_title">Omogoči</string>
+    <string name="screen_state_toggles_enable_summary">Dejanja bodo izvršena ob izklopu zaslona. Ob vklopu zaslona bodo obnovljena na prejšnje stanje.</string>
+    <string name="screen_state_toggles_mobile_title">Mobilna omrežja</string>
+    <string name="screen_state_toggles_location_title">Lokacija</string>
+    <string name="screen_state_toggles_twog">Preklopi na 2G</string>
+    <string name="screen_state_toggles_twog_summary">Omrežni način bo preklopljen na 2G ob izklopu zaslona</string>
+    <string name="screen_state_toggles_gps">Onemogoči GPS</string>
+    <string name="screen_state_toggles_gps_summary">Lokacijska storitev na GPS osnovi bo onemogočena ob izklopu zaslona</string>
+    <string name="screen_state_toggles_mobile_data">Onemogoči mobilne podatke</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobilni podatki bodo onemogočeni ob izklopu zaslona</string>
+    <string name="screen_state_off_delay_title">Zakasnitev dejanj na izklopljenem zaslonu</string>
+    <string name="screen_state_off_delay_summary">Število čakajočih sekund preden se izvedejo dejanja po izklopu zaslona</string>
+    <string name="screen_state_on_delay_title">Zakasnitev dejanj na vklopljenem zaslonu</string>
+    <string name="screen_state_on_delay_summary">Število čakajočih sekund preden se izvedejo dejanja po vklopu zaslona</string>
     <!-- Weather -->
+    <string name="weather_title">Vreme</string>
+    <string name="weather_unit">Enote za temperaturo</string>
+    <string name="qs_styles_dialog_title">Izberite slog ploščice hitrih nastavitev</string>
     <!-- Volume keys control ringtone stream -->
+    <string name="volume_keys_control_ring_tone_title">Nadzorovanje glasnosti zvonjenja</string>
+    <string name="volume_keys_control_ring_tone_summary">Tipki privzeto upravljata drsnik za predstavnost. Omogočite, da preklopite na drsnik za zvonjenje.</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Prikaži ikono onemogočenih podatkov</string>
+    <string name="data_disabled_icon_summary">Pokaži križec poleg signala, ko so podatki onemogočeni</string>
     <!-- Hardware button navigation -->
+    <string name="hardware_keys_home_key_title">Gumb Domov</string>
+    <string name="hardware_keys_menu_key_title">Gumb Meni</string>
+    <string name="hardware_keys_assist_key_title">Gumb Išči</string>
+    <string name="hardware_keys_appswitch_key_title">Gumb Pregled</string>
+    <string name="hardware_keys_back_key_title">Gumb Nazaj</string>
+    <string name="hardware_keys_double_tap_summary">Nastavite dejanje dvojnega tapa</string>
+    <string name="hardware_keys_single_tap_summary">Nastavite dejanje enojnega tapa</string>
+    <string name="hardware_keys_long_press_summary">Nastavite dejanje dolgega pritiska</string>
+    <string name="hardware_keys_single_tap_title">Dejanje enojnega tapa</string>
+    <string name="hardware_keys_long_press_title">Dejanje dolgega pritiska</string>
+    <string name="hardware_keys_double_tap_title">Dejanje dvojnega tapa</string>
+    <string name="hardware_keys_category">Gumbi za krmarjenje</string>
+    <string name="hardware_keys_disable_title">Onemogoči gumbe za krmarjenje</string>
     <!-- Button brightness -->
+    <string name="button_backlight_options_category">Osvetlitev ozadja</string>
+    <string name="button_backlight_enable_title">Dovoli osvetlitev ozadja gumbov</string>
+    <string name="button_link_brightness">Poveži s svetlostjo zaslona</string>
+    <string name="button_link_brightness_summary">Osvetlitev ozadja gumbov bo prilagojena glede na raven osvetlitve zaslona</string>
+    <string name="button_manual_brightness">Raven svetlosti</string>
+    <string name="button_timeout_title">Čas osvetlitve</string>
+    <string name="button_backlight_on_touch_only_title">Osvetlitev ozadja gumbov ob dotiku</string>
+    <string name="button_backlight_on_touch_only_summary">Osvetlitev ozadja gumbov se bo pojavila samo ob pritisku na gumbe, namesto, da je vklopljena ves čas. Čas osvetlitve vseeno vpliva na to značilnost.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Glasba na okoliškem zaslonu</string>
+    <string name="force_ambient_for_media_pref_summary">Nastavite glasbo na okoliškem zaslonu</string>
+    <string name="force_ambient_for_media_title">Omogoči</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

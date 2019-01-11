@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
     <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
     <string name="add_heads_up_package">Dodaj aplikację</string>
-    <string name="add_heads_up_stoplist_summary">Wyłącz wyskakujące powiadomienia w tych aplikacjiach</string>
     <string name="add_heads_up_blacklist_summary">Całkowicie wyłącz wyskakujące powiadomienia w tych aplikacjiach</string>
     <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
     <string name="heads_up_blacklist_title">Czarna lista</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Wibruj przy dotknięciu</string>
     <string name="quick_settings_vibrate_summary">Wibruj podczas dotykania przełączników szybkich ustawień</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Czas i data</string>
-    <string name="status_bar_clock_summary">Skonfiguruj wygląd zegara i daty</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Ustawienia zegara</string>
-    <string name="status_bar_clock_show">Pokaż zegar i datę</string>
-    <string name="status_bar_clock_style_title">Styl zegarka</string>
-    <string name="status_bar_clock_style_right">Po prawej</string>
-    <string name="status_bar_clock_style_center">Po środku</string>
-    <string name="status_bar_clock_style_left">Po lewej</string>
-    <string name="status_bar_am_pm_title">Styl AM/PM</string>
     <string name="status_bar_am_pm_info">24 godzinny format zegara jest włączony</string>
-    <string name="status_bar_am_pm_normal">Normalny</string>
-    <string name="status_bar_am_pm_small">Małe</string>
-    <string name="status_bar_am_pm_hidden">Ukryty (domyślnie)</string>
-    <string name="clock_seconds_display">Pokaż sekundy</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Wyświetlanie niestandardowych daty przed zegar</string>
-    <string name="clock_date_display_none">Nie pokazuj</string>
-    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
-    <string name="clock_date_display_normal">Rozmiar czcionki normalnej</string>
     <string name="clock_date_style">Styl daty</string>
-    <string name="clock_date_style_normal">Normalny</string>
-    <string name="clock_date_style_lowercase">Małe litery</string>
-    <string name="clock_date_style_uppercase">Wielkie litery</string>
-    <string name="clock_date_format_custom">Niestandardowy format Java</string>
     <string name="clock_date_format">Format daty</string>
     <string name="clock_date_string_edittext_title">Musi być w formacie np. MM/dd/rr</string>
     <string name="clock_date_string_edittext_summary">Wprowadź ciąg</string>
+    <string name="clock_date_display_none">Nie pokazuj</string>
+    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
+    <string name="clock_date_display_normal">Rozmiar czcionki normalnej</string>
+    <string name="clock_date_style_normal">Normalny</string>
+    <string name="clock_date_style_lowercase">Małe litery</string>
+    <string name="clock_date_style_uppercase">Wielkie litery</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Szybkie rozwijanie</string>
     <string name="quick_pulldown_summary">%1$s krawędź paska stanu rozwija szybkie ustawienia</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Podświetlenie przycisków podczas naciskania</string>
     <string name="button_backlight_on_touch_only_summary">Podświetlenie przycisków włączy się tylko gdy przyciski są używane, zamiast świecić się cały czas. Czas podświetlenia ma wpływ na tę funkcję.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Powiadomienia muzyki na ekranie Ambient</string>
+    <string name="force_ambient_for_media_pref_summary">Konfiguracja powiadomień muzyki na ekranie Ambient</string>
+    <string name="force_ambient_for_media_title">Włącz</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

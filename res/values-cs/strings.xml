@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Plovoucí oznámení jsou povolena</string>
     <string name="summary_heads_up_disabled">Plovoucí oznámení jsou zakázána</string>
     <string name="add_heads_up_package">Přidat aplikaci</string>
-    <string name="add_heads_up_stoplist_summary">Zakázat plovoucí oznámení v těchto aplikacích</string>
     <string name="add_heads_up_blacklist_summary">Zakázat plovoucí oznámení z těchto aplikací</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
     <string name="quick_settings_vibrate_summary">Vibrovat při dotyku QS dlaždice</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Hodiny a datum</string>
-    <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data ve stavové liště</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Nastavení hodin</string>
-    <string name="status_bar_clock_show">Zobrazit hodiny a datum</string>
-    <string name="status_bar_clock_style_title">Styl hodin</string>
-    <string name="status_bar_clock_style_right">Vpravo</string>
-    <string name="status_bar_clock_style_center">Na střed</string>
-    <string name="status_bar_clock_style_left">Vlevo</string>
-    <string name="status_bar_am_pm_title">dop./odp. styl</string>
     <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
-    <string name="status_bar_am_pm_normal">Normální</string>
-    <string name="status_bar_am_pm_small">Malé</string>
-    <string name="status_bar_am_pm_hidden">Skryté (výchozí)</string>
-    <string name="clock_seconds_display">Zobrazit sekundy</string>
     <string name="clock_date_display">Datum</string>
     <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
-    <string name="clock_date_display_none">Nezobrazovat</string>
-    <string name="clock_date_display_small">Malá velikost písma</string>
-    <string name="clock_date_display_normal">Normální velikost písma</string>
     <string name="clock_date_style">Styl data</string>
-    <string name="clock_date_style_normal">Normální</string>
-    <string name="clock_date_style_lowercase">Malá písmena</string>
-    <string name="clock_date_style_uppercase">Velká písmena</string>
-    <string name="clock_date_format_custom">Vlastní formát Java</string>
     <string name="clock_date_format">Formát data</string>
     <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Vložte textový řetězec</string>
+    <string name="clock_date_display_none">Nezobrazovat</string>
+    <string name="clock_date_display_small">Malá velikost písma</string>
+    <string name="clock_date_display_normal">Normální velikost písma</string>
+    <string name="clock_date_style_normal">Normální</string>
+    <string name="clock_date_style_lowercase">Malá písmena</string>
+    <string name="clock_date_style_uppercase">Velká písmena</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Rychlé vysunutí nabídky</string>
     <string name="quick_pulldown_summary">Tažením dolů z %1$s strany stavové lišty se vysune rychlé nastavení</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Délka podsvícení tlačítek při dotyku</string>
     <string name="button_backlight_on_touch_only_summary">Podsvícení tlačítek bude zobrazeno pouze při stisknutí, nikoli po celou dobu. Časový limit stále ovlivňuje tuto funkci.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Hudební oznámení na Ambientním displeji</string>
+    <string name="force_ambient_for_media_pref_summary">Nastavení hudebního oznámení na Ambientním displeji</string>
+    <string name="force_ambient_for_media_title">Povolit</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

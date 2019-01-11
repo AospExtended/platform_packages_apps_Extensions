@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">弹出通知已启用</string>
     <string name="summary_heads_up_disabled">弹出通知已禁用</string>
     <string name="add_heads_up_package">添加应用</string>
-    <string name="add_heads_up_stoplist_summary">进入这些应用程序时禁用浮动通知</string>
     <string name="add_heads_up_blacklist_summary">禁用来自这些应用程序的浮动通知</string>
     <string name="heads_up_stoplist_title">勿扰名单</string>
     <string name="heads_up_blacklist_title">禁用名单</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">触摸时使用振动反馈</string>
     <string name="quick_settings_vibrate_summary">触摸快捷设置图块时振动</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">时钟和日期</string>
-    <string name="status_bar_clock_summary">配置状态栏时间和日期外观</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">时钟设置</string>
-    <string name="status_bar_clock_show">显示时间和日期</string>
-    <string name="status_bar_clock_style_title">时间样式</string>
-    <string name="status_bar_clock_style_right">右侧</string>
-    <string name="status_bar_clock_style_center">居中</string>
-    <string name="status_bar_clock_style_left">左侧</string>
-    <string name="status_bar_am_pm_title">上午/下午 样式</string>
     <string name="status_bar_am_pm_info">24 小时制已启用</string>
-    <string name="status_bar_am_pm_normal">正常</string>
-    <string name="status_bar_am_pm_small">较小</string>
-    <string name="status_bar_am_pm_hidden">隐藏 (默认)</string>
-    <string name="clock_seconds_display">显示秒数</string>
     <string name="clock_date_display">日期</string>
     <string name="clock_date_display_summary">在时间前显示自定义日期</string>
-    <string name="clock_date_display_none">隐藏</string>
-    <string name="clock_date_display_small">小号字体</string>
-    <string name="clock_date_display_normal">正常字体</string>
     <string name="clock_date_style">日期样式</string>
-    <string name="clock_date_style_normal">正常</string>
-    <string name="clock_date_style_lowercase">小写字母</string>
-    <string name="clock_date_style_uppercase">大写字母</string>
-    <string name="clock_date_format_custom">自定义 Java 格式</string>
     <string name="clock_date_format">日期格式</string>
     <string name="clock_date_string_edittext_title">必须在 DateFormat 类中可用，如：MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">输入字符串</string>
+    <string name="clock_date_display_none">隐藏</string>
+    <string name="clock_date_display_small">小号字体</string>
+    <string name="clock_date_display_normal">正常字体</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="clock_date_style_lowercase">小写字母</string>
+    <string name="clock_date_style_uppercase">大写字母</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">快速下拉</string>
     <string name="quick_pulldown_summary">从状态栏的 %1$s 边下拉直接显示快捷设置</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">触摸时点亮按键背光</string>
     <string name="button_backlight_on_touch_only_summary">按键背光将只在按下按键时点亮, 而不是一直点亮。背光超时仍然会影响此功能。</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">息屏音乐信息</string>
+    <string name="force_ambient_for_media_pref_summary">配置息屏音乐信息</string>
+    <string name="force_ambient_for_media_title">启用</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

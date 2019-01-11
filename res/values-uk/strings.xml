@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Спливаючі сповіщення увімкнені</string>
     <string name="summary_heads_up_disabled">Спливаючі сповіщення вимкнені</string>
     <string name="add_heads_up_package">Додати програму</string>
-    <string name="add_heads_up_stoplist_summary">Вимкнути спливаючі сповіщення з цих додатків</string>
     <string name="add_heads_up_blacklist_summary">Вимкнути сповіщення від цих додатків</string>
     <string name="heads_up_stoplist_title">Стоп-лист</string>
     <string name="heads_up_blacklist_title">Чорний список</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вібрація при дотику</string>
     <string name="quick_settings_vibrate_summary">Вібрувати при торканні значка швидких налаштувань</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Годинник і дата</string>
-    <string name="status_bar_clock_summary">Налаштування вигляду годинника та дати</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Налаштування годинника</string>
-    <string name="status_bar_clock_show">Показати час і дату</string>
-    <string name="status_bar_clock_style_title">Стиль годинника</string>
-    <string name="status_bar_clock_style_right">Справа</string>
-    <string name="status_bar_clock_style_center">У центрі</string>
-    <string name="status_bar_clock_style_left">Зліва</string>
-    <string name="status_bar_am_pm_title">12-годинний формат часу (AM/PM) </string>
     <string name="status_bar_am_pm_info">24-годинний формат часу увімкнено</string>
-    <string name="status_bar_am_pm_normal">Нормальний</string>
-    <string name="status_bar_am_pm_small">Маленький</string>
-    <string name="status_bar_am_pm_hidden">Приховано (за замовчуванням)</string>
-    <string name="clock_seconds_display">Показувати секунди</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Відображати користувацький формат дати перед годинником</string>
-    <string name="clock_date_display_none">Не показувати</string>
-    <string name="clock_date_display_small">Шрифт малого розміру</string>
-    <string name="clock_date_display_normal">Стандартний розмір шрифту</string>
     <string name="clock_date_style">Стиль дати</string>
-    <string name="clock_date_style_normal">Нормальний</string>
-    <string name="clock_date_style_lowercase">Нижній регістр</string>
-    <string name="clock_date_style_uppercase">Верхній регістр</string>
-    <string name="clock_date_format_custom">Користувацький java формат</string>
     <string name="clock_date_format">Формат дати</string>
     <string name="clock_date_string_edittext_title">Повинно бути у форматі дати, напр. ММ/ДД/РР</string>
     <string name="clock_date_string_edittext_summary">Введіть значення</string>
+    <string name="clock_date_display_none">Не показувати</string>
+    <string name="clock_date_display_small">Шрифт малого розміру</string>
+    <string name="clock_date_display_normal">Стандартний розмір шрифту</string>
+    <string name="clock_date_style_normal">Нормальний</string>
+    <string name="clock_date_style_lowercase">Нижній регістр</string>
+    <string name="clock_date_style_uppercase">Верхній регістр</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Швидкий доступ</string>
     <string name="quick_pulldown_summary">%1$s край рядку стану при опусканні вниз відкриває панель швидких налаштувань</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Підсвічування кнопок при торканні</string>
     <string name="button_backlight_on_touch_only_summary">Включати підсвічування сенсорних кнопок тільки при торканні. Затримка підсвічування впливає на цю функцію.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Індикатор назви треку на Ambient Display</string>
+    <string name="force_ambient_for_media_pref_summary">Налаштування сповіщень музики на Ambient Display</string>
+    <string name="force_ambient_for_media_title">Увімкнути</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

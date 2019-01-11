@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Pemberitahuan munculan diaktifkan</string>
     <string name="summary_heads_up_disabled">Notifikasi pop-up dimatikan</string>
     <string name="add_heads_up_package">Tambahkan aplikasi</string>
-    <string name="add_heads_up_stoplist_summary">Matikan pemberitahuan mengambang di aplikasi ini</string>
     <string name="add_heads_up_blacklist_summary">Matikan pemberitahuan mengambang dari aplikasi ini</string>
     <string name="heads_up_stoplist_title">Daftar henti</string>
     <string name="heads_up_blacklist_title">Daftar hitam</string>
@@ -238,7 +237,7 @@
     <string name="status_bar_battery_style_text">Teks</string>
     <string name="status_bar_battery_style_hidden">Tersembunyi</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Tampilan terkini</string>
+    <string name="recents_component_type_title">Tampilan aplikasi terkini</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
     <!-- QuickSettings Panel Transparency -->
@@ -248,48 +247,35 @@
     <string name="toast_icon_title">Informasi teks pada simbol aplikasi</string>
     <string name="toast_icon_summary">Tampilkan ikon aplikasi dalam pemberitahuan Informasi teks</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_position_bottom_title">Tampilkan mengatur kecerahan di bawah</string>
-    <string name="qs_brightness_position_bottom_summary">Tampilkan mengatur kecerahan di panel penyetelan cepat</string>
+    <string name="qs_brightness_position_bottom_title">Tampilkan slider kecerahan di bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di Setelan Cepat</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Peringatan footer Q5</string>
     <string name="qs_footer_warnings_summary">Munculkan peringatan di bawah panel QS ketika koneksi di monitor oleh aplikasi pihak-ketiga atau vpn</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="powermenu_lockscreen_title">Terlihat di layar kunci</string>
-    <string name="powermenu_lockscreen_summary">Aktifkan kemampuan untuk menampilkan dan menggunakan dialog menu daya saat berada di layar kunci</string>
+    <string name="powermenu_lockscreen_title">Vasibilitas layar terkunci</string>
+    <string name="powermenu_lockscreen_summary">Mengaktifkan kemampuan untuk menampilan dan menggunakan dialog Menu Daya saat Layar Terkunci</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Bergetar saat disentuh</string>
     <string name="quick_settings_vibrate_summary">Bergetar saat menyentuh ubin QS</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Jam dan Tanggal</string>
-    <string name="status_bar_clock_summary">Mengatur Tampilan di bilah status jam dan tanggal</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Pengaturan jam</string>
-    <string name="status_bar_clock_show">Tampilkan jam dan tanggal</string>
-    <string name="status_bar_clock_style_title">Gaya jam</string>
-    <string name="status_bar_clock_style_right">Kanan</string>
-    <string name="status_bar_clock_style_center">Tengah</string>
-    <string name="status_bar_clock_style_left">Kiri</string>
-    <string name="status_bar_am_pm_title">Gaya AM/PM</string>
     <string name="status_bar_am_pm_info">Waktu 24-jam diaktifkan</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Kecil</string>
-    <string name="status_bar_am_pm_hidden">Tersembunyi (standar)</string>
-    <string name="clock_seconds_display">Tampilkan detik</string>
     <string name="clock_date_display">Tanggal</string>
     <string name="clock_date_display_summary">Tampilkan tanggal khusus di samping jam</string>
-    <string name="clock_date_display_none">Jangan tampilkan</string>
-    <string name="clock_date_display_small">Ukuran huruf kecil</string>
-    <string name="clock_date_display_normal">Ukuran huruf normal</string>
     <string name="clock_date_style">Gaya tanggal</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Huruf kecil</string>
-    <string name="clock_date_style_uppercase">Huruf besar</string>
-    <string name="clock_date_format_custom">Nilai format khusus</string>
     <string name="clock_date_format">Format tanggal</string>
     <string name="clock_date_string_edittext_title">Harus dalam format tanggal seperti. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Masukkan teks</string>
+    <string name="clock_date_display_none">Jangan tampilkan</string>
+    <string name="clock_date_display_small">Ukuran huruf kecil</string>
+    <string name="clock_date_display_normal">Ukuran huruf normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Huruf kecil</string>
+    <string name="clock_date_style_uppercase">Huruf besar</string>
     <!-- Quick pull down-->
-    <string name="quick_pulldown_title">Kerutuhan Cepat</string>
-    <string name="quick_pulldown_summary">Menarik %1$s tepi status bar ke bawah untuk Pengaturan Cepat</string>
+    <string name="quick_pulldown_title">Keruntuhan cepat</string>
+    <string name="quick_pulldown_summary">%1$s tepi dari status bar menarik penyetelan cepat</string>
     <string name="quick_pulldown_summary_always">Selalu tampilkan ikon Pengaturan Cepat pada keruntuhan status bar</string>
     <string name="quick_pulldown_off">Mati</string>
     <string name="quick_pulldown_left">Kiri</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Tombol sentuh lampu latar</string>
     <string name="button_backlight_on_touch_only_summary">Lampu latar tombol hanya akan tampak ketika tombol ditekan daripada aktif sepanjang waktu. Batas waktu sangat mempengaruhi fitur ini.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Tampilan musik sekitar</string>
+    <string name="force_ambient_for_media_pref_summary">Mengkonfigurasi tampilan musik sekitar</string>
+    <string name="force_ambient_for_media_title">Aktif</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

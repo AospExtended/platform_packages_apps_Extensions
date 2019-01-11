@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Heads-Up-Benachrichtigungen sind aktiviert</string>
     <string name="summary_heads_up_disabled">Heads-Up-Benachrichtigungen sind deaktiviert</string>
     <string name="add_heads_up_package">Anwendung hinzufügen</string>
-    <string name="add_heads_up_stoplist_summary">Heads-Up-Benachrichtigungen von diesen Apps deaktivieren</string>
     <string name="add_heads_up_blacklist_summary">Heads-Up von diesen Anwendungen deaktivieren</string>
     <string name="heads_up_stoplist_title">Stopliste</string>
     <string name="heads_up_blacklist_title">Sperrliste</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
     <string name="quick_settings_vibrate_summary">Vibriert beim Berühren von Schnelleinstellungen</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Datum und Uhrzeit</string>
-    <string name="status_bar_clock_summary">Uhrzeit und Datum der Statusbar einstellen</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Uhr-Einstellungen</string>
-    <string name="status_bar_clock_show">Datum und Uhrzeit anzeigen</string>
-    <string name="status_bar_clock_style_title">Darstellung der Uhr</string>
-    <string name="status_bar_clock_style_right">Rechts</string>
-    <string name="status_bar_clock_style_center">Zentrieren</string>
-    <string name="status_bar_clock_style_left">Links</string>
-    <string name="status_bar_am_pm_title">AM/PM-Darstellung</string>
     <string name="status_bar_am_pm_info">24-Stunden Format ist aktiviert</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Klein</string>
-    <string name="status_bar_am_pm_hidden">Ausgeblendet (Standard)</string>
-    <string name="clock_seconds_display">Sekunden anzeigen</string>
     <string name="clock_date_display">Datum</string>
     <string name="clock_date_display_summary">Zeige benutzerdefiniertes Datum vor der Uhr</string>
-    <string name="clock_date_display_none">Nicht anzeigen</string>
-    <string name="clock_date_display_small">Kleine Schriftgröße</string>
-    <string name="clock_date_display_normal">Normale Schriftgröße</string>
     <string name="clock_date_style">Datums-Stil</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
-    <string name="clock_date_style_uppercase">Großbuchstaben</string>
-    <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
     <string name="clock_date_format">Datumsformat</string>
     <string name="clock_date_string_edittext_title">Datumsformat muss z.B. MM/dd/yy sein</string>
     <string name="clock_date_string_edittext_summary">Zeichenfolge eingeben</string>
+    <string name="clock_date_display_none">Nicht anzeigen</string>
+    <string name="clock_date_display_small">Kleine Schriftgröße</string>
+    <string name="clock_date_display_normal">Normale Schriftgröße</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
+    <string name="clock_date_style_uppercase">Großbuchstaben</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Schnelles Aufklappen</string>
     <string name="quick_pulldown_summary">%1$s Das Herunterziehen der Statusleiste öffnet die Schnelleinstellungen</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Tastenbeleuchtung bei Berührung</string>
     <string name="button_backlight_on_touch_only_summary">Tastenbeleuchtung nur einschalten, wenn die Tasten bedient werden. Das Timeout der Beleuchtung bleibt hierbei unverändert.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ambient-Musiktitelanzeige</string>
+    <string name="force_ambient_for_media_pref_summary">Einstellungen für Ambient-Musiktitelanzeige</string>
+    <string name="force_ambient_for_media_title">Aktiviert</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

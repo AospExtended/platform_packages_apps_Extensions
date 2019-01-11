@@ -31,7 +31,7 @@
     <string name="icons_category">Simgeler</string>
     <string name="aosp_recents_category">Aosp son uygulamalar</string>
     <string name="light_category">Pil ışığı</string>
-    <string name="dlg_ok">TAMAM</string>
+    <string name="dlg_ok">Tamam</string>
     <string name="attention">Dikkat</string>
     <string name="loading">Yükleniyor\u2026</string>
     <string name="reset">Sıfırla</string>
@@ -99,7 +99,7 @@
     <string name="theme_accent_picker_summary">Sistem teması için vurgu rengi seçin</string>
     <string name="theme_accent_picker_default">Varsayılan</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Renk seçici</string>
+    <string name="dialog_color_picker">Renk seçin</string>
     <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine dokunun</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -122,7 +122,7 @@
     <string name="powermenu_users">Kullanıcılar</string>
     <string name="powermenu_logout">Çıkış</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_title">Parlaklık kaydırıcısı</string>
+    <string name="qs_brightness_slider_title">Parlaklık kaydırıcı</string>
     <string name="qs_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Çift dokunuşla uyutma</string>
@@ -136,7 +136,7 @@
     <string name="show_network_traffic_up">Yükleme</string>
     <string name="show_network_traffic_down">İndirme</string>
     <string name="show_network_traffic_all">Etkin</string>
-    <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliği göster</string>
+    <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
     <!-- Heads up -->
     <string name="headsup_category">Üst bildirim</string>
@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Bildirim pencereleri etkin</string>
     <string name="summary_heads_up_disabled">Bildirim pencereleri devre dışı</string>
     <string name="add_heads_up_package">Uygulama ekle</string>
-    <string name="add_heads_up_stoplist_summary">Bu uygulamalarda bildirim pencerelerini devre dışı bırakma</string>
     <string name="add_heads_up_blacklist_summary">Bu uygulamalar için uyarıları kapatma</string>
     <string name="heads_up_stoplist_title">Durdurma listesi</string>
     <string name="heads_up_blacklist_title">Kara liste</string>
@@ -174,10 +173,10 @@
     <string name="face_auto_unlock_summary">Yüz kilidini açtıktan sonra kilit ekranını otomatik kapat</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
-    <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesini göster</string>
+    <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesini görüntüle</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G simgesi</string>
-    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini göster</string>
+    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
     <!-- Buttons title -->
     <string name="volume_category">Ses tuşu</string>
     <!-- Volume rocker music control -->
@@ -196,13 +195,13 @@
     <string name="volume_key_cursor_control_on">Ses arttırma/azaltma imleci sola/sağa kaydırır</string>
     <string name="volume_key_cursor_control_on_reverse">Ses arttırma/azaltma imleci sağa/sola kaydırır</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Ses tuşuyla uyandır</string>
+    <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
     <string name="volume_rocker_wake_summary">Ses tuşlarına basıldığında cihazı uyandır</string>
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Ses tuşlarıyla cevapla</string>
     <string name="volume_answer_call_summary">Ses tuşlarına basıldığında çağrıya cevap ver</string>
     <string name="torch_long_press_power_gesture_title">Güç tuşu ile fener açma</string>
-    <string name="torch_long_press_power_gesture_desc">Ekran kapalıyken güç tuşuna uzun basarak el fenerini etkinleştirin</string>
+    <string name="torch_long_press_power_gesture_desc">Ekran kapalıyken güç tuşuna uzun basarak el fenerini etkinleştir</string>
     <string name="torch_long_press_power_timeout_title">El fenerini otomatik kapat</string>
     <string name="torch_long_press_power_timeout_never">Asla</string>
     <string name="torch_long_press_power_timeout_1min">1 dakika</string>
@@ -242,14 +241,14 @@
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
     <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Şeffaflık</string>
+    <string name="qs_panel_alpha_title">Şeffaflık değeri</string>
     <string name="qs_opacity_category">Hızlı ayarlar panel şeffaflığı</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Uygulama bildirim simgesi</string>
     <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesini görüntüle</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcısı</string>
-    <string name="qs_brightness_position_bottom_summary">Hızlı ayarlar alt panelinde parlaklık kaydırıcısını göster</string>
+    <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcı</string>
+    <string name="qs_brightness_position_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Bilgi uyarıları</string>
     <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinizde hızlı ayarlar panelinin altına bir uyarı gösterir</string>
@@ -257,36 +256,23 @@
     <string name="powermenu_lockscreen_title">Kilit ekranı görünürlüğü</string>
     <string name="powermenu_lockscreen_summary">Kilit ekranında güç menüsünü gösterme ve kullanma durumunu etkinleştirme</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Dokunulduğunda titreşim</string>
-    <string name="quick_settings_vibrate_summary">Karelere dokununca titret</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Saat ve tarih</string>
-    <string name="status_bar_clock_summary">Durum çubuğunda saati ve tarih görünümünü yapılandırma</string>
+    <string name="quick_settings_vibrate_title">Dokunulduğunda titret</string>
+    <string name="quick_settings_vibrate_summary">Hızlı ayarlar karelerine dokunulduğunda titret</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Saat ayarları</string>
-    <string name="status_bar_clock_show">Saati ve tarihi göster</string>
-    <string name="status_bar_clock_style_title">Saat stili</string>
-    <string name="status_bar_clock_style_right">Sağ</string>
-    <string name="status_bar_clock_style_center">Orta</string>
-    <string name="status_bar_clock_style_left">Sol</string>
-    <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
     <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Küçük</string>
-    <string name="status_bar_am_pm_hidden">Gizli (varsayılan)</string>
-    <string name="clock_seconds_display">Saniye göster</string>
     <string name="clock_date_display">Tarih</string>
     <string name="clock_date_display_summary">Saatten önce özel tarihi göster</string>
-    <string name="clock_date_display_none">Gösterme</string>
-    <string name="clock_date_display_small">Küçük yazı boyutu</string>
-    <string name="clock_date_display_normal">Normal yazı boyutu</string>
     <string name="clock_date_style">Tarih stili</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Küçük harf</string>
-    <string name="clock_date_style_uppercase">Büyük harf</string>
-    <string name="clock_date_format_custom">Özel java biçimi</string>
     <string name="clock_date_format">Tarih biçimi</string>
     <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
     <string name="clock_date_string_edittext_summary">Yazı girin</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı boyutu</string>
+    <string name="clock_date_display_normal">Normal yazı boyutu</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Hızlı aşağı çekme</string>
     <string name="quick_pulldown_summary">Durum çubuğunun %1$s tarafından aşağı çekmek hızlı ayarları açar</string>
@@ -326,13 +312,13 @@
     <!-- Weather -->
     <string name="weather_title">Hava durumu</string>
     <string name="weather_unit">Sıcaklık birimi</string>
-    <string name="qs_styles_dialog_title">Hızlı ayarlar karesi stili seçin</string>
+    <string name="qs_styles_dialog_title">Hızlı ayarlar kare stili seçin</string>
     <!-- Volume keys control ringtone stream -->
     <string name="volume_keys_control_ring_tone_title">Zil sesi kontrolü</string>
     <string name="volume_keys_control_ring_tone_summary">Tuşlar varsayılan olarak medya kaydırıcısını kontrol eder. Zil sesi kaydırıcısına geçmek için etkinleştirin.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Devre dışı simgesi</string>
-    <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı işareti gösterir</string>
+    <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunda çarpı işareti görüntüle</string>
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">Ana ekran tuşu</string>
     <string name="hardware_keys_menu_key_title">Menü tuşu</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Dokunulduğunda aydınlat</string>
     <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı yalnızca tuşlara basıldığında değil her zaman açık kalır. Zaman aşımı yine de bu özelliği etkiler.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ortam müzik bilgisi</string>
+    <string name="force_ambient_for_media_pref_summary">Ortam ekranında müzik bilgisini yapılandır</string>
+    <string name="force_ambient_for_media_title">Etkinleştir</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

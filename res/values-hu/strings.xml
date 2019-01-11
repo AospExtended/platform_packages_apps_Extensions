@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">A Lebegő értesítések engedélyezettek</string>
     <string name="summary_heads_up_disabled">A Lebegő értesítések letiltásra kerültek</string>
     <string name="add_heads_up_package">Alkalmazás hozzáadása</string>
-    <string name="add_heads_up_stoplist_summary">A Lebegő értesítések letiltása ezeknél az alkalmazásoknál</string>
     <string name="add_heads_up_blacklist_summary">A Lebegő értesítések letiltása ezektől az alkalmazásoktól</string>
     <string name="heads_up_stoplist_title">Leállítottak listája</string>
     <string name="heads_up_blacklist_title">Tiltólista</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Érintéskor rezegjen</string>
     <string name="quick_settings_vibrate_summary">Csempék érintésekor rezgő visszajelzés</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Óra és Dátum</string>
-    <string name="status_bar_clock_summary">Az állapotsori óra és dátum megjelenésének beállításai</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Az Óra beállításai</string>
-    <string name="status_bar_clock_show">Jelenítse meg az órát és a dátumot</string>
-    <string name="status_bar_clock_style_title">Az Óra stílusa</string>
-    <string name="status_bar_clock_style_right">Jobbra</string>
-    <string name="status_bar_clock_style_center">Középre</string>
-    <string name="status_bar_clock_style_left">Balra</string>
-    <string name="status_bar_am_pm_title">A DE/DU megjelenítés stílusa</string>
     <string name="status_bar_am_pm_info">24-órás formátum engedélyezve</string>
-    <string name="status_bar_am_pm_normal">Szokásos</string>
-    <string name="status_bar_am_pm_small">Kicsi</string>
-    <string name="status_bar_am_pm_hidden">Rejtett (alapértelmezett)</string>
-    <string name="clock_seconds_display">Jelenítse meg a másodperceket</string>
     <string name="clock_date_display">Dátum</string>
     <string name="clock_date_display_summary">Egyéni dátum megjelenítése az óra előtt</string>
-    <string name="clock_date_display_none">Ne jelenítse meg</string>
-    <string name="clock_date_display_small">Kis betűméret</string>
-    <string name="clock_date_display_normal">Normál betűméret</string>
     <string name="clock_date_style">A dátum stílusa</string>
-    <string name="clock_date_style_normal">Szokásos</string>
-    <string name="clock_date_style_lowercase">Kisbetűs</string>
-    <string name="clock_date_style_uppercase">Nagybetűs</string>
-    <string name="clock_date_format_custom">Egyéni Java-formátum</string>
     <string name="clock_date_format">A dátum formátuma</string>
     <string name="clock_date_string_edittext_title">A dátumformátum pl. HH/nn/éé kell legyen</string>
     <string name="clock_date_string_edittext_summary">Karakterlánc beírása</string>
+    <string name="clock_date_display_none">Ne jelenítse meg</string>
+    <string name="clock_date_display_small">Kis betűméret</string>
+    <string name="clock_date_display_normal">Normál betűméret</string>
+    <string name="clock_date_style_normal">Szokásos</string>
+    <string name="clock_date_style_lowercase">Kisbetűs</string>
+    <string name="clock_date_style_uppercase">Nagybetűs</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Gyors legördítés</string>
     <string name="quick_pulldown_summary">Csempék megjelenítése az értesítési sáv %1$s oldalán történő legörgetéskor</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">A gombok háttérvilágítása csak érintéskor</string>
     <string name="button_backlight_on_touch_only_summary">A gomb háttérvilágítása csak akkor lesz aktív, amikor hozzáér a gombhoz. Az időkorlát hatással van erre a szolgáltatásra.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ambient music jelzőszalag</string>
+    <string name="force_ambient_for_media_pref_summary">Az Ambient music jelzőszalagjának konfigurálása</string>
+    <string name="force_ambient_for_media_title">Engedélyezés</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

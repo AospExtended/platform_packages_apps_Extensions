@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Iššokantys pranešimai įjungti</string>
     <string name="summary_heads_up_disabled">Iššokantys pranešimai išjungti</string>
     <string name="add_heads_up_package">Įtraukti programėlę</string>
-    <string name="add_heads_up_stoplist_summary">Neleisti iššokančiųjų pranešimų iš šių programų</string>
     <string name="add_heads_up_blacklist_summary">Neleisti iššokančiųjų pranešimų iš šių programų</string>
     <string name="heads_up_stoplist_title">Blokuoti sąrašą</string>
     <string name="heads_up_blacklist_title">Juodasis sąrašas</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibruokite palietę</string>
     <string name="quick_settings_vibrate_summary">Vibruokite spustelėję greitą nustatymų plytelę</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Laikas ir data</string>
-    <string name="status_bar_clock_summary">Nustatyti datos ir laiko rodymą</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Laikrodžio nustatymai</string>
-    <string name="status_bar_clock_show">Rodyti laiką ir datą</string>
-    <string name="status_bar_clock_style_title">Laikrodžio stilius</string>
-    <string name="status_bar_clock_style_right">Dešinė</string>
-    <string name="status_bar_clock_style_center">Centras</string>
-    <string name="status_bar_clock_style_left">Kairė</string>
-    <string name="status_bar_am_pm_title">AM / PM stilius</string>
     <string name="status_bar_am_pm_info">24 valandų laikrodis yra įjungtas</string>
-    <string name="status_bar_am_pm_normal">Normalus</string>
-    <string name="status_bar_am_pm_small">Mažas</string>
-    <string name="status_bar_am_pm_hidden">Paslėptas (numatytoji reikšmė)</string>
-    <string name="clock_seconds_display">Rodo sekundes</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Rodyti pasirinktinę datą prieš laikrodį</string>
-    <string name="clock_date_display_none">Nerodyti</string>
-    <string name="clock_date_display_small">Mažas šrifto dydis</string>
-    <string name="clock_date_display_normal">Normalus šrifto dydis</string>
     <string name="clock_date_style">Datos stilius</string>
-    <string name="clock_date_style_normal">Normalus</string>
-    <string name="clock_date_style_lowercase">Mažosios raidės</string>
-    <string name="clock_date_style_uppercase">Didžiosios raidės</string>
-    <string name="clock_date_format_custom">Pasirinktinis \"Java\" formatas</string>
     <string name="clock_date_format">Datos formatas</string>
     <string name="clock_date_string_edittext_title">Turi būti Datos Formatas pvz. MM/dd/mm</string>
     <string name="clock_date_string_edittext_summary">Įveskite eilutę</string>
+    <string name="clock_date_display_none">Nerodyti</string>
+    <string name="clock_date_display_small">Mažas šrifto dydis</string>
+    <string name="clock_date_display_normal">Normalus šrifto dydis</string>
+    <string name="clock_date_style_normal">Normalus</string>
+    <string name="clock_date_style_lowercase">Mažosios raidės</string>
+    <string name="clock_date_style_uppercase">Didžiosios raidės</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Greita prieiga</string>
     <string name="quick_pulldown_summary">Būsenos juostos %1$s kampas ištraukia greitųjų nustatymų panėlę</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Apšvietimo mygtukai liečiant</string>
     <string name="button_backlight_on_touch_only_summary">Mygtukai bus apšviesti tik paspaudus, o ne visada. Apšvietimo trukmė taip pat įtakoja šią funkciją.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Aplinkos muzikos simbolis</string>
+    <string name="force_ambient_for_media_pref_summary">Konfigūruoti aplinkos muzikos simbolį</string>
+    <string name="force_ambient_for_media_title">Įgalinti</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

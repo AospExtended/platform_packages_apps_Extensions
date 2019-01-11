@@ -18,18 +18,67 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="extensions_title">Əlavələr</string>
+    <string name="add">Əlavə Et</string>
+    <string name="advanced">Ətraflı</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="choose_app">Tətbiq seçin</string>
+    <string name="general_category">Ümumi</string>
+    <string name="gestures_category">Hərəkətlər</string>
+    <string name="music_category">Musiqi</string>
+    <string name="security_category">Təhlükəsizlik</string>
+    <string name="hardware_category">Təchizat</string>
+    <string name="icons_category">İkonlar</string>
+    <string name="aosp_recents_category">AOSP son tətbiqetmələr</string>
+    <string name="light_category">İşıqlar</string>
+    <string name="dlg_ok">Oldu</string>
+    <string name="attention">Diqqət</string>
+    <string name="loading">Yüklənir\u2026</string>
+    <string name="reset">Sıfırla</string>
+    <string name="reset_colors">Rəngləri sıfırla</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Mətn</string>
+    <string name="icon_title">Nişan</string>
+    <string name="color_title">Rəng</string>
+    <string name="colors_title">Rənglər</string>
     <!-- Extensions categories -->
+    <string name="recents_category">Son İstifadə Edilənlər</string>
+    <string name="recents_category_summary">Ən son ümumi baxışları özəlləşdirin </string>
+    <string name="status_bar_category">Status paneli</string>
+    <string name="status_bar_category_summary">Status panelini özəlləşdirin</string>
+    <string name="notifications_panel_category">Bildirişlər paneli</string>
+    <string name="notifications_panel_category_summary">Parametrlər və bildirişlər panelini özəlləşdirin </string>
+    <string name="system_category">Sistem </string>
+    <string name="system_category_summary">Müxtəlif sistem əlavələri</string>
+    <string name="lockscreen_category">Kilid ekranı</string>
+    <string name="lockscreen_category_summary">Kilid ekranını özəlləşdirin</string>
+    <string name="navigation_category">Naviqasiya</string>
+    <string name="navigation_category_summary">Naviqasiya panelini özəlləşdirin</string>
+    <string name="build_tweaks_summary_title">Cihazınızı fərdiləşdirin!</string>
+    <string name="system_animations">Sistem animasiyaları</string>
+    <string name="listview">Siyahı Görünüşü</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">Ümumi Parametrlər</string>
     <!-- Network traffic -->
+    <string name="traffic_title">Trafik indiqatorları</string>
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">Operator Etiketi</string>
     <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Müxtəlif əlavələr</string>
     <!-- Recents UI -->
+    <string name="recents_ui_title">Son istifadə edilənlər interfeysi</string>
     <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Kilid ekranı interfeysi</string>
     <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts">Kilid ekranı qısayolları</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Kilid ekranı tuneri</string>
+    <string name="hide_lockscreen_items_title">Kilid ekranı üzvləri</string>
     <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Status paneli elementləri</string>
     <!-- Notifications -->
+    <string name="notifications_title">Bildirişlər</string>
     <!-- Footer warnings -->
     <!-- Navigation -->
     <!-- Quick Settings -->
@@ -44,17 +93,65 @@
     <!-- Double tap-to-sleep -->
     <!-- Network traffic -->
     <!-- Heads up -->
+    <string name="add_heads_up_package">Tətbiq əlavə et</string>
+    <string name="heads_up_stoplist_title">Dayandırma siyahısı</string>
+    <string name="heads_up_blacklist_title">Qara siyahı</string>
+    <string name="profile_choose_app">Tətbiqetmə seçin</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="dialog_delete_message">Seçilmiş element silinsin?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Vaxt bitdi</string>
+    <string name="heads_up_time_out_summary">Bildiriş pəncərələri <xliff:g id="number">%d</xliff:g> saniyə ərzində göstəriləcək</string>
+    <string name="heads_up_time_out_2sec">2 saniyә</string>
+    <string name="heads_up_time_out_4sec">4 saniyә</string>
+    <string name="heads_up_time_out_5sec">5 saniyə</string>
+    <string name="heads_up_time_out_6sec">6 saniyə</string>
+    <string name="heads_up_time_out_8sec">8 saniyə</string>
+    <string name="heads_up_time_out_10sec">10 saniyə</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Mürgüləmə vaxtı </string>
+    <string name="heads_up_snooze_summary_one_minute">Bildiriş pəncərələrini sürüşdürülərək 1 dəqiqə müddətində tətbiq etmələrədən gələcək olan bildirişlər təxirə salınır</string>
+    <string name="heads_up_snooze_summary">Bildiriş pəncərələrini sürüşdürülərək <xliff:g id="number">%d</xliff:g> dəqiqə müddətində tətbiq etmələrədən gələcək olan bildirişlər təxirə salınır</string>
+    <string name="heads_up_snooze_disabled_summary">Mürgüləmə taymeri söndürüldü</string>
+    <string name="heads_up_snooze_1min">1 dəqiqə</string>
+    <string name="heads_up_snooze_5min">5 dəqiqə</string>
+    <string name="heads_up_snooze_10min">10 dəqiqə</string>
+    <string name="heads_up_snooze_15min">15 dəqiqə</string>
+    <string name="heads_up_snooze_20min">20 dəqiqə</string>
+    <string name="face_auto_unlock_title">Üz ilə avtomatik kilid açma</string>
+    <string name="face_auto_unlock_summary">Üz kilidini açdıqdan sonra kilid ekranını bağla.</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Rouminq göstəricisi</string>
+    <string name="roaming_indicator_icon_summary">Rouminq rejimində siqnal simvolunda rouminq göstəricisini göstərin</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G nişan</string>
+    <string name="show_fourg_icon_summary">LTE əvəzinə siqnal simvolu 4G nişanını göstərin</string>
     <!-- Buttons title -->
+    <string name="volume_category">Səs düymələri</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Səslənmə kontrolu</string>
+    <string name="volume_rocker_music_controls_summary">Ekran sönülü ikən səs düymələrinə uzun basmaq, musiqi parçasını dəyişdirər</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Barmaq izi tanınmasının vibrasiyası</string>
+    <string name="fprint_sucess_vib_summary">Uğurlu barmaq izi kimlik təsdiqlənməsində titrə</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Barmaq izi ilə kilid açma</string>
+    <string name="fp_unlock_keystore_summary">PİN / Şifrə / olmadan yenidən başladıldıqdan sonra barmaq izi ilə cihazın kilidini açın \nQeyd: bu sizin öz riskinizdir!</string>
     <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Kursor</string>
+    <string name="volume_key_cursor_control_title">Səs düyməsi ilə kursor kontrolu</string>
+    <string name="volume_key_cursor_control_off">Ləğv edildi</string>
+    <string name="volume_key_cursor_control_on">Səs artırma/azaltma kursoru sola/sağa sürüşdürür</string>
+    <string name="volume_key_cursor_control_on_reverse">Səs yuxarı/aşağı kursoru sağa/sola sürüşdürür</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Səs düyməsi ilə oyandır</string>
+    <string name="volume_rocker_wake_summary">Ses tuşlarına toxunulduqda cihazı oyat</string>
     <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Ses düymələri ilə cavabla</string>
+    <string name="volume_answer_call_summary">Səs düymələri basıldığında zəngə cavab verilsin</string>
+    <string name="torch_long_press_power_gesture_title">Söndürmə düyməsi ilə fənər yansın</string>
+    <string name="torch_long_press_power_gesture_desc">Ekran sönülü olan zaman söndürmə (power) düyməsini basıb tutmaqla fənər yansın</string>
+    <string name="torch_long_press_power_timeout_title">Fənəri avtomatik söndür</string>
     <!-- Battery light -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
@@ -67,15 +164,75 @@
     <!-- QS footer warnings -->
     <!-- Power menu on secure lockscreen -->
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <!-- Status bar clock and date options -->
+    <string name="status_bar_am_pm_info">24 saat forması aktivləşdirildi</string>
+    <string name="clock_date_display">Tarix</string>
+    <string name="clock_date_display_summary">Saatdan əvvəl xüsusi tarixi göstər</string>
+    <string name="clock_date_style">Tarix stili</string>
+    <string name="clock_date_format">Tarix formatı</string>
+    <string name="clock_date_string_edittext_title">Tarix formatı AA/gg/ii və s. kimi olmalıdır</string>
+    <string name="clock_date_string_edittext_summary">Sıra daxil edin</string>
+    <string name="clock_date_display_none">Göstərmə</string>
+    <string name="clock_date_display_small">Balaca şrift ölçüsü</string>
+    <string name="clock_date_display_normal">Normal şrift ölçüsü</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Balaca hərf</string>
+    <string name="clock_date_style_uppercase">Böyük hərf</string>
     <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Sürətli aşağıya çəkmək</string>
+    <string name="quick_pulldown_summary">Vəziyyət çubuğunun %1$s kənarından aşağı çəkdikdə Sürətli Parametrlər açılır</string>
+    <string name="quick_pulldown_summary_always">Hər zaman vəziyyət çubuğunu aşağı çəkəndə Sürətli Parametrləri göstər</string>
+    <string name="quick_pulldown_off">Bağlı</string>
+    <string name="quick_pulldown_left">Sol</string>
+    <string name="quick_pulldown_right">Sağ</string>
+    <string name="quick_pulldown_always">Hər zaman</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE nişan</string>
+    <string name="volte_icon_summary">VoLTE nişanı göstər</string>
     <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Ağıllı aşağı çəkmə</string>
+    <string name="smart_pulldown_summary">Mövcud %1$s bildirişlər olanda sürətli parametrləri açar</string>
+    <string name="smart_pulldown_none_summary">Heç bir bildiriş olmadıqda sürətli parametrləri aç</string>
+    <string name="smart_pulldown_off">Bağlı</string>
+    <string name="smart_pulldown_none">heç bir bildiriş yoxdur</string>
+    <string name="smart_pulldown_dismissable">bağlanıla bilən bildiriş yoxdur</string>
+    <string name="smart_pulldown_ongoing">davam edən yoxdur</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">Dayandırılan əməliyyatlar</string>
+    <string name="screen_state_toggles_enable_title">Aktivləşdir</string>
+    <string name="screen_state_toggles_enable_summary">Əməliyyatlar ekran bağlananda başlayacaq. Ekran açılan zaman əvvəlki vəziyyətə qayıdacaq.</string>
+    <string name="screen_state_toggles_mobile_title">Mobil şəbəkə</string>
+    <string name="screen_state_toggles_location_title">Məkan</string>
+    <string name="screen_state_toggles_twog">2G-yə keç</string>
+    <string name="screen_state_toggles_twog_summary">Ekran bağlı olan zaman şəbəkə 2G-yə keçəcək</string>
+    <string name="screen_state_toggles_gps">GPS bağla</string>
+    <string name="screen_state_toggles_gps_summary">Ekran bağlı olan zaman GPS bağlanacaq</string>
+    <string name="screen_state_toggles_mobile_data">Mobil interneti söndür</string>
+    <string name="screen_state_toggles_mobile_data_summary">Ekran bağlı olan zaman mobil internet bağlanacaq</string>
     <!-- Weather -->
     <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
     <!-- Ambient display music ticker -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

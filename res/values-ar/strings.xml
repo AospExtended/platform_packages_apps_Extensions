@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">الإشعارات المنبثقة مفعّلة</string>
     <string name="summary_heads_up_disabled">الإشعارات المنبثقة معطّلة</string>
     <string name="add_heads_up_package">إضافة تطبيق</string>
-    <string name="add_heads_up_stoplist_summary">تعطيـل الاشعارات العلوية في هذه التطبيقات</string>
     <string name="add_heads_up_blacklist_summary">تعطيـل الاشعارات العلوية من هذه التطبيقات</string>
     <string name="heads_up_stoplist_title">الممنوعين</string>
     <string name="heads_up_blacklist_title">القائمة السوداء</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">الإهتزاز عند اللمس</string>
     <string name="quick_settings_vibrate_summary">إهتزاز عند لمس مربعات الإعدادات السريعة</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">الساعة والتاريخ</string>
-    <string name="status_bar_clock_summary">تهيئة مظهر الساعة و التاريخ في شريط الحالة</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">إعدادات الساعة</string>
-    <string name="status_bar_clock_show">إظهار الساعة والتاريخ</string>
-    <string name="status_bar_clock_style_title">نمط الساعة</string>
-    <string name="status_bar_clock_style_right">اليمين</string>
-    <string name="status_bar_clock_style_center">الوسط</string>
-    <string name="status_bar_clock_style_left">الـيسار</string>
-    <string name="status_bar_am_pm_title">نمط صباحاً/مساءاً</string>
     <string name="status_bar_am_pm_info">تم تمكين تنسيق 24 ساعة</string>
-    <string name="status_bar_am_pm_normal">عادي</string>
-    <string name="status_bar_am_pm_small">صغير</string>
-    <string name="status_bar_am_pm_hidden">مخفي (إفتراضي)</string>
-    <string name="clock_seconds_display">إظهار الثواني</string>
     <string name="clock_date_display">التاريخ</string>
     <string name="clock_date_display_summary">إعرض تاريخ مخصص قبل الساعة</string>
-    <string name="clock_date_display_none">لا تظهر</string>
-    <string name="clock_date_display_small">حجم الخط الصغير</string>
-    <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
     <string name="clock_date_style">نمط التاريخ</string>
-    <string name="clock_date_style_normal">عادي</string>
-    <string name="clock_date_style_lowercase">أحرف صغيرة</string>
-    <string name="clock_date_style_uppercase">أحرف كبيرة</string>
-    <string name="clock_date_format_custom">نسق java مخصص</string>
     <string name="clock_date_format">صيغة التاريخ</string>
     <string name="clock_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
     <string name="clock_date_string_edittext_summary">أدخل السلسلة</string>
+    <string name="clock_date_display_none">لا تظهر</string>
+    <string name="clock_date_display_small">حجم الخط الصغير</string>
+    <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
+    <string name="clock_date_style_normal">عادي</string>
+    <string name="clock_date_style_lowercase">أحرف صغيرة</string>
+    <string name="clock_date_style_uppercase">أحرف كبيرة</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">السحب السريع لأسفل</string>
     <string name="quick_pulldown_summary">الحافة %1$s لشريط الحالة يسحب الإعدادات السريعة لأسفل</string>
@@ -357,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">إضاءة الأزرار عند لمسها</string>
     <string name="button_backlight_on_touch_only_summary">سوف يعمل ضوء الأزرار فقط عند الضغط عليها بدلاً من ان تعمل كل الوقت. المهلة لا تزال تؤثر في هذه الميزة.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">الشريط الموسيقي المحيطي</string>
+    <string name="force_ambient_for_media_pref_summary">تهيئة شريط الموسيقى المحيطي</string>
+    <string name="force_ambient_for_media_title">تمكين</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

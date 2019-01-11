@@ -18,64 +18,351 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="extensions_title">एक्सटेंशन</string>
+    <string name="add">जोड़ें</string>
+    <string name="advanced">एडवांस्ड</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="choose_app">ऐप चुनें</string>
+    <string name="general_category">सामान्य</string>
+    <string name="gestures_category">गेस्चर्स</string>
+    <string name="music_category">संगीत</string>
+    <string name="security_category">सुरक्षा</string>
+    <string name="hardware_category">हार्डवेयर</string>
+    <string name="icons_category">आइकॉन</string>
+    <string name="aosp_recents_category">AOSP रिसेंट्स</string>
+    <string name="light_category">लाइट्स</string>
+    <string name="dlg_ok">ओके</string>
+    <string name="attention">ध्यान दें</string>
+    <string name="loading">लोड हो रहा है\u2026</string>
+    <string name="reset">रीसेट करें</string>
+    <string name="reset_colors">रंग रीसेट करें</string>
+    <string name="reset_android">एंड्रॉयड</string>
+    <string name="text_title">पाठ</string>
+    <string name="icon_title">आइकॉन</string>
+    <string name="color_title">रंग</string>
+    <string name="colors_title">रंग</string>
     <!-- Extensions categories -->
+    <string name="recents_category">रिसेंट्स</string>
+    <string name="recents_category_summary">अपने रिसेंट्स अवलोकन में बदलाव करें</string>
+    <string name="status_bar_category">स्टेटस बार</string>
+    <string name="status_bar_category_summary">अपने स्टेटस बार में बदलाव करें</string>
+    <string name="notifications_panel_category">सूचना पैनल</string>
+    <string name="notifications_panel_category_summary">अपनी सूचनाओं तथा QS पैनल में बदलाव करें</string>
+    <string name="system_category">सिस्टम</string>
+    <string name="system_category_summary">विभिन्न सिस्टम एक्सटेंशन</string>
+    <string name="lockscreen_category">लॉकस्क्रीन</string>
+    <string name="lockscreen_category_summary">अपनी लॉकस्क्रीन में बदलाव करें</string>
+    <string name="navigation_category">नेविगेशन</string>
+    <string name="navigation_category_summary">अपने नेविगेशन बार में बदलाव करें</string>
+    <string name="build_tweaks_summary_title">अपने डिवाइस का विस्तार करें!</string>
+    <string name="system_animations">सिस्टम एनिमेशन</string>
+    <string name="listview">लिस्ट-व्यू</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">सामान्य बदलाव</string>
     <!-- Network traffic -->
+    <string name="traffic_title">इंटरनेट ट्रैफिक सूचक</string>
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">कैरियर लेबल</string>
     <!-- Misc Extensions -->
+    <string name="misc_extensions_title">विविध एक्सटेंशन</string>
     <!-- Recents UI -->
+    <string name="recents_ui_title">रिसेंट्स UI</string>
     <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">लॉकस्क्रीन UI</string>
     <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts">लॉक्सक्रीन शॉर्टकट</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">लॉकस्क्रीन ट्यूनर</string>
+    <string name="hide_lockscreen_items_title">लॉकस्क्रीन आइटम</string>
     <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">स्टेटसबार आइटम</string>
     <!-- Notifications -->
+    <string name="notifications_title">सूचनाएँ</string>
     <!-- Footer warnings -->
+    <string name="smart_pixels_warning_text">स्मार्ट पिक्सेल एक पावर सेविंग फीचर है। यह निर्भर करता है कि आप जितने ज्यादा पिक्सेल आप बंद करेंगे, उतना ही बैटरी लाइफ में सुधार होगा। अच्छे अनुभव के लिए, हम अनुशंसा करते हैं कि आप अक्षम (बंद) पिक्सेल की मात्रा ७५ प्रतिशत पर सेट करें ।</string>
     <!-- Navigation -->
+    <string name="navigationbar_settings_title">नेविगेशन बार</string>
     <!-- Quick Settings -->
+    <string name="quick_settings_title">त्वरित सेटिंग्स</string>
     <!-- Buttons -->
+    <string name="buttons_title">बटन</string>
     <!-- App Ops -->
+    <string name="app_ops_category">एप्लिकेशन ऑप्स</string>
     <!-- App info dialog -->
+    <string name="extensions_dialog_title">आपकी सहायता करने में हमारी सहायता करें!</string>
+    <string name="extensions_dialog_message">यदि आप इनमें से किसी भी सेटिंग में कोई बग पाते हैं, तो हमारे Google+ पृष्ठ के बग रिपोर्ट अनुभाग में पोस्ट करें. बग रिपोर्ट प्रेषित करते समय आपको निम्न शामिल करना चाहिए:\n\n1. logcat या last_kmsg\n2. Kernel और mods जो उपयोग में हैं\n3. उपयोगी जानकारी\n\nअगर आप ठीक से कोई बग रिपोर्ट करने में असफल रहे तो उम्मीद मत कीजिये को वह ठीक हो ही जायेगा.</string>
+    <string name="extensions_dialog_toast">इसको पूरा पढ़ें!</string>
     <!-- System theme -->
+    <string name="accent_picker_dialog_title">किसी एक्सेंट रंग का चयन करें</string>
+    <string name="theme_accent_picker_title">एक्सेंट रंग</string>
+    <string name="theme_accent_picker_summary">सिस्टम थीम एक्सेंट रंग का चयन करें</string>
+    <string name="theme_accent_picker_default">डिफ़ाल्ट</string>
     <!-- Color Picker -->
+    <string name="dialog_color_picker">रंग चयन</string>
+    <string name="press_color_to_apply">नीचे दिए गए रंग को लागू करने के लिए दबाएँ</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">सेट करें</string>
+    <string name="color_default">डिफ़ाल्ट</string>
     <!-- Power Menu -->
+    <string name="power_menu_title">पावर मेन्यू</string>
+    <string name="power_menu_title_summary">पावर मेनू प्रविष्टियां देखें या बदलें</string>
+    <string name="powermenu_screenshot">स्क्रीनशॉट</string>
+    <string name="powermenu_torch">टॉर्च</string>
+    <string name="powermenu_power">पावर</string>
+    <string name="powermenu_restart">रीस्टार्ट</string>
+    <string name="powermenu_restart_recovery">एडवांस रीस्टार्ट</string>
+    <string name="powermenu_airplane">हवाईजहाज</string>
+    <string name="powermenu_settings">सेटिंग्स</string>
+    <string name="powermenu_lockdown">लॉक डाउन</string>
+    <string name="powermenu_soundpanel">ध्वनि पैनल</string>
+    <string name="powermenu_users">उपयोगकर्ता</string>
+    <string name="powermenu_logout">लॉग आउट करें</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">ब्राइटनेस स्लाइडर</string>
+    <string name="qs_brightness_slider_summary">त्वरित सेटिंग पैनल में ब्राइटनेस स्लाइडर दिखाएँ</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">स्लीप मोड में जाने के लिए लॉक-स्क्रीन पर दो बार टैप</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">स्लीप मोड में जाने के लिए लॉक-स्क्रीन के ऊपरी एक तिहाई या नीचे शॉर्टकट क्षेत्र पर दो बार टैप करें</string>
     <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">स्टेटस बार</string>
+    <string name="double_tap_to_sleep_summary">स्लीप मोड में जाने के लिए स्टेटस बार पर दो बार टैप करें</string>
     <!-- Network traffic -->
+    <string name="network_traffic_title">नेटवर्क ट्रैफ़िक</string>
+    <string name="network_traffic_type">नेट गतिविधि प्रकार का चयन करें</string>
+    <string name="show_network_traffic_up">अपलोड</string>
+    <string name="show_network_traffic_down">डाउनलोड</string>
+    <string name="show_network_traffic_all">अपलोड और डाउनलोड</string>
+    <string name="network_traffic_state_title">स्टेटस बार में इंटरनेट गतिविधि दिखाएं</string>
+    <string name="network_traffic_autohide_threshold_title">नेट गतिविधि स्वतः छुपाने की सीमा (KB/s)</string>
     <!-- Heads up -->
+    <string name="headsup_category">सचेत की सेटिंग्स</string>
+    <string name="heads_up_notifications">सचेत</string>
+    <string name="summary_heads_up_enabled">पॉप-अप सूचनाएं सक्षम</string>
+    <string name="summary_heads_up_disabled">पॉप-अप सूचनाएं अक्षम</string>
+    <string name="add_heads_up_package">एप्लिकेशन जोड़ें</string>
+    <string name="add_heads_up_blacklist_summary">इन ऐप् से सचेत सूचनाएँ अक्षम करें</string>
+    <string name="heads_up_stoplist_title">स्टॉप-लिस्ट</string>
+    <string name="heads_up_blacklist_title">ब्लैक-लिस्ट</string>
+    <string name="profile_choose_app">ऐप चुनें</string>
+    <string name="dialog_delete_title">हटाएं</string>
+    <string name="dialog_delete_message">चयनित आइटम हटाएं?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">समय समाप्त</string>
+    <string name="heads_up_time_out_summary">अधिसूचनाओं की झलक <xliff:g id="number">%d</xliff:g> सेकंड तक दिखाई देगी</string>
+    <string name="heads_up_time_out_2sec">२ सेकंड</string>
+    <string name="heads_up_time_out_4sec">४ सेकंड</string>
+    <string name="heads_up_time_out_5sec">५ सेकंड</string>
+    <string name="heads_up_time_out_6sec">६ सेकंड</string>
+    <string name="heads_up_time_out_8sec">८ सेकंड</string>
+    <string name="heads_up_time_out_10sec">१० सेकंड</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">स्नूज़ टाइमर</string>
+    <string name="heads_up_snooze_summary_one_minute">अधिसूचनओं पे ऊपर की तरफ स्वाइप करने से उस ऐप की सूचनाएं १ मिनट के लिए रुक जाएँगी</string>
+    <string name="heads_up_snooze_summary">अधिसूचनओं पे ऊपर की तरफ स्वाइप करने से उस ऐप की सूचनाएं <xliff:g id="number">%d</xliff:g> मिनट के लिए रुक जाएँगी</string>
+    <string name="heads_up_snooze_disabled_summary">स्नूज़ टाइमर बंद किया गया</string>
+    <string name="heads_up_snooze_1min">१ मिनट</string>
+    <string name="heads_up_snooze_5min">५ मिनट</string>
+    <string name="heads_up_snooze_10min">१० मिनट</string>
+    <string name="heads_up_snooze_15min">१५ मिनट</string>
+    <string name="heads_up_snooze_20min">२० मिनट</string>
+    <string name="face_auto_unlock_title">फेस ऑटो अनलॉक</string>
+    <string name="face_auto_unlock_summary">फेस अनलॉक के बाद लॉकस्क्रीन खारिज करें</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">रोमिंग सूचक</string>
+    <string name="roaming_indicator_icon_summary">रोमिंग मोड में सिग्नल आइकॉन में रोमिंग संकेतक प्रदर्शित करें</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G आइकन</string>
+    <string name="show_fourg_icon_summary">LTE के बजाय सिग्नल आइकन में 4G आइकन प्रदर्शित करें</string>
     <!-- Buttons title -->
+    <string name="volume_category">वॉल्यूम घुमाव</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">प्लेबैक कंट्रोल</string>
+    <string name="volume_rocker_music_controls_summary">जब स्क्रीन बंद हो तब ध्वनि कुंजियाँ देर तक दबाने से संगीत ट्रैक तेजी से आगे/पीछे होगा</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">फ़िंगरप्रिंट प्रमाणन होने पर कंपन</string>
+    <string name="fprint_sucess_vib_summary">सफल फ़िंगरप्रिंट प्रमाणन पर कंपन</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">फिंगरप्रिंट अनलॉक</string>
+    <string name="fp_unlock_keystore_summary">रिबूट के बाद सिर्फ फिंगरप्रिंट से डिवाइस अनलॉक करें बिना पिन/पासवर्ड/पैटर्न के\nनोट: अपने जोखिम पर उपयोग करें!</string>
     <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">कर्सर</string>
+    <string name="volume_key_cursor_control_title">वॉल्यूम कुंजी कर्सर कंट्रोल</string>
+    <string name="volume_key_cursor_control_off">निष्क्रिय</string>
+    <string name="volume_key_cursor_control_on">वॉल्यूम ऊपर/नीचे करने से कर्सर बाएं/दाएं हो जायेगा</string>
+    <string name="volume_key_cursor_control_on_reverse">वॉल्यूम ऊपर/नीचे करने से कर्सर दाएं/बाएं हो जायेगा</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">वॉल्यूम रॉकर जगना</string>
+    <string name="volume_rocker_wake_summary">वॉल्यूम बटन दबाने पर आप का फ़ोन जग जाएगा</string>
     <!-- The volume key answer -->
+    <string name="volume_answer_call_title">वॉल्यूम कुंजी से जवाब</string>
+    <string name="volume_answer_call_summary">वॉल्यूम कुंजी दबाने पर कॉल का जवाब दे</string>
+    <string name="torch_long_press_power_gesture_title">स्क्रीन बंद पावर बटन टॉर्च</string>
+    <string name="torch_long_press_power_gesture_desc">जब स्क्रीन बंद हो तब फ्लैशलाइट चालू करने के लिए पॉवर बटन को देर तक दबाए</string>
+    <string name="torch_long_press_power_timeout_title">स्वचालित रूप से टॉर्च बंद करें</string>
+    <string name="torch_long_press_power_timeout_never">कभी नहीं</string>
+    <string name="torch_long_press_power_timeout_1min">१ मिनट</string>
+    <string name="torch_long_press_power_timeout_2min">२ मिनट</string>
+    <string name="torch_long_press_power_timeout_5min">५ मिनट</string>
+    <string name="torch_long_press_power_timeout_10min">१० मिनट</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">बैटरी चार्ज लाइट</string>
+    <string name="battery_light_enable">बैटरी लाइट</string>
+    <string name="battery_light_allow_on_dnd_title">डू नट डिस्टर्ब मोड में बैटरी लाईट</string>
+    <string name="battery_light_low_blinking_title">कम बैटरी पर ब्लिंकिंग लाइट</string>
+    <string name="battery_light_cat">चार्जिंग के समय बैटरी लाइट का रंग</string>
+    <string name="battery_light_low_color">कम बैटरी</string>
+    <string name="battery_light_medium_color">मध्यम बैटरी</string>
+    <string name="battery_light_full_color">लगभग पूर्ण बैटरी</string>
+    <string name="battery_light_reallyfull_color">पूर्ण (१००) बैटरी</string>
+    <string name="notification_light_settings">सुचना लाइट</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">लॉकसक्रीन पर चार्जिंग की जानकारी</string>
+    <string name="lockscreen_battery_info_summary">चार्ज करते समय लॉकस्क्रीन पर अधिकतम करंट, वर्तमान वोल्टेज और बैटरी तापमान दिखाएं</string>
     <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">स्टेटस बार बैटरी शैली</string>
     <!-- Battery percentage -->
+    <string name="battery_style_category_title">बैटरी आइकन</string>
+    <string name="status_bar_battery_percentage_title">बैटरी प्रतिशत</string>
+    <string name="status_bar_battery_percentage_default">छिपा हुआ</string>
+    <string name="status_bar_battery_percentage_text_next">आइकन के आगे</string>
+    <string name="status_bar_battery_percentage_text_inside">आइकन के अंदर</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_port">उर्ध्व</string>
+    <string name="status_bar_battery_style_circle">वृत्त</string>
+    <string name="battery_style_dotted_circle">डॉटेड वृत्त</string>
+    <string name="status_bar_battery_style_text">पाठ</string>
+    <string name="status_bar_battery_style_hidden">छिपा हुआ</string>
     <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">रिसेंट्स शैली</string>
+    <string name="recents_pie">पाई</string>
+    <string name="recents_oreo">ओरिओ</string>
     <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">अपारदर्शिता</string>
+    <string name="qs_opacity_category">QS पैनल अपारदर्शिता</string>
     <!-- Toast app icon -->
+    <string name="toast_icon_title">टोस्ट ऐप् आइकन</string>
+    <string name="toast_icon_summary">टोस्ट से संबंधित ऐप आइकन प्रदर्शित करें</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_position_bottom_title">नीचे ब्राइटनेस स्लाइडर</string>
+    <string name="qs_brightness_position_bottom_summary">त्वरित सेटिंग के नीचे ब्राइटनेस स्लाइडर दिखाएँ</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS फुटर चेतावनियां</string>
+    <string name="qs_footer_warnings_summary">QS पैनल के नीचे एक चेतावनी प्रदर्शित करें जब बाहरी ऐप् या वीपीएन द्वारा नेटवर्क की निगरानी की जा रही हो</string>
     <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">लॉक्सक्रीन दृश्यता</string>
+    <string name="powermenu_lockscreen_summary">लॉकस्क्रीन पर पावर मेनू दिखाने और उपयोग करने की क्षमता सक्षम करें</string>
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <string name="quick_settings_vibrate_title">स्‍पर्श पर कंपन करें</string>
+    <string name="quick_settings_vibrate_summary">QS टाइल को छूते समय कंपन करें</string>
+    <!-- Status bar clock and date options -->
+    <string name="status_bar_clock_title">घड़ी सेटिंग्स</string>
+    <string name="status_bar_am_pm_info">२४-घंटा घड़ी सक्षम किया गया है</string>
+    <string name="clock_date_display">दिनांक</string>
+    <string name="clock_date_display_summary">घड़ी से पहले कस्टम दिनांक प्रदर्शित करें</string>
+    <string name="clock_date_style">दिनांक शैली</string>
+    <string name="clock_date_format">दिनांक प्रारूप</string>
+    <string name="clock_date_string_edittext_title">दिनांक प्रारूप में ही होना चाहिए जैसे कि. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">स्ट्रिंग दर्ज करें</string>
+    <string name="clock_date_display_none">नहीं दिखाएं</string>
+    <string name="clock_date_display_small">छोटा फोंट आकार</string>
+    <string name="clock_date_display_normal">सामान्य फोंट आकार</string>
+    <string name="clock_date_style_normal">सामान्य</string>
+    <string name="clock_date_style_lowercase">छोटे अक्षरों में</string>
+    <string name="clock_date_style_uppercase">बड़े अक्षरों में</string>
     <!-- Quick pull down-->
+    <string name="quick_pulldown_title">त्वरित नीचे खींचिए</string>
+    <string name="quick_pulldown_summary">स्टेटस बार का %1$s किनारा क्विक सेटिंग्स को नीचे खींचता है</string>
+    <string name="quick_pulldown_summary_always">स्टेटस बार नीचे खींचने पर क्विक सेटिंग्स को हमेशा दिखाएं</string>
+    <string name="quick_pulldown_off">बंद</string>
+    <string name="quick_pulldown_left">बाएँ</string>
+    <string name="quick_pulldown_right">दाएं</string>
+    <string name="quick_pulldown_always">हमेशा</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE चिह्न</string>
+    <string name="volte_icon_summary">VoLTE चिह्न प्रदर्शित करें</string>
     <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">स्मार्ट पुलडाउन</string>
+    <string name="smart_pulldown_summary">%1$s सुचना(एं) होने पर त्वरित सेटिंग्स खोलें</string>
+    <string name="smart_pulldown_none_summary">कोई सूचनाएं नहीं होने पर त्वरित सेटिंग्स खोलें</string>
+    <string name="smart_pulldown_off">बंद</string>
+    <string name="smart_pulldown_none">कोई अधिसूचनाएं नहीं</string>
+    <string name="smart_pulldown_dismissable">कोई खारिज करने योग्य नहीं</string>
+    <string name="smart_pulldown_ongoing">कुछ भी जारी नहीं</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">\@null</string>
+    <string name="screen_state_toggles_title">क्रियाएं निलंबित करें</string>
+    <string name="screen_state_toggles_enable_title">सक्षम करें</string>
+    <string name="screen_state_toggles_enable_summary">कार्रवाई बंद स्क्रीन पर क्रियान्वित की जाएँगी। स्क्रीन ऑन होने पर पूर्व स्तिथि को पुनर्स्थापित किया जाएगा।</string>
+    <string name="screen_state_toggles_mobile_title">मोबाइल नेटवर्क</string>
+    <string name="screen_state_toggles_location_title">लोकेशन</string>
+    <string name="screen_state_toggles_twog">2G पर स्विच करें</string>
+    <string name="screen_state_toggles_twog_summary">स्क्रीन बंद होने पर नेटवर्क मोड 2G पर स्विच किया जाएगा</string>
+    <string name="screen_state_toggles_gps">GPS डिसेबल करें</string>
+    <string name="screen_state_toggles_gps_summary">GPS आधारित लोकेशन सेवा स्क्रीन बंद होने पर निष्क्रिय हो जाएगा</string>
+    <string name="screen_state_toggles_mobile_data">मोबाइल डेटा डिसेबल करें</string>
+    <string name="screen_state_toggles_mobile_data_summary">स्क्रीन बंद होने पर मोबाइल डेटा डिसेबल हो जायेगा</string>
+    <string name="screen_state_off_delay_title">स्क्रीन ऑफ एक्शन विलंब</string>
+    <string name="screen_state_off_delay_summary">स्क्रीन बंद होने के बाद कार्रवाई करने से पहले प्रतीक्षा करने के लिए सेकंड की संख्या</string>
+    <string name="screen_state_on_delay_title">स्क्रीन ऑन एक्शन विलंब</string>
+    <string name="screen_state_on_delay_summary">स्क्रीन ऑन होने के बाद कार्रवाई करने से पहले प्रतीक्षा करने के लिए सेकंड की संख्या</string>
     <!-- Weather -->
+    <string name="weather_title">मौसम</string>
+    <string name="weather_unit">तापमान इकाई</string>
+    <string name="qs_styles_dialog_title">QS टाइल शैली का चयन करें</string>
     <!-- Volume keys control ringtone stream -->
+    <string name="volume_keys_control_ring_tone_title">रिंग वोल्यूम को नियंत्रित करें</string>
+    <string name="volume_keys_control_ring_tone_summary">कुंजियां डिफ़ॉल्ट रूप से मीडिया स्लाइडर को नियंत्रित करती हैं। रिंग टोन स्लाइडर में स्विच करने के लिए सक्षम करें।</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">डेटा अक्षम आइकन दिखाएं</string>
+    <string name="data_disabled_icon_summary">डेटा अक्षम होने पर सिग्नल बार के बगल में क्रॉस प्रदर्शित करें</string>
     <!-- Hardware button navigation -->
+    <string name="hardware_keys_home_key_title">होम बटन</string>
+    <string name="hardware_keys_menu_key_title">मेनू बटन</string>
+    <string name="hardware_keys_assist_key_title">खोज बटन</string>
+    <string name="hardware_keys_appswitch_key_title">अवलोकन बटन</string>
+    <string name="hardware_keys_back_key_title">वापस जाएँ बटन</string>
+    <string name="hardware_keys_double_tap_summary">दो बार टैप क्रिया स्थापित करे</string>
+    <string name="hardware_keys_single_tap_summary">एक बार टैप क्रिया स्थापित करे</string>
+    <string name="hardware_keys_long_press_summary">लंबा प्रेस एक्शन</string>
+    <string name="hardware_keys_single_tap_title">एक बार टैप क्रिया</string>
+    <string name="hardware_keys_long_press_title">लंबा प्रेस एक्शन</string>
+    <string name="hardware_keys_double_tap_title">दो बार टैप क्रिया</string>
+    <string name="hardware_keys_category">नेविगेशन बटन</string>
+    <string name="hardware_keys_disable_title">नेविगेशन बटन अक्षम करें</string>
     <!-- Button brightness -->
+    <string name="button_backlight_options_category">बैकलाइट विकल्प</string>
+    <string name="button_backlight_enable_title">बटन बैकलाइट की अनुमति दें</string>
+    <string name="button_link_brightness">स्क्रीन चमक से जोड़ें</string>
+    <string name="button_link_brightness_summary">बटन बैकलाइट की चमक स्क्रीन की चमक स्तर के आधार पर समायोजित होगी</string>
+    <string name="button_manual_brightness">चमक स्तर</string>
+    <string name="button_timeout_title">बैकलाइट समय समाप्ति</string>
+    <string name="button_backlight_on_touch_only_title">बटन बैकलाइट स्पर्श</string>
+    <string name="button_backlight_on_touch_only_summary">बटन बैकलाइट केवल तभी दिखाई देगा जब बटन दबाया जाता है बजाय हर समय के। बैकलाइट समय समाप्ति अभी भी इस सुविधा को प्रभावित करता है ।</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">परिवेश संगीत टिकर</string>
+    <string name="force_ambient_for_media_pref_summary">परिवेश संगीत टिकर को कॉन्फ़िगर करें</string>
+    <string name="force_ambient_for_media_title">सक्षम करें</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

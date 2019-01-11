@@ -18,19 +18,69 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="extensions_title">એક્સ્ટેન્શન્સ</string>
+    <string name="add">ઉમેરો</string>
+    <string name="advanced">એડવાન્સ</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="choose_app">એપ્લિકેશન પસંદ કરો</string>
+    <string name="general_category">સામાન્ય</string>
+    <string name="gestures_category">જેસ્ચર્સ</string>
+    <string name="music_category">સંગીત</string>
+    <string name="security_category">સુરક્ષા</string>
+    <string name="hardware_category">હાર્ડવેર</string>
+    <string name="icons_category">ચિહ્નો</string>
+    <string name="aosp_recents_category">AOSP રેસેન્ટ</string>
+    <string name="light_category">લાઇટ્સ</string>
+    <string name="dlg_ok">ઠીક છે</string>
+    <string name="attention">ધ્યાન આપો</string>
+    <string name="loading">લોડ કરી રહ્યું છે\u2026</string>
+    <string name="reset">ફરીથી સેટ કરો</string>
+    <string name="reset_colors">રંગો ફરીથી સેટ કરો</string>
+    <string name="reset_android">ઍન્ડ્રોઈડ</string>
+    <string name="text_title">લખાણ</string>
+    <string name="icon_title">ચિહ્નો</string>
+    <string name="color_title">રંગ</string>
+    <string name="colors_title">રંગ</string>
     <!-- Extensions categories -->
+    <string name="recents_category">તાજેતરના</string>
+    <string name="recents_category_summary">તમારા પુનરાવર્તિત ઝાંખી કસ્ટમાઇઝ કરો</string>
+    <string name="status_bar_category">સ્ટેટ્સ બાર</string>
+    <string name="status_bar_category_summary">તમારું કેલેન્ડર કસ્ટમાઈઝ કરો</string>
+    <string name="notifications_panel_category">સૂચના પેનલ</string>
+    <string name="notifications_panel_category_summary">તમારા ક્યુએસ પેનલ અને સૂચનાઓ કસ્ટમાઇઝ કરો</string>
+    <string name="system_category">સિસ્ટમ</string>
+    <string name="system_category_summary">વિવિધ સિસ્ટમ એક્સ્ટેન્શન્સ</string>
+    <string name="lockscreen_category">લોક સ્ક્રિન</string>
+    <string name="lockscreen_category_summary">તમારી લૉકસ્ક્રીનને કસ્ટમાઇઝ કરો</string>
+    <string name="navigation_category">નેવિગેશન</string>
+    <string name="navigation_category_summary">તમારી સંશોધક પટ્ટીને કસ્ટમાઇઝ કરો</string>
+    <string name="build_tweaks_summary_title">તમારા ઉપકરણ ને વધારો!</string>
+    <string name="system_animations">સિસ્ટમ એનિમેશન્સ</string>
+    <string name="listview">સૂચિ દૃશ્ય</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">જનરલ ટ્વીક્સ</string>
     <!-- Network traffic -->
+    <string name="traffic_title">ટ્રાફિક સૂચકાંકો</string>
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">કેરિયર લેબલ</string>
     <!-- Misc Extensions -->
+    <string name="misc_extensions_title">મિશ્રિત એક્સ્ટેન્શન્સ</string>
     <!-- Recents UI -->
+    <string name="recents_ui_title">તાજેતરના UI</string>
     <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">સ્ક્રિન લોક UI</string>
     <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts">લોક સ્ક્રીન શોર્ટકટ</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">લૉકસ્ક્રીન ટ્યુનર</string>
+    <string name="hide_lockscreen_items_title">લૉકસ્કીન વસ્તુઓ</string>
     <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">સ્થિતિપટ્ટી આઇટમ્સ</string>
     <!-- Notifications -->
+    <string name="notifications_title">સૂચના</string>
     <!-- Footer warnings -->
+    <string name="smart_pixels_warning_text">સ્માર્ટ પિક્સેલ એ પાવર બચત સુવિધા છે. તમે બંધ કરવાનો નિર્ણય કરો છો તે પિક્સેલ્સના આધારે, તમે બેટરી જીવનમાં નોંધપાત્ર સુધારણા જોઈ શકો છો. સારા વપરાશકર્તા અનુભવ માટે, અમે ભલામણ કરીએ છીએ કે તમે અક્ષમ પિક્સેલ્સની સંખ્યા 75 ટકા પર સેટ કરો.</string>
     <!-- Navigation -->
     <!-- Quick Settings -->
     <!-- Buttons -->
@@ -44,17 +94,65 @@
     <!-- Double tap-to-sleep -->
     <!-- Network traffic -->
     <!-- Heads up -->
+    <string name="add_heads_up_blacklist_summary">આ એપ્લિકેશન્સમાં હેડ અપ બંધ કરો</string>
+    <string name="heads_up_stoplist_title">સ્ટોપલિસ્ટ</string>
+    <string name="heads_up_blacklist_title">બ્લેકલિસ્ટ</string>
+    <string name="profile_choose_app">એપ્લિકેશન પસંદ કરો</string>
+    <string name="dialog_delete_title">કાઢી નાખો</string>
+    <string name="dialog_delete_message">પસંદ કરેલ કાઢો?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">સમય સમાપ્ત</string>
+    <string name="heads_up_time_out_summary">પીકીંગ સૂચનાઓ <xliff:g id="number">%d</xliff:g> સેકન્ડ્સ માટે બતાવવામાં આવશે</string>
+    <string name="heads_up_time_out_2sec">2 સેકન્ડ્સ</string>
+    <string name="heads_up_time_out_4sec">4 સેકન્ડ્સ</string>
+    <string name="heads_up_time_out_5sec">5 સેકન્ડ્સ</string>
+    <string name="heads_up_time_out_6sec">6 સેકન્ડ્સ</string>
+    <string name="heads_up_time_out_8sec">8 સેકન્ડ્સ</string>
+    <string name="heads_up_time_out_10sec">10 સેકન્ડ્સ</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">સ્નૂઝ ટાઈમર</string>
+    <string name="heads_up_snooze_summary_one_minute">દેખીતી સૂચનાઓ પર સ્વાઇપ કરવાથી તે એપ્લિકેશનથી 1 મિનિટ માટે સ્નૂઝ કરવામાં આવશે</string>
+    <string name="heads_up_snooze_summary">નિરીક્ષણ સૂચનાઓ પર સ્વિપિંગથી <xliff:g id="number">%d</xliff:g> મિનિટ માટે તે એપ્લિકેશનથી હેડને સ્નૂઝ કરશે</string>
+    <string name="heads_up_snooze_disabled_summary">સ્નૂઝ ટાઈમર બંધ છે</string>
+    <string name="heads_up_snooze_1min">1 મિનિટે</string>
+    <string name="heads_up_snooze_5min">5 મિનિટ</string>
+    <string name="heads_up_snooze_10min">10 મિનિટ</string>
+    <string name="heads_up_snooze_15min">15 મિનિટ</string>
+    <string name="heads_up_snooze_20min">20 મિનિટ</string>
+    <string name="face_auto_unlock_title">ફેસ ઓટો અનલૉક</string>
+    <string name="face_auto_unlock_summary">ચહેરો અનલોકિંગ પછી લૉકસ્ક્રીનને કાઢી નાખો</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">રોમિંગ સૂચક</string>
+    <string name="roaming_indicator_icon_summary">રોમિંગ મોડમાં જ્યારે સંકેત આયકનમાં રોમિંગ સૂચક પ્રદર્શિત કરો</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4 જી ચિહ્ન</string>
+    <string name="show_fourg_icon_summary">LTE આઇકોનની જગ્યાએ 4 જી આઇકન દર્શાવો</string>
     <!-- Buttons title -->
+    <string name="volume_category">વોલ્યુમ રોકર</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">પ્લેબેક નિયંત્રણ</string>
+    <string name="volume_rocker_music_controls_summary">જ્યારે સ્ક્રીન બંધ હોય, ત્યારે વોલ્યુમ કીઝને લાંબા સમયથી દબાવીને સંગીત ટ્રેક લેશે</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">ફિંગરપ્રિન્ટ પ્રમાણીકરણ કંપન</string>
+    <string name="fprint_sucess_vib_summary">સફળ ફિંગરપ્રિન્ટ પ્રમાણીકરણ પર વાઇબ્રેટ</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">ફિંગરપ્રિન્ટ અનલૉક</string>
+    <string name="fp_unlock_keystore_summary">PIN / પાસવર્ડ / પેટર્ન વગર રીબૂટ કર્યા પછી ફિંગરપ્રિન્ટ સાથે ઉપકરણને અનલૉક કરો \n નોંધ: તમારા પોતાના જોખમે!</string>
     <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">કર્સર</string>
+    <string name="volume_key_cursor_control_title">વોલ્યુમ કી કર્સર નિયંત્રણ</string>
+    <string name="volume_key_cursor_control_off">નિષ્ક્રિય</string>
+    <string name="volume_key_cursor_control_on">વોલ્યુમ અપ / ડાઉન કર્સર ડાબે / જમણે ખસે છે</string>
+    <string name="volume_key_cursor_control_on_reverse">વોલ્યુમ અપ / ડાઉન કર્સર જમણે / ડાબે ખસે છે</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">વોલ્યુમ રોકર જાગે</string>
+    <string name="volume_rocker_wake_summary">વોલ્યુમ કી દબાવવાથી તમારું ઉપકરણ જાગી જશે</string>
     <!-- The volume key answer -->
+    <string name="volume_answer_call_title">વોલ્યુમ કીઝ જવાબ</string>
+    <string name="volume_answer_call_summary">જ્યારે વોલ્યુમ કી દબાવવામાં આવે ત્યારે કૉલનો જવાબ આપો</string>
+    <string name="torch_long_press_power_gesture_desc">વીજળીની હાથબત્તી ચાલુ કરવા માટે સ્ક્રીન બંધ હોય ત્યારે પાવર બટનને લાંબા સમય સુધી દબાવો</string>
+    <string name="torch_long_press_power_timeout_title">આપમેળે વીજળીની હાથબત્તી બંધ કરો</string>
+    <string name="torch_long_press_power_timeout_never">ક્યારેય નહીં</string>
     <!-- Battery light -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
@@ -67,15 +165,76 @@
     <!-- QS footer warnings -->
     <!-- Power menu on secure lockscreen -->
     <!-- QuickSettings haptic feedback -->
-    <!-- Statusbar Clock -->
+    <!-- Status bar clock and date options -->
+    <string name="status_bar_am_pm_info">24-કલાક ઘડિયાળ સક્ષમ છે</string>
+    <string name="clock_date_display">તારીખ</string>
+    <string name="clock_date_display_summary">ઘડિયાળ પહેલાં વૈવિધ્યપૂર્ણ તારીખ દર્શાવો</string>
+    <string name="clock_date_style">તારીખ શૈલી</string>
+    <string name="clock_date_format">તારીખ ફોર્મેટ</string>
+    <string name="clock_date_string_edittext_title">દા. ત. એમએમ / ડીડી / વાય</string>
+    <string name="clock_date_string_edittext_summary">શબ્દમાળા દાખલ કરો</string>
+    <string name="clock_date_display_none">બતાવશો નહીં</string>
+    <string name="clock_date_display_small">નાના કદનો ફૉન્ટ</string>
+    <string name="clock_date_display_normal">સામાન્ય કદનો ફૉન્ટ</string>
+    <string name="clock_date_style_normal">સામાન્ય</string>
+    <string name="clock_date_style_lowercase">લોઅર કેસ</string>
+    <string name="clock_date_style_uppercase">ઉપલા કેસ</string>
     <!-- Quick pull down-->
+    <string name="quick_pulldown_title">ક્વિક પુલડાઉન</string>
+    <string name="quick_pulldown_summary">%1$s સ્થિતિ પટ્ટીની ધાર ક્વિક સેટિંગ્સને નીચે ખેંચે છે</string>
+    <string name="quick_pulldown_summary_always">હંમેશા સ્થિતિ બાર પુલડાઉન પર ક્વિક સેટિંગ્સ દર્શાવો</string>
+    <string name="quick_pulldown_off">બંધ</string>
+    <string name="quick_pulldown_left">ડાબે</string>
+    <string name="quick_pulldown_right">જમણું</string>
+    <string name="quick_pulldown_always">હંમેશાં</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE આઇકોન</string>
+    <string name="volte_icon_summary">VoLTE આયકન દર્શાવો</string>
     <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">સ્માર્ટ પુલડાઉન</string>
+    <string name="smart_pulldown_summary">જ્યારે %1$s સૂચનાઓ હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
+    <string name="smart_pulldown_none_summary">કોઈ સૂચનાઓ ન હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
+    <string name="smart_pulldown_off">બંધ</string>
+    <string name="smart_pulldown_none">કોઈ સૂચનાઓ નથી</string>
+    <string name="smart_pulldown_dismissable">બરતરફી નહીં</string>
+    <string name="smart_pulldown_ongoing">કોઈ ચાલુ નહીં</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_title">ક્રિયાઓ સસ્પેન્ડ કરો</string>
+    <string name="screen_state_toggles_enable_title">સક્રિય કરો</string>
+    <string name="screen_state_toggles_enable_summary">ક્રિયાઓ સ્ક્રીન પર બંધ કરવામાં આવશે. પાછલા રાજ્ય પરની સ્ક્રીન પર પુનઃસ્થાપિત કરવામાં આવશે.</string>
+    <string name="screen_state_toggles_mobile_title">મોબાઇલ નેટવર્ક્સ</string>
+    <string name="screen_state_toggles_location_title">સ્થાન</string>
+    <string name="screen_state_toggles_twog">2જી પર સ્વિચ કરો</string>
+    <string name="screen_state_toggles_twog_summary">નેટવર્ક મોડને સ્ક્રીન પર 2જી પર ફેરવાશે</string>
+    <string name="screen_state_toggles_gps">જીપીએસ અક્ષમ કરો</string>
+    <string name="screen_state_toggles_gps_summary">જીપીએસ આધારિત સ્થાન સેવા સ્ક્રીન પર નિષ્ક્રિય કરવામાં આવશે</string>
+    <string name="screen_state_toggles_mobile_data">મોબાઇલ ડેટાને અક્ષમ કરો</string>
+    <string name="screen_state_toggles_mobile_data_summary">સ્ક્રીન પર મોબાઇલ ડેટા અક્ષમ કરવામાં આવશે</string>
+    <string name="screen_state_off_delay_title">ક્રિયાઓ વિલંબ સ્ક્રીન</string>
+    <string name="screen_state_off_delay_summary">સ્ક્રીન બંધ પછી ક્રિયાઓ કરવા પહેલાં રાહ જોવી સેકન્ડ્સની સંખ્યા</string>
     <!-- Weather -->
     <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
     <!-- Ambient display music ticker -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

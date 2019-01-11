@@ -67,16 +67,16 @@
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Varie estensioni</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Interfaccie utente recenti</string>
+    <string name="recents_ui_title">Interfaccia utente</string>
     <!-- Lockscreen UI -->
-    <string name="lockscreen_ui_title">Interfaccia schermata di blocco</string>
+    <string name="lockscreen_ui_title">Interfaccia</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts">Scorciatoie schermata di blocco</string>
+    <string name="lockscreen_shortcuts">Scorciatoie</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Scorciatoie schermata di blocco</string>
+    <string name="lockscreen_tuner_title">Personalizza</string>
     <string name="hide_lockscreen_items_title">Elementi nella schermata di blocco</string>
     <!-- Statusbar Iten -->
-    <string name="statusbar_items_category">Elementi barra di stato</string>
+    <string name="statusbar_items_category">Elementi</string>
     <!-- Notifications -->
     <string name="notifications_title">Notifiche</string>
     <!-- Footer warnings -->
@@ -144,7 +144,6 @@
     <string name="summary_heads_up_enabled">Le notifiche pop-up sono abilitate</string>
     <string name="summary_heads_up_disabled">Le notifiche pop-up sono disabilitate</string>
     <string name="add_heads_up_package">Aggiungi app</string>
-    <string name="add_heads_up_stoplist_summary">Disabilita le notifiche a comparsa per queste applicazioni</string>
     <string name="add_heads_up_blacklist_summary">Disabilita le notifiche a comparsa provenienti da queste applicazioni</string>
     <string name="heads_up_stoplist_title">Lista bloccate</string>
     <string name="heads_up_blacklist_title">Lista nera</string>
@@ -211,8 +210,8 @@
     <string name="torch_long_press_power_timeout_10min">10 minuti</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luce batteria in carica</string>
-    <string name="battery_light_enable">Luce della batteria</string>
-    <string name="battery_light_allow_on_dnd_title">Luce della batteria in modalità non disturbare</string>
+    <string name="battery_light_enable">Luce batteria</string>
+    <string name="battery_light_allow_on_dnd_title">Luce batteria in modalità non disturbare</string>
     <string name="battery_light_low_blinking_title">Luce lampeggiante con batteria scarica</string>
     <string name="battery_light_cat">Colore della luce durante la carica</string>
     <string name="battery_light_low_color">Batteria bassa</string>
@@ -224,7 +223,7 @@
     <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
     <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la carica</string>
     <!-- Battery Styles -->
-    <string name="status_bar_battery_style_title">Stile batteria nella barra di stato</string>
+    <string name="status_bar_battery_style_title">Stile batteria</string>
     <!-- Battery percentage -->
     <string name="battery_style_category_title">Icona batteria</string>
     <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
@@ -259,34 +258,21 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibra al tocco</string>
     <string name="quick_settings_vibrate_summary">Vibra quando i tile vengono toccati</string>
-    <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Orologio e data</string>
-    <string name="status_bar_clock_summary">Configura l\'orologio della barra di stato e l\'aspetto della data</string>
+    <!-- Status bar clock and date options -->
     <string name="status_bar_clock_title">Orologio</string>
-    <string name="status_bar_clock_show">Visualizza orologio e data</string>
-    <string name="status_bar_clock_style_title">Stile orologio</string>
-    <string name="status_bar_clock_style_right">Destra</string>
-    <string name="status_bar_clock_style_center">Centra</string>
-    <string name="status_bar_clock_style_left">Sinistra</string>
-    <string name="status_bar_am_pm_title">Stile AM/PM</string>
     <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
-    <string name="status_bar_am_pm_normal">Normale</string>
-    <string name="status_bar_am_pm_small">Piccolo</string>
-    <string name="status_bar_am_pm_hidden">Nascosto (predefinito)</string>
-    <string name="clock_seconds_display">Mostra i secondi</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Visualizza data personalizzata prima dell\'orologio</string>
-    <string name="clock_date_display_none">Non mostrare</string>
-    <string name="clock_date_display_small">Dimensione del carattere piccolo</string>
-    <string name="clock_date_display_normal">Dimensione del carattere normale</string>
     <string name="clock_date_style">Stile data</string>
-    <string name="clock_date_style_normal">Normale</string>
-    <string name="clock_date_style_lowercase">Minuscolo</string>
-    <string name="clock_date_style_uppercase">Maiuscolo</string>
-    <string name="clock_date_format_custom">Formato Java personalizzato</string>
     <string name="clock_date_format">Formato data</string>
     <string name="clock_date_string_edittext_title">Il formato della data deve essere MM/gg/aa</string>
     <string name="clock_date_string_edittext_summary">Inserisci la stringa</string>
+    <string name="clock_date_display_none">Non mostrare</string>
+    <string name="clock_date_display_small">Dimensione del carattere piccolo</string>
+    <string name="clock_date_display_normal">Dimensione del carattere normale</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Discesa rapida</string>
     <string name="quick_pulldown_summary">Il bordo %1$s della barra di stato mostra le impostazioni rapide</string>
@@ -326,8 +312,13 @@
     <!-- Weather -->
     <string name="weather_title">Opzioni Meteo</string>
     <string name="weather_unit">Unità temperatura</string>
+    <string name="qs_styles_dialog_title">Seleziona uno stile di Tile</string>
     <!-- Volume keys control ringtone stream -->
+    <string name="volume_keys_control_ring_tone_title">Controllo volume suoneria</string>
+    <string name="volume_keys_control_ring_tone_summary">I tasti controllano il volume multimediale per impostazione predefinita. Attiva per controllare il volume della suoneria.</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mostra l\'icona dati disattivati</string>
+    <string name="data_disabled_icon_summary">Mostra una X accanto alla barra del segnale quando i dati sono disabilitati</string>
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">Pulsante home</string>
     <string name="hardware_keys_menu_key_title">Pulsante Menu</string>
@@ -352,4 +343,26 @@
     <string name="button_backlight_on_touch_only_title">Retroilluminazione pulsanti al tocco</string>
     <string name="button_backlight_on_touch_only_summary">La retroilluminazione dei pulsanti viene visualizzata solo quando i pulsanti vengono premuti anziché per tutto il tempo. Il timeout influisce su questa funzione.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ticker Ambient musicale</string>
+    <string name="force_ambient_for_media_pref_summary">Configura il ticker musicale su Ambient Display</string>
+    <string name="force_ambient_for_media_title">Abilita</string>
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Custom carrier label and position -->
+    <!-- Toast Animation -->
+    <!-- Animations -->
+    <!-- Brightness control -->
+    <!--3-Finger screenshot-->
+    <!-- Battery Bar -->
+    <!-- Rounded corners -->
+    <!-- AOKP custom system animations -->
+    <!-- ListView animation -->
+    <!-- ListView interpolator -->
+    <!-- Option to enable/disable scrolling cache -->
+    <!-- Screen off animation -->
+    <!-- Media art -->
+    <!-- Lockscreen visualizer -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <!-- Smart Pixels -->
 </resources>

@@ -26,6 +26,7 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.ListPreference;
@@ -65,6 +66,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final String FP_CAT = "lockscreen_ui_general_category";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+    private static final String ENCRYPTED_DEV = "ro.crypto.state";
     private static final String WEATHER_LS_CAT = "weather_lockscreen_key";
 
     private SwitchPreference mFaceUnlock;
@@ -107,12 +109,16 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
         mFingerprintVib.setOnPreferenceChangeListener(this);
+        if (isEncryptedDev())
+            fingerprintCategory.removePreference(mFpKeystore);
         } else {
         fingerprintCategory.removePreference(mFingerprintVib);
         fingerprintCategory.removePreference(mFpKeystore);
         }
+    }
 
-
+    private boolean isEncryptedDev() {
+        return "encrypted".equals(android.os.SystemProperties.get(ENCRYPTED_DEV));
     }
 
     @Override

@@ -96,7 +96,7 @@ public class Extensions extends SettingsPreferenceFragment implements
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        
+        setHasOptionsMenu(false);
     }
 
     private void pushStats() {

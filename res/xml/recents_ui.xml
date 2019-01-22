@@ -28,10 +28,10 @@
         android:defaultValue="0"
         android:entryValues="@array/recents_component_type_title_values"/>
 
-    <Preference
-        android:key="recents_icon_pack"
-        android:title="@string/recents_icon_pack_title"
-        android:summary="@string/recents_icon_pack_summary" />
+    <org.aospextended.extensions.preference.RecentsIconPackPreference
+            android:key="recents_icon_pack"
+            android:title="@string/recents_icon_pack_title"
+            android:summary="@string/recents_icon_pack_summary" />
 
      </PreferenceCategory>
 

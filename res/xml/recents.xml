@@ -26,5 +26,4 @@
             android:icon="@drawable/ic_recents_ui"
             android:title="@string/recents_ui_title" />
 
-
 </PreferenceScreen>

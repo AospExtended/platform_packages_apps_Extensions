@@ -26,5 +26,9 @@
             android:icon="@drawable/ic_recents_ui"
             android:title="@string/recents_ui_title" />
 
+    <org.aospextended.extensions.preference.RecentsIconPackPreference
+            android:key="recents_icon_pack"
+            android:title="@string/recents_icon_pack_title"
+            android:summary="@string/recents_icon_pack_summary" />
 
 </PreferenceScreen>

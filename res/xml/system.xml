@@ -29,7 +29,7 @@
           <org.aospextended.extensions.preference.CardviewPreference
             android:key="animations"
             android:fragment="org.aospextended.extensions.fragments.Animations"
-	    android:icon="@drawable/ic_animations"
+	        android:icon="@drawable/ic_animations"
             android:title="@string/animations_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
@@ -37,6 +37,12 @@
             android:fragment="org.aospextended.extensions.fragments.Buttons"
             android:icon="@drawable/ic_buttons"
             android:title="@string/buttons_title" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="gaming_mode"
+            android:fragment="org.aospextended.extensions.fragments.GamingMode"
+            android:icon="@drawable/ic_gaming_mode"
+            android:title="@string/gaming_mode_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
             android:key="app_ops"

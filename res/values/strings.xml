@@ -705,4 +705,8 @@
     <string name="audio_panel_view_timeout_title">Volume panel timeout</string>
     <string name="volume_pannel_general">General</string>
     <string name="volume_pannel_misc">Miscellaneous</string>
+
+    <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Default</string>
+
 </resources>

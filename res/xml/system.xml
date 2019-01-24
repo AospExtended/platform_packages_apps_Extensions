@@ -39,6 +39,12 @@
             android:title="@string/buttons_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
+            android:key="gaming_mode"
+            android:fragment="org.aospextended.extensions.fragments.GamingMode"
+            android:icon="@drawable/ic_gaming_mode"
+            android:title="@string/gaming_mode_title" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="privacy_guard_manager"
             android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
             android:icon="@drawable/ic_settings_appops"

@@ -732,18 +732,6 @@ smart_pulldown_none_summary
 
 smart_pulldown_off
 கோப்பு: strings. xml</string>
-    <string name="smart_pulldown_none">அறிவிப்புகள் இல்லை
-
-smart_pulldown_none
-கோப்பு: strings. xml</string>
-    <string name="smart_pulldown_dismissable">அகற்றப்படாதது
-
-smart_pulldown_dismissable
-கோப்பு: strings. xml</string>
-    <string name="smart_pulldown_ongoing">இல்லை
-
-smart_pulldown_ongoing
-கோப்பு: strings. xml</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>
@@ -766,6 +754,8 @@ app_ops_cat_location
     <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
     <string name="screen_state_on_delay_title">Screen On actions delay</string>
     <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <string name="weather_title">வானிலை</string>
     <string name="weather_unit">வெப்பநிலை அலகு</string>
@@ -846,4 +836,10 @@ hardware_keys_double_tap_title
     <!-- Recents panel settings -->
     <!-- Oreo Recents Style -->
     <!-- Smart Pixels -->
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

@@ -29,7 +29,8 @@
     <string name="security_category">Zabezpieczenia</string>
     <string name="hardware_category">Sprzęt</string>
     <string name="icons_category">Ikony</string>
-    <string name="aosp_recents_category">Ostatnio uruchomione AOSP</string>
+    <string name="aosp_recents_category">Panel ostatnio uruchomionych w stylu AOSP</string>
+    <string name="oreo_recents_category">Panel ostatnio uruchomionych w stylu Oreo</string>
     <string name="light_category">Światła</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Uwaga</string>
@@ -67,7 +68,7 @@
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Różne rozszerzenia</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Wygląd ostatnich</string>
+    <string name="recents_ui_title">Wygląd panelu ostatnich aplikacji</string>
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Wygląd ekranu blokady</string>
     <!-- Lockscreen shortcuts -->
@@ -97,7 +98,7 @@
     <string name="accent_picker_dialog_title">Wybierz kolor akcentu</string>
     <string name="theme_accent_picker_title">Kolor akcentu</string>
     <string name="theme_accent_picker_summary">Wybierz kolor akcentu motywu systemowego</string>
-    <string name="theme_accent_picker_default">Domyślne</string>
+    <string name="theme_accent_picker_default">Domyślnie</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Wybierak kolorów</string>
     <string name="press_color_to_apply">Naciśnij na kolor poniżej, aby zastosować</string>
@@ -112,8 +113,8 @@
     <string name="power_menu_title_summary">Wyświetl lub zmień elementy w menu zasilania</string>
     <string name="powermenu_screenshot">Zrzut ekranu</string>
     <string name="powermenu_torch">Latarka</string>
-    <string name="powermenu_power">Przycisk zasilania</string>
-    <string name="powermenu_restart">Uruchom ponownie</string>
+    <string name="powermenu_power">Wyłącz</string>
+    <string name="powermenu_restart">Zrestartuj</string>
     <string name="powermenu_restart_recovery">Zaawansowany restart</string>
     <string name="powermenu_airplane">Tryb samolotowy</string>
     <string name="powermenu_settings">Ustawienia</string>
@@ -129,7 +130,7 @@
     <string name="double_tap_to_sleep_lockscreen_summary">Podwójnie stuknij na trzeciej górnej bądź dolnej strefie skrótów aby uśpić urządzenie</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Pasek stanu</string>
-    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij pasek statusu by uśpić urządzenie</string>
+    <string name="double_tap_to_sleep_summary">Dwukrotnie dotknij pasek stanu by uśpić urządzenie</string>
     <!-- Network traffic -->
     <string name="network_traffic_title">Ruch sieciowy</string>
     <string name="network_traffic_type">Wybierz typ aktywności Internetu</string>
@@ -144,6 +145,7 @@
     <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
     <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
     <string name="add_heads_up_package">Dodaj aplikację</string>
+    <string name="add_heads_up_stoplist_summary">Wyłącz wszystkie powiadomienia podczas korzystania z tych aplikacji</string>
     <string name="add_heads_up_blacklist_summary">Całkowicie wyłącz wyskakujące powiadomienia w tych aplikacjiach</string>
     <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
     <string name="heads_up_blacklist_title">Czarna lista</string>
@@ -237,12 +239,12 @@
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">Ukryty</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Styl menu ostanich aplikacji</string>
+    <string name="recents_component_type_title">Styl panelu ostatnich aplikacji</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Przezroczystość</string>
-    <string name="qs_opacity_category">Przeźroczystość panelu Szybkich Ustawień</string>
+    <string name="qs_opacity_category">Przeźroczystość panelu szybkich ustawień</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Ikona powiadomień typu toast</string>
     <string name="toast_icon_summary">Wyświetl ikonę aplikacji w powiadomieniu toast</string>
@@ -259,20 +261,35 @@
     <string name="quick_settings_vibrate_title">Wibruj przy dotknięciu</string>
     <string name="quick_settings_vibrate_summary">Wibruj podczas dotykania przełączników szybkich ustawień</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">Zegar &amp; Data</string>
     <string name="status_bar_clock_title">Ustawienia zegara</string>
+    <string name="clock_enabled">Włączone</string>
+    <string name="clock_disabled">Wyłączone</string>
+    <string name="status_bar_clock_style_reset">Przywróć domyślny kolor</string>
+    <string name="status_bar_show_clock_title">Pokaż zegar &amp; datę</string>
+    <string name="status_bar_am_pm_title">Czas 12/24 godzinny</string>
     <string name="status_bar_am_pm_info">24 godzinny format zegara jest włączony</string>
+    <string name="enable_clock_weekday">Dzień tygodnia:</string>
+    <string name="enable_clock_weekday_summary">Skróconej dzień tygodnia przed zegarem</string>
+    <string name="dont_show">Ukryj</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Wyświetlanie niestandardowych daty przed zegar</string>
     <string name="clock_date_style">Styl daty</string>
     <string name="clock_date_format">Format daty</string>
     <string name="clock_date_string_edittext_title">Musi być w formacie np. MM/dd/rr</string>
     <string name="clock_date_string_edittext_summary">Wprowadź ciąg</string>
+    <string name="am_pm_clock_normal">Normalna czcionka</string>
+    <string name="am_pm_clock_small">Mała czcionka</string>
+    <string name="am_pm_clock_none">Ukryj</string>
     <string name="clock_date_display_none">Nie pokazuj</string>
     <string name="clock_date_display_small">Mały rozmiar czcionki</string>
     <string name="clock_date_display_normal">Rozmiar czcionki normalnej</string>
     <string name="clock_date_style_normal">Normalny</string>
     <string name="clock_date_style_lowercase">Małe litery</string>
     <string name="clock_date_style_uppercase">Wielkie litery</string>
+    <string name="clock_date_right">Po prawej stronie zegara</string>
+    <string name="clock_date_left">Po lewej stronie zegara</string>
+    <string name="clock_date_position">Położenie daty</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Szybkie rozwijanie</string>
     <string name="quick_pulldown_summary">%1$s krawędź paska stanu rozwija szybkie ustawienia</string>
@@ -289,9 +306,6 @@
     <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
     <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
     <string name="smart_pulldown_off">Wył.</string>
-    <string name="smart_pulldown_none">brak powiadomień</string>
-    <string name="smart_pulldown_dismissable">brak usuwalnych</string>
-    <string name="smart_pulldown_ongoing">brak trwałych</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Akcje po uśpieniu</string>
@@ -309,6 +323,8 @@
     <string name="screen_state_off_delay_summary">Liczba sekund oczekiwania przed wykonaniem akcji po wyłączeniu ekranu</string>
     <string name="screen_state_on_delay_title">Opóźnienie akcji po włączeniu ekranu</string>
     <string name="screen_state_on_delay_summary">Liczba sekund oczekiwania przed wykonaniem akcji po włączeniu ekranu</string>
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <string name="weather_title">Pogoda</string>
     <string name="weather_unit">Jednostka temperatury</string>
@@ -331,8 +347,6 @@
     <string name="hardware_keys_single_tap_title">Działanie pojedynczego naciśnięcia</string>
     <string name="hardware_keys_long_press_title">Działanie długiego naciśnięcia</string>
     <string name="hardware_keys_double_tap_title">Działanie podwójnego naciśnięcia</string>
-    <string name="hardware_keys_category">Przyciski nawigacyjne</string>
-    <string name="hardware_keys_disable_title">Wyłącz przyciski nawigacji</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Opcje podświetlenia</string>
     <string name="button_backlight_enable_title">Zezwól na podświetlanie przycisków</string>
@@ -345,24 +359,188 @@
     <!-- Ambient display music ticker -->
     <string name="force_ambient_for_media_pref_title">Powiadomienia muzyki na ekranie Ambient</string>
     <string name="force_ambient_for_media_pref_summary">Konfiguracja powiadomień muzyki na ekranie Ambient</string>
+    <string name="ambient_ticker_footer">Powiadomienie muzyki Ambient pokazuje odtwarzanie informacji o ścieżce muzycznej na ekranie Ambient.\n\nWyzwalane jest to również wtedy, gdy ekran Ambient jest wyłączony po uruchomieniu nowego utworu, wymuszając czysty ekran Ambient z informacjami o utworze na środku ekranu.\n\nMożesz uzyskać informacje o utworze, lub pominąć ścieżkę dwukrotnie dotykając ekran.\n\nJeśli posiadasz Pixel\'a i włączysz Now Playing oraz jego powiadomienia w ustawieniach audio, powiadomienie muzyki Ambient również zadziała.</string>
     <string name="force_ambient_for_media_title">Włącz</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Przycisk automatycznej jasności</string>
+    <string name="brightness_icon_summary">Pokaż przycisk jasności adaptacyjnej</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Przyciski sterowania jasnością</string>
+    <string name="brightness_side_buttons_summary">Pokaż przycisk, aby zwiększyć lub zmniejszyć jasność</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_category">Etykieta operatora</string>
+    <string name="carrier_label_settings_summary">Własna etykieta</string>
+    <string name="custom_carrier_label_title">Własna etykieta operatora</string>
+    <string name="custom_carrier_label_explain">Wprowadź nowy tekst. Pozostaw puste, aby powrócić do domyślnego.</string>
+    <string name="custom_carrier_label_notset">Własna etykieta nie jest ustawiona</string>
+    <string name="show_carrier_title">Etykieta operatora</string>
+    <string name="show_carrier_disabled">Wyłączona</string>
+    <string name="show_carrier_keyguard">Tylko na ekranie blokady</string>
+    <string name="show_carrier_statusbar">Tylko na pasku stanu</string>
+    <string name="show_carrier_enabled">Ekran blokady &amp;amp; pasek stanu</string>
     <!-- Toast Animation -->
+    <string name="toast_animation_title">Animacje dymka z komunikatami</string>
+    <string name="toast_none_animation">Żaden</string>
+    <string name="toast_default_animation">Domyślne</string>
+    <string name="toast_fade_animation">Zanikanie</string>
+    <string name="toast_SlideRight_animation">Przesunięcie w prawo</string>
+    <string name="toast_SlideLeft_animation">Przesunięcie w lewo</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Szybkie zanikanie</string>
+    <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
+    <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie do środka</string>
+    <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie ku dołowi</string>
+    <string name="toast_Translucent_animation">Przeźroczysty</string>
+    <string name="toast_SlideLeftRight_animation">Przesunięcie z lewej do prawej</string>
+    <string name="toast_SlideRightLeft_animation">Przesunięcie z prawej do lewej</string>
+    <string name="toast_animation_test">To jest test dymka z komunikatami</string>
+    <string name="toast">Dymek komunikatów</string>
     <!-- Animations -->
+    <string name="animations_title">Animacje</string>
     <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Regulacja jasności</string>
+    <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Gest trzema palcami</string>
+    <string name="three_finger_gesture_summary">Przeciągnij trzema palcami w dół, aby wykonać zrzut ekranu</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">Pasek poziomu baterii</string>
+    <string name="battery_bar_summary">Wyświetl i dostosuj pasek baterii na pasku statusu lub pasku nawigacji</string>
+    <string name="battery_bar">Lokalizacja paska baterii</string>
+    <string name="battery_bar_no_navbar">Lokalizacja paska baterii</string>
+    <string name="battery_bar_location_hide">Ukryj</string>
+    <string name="battery_bar_location_statusbar">Pasek statusu</string>
+    <string name="battery_bar_location_top_navbar">Górna część paska nawigacji</string>
+    <string name="battery_bar_location_bottom_navbar">Dolna część paska nawigacji</string>
+    <string name="battery_bar_color">Kolor paska baterii</string>
+    <string name="battery_bar_charging_color">Kolor paska podczas ładowania</string>
+    <string name="battery_bar_battery_low_color">Kolor paska przy niskim poziomie baterii</string>
+    <string name="battery_bar_cat">Styl paska baterii</string>
+    <string name="battery_bar_style_title">Położenie paska baterii</string>
+    <string name="battery_bar_thickness_title">Grubość paska baterii</string>
+    <string name="battery_bar_animate_title">Animacja ładowania</string>
+    <string name="battery_bar_style_regular">Regularny</string>
+    <string name="battery_bar_style_center_mirrored">Wyśrodkowany</string>
+    <string name="battery_bar_style_reversed">Odwrócony</string>
+    <string name="battery_bar_use_charging_color">Własny kolor paska ładowania</string>
+    <string name="battery_bar_blend_color_title">Mieszanie kolorów</string>
+    <string name="battery_bar_blend_color_summary">Mieszaj pełne/puste kolory odpowiadające procentom baterii</string>
+    <string name="battery_bar_blend_color_reverse_title">Odwróć kierunek kolorów</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Pełna &#8594; Pusta: red &#8592; Zielony &#8592; Niebieski &#8592; Czerwony</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Pełna &#8594; Pusta: Czerwony &#8594; Zielony &#8594; Niebieski &#8594; Czerwony</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Ustawienia narożników</string>
+    <string name="corner_radius">Promień zaokrąglonych narożników</string>
+    <string name="content_padding">Uzupełnianie zawartości narożników</string>
+    <string name="corner_fwvals">Użyj wartości domyślnych</string>
+    <string name="corner_fwvals_summary">Przydatne jeśli urządzenie ma zaokrąglone narożniki</string>
+    <string name="lockscreen_qs_disabled_title">Wyłącz szybkie ustawienia na ekranie blokady</string>
+    <string name="lockscreen_qs_disabled_summary">Wyłącz rozszeżone szybkie ustawienia na zabezpieczonym ekranie blokady</string>
     <!-- AOKP custom system animations -->
+    <string name="system_animation_title">Animacje systemu</string>
+    <string name="activity_open_title">Animacja otwierania aktywności</string>
+    <string name="activity_close_title">Animacja zamykania aktywności</string>
+    <string name="task_open_title">Animacja otwarcia zadania</string>
+    <string name="task_open_behind_title">Animacja po otwarciu zadania</string>
+    <string name="task_close_title">Animacja zamknięcia zadania</string>
+    <string name="task_move_to_front_title">Przejdź do animacji przedniej</string>
+    <string name="task_move_to_back_title">Przejdź do animacji tylnej</string>
+    <string name="wallpaper_open_title">Animacja otwarcia tapety</string>
+    <string name="wallpaper_close_title">Animacja zamknięcia tapety</string>
+    <string name="wallpaper_intra_open_title">Animacja wewnętrznego otwarcia tapety</string>
+    <string name="wallpaper_intra_close_title">Animacja wewnętrznego zamknięcia tapety</string>
+    <string name="animation_duration_title">Czas trwania animacji</string>
+    <string name="title_animation_no_override">Zapobiegaj zastąpieniu animacji przez aplikacje</string>
+    <string name="summary_animation_no_override">Zapobiegaj zastąpieniu efektów przejścia przez aplikacje</string>
+    <string name="animation_duration_default">Domyślne</string>
     <!-- ListView animation -->
+    <string name="listview_animation_title">Animacja widoku listy</string>
+    <string name="listview_off">Domyślnie</string>
+    <string name="listview_wave_left">Fala z lewej strony</string>
+    <string name="listview_wave_right">Fala z prawej strony</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Skalowanie</string>
+    <string name="listview_stack_top">Stos z góry</string>
+    <string name="listview_stack_bottom">Stos z dołu</string>
+    <string name="listview_unfold">Rozwijanie</string>
+    <string name="listview_fold">Zwijanie</string>
+    <string name="listview_translate_left">Przekładanie z lewej</string>
+    <string name="listview_translate_right">Przekładanie z prawej</string>
     <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Interpolacja widoku listy</string>
+    <string name="listview_accelerate_interpolator">Przyspieszanie</string>
+    <string name="listview_decelerate_interpolator">Spowolnienie</string>
+    <string name="listview_accelerate_decelerate_interpolator">Przyspieszanie i zwalnianie</string>
+    <string name="listview_anticipate_interpolator">Przewidywanie</string>
+    <string name="listview_overshoot_interpolator">Wyjedź za krawędź i wróć</string>
+    <string name="listview_anticipate_overshoot_interpolator">Przewidywanie i przekroczenie</string>
+    <string name="listview_bounce_interpolator">Odbicie</string>
     <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Pamięć podręczna przewijania</string>
+    <string name="pref_scrollingcache_summary">Pamięć podręczna przewijania może poprawić wydajność przewijania kosztem pamięci</string>
+    <string name="pref_scrollingcache_force_enable">Wymuś włączenie</string>
+    <string name="pref_scrollingcache_default_enable">Domyślnie włączone</string>
+    <string name="pref_scrollingcache_default_disable">Domyślnie wyłączone</string>
+    <string name="pref_scrollingcache_force_disable">Wymuś wyłączenie</string>
     <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Animacja wyłączenia ekranu</string>
+    <string name="screen_off_animation_default">Domyślne</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Skalowanie</string>
     <!-- Media art -->
+    <string name="media_art_title">Okładka albumu</string>
+    <string name="media_art_summary">Pokazuj okładkę albumu na ekranie blokady</string>
     <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">Wizualizacja na ekranie blokady</string>
+    <string name="lockscreen_visualizer_summary">Wyświetlaj wizualizację muzyki na ekranie blokady gdy gra muzyka</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystko\"</string>
+    <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystko\"</string>
+    <string name="recents_clear_all_location_title">Pozycja przycisku \"Wyczyść wszystko\"</string>
+    <string name="recents_clear_all_location_top_right">Prawy górny róg</string>
+    <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
+    <string name="recents_clear_all_location_top_center">Górny środek</string>
+    <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
+    <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
+    <string name="recents_clear_all_location_bottom_center">U dołu po środku</string>
+    <string name="recents_show_membar_title">Pasek pamięci</string>
+    <string name="recents_show_membar_summary">Pokaż pasek z dostępną pamięcią Ram</string>
     <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Oreo ostatni układ</string>
+    <string name="recents_stock">Domyślny</string>
+    <string name="recents_grid">Siatka</string>
+    <string name="recents_go">Android Go</string>
+    <string name="qs_running_services_title">Ikona uruchomionych usług</string>
+    <string name="qs_running_services_summary">Włącz ikonę uruchomionych usług w stopce</string>
+    <string name="qs_edit_title">Edytuj ikonę</string>
+    <string name="qs_edit_summary">Wyłącz ikonę edycji kafelek w stopce</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Inteligentne piksele</string>
+    <string name="smart_pixels_summary">Oszczędzaj baterię poprzez wyłączanie dodatkowych pikseli</string>
+    <string name="smart_pixels_enable_title">Włącz Inteligentne Piksele</string>
+    <string name="smart_pixels_enable_summary">Wyłącz piksele w celu redukcji zużycia energii</string>
+    <string name="smart_pixels_on_power_save_title">Automatyczne włączanie oszczędzania baterii</string>
+    <string name="smart_pixels_on_power_save_summary">Włącz inteligentne piksele, gdy oszczędzanie baterii jest włączone</string>
+    <string name="smart_pixels_percent">Procent do wyłączenia pikseli</string>
+    <string name="smart_pixels_shift_title">Ochrona przed wypaleniem ekranu</string>
+    <string name="smart_pixels_shift_summary">Zapobiega wypalaniu ekranu OLED przez przesuwanie pikseli co jakiś czas</string>
+    <string name="lockscreen_items_other">Inne</string>
+    <string name="gesture_settings_title">Gesty</string>
+    <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nWstecz\n- Przesuń w górę po lewej lub prawej stronie\n\nEkran domowy\n- Przesuń w górę po środku ekranu\n\nOstatnie aplikacje\n- Przesuń w górę i przytrzymaj\n\nPoprzednia aplikacja\n- Przesuń krótko po środku ekranu i przytrzymaj</string>
+    <string name="gesture_settings_info_new">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nWstecz\n- Przesuń w górę po lewej lub prawej stronie\n\nEkran domowy\n- Przesuń w górę po środku ekranu\n\nOstatnie aplikacje\n- Przesuń w górę i przytrzymaj\n\nPoprzednia aplikacja\n- Przesuń krótko po środku ekranu i przytrzymaj</string>
+    <string name="use_bottom_gesture_title">Gesty nawigacji</string>
+    <string name="use_bottom_gesture_summary">Użyj gestu przeciągnięcia z dołu do góry do nawigacji</string>
+    <string name="gesture_swipe_length_title">Wysokość pola przeciągania</string>
+    <string name="gesture_swipe_length_summary">Wysokość pola przeciągania od dołu</string>
+    <string name="gesture_action_timeout_title">Czas bezczynności dla przeciągania</string>
+    <string name="gesture_action_timeout_summary">Czas bezczynności przed uruchomieniem akcji danego gestu</string>
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

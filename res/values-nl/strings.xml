@@ -204,6 +204,8 @@
     <!-- Show VoLTE icon on statusbar -->
     <!-- Smart pulldown-->
     <!-- Screen state service -->
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
@@ -231,4 +233,10 @@
     <!-- Recents panel settings -->
     <!-- Oreo Recents Style -->
     <!-- Smart Pixels -->
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

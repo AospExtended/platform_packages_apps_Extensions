@@ -195,9 +195,6 @@
     <string name="smart_pulldown_summary">જ્યારે %1$s સૂચનાઓ હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
     <string name="smart_pulldown_none_summary">કોઈ સૂચનાઓ ન હોય ત્યારે ઝડપી સેટિંગ્સ ખોલો</string>
     <string name="smart_pulldown_off">બંધ</string>
-    <string name="smart_pulldown_none">કોઈ સૂચનાઓ નથી</string>
-    <string name="smart_pulldown_dismissable">બરતરફી નહીં</string>
-    <string name="smart_pulldown_ongoing">કોઈ ચાલુ નહીં</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_title">ક્રિયાઓ સસ્પેન્ડ કરો</string>
     <string name="screen_state_toggles_enable_title">સક્રિય કરો</string>
@@ -212,6 +209,8 @@
     <string name="screen_state_toggles_mobile_data_summary">સ્ક્રીન પર મોબાઇલ ડેટા અક્ષમ કરવામાં આવશે</string>
     <string name="screen_state_off_delay_title">ક્રિયાઓ વિલંબ સ્ક્રીન</string>
     <string name="screen_state_off_delay_summary">સ્ક્રીન બંધ પછી ક્રિયાઓ કરવા પહેલાં રાહ જોવી સેકન્ડ્સની સંખ્યા</string>
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
@@ -237,4 +236,10 @@
     <!-- Recents panel settings -->
     <!-- Oreo Recents Style -->
     <!-- Smart Pixels -->
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

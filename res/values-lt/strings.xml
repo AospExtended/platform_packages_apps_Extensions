@@ -30,6 +30,7 @@
     <string name="hardware_category">Aparatūra</string>
     <string name="icons_category">Piktogramos</string>
     <string name="aosp_recents_category">Naujausių AOSP programų grupė</string>
+    <string name="oreo_recents_category">Naujausi Oreo</string>
     <string name="light_category">Šviesos</string>
     <string name="dlg_ok">Gerai</string>
     <string name="attention">Dėmesio</string>
@@ -144,6 +145,7 @@
     <string name="summary_heads_up_enabled">Iššokantys pranešimai įjungti</string>
     <string name="summary_heads_up_disabled">Iššokantys pranešimai išjungti</string>
     <string name="add_heads_up_package">Įtraukti programėlę</string>
+    <string name="add_heads_up_stoplist_summary">Išjunkite iššokančius pranešimus šiose programose</string>
     <string name="add_heads_up_blacklist_summary">Neleisti iššokančiųjų pranešimų iš šių programų</string>
     <string name="heads_up_stoplist_title">Blokuoti sąrašą</string>
     <string name="heads_up_blacklist_title">Juodasis sąrašas</string>
@@ -259,20 +261,35 @@
     <string name="quick_settings_vibrate_title">Vibruokite palietę</string>
     <string name="quick_settings_vibrate_summary">Vibruokite spustelėję greitą nustatymų plytelę</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">Laikrodis &amp; amp; data</string>
     <string name="status_bar_clock_title">Laikrodžio nustatymai</string>
+    <string name="clock_enabled">Įjungta</string>
+    <string name="clock_disabled">Išjungta</string>
+    <string name="status_bar_clock_style_reset">Atstatyti spalva</string>
+    <string name="status_bar_show_clock_title">Rodyti laikrodį &amp; amp; data</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24 valandų laikrodis yra įjungtas</string>
+    <string name="enable_clock_weekday">Savaitės diena</string>
+    <string name="enable_clock_weekday_summary">Sutrumpinta savaitės diena prieš laiką</string>
+    <string name="dont_show">Nerodyti</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Rodyti pasirinktinę datą prieš laikrodį</string>
     <string name="clock_date_style">Datos stilius</string>
     <string name="clock_date_format">Datos formatas</string>
     <string name="clock_date_string_edittext_title">Turi būti Datos Formatas pvz. MM/dd/mm</string>
     <string name="clock_date_string_edittext_summary">Įveskite eilutę</string>
+    <string name="am_pm_clock_normal">Normalus šrifto dydis</string>
+    <string name="am_pm_clock_small">Mažas šrifto dydis</string>
+    <string name="am_pm_clock_none">Nerodyti</string>
     <string name="clock_date_display_none">Nerodyti</string>
     <string name="clock_date_display_small">Mažas šrifto dydis</string>
     <string name="clock_date_display_normal">Normalus šrifto dydis</string>
     <string name="clock_date_style_normal">Normalus</string>
     <string name="clock_date_style_lowercase">Mažosios raidės</string>
     <string name="clock_date_style_uppercase">Didžiosios raidės</string>
+    <string name="clock_date_right">Dešinėje laiko</string>
+    <string name="clock_date_left">Laiko kairėje</string>
+    <string name="clock_date_position">Datos vieta</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Greita prieiga</string>
     <string name="quick_pulldown_summary">Būsenos juostos %1$s kampas ištraukia greitųjų nustatymų panėlę</string>
@@ -289,9 +306,6 @@
     <string name="smart_pulldown_summary">Atidarykite sparčiąsias nuostatas, kai yra %1$s pranešimų</string>
     <string name="smart_pulldown_none_summary">Atidarykite sparčiąsias nuostatas, kai nėra pranešimų</string>
     <string name="smart_pulldown_off">Išjungta</string>
-    <string name="smart_pulldown_none">nėra pranešimų</string>
-    <string name="smart_pulldown_dismissable">neįmanoma pašalinti</string>
-    <string name="smart_pulldown_ongoing">nėra nuolatinio</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Sustabdyti veiksmai</string>
@@ -309,6 +323,8 @@
     <string name="screen_state_off_delay_summary">Laikas sekundėmis prieš atliekant veiksmus išjungus ekraną</string>
     <string name="screen_state_on_delay_title">Vėlavimas, kai ekranas yra įjungtas</string>
     <string name="screen_state_on_delay_summary">Laikas sekundėmis prieš atliekant veiksmus įjungus ekraną</string>
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <string name="weather_title">Orai</string>
     <string name="weather_unit">Temperatūros vienetas</string>
@@ -331,8 +347,6 @@
     <string name="hardware_keys_single_tap_title">Vienu bakstelėjimu veiksmas</string>
     <string name="hardware_keys_long_press_title">Ilgo paspaudimo veiksmas</string>
     <string name="hardware_keys_double_tap_title">Dviejų bakstelėjimų veiksmas</string>
-    <string name="hardware_keys_category">Naršymo mygtukai</string>
-    <string name="hardware_keys_disable_title">Išjungti naršymo mygtukus</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Mygtukų apšvietimo nustatymai</string>
     <string name="button_backlight_enable_title">Ijungti mygtukų apšvietimą</string>
@@ -345,24 +359,188 @@
     <!-- Ambient display music ticker -->
     <string name="force_ambient_for_media_pref_title">Aplinkos muzikos simbolis</string>
     <string name="force_ambient_for_media_pref_summary">Konfigūruoti aplinkos muzikos simbolį</string>
+    <string name="ambient_ticker_footer">Ši funkcija leidžia jums rodyti informaciją apie dabartinę muziką užrakto ekrane su arba be aktyviosios ekrano funkcijos N Taip pat galite dukart spustelėti takelį, kad praleistumėte takelį. \ T pranešimai garso sistemos nustatymuose, informacija apie ją bus rodoma kartu su juo.</string>
     <string name="force_ambient_for_media_title">Įgalinti</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Adaptyvus ryškumo mygtukas</string>
+    <string name="brightness_icon_summary">Rodyti adaptyvaus ryškumo mygtuką</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Ryškumo valdymo mygtukai</string>
+    <string name="brightness_side_buttons_summary">Rodyti mygtukus, kad padidintumėte arba sumažintumėte ryškumą</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_category">Operatoriaus ženklas</string>
+    <string name="carrier_label_settings_summary">Operatoriaus naudotojo vardas</string>
+    <string name="custom_carrier_label_title">Pasirinktinis operatoriaus ženklas</string>
+    <string name="custom_carrier_label_explain">Įveskite naują pavadinimą. Palikite tuščią, kad grąžintumėte standartinį.</string>
+    <string name="custom_carrier_label_notset">Pasirinkta etiketė šiuo metu nėra nustatyta</string>
+    <string name="show_carrier_title">Operatoriaus vardas</string>
+    <string name="show_carrier_disabled">Išjungta</string>
+    <string name="show_carrier_keyguard">Tik užrakto ekrane</string>
+    <string name="show_carrier_statusbar">Tik būsenos juostoje</string>
+    <string name="show_carrier_enabled">Užrakto ekranas &amp; amp; Būsenos juosta</string>
     <!-- Toast Animation -->
+    <string name="toast_animation_title">Pranešimai apie animaciją</string>
+    <string name="toast_none_animation">Nėra</string>
+    <string name="toast_default_animation">Numatytas</string>
+    <string name="toast_fade_animation">Išnikti</string>
+    <string name="toast_SlideRight_animation">Slinkite į dešinę</string>
+    <string name="toast_SlideLeft_animation">Slinkite į kairę</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Greitas išnykimas</string>
+    <string name="toast_GrowFade_animation">Palaipsninis išnykimas</string>
+    <string name="toast_GrowFadeCenter_animation">Laipsniškas išnykimas nuo centro</string>
+    <string name="toast_GrowFadeBottom_animation">Laipsniškas išnykimas iš apačios</string>
+    <string name="toast_Translucent_animation">Permatomas</string>
+    <string name="toast_SlideLeftRight_animation">Perkelkite iš kairės į dešinę</string>
+    <string name="toast_SlideRightLeft_animation">Perkelkite iš dešinės į kairę</string>
+    <string name="toast_animation_test">Išplaukiančio pranešimo animacijos testas</string>
+    <string name="toast">Informacinis langelis</string>
     <!-- Animations -->
+    <string name="animations_title">Animacijos</string>
     <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Ryškumo valdymas</string>
+    <string name="status_bar_toggle_brightness_summary">Nustatyti ryškumą braukiant per būsenos juostą</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Trijų pirštų gestai</string>
+    <string name="three_finger_gesture_summary">Jei norite padaryti ekrano kopiją, slinkite su trimis pirštais</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">Akumuliatoriaus skydelis</string>
+    <string name="battery_bar_summary">Rodyti ir pritaikyti baterijos juostos būsenos juostą arba naršymo juostą</string>
+    <string name="battery_bar">Baterijos juostos vieta</string>
+    <string name="battery_bar_no_navbar">Baterijos juostos vieta</string>
+    <string name="battery_bar_location_hide">Slėpti</string>
+    <string name="battery_bar_location_statusbar">Būsenos juosta</string>
+    <string name="battery_bar_location_top_navbar">Naršymo juostos viršuje</string>
+    <string name="battery_bar_location_bottom_navbar">Naršymo juostos apačioje</string>
+    <string name="battery_bar_color">Baterija juostos spalva</string>
+    <string name="battery_bar_charging_color">Akumuliatoriaus juostos įkrovimo spalva</string>
+    <string name="battery_bar_battery_low_color">Akumuliatoriaus įkrovimo skydelio spalva, kai baterijos įkrovimo lygis yra žemas</string>
+    <string name="battery_bar_cat">Baterijos juostos stilius</string>
+    <string name="battery_bar_style_title">Akumuliatoriaus juostos išlygiavimas</string>
+    <string name="battery_bar_thickness_title">Baterijos juostos storis</string>
+    <string name="battery_bar_animate_title">Įkrovimo animacija</string>
+    <string name="battery_bar_style_regular">Reguliariai</string>
+    <string name="battery_bar_style_center_mirrored">Centras- veidrodinis</string>
+    <string name="battery_bar_style_reversed">Atbulai</string>
+    <string name="battery_bar_use_charging_color">Pasirinktinė įkrovimo spalva</string>
+    <string name="battery_bar_blend_color_title">Spalvų mišinys</string>
+    <string name="battery_bar_blend_color_summary">Sumaišykite visas / tuščias spalvas, atitinkančius akumuliatoriaus procentinę dalį</string>
+    <string name="battery_bar_blend_color_reverse_title">Atvirkštine spalvų kryptimi</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Pilna &#8594; iškrova: raudona &#8592; žalia &#8592; mėlyna &#8592; raudonas</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Pilna &#8594; iškrova: raudona &#8594; žalia &#8594; mėlyna &#8594; raudonas</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Kampai</string>
+    <string name="corner_radius">Suapvalintas kampo spindulys</string>
+    <string name="content_padding">Kampo turinio užpildymas</string>
+    <string name="corner_fwvals">Naudoti sistemos reikšmes</string>
+    <string name="corner_fwvals_summary">Naudinga, jei įrenginio iš tikrųjų suapvalinti kampai</string>
+    <string name="lockscreen_qs_disabled_title">Išjungti sparčius nustatymus užrakto ekrane</string>
+    <string name="lockscreen_qs_disabled_summary">Išjungti sparčiųjų nustatymų išplėtimą saugiuose užrakto ekranuose</string>
     <!-- AOKP custom system animations -->
+    <string name="system_animation_title">Sistemos animacijos</string>
+    <string name="activity_open_title">Veiklos atidarymo animacija</string>
+    <string name="activity_close_title">Veiklos uždarymo animacija</string>
+    <string name="task_open_title">Atidaryti animacijos užduotis</string>
+    <string name="task_open_behind_title">Atidaryti užduoties animaciją</string>
+    <string name="task_close_title">Užduotis Uždaryti animaciją</string>
+    <string name="task_move_to_front_title">Perkėlimo į priekį animacija</string>
+    <string name="task_move_to_back_title">Perkėlimo atgal animacija</string>
+    <string name="wallpaper_open_title">Tapetų atidarymo animacija</string>
+    <string name="wallpaper_close_title">Tapetų uždarymo animacija</string>
+    <string name="wallpaper_intra_open_title">Tapetų iš vidaus atidarymo animacija</string>
+    <string name="wallpaper_intra_close_title">Tapetų uždarymo iš vidaus animacija</string>
+    <string name="animation_duration_title">Animacijos trukmė</string>
+    <string name="title_animation_no_override">Neleisti programėlių perrašymo</string>
+    <string name="summary_animation_no_override">Neleidžia programoms keisti animacijų</string>
+    <string name="animation_duration_default">Numatytas</string>
     <!-- ListView animation -->
+    <string name="listview_animation_title">Sąrašo peržiūros animacija</string>
+    <string name="listview_off">Numatytas</string>
+    <string name="listview_wave_left">Mojuoti (į kairę)</string>
+    <string name="listview_wave_right">Mojuoti (į dešinę)</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Skalė</string>
+    <string name="listview_stack_top">Stack (viršuje)</string>
+    <string name="listview_stack_bottom">Stack (apačioje)</string>
+    <string name="listview_unfold">Atskleisti</string>
+    <string name="listview_fold">Sulenkti</string>
+    <string name="listview_translate_left">Versti (kairėje)</string>
+    <string name="listview_translate_right">Versti (dešinėje)</string>
     <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Sąrašo animacijos poveikis</string>
+    <string name="listview_accelerate_interpolator">Paspartinti</string>
+    <string name="listview_decelerate_interpolator">Sulėtėjimas</string>
+    <string name="listview_accelerate_decelerate_interpolator">Paspartinti ir sulėtinti</string>
+    <string name="listview_anticipate_interpolator">Numatykite</string>
+    <string name="listview_overshoot_interpolator">Viršijimas</string>
+    <string name="listview_anticipate_overshoot_interpolator">Numatyti ir viršyti</string>
+    <string name="listview_bounce_interpolator">Atšokti</string>
     <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Slinkties talpykla</string>
+    <string name="pref_scrollingcache_summary">Slinkties laikinoji atmintis gali pagerinti slinkties pernelyg intensyvumą naudojant atmintį</string>
+    <string name="pref_scrollingcache_force_enable">Įjunkite per prievartą</string>
+    <string name="pref_scrollingcache_default_enable">Įgalinti pagal numatytuosius nustatymus</string>
+    <string name="pref_scrollingcache_default_disable">Išjungti pagal numatytuosius nustatymus</string>
+    <string name="pref_scrollingcache_force_disable">Išjunkite per prievartą</string>
     <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Ekrano išjungimo animacija</string>
+    <string name="screen_off_animation_default">Pagal nutylėjimą</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Skalė</string>
     <!-- Media art -->
+    <string name="media_art_title">Albumo viršelis</string>
+    <string name="media_art_summary">Rodyti albumo vaizdą užrakinimo ekrane</string>
     <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">Muzikos vizualizatorius</string>
+    <string name="lockscreen_visualizer_summary">Vizualizavimas užrakto ekrane muzikos atkūrimo metu</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Išvalyti visus mygtukus</string>
+    <string name="show_clear_all_recents_button_summary">Rodyti mygtuką \"Išvalyti viską\"</string>
+    <string name="recents_clear_all_location_title">„Clear All“ mygtuko vieta</string>
+    <string name="recents_clear_all_location_top_right">Viršuje dešinėje</string>
+    <string name="recents_clear_all_location_top_left">Viršuje kairėje</string>
+    <string name="recents_clear_all_location_top_center">Viršuje per vidurį</string>
+    <string name="recents_clear_all_location_bottom_right">Apačioje dešinėje</string>
+    <string name="recents_clear_all_location_bottom_left">Apačioje kairėje</string>
+    <string name="recents_clear_all_location_bottom_center">Apačioje per vidurį</string>
+    <string name="recents_show_membar_title">Atminties juostą</string>
+    <string name="recents_show_membar_summary">Rodyti juostą su įrenginio atmintimi</string>
     <!-- Oreo Recents Style -->
+    <string name="recents_type_title">„Oreo“ vaizdas - naujausiose programose</string>
+    <string name="recents_stock">Numatytoji</string>
+    <string name="recents_grid">Tinklelis</string>
+    <string name="recents_go">\"Android\" Go</string>
+    <string name="qs_running_services_title">Taikomosios programos piktograma</string>
+    <string name="qs_running_services_summary">Įgalinkite piktogramą, skirtą paleisti paslaugas apačioje</string>
+    <string name="qs_edit_title">Redaguoti piktogramą</string>
+    <string name="qs_edit_summary">Rodyti sparčiųjų nuostatų redagavimo piktogramą apačioje</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Protingai pikseliai</string>
+    <string name="smart_pixels_summary">Išsaugokite akumuliatoriaus energiją, išjungdami papildomus taškus</string>
+    <string name="smart_pixels_enable_title">Įjungti protingus pikselius</string>
+    <string name="smart_pixels_enable_summary">Išjunkite taškus, kad sumažintumėte baterijos suvartojimą</string>
+    <string name="smart_pixels_on_power_save_title">Įjunkite automatiškai, taupydami baterijos energiją</string>
+    <string name="smart_pixels_on_power_save_summary">Įjunkite pažangiuosius taškus, kai pereinate į energijos taupymo režimą</string>
+    <string name="smart_pixels_percent">Išjungtų taškų procentas</string>
+    <string name="smart_pixels_shift_title">Apsauga nuo išdegimo</string>
+    <string name="smart_pixels_shift_summary">Neleiskite perdegimui OLED įrenginiuose perkeliant pikselius tam tikru dažnumu</string>
+    <string name="lockscreen_items_other">Kiti</string>
+    <string name="gesture_settings_title">Gestai</string>
+    <string name="gesture_settings_info">Naršymo juosta turi būti išjungta N N Gestai yra prieinami: n Atgal n - braukite aukštyn į kairę arba į dešinę n Namai n- braukite aukštyn centre n Konkretūs taikymai n - nuvilkite aukštyn centrą ir laikykite nuspaustą „n“ Paspauskite „Pradžia“ n - Trumpas svyp ir palaikykite centrą</string>
+    <string name="gesture_settings_info_new">Naršymo juosta turi būti išjungta N N Gestai yra prieinami: n n \"Atgal\" n - svayp aukštyn į kairę arba į dešinę N n \"Namai\" n - svayp aukštyn nuo vidurio. „n-svayp nuo centro ir palaikykite.“ n „Paskutinė programa“ - trumpas svayp ir palaikykite centrą</string>
+    <string name="use_bottom_gesture_title">Naršymo gestai</string>
+    <string name="use_bottom_gesture_summary">Norėdami naršyti, naudokite braukimą aukštyn</string>
+    <string name="gesture_swipe_length_title">Slankiosios zonos aukštis</string>
+    <string name="gesture_swipe_length_summary">Aukštis nuo ekrano apačios, kad būtų paleistas gestas</string>
+    <string name="gesture_action_timeout_title">Atsakymo trukmė</string>
+    <string name="gesture_action_timeout_summary">Atsakymo trukmė nuo gesto pradžios</string>
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

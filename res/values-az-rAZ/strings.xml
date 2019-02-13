@@ -194,9 +194,6 @@
     <string name="smart_pulldown_summary">Mövcud %1$s bildirişlər olanda sürətli parametrləri açar</string>
     <string name="smart_pulldown_none_summary">Heç bir bildiriş olmadıqda sürətli parametrləri aç</string>
     <string name="smart_pulldown_off">Bağlı</string>
-    <string name="smart_pulldown_none">heç bir bildiriş yoxdur</string>
-    <string name="smart_pulldown_dismissable">bağlanıla bilən bildiriş yoxdur</string>
-    <string name="smart_pulldown_ongoing">davam edən yoxdur</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Dayandırılan əməliyyatlar</string>
@@ -210,6 +207,8 @@
     <string name="screen_state_toggles_gps_summary">Ekran bağlı olan zaman GPS bağlanacaq</string>
     <string name="screen_state_toggles_mobile_data">Mobil interneti söndür</string>
     <string name="screen_state_toggles_mobile_data_summary">Ekran bağlı olan zaman mobil internet bağlanacaq</string>
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
@@ -235,4 +234,10 @@
     <!-- Recents panel settings -->
     <!-- Oreo Recents Style -->
     <!-- Smart Pixels -->
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

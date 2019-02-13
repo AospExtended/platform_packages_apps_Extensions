@@ -30,6 +30,7 @@
     <string name="hardware_category">المعِدات</string>
     <string name="icons_category">الأيقونات</string>
     <string name="aosp_recents_category">التطبيقات الحديثة الخاصة بـ AOSP</string>
+    <string name="oreo_recents_category">التطبيقات الحديثة أوريو</string>
     <string name="light_category">الأضواء</string>
     <string name="dlg_ok">موافق</string>
     <string name="attention">تنبيه</string>
@@ -144,6 +145,7 @@
     <string name="summary_heads_up_enabled">الإشعارات المنبثقة مفعّلة</string>
     <string name="summary_heads_up_disabled">الإشعارات المنبثقة معطّلة</string>
     <string name="add_heads_up_package">إضافة تطبيق</string>
+    <string name="add_heads_up_stoplist_summary">تعطيـل جميع الاشعارات العلوية عند إستخدام هذه التطبيقات</string>
     <string name="add_heads_up_blacklist_summary">تعطيـل الاشعارات العلوية من هذه التطبيقات</string>
     <string name="heads_up_stoplist_title">الممنوعين</string>
     <string name="heads_up_blacklist_title">القائمة السوداء</string>
@@ -259,20 +261,35 @@
     <string name="quick_settings_vibrate_title">الإهتزاز عند اللمس</string>
     <string name="quick_settings_vibrate_summary">إهتزاز عند لمس مربعات الإعدادات السريعة</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">الساعة والتاريخ</string>
     <string name="status_bar_clock_title">إعدادات الساعة</string>
+    <string name="clock_enabled">مفعل</string>
+    <string name="clock_disabled">معطل</string>
+    <string name="status_bar_clock_style_reset">إعادة تعيين اللون</string>
+    <string name="status_bar_show_clock_title">إظهار الساعة والتاريخ</string>
+    <string name="status_bar_am_pm_title">صباحاً/مساءاً</string>
     <string name="status_bar_am_pm_info">تم تمكين تنسيق 24 ساعة</string>
+    <string name="enable_clock_weekday">يوم الأسبوع</string>
+    <string name="enable_clock_weekday_summary">مختصر يوم الأسبوع قبل الوقت</string>
+    <string name="dont_show">عدم الإظهار</string>
     <string name="clock_date_display">التاريخ</string>
     <string name="clock_date_display_summary">إعرض تاريخ مخصص قبل الساعة</string>
     <string name="clock_date_style">نمط التاريخ</string>
     <string name="clock_date_format">صيغة التاريخ</string>
     <string name="clock_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
     <string name="clock_date_string_edittext_summary">أدخل السلسلة</string>
+    <string name="am_pm_clock_normal">حجم الخط الطبيعي</string>
+    <string name="am_pm_clock_small">حجم الخط الصغير</string>
+    <string name="am_pm_clock_none">عدم الإظهار</string>
     <string name="clock_date_display_none">لا تظهر</string>
     <string name="clock_date_display_small">حجم الخط الصغير</string>
     <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
     <string name="clock_date_style_normal">عادي</string>
     <string name="clock_date_style_lowercase">أحرف صغيرة</string>
     <string name="clock_date_style_uppercase">أحرف كبيرة</string>
+    <string name="clock_date_right">يسار الساعة</string>
+    <string name="clock_date_left">يمين الساعة</string>
+    <string name="clock_date_position">موضع التاريخ</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">السحب السريع لأسفل</string>
     <string name="quick_pulldown_summary">الحافة %1$s لشريط الحالة يسحب الإعدادات السريعة لأسفل</string>
@@ -289,9 +306,6 @@
     <string name="smart_pulldown_summary">فتح الاعدادات السريعة عندما يكون هناك %1$s إشعارات</string>
     <string name="smart_pulldown_none_summary">فتح الاعدادات السريعة عندما لا يكون هناك اشعارات</string>
     <string name="smart_pulldown_off">إيقاف</string>
-    <string name="smart_pulldown_none">لا توجد إشعارات</string>
-    <string name="smart_pulldown_dismissable">لا توجد إشعارات يمكن استبعادها</string>
-    <string name="smart_pulldown_ongoing">لا توجد إشعارات مستمرة</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">تعليق الإجراءات</string>
@@ -309,6 +323,8 @@
     <string name="screen_state_off_delay_summary">عدد ثواني الإنتظار قبل تأدية الإجراءات بعد إغلاق الشاشة</string>
     <string name="screen_state_on_delay_title">مدة تأخير إجراءات تشغيل الشاشة</string>
     <string name="screen_state_on_delay_summary">عدد ثواني الإنتظار قبل تأدية الإجراءات بعد تشغيل الشاشة</string>
+    <!-- Lockscreen items -->
+    <!-- Lockscreen clock styles -->
     <!-- Weather -->
     <string name="weather_title">الطقس</string>
     <string name="weather_unit">وحدة درجة الحرارة</string>
@@ -331,8 +347,6 @@
     <string name="hardware_keys_single_tap_title">إجراء الضغط مرة واحدة</string>
     <string name="hardware_keys_long_press_title">إجراء الضغط الطويل</string>
     <string name="hardware_keys_double_tap_title">إجراء الضغط المزدوج</string>
-    <string name="hardware_keys_category">أزرار التنقل</string>
-    <string name="hardware_keys_disable_title">تعطيل أزرار التنقل</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">خيارات إضاءة الأزرار</string>
     <string name="button_backlight_enable_title">تمكين إضاءة الأزرار</string>
@@ -345,24 +359,188 @@
     <!-- Ambient display music ticker -->
     <string name="force_ambient_for_media_pref_title">الشريط الموسيقي المحيطي</string>
     <string name="force_ambient_for_media_pref_summary">تهيئة شريط الموسيقى المحيطي</string>
+    <string name="ambient_ticker_footer">يعرض الشريط الموسيقي المحيطي معلومات عن مسار الموسيقى ضمن شاشة العرض المحيطة.\n\nكما يتم تشغيله أيضًا في حالة تعطيل العرض المحيط عند بدء مسار جديد، مما يؤدي إلى عرض شاشة محيطة نظيفة تحتوي على معلومات المسار في منتصف الشاشة.\n\nيمكنك أيضًا النقر مزدوجًا على معلومات المسار لتخطي المسار.\n\nإذا كنت تملك Pixel وتمكّن التشغيل الآن وإشعاره في إعدادات صوت النظام، فسيعمل شريط الموسيقى المحيطي أيضًا معه.</string>
     <string name="force_ambient_for_media_title">تمكين</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">زر السطوع التلقائي</string>
+    <string name="brightness_icon_summary">إظهار زر السطوع التلقائي</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">أزرار التحكم في السطوع</string>
+    <string name="brightness_side_buttons_summary">إظهار أزرار لزيادة أو إنقاص السطوع</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_category">علامة مشغل الشبكة</string>
+    <string name="carrier_label_settings_summary">تخصيص علامة مشغل الشبكة</string>
+    <string name="custom_carrier_label_title">علامة مشغل شبكة مخصص</string>
+    <string name="custom_carrier_label_explain">الرجاء إدخال علامة جديدة، إتركها فارغة للرجوع للعلامة الأصلية.</string>
+    <string name="custom_carrier_label_notset">لم يتم ضبط تسمية مخصصة</string>
+    <string name="show_carrier_title">علامة مشغل الشبكة</string>
+    <string name="show_carrier_disabled">معطّلة</string>
+    <string name="show_carrier_keyguard">شاشة القفل فقط</string>
+    <string name="show_carrier_statusbar">شريط الحالة فقط</string>
+    <string name="show_carrier_enabled">شاشة القفل وشريط الحالة</string>
     <!-- Toast Animation -->
+    <string name="toast_animation_title">تأثير الحركة للملاحظة المنبثقة</string>
+    <string name="toast_none_animation">لا شيء</string>
+    <string name="toast_default_animation">الافتراضي</string>
+    <string name="toast_fade_animation">تلاشي</string>
+    <string name="toast_SlideRight_animation">انزلاق إلى اليمين</string>
+    <string name="toast_SlideLeft_animation">انزلاق إلى اليسار</string>
+    <string name="toast_Xylon_animation">إكسيلون</string>
+    <string name="toast_Toko_animation">توكو</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">هونامي</string>
+    <string name="toast_FastFade_animation">تلاشي بسرعة</string>
+    <string name="toast_GrowFade_animation">نمو و تلاشي</string>
+    <string name="toast_GrowFadeCenter_animation">نمو تلاشي مركزي</string>
+    <string name="toast_GrowFadeBottom_animation">نمو تلاشي سفلي</string>
+    <string name="toast_Translucent_animation">شبه شفاف</string>
+    <string name="toast_SlideLeftRight_animation">انزلاق من اليسار إلى اليمين</string>
+    <string name="toast_SlideRightLeft_animation">انزلاق من اليمين إلى اليسار</string>
+    <string name="toast_animation_test">هذا هو اختبار التأثير الحركي المختار للملاحظة المنبثقة</string>
+    <string name="toast">الملاحظة المنبثقة</string>
     <!-- Animations -->
+    <string name="animations_title">المؤثرات الحركية</string>
     <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">التحكم بالسطوع</string>
+    <string name="status_bar_toggle_brightness_summary">ضبط السطوع عن طريق الانزلاق على شريط الحالة</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">إيماءة الثلاثة أصابع</string>
+    <string name="three_finger_gesture_summary">السحب بثلاثة أصابع لأخذ لقطة للشاشة</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">شريط البطارية</string>
+    <string name="battery_bar_summary">عرض وتخصيص شريط البطارية بالقرب من شريط الحالة أو شريط التنقل</string>
+    <string name="battery_bar">مكان شريط البطارية</string>
+    <string name="battery_bar_no_navbar">مكان شريط البطارية</string>
+    <string name="battery_bar_location_hide">إخفاء</string>
+    <string name="battery_bar_location_statusbar">شريط الحالة</string>
+    <string name="battery_bar_location_top_navbar">أعلى شريط التنقل</string>
+    <string name="battery_bar_location_bottom_navbar">أسفل شريط التنقل</string>
+    <string name="battery_bar_color">لون شريط البطارية</string>
+    <string name="battery_bar_charging_color">لون شريط البطارية اثناء الشحن</string>
+    <string name="battery_bar_battery_low_color">لون شريط البطارية المنخفضة</string>
+    <string name="battery_bar_cat">نمط شريط البطارية</string>
+    <string name="battery_bar_style_title">محاذاة شريط البطارية</string>
+    <string name="battery_bar_thickness_title">سُمك شريط البطارية</string>
+    <string name="battery_bar_animate_title">مؤثر الحركة أثناء الشحن</string>
+    <string name="battery_bar_style_regular">عادي</string>
+    <string name="battery_bar_style_center_mirrored">معكوس من المركز</string>
+    <string name="battery_bar_style_reversed">معكوس</string>
+    <string name="battery_bar_use_charging_color">لون شحن البطارية المخصص</string>
+    <string name="battery_bar_blend_color_title">مزج الألوان</string>
+    <string name="battery_bar_blend_color_summary">مزج الألوان كامل/فارغ تبعاً لنسبة البطارية</string>
+    <string name="battery_bar_blend_color_reverse_title">عكس اتجاه اللون</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">ممتلئ &#8594; فارغ: أحمر &#8592; أخضر &#8592; أزرق &#8592; أحمر</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">ممتلئ &#8594; فارغ: أحمر &#8594; أخضر &#8594; أزرق &#8594; أحمر</string>
     <!-- Rounded corners -->
+    <string name="corners_category">الزاويا</string>
+    <string name="corner_radius">تقوس الزوايا المدّورة</string>
+    <string name="content_padding">حشو محتوى الزاوية</string>
+    <string name="corner_fwvals">إستخدام قيم الفريم ورك</string>
+    <string name="corner_fwvals_summary">مفيد إذا كان الجهاز يحتوي بالفعل على زوايا دائرية</string>
+    <string name="lockscreen_qs_disabled_title">تعطيل الإعدادات السريعة عند القفل</string>
+    <string name="lockscreen_qs_disabled_summary">تعطيل الاعدادات السريعة الموسعة على شاشة القفل المؤمنة</string>
     <!-- AOKP custom system animations -->
+    <string name="system_animation_title">التأثيرات الحركية للنظام</string>
+    <string name="activity_open_title">تأثير حركة فتح النشاط</string>
+    <string name="activity_close_title">تأثير حركة اغلاق النشاط</string>
+    <string name="task_open_title">تأثير الحركة عند فتح المهام</string>
+    <string name="task_open_behind_title">تأثير الحركة عند فتح المهام في الخلف</string>
+    <string name="task_close_title">تأثير الحركة عند اغلاق المهام</string>
+    <string name="task_move_to_front_title">تأثير الحركة عند التحرك للأمام</string>
+    <string name="task_move_to_back_title">تأثير الحركة عند التحرك للخلف</string>
+    <string name="wallpaper_open_title">تأثير الحركة عند فتح الخلفية</string>
+    <string name="wallpaper_close_title">تأثير الحركة عند اغلاق الخلفية</string>
+    <string name="wallpaper_intra_open_title">تأثير الحركة عند فتح الخلفية داخلياً</string>
+    <string name="wallpaper_intra_close_title">تأثير الحركة عند اغلاق الخلفية داخلياً</string>
+    <string name="animation_duration_title">مدة تأثير الحركة</string>
+    <string name="title_animation_no_override">منع تجاوزات التطبيق</string>
+    <string name="summary_animation_no_override">منع التطبيقات من تجاوز الانتقالات</string>
+    <string name="animation_duration_default">الافتراضي</string>
     <!-- ListView animation -->
+    <string name="listview_animation_title">تاثير حركة عرض القوائم</string>
+    <string name="listview_off">الافتراضي</string>
+    <string name="listview_wave_left">موجة (يسار)</string>
+    <string name="listview_wave_right">موجة (يمين)</string>
+    <string name="listview_alpha">ألفا</string>
+    <string name="listview_scale">مقياس</string>
+    <string name="listview_stack_top">تكدس (أعلى)</string>
+    <string name="listview_stack_bottom">تكدس (أسفل)</string>
+    <string name="listview_unfold">توسيع</string>
+    <string name="listview_fold">طوي</string>
+    <string name="listview_translate_left">ترجمة (يسار)</string>
+    <string name="listview_translate_right">ترجمة ( يمين)</string>
     <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">مستقطب عرض القوائم</string>
+    <string name="listview_accelerate_interpolator">تسارع</string>
+    <string name="listview_decelerate_interpolator">تباطىء</string>
+    <string name="listview_accelerate_decelerate_interpolator">تسارع و تباطىء</string>
+    <string name="listview_anticipate_interpolator">توقع</string>
+    <string name="listview_overshoot_interpolator">انحسار</string>
+    <string name="listview_anticipate_overshoot_interpolator">توقع وانحسار</string>
+    <string name="listview_bounce_interpolator">ارتداد</string>
     <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">ذاكرة التخزين المؤقت للتمرير</string>
+    <string name="pref_scrollingcache_summary">ذاكرة التخزين المؤقت للتمرير قد تحسن أداء التمرير على حساب الذاكرة</string>
+    <string name="pref_scrollingcache_force_enable">تمكين بالقوة</string>
+    <string name="pref_scrollingcache_default_enable">تمكين افتراضي</string>
+    <string name="pref_scrollingcache_default_disable">تعطيل افتراضي</string>
+    <string name="pref_scrollingcache_force_disable">تعطيل بالقوة</string>
     <!-- Screen off animation -->
+    <string name="screen_off_animation_title">مؤثرات اغلاق الشاشة</string>
+    <string name="screen_off_animation_default">الافتراضي</string>
+    <string name="screen_off_animation_crt">تأثير CRT</string>
+    <string name="screen_off_animation_scale">تأثير المقياس</string>
     <!-- Media art -->
+    <string name="media_art_title">رسم غطاء الوسائط</string>
+    <string name="media_art_summary">فعّل رسم غطاء الوسائط على شاشة القفل</string>
     <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">متخيل شاشة القفل</string>
+    <string name="lockscreen_visualizer_summary">عرض تصميم حي على شاشة القفل بينما يتم تشغيل الموسيقى</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">زر \"مسح الكل\"</string>
+    <string name="show_clear_all_recents_button_summary">إظهار زر \"مسح الكل\"</string>
+    <string name="recents_clear_all_location_title">موقع \"مسح الكل\"</string>
+    <string name="recents_clear_all_location_top_right">أعلى اليمين</string>
+    <string name="recents_clear_all_location_top_left">أعلى اليسار</string>
+    <string name="recents_clear_all_location_top_center">أعلى الوسط</string>
+    <string name="recents_clear_all_location_bottom_right">أسفل اليمين</string>
+    <string name="recents_clear_all_location_bottom_left">أسفل اليسار</string>
+    <string name="recents_clear_all_location_bottom_center">أسفل الوسط</string>
+    <string name="recents_show_membar_title">شريط الذاكرة</string>
+    <string name="recents_show_membar_summary">إظهار شريط مع الذاكرة المتوفرة للجهاز</string>
     <!-- Oreo Recents Style -->
+    <string name="recents_type_title">تخطيط التطبيقات الحديثة أوريو</string>
+    <string name="recents_stock">الأصلية</string>
+    <string name="recents_grid">شبكة</string>
+    <string name="recents_go">أندرويد Go</string>
+    <string name="qs_running_services_title">رمز الخدمات قيد التشغيل</string>
+    <string name="qs_running_services_summary">تمكين رمز الخدمات قيد التشغيل في أسفل اللوحة</string>
+    <string name="qs_edit_title">رمز التعديل</string>
+    <string name="qs_edit_summary">تمكين مربع رمز التعديل في أسفل اللوحة</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">الدقة الذكية</string>
+    <string name="smart_pixels_summary">توفير البطارية عن طريق إيقاف بكسلات إضافية</string>
+    <string name="smart_pixels_enable_title">تمكين الدقة الذكية</string>
+    <string name="smart_pixels_enable_summary">إيقاف وحدات البكسل لتقليل استهلاك الطاقة</string>
+    <string name="smart_pixels_on_power_save_title">تشغيل تلقائي في وضع توفير الطاقة</string>
+    <string name="smart_pixels_on_power_save_summary">تمكين الدقة الذكية عندما يكون وضع توفير الطاقة قيد التشغيل</string>
+    <string name="smart_pixels_percent">نسبة البكسلات ليتم تعطيلها</string>
+    <string name="smart_pixels_shift_title">الحماية من الاحتراق</string>
+    <string name="smart_pixels_shift_summary">منع الاحتراق في اجهزة OLED عن طريق نقل وحدات البكسل في كل مرة</string>
+    <string name="lockscreen_items_other">غير ذلك</string>
+    <string name="gesture_settings_title">الإيماءات</string>
+    <string name="gesture_settings_info">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة:\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nضغط مطول على الرئيسية\n- اسحب سريعاً لأعلى مع الاستمرار في المركز</string>
+    <string name="gesture_settings_info_new">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة::\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nالتبديل إلى التطبيق الأخير\n- اسحب سريعًا لأعلى مع الاستمرار في المركز</string>
+    <string name="use_bottom_gesture_title">إيماءات التنقل</string>
+    <string name="use_bottom_gesture_summary">استخدم إيماءات السحب لأعلى من الأسفل للتنقل</string>
+    <string name="gesture_swipe_length_title">إرتفاع مشغل التمرير</string>
+    <string name="gesture_swipe_length_summary">الارتفاع من الأسفل إلى مشغل التمرير</string>
+    <string name="gesture_action_timeout_title">مهلة مشغل التمرير</string>
+    <string name="gesture_action_timeout_summary">المهلة قبل بدء إجراء الإيماءة</string>
+    <!-- Recents icon packs -->
+    <!-- Volume Steps Fragment -->
+    <!-- Incall vibrate options -->
+    <!-- Notification guts kill app button -->
+    <!-- Notification with screen on -->
+    <!-- Less Notification sounds -->
 </resources>

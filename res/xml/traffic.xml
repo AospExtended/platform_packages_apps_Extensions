@@ -45,4 +45,11 @@
             android:summary="@string/network_traffic_arrow_summary"
             android:defaultValue="true" />
 
+       <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="network_traffic_font_size"
+            android:title="@string/nettraf_font_size"
+            android:max="60"
+            settings:min="21"
+            settings:defaultValue="42"
+            settings:units="dp" />
 </PreferenceScreen>

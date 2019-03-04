@@ -49,18 +49,16 @@ import com.android.settings.search.Indexable;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.aospextended.extensions.preference.CustomSeekBarPreference;
+
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
 
-    private static final String OMNI_QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
 
     private ListPreference mQuickPulldown;
-    private CustomSeekBarPreference mQsPanelAlpha;
     ListPreference mSmartPulldown;
 
     @Override
@@ -71,12 +69,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
-
-        mQsPanelAlpha = (CustomSeekBarPreference) findPreference(OMNI_QS_PANEL_BG_ALPHA);
-        int qsPanelAlpha = Settings.System.getIntForUser(resolver,
-                Settings.System.OMNI_QS_PANEL_BG_ALPHA, 255, UserHandle.USER_CURRENT);
-        mQsPanelAlpha.setValue(qsPanelAlpha);
-        mQsPanelAlpha.setOnPreferenceChangeListener(this);
 
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
@@ -138,14 +130,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mQsPanelAlpha) {
-            int bgAlpha = (Integer) newValue;
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.OMNI_QS_PANEL_BG_ALPHA, bgAlpha,
-                    UserHandle.USER_CURRENT);
-            return true;
+         public boolean onPreferenceChange(Preference preference, Object objValue) {
         } else if (preference == mQuickPulldown) {
             int quickPulldownValue = Integer.valueOf((String) newValue);
             Settings.System.putIntForUser(resolver, Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
@@ -158,6 +143,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             updateSmartPulldownSummary(smartPulldown);
             return true;
         }
+
         return false;
     }
 

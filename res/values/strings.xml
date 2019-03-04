@@ -290,10 +290,6 @@
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
 
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacity</string>
-    <string name="qs_opacity_category">QS panel opacity</string>
-
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
     <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>

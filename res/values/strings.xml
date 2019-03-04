@@ -394,10 +394,13 @@
     <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibration_category">In-call vibration</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_connect_summary">Enable to vibrate after call connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_call_wait_summary">Enable to vibrate while call is on waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string
 
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart Pixels</string>

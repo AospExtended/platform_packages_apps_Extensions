@@ -23,6 +23,14 @@
         android:key="audio_panel_view_position"
         android:title="@string/audio_panel_view_position_title" />
 
+    <org.aospextended.extensions.preference.CustomSeekBarPreference
+        android:key="audio_panel_view_timeout"
+        android:title="@string/audio_panel_view_timeout_title"
+        android:defaultValue="3"
+        android:max="10"
+        settings:min="1"
+        settings:interval="1" />
+
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_media"
         android:title="@string/audio_panel_view_media_title"

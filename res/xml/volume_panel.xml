@@ -19,27 +19,19 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/audio_panel_view_title">
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_position"
-        android:title="@string/audio_panel_view_position_title" />
-
-    <org.aospextended.extensions.preference.CustomSeekBarPreference
-        android:key="audio_panel_view_timeout"
-        android:title="@string/audio_panel_view_timeout_title"
-        android:defaultValue="3"
-        android:max="10"
-        settings:min="1"
-        settings:interval="1" />
+    <PreferenceCategory
+        android:title="@string/volume_pannel_general">
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_media"
         android:title="@string/audio_panel_view_media_title"
         android:defaultValue="false" />
 
+    <!-- Volume keys control media stream -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_ringer"
+        android:key="volume_keys_control_ring_tone"
         android:title="@string/audio_panel_view_ringer_title"
-        android:defaultValue="false"/>
+        android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_notification"
@@ -60,4 +52,29 @@
         android:key="audio_panel_view_bt_sco"
         android:title="@string/audio_panel_view_bt_sco_title"
         android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/volume_pannel_misc">
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="audio_panel_view_position"
+        android:title="@string/audio_panel_view_position_title" />
+
+    <org.aospextended.extensions.preference.CustomSeekBarPreference
+        android:key="audio_panel_view_timeout"
+        android:title="@string/audio_panel_view_timeout_title"
+        android:defaultValue="3"
+        android:max="10"
+        settings:min="1"
+        settings:interval="1" />
+
+    <Preference
+        android:key="vol_steps"
+        android:fragment="org.aospextended.extensions.fragments.VolumeStepsFragment"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

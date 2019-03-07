@@ -26,25 +26,28 @@ import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
 
 import org.aospextended.extensions.R;
 
-public class VolumePanel extends SettingsPreferenceFragment {
+public class VolumePanel extends SettingsPreferenceFragment 
+            implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "VolumePanel";
 
     private static final String KEY_NOTIFICATION = "audio_panel_view_notification";
     private static final String KEY_POSITION = "audio_panel_view_position";
+    private static final String KEY_VIEW_TIMEOUT = "audio_panel_view_timeout";
 
     private SwitchPreference mNotification;
     private SwitchPreference mPosition;
+    private CustomSeekBarPreference mViewTimout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,6 +73,12 @@ public class VolumePanel extends SettingsPreferenceFragment {
         mPosition = (SwitchPreference) findPreference(KEY_POSITION);
         mPosition.setChecked(isAudioPanelOnLeft);
 
+        mViewTimout = (CustomSeekBarPreference) findPreference(KEY_VIEW_TIMEOUT);
+        int currentTimeout = Settings.System.getInt(resolver,
+                Settings.System.AUDIO_PANEL_VIEW_TIMEOUT, 3);
+        mViewTimout.setValue(currentTimeout);
+        mViewTimout.setOnPreferenceChangeListener(this);
+
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.audio_panel_view_info);
     }
 
@@ -82,6 +91,18 @@ public class VolumePanel extends SettingsPreferenceFragment {
         } catch (PackageManager.NameNotFoundException e) {
             return false;
         }
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mViewTimout) {
+            int viewTimeout = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.AUDIO_PANEL_VIEW_TIMEOUT, viewTimeout);
+        } else {
+            return false;
+        }
+        return true;
     }
 
     public static void reset(Context mContext) {

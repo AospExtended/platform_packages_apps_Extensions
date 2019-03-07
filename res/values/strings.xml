@@ -24,6 +24,7 @@
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
     <string name="choose_app">Choose app</string>
+    <string name="default_text">Def</string>
     <string name="general_category">General</string>
     <string name="gestures_category">Gestures</string>
     <string name="music_category">Music</string>

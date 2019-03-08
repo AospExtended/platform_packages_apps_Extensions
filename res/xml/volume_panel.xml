@@ -25,12 +25,14 @@
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_media"
         android:title="@string/audio_panel_view_media_title"
+        android:summary="@string/audio_panel_view_media_title_summary"
         android:defaultValue="false" />
 
     <!-- Volume keys control media stream -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="volume_keys_control_ring_tone"
         android:title="@string/audio_panel_view_ringer_title"
+        android:summary="@string/audio_panel_view_ringer_title_summary"
         android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
@@ -41,16 +43,19 @@
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_alarm"
         android:title="@string/audio_panel_view_alarm_title"
+        android:summary="@string/audio_panel_view_alarm_title_summary"
         android:defaultValue="false"/>
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_voice"
         android:title="@string/audio_panel_view_voice_title"
+        android:summary="@string/audio_panel_view_voice_title_summary"
         android:defaultValue="false"/>
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_bt_sco"
         android:title="@string/audio_panel_view_bt_sco_title"
+        android:summary="@string/audio_panel_view_bt_sco_title_summary"
         android:defaultValue="false"/>
 
     </PreferenceCategory>
@@ -60,7 +65,8 @@
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_position"
-        android:title="@string/audio_panel_view_position_title" />
+        android:title="@string/audio_panel_view_position_title"
+        android:summary="@string/audio_panel_view_position_summary"/>
 
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="audio_panel_view_timeout"

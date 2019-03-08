@@ -16,17 +16,20 @@
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="battery_light_enabled"
+        android:summary="@string/battery_light_enabled_summary"
         android:title="@string/battery_light_enable"
         android:defaultValue="true"/>
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="battery_light_allow_on_dnd"
+        android:summary="@string/battery_light_allow_on_dnd_summary"
         android:title="@string/battery_light_allow_on_dnd_title"
         android:dependency="battery_light_enabled"
         android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="battery_light_low_blinking"
+        android:summary="@string/battery_light_low_blinking_summary"
         android:title="@string/battery_light_low_blinking_title"
         android:dependency="battery_light_enabled"
         android:defaultValue="false" />

@@ -170,6 +170,7 @@
     <!-- Heads up -->
     <string name="headsup_category">HeadsUp Settings</string>
     <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_notifications_summary">Customise Heads up notifications settings</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
@@ -254,16 +255,22 @@
 
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_charging_light_summary">Customise battery charging LED</string>
     <string name="battery_light_enable">Battery light</string>
+    <string name="battery_light_enabled_summary">Enable it to show the respective colors of the battery LED</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_allow_on_dnd_summary">Enable it to show the battery LED light while the device is in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_low_blinking_summary">Blink the battery LED light on low battery</string>
     <string name="battery_light_cat">Battery light color when charging</string>
     <string name="battery_light_low_color">Low battery</string>
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
+    <!-- Notifications LED -->
     <string name="notification_light_settings">Notifications light</string>
+    <string name="notification_light_summary">Customise the notifications LED light for various apps</string> 
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
@@ -365,7 +372,7 @@
     <string name="smart_pulldown_ongoing">No ongoing</string>
 
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_summary">Configure some actions when the screen is turned off</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>
     <string name="screen_state_toggles_enable_title">Enable</string>
     <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>

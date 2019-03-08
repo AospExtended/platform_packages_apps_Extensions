@@ -47,6 +47,7 @@
 
      <Preference
         android:key="heads_up_notifications"
+        android:summary="@string/heads_up_notifications_summary"
         android:title="@string/heads_up_notifications"
         android:fragment="org.aospextended.extensions.fragments.HeadsUpSettings"/>
 
@@ -58,11 +59,13 @@
 
      <Preference
          android:key="battery_charging_light"
+         android:summary="@string/battery_charging_light_summary"
          android:fragment="org.aospextended.extensions.fragments.BatteryLightSettings"
          android:title="@string/battery_light_settings" />
 
     <Preference
         android:key="notification_light"
+        android:summary="@string/notification_light_summary"
         android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
         android:title="@string/notification_light_settings" >
         <extra

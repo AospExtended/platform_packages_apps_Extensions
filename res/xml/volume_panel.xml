@@ -22,12 +22,6 @@
     <PreferenceCategory
         android:title="@string/volume_pannel_general">
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_media"
-        android:title="@string/audio_panel_view_media_title"
-        android:summary="@string/audio_panel_view_media_title_summary"
-        android:defaultValue="false" />
-
     <!-- Volume keys control media stream -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="volume_keys_control_ring_tone"

@@ -411,12 +411,6 @@
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
     <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
 
-    <!-- Weather -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_unit">Temperature unit</string>
-    <string name="weather_unit_metric" translatable="false">Celsius</string>
-    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
-
     <string name="qs_styles_dialog_title">Select a QS tile style</string>
 
     <!-- Data disabled icon -->

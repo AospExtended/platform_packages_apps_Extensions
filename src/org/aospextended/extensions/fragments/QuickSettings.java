@@ -130,8 +130,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     }
 
     @Override
-         public boolean onPreferenceChange(Preference preference, Object objValue) {
-        } else if (preference == mQuickPulldown) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mQuickPulldown) {
             int quickPulldownValue = Integer.valueOf((String) newValue);
             Settings.System.putIntForUser(resolver, Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
                     quickPulldownValue, UserHandle.USER_CURRENT);
@@ -143,7 +144,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             updateSmartPulldownSummary(smartPulldown);
             return true;
         }
-
         return false;
     }
 

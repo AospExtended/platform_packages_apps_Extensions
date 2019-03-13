@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 perc után</string>
     <string name="torch_long_press_power_timeout_10min">10 perc után</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Akkumulátortöltési jelzőfény</string>
     <string name="battery_light_enable">Akkumulátor jelzőfény engedélyezve</string>
     <string name="battery_light_allow_on_dnd_title">Akkumulátor jelzőfény Ne zavarjanak (DND) módban</string>
     <string name="battery_light_low_blinking_title">Alacsony akkumulátorszintnél villogó fényjelzés</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Közepes akkumulátorszint</string>
     <string name="battery_light_full_color">Majdnem teljes akkumulátorszint</string>
     <string name="battery_light_reallyfull_color">100%-os akkumulátorszint</string>
-    <string name="notification_light_settings">Értesítési fény</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
     <string name="lockscreen_battery_info_summary">Töltés közben megjeleníti a maximális aktuális töltőfeszültséget és az akkumulátor hőmérsékletét a zárképernyőn</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Az Előzmények stílusa</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Átlátszóság</string>
-    <string name="qs_opacity_category">A Gyorsbeállítások panel átlátszósága</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Alkalmazás buborékszövege</string>
     <string name="toast_icon_summary">Megjeleníti a buborékszöveghez tartozó alkalmazás ikonját</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">Gyorsbeállítások megnyitása, ha %1$s értesítés</string>
     <string name="smart_pulldown_none_summary">Gyorsbeállítások megnyitása, ha nincsenek értesítések</string>
     <string name="smart_pulldown_off">Kikapcsolás</string>
+    <string name="smart_pulldown_none">Nincsenek értesítések</string>
+    <string name="smart_pulldown_dismissable">Nincs eldobható</string>
+    <string name="smart_pulldown_ongoing">Nincs folyamatban lévő</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">Válassza ki az elhalasztani kívánt műveleteket, amelyek majd csak a képernyő kikapcsolásakor futnak le</string>
     <string name="screen_state_toggles_title">Művelet-felfüggesztés</string>
     <string name="screen_state_toggles_enable_title">Engedélyezés</string>
     <string name="screen_state_toggles_enable_summary">A műveletek a képernyő kikapcsolásakor kerülnek végrehajtásra. A képernyő bekapcsolása esetén az előző állapot áll vissza.</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">Képernyő bekapcsoláskor elvégzendő műveletek késleltetése</string>
     <string name="screen_state_on_delay_summary">A képernyő bekapcsolódásakor elvégzendő műveletek előtti várakozás időtartama másodpercekben</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Óra kisalkalmazás</string>
+    <string name="lockscreen_clock_summary">Megjeleníti az órát a zárképernyőn</string>
+    <string name="lockscreen_info_title">Az elemek az óra alatt helyezkednek el</string>
+    <string name="lockscreen_info_summary">Jelenítse meg a dátumot, az időjárást, az ébresztést és a \'zen\'-t a zárképernyőn</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Az Óra stílusa</string>
+    <string name="lockscreen_clock_selection_digital">Alapértelmezett</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitális (félkövér)</string>
+    <string name="lockscreen_clock_selection_analog">Analóg</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
     <!-- Weather -->
     <string name="weather_title">Időjárás</string>
     <string name="weather_unit">A hőmérséklet mértékegysége</string>
     <string name="qs_styles_dialog_title">Válasszon egy Gyorsbeállítás-csempestílust</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Csengési hangerővezérlés</string>
-    <string name="volume_keys_control_ring_tone_summary">A gombok alapértelmezetten a médiahangerőt vezérlik. Lehetővé teszi, hogy a csengőhang erejét állítsa</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">A kikapcsolt mobiladat jelzése</string>
     <string name="data_disabled_icon_summary">A térerő mellett x-jel megjelenítése, ha a mobiladatok le vannak tiltva</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">Egyszeri érintési művelet</string>
     <string name="hardware_keys_long_press_title">Nyomvatartási művelet</string>
     <string name="hardware_keys_double_tap_title">Dupla érintési művelet</string>
+    <string name="hardware_keys_category">Hardveres navigációs gombok</string>
+    <string name="hardware_keys_disable_title">A hardveres navigációs gombok letiltása</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">A háttérvilágítás beállításai</string>
     <string name="button_backlight_enable_title">A gombok háttérvilágításának engedélyezése</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">A csúsztatási mozdulatvezérlés időkorlátja</string>
     <string name="gesture_action_timeout_summary">Megadhatja mennyi idő teljen el, míg a művelet elindul</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Ikoncsomag</string>
+    <string name="recents_icon_pack_summary">Egyéni ikoncsomag alkalmazása az Előzmények panelre</string>
+    <string name="no_iconpacks_summary">Nincsenek telepített ikoncsomagok</string>
+    <string name="dialog_pick_iconpack_title">Ikoncsomag-választás</string>
+    <string name="default_iconpack_title">Alapértelmezett ikonok</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Hangerőléptetések</string>
+    <string name="volume_steps_summary">Testre szabhatja a hangerőléptetéseket</string>
+    <string name="volume_steps_alarm_title">Hangerő lépésköz: Ébresztő</string>
+    <string name="volume_steps_dtmf_title">Hangerő lépésköz: DTMF</string>
+    <string name="volume_steps_music_title">Hangerő lépésköz: Média</string>
+    <string name="volume_steps_notification_title">Hangerő lépésköz: Értesítés</string>
+    <string name="volume_steps_ring_title">Hangerő lépésköz: Csengőhang</string>
+    <string name="volume_steps_system_title">Hangerő lépésköz: Rendszerhang</string>
+    <string name="volume_steps_voice_call_title">Hangerő lépésköz: Hanghívás</string>
+    <string name="volume_steps_reset">Visszaállítás</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Rezgés a kapcsolat létrejöttekor</string>
+    <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatáskor</string>
+    <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">\'Alkalmazás-leállítás\' gomb</string>
+    <string name="notification_guts_kill_app_button_summary">Az \'Alkalmazás-leállítás\' gomb megjelenítése az értesítés hosszan nyomási menüjében</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Hangosabb értesítések bekapcsolt képernyőnél</string>
+    <string name="notification_sound_vib_screen_on_summary">A blokkolt értesítések és rezgések feloldásra kerülnek, ha a képernyő is feloldott állapotban van</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Intelligens értesítési hangok</string>
+    <string name="less_notification_sounds_summary">Minden alkalmazás értesítési hangját csak egyszer játssza le egy beállított időtartam alatt</string>
+    <string name="less_notification_sounds_default">Az alkalmazás alapértelmezése szerint</string>
+    <string name="less_notification_sounds_10s">10 másodpercenként</string>
+    <string name="less_notification_sounds_30s">30 másodpercenként</string>
+    <string name="less_notification_sounds_1m">Percenként</string>
+    <string name="less_notification_sounds_2m">2 percenként</string>
+    <!-- Audio Panel view  -->
 </resources>

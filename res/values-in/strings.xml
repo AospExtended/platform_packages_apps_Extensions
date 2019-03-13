@@ -30,7 +30,7 @@
     <string name="hardware_category">Perangkat keras</string>
     <string name="icons_category">Ikon</string>
     <string name="aosp_recents_category">Tampilan terkini AOSP</string>
-    <string name="oreo_recents_category">Tampilan terkini oreo</string>
+    <string name="oreo_recents_category">Tampilan Oreo</string>
     <string name="light_category">Lampu</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Perhatian</string>
@@ -75,7 +75,7 @@
     <string name="lockscreen_shortcuts">Pintasan layar kunci</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Setelan Layar Kunci</string>
-    <string name="hide_lockscreen_items_title">Item kunci layar</string>
+    <string name="hide_lockscreen_items_title">Item layar kunci</string>
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Item bilah status</string>
     <!-- Notifications -->
@@ -93,7 +93,7 @@
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Bantu kami membantu kamu!</string>
     <string name="extensions_dialog_message">Jika kamu menemukan bug dengan setelan ini, laporkan di laman seksi Bug Reports Google+ kami. Kamu HARUS memasukan ini ketika melapor sebuah bug:\n\n1. Logcat atau last_kmsg\n2. Kernel dan modif lain\n3. Informasi berguna\n\nJika kamu gagal melaporkan sesuatu dengan jelas, JANGAN harap masalah dapat diperbaiki.</string>
-    <string name="extensions_dialog_toast">BACA KESELURUHANNYA!</string>
+    <string name="extensions_dialog_toast">BACA KESELURUHAN!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Pilih warna aksen</string>
     <string name="theme_accent_picker_title">Warna aksen</string>
@@ -133,12 +133,12 @@
     <string name="double_tap_to_sleep_summary">Tap dua kali pada bilah status untuk mematikan layar</string>
     <!-- Network traffic -->
     <string name="network_traffic_title">Lalu lintas jaringan</string>
-    <string name="network_traffic_type">Pilih tipe aktvitas jaringan</string>
+    <string name="network_traffic_type">Pilih tipe aktivitas jaringan</string>
     <string name="show_network_traffic_up">Keluar</string>
     <string name="show_network_traffic_down">Masuk</string>
     <string name="show_network_traffic_all">Keluar dan Masuk</string>
-    <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di bilah status</string>
-    <string name="network_traffic_autohide_threshold_title">Ambang batas untuk otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
+    <string name="network_traffic_state_title">Tampilkan aktivitas jaringan di statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Ambang menyembunyikan aktivitas jaringan (KB/s)</string>
     <!-- Heads up -->
     <string name="headsup_category">Setelan Notifikasi mengambang</string>
     <string name="heads_up_notifications">Notifikasi mengambang</string>
@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 menit</string>
     <string name="torch_long_press_power_timeout_10min">10 menit</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Lampu pengisian baterai</string>
     <string name="battery_light_enable">Lampu baterai</string>
     <string name="battery_light_allow_on_dnd_title">Lampu baterai dalam mode Jangan diganggu</string>
     <string name="battery_light_low_blinking_title">Lampu berkedip saat baterai lemah</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Baterai menengah</string>
     <string name="battery_light_full_color">Baterai hampir penuh</string>
     <string name="battery_light_reallyfull_color">Baterai Telah Terisi 100%</string>
-    <string name="notification_light_settings">Lampu pemberitahuan</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informasi pengisian kunci layar</string>
     <string name="lockscreen_battery_info_summary">Tampilan pengisi daya yang dinegosiasikan maksimal arus dan tegangan dan suhu baterai pada layar kunci saat pengisian</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Tampilan aplikasi terkini</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Keburaman</string>
-    <string name="qs_opacity_category">Keburaman panel QS</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Informasi teks pada simbol aplikasi</string>
     <string name="toast_icon_summary">Tampilkan ikon aplikasi dalam pemberitahuan Informasi teks</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">Buka setelan cepat ketika ada %1$s notifikasi</string>
     <string name="smart_pulldown_none_summary">Buka setelan cepat ketika tidak ada notifikasi</string>
     <string name="smart_pulldown_off">Mati</string>
+    <string name="smart_pulldown_none">Tidak ada notifikasi</string>
+    <string name="smart_pulldown_dismissable">Tidak dapat dihilangkan</string>
+    <string name="smart_pulldown_ongoing">Tidak ada yang sedang berlangsung</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Hentikan tindakan</string>
     <string name="screen_state_toggles_enable_title">Mengaktifkan</string>
     <string name="screen_state_toggles_enable_summary">Tindakan akan dilakukan saat layar mati. Saat layar hidup keadaan sebelumnya akan dipulihkan.</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">Tunda tindakan Layar Hidup</string>
     <string name="screen_state_on_delay_summary">Jumlah detik untuk menunggu sebelum melakukan tindakan setelah layar hidup</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Widget jam</string>
+    <string name="lockscreen_clock_summary">Tampilkan widget jam di layar kunci</string>
+    <string name="lockscreen_info_title">Item di bawah jam</string>
+    <string name="lockscreen_info_summary">Tampilkan tanggal, cuaca, alarm dan zen mode di layar kunci</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Gaya jam</string>
+    <string name="lockscreen_clock_selection_digital">Bawaan</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (tebal)</string>
+    <string name="lockscreen_clock_selection_analog">Analog</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (tebal)</string>
     <!-- Weather -->
     <string name="weather_title">Cuaca</string>
     <string name="weather_unit">Satuan suhu</string>
     <string name="qs_styles_dialog_title">Pilih gaya ubin qs</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Kontrol volume nada dering</string>
-    <string name="volume_keys_control_ring_tone_summary">Tombol kontrol media slider secara default. Memungkinkan untuk beralih ke cincin nada slider.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Tampilkan tanda silang di sebelah bar sinyal saat data dimatikan</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">Tindakan sekali tekan</string>
     <string name="hardware_keys_long_press_title">Tindakan tekan lama tombol</string>
     <string name="hardware_keys_double_tap_title">Tindakan tekan dua kali</string>
+    <string name="hardware_keys_category">Tombol navigasi perangkat keras</string>
+    <string name="hardware_keys_disable_title">Matikan tombol navigasi perangkat keras</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Opsi lampu tombol</string>
     <string name="button_backlight_enable_title">Izinkan tombol lampu latar</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">Batas waktu pemicu gesekan</string>
     <string name="gesture_action_timeout_summary">Batas waktu sebelum gestur dimulai</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Paket ikon</string>
+    <string name="recents_icon_pack_summary">Terapkan paket ikon kustom untuk panel terkini</string>
+    <string name="no_iconpacks_summary">Tidak ada paket ikon terinstall</string>
+    <string name="dialog_pick_iconpack_title">Pilih paket ikon</string>
+    <string name="default_iconpack_title">Ikon bawaan</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Tingkat volume</string>
+    <string name="volume_steps_summary">Sesuaikan tingkat volume</string>
+    <string name="volume_steps_alarm_title">Tingkat volume: Alarm</string>
+    <string name="volume_steps_dtmf_title">Tingkat volume: DTMF</string>
+    <string name="volume_steps_music_title">Tingkat volume: Media</string>
+    <string name="volume_steps_notification_title">Tingkat volume: Pemberitahuan</string>
+    <string name="volume_steps_ring_title">Tingkat volume: Dering</string>
+    <string name="volume_steps_system_title">Tingkat volume: sistem</string>
+    <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan suara</string>
+    <string name="volume_steps_reset">Setel ulang</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Getar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Getar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Getar saat terputus</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Tombol mematikan aplikasi</string>
+    <string name="notification_guts_kill_app_button_summary">Tampilkan tombol mematikan aplikasi pada saat menu pemberitahuan ditekan</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Pemberitahuan berisik saat layar hidup</string>
+    <string name="notification_sound_vib_screen_on_summary">Matikan untuk meniadakan suara dan getaran pemberitahuan saat layar hidup</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Suara pemberitahuan pintar</string>
+    <string name="less_notification_sounds_summary">Menyalakan suara pemberitahuan setiap aplikasi hanya sekali pada waktu tertentu</string>
+    <string name="less_notification_sounds_default">Aplikasi bawaan</string>
+    <string name="less_notification_sounds_10s">Setiap 10 detik</string>
+    <string name="less_notification_sounds_30s">Setiap 30 detik</string>
+    <string name="less_notification_sounds_1m">Setiap menit</string>
+    <string name="less_notification_sounds_2m">Setiap 2 menit</string>
+    <!-- Audio Panel view  -->
 </resources>

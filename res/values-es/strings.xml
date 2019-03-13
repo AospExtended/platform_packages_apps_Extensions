@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 minutos</string>
     <string name="torch_long_press_power_timeout_10min">10 minutos</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Luz al cargar la batería</string>
     <string name="battery_light_enable">Luz de batería</string>
     <string name="battery_light_allow_on_dnd_title">Luz de batería en modo No Molestar</string>
     <string name="battery_light_low_blinking_title">Luz intermitente con batería baja</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Batería a la mitad</string>
     <string name="battery_light_full_color">Batería casi llena</string>
     <string name="battery_light_reallyfull_color">Batería completa (100%)</string>
-    <string name="notification_light_settings">Luz de notificación</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
     <string name="lockscreen_battery_info_summary">Mostrar corriente y voltaje máximos negociados con el cargador y la temperatura de la batería en la pantalla de bloqueo cuando se esté cargando</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Estilo de recientes</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacidad</string>
-    <string name="qs_opacity_category">Opacidad del Panel de Ajustes Rápidos</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Icono de la aplicación en mensajes emergentes</string>
     <string name="toast_icon_summary">Mostrar el ícono de la aplicación correspondiente al mensaje emergente</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">Mostrar los ajustes rápidos cuando hay %1$s notificaciones</string>
     <string name="smart_pulldown_none_summary">Abrir los ajustes rápidos cuando no haya notificaciones</string>
     <string name="smart_pulldown_off">Desactivado</string>
+    <string name="smart_pulldown_none">Sin notificaciones</string>
+    <string name="smart_pulldown_dismissable">Sin notificaciones descartables</string>
+    <string name="smart_pulldown_ongoing">Sin notificaciones en curso</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Acciones al suspender</string>
     <string name="screen_state_toggles_enable_title">Activar</string>
     <string name="screen_state_toggles_enable_summary">Las acciones se ejecutarán al apagar la pantalla. Al encenderla, el estado anterior se restaurará.</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">Retraso de las acciones al encender la pantalla</string>
     <string name="screen_state_on_delay_summary">Número de segundos a esperar antes de realizar acciones de después de apagar la pantalla</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Widget de Reloj</string>
+    <string name="lockscreen_clock_summary">Mostrar el widget del reloj en la pantalla de bloqueo</string>
+    <string name="lockscreen_info_title">Elementos debajo del reloj</string>
+    <string name="lockscreen_info_summary">Mostrar fecha, clima, alarmas y zen en la pantalla de bloqueo</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Estilo de reloj</string>
+    <string name="lockscreen_clock_selection_digital">Predeterminado</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (negrita)</string>
+    <string name="lockscreen_clock_selection_analog">Analógico</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
     <!-- Weather -->
     <string name="weather_title">Clima</string>
     <string name="weather_unit">Unidad de medida de temperatura</string>
     <string name="qs_styles_dialog_title">Selecciona un estilo de ajustes rápidos</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Control del volumen del tono de llamada</string>
-    <string name="volume_keys_control_ring_tone_summary">Los botones de volumen controlan el volumen multimedia de forma predeterminada. Habilitar para cambiar a control del tono de llamada.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mostrar icono de datos deshabilitados</string>
     <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos esten deshabilitados</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">Acción de un toque</string>
     <string name="hardware_keys_long_press_title">Acción de pulsación larga</string>
     <string name="hardware_keys_double_tap_title">Acción de doble toque</string>
+    <string name="hardware_keys_category">Botones de navegación del teléfono</string>
+    <string name="hardware_keys_disable_title">Desactivar los botones de navegación del teléfono</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Opciones de luz de fondo</string>
     <string name="button_backlight_enable_title">Permitir luz de fondo del botón</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">Tiempo de espera para activar el gesto</string>
     <string name="gesture_action_timeout_summary">Tiempo de espera antes de iniciar la acción del gesto</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Paquete de Iconos</string>
+    <string name="recents_icon_pack_summary">Aplicar un paquete de iconos personalizados para el panel de recientes</string>
+    <string name="no_iconpacks_summary">No hay paquetes de iconos instalados</string>
+    <string name="dialog_pick_iconpack_title">Elegir paquete de iconos</string>
+    <string name="default_iconpack_title">Iconos predeterminados</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Niveles de volumen</string>
+    <string name="volume_steps_summary">Personalizar los intervalos de volumen</string>
+    <string name="volume_steps_alarm_title">Nivel de volumen: Alarma</string>
+    <string name="volume_steps_dtmf_title">Nivel de volumen: DTMF</string>
+    <string name="volume_steps_music_title">Nivel de volumen: Multimedia</string>
+    <string name="volume_steps_notification_title">Nivel de volumen: Notificaciones</string>
+    <string name="volume_steps_ring_title">Nivel de volumen: Tono de llamada</string>
+    <string name="volume_steps_system_title">Nivel de volumen: Sistema</string>
+    <string name="volume_steps_voice_call_title">Nivel de volumen: Llamada</string>
+    <string name="volume_steps_reset">Restablecer</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Botón de detener aplicación</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar el botón de cerrar aplicación en el menú de notificaciones de pulsación prolongada</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Notificaciones con sonido y vibración si la pantalla está encendida</string>
+    <string name="notification_sound_vib_screen_on_summary">Desactivar para bloquear el sonido y vibración de las notificaciones cuando la pantalla está encendida</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Sonidos de notificación inteligentes</string>
+    <string name="less_notification_sounds_summary">Reproducir el sonido de notificación de cada aplicación sólo una vez durante este periodo de tiempo</string>
+    <string name="less_notification_sounds_default">Aplicación por defecto</string>
+    <string name="less_notification_sounds_10s">Cada 10 segundos</string>
+    <string name="less_notification_sounds_30s">Cada 30 segundos</string>
+    <string name="less_notification_sounds_1m">Cada minuto</string>
+    <string name="less_notification_sounds_2m">Cada 2 minutos</string>
+    <!-- Audio Panel view  -->
 </resources>

@@ -212,7 +212,6 @@ Note : à vos risques et périls !</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Voyant de batterie en charge</string>
     <string name="battery_light_enable">Voyant de batterie</string>
     <string name="battery_light_allow_on_dnd_title">Voyant de batterie en mode Ne Pas Déranger</string>
     <string name="battery_light_low_blinking_title">Voyant clignotant lorsque la batterie est faible</string>
@@ -221,7 +220,7 @@ Note : à vos risques et périls !</string>
     <string name="battery_light_medium_color">Batterie moyenne</string>
     <string name="battery_light_full_color">Batterie presque pleine</string>
     <string name="battery_light_reallyfull_color">Batterie pleine (100)</string>
-    <string name="notification_light_settings">Voyant de notification</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
     <string name="lockscreen_battery_info_summary">Afficher le courant, la tension et la température de la batterie maximum calculés du chargeur sur l\'écran de verrouillage pendant le chargement</string>
@@ -243,9 +242,6 @@ Note : à vos risques et périls !</string>
     <string name="recents_component_type_title">Style des applications récentes</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacité</string>
-    <string name="qs_opacity_category">Transparence panneau réglages rapides</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Icône des bulles de notification</string>
     <string name="toast_icon_summary">Afficher l\'icône de l\'application correspondante dans la bulle de notification</string>
@@ -307,8 +303,10 @@ Note : à vos risques et périls !</string>
     <string name="smart_pulldown_summary">Ouvrir les réglages rapides quand il y a %1$s notifications</string>
     <string name="smart_pulldown_none_summary">Ouvrir les réglages rapides quand aucune notification n\'est présente</string>
     <string name="smart_pulldown_off">Désactivé</string>
+    <string name="smart_pulldown_none">Aucune notification</string>
+    <string name="smart_pulldown_dismissable">Non rejetable</string>
+    <string name="smart_pulldown_ongoing">Rien en cours</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">Choisissez un ensemble d’actions lorsque vous éteignez votre écran.</string>
     <string name="screen_state_toggles_title">Suspendre les actions</string>
     <string name="screen_state_toggles_enable_title">Activer</string>
     <string name="screen_state_toggles_enable_summary">Les actions seront exécutées lorsque l\'écran sera éteint. Écran allumé, l\'état précédent sera restauré.</string>
@@ -325,14 +323,21 @@ Note : à vos risques et périls !</string>
     <string name="screen_state_on_delay_title">Délai des actions lorsque l\'écran est allumé</string>
     <string name="screen_state_on_delay_summary">Nombre de secondes à attendre avant d\'effectuer des actions une fois l\'écran allumé</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Widget horloge</string>
+    <string name="lockscreen_clock_summary">Afficher le widget horloge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_info_title">Éléments sous l’horloge</string>
+    <string name="lockscreen_info_summary">Afficher la date, le temps, les alarmes et le zen sur l\'écran de verrouillage</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Style de l\'horloge</string>
+    <string name="lockscreen_clock_selection_digital">Par défaut</string>
+    <string name="lockscreen_clock_selection_digital_bold">Numérique (gras)</string>
+    <string name="lockscreen_clock_selection_analog">Analogique</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (gras)</string>
     <!-- Weather -->
     <string name="weather_title">Météo</string>
     <string name="weather_unit">Unité de température</string>
     <string name="qs_styles_dialog_title">Sélectionnez un style de réglages rapides</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Contrôle du volume de la sonnerie</string>
-    <string name="volume_keys_control_ring_tone_summary">Les touches contrôlent le curseur de média par défaut. Activer pour passer au curseur de la sonnerie.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Afficher l\'icône des données désactivées</string>
     <string name="data_disabled_icon_summary">Afficher une croix à côté du signal lorsque les données sont désactivées</string>
@@ -348,6 +353,8 @@ Note : à vos risques et périls !</string>
     <string name="hardware_keys_single_tap_title">Action simple appui</string>
     <string name="hardware_keys_long_press_title">Action  appui long</string>
     <string name="hardware_keys_double_tap_title">Action double appui</string>
+    <string name="hardware_keys_category">Boutons de navigation physiques</string>
+    <string name="hardware_keys_disable_title">Désactiver les boutons de navigation physiques</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Options de Rétroéclairage</string>
     <string name="button_backlight_enable_title">Activer le rétroéclairage des boutons</string>
@@ -539,9 +546,39 @@ Note : à vos risques et périls !</string>
     <string name="gesture_action_timeout_title">Délai de déclenchement du balayage</string>
     <string name="gesture_action_timeout_summary">Délai d’attente avant le début de l’action du geste</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Pack d\'icônes</string>
+    <string name="recents_icon_pack_summary">Appliquer un pack d\'icône personnalisée pour le panneau des éléments récents</string>
+    <string name="no_iconpacks_summary">Pas de packs d\'icônes installé</string>
+    <string name="dialog_pick_iconpack_title">Choisir un pack d\'icônes</string>
+    <string name="default_iconpack_title">Icônes par défaut</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Incréments du volume</string>
+    <string name="volume_steps_summary">Personnaliser les niveaux d’incréments du volume</string>
+    <string name="volume_steps_alarm_title">Niveaux de volume : Alarme</string>
+    <string name="volume_steps_dtmf_title">Niveaux de volume : DTMF</string>
+    <string name="volume_steps_music_title">Niveau de volume : Médias</string>
+    <string name="volume_steps_notification_title">Niveaux de volume : Notifications</string>
+    <string name="volume_steps_ring_title">Niveaux de volume : Sonnerie</string>
+    <string name="volume_steps_system_title">Niveaux de volume : Système</string>
+    <string name="volume_steps_voice_call_title">Niveaux de volume : Appel Vocal</string>
+    <string name="volume_steps_reset">Réinitialiser</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Vibrer lors de la connexion</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer en cas d\'appel en attente</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lorsque l\'appel est raccroché</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Bouton pour forcer l\'arrêt des applications</string>
+    <string name="notification_guts_kill_app_button_summary">Afficher un bouton pour \"forcer l’arrêt de l’application\" dans le menu lors d\'un appui long sur la notification</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Notifications sonores si l\'écran est activé</string>
+    <string name="notification_sound_vib_screen_on_summary">Désactiver pour bloquer le son des notifications et les vibrations lorsque l\'écran est réveillé</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Sons de notification intelligente</string>
+    <string name="less_notification_sounds_summary">Émettre le son de notification de chaque application une seule fois par période de temps</string>
+    <string name="less_notification_sounds_default">Applications par défaut</string>
+    <string name="less_notification_sounds_10s">Toutes les 10 secondes</string>
+    <string name="less_notification_sounds_30s">Toutes les 30 secondes</string>
+    <string name="less_notification_sounds_1m">Toutes les minutes</string>
+    <string name="less_notification_sounds_2m">Toutes les 2 minutes</string>
+    <!-- Audio Panel view  -->
 </resources>

@@ -187,12 +187,12 @@
     <!-- Volume rocker wake -->
     <!-- The volume key answer -->
     <!-- Battery light -->
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
     <!-- Battery percentage -->
     <!-- Status bar battery style-->
     <!-- AOSP Recents component Style -->
-    <!-- QuickSettings Panel Transparency -->
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icoon</string>
     <!-- Quick Settings brightness slider -->
@@ -207,7 +207,6 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <!-- Weather -->
-    <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -239,4 +238,5 @@
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">Через 5 минут</string>
     <string name="torch_long_press_power_timeout_10min">Через 10 минут</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Индикация зарядки</string>
     <string name="battery_light_enable">Индикация батареи</string>
     <string name="battery_light_allow_on_dnd_title">Индикация батареи в режиме «Не беспокоить»</string>
     <string name="battery_light_low_blinking_title">Индикация при низком заряде батареи</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Средний заряд батареи</string>
     <string name="battery_light_full_color">Почти полный заряд батареи</string>
     <string name="battery_light_reallyfull_color">Полный заряд батареи (100%)</string>
-    <string name="notification_light_settings">Индикация уведомлений</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Показывать текущее напряжение и температуру аккумулятора на экране блокировки во время зарядки</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Стиль недавних приложений</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Прозрачность</string>
-    <string name="qs_opacity_category">Прозрачность панели быстрых настроек</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Значок вспл. уведомления</string>
     <string name="toast_icon_summary">Отобразить значок приложения на всплывающем уведомлении</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">Открывать быстрые настройки, если %1$s уведомлений</string>
     <string name="smart_pulldown_none_summary">Открытие быстрых настроек при отсутствии уведомлений</string>
     <string name="smart_pulldown_off">Отключить</string>
+    <string name="smart_pulldown_none">Нет уведомлений</string>
+    <string name="smart_pulldown_dismissable">Нет удаляемых</string>
+    <string name="smart_pulldown_ongoing">Нет постоянных</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Действия в режиме ожидания</string>
     <string name="screen_state_toggles_enable_title">Активировать</string>
     <string name="screen_state_toggles_enable_summary">Действия будут выполняться при переходе в режим сна. При пробуждении будет восстановлено предыдущее состояние.</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">Задержка при включении экрана</string>
     <string name="screen_state_on_delay_summary">Время в секундах перед выполнением действий после включения экрана</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Виджет часов</string>
+    <string name="lockscreen_clock_summary">Показывать виджет часов на экране блокировки</string>
+    <string name="lockscreen_info_title">Информация под часами</string>
+    <string name="lockscreen_info_summary">Показывать дату, будильник, погоду и дзен на экране блокировки</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Стиль часов</string>
+    <string name="lockscreen_clock_selection_digital">По умолчанию</string>
+    <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
+    <string name="lockscreen_clock_selection_analog">Аналоговые</string>
+    <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
     <!-- Weather -->
     <string name="weather_title">Погода</string>
     <string name="weather_unit">Единицы измерения</string>
     <string name="qs_styles_dialog_title">Выбор стиля плиток быстрых настроек</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Управление громкостью звонка</string>
-    <string name="volume_keys_control_ring_tone_summary">По умолчанию клавиши управляют громкостью мультимедиа. Включите, чтобы управлять громкостью мелодии звонка.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Значок выключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать крест над значком сети, когда передача данных отключена</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">Одно нажатие</string>
     <string name="hardware_keys_long_press_title">Долгое нажатие</string>
     <string name="hardware_keys_double_tap_title">Двойное нажатие</string>
+    <string name="hardware_keys_category">Аппаратные навигационные кнопки</string>
+    <string name="hardware_keys_disable_title">Отключить аппаратные кнопки навигации</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Подсветка кнопок</string>
     <string name="button_backlight_enable_title">Включить подсветку кнопок</string>
@@ -491,7 +498,7 @@
     <string name="screen_off_animation_crt">Старый телевизор</string>
     <string name="screen_off_animation_scale">Масштабирование</string>
     <!-- Media art -->
-    <string name="media_art_title">Обложка альбма</string>
+    <string name="media_art_title">Обложка альбома</string>
     <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
     <!-- Lockscreen visualizer -->
     <string name="lockscreen_visualizer_title">Визуализатор музыки</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">Время обработки жеста</string>
     <string name="gesture_action_timeout_summary">Время ожидания до начала выполнения жест</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Набор значков</string>
+    <string name="recents_icon_pack_summary">Применить пользовательский набор значков для панели недавних приложений</string>
+    <string name="no_iconpacks_summary">Наборы значков не установлены</string>
+    <string name="dialog_pick_iconpack_title">Выбрать набор значков</string>
+    <string name="default_iconpack_title">Значки по умолчанию</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Уровни громкости</string>
+    <string name="volume_steps_summary">Настроить уровни громкости</string>
+    <string name="volume_steps_alarm_title">Уровни громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Уровень громкости: Набор номера</string>
+    <string name="volume_steps_music_title">Уровни громкости: Медиа</string>
+    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
+    <string name="volume_steps_system_title">Уровень громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
+    <string name="notification_guts_kill_app_button_summary">Показывать кнопку закрытия приложения при долгом нажатии на уведомление</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Надоедливые уведомления при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Не блокировать звуковые и вибро уведомления при включённом экране</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Звуки \"умных\" уведомлений</string>
+    <string name="less_notification_sounds_summary">Проигрывать звук уведомления для каждого приложения только один раз</string>
+    <string name="less_notification_sounds_default">Приложения по умолчанию</string>
+    <string name="less_notification_sounds_10s">Каждые 10 секунд</string>
+    <string name="less_notification_sounds_30s">Каждые 30 секунд</string>
+    <string name="less_notification_sounds_1m">Каждую минуту</string>
+    <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
+    <!-- Audio Panel view  -->
 </resources>

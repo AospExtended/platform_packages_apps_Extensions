@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 λεπτά</string>
     <string name="torch_long_press_power_timeout_10min">10 λεπτά</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Φωτισμός φόρτισης μπαταρίας</string>
     <string name="battery_light_enable">Φωτεινή ένδειξη μπαταρίας</string>
     <string name="battery_light_allow_on_dnd_title">Φωτισμός μπαταρίας, στη λειτουργία \"Μην ενοχλείτε\"</string>
     <string name="battery_light_low_blinking_title">Αναβόσβημα φωτισμού led σε χαμηλή μπαταρία</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Μέτρια μπαταρία</string>
     <string name="battery_light_full_color">Σχεδόν πλήρης μπαταρία</string>
     <string name="battery_light_reallyfull_color">Πλήρης (100%) Φόρτιση</string>
-    <string name="notification_light_settings">Φωτεινός παλμός ειδοποίησης</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Πληροφορίες φόρτισης στο κλείδωμα οθόνης</string>
     <string name="lockscreen_battery_info_summary">Εμφανίζει την τρέχουσα μέγιστη τάση του φορτιστή και την θερμοκρασία της μπαταρίας στην οθόνη κλειδώματος ενώ φορτίζει</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Τύπος προσφάτων</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Αδιαφάνεια</string>
-    <string name="qs_opacity_category">Αδιαφάνεια πίνακα γρήγορων ρυθμίσεων</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Εικονίδιο αναδυόμενου μηνύματος</string>
     <string name="toast_icon_summary">Εμφάνιση του εικονιδίου της εφαρμογής στην οποία αντιστοιχεί το σύντομο μήνυμα</string>
@@ -307,7 +303,6 @@
     <string name="smart_pulldown_none_summary">Ανοίξτε τις γρήγορες ρυθμίσεις όταν δεν υπάρχουν ειδοποιήσεις</string>
     <string name="smart_pulldown_off">Ανενεργό</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">κενό</string>
     <string name="screen_state_toggles_title">Ενέργειες αναστολής</string>
     <string name="screen_state_toggles_enable_title">Ενεργοποίηση</string>
     <string name="screen_state_toggles_enable_summary">Οι ενέργειες θα εκτελεστούν κατά την απενεργοποίηση της οθόνης. Κατά την ενεργοποίηση οθόνης θα επαναφερθούν στη προηγούμενη κατάσταση.</string>
@@ -329,9 +324,6 @@
     <string name="weather_title">Καιρός</string>
     <string name="weather_unit">Μονάδα μέτρησης θερμοκρασίας</string>
     <string name="qs_styles_dialog_title">Επιλογή του QS στυλ</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Έλεγχος έντασης ήχου κλήσης</string>
-    <string name="volume_keys_control_ring_tone_summary">Πλήκτρα ελέγχου ρυθμίσεων πολυμέσων από προεπιλογή. Ενεργοποίηση για μετάβαση στη ρυθμιστική μπάρα ήχων.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Εμφάνιση εικονιδίου απενεργοποίησης δεδομένων</string>
     <string name="data_disabled_icon_summary">Εμφάνιση μια σήμανσης x δίπλα στη μπάρα σήματος όταν τα δεδομένα είναι ανενεργά</string>
@@ -543,4 +535,5 @@
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

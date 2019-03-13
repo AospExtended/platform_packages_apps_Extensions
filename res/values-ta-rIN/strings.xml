@@ -586,11 +586,6 @@ heads_up_snooze_5min
 heads_up_snooze_10min
 கோப்பு: strings. xml</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">பேட்டரி சார்ஜ் ஒளி
-
-battery_light_settings
-பேட்டரி ஒளி
-கோப்பு: strings. xml</string>
     <string name="battery_light_enable">பேட்டரி ஒளி
 
 battery_light_enable
@@ -623,7 +618,7 @@ battery_light_full_color
 
 battery_light_reallyfull_color
 கோப்பு: strings. xml</string>
-    <string name="notification_light_settings">Notifications light</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">லாக்ஸ்கிரிப்ட் சார்ஜ் தகவல்
 
@@ -658,9 +653,6 @@ text_title
     <string name="recents_component_type_title">Recents Style</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">ஒளி ஊடுருவும் தன்மை</string>
-    <string name="qs_opacity_category">QS panel opacity</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
     <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
@@ -733,7 +725,6 @@ smart_pulldown_none_summary
 smart_pulldown_off
 கோப்பு: strings. xml</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>
     <string name="screen_state_toggles_enable_title">இயக்கு</string>
     <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
@@ -759,7 +750,6 @@ app_ops_cat_location
     <!-- Weather -->
     <string name="weather_title">வானிலை</string>
     <string name="weather_unit">வெப்பநிலை அலகு</string>
-    <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">முகப்பு பொத்தான்
@@ -842,4 +832,5 @@ hardware_keys_double_tap_title
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

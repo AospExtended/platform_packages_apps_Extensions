@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 minut</string>
     <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Kontrolka nabíjení baterie</string>
     <string name="battery_light_enable">LED signalizace baterie</string>
     <string name="battery_light_allow_on_dnd_title">Světelná signalizace baterie v režimu „Nerušit“</string>
     <string name="battery_light_low_blinking_title">Blikat při nízkém stavu baterie</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Střední stav baterie</string>
     <string name="battery_light_full_color">Téměř nabito</string>
     <string name="battery_light_reallyfull_color">Plně nabito (100%)</string>
-    <string name="notification_light_settings">LED oznámení</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
     <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Styl nedávných aplikací</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Neprůhlednost</string>
-    <string name="qs_opacity_category">Neprůhlednost panelu QS</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Ikona aplikace Toast</string>
     <string name="toast_icon_summary">Zobrazit ikonu aplikací v oznámení Toast</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde jsou přítomna %1$s oznámení</string>
     <string name="smart_pulldown_none_summary">Otevře nabídku rychlého nastavení, kde není přítomno oznámení</string>
     <string name="smart_pulldown_off">Vypnuto</string>
+    <string name="smart_pulldown_none">Žádná oznámení</string>
+    <string name="smart_pulldown_dismissable">Žádné zrušitelné</string>
+    <string name="smart_pulldown_ongoing">Žádné probíhající</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Akce po zhasnutí obrazovky</string>
     <string name="screen_state_toggles_enable_title">Povolit</string>
     <string name="screen_state_toggles_enable_summary">Akce budou provedeny při vypnutí obrazovky. Při zapnutí a uvedení do předchozího stavu budou obnoveny.</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">Zpoždění akcí po zapnutí obrazovky</string>
     <string name="screen_state_on_delay_summary">Počet sekund čekání před provedením akce po zapnutí obrazovky</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Widget hodin</string>
+    <string name="lockscreen_clock_summary">Zobrazit widget hodin na zamykací obrazovce</string>
+    <string name="lockscreen_info_title">Položky pod hodinami</string>
+    <string name="lockscreen_info_summary">Zobrazit datum, počasí a budíky na zamykací obrazovce</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Styl hodin</string>
+    <string name="lockscreen_clock_selection_digital">Výchozí</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitální (tučné)</string>
+    <string name="lockscreen_clock_selection_analog">Analogové</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (tučné)</string>
     <!-- Weather -->
     <string name="weather_title">Počasí</string>
     <string name="weather_unit">Jednotky teploty</string>
     <string name="qs_styles_dialog_title">Vybrat styl dlaždic QS</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Ovládání hlasitosti vyzvánění</string>
-    <string name="volume_keys_control_ring_tone_summary">Tlačítka ovládají hlasitost médií ve výchozím nastavení. Povolením přepnete na ovládání hlasitosti vyzvánění.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
     <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">Akce jedním klepnutím</string>
     <string name="hardware_keys_long_press_title">Akce dlouhého stisku</string>
     <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
+    <string name="hardware_keys_category">Hardwarová navigační tlačítka</string>
+    <string name="hardware_keys_disable_title">Zakázat hardwarová navigační tlačítka</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Možnosti podsvícení</string>
     <string name="button_backlight_enable_title">Povolit podsvícení tlačítek</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">Časový limit spuštění gesta</string>
     <string name="gesture_action_timeout_summary">Časový limit před zahájením akcí gesty</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Balíček ikon</string>
+    <string name="recents_icon_pack_summary">Použít vlastní balíček ikon pro aplikace v panelu</string>
+    <string name="no_iconpacks_summary">Není nainstalován žádný balíček ikon</string>
+    <string name="dialog_pick_iconpack_title">Vyberte balíček ikon</string>
+    <string name="default_iconpack_title">Výchozí ikony</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Kroky hlasitosti</string>
+    <string name="volume_steps_summary">Přizpůsobení kroků hlasitosti</string>
+    <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
+    <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
+    <string name="volume_steps_music_title">Kroky hlasitosti: Média</string>
+    <string name="volume_steps_notification_title">Kroky hlasitosti: Upozornění</string>
+    <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
+    <string name="volume_steps_system_title">Kroky hlasitosti: Systémové zvuky</string>
+    <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
+    <string name="volume_steps_reset">Resetovat</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovat při čekajícím hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Tlačítko \"Ukončit aplikaci\"</string>
+    <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko \"Ukončit aplikaci\" při dlouhém stisku v nabídce oznámení</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Hlasité oznámení, pokud je obrazovka zapnuta</string>
+    <string name="notification_sound_vib_screen_on_summary">Vypne blokování zvuků oznámení a vibrací při zapnuté obrazovce</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Inteligentní zvuky oznámení</string>
+    <string name="less_notification_sounds_summary">Přehrát zvuk oznámení každé aplikace pouze jednou za stanovené časové období</string>
+    <string name="less_notification_sounds_default">Výchozí podle aplikace</string>
+    <string name="less_notification_sounds_10s">Každých 10 sekund</string>
+    <string name="less_notification_sounds_30s">Každých 30 sekund</string>
+    <string name="less_notification_sounds_1m">Každou minutu</string>
+    <string name="less_notification_sounds_2m">Každé 2 minuty</string>
+    <!-- Audio Panel view  -->
 </resources>

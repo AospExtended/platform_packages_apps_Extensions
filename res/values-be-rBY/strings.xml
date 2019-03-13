@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 хвілін</string>
     <string name="torch_long_press_power_timeout_10min">10 хвілін</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Індыкацыя зарада батарэі</string>
     <string name="battery_light_enable">Індыкатар батарэі</string>
     <string name="battery_light_allow_on_dnd_title">Індыкатар зарада ў рэжыме \"Не турбаваць\"</string>
     <string name="battery_light_low_blinking_title">Мігценне індыкатара пры нізкім зарадзе</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">Умераны зарад батарэі</string>
     <string name="battery_light_full_color">Амаль поўны зарад батарэі</string>
     <string name="battery_light_reallyfull_color">Поўны зарад батарэі (100)</string>
-    <string name="notification_light_settings">Індыкацыя апавяшчэнняў</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інфармацыя аб зарадцы на экране блакавання</string>
     <string name="lockscreen_battery_info_summary">Паказваць максімальнае бягучае напружанне і тэмпературу акумулятара на экране блакавання падчас зарадкі</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">Стыль меню нядаўніх праграм</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Празрыстасць</string>
-    <string name="qs_opacity_category">Празрыстасць панелі хуткіх налад</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Значок усплывальнага апавяшчэння</string>
     <string name="toast_icon_summary">Адлюстроўваць значок праграмы ў усплывальных апавяшчэннях</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">Адкрыць хуткія налады %1$s апавяшчэнняў</string>
     <string name="smart_pulldown_none_summary">Адкрыць хуткія налады без апавяшчэнняў</string>
     <string name="smart_pulldown_off">Адключана</string>
+    <string name="smart_pulldown_none">Без апавяшчэнняў</string>
+    <string name="smart_pulldown_dismissable">Няма выдаленняў</string>
+    <string name="smart_pulldown_ongoing">Без сталых</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Дзеянні пры выключэнні экрана</string>
     <string name="screen_state_toggles_enable_title">Уключыць</string>
     <string name="screen_state_toggles_enable_summary">Дзеянні будуць выконвацца пры выключэнні экрана. Пры ўключэнні будзе адноўлены папярэдні стан.</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">Затрымка пры ўключэнні экрана</string>
     <string name="screen_state_on_delay_summary">Затрымка перад выкананнем дзеянняў пасля ўключэння экрана</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Віджэт гадзінніка</string>
+    <string name="lockscreen_clock_summary">Паказваць віджэт гадзін на экране блакавання</string>
+    <string name="lockscreen_info_title">Інфармацыя пад гадзіннікам</string>
+    <string name="lockscreen_info_summary">Паказваць дату, будзільнік, надвор\'е і дзэн на экране блакавання</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Стыль гадзінніка</string>
+    <string name="lockscreen_clock_selection_digital">Па змаўчанні</string>
+    <string name="lockscreen_clock_selection_digital_bold">Лічбавыя (паўтлусты)</string>
+    <string name="lockscreen_clock_selection_analog">Аналагавыя</string>
+    <string name="lockscreen_clock_selection_sammy">Вертыкальны</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Вертыкальны (паўтлусты)</string>
     <!-- Weather -->
     <string name="weather_title">Надвор\'е</string>
     <string name="weather_unit">Адзінкі тэмпературы</string>
     <string name="qs_styles_dialog_title">Выбар стылю плітак хуткіх налад</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Рэгуляванне гучнасці званка</string>
-    <string name="volume_keys_control_ring_tone_summary">Па змаўчанні клавішы кіруюць гучнасцю мультымедыя. Уключыце, каб кіраваць гучнасцю мелодыі званка.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Значок адключанай перадачы дадзеных</string>
     <string name="data_disabled_icon_summary">Паказваць крыж над значком сеткі, калі перадача дадзеных адключаная</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">Дзеянне адзінарнага націску</string>
     <string name="hardware_keys_long_press_title">Дзеянні пры доўгім націску</string>
     <string name="hardware_keys_double_tap_title">Дзеянне пры падвойным націску</string>
+    <string name="hardware_keys_category">Апаратныя навігацыйныя кнопкі</string>
+    <string name="hardware_keys_disable_title">Адключыць апаратныя кнопкі навігацыі</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Налады падсвятлення кнопак</string>
     <string name="button_backlight_enable_title">Уключыць падсвятленне кнопак</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">Працягласць водгуку</string>
     <string name="gesture_action_timeout_summary">Працягласць водгуку з моманту пачатку жэсту</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Набор значкоў</string>
+    <string name="recents_icon_pack_summary">Прымяніць карыстацкі набор значкоў для праграм у панэлі</string>
+    <string name="no_iconpacks_summary">Ні аднаго набору значкоў не ўсталявана</string>
+    <string name="dialog_pick_iconpack_title">Абраць набор значкоў</string>
+    <string name="default_iconpack_title">Значкі па змаўчанні</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Узроўні гучнасці</string>
+    <string name="volume_steps_summary">Наладзіць узроўні гучнасці</string>
+    <string name="volume_steps_alarm_title">Узроўні гучнасці: Будзільнік</string>
+    <string name="volume_steps_dtmf_title">Узровень гучнасці: Набор нумару</string>
+    <string name="volume_steps_music_title">Узроўні гучнасці: Медыя</string>
+    <string name="volume_steps_notification_title">Узровень гучнасці: Апавяшчэнні</string>
+    <string name="volume_steps_ring_title">Узроўні гучнасці: Званок</string>
+    <string name="volume_steps_system_title">Узроўні гучнасці: Сістэма</string>
+    <string name="volume_steps_voice_call_title">Узровень гучнасці: Галасавы выклік</string>
+    <string name="volume_steps_reset">Скінуць</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Вібрацыя пры падлучэнні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрацыя падчас чакання выкліку</string>
+    <string name="incall_vibrate_disconnect_title">Вібрацыя пры раз\'яднанні</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Кнопка завяршэння праграм</string>
+    <string name="notification_guts_kill_app_button_summary">Паказваць кнопку закрыцця праграмы пры доўгім націску на апавяшчэнне</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Надакучлівыя апавяшчэнні пры ўключаным экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Не блакаваць гукавыя і вібро апавяшчэнні пры ўключаным экране</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Гукі \"разумных\" апавяшчэнняў</string>
+    <string name="less_notification_sounds_summary">Абмежаваць частату гуку апавяшчэнняў кожнай праграмы толькі адным разам за абраны перыяд часу</string>
+    <string name="less_notification_sounds_default">Праграмы па змаўчанні</string>
+    <string name="less_notification_sounds_10s">Кожныя 10 секунд</string>
+    <string name="less_notification_sounds_30s">Кожныя 30 секунд</string>
+    <string name="less_notification_sounds_1m">Кожную хвіліну</string>
+    <string name="less_notification_sounds_2m">Кожныя 2 хвіліны</string>
+    <!-- Audio Panel view  -->
 </resources>

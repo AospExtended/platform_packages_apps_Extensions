@@ -30,6 +30,7 @@
     <string name="hardware_category">हार्डवेयर</string>
     <string name="icons_category">आइकॉन</string>
     <string name="aosp_recents_category">AOSP रिसेंट्स</string>
+    <string name="oreo_recents_category">Oreo हाल</string>
     <string name="light_category">लाइट्स</string>
     <string name="dlg_ok">ओके</string>
     <string name="attention">ध्यान दें</string>
@@ -144,6 +145,7 @@
     <string name="summary_heads_up_enabled">पॉप-अप सूचनाएं सक्षम</string>
     <string name="summary_heads_up_disabled">पॉप-अप सूचनाएं अक्षम</string>
     <string name="add_heads_up_package">एप्लिकेशन जोड़ें</string>
+    <string name="add_heads_up_stoplist_summary">इन ऐप् से सचेत सूचनाएँ बंद करें</string>
     <string name="add_heads_up_blacklist_summary">इन ऐप् से सचेत सूचनाएँ अक्षम करें</string>
     <string name="heads_up_stoplist_title">स्टॉप-लिस्ट</string>
     <string name="heads_up_blacklist_title">ब्लैक-लिस्ट</string>
@@ -209,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">५ मिनट</string>
     <string name="torch_long_press_power_timeout_10min">१० मिनट</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">बैटरी चार्ज लाइट</string>
     <string name="battery_light_enable">बैटरी लाइट</string>
     <string name="battery_light_allow_on_dnd_title">डू नट डिस्टर्ब मोड में बैटरी लाईट</string>
     <string name="battery_light_low_blinking_title">कम बैटरी पर ब्लिंकिंग लाइट</string>
@@ -218,7 +219,7 @@
     <string name="battery_light_medium_color">मध्यम बैटरी</string>
     <string name="battery_light_full_color">लगभग पूर्ण बैटरी</string>
     <string name="battery_light_reallyfull_color">पूर्ण (१००) बैटरी</string>
-    <string name="notification_light_settings">सुचना लाइट</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">लॉकसक्रीन पर चार्जिंग की जानकारी</string>
     <string name="lockscreen_battery_info_summary">चार्ज करते समय लॉकस्क्रीन पर अधिकतम करंट, वर्तमान वोल्टेज और बैटरी तापमान दिखाएं</string>
@@ -240,9 +241,6 @@
     <string name="recents_component_type_title">रिसेंट्स शैली</string>
     <string name="recents_pie">पाई</string>
     <string name="recents_oreo">ओरिओ</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">अपारदर्शिता</string>
-    <string name="qs_opacity_category">QS पैनल अपारदर्शिता</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">टोस्ट ऐप् आइकन</string>
     <string name="toast_icon_summary">टोस्ट से संबंधित ऐप आइकन प्रदर्शित करें</string>
@@ -259,20 +257,35 @@
     <string name="quick_settings_vibrate_title">स्‍पर्श पर कंपन करें</string>
     <string name="quick_settings_vibrate_summary">QS टाइल को छूते समय कंपन करें</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">घड़ी और दिनांक</string>
     <string name="status_bar_clock_title">घड़ी सेटिंग्स</string>
+    <string name="clock_enabled">सक्षम</string>
+    <string name="clock_disabled">असक्षम</string>
+    <string name="status_bar_clock_style_reset">रंग रीसेट करें</string>
+    <string name="status_bar_show_clock_title">घड़ी और दिनांक दिखाएँ</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">२४-घंटा घड़ी सक्षम किया गया है</string>
+    <string name="enable_clock_weekday">सप्ताह का दिन</string>
+    <string name="enable_clock_weekday_summary">समय से पहले सप्ताह का संक्षिप्त दिन</string>
+    <string name="dont_show">शो न करें</string>
     <string name="clock_date_display">दिनांक</string>
     <string name="clock_date_display_summary">घड़ी से पहले कस्टम दिनांक प्रदर्शित करें</string>
     <string name="clock_date_style">दिनांक शैली</string>
     <string name="clock_date_format">दिनांक प्रारूप</string>
     <string name="clock_date_string_edittext_title">दिनांक प्रारूप में ही होना चाहिए जैसे कि. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">स्ट्रिंग दर्ज करें</string>
+    <string name="am_pm_clock_normal">साधारण आकार</string>
+    <string name="am_pm_clock_small">छोटा फोंट आकार</string>
+    <string name="am_pm_clock_none">शो न करें</string>
     <string name="clock_date_display_none">नहीं दिखाएं</string>
     <string name="clock_date_display_small">छोटा फोंट आकार</string>
     <string name="clock_date_display_normal">सामान्य फोंट आकार</string>
     <string name="clock_date_style_normal">सामान्य</string>
     <string name="clock_date_style_lowercase">छोटे अक्षरों में</string>
     <string name="clock_date_style_uppercase">बड़े अक्षरों में</string>
+    <string name="clock_date_right">सही समय</string>
+    <string name="clock_date_left">समय की बाईं</string>
+    <string name="clock_date_position">दिनांक स्थान</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">त्वरित नीचे खींचिए</string>
     <string name="quick_pulldown_summary">स्टेटस बार का %1$s किनारा क्विक सेटिंग्स को नीचे खींचता है</string>
@@ -289,8 +302,10 @@
     <string name="smart_pulldown_summary">%1$s सुचना(एं) होने पर त्वरित सेटिंग्स खोलें</string>
     <string name="smart_pulldown_none_summary">कोई सूचनाएं नहीं होने पर त्वरित सेटिंग्स खोलें</string>
     <string name="smart_pulldown_off">बंद</string>
+    <string name="smart_pulldown_none">कोई अधिसूचनाएं नहीं</string>
+    <string name="smart_pulldown_dismissable">कोई खारिज करने योग्य नहीं</string>
+    <string name="smart_pulldown_ongoing">कुछ भी जारी नहीं</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">क्रियाएं निलंबित करें</string>
     <string name="screen_state_toggles_enable_title">सक्षम करें</string>
     <string name="screen_state_toggles_enable_summary">कार्रवाई बंद स्क्रीन पर क्रियान्वित की जाएँगी। स्क्रीन ऑन होने पर पूर्व स्तिथि को पुनर्स्थापित किया जाएगा।</string>
@@ -307,14 +322,21 @@
     <string name="screen_state_on_delay_title">स्क्रीन ऑन एक्शन विलंब</string>
     <string name="screen_state_on_delay_summary">स्क्रीन ऑन होने के बाद कार्रवाई करने से पहले प्रतीक्षा करने के लिए सेकंड की संख्या</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">घड़ी विजेट</string>
+    <string name="lockscreen_clock_summary">lockscreen पर घड़ी विजेट दिखाएँ</string>
+    <string name="lockscreen_info_title">घड़ी के नीचे आइटम</string>
+    <string name="lockscreen_info_summary">तारीख, मौसम, अलार्म और lockscreen पर ज़ेन दिखाएँ</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">घड़ी शैली</string>
+    <string name="lockscreen_clock_selection_digital">डिफ़ाल्ट</string>
+    <string name="lockscreen_clock_selection_digital_bold">डिजिटल (बोल्ड)</string>
+    <string name="lockscreen_clock_selection_analog">ऐनालॉग</string>
+    <string name="lockscreen_clock_selection_sammy">सैमी</string>
+    <string name="lockscreen_clock_selection_sammy_bold">सैमी (बोल्ड)</string>
     <!-- Weather -->
     <string name="weather_title">मौसम</string>
     <string name="weather_unit">तापमान इकाई</string>
     <string name="qs_styles_dialog_title">QS टाइल शैली का चयन करें</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">रिंग वोल्यूम को नियंत्रित करें</string>
-    <string name="volume_keys_control_ring_tone_summary">कुंजियां डिफ़ॉल्ट रूप से मीडिया स्लाइडर को नियंत्रित करती हैं। रिंग टोन स्लाइडर में स्विच करने के लिए सक्षम करें।</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">डेटा अक्षम आइकन दिखाएं</string>
     <string name="data_disabled_icon_summary">डेटा अक्षम होने पर सिग्नल बार के बगल में क्रॉस प्रदर्शित करें</string>
@@ -330,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">एक बार टैप क्रिया</string>
     <string name="hardware_keys_long_press_title">लंबा प्रेस एक्शन</string>
     <string name="hardware_keys_double_tap_title">दो बार टैप क्रिया</string>
+    <string name="hardware_keys_category">सॉफ्टवेयर गतिमान बटन</string>
+    <string name="hardware_keys_disable_title">नेविगेशन बटन अक्षम करें</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">बैकलाइट विकल्प</string>
     <string name="button_backlight_enable_title">बटन बैकलाइट की अनुमति दें</string>
@@ -342,6 +366,7 @@
     <!-- Ambient display music ticker -->
     <string name="force_ambient_for_media_pref_title">परिवेश संगीत टिकर</string>
     <string name="force_ambient_for_media_pref_summary">परिवेश संगीत टिकर को कॉन्फ़िगर करें</string>
+    <string name="ambient_ticker_footer">परिवेशी संगीत टिकर चल रहे गाने की जानकारी परिवेशी स्क्रीन पर दर्शाता है.\n\nअगर परिवेश स्क्रीन अक्षम है या नया ट्रैक शुरू किया है, स्क्रीन के बीच में गाने की जानकारी के साथ एक नया परिवेश स्क्रीन दिखाया जायेगा।\n\nट्रैक को छोड़ने के लिए जानकारी पर डबल टैप करें।</string>
     <string name="force_ambient_for_media_title">सक्षम करें</string>
     <!-- Quick Settings brightness icon -->
     <!-- Quick Settings brightness side buttons -->
@@ -368,4 +393,5 @@
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

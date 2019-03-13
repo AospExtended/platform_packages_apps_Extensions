@@ -211,7 +211,6 @@
     <string name="torch_long_press_power_timeout_5min">5 分鐘</string>
     <string name="torch_long_press_power_timeout_10min">10 分鐘</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">電池充電指示燈</string>
     <string name="battery_light_enable">電量指示燈</string>
     <string name="battery_light_allow_on_dnd_title">在勿打擾模式下啟用指示燈</string>
     <string name="battery_light_low_blinking_title">低電量時閃爍指示燈</string>
@@ -220,7 +219,7 @@
     <string name="battery_light_medium_color">中電量</string>
     <string name="battery_light_full_color">電池幾乎已滿</string>
     <string name="battery_light_reallyfull_color">電池已滿 (100)</string>
-    <string name="notification_light_settings">通知提示燈</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖定畫面充電資訊</string>
     <string name="lockscreen_battery_info_summary">在充電時在鎖定畫面上顯示判斷的充電器最大電流電壓和電池溫度</string>
@@ -242,9 +241,6 @@
     <string name="recents_component_type_title">多任務欄的類型</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">透明度</string>
-    <string name="qs_opacity_category">快速設置面板透明度</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">提示應用程式圖示</string>
     <string name="toast_icon_summary">顯示與提示訊息相關的應用程式圖示</string>
@@ -306,8 +302,10 @@
     <string name="smart_pulldown_summary">當有%1$s 通知時打開快速設置</string>
     <string name="smart_pulldown_none_summary">當沒有通知時打開快速設置</string>
     <string name="smart_pulldown_off">關閉</string>
+    <string name="smart_pulldown_none">沒有通知時</string>
+    <string name="smart_pulldown_dismissable">沒有可清除的通知時</string>
+    <string name="smart_pulldown_ongoing">沒有正在進行的通知時</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">暫停動作</string>
     <string name="screen_state_toggles_enable_title">開啟</string>
     <string name="screen_state_toggles_enable_summary">在螢幕關閉時才執行操作。螢幕開啟後會還原先前的狀態。</string>
@@ -324,14 +322,21 @@
     <string name="screen_state_on_delay_title">螢幕關閉動作延遲</string>
     <string name="screen_state_on_delay_summary">螢幕開啟後執行動作之前等待的秒數</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">時鐘</string>
+    <string name="lockscreen_clock_summary">在鎖定畫面上顯示時鐘</string>
+    <string name="lockscreen_info_title">時鐘下的物件</string>
+    <string name="lockscreen_info_summary">在鎖定螢幕上顯示日期，天氣，鬧鐘和提示</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">時鐘樣式</string>
+    <string name="lockscreen_clock_selection_digital">預設</string>
+    <string name="lockscreen_clock_selection_digital_bold">數位（粗體）</string>
+    <string name="lockscreen_clock_selection_analog">類比</string>
+    <string name="lockscreen_clock_selection_sammy">豎式時鐘</string>
+    <string name="lockscreen_clock_selection_sammy_bold">豎式時鐘（粗體）</string>
     <!-- Weather -->
     <string name="weather_title">天氣</string>
     <string name="weather_unit">溫度單位</string>
     <string name="qs_styles_dialog_title">選擇快速設定的標題樣式</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">鈴聲音量控制</string>
-    <string name="volume_keys_control_ring_tone_summary">預設情況下，音量按鈕控制媒體滑塊。啓用此選項以切換到鈴聲滑塊</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">顯示關閉行動網路的圖示</string>
     <string name="data_disabled_icon_summary">當行動網路停用時，顯示圖示旁邊的「×」圖示</string>
@@ -347,6 +352,8 @@
     <string name="hardware_keys_single_tap_title">輕觸一下動作</string>
     <string name="hardware_keys_long_press_title">長按動作</string>
     <string name="hardware_keys_double_tap_title">輕觸兩下動作</string>
+    <string name="hardware_keys_category">實體導航列按鍵</string>
+    <string name="hardware_keys_disable_title">停用實體導航列按鍵</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">背光選項</string>
     <string name="button_backlight_enable_title">允許按鍵背光</string>
@@ -538,9 +545,39 @@
     <string name="gesture_action_timeout_title">滑動觸發延時</string>
     <string name="gesture_action_timeout_summary">開始手勢操作之前的延時</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">圖示包</string>
+    <string name="recents_icon_pack_summary">在最近應用程式面板中套用自訂圖示包</string>
+    <string name="no_iconpacks_summary">沒有已安裝的圖示包</string>
+    <string name="dialog_pick_iconpack_title">選擇圖示包</string>
+    <string name="default_iconpack_title">預設圖示</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">音量調整階數</string>
+    <string name="volume_steps_summary">自訂音量調整階數</string>
+    <string name="volume_steps_alarm_title">音量調整階數：鬧鐘</string>
+    <string name="volume_steps_dtmf_title">音量調整階數：撥號鍵盤</string>
+    <string name="volume_steps_music_title">音量調整階數：媒體</string>
+    <string name="volume_steps_notification_title">音量調整階數：通知</string>
+    <string name="volume_steps_ring_title">音量調整階數：鈴聲</string>
+    <string name="volume_steps_system_title">音量調整階數：系統</string>
+    <string name="volume_steps_voice_call_title">音量調整階數：通話</string>
+    <string name="volume_steps_reset">重置</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">連接時震動</string>
+    <string name="incall_vibrate_call_wait_title">通話等待時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">終止應用程式按鈕</string>
+    <string name="notification_guts_kill_app_button_summary">在通知長按選單中顯示終止應用程式按鈕</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">若螢幕為開啟狀態, 發出通知提醒聲音和震動</string>
+    <string name="notification_sound_vib_screen_on_summary">當螢幕開啟時啟用通知聲音和振動</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">智慧通知音效</string>
+    <string name="less_notification_sounds_summary">限制應用程式在一段時間內只能播放一次通知音效</string>
+    <string name="less_notification_sounds_default">應用程式 預設</string>
+    <string name="less_notification_sounds_10s">每 10 秒</string>
+    <string name="less_notification_sounds_30s">每 30 秒</string>
+    <string name="less_notification_sounds_1m">每分鐘</string>
+    <string name="less_notification_sounds_2m">每 2 分鐘</string>
+    <!-- Audio Panel view  -->
 </resources>

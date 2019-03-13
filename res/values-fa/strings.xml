@@ -216,7 +216,6 @@
     <string name="torch_long_press_power_timeout_5min">5 دقیقه</string>
     <string name="torch_long_press_power_timeout_10min">10 دقیقه</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">نور شارژ شدن باتری</string>
     <string name="battery_light_enable">چراغ باتری</string>
     <string name="battery_light_allow_on_dnd_title">نور باتری در زمان فعال بودن حالت مزاحم نشوید</string>
     <string name="battery_light_low_blinking_title">نور چشمک زن در زمان ضعیف بودن باتری</string>
@@ -225,7 +224,7 @@
     <string name="battery_light_medium_color">باتری متوسط</string>
     <string name="battery_light_full_color">باتری تقریبا پر</string>
     <string name="battery_light_reallyfull_color">باتری پر (100)</string>
-    <string name="notification_light_settings">چراغ اعلان</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">اطلاعات شارژ شدن ذر صفحه قفل</string>
     <string name="lockscreen_battery_info_summary">نمایش امار شارژر ماکسیموم امپر و ولتاژ و دمای باطری در قفل صفحه زمانی که شارژ میشود</string>
@@ -247,9 +246,6 @@
     <string name="recents_component_type_title">سبک برنامه های اخیر</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">وضوح</string>
-    <string name="qs_opacity_category">وضوح پنل تنظیمات سریع</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">ایکون برنامه در Toast</string>
     <string name="toast_icon_summary">نمایش آیکون برنامه با Toast</string>
@@ -297,7 +293,6 @@
     <string name="smart_pulldown_none_summary">عدم نمایش تنظیمات سریع زمانی که اعلانی وجود ندارد</string>
     <string name="smart_pulldown_off">خاموش</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">تعلیق اقدامات</string>
     <string name="screen_state_toggles_enable_title">فعال‌سازی</string>
     <string name="screen_state_toggles_enable_summary">فعالیت ها در زمان خاموش شدن صفحه اجرا خواهند شد. در هنگام روشن کردن صفحه وضعیت قبلی برگردانده میشود.</string>
@@ -319,9 +314,6 @@
     <string name="weather_title">آب و هوا</string>
     <string name="weather_unit">واحد دما</string>
     <string name="qs_styles_dialog_title">انتخاب سبک کاشی های تنطیمات سریع</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">کنترل صدای زنگ</string>
-    <string name="volume_keys_control_ring_tone_summary">دکمه های صدا به صورت پیش فرض صدای رسانه را کنترل میکند. اگر می‌خواهید بصدای زنگ را کنترل کند فعالش کنید.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">نشان دادن ایکون داده غیرفعال</string>
     <string name="data_disabled_icon_summary">نمایش یک علامت روی سینگل سیم کارت ها وقتی که داده های سیم غیرفعال باشد</string>
@@ -373,4 +365,5 @@
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

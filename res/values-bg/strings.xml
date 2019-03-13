@@ -29,11 +29,12 @@
     <string name="security_category">Сигурност</string>
     <string name="hardware_category">Хардуер</string>
     <string name="icons_category">Икони</string>
-    <string name="aosp_recents_category">Последни</string>
+    <string name="aosp_recents_category">AOSP скорошни</string>
+    <string name="oreo_recents_category">Oreo скорошни</string>
     <string name="light_category">Светлинни индикации</string>
-    <string name="dlg_ok">Да</string>
+    <string name="dlg_ok">ОК</string>
     <string name="attention">Внимание</string>
-    <string name="loading">Зарежда се...</string>
+    <string name="loading">Зареждане\u2026</string>
     <string name="reset">Нулиране</string>
     <string name="reset_colors">Нулиране на цветовете</string>
     <string name="reset_android">Андроид</string>
@@ -42,12 +43,12 @@
     <string name="color_title">Цвят</string>
     <string name="colors_title">Цветове</string>
     <!-- Extensions categories -->
-    <string name="recents_category">Последни</string>
-    <string name="recents_category_summary">Персонализиране на изгледа на Скорошни</string>
+    <string name="recents_category">Скорошни</string>
+    <string name="recents_category_summary">Персонализиране на изглед Скорошни</string>
     <string name="status_bar_category">Лентата на състоянието</string>
     <string name="status_bar_category_summary">Персонализиране на лентата на състоянието</string>
     <string name="notifications_panel_category">Панел за уведомления</string>
-    <string name="notifications_panel_category_summary">Персонализирайте вашия панел за уведомления</string>
+    <string name="notifications_panel_category_summary">Персонализирайте вашия панел за бързи настройки и уведомления</string>
     <string name="system_category">Система</string>
     <string name="system_category_summary">Различни разширения на системата</string>
     <string name="lockscreen_category">Заключен екран</string>
@@ -67,18 +68,18 @@
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Допълнителни разширения</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Екран Последни приложения</string>
+    <string name="recents_ui_title">Интерфейс Скорошни приложения</string>
     <!-- Lockscreen UI -->
-    <string name="lockscreen_ui_title">Заключен екран</string>
+    <string name="lockscreen_ui_title">Интерфейс Заключен екран</string>
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_shortcuts">Преки пътища на заключен екран</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Само на заключен екран</string>
-    <string name="hide_lockscreen_items_title">Oпции на заключения екран</string>
+    <string name="lockscreen_tuner_title">Настройки на заключен екран</string>
+    <string name="hide_lockscreen_items_title">Елементи на заключения екран</string>
     <!-- Statusbar Iten -->
-    <string name="statusbar_items_category">Елементи на лентата на състоянието</string>
+    <string name="statusbar_items_category">Елементи в лентата на състоянието</string>
     <!-- Notifications -->
-    <string name="notifications_title">Известия</string>
+    <string name="notifications_title">Уведомления</string>
     <!-- Footer warnings -->
     <string name="smart_pixels_warning_text">Smart pixels намаля консумацията на енергия, като редуцира броя на включените пиксели. Препоръчваме ви да намалите включените пиксели със 75 процента.</string>
     <!-- Navigation -->
@@ -91,7 +92,7 @@
     <string name="app_ops_category">Операции на приложенията</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Помогнете ни, за да ви помогнем!</string>
-    <string name="extensions_dialog_message">Ако откриете бъг с някоя от тези настройки, моля докладвайте за грешки на нашата страница в Google +. Докладът за грешка трябва да включва следната информация: \n\n1. Logcat или last_kmsg\n2. Използвано ядро и модове\n3. Полезна информация\n\nАко не успеете адекватно да опишете проблема, не очаквайте нещата да бъдат фиксирани.</string>
+    <string name="extensions_dialog_message">Ако откриете бъг с някоя от тези настройки, моля докладвайте за грешки на нашата страница в Google+. Докладът за грешка трябва да включва следната информация: \n\n1. Logcat или last_kmsg\n2. Използвано ядро и модове\n3. Полезна информация\n\nАко не успеете адекватно да опишете проблема, не очаквайте нещата да бъдат поправени.</string>
     <string name="extensions_dialog_toast">ПРОЧЕТЕТЕ ДО КРАЙ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Изберете цвят за акцентиране</string>
@@ -115,7 +116,7 @@
     <string name="powermenu_power">Захранване</string>
     <string name="powermenu_restart">Рестартиране</string>
     <string name="powermenu_restart_recovery">Рестартиране за напреднали</string>
-    <string name="powermenu_airplane">Самолетен режим</string>
+    <string name="powermenu_airplane">Самолет</string>
     <string name="powermenu_settings">Настройки</string>
     <string name="powermenu_lockdown">Заключване</string>
     <string name="powermenu_soundpanel">Звуков панел</string>
@@ -126,10 +127,10 @@
     <string name="qs_brightness_slider_summary">Показвай плъзгача за яркост в панела за бързи настройки</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Докоснете два пъти заключващия екран, за да изключите екрана</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Двукратно натискане на горната част или областта на заключване на екрана да поставите устройството да спи</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Двукратно докосване на горната част или областта на заключване на екрана да поставите устройството да спи</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Лента за известия</string>
-    <string name="double_tap_to_sleep_summary">Двукратно почукване върху лентата на състоянието изключва на дисплея</string>
+    <string name="double_tap_to_sleep_summary">Двукратно докосване върху лентата на състоянието изключва на дисплея</string>
     <!-- Network traffic -->
     <string name="network_traffic_title">Мрежов трафик</string>
     <string name="network_traffic_type">Избор на тип на мрежова дейност</string>
@@ -144,8 +145,9 @@
     <string name="summary_heads_up_enabled">Изскачащите уведомления са разрешени</string>
     <string name="summary_heads_up_disabled">Изскачащите уведомления са забранени</string>
     <string name="add_heads_up_package">Добави приложение</string>
-    <string name="add_heads_up_blacklist_summary">Забраняване на главите уведомления от тези приложения</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="add_heads_up_stoplist_summary">Изключи всички изкачащи съобщения, когато използвате тези приложения</string>
+    <string name="add_heads_up_blacklist_summary">Забраняване на изкачащи уведомления от тези приложения</string>
+    <string name="heads_up_stoplist_title">Стоплиста</string>
     <string name="heads_up_blacklist_title">Черен списък</string>
     <string name="profile_choose_app">Изберете приложение</string>
     <string name="dialog_delete_title">Изтриване</string>
@@ -160,10 +162,10 @@
     <string name="heads_up_time_out_8sec">8 секунди</string>
     <string name="heads_up_time_out_10sec">10 секунди</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Таймер за дрямка</string>
+    <string name="heads_up_snooze_title">Таймер за отлагане</string>
     <string name="heads_up_snooze_summary_one_minute">Плъзване нагоре на изкачащо известие ще заглуши известията от това приложение за 1 минута</string>
     <string name="heads_up_snooze_summary">Плъзване нагоре на изкачащо известие ще заглуши известията от това приложение за <xliff:g id="number">%d</xliff:g> минути</string>
-    <string name="heads_up_snooze_disabled_summary">Таймерът е деактивиран</string>
+    <string name="heads_up_snooze_disabled_summary">Таймерът за отлагане е деактивиран</string>
     <string name="heads_up_snooze_1min">1 минута</string>
     <string name="heads_up_snooze_5min">5 минути</string>
     <string name="heads_up_snooze_10min">10 минути</string>
@@ -187,10 +189,10 @@
     <string name="fprint_sucess_vib_summary">Вибрация при успешно удостоверяване с пръстов отпечатък</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Отключване с пръстов отпечатък</string>
-    <string name="fp_unlock_keystore_summary">Отключване на устройството с пръстов отпечатък след рестартиране без ПИН/парола/Pattern\nNote: на свой собствен риск!</string>
+    <string name="fp_unlock_keystore_summary">Отключване на устройството с пръстов отпечатък след рестартиране без ПИН/Парола/Фигура\nЗабележка: на свой собствен риск!</string>
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Показалец</string>
-    <string name="volume_key_cursor_control_title">Управление на курсора с бутоните за звука</string>
+    <string name="volume_key_cursor_control_title">Управление на показалеца с бутоните за звука</string>
     <string name="volume_key_cursor_control_off">Деактивирано</string>
     <string name="volume_key_cursor_control_on">Бутоните за звук нагоре/надолу преместват курсора наляво/надясно</string>
     <string name="volume_key_cursor_control_on_reverse">Бутоните за звук нагоре/надолу преместват курсора надясно/наляво</string>
@@ -209,16 +211,15 @@
     <string name="torch_long_press_power_timeout_5min">5 минути</string>
     <string name="torch_long_press_power_timeout_10min">10 минути</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Индикатор за зареждане на батерията</string>
     <string name="battery_light_enable">Светлинна индикация на батерията</string>
     <string name="battery_light_allow_on_dnd_title">Индикации в режим \"Не безпокойте\"</string>
     <string name="battery_light_low_blinking_title">Мигаща светлина при изтощена батерия</string>
-    <string name="battery_light_cat">Цвят на индикацията при зареждане</string>
+    <string name="battery_light_cat">Цвят на светлинната индикацията при зареждане</string>
     <string name="battery_light_low_color">Изтощена батерия</string>
     <string name="battery_light_medium_color">Средно ниво на батерия</string>
     <string name="battery_light_full_color">Почти пълна батерия</string>
-    <string name="battery_light_reallyfull_color">Заредена батерия</string>
-    <string name="notification_light_settings">Светлинна индикация на известия</string>
+    <string name="battery_light_reallyfull_color">Заредена (100) батерия</string>
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация за зареждането на заключен екран</string>
     <string name="lockscreen_battery_info_summary">Показване на волтажа и температурата на батерията по време на зареждането на заключения екран</string>
@@ -237,20 +238,17 @@
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Скрито</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Последни стил</string>
+    <string name="recents_component_type_title">Стил Скорошни</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Прозрачност</string>
-    <string name="qs_opacity_category">Непрозрачност на QS панела</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Икона на известията в лентата за състояние</string>
     <string name="toast_icon_summary">Показване на иконата на приложението в лентата за състояние</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_position_bottom_title">Плъзгач за яркост</string>
-    <string name="qs_brightness_position_bottom_summary">Показвай плъзгача за яркост в панела за бързи настройки</string>
+    <string name="qs_brightness_position_bottom_title">Плъзгач за яркост отдолу</string>
+    <string name="qs_brightness_position_bottom_summary">Показвай плъзгача за яркост отдолу на панела за бързи настройки</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Предупреждение в долната част на лентата за състояние</string>
+    <string name="qs_footer_warnings_title">Предупреждение в лентата за състояние</string>
     <string name="qs_footer_warnings_summary">Показва предупреждение в долната част на лентата за състояние, когато мрежата се контролира от външни приложения или vpn</string>
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Видимост на заключен екран</string>
@@ -259,20 +257,35 @@
     <string name="quick_settings_vibrate_title">Вибрация при докосване</string>
     <string name="quick_settings_vibrate_summary">Вибрира при докосване на плочка</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">Часовник &amp; Дата</string>
     <string name="status_bar_clock_title">Настройки на часовника</string>
+    <string name="clock_enabled">Активирано</string>
+    <string name="clock_disabled">Деактивирано</string>
+    <string name="status_bar_clock_style_reset">Нулиране на цвят</string>
+    <string name="status_bar_show_clock_title">Показване на часовник &amp; дата</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Включен 24-часов формат за време</string>
+    <string name="enable_clock_weekday">Ден от седмицата</string>
+    <string name="enable_clock_weekday_summary">Абривиатура на деня от седмицата преди времето</string>
+    <string name="dont_show">Не показвай</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Покажи персонализирана дата преди часовника</string>
     <string name="clock_date_style">Стил на датата</string>
     <string name="clock_date_format">Формат на датата</string>
     <string name="clock_date_string_edittext_title">Трябва да е във формат за дата например. ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Въведете низ</string>
+    <string name="am_pm_clock_normal">Нормален размер на шрифта</string>
+    <string name="am_pm_clock_small">Малък размер на шрифта</string>
+    <string name="am_pm_clock_none">Не показвай</string>
     <string name="clock_date_display_none">Не показвай</string>
     <string name="clock_date_display_small">Малък размер на шрифта</string>
     <string name="clock_date_display_normal">Нормален размер на шрифта</string>
     <string name="clock_date_style_normal">Нормален</string>
     <string name="clock_date_style_lowercase">Малки букви</string>
     <string name="clock_date_style_uppercase">Главни букви</string>
+    <string name="clock_date_right">Вдясно от часовника</string>
+    <string name="clock_date_left">Вляво от часовника</string>
+    <string name="clock_date_position">Позиция на датата</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Бързи настройки</string>
     <string name="quick_pulldown_summary">Дръпнете %1$s страна на лентата на състоянието за бързи настройки</string>
@@ -289,15 +302,17 @@
     <string name="smart_pulldown_summary">Отваряне на бързи настройки, когато има %1$s известия</string>
     <string name="smart_pulldown_none_summary">Отваряне на бързи настройки, когато няма известия</string>
     <string name="smart_pulldown_off">Изкл</string>
+    <string name="smart_pulldown_none">Без уведомления</string>
+    <string name="smart_pulldown_dismissable">Без отхвърляне</string>
+    <string name="smart_pulldown_ongoing">Няма текущи</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">null</string>
-    <string name="screen_state_toggles_title">Преустановяване на действията</string>
+    <string name="screen_state_toggles_title">Преустановени на действия</string>
     <string name="screen_state_toggles_enable_title">Разреши</string>
-    <string name="screen_state_toggles_enable_summary">Действията ще се изпълнят при преход в режим очакване. При събуждане на екрана предишното състояние ще бъде възстановено.</string>
-    <string name="screen_state_toggles_mobile_title">Мобилна мрежа</string>
+    <string name="screen_state_toggles_enable_summary">Действията ще се изпълнят когато екрана е изключен. При събуждане на екрана предишното състояние ще бъде възстановено.</string>
+    <string name="screen_state_toggles_mobile_title">Мобилни мрежи</string>
     <string name="screen_state_toggles_location_title">Местоположение</string>
     <string name="screen_state_toggles_twog">Превключване към 2G</string>
-    <string name="screen_state_toggles_twog_summary">При изключен екран режимът на мрежата ще бъде 2G</string>
+    <string name="screen_state_toggles_twog_summary">При изключен екран режимът на мрежата ще бъде превключване на 2G</string>
     <string name="screen_state_toggles_gps">Забраняване на GPS</string>
     <string name="screen_state_toggles_gps_summary">GPS базираните услуги ще бъдат забранени при изключване на екрана</string>
     <string name="screen_state_toggles_mobile_data">Забраняване на мобилни данни</string>
@@ -305,16 +320,23 @@
     <string name="screen_state_off_delay_title">Забавяне на действията при изключен екран</string>
     <string name="screen_state_off_delay_summary">Време за изчакване, преди извършване на действия след изключване на екрана</string>
     <string name="screen_state_on_delay_title">Забавяне на действията при включване на екрана</string>
-    <string name="screen_state_on_delay_summary">Време за изчакване, преди извършване на действия след включване на екрана</string>
+    <string name="screen_state_on_delay_summary">Брой секунди за изчакване, преди извършване на действия след включване на екрана</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Приспособление за часовник</string>
+    <string name="lockscreen_clock_summary">Покажи приспособление за часовник на заключен екран</string>
+    <string name="lockscreen_info_title">Елементи под часовника</string>
+    <string name="lockscreen_info_summary">Покажи датата, времето, алармите и зен на заключен екран</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Стил на часовника</string>
+    <string name="lockscreen_clock_selection_digital">По подразбиране</string>
+    <string name="lockscreen_clock_selection_digital_bold">Дигитален (удебелен)</string>
+    <string name="lockscreen_clock_selection_analog">Аналогов</string>
+    <string name="lockscreen_clock_selection_sammy">Самми</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Самми (удебелен)</string>
     <!-- Weather -->
     <string name="weather_title">Времето</string>
     <string name="weather_unit">Температурни единици</string>
     <string name="qs_styles_dialog_title">Изберете стил на плочките</string>
-    <!-- Volume keys control ringtone stream -->
-    <string name="volume_keys_control_ring_tone_title">Силата на звука при звънене</string>
-    <string name="volume_keys_control_ring_tone_summary">По подразбиране клавишите управлват силата на звука на мултимедийните файлове. Включете, за да контролирате силата на звънене.</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Покажи икона при забранени данни</string>
     <string name="data_disabled_icon_summary">Показва кръст до иконата за сигнала, когато данните са забранени</string>
@@ -324,12 +346,14 @@
     <string name="hardware_keys_assist_key_title">Бутон за търсене</string>
     <string name="hardware_keys_appswitch_key_title">Бутон за преглед</string>
     <string name="hardware_keys_back_key_title">Бутон \"Назад\"</string>
-    <string name="hardware_keys_double_tap_summary">Действие при двукратно натискане</string>
-    <string name="hardware_keys_single_tap_summary">Действие при еднократно натискане</string>
-    <string name="hardware_keys_long_press_summary">Действие при дълго натискане</string>
-    <string name="hardware_keys_single_tap_title">Действие при еднократно натискане</string>
-    <string name="hardware_keys_long_press_title">Действие при задържане</string>
-    <string name="hardware_keys_double_tap_title">Действие при двукратно натискане</string>
+    <string name="hardware_keys_double_tap_summary">Действие при двукратно докосване</string>
+    <string name="hardware_keys_single_tap_summary">Действие при еднократно докосване</string>
+    <string name="hardware_keys_long_press_summary">Действие при продължително докосване</string>
+    <string name="hardware_keys_single_tap_title">Действие при еднократно докосване</string>
+    <string name="hardware_keys_long_press_title">Продължително докосване</string>
+    <string name="hardware_keys_double_tap_title">Двукратно докосване</string>
+    <string name="hardware_keys_category">Хардуерни навигационни бутони</string>
+    <string name="hardware_keys_disable_title">Забрани хардуерни навигационни бутони</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Опции за подсветка</string>
     <string name="button_backlight_enable_title">Включване на подсветката на бутоните</string>
@@ -340,32 +364,220 @@
     <string name="button_backlight_on_touch_only_title">Подсветка на бутоните при докосване</string>
     <string name="button_backlight_on_touch_only_summary">Подсветката ще се включи само когато бутоните се натискат, а не през цялото време. Времето за изчакване оказва влияние върху тази функция.</string>
     <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Функция «В момента се изпълнява»</string>
-    <string name="force_ambient_for_media_pref_summary">Информация за текущата песен в режим «Ambient Display»</string>
+    <string name="force_ambient_for_media_pref_title">Активен музикален тикер</string>
+    <string name="force_ambient_for_media_pref_summary">Настрой Активно музикалено уведомление</string>
+    <string name="ambient_ticker_footer">Активното Музикалното Известяване показва информация за текущата песен на Активния екран.\n\nвключва се и ако Активния екран е изключен, когато нова песен се пусне, показвайки чист Активен екран с информация за песента по средата на екрана.\n\nМожете двукратно да докоснете върху информацията за песента, за да я пропуснете.\n\nАко имате Pixel и включите Слушане В Момента и неговите съобщения в системните аудио настройки, Активното Музикално Известяване също ще работи.</string>
     <string name="force_ambient_for_media_title">Включен</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Бутон за адаптивна яркост</string>
+    <string name="brightness_icon_summary">Показване на бутона за адаптивна яркост</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Бутони за контрол на яркостта</string>
+    <string name="brightness_side_buttons_summary">Покажи бутони за увеличаване или намаляване на яркостта</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_category">Име на мобилен оператор</string>
+    <string name="carrier_label_settings_summary">Персонализиране на името на мобилния оператор</string>
+    <string name="custom_carrier_label_title">Персоналозиран молилен оператор</string>
+    <string name="custom_carrier_label_explain">Моля, въведете ново име. Ако оставите празно, ще се върне фабричното име.</string>
+    <string name="custom_carrier_label_notset">Няма задено име за оператор</string>
+    <string name="show_carrier_title">Име на мобилен оператор</string>
+    <string name="show_carrier_disabled">Деактивирано</string>
+    <string name="show_carrier_keyguard">Само на заключен екран</string>
+    <string name="show_carrier_statusbar">Само лента със състояние</string>
+    <string name="show_carrier_enabled">Заключен екран &amp; лента на състоянието</string>
     <!-- Toast Animation -->
+    <string name="toast_animation_title">Анимация на изпълняваните уведомления (Toast)</string>
+    <string name="toast_none_animation">Без</string>
+    <string name="toast_default_animation">По подразбиране</string>
+    <string name="toast_fade_animation">Избледняване</string>
+    <string name="toast_SlideRight_animation">Приплъзване вдясно</string>
+    <string name="toast_SlideLeft_animation">Приплъзване вляво</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Бързо избледняване</string>
+    <string name="toast_GrowFade_animation">Увеличаващо се избледняване</string>
+    <string name="toast_GrowFadeCenter_animation">Увеличаващо се избледняване по средата</string>
+    <string name="toast_GrowFadeBottom_animation">Увеличаващо се избледняване отдолу</string>
+    <string name="toast_Translucent_animation">Прозрачен</string>
+    <string name="toast_SlideLeftRight_animation">Плъзване от ляво на дясно</string>
+    <string name="toast_SlideRightLeft_animation">Плъзване от дясно на ляво</string>
+    <string name="toast_animation_test">Това е тест за избраната Toast анимация на изпълняваните уведомления</string>
+    <string name="toast">Toast (изпълнявани уведомления)</string>
     <!-- Animations -->
+    <string name="animations_title">Анимации</string>
     <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Контрол на яркостта</string>
+    <string name="status_bar_toggle_brightness_summary">Настройване на яркостта чрез плъзгане в лентата на състоянието</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Три пръстов жест</string>
+    <string name="three_finger_gesture_summary">Плъзнете три пръста за заснемане на екранна снимка</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">Индикатор на лентата на батерията</string>
+    <string name="battery_bar_summary">Показване и персонализиране на лентата на батерията до лентата на състоянието или навигационна лента</string>
+    <string name="battery_bar">Място на лентата на батерията</string>
+    <string name="battery_bar_no_navbar">Място на лентата на батерията</string>
+    <string name="battery_bar_location_hide">Скрий</string>
+    <string name="battery_bar_location_statusbar">Лентата на състоянието</string>
+    <string name="battery_bar_location_top_navbar">Горната част на навигационната лента</string>
+    <string name="battery_bar_location_bottom_navbar">Долната част на навигационната лента</string>
+    <string name="battery_bar_color">Цвят на лента на батерията</string>
+    <string name="battery_bar_charging_color">Цвят на лентата на батерията при зареждане</string>
+    <string name="battery_bar_battery_low_color">Цвят на лентата на батерията при изтощената батерия</string>
+    <string name="battery_bar_cat">Стил на лентата на батерията</string>
+    <string name="battery_bar_style_title">Подравняване на лентата на батерията</string>
+    <string name="battery_bar_thickness_title">Дебелина на индикатора на лентата на батерията</string>
+    <string name="battery_bar_animate_title">Анимация при зареждане</string>
+    <string name="battery_bar_style_regular">Обикновен</string>
+    <string name="battery_bar_style_center_mirrored">Огледално по средата</string>
+    <string name="battery_bar_style_reversed">На обратно</string>
+    <string name="battery_bar_use_charging_color">Персоналозиран цвят при зареждане</string>
+    <string name="battery_bar_blend_color_title">Смесени цветове</string>
+    <string name="battery_bar_blend_color_summary">Смесете цветовете, отговарящи на заредена - изтощена батерия</string>
+    <string name="battery_bar_blend_color_reverse_title">Обърни посока на цвета</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Пълна &#8594; празна: червена &#8592; зелена &#8592; синя &#8592; червена</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Пълна &#8594; празна: червена &#8594; зелена &#8594; синя &#8594; червена</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Ъгли</string>
+    <string name="corner_radius">Радиус на заоблени ъгли</string>
+    <string name="content_padding">Вътрешна област на ъгъла</string>
+    <string name="corner_fwvals">Използвайте системните настройки</string>
+    <string name="corner_fwvals_summary">Полезно, ако устройството действително има заоблени ъгли</string>
+    <string name="lockscreen_qs_disabled_title">Забрани бързи настройки, когато устройството е заключено</string>
+    <string name="lockscreen_qs_disabled_summary">Забрани разширени бързи настройки при сигурно екранно заключване</string>
     <!-- AOKP custom system animations -->
+    <string name="system_animation_title">Системни анимации</string>
+    <string name="activity_open_title">Анимации при отваряне</string>
+    <string name="activity_close_title">Анимации при затваряне</string>
+    <string name="task_open_title">Анимация при отваряне на задача</string>
+    <string name="task_open_behind_title">Анимация зад отваряне на задача</string>
+    <string name="task_close_title">Анимация при затваряне на задача</string>
+    <string name="task_move_to_front_title">Анимация премести напред</string>
+    <string name="task_move_to_back_title">Анимация премести назад</string>
+    <string name="wallpaper_open_title">Анимация при отваряне на тапет</string>
+    <string name="wallpaper_close_title">Анимация при затваряне на задача</string>
+    <string name="wallpaper_intra_open_title">Анимация при отваряне на нов тапет</string>
+    <string name="wallpaper_intra_close_title">Анимация при затваряне на нов тапет</string>
+    <string name="animation_duration_title">Продължителност на анимация</string>
+    <string name="title_animation_no_override">Предотвратяване на приложението да заменя анимация</string>
+    <string name="summary_animation_no_override">Предотвратяване на приложенията да заменят анимации</string>
+    <string name="animation_duration_default">По подразбиране</string>
     <!-- ListView animation -->
+    <string name="listview_animation_title">Списък анимации</string>
+    <string name="listview_off">По подразбиране</string>
+    <string name="listview_wave_left">Вълна (вляво)</string>
+    <string name="listview_wave_right">Вълна (вдясно)</string>
+    <string name="listview_alpha">Алфа</string>
+    <string name="listview_scale">Мащаб</string>
+    <string name="listview_stack_top">Куп (отгоре)</string>
+    <string name="listview_stack_bottom">Куп (долу)</string>
+    <string name="listview_unfold">Разгъване</string>
+    <string name="listview_fold">Сгъване</string>
+    <string name="listview_translate_left">Превод (вляво)</string>
+    <string name="listview_translate_right">Превод (вдясно)</string>
     <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Списък ефекти на анимации</string>
+    <string name="listview_accelerate_interpolator">Ускоряване</string>
+    <string name="listview_decelerate_interpolator">Забавяне</string>
+    <string name="listview_accelerate_decelerate_interpolator">Ускоряване и забавяне</string>
+    <string name="listview_anticipate_interpolator">Предвиждане</string>
+    <string name="listview_overshoot_interpolator">Превишаване</string>
+    <string name="listview_anticipate_overshoot_interpolator">Предвиждане и превишаване</string>
+    <string name="listview_bounce_interpolator">Скачащо</string>
     <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Кеш на превъртането</string>
+    <string name="pref_scrollingcache_summary">Кешът на превъртане може да подобри превъртането за сметка на системна памет</string>
+    <string name="pref_scrollingcache_force_enable">Принудително включване</string>
+    <string name="pref_scrollingcache_default_enable">Включване по подразбиране</string>
+    <string name="pref_scrollingcache_default_disable">Изключено по подразбиране</string>
+    <string name="pref_scrollingcache_force_disable">Принудително изключи</string>
     <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Анимация при изключване на екрана</string>
+    <string name="screen_off_animation_default">По подразбиране</string>
+    <string name="screen_off_animation_crt">CRT (кинескопен телевизор)</string>
+    <string name="screen_off_animation_scale">Мащаб</string>
     <!-- Media art -->
+    <string name="media_art_title">Обложки на песните</string>
+    <string name="media_art_summary">Разреши обложка на песента при заключен екран</string>
     <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">Визуализация на заключен екран</string>
+    <string name="lockscreen_visualizer_summary">При слушане на музика да се използва екран с живо оформление</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Бутон за изчистване на всички активни приложения</string>
+    <string name="show_clear_all_recents_button_summary">Покажи бутона за изчистване на всички активни приложения</string>
+    <string name="recents_clear_all_location_title">Местоположение на бутона за изчистване на всички активни приложения</string>
+    <string name="recents_clear_all_location_top_right">Горе вдясно</string>
+    <string name="recents_clear_all_location_top_left">Горе вляво</string>
+    <string name="recents_clear_all_location_top_center">Горе центрирано</string>
+    <string name="recents_clear_all_location_bottom_right">Долу дясно</string>
+    <string name="recents_clear_all_location_bottom_left">Долу вляво</string>
+    <string name="recents_clear_all_location_bottom_center">Долу центрирано</string>
+    <string name="recents_show_membar_title">Лента на Паметта</string>
+    <string name="recents_show_membar_summary">Покажи лента с наличната памет на устройството</string>
     <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Стил Орео на скорошни</string>
+    <string name="recents_stock">Стандартен</string>
+    <string name="recents_grid">Решетка</string>
+    <string name="recents_go">Android Go</string>
+    <string name="qs_running_services_title">Икона на активни приложения</string>
+    <string name="qs_running_services_summary">Включи иконата за активни приложения отдолу</string>
+    <string name="qs_edit_title">Редактиране на икона</string>
+    <string name="qs_edit_summary">Включи иконата за активни приложения отдолу</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Смарт Пиксели</string>
+    <string name="smart_pixels_summary">Запазване на батерията с изключване на допълнителни пиксели</string>
+    <string name="smart_pixels_enable_title">Включи Смарт Пиксели</string>
+    <string name="smart_pixels_enable_summary">Изключи пиксели за да се намали консумацията на енергия</string>
+    <string name="smart_pixels_on_power_save_title">Автоматично включване при режим на запазване на батерията</string>
+    <string name="smart_pixels_on_power_save_summary">Включи Смарт Пиксели при включване на режима на запазване на батерията</string>
+    <string name="smart_pixels_percent">Проценти на пикселите за изключване</string>
+    <string name="smart_pixels_shift_title">Предпазване от прегаряне</string>
+    <string name="smart_pixels_shift_summary">Предпазване от прегаряне на Олед екрана чрез смесване на пиксели в някой части</string>
+    <string name="lockscreen_items_other">Други</string>
+    <string name="gesture_settings_title">Жестове</string>
+    <string name="gesture_settings_info">Навигационната лента трябва да бъде изключена! \n\nВъзможни жестове:\n\nНазад\n- Повдигане от лявата или дясната страна\n\nХоум\n- Повдигаме по средата\n\nСкорошни приложения\n-повдигни по средата и задръж\n\nдълго задържане на хоум бутона\n- Кратко повдигни и задръж по средата</string>
+    <string name="gesture_settings_info_new">Навигационната лента трябва да бъде изключена! \n\nВъзможни жестове:\n\nНазад\n- Повдигане от лявата или дясната страна\n\nХоум\n- Повдигаме по средата\n\nСкорошни приложения\n-повдигни по средата и задръж\n\nдълго задържане на хоум бутона\n- Кратко повдигни и задръж по средата</string>
+    <string name="use_bottom_gesture_title">Жестове за навигация</string>
+    <string name="use_bottom_gesture_summary">Използвайте жестовете за навигация чрез плъзване долу на горе</string>
+    <string name="gesture_swipe_length_title">Височина на зоната на действие на плъзване</string>
+    <string name="gesture_swipe_length_summary">Височина от долната част за задействане на плъзването</string>
+    <string name="gesture_action_timeout_title">Време за изчакване за задействане на плъзване</string>
+    <string name="gesture_action_timeout_summary">Време за изчакване преди жеста да се изпълни</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Пакет икони</string>
+    <string name="recents_icon_pack_summary">Прилагане на потребителски пакет с икони за панел скорошни</string>
+    <string name="no_iconpacks_summary">Няма инсталирани пакети с икони</string>
+    <string name="dialog_pick_iconpack_title">Избери пакет с икони</string>
+    <string name="default_iconpack_title">Икони по подразбиране</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Звукови стъпки</string>
+    <string name="volume_steps_summary">Персонализиране на звука стъпки</string>
+    <string name="volume_steps_alarm_title">Звукови стъпки: Аларма</string>
+    <string name="volume_steps_dtmf_title">Звукови стъпки: DTMF</string>
+    <string name="volume_steps_music_title">Звукови стъпки: Медия</string>
+    <string name="volume_steps_notification_title">Звукови стъпки: Известия</string>
+    <string name="volume_steps_ring_title">Звукови стъпки: Позвъняване</string>
+    <string name="volume_steps_system_title">Звукови стъпки: Система</string>
+    <string name="volume_steps_voice_call_title">Звукови стъпки: Гласови обаждания</string>
+    <string name="volume_steps_reset">Нулиране</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Вибриране при свързване</string>
+    <string name="incall_vibrate_call_wait_title">Вибрирай при изчакване на повикването</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при затваряне</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Бутон спиране на приложението</string>
+    <string name="notification_guts_kill_app_button_summary">Покажи бутон за спиране на приложението в менюто при дълго задържане на съобщението</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Звукът от съобщенията, ако екрана е включен</string>
+    <string name="notification_sound_vib_screen_on_summary">Забрани за блокиране на съобщенията и вибрирането, когато екрана е включен</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Умни звуци на съобщението</string>
+    <string name="less_notification_sounds_summary">Ограничете звуците на известията на всяко приложение, за да звучат само веднъж за зададен период от време</string>
+    <string name="less_notification_sounds_default">Приложение по подразбиране</string>
+    <string name="less_notification_sounds_10s">Всеки 10 секунди</string>
+    <string name="less_notification_sounds_30s">Всеки 30 секунди</string>
+    <string name="less_notification_sounds_1m">Всяка минута</string>
+    <string name="less_notification_sounds_2m">Всеки 2 минути</string>
+    <!-- Audio Panel view  -->
 </resources>

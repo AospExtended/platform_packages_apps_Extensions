@@ -153,12 +153,12 @@
     <string name="torch_long_press_power_gesture_desc">Ekran sönülü olan zaman söndürmə (power) düyməsini basıb tutmaqla fənər yansın</string>
     <string name="torch_long_press_power_timeout_title">Fənəri avtomatik söndür</string>
     <!-- Battery light -->
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
     <!-- Battery percentage -->
     <!-- Status bar battery style-->
     <!-- AOSP Recents component Style -->
-    <!-- QuickSettings Panel Transparency -->
     <!-- Toast app icon -->
     <!-- Quick Settings brightness slider -->
     <!-- QS footer warnings -->
@@ -195,7 +195,6 @@
     <string name="smart_pulldown_none_summary">Heç bir bildiriş olmadıqda sürətli parametrləri aç</string>
     <string name="smart_pulldown_off">Bağlı</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Dayandırılan əməliyyatlar</string>
     <string name="screen_state_toggles_enable_title">Aktivləşdir</string>
     <string name="screen_state_toggles_enable_summary">Əməliyyatlar ekran bağlananda başlayacaq. Ekran açılan zaman əvvəlki vəziyyətə qayıdacaq.</string>
@@ -210,7 +209,6 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <!-- Weather -->
-    <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -240,4 +238,5 @@
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

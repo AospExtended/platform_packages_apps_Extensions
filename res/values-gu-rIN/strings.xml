@@ -154,12 +154,12 @@
     <string name="torch_long_press_power_timeout_title">આપમેળે વીજળીની હાથબત્તી બંધ કરો</string>
     <string name="torch_long_press_power_timeout_never">ક્યારેય નહીં</string>
     <!-- Battery light -->
+    <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
     <!-- Battery percentage -->
     <!-- Status bar battery style-->
     <!-- AOSP Recents component Style -->
-    <!-- QuickSettings Panel Transparency -->
     <!-- Toast app icon -->
     <!-- Quick Settings brightness slider -->
     <!-- QS footer warnings -->
@@ -212,7 +212,6 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <!-- Weather -->
-    <!-- Volume keys control ringtone stream -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -242,4 +241,5 @@
     <!-- Notification guts kill app button -->
     <!-- Notification with screen on -->
     <!-- Less Notification sounds -->
+    <!-- Audio Panel view  -->
 </resources>

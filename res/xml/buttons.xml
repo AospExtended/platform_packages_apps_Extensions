@@ -82,6 +82,7 @@
             android:title="@string/button_timeout_title"
             android:max="30"
             settings:min="0"
+            android:defaultValue="5"
             android:persistent="false"
             android:dependency="button_backlight_enable" />
 

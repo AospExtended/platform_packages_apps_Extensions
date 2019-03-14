@@ -269,7 +269,7 @@
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
     <!-- Notifications LED -->
-    <string name="notification_light_settings">Notifications light LED</string>
+    <string name="notification_light_settings">Notifications LED light</string>
     <string name="notification_light_summary">Customise the notifications LED light for various apps</string> 
 
     <!-- Lockscreen battery info indicator  -->

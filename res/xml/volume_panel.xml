@@ -35,12 +35,6 @@
         android:defaultValue="false"/>
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_alarm"
-        android:title="@string/audio_panel_view_alarm_title"
-        android:summary="@string/audio_panel_view_alarm_title_summary"
-        android:defaultValue="false"/>
-
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="audio_panel_view_voice"
         android:title="@string/audio_panel_view_voice_title"
         android:summary="@string/audio_panel_view_voice_title_summary"

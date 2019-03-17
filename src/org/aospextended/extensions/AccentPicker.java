@@ -392,6 +392,20 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
             });
         }
 
+
+        Button elegantGreenAccent;
+        elegantGreenAccent = mView.findViewById(R.id.elegantGreenAccent);
+        if (elegantGreenAccent != null) {
+            elegantGreenAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 25, mCurrentUserId);
+                    dismiss();
+                }
+            });
+        }
+
 /*        Button blackAccent;
         blackAccent = mView.findViewById(R.id.blackAccent);
         // Change the accent picker button depending on whether or not the dark, black, extended, chocolate theme is applied

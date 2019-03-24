@@ -761,4 +761,8 @@
     <string name="gaming_mode_dynamic_title">Dynamic Gaming mode</string>
     <string name="gaming_mode_dynamic_summary">Whenever you open any app and the system finds it to be a game, it will be added in gaming list automatically. Please note that this does not work for every game app.</string>
 
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
+    <string name="ok">OK</string>
+
 </resources>

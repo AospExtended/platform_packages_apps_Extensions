@@ -849,6 +849,7 @@
 
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_title_summary">Scheduled Energy Saving Settings</string>
     <string name="sleep_mode_schedule_sunset">Sunset</string>
     <string name="sleep_mode_schedule_sunrise">Sunrise</string>
     <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
@@ -869,4 +870,15 @@
     <string name="sleep_mode_aggressive_toggle_title">Turn on Aggressive Battery</string>
     <string name="sleep_mode_aggressive_toggle_summary">Enable Aggressive idle and standby when Sleep mode is turned on</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 </resources>

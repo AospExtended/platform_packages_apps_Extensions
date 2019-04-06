@@ -402,6 +402,7 @@
     <string name="lockscreen_clock_selection_analog">Analog</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
 
     <!-- Weather -->
     <string name="weather_title">Weather</string>

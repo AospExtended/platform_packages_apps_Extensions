@@ -29,23 +29,6 @@
         android:summary="@string/audio_panel_view_ringer_title_summary"
         android:defaultValue="false" />
 
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_notification"
-        android:title="@string/audio_panel_view_notification_title"
-        android:defaultValue="false"/>
-
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_voice"
-        android:title="@string/audio_panel_view_voice_title"
-        android:summary="@string/audio_panel_view_voice_title_summary"
-        android:defaultValue="false"/>
-
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="audio_panel_view_bt_sco"
-        android:title="@string/audio_panel_view_bt_sco_title"
-        android:summary="@string/audio_panel_view_bt_sco_title_summary"
-        android:defaultValue="false"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory

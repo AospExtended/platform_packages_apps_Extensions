@@ -41,11 +41,9 @@ public class VolumePanel extends SettingsPreferenceFragment
 
     private static final String TAG = "VolumePanel";
 
-    private static final String KEY_NOTIFICATION = "audio_panel_view_notification";
     private static final String KEY_POSITION = "audio_panel_view_position";
     private static final String KEY_VIEW_TIMEOUT = "audio_panel_view_timeout";
 
-    private SwitchPreference mNotification;
     private SwitchPreference mPosition;
     private CustomSeekBarPreference mViewTimout;
 
@@ -56,15 +54,6 @@ public class VolumePanel extends SettingsPreferenceFragment
         ContentResolver resolver = getActivity().getContentResolver();
 
         addPreferencesFromResource(R.xml.volume_panel);
-
-        boolean isNotificationLinked = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.VOLUME_LINK_NOTIFICATION, 1, UserHandle.USER_CURRENT) != 0;
-
-        if (isNotificationLinked) {
-            mNotification = (SwitchPreference) findPreference(KEY_NOTIFICATION);
-            mNotification.setSummary(R.string.audio_panel_view_notification_disabled);
-            mNotification.setEnabled(false);
-        }
 
         boolean isAudioPanelOnLeft = Settings.System.getIntForUser(resolver,
                 Settings.System.AUDIO_PANEL_VIEW_POSITION, isAudioPanelOnLeftSide(getActivity()) ? 1 : 0,
@@ -108,18 +97,10 @@ public class VolumePanel extends SettingsPreferenceFragment
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
-                Settings.System.AUDIO_PANEL_VIEW_NOTIFICATION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.AUDIO_PANEL_VIEW_VOICE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.AUDIO_PANEL_VIEW_BT_SCO, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.AUDIO_PANEL_VIEW_POSITION, isAudioPanelOnLeftSide(mContext) ? 1 : 0,
                 UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.AUDIO_PANEL_VIEW_TIMEOUT, 3, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.VOLUME_LINK_NOTIFICATION, 1, UserHandle.USER_CURRENT);
     }
 
     @Override

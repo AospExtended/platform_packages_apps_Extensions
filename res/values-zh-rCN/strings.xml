@@ -23,6 +23,7 @@
     <string name="advanced">高级选项</string>
     <string name="cancel">取消</string>
     <string name="choose_app">选择应用程序</string>
+    <string name="default_text">定义</string>
     <string name="general_category">常规</string>
     <string name="gestures_category">手势</string>
     <string name="music_category">音乐</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">浮动通知设置</string>
     <string name="heads_up_notifications">浮动通知</string>
+    <string name="heads_up_notifications_summary">个性化抬头通知设置</string>
     <string name="summary_heads_up_enabled">弹出通知已启用</string>
     <string name="summary_heads_up_disabled">弹出通知已禁用</string>
     <string name="add_heads_up_package">添加应用</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 分钟</string>
     <string name="torch_long_press_power_timeout_10min">10 分钟</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">电池充电指示灯</string>
+    <string name="battery_charging_light_summary">个性化电池充电指示灯</string>
     <string name="battery_light_enable">电量指示灯</string>
+    <string name="battery_light_enabled_summary">启用该设置来显示电池指示灯的相应颜色</string>
     <string name="battery_light_allow_on_dnd_title">勿扰模式下启用指示灯</string>
+    <string name="battery_light_allow_on_dnd_summary">启用它来显示当设备处于“勿扰模式”时的电池指示灯</string>
     <string name="battery_light_low_blinking_title">低电量时指示灯闪烁</string>
+    <string name="battery_light_low_blinking_summary">在低电量情况下闪烁电池指示灯</string>
     <string name="battery_light_cat">充电时电量指示灯颜色</string>
     <string name="battery_light_low_color">低电量</string>
     <string name="battery_light_medium_color">中等电量</string>
     <string name="battery_light_full_color">接近满电</string>
     <string name="battery_light_reallyfull_color">满电（100%）</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">个性化各种应用的通知指示灯</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
     <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示适配充电器的最大电流电压以及电池温度</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">没有可清除通知时</string>
     <string name="smart_pulldown_ongoing">无持续通知时</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">配置关屏时的一些操作</string>
     <string name="screen_state_toggles_title">挂起操作</string>
     <string name="screen_state_toggles_enable_title">启用</string>
     <string name="screen_state_toggles_enable_summary">操作将在屏幕关闭时执行。当屏幕开启时先前的状态将会被还原。</string>
@@ -443,7 +452,7 @@
     <string name="corner_radius">圆角半径</string>
     <string name="content_padding">边角内容填充</string>
     <string name="corner_fwvals">使用框架取值</string>
-    <string name="corner_fwvals_summary">如果设备实际上有圆角，则很有用</string>
+    <string name="corner_fwvals_summary">如果实际设备上有圆角，那么该设置将十分有用</string>
     <string name="lockscreen_qs_disabled_title">锁屏时禁用快速设置</string>
     <string name="lockscreen_qs_disabled_summary">在锁屏界面禁用下拉访问快捷设置</string>
     <!-- AOKP custom system animations -->
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">图标包</string>
     <string name="recents_icon_pack_summary">为最近任务面板中的应用程序应用一个自定义图标包</string>
-    <string name="no_iconpacks_summary">没有已安装的图标包</string>
-    <string name="dialog_pick_iconpack_title">选择图标包</string>
-    <string name="default_iconpack_title">默认图标</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">音量级别</string>
     <string name="volume_steps_summary">自定义音量级别</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">音量级别: 通话</string>
     <string name="volume_steps_reset">重置</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">来电振动</string>
     <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_connect_summary">启用通话连接后的振动</string>
     <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_call_wait_summary">启用通话等待时的振动</string>
     <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+    <string name="incall_vibrate_disconnect_summary">启用通话断开后的振动</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">强制关闭应用按钮</string>
     <string name="notification_guts_kill_app_button_summary">在状态栏通知的长按菜单中显示终止应用按钮</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">每分钟</string>
     <string name="less_notification_sounds_2m">每两分钟</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">音量控制板</string>
+    <string name="audio_panel_view_summary">个性化音量板对话框</string>
+    <string name="audio_panel_view_info">即使被禁用，活动的音量流也会显示于屏幕上。音量流将会被强制显示于此。</string>
+    <string name="audio_panel_view_ringer_title">铃声</string>
+    <string name="audio_panel_view_ringer_title_summary">从音量板对话框中调节铃声音量大小</string>
+    <string name="audio_panel_view_position_title">音量板左居</string>
+    <string name="audio_panel_view_position_summary">在屏幕的左手边显示音量板对话框</string>
+    <string name="audio_panel_view_timeout_title">音量板超时</string>
+    <string name="volume_pannel_general">常规</string>
+    <string name="volume_pannel_misc">其他设置</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

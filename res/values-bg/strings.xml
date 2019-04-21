@@ -23,6 +23,7 @@
     <string name="advanced">Разширени</string>
     <string name="cancel">Отказ</string>
     <string name="choose_app">Изберете приложение</string>
+    <string name="default_text">Def</string>
     <string name="general_category">Основни</string>
     <string name="gestures_category">Жестове</string>
     <string name="music_category">Музика</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Настройки на изскачащите известия</string>
     <string name="heads_up_notifications">Изскачащи известия</string>
+    <string name="heads_up_notifications_summary">Настрой изкачащите уведомленията</string>
     <string name="summary_heads_up_enabled">Изскачащите уведомления са разрешени</string>
     <string name="summary_heads_up_disabled">Изскачащите уведомления са забранени</string>
     <string name="add_heads_up_package">Добави приложение</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 минути</string>
     <string name="torch_long_press_power_timeout_10min">10 минути</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Лед светлинна индикация при зареждане на батерията</string>
+    <string name="battery_charging_light_summary">Настрой ЛЕД индикацията за зареждане на батерията</string>
     <string name="battery_light_enable">Светлинна индикация на батерията</string>
+    <string name="battery_light_enabled_summary">Включи ЛЕД цветове да съответстват на батерията</string>
     <string name="battery_light_allow_on_dnd_title">Индикации в режим \"Не безпокойте\"</string>
+    <string name="battery_light_allow_on_dnd_summary">Включи ЛЕД индикацията докато сте в режим не безпокойте</string>
     <string name="battery_light_low_blinking_title">Мигаща светлина при изтощена батерия</string>
+    <string name="battery_light_low_blinking_summary">Мигане на ЛЕД индикация при изтощена батерия</string>
     <string name="battery_light_cat">Цвят на светлинната индикацията при зареждане</string>
     <string name="battery_light_low_color">Изтощена батерия</string>
     <string name="battery_light_medium_color">Средно ниво на батерия</string>
     <string name="battery_light_full_color">Почти пълна батерия</string>
     <string name="battery_light_reallyfull_color">Заредена (100) батерия</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Настрой уведомленията чрез ЛЕД светлина за различните приложения</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация за зареждането на заключен екран</string>
     <string name="lockscreen_battery_info_summary">Показване на волтажа и температурата на батерията по време на зареждането на заключения екран</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Без отхвърляне</string>
     <string name="smart_pulldown_ongoing">Няма текущи</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Настрой действия, когато екрана е изключен</string>
     <string name="screen_state_toggles_title">Преустановени на действия</string>
     <string name="screen_state_toggles_enable_title">Разреши</string>
     <string name="screen_state_toggles_enable_summary">Действията ще се изпълнят когато екрана е изключен. При събуждане на екрана предишното състояние ще бъде възстановено.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Пакет икони</string>
     <string name="recents_icon_pack_summary">Прилагане на потребителски пакет с икони за панел скорошни</string>
-    <string name="no_iconpacks_summary">Няма инсталирани пакети с икони</string>
-    <string name="dialog_pick_iconpack_title">Избери пакет с икони</string>
-    <string name="default_iconpack_title">Икони по подразбиране</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Звукови стъпки</string>
     <string name="volume_steps_summary">Персонализиране на звука стъпки</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Звукови стъпки: Гласови обаждания</string>
     <string name="volume_steps_reset">Нулиране</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вибриране по време на разговор</string>
     <string name="incall_vibrate_connect_title">Вибриране при свързване</string>
+    <string name="incall_vibrate_connect_summary">Включи вибрация при свързване на разговор</string>
     <string name="incall_vibrate_call_wait_title">Вибрирай при изчакване на повикването</string>
+    <string name="incall_vibrate_call_wait_summary">Включи вибрация докато разговора е на изчакване</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при затваряне</string>
+    <string name="incall_vibrate_disconnect_summary">Включи вибрация след край на разговор</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Бутон спиране на приложението</string>
     <string name="notification_guts_kill_app_button_summary">Покажи бутон за спиране на приложението в менюто при дълго задържане на съобщението</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Всяка минута</string>
     <string name="less_notification_sounds_2m">Всеки 2 минути</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Звуков панел</string>
+    <string name="audio_panel_view_summary">Настрой диалога на звуковия панел</string>
+    <string name="audio_panel_view_info">Активния звуков поток ще се покаже на екрана дори и да е изключен тук. Звуковите стъпки включени тук ще се покажат принудително.</string>
+    <string name="audio_panel_view_ringer_title">Звънене</string>
+    <string name="audio_panel_view_ringer_title_summary">Настрой силата на звънене от панела за управление на звука</string>
+    <string name="audio_panel_view_position_title">Панел за звук от ляво</string>
+    <string name="audio_panel_view_position_summary">Покажи панела за управление на звука от страната на лява ръка на екрана.</string>
+    <string name="audio_panel_view_timeout_title">Време за изчакване на панела за звук</string>
+    <string name="volume_pannel_general">Основни</string>
+    <string name="volume_pannel_misc">Разни</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

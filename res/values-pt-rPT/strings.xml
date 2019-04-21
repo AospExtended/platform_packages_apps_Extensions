@@ -23,6 +23,7 @@
     <string name="advanced">Avançado</string>
     <string name="cancel">Cancelar</string>
     <string name="choose_app">Escolher aplicação</string>
+    <string name="default_text">Padrão</string>
     <string name="general_category">Geral</string>
     <string name="gestures_category">Gestos</string>
     <string name="music_category">Música</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Configurações de notificações pop-up</string>
     <string name="heads_up_notifications">Notificações pop-up</string>
+    <string name="heads_up_notifications_summary">Personalizar configurações de notificações heads up</string>
     <string name="summary_heads_up_enabled">As notificações flutuantes estão ativadas</string>
     <string name="summary_heads_up_disabled">As notificações flutuantes estão desativadas</string>
     <string name="add_heads_up_package">Adicionar aplicação</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 minutos</string>
     <string name="torch_long_press_power_timeout_10min">10 minutos</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Luz de carregamento de bateria</string>
+    <string name="battery_charging_light_summary">Personalizar a luz do LED de carregamento da bateria</string>
     <string name="battery_light_enable">Luz da bateria</string>
+    <string name="battery_light_enabled_summary">Ative para mostrar as cores respectivas do LED da bateria</string>
     <string name="battery_light_allow_on_dnd_title">Luzes no modo Não Incomodar</string>
+    <string name="battery_light_allow_on_dnd_summary">Habilite para mostrar a luz do LED da bateria enquanto o dispositivo está no modo Não Perturbar</string>
     <string name="battery_light_low_blinking_title">Piscar a luz de bateria fraca</string>
+    <string name="battery_light_low_blinking_summary">Piscar a luz do LED da bateria em bateria fraca</string>
     <string name="battery_light_cat">Cor da luz da bateria ao carregar</string>
     <string name="battery_light_low_color">Bateria fraca</string>
     <string name="battery_light_medium_color">Bateria média</string>
     <string name="battery_light_full_color">Bateria quase cheia</string>
     <string name="battery_light_reallyfull_color">Bateria cheia (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Personalizar a notificações LED luz para vários aplicativos</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info de carregamento do ecrã de bloqueio</string>
     <string name="lockscreen_battery_info_summary">Mostrar a corrente, a voltagem máxima e a temperatura da bateria no ecrã de bloqueio durante o carregamento</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Sem notificações descartáveis</string>
     <string name="smart_pulldown_ongoing">S/ notif. em curso</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Configurar algumas ações quando a tela estiver desligada</string>
     <string name="screen_state_toggles_title">Suspender as Ações</string>
     <string name="screen_state_toggles_enable_title">Ativar</string>
     <string name="screen_state_toggles_enable_summary">As ações serão executadas com a tela desligada. A tela no estado anterior será restaurada.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Pacote de ícones</string>
     <string name="recents_icon_pack_summary">Aplicar um pacote de ícones personalizado para o painel de apps recentes</string>
-    <string name="no_iconpacks_summary">Nenhum pacote de ícones instalado</string>
-    <string name="dialog_pick_iconpack_title">Escolher pacote de ícones</string>
-    <string name="default_iconpack_title">Ícones padrão</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Níveis de volume</string>
     <string name="volume_steps_summary">Personalizar niveis de volume</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de voz</string>
     <string name="volume_steps_reset">Redefinir</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrar durante a chamada</string>
     <string name="incall_vibrate_connect_title">Vibrar ao ligar</string>
+    <string name="incall_vibrate_connect_summary">Activar para vibrar quando a chamada é estabelecida</string>
     <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_call_wait_summary">Activar para vibrar quando a chamada está em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+    <string name="incall_vibrate_disconnect_summary">Activar para vibrar quando a chamada é desligada</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Botão de terminar aplicação</string>
     <string name="notification_guts_kill_app_button_summary">Mostrar um botão para fechar uma app ao pressionar longamente em uma notificação</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">A cada minuto</string>
     <string name="less_notification_sounds_2m">A cada 2 minutos</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Painel de volume</string>
+    <string name="audio_panel_view_summary">Personalizar a caixa do painel de volume</string>
+    <string name="audio_panel_view_info">O fluxo de volume ativo será exibido na tela mesmo se desativado aqui. Fluxos de volume habilitados aqui seriam exibidos sempre.</string>
+    <string name="audio_panel_view_ringer_title">Toque</string>
+    <string name="audio_panel_view_ringer_title_summary">Ajustar o volume do toque a partir do painel de volume</string>
+    <string name="audio_panel_view_position_title">Painel de volume à esquerda</string>
+    <string name="audio_panel_view_position_summary">Mostrar o painel de volume no lado esquerdo do ecrã.</string>
+    <string name="audio_panel_view_timeout_title">Duração do painel de volume</string>
+    <string name="volume_pannel_general">Geral</string>
+    <string name="volume_pannel_misc">Diversos</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

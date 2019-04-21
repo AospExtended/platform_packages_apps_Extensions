@@ -23,6 +23,7 @@
     <string name="advanced">Gelişmiş</string>
     <string name="cancel">İptal</string>
     <string name="choose_app">Uygulama seç</string>
+    <string name="default_text">Varsayılan</string>
     <string name="general_category">Genel</string>
     <string name="gestures_category">Hareketler</string>
     <string name="music_category">Müzik</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Üst bildirim</string>
     <string name="heads_up_notifications">Bildirim pencereleri</string>
+    <string name="heads_up_notifications_summary">Bildirim pencereleri ayarlarını özelleştir</string>
     <string name="summary_heads_up_enabled">Bildirim pencereleri etkin</string>
     <string name="summary_heads_up_disabled">Bildirim pencereleri devre dışı</string>
     <string name="add_heads_up_package">Uygulama ekle</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 dakika</string>
     <string name="torch_long_press_power_timeout_10min">10 dakika</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Pil şarj ışığı</string>
+    <string name="battery_charging_light_summary">Pil şarj ışığı özelleştirmeleri</string>
     <string name="battery_light_enable">Pil ışığı</string>
+    <string name="battery_light_enabled_summary">Pil ışığı renklerini göstermek için etkinleştir</string>
     <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
+    <string name="battery_light_allow_on_dnd_summary">Rahatsız etmeyin modunda pil ışığını göster</string>
     <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
+    <string name="battery_light_low_blinking_summary">Düşük pilde ışığı yak söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
     <string name="battery_light_low_color">Düşük pil</string>
     <string name="battery_light_medium_color">Orta seviye pil</string>
     <string name="battery_light_full_color">Neredeyse dolu pil</string>
     <string name="battery_light_reallyfull_color">Tam dolu pil (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Çeşitli uygulamaların bildirimleri için LED ışığını özelleştir</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Pil bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Kapatılabilir yoksa</string>
     <string name="smart_pulldown_ongoing">Devam eden yoksa</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Ekran kapalıyken bazı eylemleri yapılandırma</string>
     <string name="screen_state_toggles_title">Eylemler</string>
     <string name="screen_state_toggles_enable_title">Etkinleştir</string>
     <string name="screen_state_toggles_enable_summary">Eylemler ekran kapandığında başlatılır. Ekran açılınca önceki durumuna geri getirilir.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Simge paketi</string>
     <string name="recents_icon_pack_summary">Son uygulamalar ekranı için özel bir simge paketi uygula</string>
-    <string name="no_iconpacks_summary">Yüklü simge paketleri yok</string>
-    <string name="dialog_pick_iconpack_title">Simge paketi seçin</string>
-    <string name="default_iconpack_title">Varsayılan simgeler</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Ses seviyeleri</string>
     <string name="volume_steps_summary">Ses seviyelerini özelleştir</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
     <string name="volume_steps_reset">Sıfırla</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_connect_summary">Çağrı bağlandığında titreşimi etkinleştir</string>
     <string name="incall_vibrate_call_wait_title">Çağrı bekletildiğinde titret</string>
+    <string name="incall_vibrate_call_wait_summary">Çağrı bekletildiğinde titreşimi etkinleştir</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_summary">Çağrı bağlantısı kesildiğinde titreşimi etkinleştir</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
     <string name="notification_guts_kill_app_button_summary">Bildirimlere uzun dokunma menüsünde uygulama sonlandırma tuşunu göster</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Her dakika</string>
     <string name="less_notification_sounds_2m">Her 2 dakikada</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Ses paneli</string>
+    <string name="audio_panel_view_summary">Ses paneli iletişim kutusunu özelleştir</string>
+    <string name="audio_panel_view_info">Burada devre dışı bırakılmış olsa bile aktif ses akışı ekranda gösterilecektir. Burada etkinleştirilen ses akışları zorla görüntülenir.</string>
+    <string name="audio_panel_view_ringer_title">Zil sesi</string>
+    <string name="audio_panel_view_ringer_title_summary">Zil sesi seviyesini ses paneli iletişim kutusundan da ayarlayın</string>
+    <string name="audio_panel_view_position_title">Sol ses paneli</string>
+    <string name="audio_panel_view_position_summary">Ses paneli iletişim kutusunu sol tarafta göster.</string>
+    <string name="audio_panel_view_timeout_title">Ses düzeyi paneli zaman aşımı</string>
+    <string name="volume_pannel_general">Genel</string>
+    <string name="volume_pannel_misc">Çeşitli</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

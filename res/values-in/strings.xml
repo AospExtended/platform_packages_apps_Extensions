@@ -23,6 +23,7 @@
     <string name="advanced">Lanjutan</string>
     <string name="cancel">Batal</string>
     <string name="choose_app">Pilih aplikasi</string>
+    <string name="default_text">Bawaan</string>
     <string name="general_category">Umum</string>
     <string name="gestures_category">Gerakan</string>
     <string name="music_category">Musik</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Setelan Notifikasi mengambang</string>
     <string name="heads_up_notifications">Notifikasi mengambang</string>
+    <string name="heads_up_notifications_summary">Kostumisasi pengaturan munculan pemberitahuan</string>
     <string name="summary_heads_up_enabled">Notifikasi pop-up dihidupkan</string>
     <string name="summary_heads_up_disabled">Notifikasi pop-up dimatikan</string>
     <string name="add_heads_up_package">Tambah aplikasi</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 menit</string>
     <string name="torch_long_press_power_timeout_10min">10 menit</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Lampu LED pengisian baterai</string>
+    <string name="battery_charging_light_summary">Kostumisasi lampu LED pengisian baterai</string>
     <string name="battery_light_enable">Lampu baterai</string>
+    <string name="battery_light_enabled_summary">Aktifkan untuk menampilkan masing-masing warna dari LED baterai</string>
     <string name="battery_light_allow_on_dnd_title">Lampu baterai dalam mode Jangan diganggu</string>
+    <string name="battery_light_allow_on_dnd_summary">Aktifkan untuk menampilkan lampu LED baterai semala perangkat dalam mode Jangan Ganggu</string>
     <string name="battery_light_low_blinking_title">Lampu berkedip saat baterai lemah</string>
+    <string name="battery_light_low_blinking_summary">Kedipkan lampu LED baterai saat baterai lemah</string>
     <string name="battery_light_cat">Warna lampu baterai saat pengisian</string>
     <string name="battery_light_low_color">Baterai lemah</string>
     <string name="battery_light_medium_color">Baterai menengah</string>
     <string name="battery_light_full_color">Baterai hampir penuh</string>
     <string name="battery_light_reallyfull_color">Baterai Telah Terisi 100%</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Kustomisasi lampu LED pemberitahuan untuk berbagai aplikasi</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informasi pengisian kunci layar</string>
     <string name="lockscreen_battery_info_summary">Tampilan pengisi daya yang dinegosiasikan maksimal arus dan tegangan dan suhu baterai pada layar kunci saat pengisian</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Tidak dapat dihilangkan</string>
     <string name="smart_pulldown_ongoing">Tidak ada yang sedang berlangsung</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Atur beberapa aksi ketika layar mati</string>
     <string name="screen_state_toggles_title">Hentikan tindakan</string>
     <string name="screen_state_toggles_enable_title">Mengaktifkan</string>
     <string name="screen_state_toggles_enable_summary">Tindakan akan dilakukan saat layar mati. Saat layar hidup keadaan sebelumnya akan dipulihkan.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Paket ikon</string>
     <string name="recents_icon_pack_summary">Terapkan paket ikon kustom untuk panel terkini</string>
-    <string name="no_iconpacks_summary">Tidak ada paket ikon terinstall</string>
-    <string name="dialog_pick_iconpack_title">Pilih paket ikon</string>
-    <string name="default_iconpack_title">Ikon bawaan</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Tingkat volume</string>
     <string name="volume_steps_summary">Sesuaikan tingkat volume</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Tingkat volume: Panggilan suara</string>
     <string name="volume_steps_reset">Setel ulang</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Getar saat panggilan</string>
     <string name="incall_vibrate_connect_title">Getar saat terhubung</string>
+    <string name="incall_vibrate_connect_summary">Getarkan setelah panggilan terhubung</string>
     <string name="incall_vibrate_call_wait_title">Getar saat menunggu panggilan</string>
+    <string name="incall_vibrate_call_wait_summary">Getarkan saat sedang menunggu panggilan</string>
     <string name="incall_vibrate_disconnect_title">Getar saat terputus</string>
+    <string name="incall_vibrate_disconnect_summary">Getarkan setelah panggilan terputus</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Tombol mematikan aplikasi</string>
     <string name="notification_guts_kill_app_button_summary">Tampilkan tombol mematikan aplikasi pada saat menu pemberitahuan ditekan</string>
@@ -580,4 +590,15 @@
     <string name="less_notification_sounds_1m">Setiap menit</string>
     <string name="less_notification_sounds_2m">Setiap 2 menit</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Panel suara</string>
+    <string name="audio_panel_view_summary">Kustomisasi dialog panel suara</string>
+    <string name="audio_panel_view_ringer_title">Dering</string>
+    <string name="audio_panel_view_ringer_title_summary">Sesuaikan suara dering melalui dialog panel suara</string>
+    <string name="audio_panel_view_position_title">Panel suara di kiri</string>
+    <string name="audio_panel_view_position_summary">Tampilkan dialog panel suara pada sisi kiri layar anda.</string>
+    <string name="audio_panel_view_timeout_title">Waktu habis panel suara</string>
+    <string name="volume_pannel_general">Umum</string>
+    <string name="volume_pannel_misc">Lainnya</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

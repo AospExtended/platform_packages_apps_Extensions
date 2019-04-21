@@ -23,6 +23,7 @@
     <string name="advanced">Pokročilé</string>
     <string name="cancel">Zrušit</string>
     <string name="choose_app">Vybrat aplikaci</string>
+    <string name="default_text">Předvolba</string>
     <string name="general_category">Obecné</string>
     <string name="gestures_category">Gesta</string>
     <string name="music_category">Hudba</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Nastavení plovoucího oznámení</string>
     <string name="heads_up_notifications">Plovoucí oznámení</string>
+    <string name="heads_up_notifications_summary">Přizpůsobení nastavení plovoucích oznámení</string>
     <string name="summary_heads_up_enabled">Plovoucí oznámení jsou povolena</string>
     <string name="summary_heads_up_disabled">Plovoucí oznámení jsou zakázána</string>
     <string name="add_heads_up_package">Přidat aplikaci</string>
@@ -172,7 +174,7 @@
     <string name="heads_up_snooze_15min">15 minut</string>
     <string name="heads_up_snooze_20min">20 minut</string>
     <string name="face_auto_unlock_title">Automatické odemčení obličejem</string>
-    <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
+    <string name="face_auto_unlock_summary">Přeskočit zamykací obrazovku po odemknutí obličejem</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Indikátor roamingu</string>
     <string name="roaming_indicator_icon_summary">V režimu roamingu zobrazit indikátor v ikoně signálu</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 minut</string>
     <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">LED kontrolka nabíjení baterie</string>
+    <string name="battery_charging_light_summary">Přizpůsobení LED kontrolky nabíjení baterie</string>
     <string name="battery_light_enable">LED signalizace baterie</string>
+    <string name="battery_light_enabled_summary">Povolte zobrazení příslušných barev LED kontrolky baterie</string>
     <string name="battery_light_allow_on_dnd_title">Světelná signalizace baterie v režimu „Nerušit“</string>
+    <string name="battery_light_allow_on_dnd_summary">Povolte zobrazení LED kontrolky baterie, když je zařízení v režimu „Nerušit“</string>
     <string name="battery_light_low_blinking_title">Blikat při nízkém stavu baterie</string>
+    <string name="battery_light_low_blinking_summary">Blikání LED kontrolky baterie při nízkém stavu</string>
     <string name="battery_light_cat">Barva kontrolky baterie při nabíjení</string>
     <string name="battery_light_low_color">Nízký stav baterie</string>
     <string name="battery_light_medium_color">Střední stav baterie</string>
     <string name="battery_light_full_color">Téměř nabito</string>
     <string name="battery_light_reallyfull_color">Plně nabito (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Přizpůsobení LED kontrolky oznámení pro různé aplikace</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
     <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Žádné zrušitelné</string>
     <string name="smart_pulldown_ongoing">Žádné probíhající</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Nastavte některé akce při vypnuté obrazovce</string>
     <string name="screen_state_toggles_title">Akce po zhasnutí obrazovky</string>
     <string name="screen_state_toggles_enable_title">Povolit</string>
     <string name="screen_state_toggles_enable_summary">Akce budou provedeny při vypnutí obrazovky. Při zapnutí a uvedení do předchozího stavu budou obnoveny.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Balíček ikon</string>
     <string name="recents_icon_pack_summary">Použít vlastní balíček ikon pro aplikace v panelu</string>
-    <string name="no_iconpacks_summary">Není nainstalován žádný balíček ikon</string>
-    <string name="dialog_pick_iconpack_title">Vyberte balíček ikon</string>
-    <string name="default_iconpack_title">Výchozí ikony</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Kroky hlasitosti</string>
     <string name="volume_steps_summary">Přizpůsobení kroků hlasitosti</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
     <string name="volume_steps_reset">Resetovat</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrace při hovoru</string>
     <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
+    <string name="incall_vibrate_connect_summary">Povolit vibrace při připojení</string>
     <string name="incall_vibrate_call_wait_title">Vibrovat při čekajícím hovoru</string>
+    <string name="incall_vibrate_call_wait_summary">Povolit vibrace při čekajícím hovoru</string>
     <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
+    <string name="incall_vibrate_disconnect_summary">Povolit vibrace při odpojení</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Tlačítko \"Ukončit aplikaci\"</string>
     <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko \"Ukončit aplikaci\" při dlouhém stisku v nabídce oznámení</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Každou minutu</string>
     <string name="less_notification_sounds_2m">Každé 2 minuty</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Panel hlasitosti</string>
+    <string name="audio_panel_view_summary">Přizpůsobit dialogové okno panelu hlasitosti</string>
+    <string name="audio_panel_view_info">Aktivní tok hlasitosti se zobrazí na obrazovce, i když je zde zakázán. Zde povolené toky hlasitosti budou zobrazeny vynuceně.</string>
+    <string name="audio_panel_view_ringer_title">Vyzvánění</string>
+    <string name="audio_panel_view_ringer_title_summary">Upravte hlasitost vyzvánění z dialogového okna panelu hlasitosti</string>
+    <string name="audio_panel_view_position_title">Panel hlasitosti vlevo</string>
+    <string name="audio_panel_view_position_summary">Zobrazit dialogové okno panelu hlasitosti na levé straně obrazovky.</string>
+    <string name="audio_panel_view_timeout_title">Časový limit zobrazení panelu hlasitosti</string>
+    <string name="volume_pannel_general">Obecné</string>
+    <string name="volume_pannel_misc">Různé</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

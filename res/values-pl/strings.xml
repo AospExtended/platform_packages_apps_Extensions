@@ -23,6 +23,7 @@
     <string name="advanced">Zaawansowane</string>
     <string name="cancel">Anuluj</string>
     <string name="choose_app">Wybierz aplikację</string>
+    <string name="default_text">Dom.</string>
     <string name="general_category">Ogólne</string>
     <string name="gestures_category">Gesty</string>
     <string name="music_category">Muzyka</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Ustawienia wyskakujących powiadomień</string>
     <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
+    <string name="heads_up_notifications_summary">Dostosuj ustawienia pływających powiadomień</string>
     <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
     <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
     <string name="add_heads_up_package">Dodaj aplikację</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 minut</string>
     <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Dioda ładowania baterii</string>
+    <string name="battery_charging_light_summary">Dostosuj ustawienia diody ładowania baterii</string>
     <string name="battery_light_enable">Dioda baterii</string>
+    <string name="battery_light_enabled_summary">Włącz, aby pokazywać odpowiednie kolory na diodzie baterii</string>
     <string name="battery_light_allow_on_dnd_title">Dioda baterii w trybie \"Nie przeszkadzać\"</string>
+    <string name="battery_light_allow_on_dnd_summary">Włącz, aby uaktywnić diodę baterii, gdy urządzenie jest w trybie Nie przeszkadzać</string>
     <string name="battery_light_low_blinking_title">Miganie diody przy niskim poziomie baterii</string>
+    <string name="battery_light_low_blinking_summary">Migaj diodą, gdy bateria jest słaba</string>
     <string name="battery_light_cat">Kolor diody podczas ładowania</string>
     <string name="battery_light_low_color">Niski poziom baterii</string>
     <string name="battery_light_medium_color">Średni poziom baterii</string>
     <string name="battery_light_full_color">Bateria prawie pełna</string>
     <string name="battery_light_reallyfull_color">Bateria pełna (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Dostosuj ustawienia diody powiadomień dla poszczególnych aplikacji</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
     <string name="lockscreen_battery_info_summary">Wyświetl szacowane maksymalne natężenie oraz temperaturę baterii na ekranie blokady podczas ładowania</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Nie można odrzucić</string>
     <string name="smart_pulldown_ongoing">Brak ciągłości</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Skonfiguruj akcje wykonywane, gdy ekran jest wyłączony</string>
     <string name="screen_state_toggles_title">Akcje po uśpieniu</string>
     <string name="screen_state_toggles_enable_title">Włącz</string>
     <string name="screen_state_toggles_enable_summary">Akcje będą wykonywane po wyłączeniu ekranu. Zostaną one przywrócone do poprzedniego stanu po włączeniu ekranu.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Pakiet ikon</string>
     <string name="recents_icon_pack_summary">Zastosuj niestandardowy pakiet ikon dla ostatniego panelu</string>
-    <string name="no_iconpacks_summary">Brak zainstalowanych pakietów ikon</string>
-    <string name="dialog_pick_iconpack_title">Wybierz pakiet ikon</string>
-    <string name="default_iconpack_title">Domyślne ikony</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Poziomy głośności</string>
     <string name="volume_steps_summary">Dostosuj poziomy głośności</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Etapy głośności: Połączenie głosowe</string>
     <string name="volume_steps_reset">Resetowanie</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Wibracje w trakcie rozmowy</string>
     <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
+    <string name="incall_vibrate_connect_summary">Włącz wibracje, gdy połączenie jest aktywne</string>
     <string name="incall_vibrate_call_wait_title">Wibruj podczas oczekiwania na połączenie</string>
+    <string name="incall_vibrate_call_wait_summary">Włącz wibracje podczas oczekiwania na połączenie</string>
     <string name="incall_vibrate_disconnect_title">Wibracja przy rozłączaniu</string>
+    <string name="incall_vibrate_disconnect_summary">Włącz wibracje po rozłączeniu się</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Przycisk Kill App</string>
     <string name="notification_guts_kill_app_button_summary">Pokaż przycisk \"Zabij aplikację\" w menu powiadomienia</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Co minutę</string>
     <string name="less_notification_sounds_2m">Co 2 minuty</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Panel głośności</string>
+    <string name="audio_panel_view_summary">Dostosuj panel głośności</string>
+    <string name="audio_panel_view_info">Aktywne strumienie dźwięku będą wyświetlane na ekranie, nawet jeśli zostaną tutaj wyłączone. Strumienie dźwięku tutaj włączone będą zawsze wyświetlane.</string>
+    <string name="audio_panel_view_ringer_title">Dzwonek</string>
+    <string name="audio_panel_view_ringer_title_summary">Dostosuj głośność dzwonka</string>
+    <string name="audio_panel_view_position_title">Panel głośności po lewej</string>
+    <string name="audio_panel_view_position_summary">Pokazuj panel głośności po lewej stronie ekranu.</string>
+    <string name="audio_panel_view_timeout_title">Czas wyświetlania panelu głośności</string>
+    <string name="volume_pannel_general">Ogólne</string>
+    <string name="volume_pannel_misc">Pozostałe</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

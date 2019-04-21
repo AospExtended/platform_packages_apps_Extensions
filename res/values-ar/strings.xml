@@ -23,6 +23,7 @@
     <string name="advanced">متقدم</string>
     <string name="cancel">إلغاء</string>
     <string name="choose_app">اختر التطبيق</string>
+    <string name="default_text">الافتراضي</string>
     <string name="general_category">عام</string>
     <string name="gestures_category">الإيماءات</string>
     <string name="music_category">الموسيقى</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">إعدادات الإشعارات العلوية</string>
     <string name="heads_up_notifications">الإشعارات العلوية</string>
+    <string name="heads_up_notifications_summary">تخصيص إعدادات الإشعارات العلوية</string>
     <string name="summary_heads_up_enabled">الإشعارات المنبثقة مفعّلة</string>
     <string name="summary_heads_up_disabled">الإشعارات المنبثقة معطّلة</string>
     <string name="add_heads_up_package">إضافة تطبيق</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 دقائق</string>
     <string name="torch_long_press_power_timeout_10min">10 دقائق</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">ضوء شحن البطارية</string>
+    <string name="battery_charging_light_summary">تخصيص ضوء شحن البطارية</string>
     <string name="battery_light_enable">ضوء البطارية</string>
+    <string name="battery_light_enabled_summary">قم بتمكينه لإظهار ألوان LED الخاصة بالبطارية</string>
     <string name="battery_light_allow_on_dnd_title">أضواء البطارية في وضع عدم الإزعاج</string>
+    <string name="battery_light_allow_on_dnd_summary">قم بتمكينه لإظهار ضوء LED للبطارية أثناء وجود الجهاز في وضع عدم الإزعاج</string>
     <string name="battery_light_low_blinking_title">وميض الضوء عند ضعف البطارية</string>
+    <string name="battery_light_low_blinking_summary">وميض الضوء عندما تكون البطارية منخفضة</string>
     <string name="battery_light_cat">لون ضوء البطارية عند الشحن</string>
     <string name="battery_light_low_color">البطارية منخفضة</string>
     <string name="battery_light_medium_color">بطـارية متوسطة الشحن</string>
     <string name="battery_light_full_color">البطارية كاملة تقريباً</string>
     <string name="battery_light_reallyfull_color">البطارية كاملة (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">تخصيص ضوء الإشعارات لمختلف التطبيقات</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">معلومات الشحن في شاشة القفل</string>
     <string name="lockscreen_battery_info_summary">عرض الحد الأقصى للفولتية وتيار الشاحن وحرارة البطارية على شاشة القفل أثناء الشحن</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">لا توجد إشعارات يمكن استبعادها</string>
     <string name="smart_pulldown_ongoing">لا توجد إشعارات مستمرة</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">تهيئة بعض الإجراءات عند إيقاف تشغيل الشاشة</string>
     <string name="screen_state_toggles_title">تعليق الإجراءات</string>
     <string name="screen_state_toggles_enable_title">تمكين</string>
     <string name="screen_state_toggles_enable_summary">سيتم تنفيذ الاجراءات عند قفل الشاشة. عند تشغيل الشاشة سيتم إستعادة الحالة السابقة.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">حزم الرموز</string>
     <string name="recents_icon_pack_summary">تطبيق حزمة رموز مخصصة للوحة التطبيقات الحديثة</string>
-    <string name="no_iconpacks_summary">لا حزم رموز مثبتة</string>
-    <string name="dialog_pick_iconpack_title">انتقاء حزمة رموز</string>
-    <string name="default_iconpack_title">الرموز الإفتراضية</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">درجات الصوت</string>
     <string name="volume_steps_summary">تخصيص درجات الصوت</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">درجات الصوت: صوت المكالمة</string>
     <string name="volume_steps_reset">إعادة ضبط</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">الاهتزاز أثناء المكالمة</string>
     <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
+    <string name="incall_vibrate_connect_summary">تمكين الاهتزاز اثناء الاتصال</string>
     <string name="incall_vibrate_call_wait_title">إهتزاز عند إنتظار المكالمة</string>
+    <string name="incall_vibrate_call_wait_summary">تمكين الاهتزاز أثناء انتظار المكالمة</string>
     <string name="incall_vibrate_disconnect_title">إهتزاز عند قطع الإتصال</string>
+    <string name="incall_vibrate_disconnect_summary">تمكين الاهتزاز بعد قطع الاتصال</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">زر انهاء التطبيق</string>
     <string name="notification_guts_kill_app_button_summary">أظهار زر إنهاء التطبيق في قائمة الضغط المطول على الإشعار</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">كل دقيقة</string>
     <string name="less_notification_sounds_2m">كل دقيقتين</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">لوحة مستوى الصوت</string>
+    <string name="audio_panel_view_summary">تخصيص لوحة الصوت</string>
+    <string name="audio_panel_view_info">سيتم عرض دفق الصوت النشط على الشاشة حتى إذا تم تعطيله هنا. سيتم عرض تدفقات الصوت التي تم تمكينها هنا بالقوة.</string>
+    <string name="audio_panel_view_ringer_title">الرنين</string>
+    <string name="audio_panel_view_ringer_title_summary">ضبط مستوى صوت الرنين من لوحة الصوت</string>
+    <string name="audio_panel_view_position_title">لوحة الصوت على اليسار</string>
+    <string name="audio_panel_view_position_summary">عرض لوحة الصوت على الجانب الأيسر من الشاشة.</string>
+    <string name="audio_panel_view_timeout_title">مهلة عرض لوحة الصوت</string>
+    <string name="volume_pannel_general">عام</string>
+    <string name="volume_pannel_misc">خيارات متنوعة</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

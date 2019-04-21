@@ -23,6 +23,7 @@
     <string name="advanced">進階</string>
     <string name="cancel">取消</string>
     <string name="choose_app">選擇應用程式</string>
+    <string name="default_text">預設</string>
     <string name="general_category">一般</string>
     <string name="gestures_category">手勢操作</string>
     <string name="music_category">音樂</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">浮動通知設定</string>
     <string name="heads_up_notifications">浮動通知</string>
+    <string name="heads_up_notifications_summary">自訂浮動通知設定</string>
     <string name="summary_heads_up_enabled">浮動通知已啟用</string>
     <string name="summary_heads_up_disabled">浮動通知已停用</string>
     <string name="add_heads_up_package">增加應用程式</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 分鐘</string>
     <string name="torch_long_press_power_timeout_10min">10 分鐘</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">電池充電指示燈</string>
+    <string name="battery_charging_light_summary">自訂電池充電指示燈</string>
     <string name="battery_light_enable">電量指示燈</string>
+    <string name="battery_light_enabled_summary">啟用以顯示電池指示燈所對應的顏色</string>
     <string name="battery_light_allow_on_dnd_title">在勿打擾模式下啟用指示燈</string>
+    <string name="battery_light_allow_on_dnd_summary">啟用以使電池指示燈在\"請勿打擾\"模式下顯示</string>
     <string name="battery_light_low_blinking_title">低電量時閃爍指示燈</string>
+    <string name="battery_light_low_blinking_summary">在電池電量不足的情況下閃爍電池指示燈</string>
     <string name="battery_light_cat">充電時電池指示燈顏色</string>
     <string name="battery_light_low_color">低電量</string>
     <string name="battery_light_medium_color">中電量</string>
     <string name="battery_light_full_color">電池幾乎已滿</string>
     <string name="battery_light_reallyfull_color">電池已滿 (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">為個別應用程式自訂其通知指示燈</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖定畫面充電資訊</string>
     <string name="lockscreen_battery_info_summary">在充電時在鎖定畫面上顯示判斷的充電器最大電流電壓和電池溫度</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">沒有可清除的通知時</string>
     <string name="smart_pulldown_ongoing">沒有正在進行的通知時</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">當螢幕關閉時配置一些操作</string>
     <string name="screen_state_toggles_title">暫停動作</string>
     <string name="screen_state_toggles_enable_title">開啟</string>
     <string name="screen_state_toggles_enable_summary">在螢幕關閉時才執行操作。螢幕開啟後會還原先前的狀態。</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">圖示包</string>
     <string name="recents_icon_pack_summary">在最近應用程式面板中套用自訂圖示包</string>
-    <string name="no_iconpacks_summary">沒有已安裝的圖示包</string>
-    <string name="dialog_pick_iconpack_title">選擇圖示包</string>
-    <string name="default_iconpack_title">預設圖示</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">音量調整階數</string>
     <string name="volume_steps_summary">自訂音量調整階數</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">音量調整階數：通話</string>
     <string name="volume_steps_reset">重置</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">來電震動</string>
     <string name="incall_vibrate_connect_title">連接時震動</string>
+    <string name="incall_vibrate_connect_summary">啟用通話連接後振動</string>
     <string name="incall_vibrate_call_wait_title">通話等待時震動</string>
+    <string name="incall_vibrate_call_wait_summary">在等待通話時啟用震動</string>
     <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
+    <string name="incall_vibrate_disconnect_summary">啟用通話掛斷後振動</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">終止應用程式按鈕</string>
     <string name="notification_guts_kill_app_button_summary">在通知長按選單中顯示終止應用程式按鈕</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">每分鐘</string>
     <string name="less_notification_sounds_2m">每 2 分鐘</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">音量面板</string>
+    <string name="audio_panel_view_summary">自定義音量面板對話框</string>
+    <string name="audio_panel_view_info">即使在此處禁用, 音量條啟用時還是會顯示在螢幕上。此處啟用的音量條將被強制顯示。</string>
+    <string name="audio_panel_view_ringer_title">鈴聲</string>
+    <string name="audio_panel_view_ringer_title_summary">在音量控制面板上調整鈴聲音量</string>
+    <string name="audio_panel_view_position_title">音量面板居左</string>
+    <string name="audio_panel_view_position_summary">在螢幕左側顯示音量控制面板</string>
+    <string name="audio_panel_view_timeout_title">音量控制面板自動關閉時間</string>
+    <string name="volume_pannel_general">一般</string>
+    <string name="volume_pannel_misc">其他設定</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

@@ -23,6 +23,7 @@
     <string name="advanced">Napredno</string>
     <string name="cancel">Prekliči</string>
     <string name="choose_app">Izberite aplikacijo</string>
+    <string name="default_text">Priv</string>
     <string name="general_category">Splošno</string>
     <string name="gestures_category">Poteze</string>
     <string name="music_category">Glasba</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Nastavitve obvestil na zaslonu</string>
     <string name="heads_up_notifications">Obvestila na zaslonu</string>
+    <string name="heads_up_notifications_summary">Prilagodite nastavitve obvestil na zaslonu</string>
     <string name="summary_heads_up_enabled">Pojavna obvestila so omogočena</string>
     <string name="summary_heads_up_disabled">Pojavna obvestila so onemogočena</string>
     <string name="add_heads_up_package">Dodaj aplikacijo</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 minut</string>
     <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">LED lučka polnjenja akumulatorja</string>
+    <string name="battery_charging_light_summary">Prilagodite LED lučko polnjenja akumulatorja</string>
     <string name="battery_light_enable">Lučka za akumulator</string>
+    <string name="battery_light_enabled_summary">Omogočite za prikaz pogojnih barv LED lučke akumulatorja</string>
     <string name="battery_light_allow_on_dnd_title">Lučka za akumulator v načinu Ne moti</string>
+    <string name="battery_light_allow_on_dnd_summary">Omogočite za prikaz LED lučke akumulatorja, ko je naprava v načinu Ne moti</string>
     <string name="battery_light_low_blinking_title">Utripajoča lučka ob nizkem stanju akumulatorja</string>
+    <string name="battery_light_low_blinking_summary">Utripaj LED lučko akumulatorja ob nizkem stanju akumulatorja</string>
     <string name="battery_light_cat">Barva lučke za akumulator med polnjenjem</string>
     <string name="battery_light_low_color">Nizko stanje akumulatorja</string>
     <string name="battery_light_medium_color">Srednje stanje akumulatorja</string>
     <string name="battery_light_full_color">Akumulator skoraj napolnjen</string>
     <string name="battery_light_reallyfull_color">Akumulator napolnjen (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Prilagodite LED lučko za obvestila za različne aplikacije</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Podatki o polnjenju na zaklenjenem zaslonu</string>
     <string name="lockscreen_battery_info_summary">Pokaži pogojni najvišji tok in napetost napajalnika in temperaturo akumulatorja na zaklenjenem zaslonu med polnjenjem</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Ni opuščajočih</string>
     <string name="smart_pulldown_ongoing">Ni tekočih</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Prilagodite nekaj dejanj, ko je zaslon izklopljen</string>
     <string name="screen_state_toggles_title">Začasno ustavljena dejanja</string>
     <string name="screen_state_toggles_enable_title">Omogoči</string>
     <string name="screen_state_toggles_enable_summary">Dejanja bodo izvršena ob izklopu zaslona. Ob vklopu zaslona bodo obnovljena na prejšnje stanje.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Paket ikon</string>
     <string name="recents_icon_pack_summary">Uveljavi paket ikon po meri za ploščo nedavnih</string>
-    <string name="no_iconpacks_summary">Ni nameščenih paketov ikon</string>
-    <string name="dialog_pick_iconpack_title">Izberite paket ikon</string>
-    <string name="default_iconpack_title">Privzete ikone</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Koraki glasnosti</string>
     <string name="volume_steps_summary">Prilagodite korake glasnosti</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Koraki glasnosti: Glasovni klic</string>
     <string name="volume_steps_reset">Ponastavi</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibriranje med klicem</string>
     <string name="incall_vibrate_connect_title">Vibriraj ob povezavi</string>
+    <string name="incall_vibrate_connect_summary">Omogočite za vibriranje ob povezavi klica</string>
     <string name="incall_vibrate_call_wait_title">Vibriraj ob čakajočem klicu</string>
+    <string name="incall_vibrate_call_wait_summary">Omogočite za vibriranje ob čakajočem klicu</string>
     <string name="incall_vibrate_disconnect_title">Vibriraj ob prekinitvi</string>
+    <string name="incall_vibrate_disconnect_summary">Omogočite za vibriranje ob prekinitvi klica</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Gumb Uniči aplikacijo</string>
     <string name="notification_guts_kill_app_button_summary">Prikaži gumb uniči aplikacijo v meniju dolgega pritiska obvestila</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Vsako minuto</string>
     <string name="less_notification_sounds_2m">Vsake 2 minuti</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Plošča za glasnost</string>
+    <string name="audio_panel_view_summary">Prilagodite ploščo za glasnost</string>
+    <string name="audio_panel_view_info">Aktivni tok glasnosti bo pokazan na zaslonu tudi, če je onemogočen tukaj. Tokovi glasnosti omogočeni tukaj, bodo vsiljeno pokazani.</string>
+    <string name="audio_panel_view_ringer_title">Zvonjenje</string>
+    <string name="audio_panel_view_ringer_title_summary">Prilagodite glasnost zvonjenja v plošči za glasnost</string>
+    <string name="audio_panel_view_position_title">Plošča za glasnost na levi</string>
+    <string name="audio_panel_view_position_summary">Prikaži ploščo za glasnost na levi strani vašega zaslona.</string>
+    <string name="audio_panel_view_timeout_title">Čas prikaza plošče za glasnost</string>
+    <string name="volume_pannel_general">Splošno</string>
+    <string name="volume_pannel_misc">Razno</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

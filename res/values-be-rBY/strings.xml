@@ -23,6 +23,7 @@
     <string name="advanced">Дадаткова</string>
     <string name="cancel">Скасаваць</string>
     <string name="choose_app">Абраць праграму</string>
+    <string name="default_text">Па змаўчанні</string>
     <string name="general_category">Агульныя</string>
     <string name="gestures_category">Жэсты</string>
     <string name="music_category">Музыка</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Налады ўсплывальных апавяшчэнняў</string>
     <string name="heads_up_notifications">Усплывальныя апавяшчэнні</string>
+    <string name="heads_up_notifications_summary">Кастамізацыя налад усплываючых апавяшчэнняў</string>
     <string name="summary_heads_up_enabled">Усплывальныя апавяшчэнні ўключаны</string>
     <string name="summary_heads_up_disabled">Усплывальныя апавяшчэнні адключаны</string>
     <string name="add_heads_up_package">Дадаць праграму</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 хвілін</string>
     <string name="torch_long_press_power_timeout_10min">10 хвілін</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">LED-індыкацыя зарадкі акумулятара</string>
+    <string name="battery_charging_light_summary">Наладзіць святло LED-індыкатара падчас зарадкі</string>
     <string name="battery_light_enable">Індыкатар батарэі</string>
+    <string name="battery_light_enabled_summary">Уключаць святлодыёд для індыкацыі статусу батарэі</string>
     <string name="battery_light_allow_on_dnd_title">Індыкатар зарада ў рэжыме \"Не турбаваць\"</string>
+    <string name="battery_light_allow_on_dnd_summary">Уключыце, каб індыкатар батарэі працаваў у рэжыме \"Не турбаваць»</string>
     <string name="battery_light_low_blinking_title">Мігценне індыкатара пры нізкім зарадзе</string>
+    <string name="battery_light_low_blinking_summary">Міргаць святлодыёдам пры нізкім зарадзе акумулятара</string>
     <string name="battery_light_cat">Колер індыкатара падчас зарадкі</string>
     <string name="battery_light_low_color">Нізкі зарад батарэі</string>
     <string name="battery_light_medium_color">Умераны зарад батарэі</string>
     <string name="battery_light_full_color">Амаль поўны зарад батарэі</string>
     <string name="battery_light_reallyfull_color">Поўны зарад батарэі (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Настройка індыкацыі святлодыёдам для кожнай праграмы</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інфармацыя аб зарадцы на экране блакавання</string>
     <string name="lockscreen_battery_info_summary">Паказваць максімальнае бягучае напружанне і тэмпературу акумулятара на экране блакавання падчас зарадкі</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Няма выдаленняў</string>
     <string name="smart_pulldown_ongoing">Без сталых</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Настройка некаторых дзеянняў, калі экран выключаны</string>
     <string name="screen_state_toggles_title">Дзеянні пры выключэнні экрана</string>
     <string name="screen_state_toggles_enable_title">Уключыць</string>
     <string name="screen_state_toggles_enable_summary">Дзеянні будуць выконвацца пры выключэнні экрана. Пры ўключэнні будзе адноўлены папярэдні стан.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Набор значкоў</string>
     <string name="recents_icon_pack_summary">Прымяніць карыстацкі набор значкоў для праграм у панэлі</string>
-    <string name="no_iconpacks_summary">Ні аднаго набору значкоў не ўсталявана</string>
-    <string name="dialog_pick_iconpack_title">Абраць набор значкоў</string>
-    <string name="default_iconpack_title">Значкі па змаўчанні</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Узроўні гучнасці</string>
     <string name="volume_steps_summary">Наладзіць узроўні гучнасці</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Узровень гучнасці: Галасавы выклік</string>
     <string name="volume_steps_reset">Скінуць</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вібрацыя падчас выкліку</string>
     <string name="incall_vibrate_connect_title">Вібрацыя пры падлучэнні</string>
+    <string name="incall_vibrate_connect_summary">Уключыць вібрацыю пасля выкліку</string>
     <string name="incall_vibrate_call_wait_title">Вібрацыя падчас чакання выкліку</string>
+    <string name="incall_vibrate_call_wait_summary">Уключыць вібрацыю падчас чакання выкліку</string>
     <string name="incall_vibrate_disconnect_title">Вібрацыя пры раз\'яднанні</string>
+    <string name="incall_vibrate_disconnect_summary">Уключыць вібрацыю пасля завяршэння выкліку</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка завяршэння праграм</string>
     <string name="notification_guts_kill_app_button_summary">Паказваць кнопку закрыцця праграмы пры доўгім націску на апавяшчэнне</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Кожную хвіліну</string>
     <string name="less_notification_sounds_2m">Кожныя 2 хвіліны</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Панэль гучнасці</string>
+    <string name="audio_panel_view_summary">Налада дыялогавага акна панэлі гучнасці</string>
+    <string name="audio_panel_view_info">Актыўны паток гучнасці будзе адлюстроўвацца на экране, нават калі ён выключаны. Патокі гучнасці, уключаныя тут, будуць паказвацца прымусова.</string>
+    <string name="audio_panel_view_ringer_title">Званок</string>
+    <string name="audio_panel_view_ringer_title_summary">Рэгуляванне гучнасці званка</string>
+    <string name="audio_panel_view_position_title">Панэль гучнасці злева</string>
+    <string name="audio_panel_view_position_summary">Паказваць панэль рэгулявання гучнасці з левага боку экрана.</string>
+    <string name="audio_panel_view_timeout_title">Час паказу панэлі гучнасці</string>
+    <string name="volume_pannel_general">Асноўныя</string>
+    <string name="volume_pannel_misc">Рознае</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

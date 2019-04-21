@@ -390,7 +390,6 @@
     <!-- Smart Pixels -->
     <string name="use_bottom_gesture_title">Navigering med gester</string>
     <!-- Recents icon packs -->
-    <string name="default_iconpack_title">Standardikoner</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Volymsteg</string>
     <string name="volume_steps_system_title">Volymsteg: system</string>
@@ -403,4 +402,6 @@
     <string name="less_notification_sounds_1m">Varje minut</string>
     <string name="less_notification_sounds_2m">Var 2:a minut</string>
     <!-- Audio Panel view  -->
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

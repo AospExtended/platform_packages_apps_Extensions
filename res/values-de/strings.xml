@@ -23,6 +23,7 @@
     <string name="advanced">Erweitert</string>
     <string name="cancel">Abbrechen</string>
     <string name="choose_app">Anwendung wählen</string>
+    <string name="default_text">Std</string>
     <string name="general_category">Allgemeines</string>
     <string name="gestures_category">Gesten</string>
     <string name="music_category">Musik</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Heads-Up-Einstellungen</string>
     <string name="heads_up_notifications">Heads-Up</string>
+    <string name="heads_up_notifications_summary">Heads-up-Benachrichtigungen anpassen</string>
     <string name="summary_heads_up_enabled">Heads-Up-Benachrichtigungen sind aktiviert</string>
     <string name="summary_heads_up_disabled">Heads-Up-Benachrichtigungen sind deaktiviert</string>
     <string name="add_heads_up_package">Anwendung hinzufügen</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 Minuten</string>
     <string name="torch_long_press_power_timeout_10min">10 Minuten</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Akku-Lade-LED</string>
+    <string name="battery_charging_light_summary">Passe die Akku-Lade-LED an</string>
     <string name="battery_light_enable">Akku-LED</string>
+    <string name="battery_light_enabled_summary">Aktivieren um die Farben der Akku-LED anzuzeigen</string>
     <string name="battery_light_allow_on_dnd_title">Akku-Led im \"Nicht stören\"-Modus</string>
+    <string name="battery_light_allow_on_dnd_summary">Aktivieren um die Akku-LED im \"Bitte nicht stören\"-Modus anzuzeigen</string>
     <string name="battery_light_low_blinking_title">Blinkende LED bei schwachem Akku</string>
+    <string name="battery_light_low_blinking_summary">Blinkende Akku-LED bei niedrigem Akkustand</string>
     <string name="battery_light_cat">LED-Farbe beim Akkuladevorgang</string>
     <string name="battery_light_low_color">Niedriger Akkustand</string>
     <string name="battery_light_medium_color">Mittlerer Akkustand</string>
     <string name="battery_light_full_color">Akku fast voll</string>
     <string name="battery_light_reallyfull_color">Voll geladen (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">LED-Benachrichtigungen für verschiedene Apps anpassen</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Ladeinfo auf dem Sperrbildschirm</string>
     <string name="lockscreen_battery_info_summary">Zeige maximal ermittelte/n Ladespannung/-Strom und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Keine entfernbaren</string>
     <string name="smart_pulldown_ongoing">Keine fortlaufenden</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Konfigurieren von Aktionen wenn der Bildschirm ausgeschaltet ist</string>
     <string name="screen_state_toggles_title">Aktionen abbrechen</string>
     <string name="screen_state_toggles_enable_title">Aktiviert</string>
     <string name="screen_state_toggles_enable_summary">Aktionen werden bei ausgeschaltetem Bildschirm aktiviert. Bei eingeschaltetem Bildschirm werden vorherige Einstellungen wiederhergestellt.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Symbolpaket</string>
     <string name="recents_icon_pack_summary">Ein benutzerdefiniertes Symbolpaket für den Anwenungsverlauf anwenden</string>
-    <string name="no_iconpacks_summary">Keine Symbolpakete installiert</string>
-    <string name="dialog_pick_iconpack_title">Wähle Symbolpaket</string>
-    <string name="default_iconpack_title">Voreingestellte Symbole</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Lautstärkestufen</string>
     <string name="volume_steps_summary">Anpassen der Lautstärke Schritte</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Lautstärkestufen: Anruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibration während eines Anrufs</string>
     <string name="incall_vibrate_connect_title">Vibriert bei Verbindung</string>
+    <string name="incall_vibrate_connect_summary">Aktivieren, um nach Anrufverbindung zu vibrieren</string>
     <string name="incall_vibrate_call_wait_title">Beim Anklopfen vibrieren</string>
+    <string name="incall_vibrate_call_wait_summary">Aktivieren, um zu vibrieren, während der Anruf gehalten wird</string>
     <string name="incall_vibrate_disconnect_title">Vibriert beim Trennen der Verbindung</string>
+    <string name="incall_vibrate_disconnect_summary">Aktivieren, um nach Anrufabbruch zu vibrieren</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">\"App beenden\"-Taste</string>
     <string name="notification_guts_kill_app_button_summary">Zeige eine Taste zum Beenden der App, wenn deren Benachrichtigung lange gedrückt wird</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Minütlich</string>
     <string name="less_notification_sounds_2m">Alle 2 Minuten</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Lautstärkeregler</string>
+    <string name="audio_panel_view_summary">Lautstärke-Dialog anpassen</string>
+    <string name="audio_panel_view_info">Aktiver Lautstärkerfluss wird auf dem Bildschirm angezeigt, auch wenn hier deaktiviert. Lautstärke-Streams, die hier aktiviert sind, werden immer angezeigt.</string>
+    <string name="audio_panel_view_ringer_title">Klingeln</string>
+    <string name="audio_panel_view_ringer_title_summary">Anpassen der Lautstärke des Klingeltons aus Lautstärke-Dialog</string>
+    <string name="audio_panel_view_position_title">Lautstärkeregler auf der linken Seite</string>
+    <string name="audio_panel_view_position_summary">Zeigt den Lautstärkeregler auf der linken Seite des Bildschirms an.</string>
+    <string name="audio_panel_view_timeout_title">Anzeigedauer des Lautstärkedialogs</string>
+    <string name="volume_pannel_general">Allgemein</string>
+    <string name="volume_pannel_misc">Sonstiges</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

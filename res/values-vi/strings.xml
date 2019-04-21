@@ -547,9 +547,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Gói biểu tượng</string>
     <string name="recents_icon_pack_summary">Áp dụng một gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng điều khiển</string>
-    <string name="no_iconpacks_summary">Chưa cài gói biểu tượng</string>
-    <string name="dialog_pick_iconpack_title">Chọn gói biểu tượng</string>
-    <string name="default_iconpack_title">Biểu tượng mặc định</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Các mức âm lượng</string>
     <string name="volume_steps_summary">Tùy chỉnh mức âm lượng</string>
@@ -580,4 +577,6 @@
     <string name="less_notification_sounds_1m">1 phút</string>
     <string name="less_notification_sounds_2m">2 phút</string>
     <!-- Audio Panel view  -->
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

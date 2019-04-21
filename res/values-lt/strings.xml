@@ -23,6 +23,7 @@
     <string name="advanced">Išplėstinės nuostatos</string>
     <string name="cancel">Atšaukti</string>
     <string name="choose_app">Pasirinkite programą</string>
+    <string name="default_text">Pagal nutylėjimą</string>
     <string name="general_category">Bendra</string>
     <string name="gestures_category">Gestai</string>
     <string name="music_category">Muzika</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Iššokančiųjų pranešimų nustatymai</string>
     <string name="heads_up_notifications">Iššokantys pranešimai</string>
+    <string name="heads_up_notifications_summary">Tinkinkite pranešimų langų nustatymus</string>
     <string name="summary_heads_up_enabled">Iššokantys pranešimai įjungti</string>
     <string name="summary_heads_up_disabled">Iššokantys pranešimai išjungti</string>
     <string name="add_heads_up_package">Įtraukti programėlę</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minučių</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Akumuliatoriaus įkrovimo LED lemputė</string>
+    <string name="battery_charging_light_summary">Tinkinkite akumuliatoriaus įkrovos LED šviesą</string>
     <string name="battery_light_enable">Akumuliatoriaus indikatorius</string>
+    <string name="battery_light_enabled_summary">Įjunkite jį, kad būtų rodomos atitinkamos baterijos LED spalvos</string>
     <string name="battery_light_allow_on_dnd_title">Akumuliatoriaus šviesos netrukdyti režimu</string>
+    <string name="battery_light_allow_on_dnd_summary">Parodykite akumuliatoriaus lemputę režime „Nereikia trukdyti“</string>
     <string name="battery_light_low_blinking_title">Senkančio akumuliatoriaus lemputė mirksi</string>
+    <string name="battery_light_low_blinking_summary">Mirksi akumuliatoriaus LED lemputė esant mažai akumuliatoriaus įkrovai</string>
     <string name="battery_light_cat">Įkraunant rodyti spalvą</string>
     <string name="battery_light_low_color">Žemas baterijos lygis</string>
     <string name="battery_light_medium_color">Vidutinis baterijos įkrovimas</string>
     <string name="battery_light_full_color">Beveik pilna baterija</string>
     <string name="battery_light_reallyfull_color">Pilnai įkrauta baterija (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Tinkinkite pranešimų LED šviesą įvairioms programoms</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informacija apie įkrovimą užrakto ekrane</string>
     <string name="lockscreen_battery_info_summary">Įkrovimo metu rodykite apytikslę didžiausią dabartinę įkrovos ir akumuliatoriaus temperatūrą užrakto ekrane</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Neįmanoma pašalinti</string>
     <string name="smart_pulldown_ongoing">Nėra nuolatinio</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Konfigūruokite kai kuriuos veiksmus, kai ekranas yra išjungtas</string>
     <string name="screen_state_toggles_title">Sustabdyti veiksmai</string>
     <string name="screen_state_toggles_enable_title">Įjungti</string>
     <string name="screen_state_toggles_enable_summary">Veiksmai bus atlikti, kai įeinate į laukimo režimą. Prasibudus, būsena bus atkurta.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Piktogramų rinkinys</string>
     <string name="recents_icon_pack_summary">Taikykite pasirinktinį piktogramų paketą „Recents“ skydui</string>
-    <string name="no_iconpacks_summary">Piktogramų paketai neįdiegti</string>
-    <string name="dialog_pick_iconpack_title">Pasirinkti piktogramų paketą</string>
-    <string name="default_iconpack_title">Numatytosios piktogramos</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Garsumo lygis</string>
     <string name="volume_steps_summary">Nustatykite garsumo lygius</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Garsumo lygiai: balso skambutis</string>
     <string name="volume_steps_reset">Nustatyti iš naujo</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibracija pokalbio metu</string>
     <string name="incall_vibrate_connect_title">Vibracija prisijungiant</string>
+    <string name="incall_vibrate_connect_summary">Įgalinti vibruoti po ryšio sujungimo</string>
     <string name="incall_vibrate_call_wait_title">Vibruoti, laukiant skambučio</string>
+    <string name="incall_vibrate_call_wait_summary">Įgalinkite vibruoti, kai skambutis laukia</string>
     <string name="incall_vibrate_disconnect_title">Vibruoti atsijungiant</string>
+    <string name="incall_vibrate_disconnect_summary">Įgalinti vibruoti po skambučio atjungimo</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Programos uždarymo mygtukas</string>
     <string name="notification_guts_kill_app_button_summary">Parodykite mygtuką, kad uždarytumėte programą ilgam paspaudus ant pranešimo</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Kas minutę</string>
     <string name="less_notification_sounds_2m">Kas 2 minutes</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Garsumo skydelis</string>
+    <string name="audio_panel_view_summary">Tinkinti garso skydelio langą</string>
+    <string name="audio_panel_view_info">Aktyvaus tūrio srautas bus rodomas ekrane, net jei čia neįjungta. Čia įgalinti tūrio srautai bus rodomi stipriai.</string>
+    <string name="audio_panel_view_ringer_title">Žiedas</string>
+    <string name="audio_panel_view_ringer_title_summary">Sureguliuokite skambučio garsumą skydelio dialogo lange</string>
+    <string name="audio_panel_view_position_title">Garsumo skydelis kairėje</string>
+    <string name="audio_panel_view_position_summary">Ekrano kairėje pusėje parodykite garsumo panelės dialogą.</string>
+    <string name="audio_panel_view_timeout_title">Garsumo skydelio trukmė</string>
+    <string name="volume_pannel_general">Pagrindinis</string>
+    <string name="volume_pannel_misc">Įvairūs</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

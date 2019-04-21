@@ -23,6 +23,7 @@
     <string name="advanced">Додатково</string>
     <string name="cancel">Скасувати</string>
     <string name="choose_app">Виберіть програму</string>
+    <string name="default_text">За замовч.</string>
     <string name="general_category">Загальні</string>
     <string name="gestures_category">Жести</string>
     <string name="music_category">Музика</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Параметри спливаючих сповіщень</string>
     <string name="heads_up_notifications">Спливаючі сповіщення</string>
+    <string name="heads_up_notifications_summary">Кастомізація налаштувань спливаючих сповіщень</string>
     <string name="summary_heads_up_enabled">Спливаючі сповіщення увімкнені</string>
     <string name="summary_heads_up_disabled">Спливаючі сповіщення вимкнені</string>
     <string name="add_heads_up_package">Додати програму</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 хвилин</string>
     <string name="torch_long_press_power_timeout_10min">10 хвилин</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">LED-індикація заряджання акумулятора</string>
+    <string name="battery_charging_light_summary">Налаштувати світло LED-індикатора під час заряджання</string>
     <string name="battery_light_enable">Індикація батареї</string>
+    <string name="battery_light_enabled_summary">Увімкнення відображення кольору для акумулятора</string>
     <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
+    <string name="battery_light_allow_on_dnd_summary">Дозволити показувати колір, поки пристрій перебуває в режимі не турбувати</string>
     <string name="battery_light_low_blinking_title">Блимання індикатора при низькому заряді</string>
+    <string name="battery_light_low_blinking_summary">Блимати кольором при низькому рівні заряду акумулятора</string>
     <string name="battery_light_cat">Колір індикатора під час заряджання</string>
     <string name="battery_light_low_color">Низький заряд батареї</string>
     <string name="battery_light_medium_color">Помірний заряд батареї</string>
     <string name="battery_light_full_color">Майже повний заряд батареї</string>
     <string name="battery_light_reallyfull_color">Повний (100) заряд</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Налаштувати сповіщення кольором для різних додатків</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
     <string name="lockscreen_battery_info_summary">Відображення максильної напруги струму і температуру акумулятора на екрані блокування під час зарядки</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Без тих, що видаляються</string>
     <string name="smart_pulldown_ongoing">Без постійних</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Налаштування будь-яких дій, при вимкненому екрані</string>
     <string name="screen_state_toggles_title">Призупинення дій</string>
     <string name="screen_state_toggles_enable_title">Увімкнути</string>
     <string name="screen_state_toggles_enable_summary">Дії, що будуть виконуватися на вимкненому екрані. При увімкненому екрані буде відновлено попередній стан.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Набір іконок</string>
     <string name="recents_icon_pack_summary">Застосувати користувацький набір іконок для панелі нещодавніх додатків</string>
-    <string name="no_iconpacks_summary">Набори іконок не встановлено</string>
-    <string name="dialog_pick_iconpack_title">Вибрати набір іконок</string>
-    <string name="default_iconpack_title">Стандарті іконки</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Рівні гучності</string>
     <string name="volume_steps_summary">Налаштування рівня гучності</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Рівні гучності: Голосовий виклик</string>
     <string name="volume_steps_reset">Скинути</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вібрація під час виклику</string>
     <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_connect_summary">Увімкнути вібрацію при з\'єднанні виклику</string>
     <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
+    <string name="incall_vibrate_call_wait_summary">Увімкнути вібрацію коли виклик на очікуванні</string>
     <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+    <string name="incall_vibrate_disconnect_summary">Увімкнути вібрацію при завершенні виклику</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка завершення додатків</string>
     <string name="notification_guts_kill_app_button_summary">Показувати кнопку закриття програми при довгому натисненні на сповіщення</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Кожної хвилини</string>
     <string name="less_notification_sounds_2m">Кожні 2 хвилини</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Панель гучності</string>
+    <string name="audio_panel_view_summary">Налаштування діалогового вікна панелі гучності</string>
+    <string name="audio_panel_view_info">Активний потік гучності буде відображатися на екрані, навіть якщо відключено тут. Обсяг потоків будуть відображатися примусово.</string>
+    <string name="audio_panel_view_ringer_title">Дзвінок</string>
+    <string name="audio_panel_view_ringer_title_summary">Регулювання гучності дзвінка в діалоговому вікні панелі гучності</string>
+    <string name="audio_panel_view_position_title">Панель гучності ліворуч</string>
+    <string name="audio_panel_view_position_summary">Відображення діалогового вікна панелі гучності в лівій частині екрана.</string>
+    <string name="audio_panel_view_timeout_title">Час показу панелі гучності</string>
+    <string name="volume_pannel_general">Загальні</string>
+    <string name="volume_pannel_misc">Інше</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

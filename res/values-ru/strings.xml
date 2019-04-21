@@ -23,6 +23,7 @@
     <string name="advanced">Дополнительно</string>
     <string name="cancel">Отмена</string>
     <string name="choose_app">Выберите приложение</string>
+    <string name="default_text">Умолч.</string>
     <string name="general_category">Главные</string>
     <string name="gestures_category">Жесты</string>
     <string name="music_category">Музыка</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">Настройки всплывающих уведомлений</string>
     <string name="heads_up_notifications">Всплывающие уведомления</string>
+    <string name="heads_up_notifications_summary">Настройка дополнительных параметров всплывающих уведомлений</string>
     <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
     <string name="summary_heads_up_disabled">Всплывающие уведомления выключены</string>
     <string name="add_heads_up_package">Добавить приложение</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">Через 5 минут</string>
     <string name="torch_long_press_power_timeout_10min">Через 10 минут</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Индикатор зарядки</string>
+    <string name="battery_charging_light_summary">Настройки светодиодного индикатора зарядки аккумулятора</string>
     <string name="battery_light_enable">Индикация батареи</string>
+    <string name="battery_light_enabled_summary">Включать светодиод для индикации статуса батареи</string>
     <string name="battery_light_allow_on_dnd_title">Индикация батареи в режиме «Не беспокоить»</string>
+    <string name="battery_light_allow_on_dnd_summary">Включите, чтобы индикатор батареи работал в режиме «Не беспокоить»</string>
     <string name="battery_light_low_blinking_title">Индикация при низком заряде батареи</string>
+    <string name="battery_light_low_blinking_summary">Мигать светодиодом при низком заряде аккумулятора</string>
     <string name="battery_light_cat">Цвет индикации во время зарядки</string>
     <string name="battery_light_low_color">Низкий заряд батареи</string>
     <string name="battery_light_medium_color">Средний заряд батареи</string>
     <string name="battery_light_full_color">Почти полный заряд батареи</string>
     <string name="battery_light_reallyfull_color">Полный заряд батареи (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Настройка индикации светодиодом для каждого приложения</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Показывать текущее напряжение и температуру аккумулятора на экране блокировки во время зарядки</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Нет удаляемых</string>
     <string name="smart_pulldown_ongoing">Нет постоянных</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Настройка некоторых действий, когда экран выключен</string>
     <string name="screen_state_toggles_title">Действия в режиме ожидания</string>
     <string name="screen_state_toggles_enable_title">Активировать</string>
     <string name="screen_state_toggles_enable_summary">Действия будут выполняться при переходе в режим сна. При пробуждении будет восстановлено предыдущее состояние.</string>
@@ -520,7 +529,7 @@
     <string name="recents_stock">Стандартная</string>
     <string name="recents_grid">Сетка</string>
     <string name="recents_go">Android Go</string>
-    <string name="qs_running_services_title">Иконка работающих приложений</string>
+    <string name="qs_running_services_title">Значок работающих приложений</string>
     <string name="qs_running_services_summary">Показывать иконку работающих приложений</string>
     <string name="qs_edit_title">Иконка редактирования</string>
     <string name="qs_edit_summary">Показывать иконку редактирования быстрых настроек</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Набор значков</string>
     <string name="recents_icon_pack_summary">Применить пользовательский набор значков для панели недавних приложений</string>
-    <string name="no_iconpacks_summary">Наборы значков не установлены</string>
-    <string name="dialog_pick_iconpack_title">Выбрать набор значков</string>
-    <string name="default_iconpack_title">Значки по умолчанию</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Уровни громкости</string>
     <string name="volume_steps_summary">Настроить уровни громкости</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сброс</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вибрация во время звонка</string>
     <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_connect_summary">Включить вибрацию после вызова</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_call_wait_summary">Включить вибрацию во время ожидания вызова</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+    <string name="incall_vibrate_disconnect_summary">Включить вибрацию после отключения вызова</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
     <string name="notification_guts_kill_app_button_summary">Показывать кнопку закрытия приложения при долгом нажатии на уведомление</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Каждую минуту</string>
     <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Панель громкости</string>
+    <string name="audio_panel_view_summary">Настройка диалогового окна панели громкости</string>
+    <string name="audio_panel_view_info">Активный поток громкости будет отображаться на экране, даже если он отключен. Громкость потоков, включенных здесь, будут отображаться принудительно.</string>
+    <string name="audio_panel_view_ringer_title">Звонок</string>
+    <string name="audio_panel_view_ringer_title_summary">Регулировка громкости звонка</string>
+    <string name="audio_panel_view_position_title">Панель громкости слева</string>
+    <string name="audio_panel_view_position_summary">Показывать панель регулировки громкости с левой стороны экрана</string>
+    <string name="audio_panel_view_timeout_title">Время отображения панели громкости</string>
+    <string name="volume_pannel_general">Основные</string>
+    <string name="volume_pannel_misc">Разное</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

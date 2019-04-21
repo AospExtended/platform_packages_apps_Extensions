@@ -23,6 +23,7 @@
     <string name="advanced">Avanzato</string>
     <string name="cancel">Annulla</string>
     <string name="choose_app">Scegli applicazione</string>
+    <string name="default_text">Predefinito</string>
     <string name="general_category">Generale</string>
     <string name="gestures_category">Gesti</string>
     <string name="music_category">Musica</string>
@@ -142,8 +143,9 @@
     <!-- Heads up -->
     <string name="headsup_category">Impostazioni Notifiche Fluttuanti</string>
     <string name="heads_up_notifications">Notifiche Fluttuanti</string>
-    <string name="summary_heads_up_enabled">Le notifiche pop-up sono abilitate</string>
-    <string name="summary_heads_up_disabled">Le notifiche pop-up sono disabilitate</string>
+    <string name="heads_up_notifications_summary">Personalizza le impostazioni delle notifiche fluttuanti</string>
+    <string name="summary_heads_up_enabled">Le notifiche fluttuanti sono abilitate</string>
+    <string name="summary_heads_up_disabled">Le notifiche fluttuanti sono disabilitate</string>
     <string name="add_heads_up_package">Aggiungi app</string>
     <string name="add_heads_up_stoplist_summary">Disattiva tutte notifiche fluttuanti quando si utilizzano i recenti di Oreo</string>
     <string name="add_heads_up_blacklist_summary">Disabilita le notifiche a comparsa provenienti da queste applicazioni</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 minuti</string>
     <string name="torch_long_press_power_timeout_10min">10 minuti</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Luce LED batteria in carica</string>
+    <string name="battery_charging_light_summary">Personalizza la luce del LED della batteria quando in carica</string>
     <string name="battery_light_enable">Luce batteria</string>
+    <string name="battery_light_enabled_summary">Abilitalo per visualizzare i rispettivi colori della luce della batteria</string>
     <string name="battery_light_allow_on_dnd_title">Luce batteria in modalità non disturbare</string>
+    <string name="battery_light_allow_on_dnd_summary">Abilitalo per mostrare la luce LED della batteria mentre il dispositivo è in modalità Non disturbare</string>
     <string name="battery_light_low_blinking_title">Luce lampeggiante con batteria scarica</string>
+    <string name="battery_light_low_blinking_summary">Accendi la luce LED quando la batteria è scarica</string>
     <string name="battery_light_cat">Colore della luce durante la carica</string>
     <string name="battery_light_low_color">Batteria bassa</string>
     <string name="battery_light_medium_color">Batteria normale</string>
     <string name="battery_light_full_color">Batteria quasi carica</string>
     <string name="battery_light_reallyfull_color">Batteria carica (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Personalizza la luce LED delle notifiche per varie applicazioni</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
     <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la carica</string>
@@ -259,8 +267,8 @@
     <!-- Status bar clock and date options -->
     <string name="status_bar_clock">Orologio &amp; data</string>
     <string name="status_bar_clock_title">Orologio</string>
-    <string name="clock_enabled">Abilitata</string>
-    <string name="clock_disabled">Disabilitata</string>
+    <string name="clock_enabled">Abilitato</string>
+    <string name="clock_disabled">Disabilitato</string>
     <string name="status_bar_clock_style_reset">Ripristina colore</string>
     <string name="status_bar_show_clock_title">Visualizza orologio &amp; data</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Non rimovibile</string>
     <string name="smart_pulldown_ongoing">Non in corso</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Configura alcune azioni quando lo schermo è spento</string>
     <string name="screen_state_toggles_title">Sospendi le azioni</string>
     <string name="screen_state_toggles_enable_title">Abilita</string>
     <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite a schermo spento. A schermo acceso verrà ripristinato allo stato precedente.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Pacchetto icone</string>
     <string name="recents_icon_pack_summary">Applica un pacchetto icone personalizzato per il pannello recenti</string>
-    <string name="no_iconpacks_summary">Nessun pacchetto icone installato</string>
-    <string name="dialog_pick_iconpack_title">Scegli pacchetto icone</string>
-    <string name="default_iconpack_title">Icone predefinite</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Livelli del volume</string>
     <string name="volume_steps_summary">Personalizza i livelli del volume</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Livello volume: Chiamata vocale</string>
     <string name="volume_steps_reset">Ripristina</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrazione in chiamata</string>
     <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_connect_summary">Attiva la vibrazione dopo essersi connessi alla chiamata</string>
     <string name="incall_vibrate_call_wait_title">Vibra per chiamate in attesa</string>
+    <string name="incall_vibrate_call_wait_summary">Attiva la vibrazione quando la chiamata è in attesa</string>
     <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
+    <string name="incall_vibrate_disconnect_summary">Attiva la vibrazione dopo essersi disconnessi dalla chiamata</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Pulsante termina app</string>
     <string name="notification_guts_kill_app_button_summary">Mostra un pulsante per la chiusura forzata nel menù a pressione prolungata delle notifiche</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Ogni minuto</string>
     <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Pannelo del volume</string>
+    <string name="audio_panel_view_summary">Personalizza la finestra di dialogo del pannello del volume</string>
+    <string name="audio_panel_view_info">Il flusso del volume attivo verrà visualizzato sullo schermo anche se viene disabilitato. I flussi del volume abilitati verranno visualizzati forzatamente.</string>
+    <string name="audio_panel_view_ringer_title">Suoneria</string>
+    <string name="audio_panel_view_ringer_title_summary">Regola il volume della suoneria dalla finestra del pannello volume</string>
+    <string name="audio_panel_view_position_title">Pannello volume a sinistra</string>
+    <string name="audio_panel_view_position_summary">Mostra la finestra di dialogo del pannello volume sul lato sinistro dello schermo.</string>
+    <string name="audio_panel_view_timeout_title">Durata pannello del volume</string>
+    <string name="volume_pannel_general">Generale</string>
+    <string name="volume_pannel_misc">Varie</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

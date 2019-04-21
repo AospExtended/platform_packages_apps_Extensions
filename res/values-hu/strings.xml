@@ -23,6 +23,7 @@
     <string name="advanced">Speciális</string>
     <string name="cancel">Mégse</string>
     <string name="choose_app">Alkalmazás választása</string>
+    <string name="default_text">Alapértelmezett</string>
     <string name="general_category">Általános</string>
     <string name="gestures_category">Mozdulatvezérlés</string>
     <string name="music_category">Zene</string>
@@ -142,6 +143,7 @@
     <!-- Heads up -->
     <string name="headsup_category">A Lebegő értesítések beállításai</string>
     <string name="heads_up_notifications">Lebegő értesítések</string>
+    <string name="heads_up_notifications_summary">A felugró értesítések beállításainak testreszabása</string>
     <string name="summary_heads_up_enabled">A Lebegő értesítések engedélyezettek</string>
     <string name="summary_heads_up_disabled">A Lebegő értesítések letiltásra kerültek</string>
     <string name="add_heads_up_package">Alkalmazás hozzáadása</string>
@@ -211,15 +213,21 @@
     <string name="torch_long_press_power_timeout_5min">5 perc után</string>
     <string name="torch_long_press_power_timeout_10min">10 perc után</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Az akkutöltés LED-jelzőfénye</string>
+    <string name="battery_charging_light_summary">Az akkutöltés LED-jelzőfényének testreszabása</string>
     <string name="battery_light_enable">Akkumulátor jelzőfény engedélyezve</string>
+    <string name="battery_light_enabled_summary">Engedélyezze ezt a akku LED-jelzőfényének megfelelő színeihez</string>
     <string name="battery_light_allow_on_dnd_title">Akkumulátor jelzőfény Ne zavarjanak (DND) módban</string>
+    <string name="battery_light_allow_on_dnd_summary">Engedélyezze ezt, hogy az akku LED-jelzőfényei Ne zavarjanak (DND) módban is megjelenjenek</string>
     <string name="battery_light_low_blinking_title">Alacsony akkumulátorszintnél villogó fényjelzés</string>
+    <string name="battery_light_low_blinking_summary">Az akku LED-jelzőfényei villogni fognak alacsony akkumulátorszint esetén</string>
     <string name="battery_light_cat">Az akkumulátortöltési jelzőfény színe</string>
     <string name="battery_light_low_color">Alacsony akkufeszültség</string>
     <string name="battery_light_medium_color">Közepes akkumulátorszint</string>
     <string name="battery_light_full_color">Majdnem teljes akkumulátorszint</string>
     <string name="battery_light_reallyfull_color">100%-os akkumulátorszint</string>
     <!-- Notifications LED -->
+    <string name="notification_light_summary">Az értesítések LED-jelzőfényének alkalmazásonkénti testreszabása</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
     <string name="lockscreen_battery_info_summary">Töltés közben megjeleníti a maximális aktuális töltőfeszültséget és az akkumulátor hőmérsékletét a zárképernyőn</string>
@@ -306,6 +314,7 @@
     <string name="smart_pulldown_dismissable">Nincs eldobható</string>
     <string name="smart_pulldown_ongoing">Nincs folyamatban lévő</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">A képernyő kikapcsolt állapotában lefutó műveletek beállításai</string>
     <string name="screen_state_toggles_title">Művelet-felfüggesztés</string>
     <string name="screen_state_toggles_enable_title">Engedélyezés</string>
     <string name="screen_state_toggles_enable_summary">A műveletek a képernyő kikapcsolásakor kerülnek végrehajtásra. A képernyő bekapcsolása esetén az előző állapot áll vissza.</string>
@@ -547,9 +556,6 @@
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Ikoncsomag</string>
     <string name="recents_icon_pack_summary">Egyéni ikoncsomag alkalmazása az Előzmények panelre</string>
-    <string name="no_iconpacks_summary">Nincsenek telepített ikoncsomagok</string>
-    <string name="dialog_pick_iconpack_title">Ikoncsomag-választás</string>
-    <string name="default_iconpack_title">Alapértelmezett ikonok</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Hangerőléptetések</string>
     <string name="volume_steps_summary">Testre szabhatja a hangerőléptetéseket</string>
@@ -562,9 +568,13 @@
     <string name="volume_steps_voice_call_title">Hangerő lépésköz: Hanghívás</string>
     <string name="volume_steps_reset">Visszaállítás</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Hívás közbeni rezgés</string>
     <string name="incall_vibrate_connect_title">Rezgés a kapcsolat létrejöttekor</string>
+    <string name="incall_vibrate_connect_summary">Rezgés engedélyezése, ha a hívás felépült</string>
     <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatáskor</string>
+    <string name="incall_vibrate_call_wait_summary">Rezgés engedélyezése, ha a hívás várakoztatva van</string>
     <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
+    <string name="incall_vibrate_disconnect_summary">Rezgés engedélyezése, ha a hívás véget ért</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">\'Alkalmazás-leállítás\' gomb</string>
     <string name="notification_guts_kill_app_button_summary">Az \'Alkalmazás-leállítás\' gomb megjelenítése az értesítés hosszan nyomási menüjében</string>
@@ -580,4 +590,16 @@
     <string name="less_notification_sounds_1m">Percenként</string>
     <string name="less_notification_sounds_2m">2 percenként</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Hangerőszabályzás</string>
+    <string name="audio_panel_view_summary">A hangerőszabályozó testreszabása</string>
+    <string name="audio_panel_view_info">Aktív hangerő-stream jelenik meg a képernyőn, még akkor is, ha itt le van tiltva. Az itt engedélyezett hangerő-stream kényszerítetten kerül megjelenítésre.</string>
+    <string name="audio_panel_view_ringer_title">Csengés</string>
+    <string name="audio_panel_view_ringer_title_summary">Csengőhangerő állítása a hangerőszabályozó-panelről</string>
+    <string name="audio_panel_view_position_title">Hangerőpanel a bal oldalon</string>
+    <string name="audio_panel_view_position_summary">Hangerőszabályozó-panel megjelenítése a képernyő bal oldalán.</string>
+    <string name="audio_panel_view_timeout_title">Hangerőpanel-időkorlát</string>
+    <string name="volume_pannel_general">Általános</string>
+    <string name="volume_pannel_misc">Egyebek</string>
+    <!-- Display cutout options -->
+    <!-- IconPack Preference -->
 </resources>

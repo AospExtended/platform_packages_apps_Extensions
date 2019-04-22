@@ -132,7 +132,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
                Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
             }
-            AEXUtils.showSystemUiRestartDialog(getContext());
         return true;
         } else if (preference == mRecentsClearAllLocation) {
             int location = Integer.valueOf((String) objValue);
@@ -147,7 +146,6 @@ public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenc
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.RECENTS_LAYOUT_STYLE, style, UserHandle.USER_CURRENT);
             mRecentsType.setSummary(mRecentsType.getEntries()[index]);
-            AEXUtils.showSystemUiRestartDialog(getContext());
         return true;
         }
         return false;

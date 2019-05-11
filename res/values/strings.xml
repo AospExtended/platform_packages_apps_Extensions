@@ -757,4 +757,7 @@
     <string name="seek_value_edit_label">Set value</string>
     <string name="ok">OK</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>

@@ -27,6 +27,12 @@
         android:title="@string/heads_up_notifications"
         android:fragment="org.aospextended.extensions.fragments.HeadsUpSettings"/>
 
+    <org.aospextended.support.preference.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

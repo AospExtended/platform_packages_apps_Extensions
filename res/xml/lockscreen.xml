@@ -32,4 +32,3 @@
             android:title="@string/lockscreen_ui_title" />
 
 </PreferenceScreen>
-

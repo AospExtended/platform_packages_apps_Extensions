@@ -232,10 +232,6 @@ app_ops_category
 extensions_dialog_title
 பயன்பாட்டுத் தகவல் உரையாடல்
 கோப்பு: strings. xml!</string>
-    <string name="extensions_dialog_message">இந்த அமைப்புகளில் ஏதேனும் ஒரு பிழை இருந்தால், எங்கள் Google+ பக்கத்தின் பிழை அறிக்கைகளின் பிரிவில் இடுகையிடவும். பிழை அறிக்கையை இடுகையிடுகையில் பின்வருவனவற்றை சேர்க்க வேண்டும்: \ n \ n1. ஒரு logcat அல்லது last_kmsg \ n2. கர்னல் மற்றும் முறைகள் பயன்படுத்தப்படும் \ n3. பயனுள்ள தகவல் \ n \ n போதுமானதாக எதையும் தெரிவிக்க நீங்கள் தவறிவிட்டால், விஷயங்களை சரி செய்ய வேண்டாம் என்று எதிர்பார்க்காதீர்கள்.
-
-extensions_dialog_message
-கோப்பு: strings. xml.</string>
     <string name="extensions_dialog_toast">யாரிடம் சொல்!
 
 extensions_dialog_toast
@@ -747,9 +743,6 @@ app_ops_cat_location
     <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
-    <string name="weather_title">வானிலை</string>
-    <string name="weather_unit">வெப்பநிலை அலகு</string>
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">முகப்பு பொத்தான்
@@ -835,4 +828,5 @@ hardware_keys_double_tap_title
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

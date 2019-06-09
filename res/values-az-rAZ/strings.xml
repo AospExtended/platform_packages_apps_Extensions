@@ -208,7 +208,6 @@
     <string name="screen_state_toggles_mobile_data_summary">Ekran bağlı olan zaman mobil internet bağlanacaq</string>
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -241,4 +240,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

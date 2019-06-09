@@ -93,7 +93,6 @@
     <string name="app_ops_category">أذونات التطبيق </string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">ساعدنا على مساعدتك!</string>
-    <string name="extensions_dialog_message">إذا كان يمكنك العثور على خطأ مع أي من هذه الإعدادات اكتبها في قسم تقارير الأخطاء من صفحة +Google. يجب أن تشمل ما يلي عند نشر تقرير الأخطاء:\n\n1. لوجكات أو last_kmsg\n2. النواة والتعديلات المستخدمة\n3. معلومات مفيدة\n\nإذا فشلت في ارسال الشيء على نحو كاف ، لا تتوقع أن تُحل هذه الاخطاء.</string>
     <string name="extensions_dialog_toast">أقرأ كل شيء</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">حدد لون السمة</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">البطارية كاملة تقريباً</string>
     <string name="battery_light_reallyfull_color">البطارية كاملة (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">ضوء الإشعارات</string>
     <string name="notification_light_summary">تخصيص ضوء الإشعارات لمختلف التطبيقات</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">معلومات الشحن في شاشة القفل</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">يسار الساعة</string>
     <string name="clock_date_left">يمين الساعة</string>
     <string name="clock_date_position">موضع التاريخ</string>
+    <string name="status_bar_clock_seconds_title">إظهار الثواني</string>
+    <string name="status_bar_clock_seconds_summary">عرض الثواني في ساعة شريط الحالة</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">السحب السريع لأسفل</string>
     <string name="quick_pulldown_summary">الحافة %1$s لشريط الحالة يسحب الإعدادات السريعة لأسفل</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">تناظري</string>
     <string name="lockscreen_clock_selection_sammy">سامي</string>
     <string name="lockscreen_clock_selection_sammy_bold">سامي (غامق)</string>
-    <!-- Weather -->
-    <string name="weather_title">الطقس</string>
-    <string name="weather_unit">وحدة درجة الحرارة</string>
+    <string name="lockscreen_clock_selection_sammy_accent">سامي مع اللكنة</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">سامي مع اللكنة (بديل)</string>
+    <string name="lockscreen_clock_selection_gradient_full">ساعة متدرجة كاملة</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">ساعة متدرجة أحادية اللون</string>
+    <string name="lockscreen_clock_selection_text">الساعة النصية لأندرويد Q</string>
     <string name="qs_styles_dialog_title">حدد نمط مربعات الإعدادات السريعة</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">إظهار رمز تعطيل بيانات الهاتف</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">عام</string>
     <string name="volume_pannel_misc">خيارات متنوعة</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">إعدادات قطع الشاشة</string>
+    <string name="cutout_main_summary">إنها حقاً زوايا مقطوعة مع هذا</string>
+    <string name="display_cutout_style_title">نمط القطع</string>
+    <string name="display_cutout_style_normal">عادي</string>
+    <string name="display_cutout_style_immerse">ملء الشاشة</string>
+    <string name="display_cutout_style_hide">إخفاء</string>
+    <string name="stock_statusbar_in_hide">إرتفاع شريط الحالة الإفتراضي</string>
+    <string name="stock_statusbar_in_hide_summary">إستخدام الإرتفاع الافتراضي لشريط الحالة في حالة الإخفاء</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">الإفتراضي</string>
+    <!-- Heads up options -->
 </resources>

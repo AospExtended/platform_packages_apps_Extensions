@@ -92,7 +92,6 @@
     <string name="app_ops_category">एप्लिकेशन ऑप्स</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">आपकी सहायता करने में हमारी सहायता करें!</string>
-    <string name="extensions_dialog_message">यदि आप इनमें से किसी भी सेटिंग में कोई बग पाते हैं, तो हमारे Google+ पृष्ठ के बग रिपोर्ट अनुभाग में पोस्ट करें. बग रिपोर्ट प्रेषित करते समय आपको निम्न शामिल करना चाहिए:\n\n1. logcat या last_kmsg\n2. Kernel और mods जो उपयोग में हैं\n3. उपयोगी जानकारी\n\nअगर आप ठीक से कोई बग रिपोर्ट करने में असफल रहे तो उम्मीद मत कीजिये को वह ठीक हो ही जायेगा.</string>
     <string name="extensions_dialog_toast">इसको पूरा पढ़ें!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">किसी एक्सेंट रंग का चयन करें</string>
@@ -333,9 +332,6 @@
     <string name="lockscreen_clock_selection_analog">ऐनालॉग</string>
     <string name="lockscreen_clock_selection_sammy">सैमी</string>
     <string name="lockscreen_clock_selection_sammy_bold">सैमी (बोल्ड)</string>
-    <!-- Weather -->
-    <string name="weather_title">मौसम</string>
-    <string name="weather_unit">तापमान इकाई</string>
     <string name="qs_styles_dialog_title">QS टाइल शैली का चयन करें</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">डेटा अक्षम आइकन दिखाएं</string>
@@ -396,4 +392,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

@@ -93,7 +93,6 @@
     <string name="app_ops_category">Operacijos programose</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Padėkite mums padėti tau!</string>
-    <string name="extensions_dialog_message">Jei nustatote bet kurios iš šių nustatymų klaidą, praneškite apie klaidų ataskaitas mūsų \"Google+\" puslapyje. Pranešdami apie klaidą, PRIVALOTE pateikti šiuos duomenis: \ n \ n1. Logcat arba last_kmsg \ n2. Naudotas branduolys ir modifikacijos \ n3. Bet kokia naudinga informacija. \ N \ nJei negalėsite tinkamai pranešti apie problemą, nesitikėkite, kad ją išspręstume.</string>
     <string name="extensions_dialog_toast">PERSKAITYKITE VISĄ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Pasirinkti pagrindinę spalvą</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Beveik pilna baterija</string>
     <string name="battery_light_reallyfull_color">Pilnai įkrauta baterija (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Pranešimų LED lemputė</string>
     <string name="notification_light_summary">Tinkinkite pranešimų LED šviesą įvairioms programoms</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informacija apie įkrovimą užrakto ekrane</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">Dešinėje laiko</string>
     <string name="clock_date_left">Laiko kairėje</string>
     <string name="clock_date_position">Datos vieta</string>
+    <string name="status_bar_clock_seconds_title">Rodo sekundes</string>
+    <string name="status_bar_clock_seconds_summary">Įtraukite sekundes į būsenos juostos laikrodį</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Greita prieiga</string>
     <string name="quick_pulldown_summary">Būsenos juostos %1$s kampas ištraukia greitųjų nustatymų panėlę</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Analoginis</string>
     <string name="lockscreen_clock_selection_sammy">Vertikalus</string>
     <string name="lockscreen_clock_selection_sammy_bold">Vertikalus (paryškintas)</string>
-    <!-- Weather -->
-    <string name="weather_title">Orai</string>
-    <string name="weather_unit">Temperatūros vienetas</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy su akcentu</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy su akcentu (alternatyva)</string>
+    <string name="lockscreen_clock_selection_gradient_full">laikrodis su pilnu gradientu</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Monochrominis gradiento laikrodis</string>
+    <string name="lockscreen_clock_selection_text">„Android Q“ teksto laikrodis</string>
     <string name="qs_styles_dialog_title">Pasirinkite QS plytelių stilių</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Atjungta duomenų perdavimo piktograma</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">Pagrindinis</string>
     <string name="volume_pannel_misc">Įvairūs</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Ekrano išjungimo nustatymai</string>
+    <string name="cutout_main_summary">Jie iš tikrųjų sumažino kampus su šiuo</string>
+    <string name="display_cutout_style_title">Išjungimo stilius</string>
+    <string name="display_cutout_style_normal">Normalus</string>
+    <string name="display_cutout_style_immerse">Panardintas</string>
+    <string name="display_cutout_style_hide">Paslėpti</string>
+    <string name="stock_statusbar_in_hide">Standartinis pranešimų juostos aukštis</string>
+    <string name="stock_statusbar_in_hide_summary">Naudokite numatytąjį „Paslėpto“ pranešimo juostos aukštį</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Numatytas</string>
+    <!-- Heads up options -->
 </resources>

@@ -93,7 +93,6 @@
     <string name="app_ops_category">Alkalmazásműveletek</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Segítsen nekünk, hogy segíthessünk önnek!</string>
-    <string name="extensions_dialog_message">Ha talál egy hibát ezekben a beállításokban, írjon Google+ oldalunk Hibajelentés részébe. A következőket KELL csatolnia, ha hibajelentést ír: \n\n 1. Egy \"logcat\"-et vagy \"last_kmsg\"-t\n2. A használt kernel és módosítások megnevezését\n3. Hasznos információkat\n\nHa nem érthető hibajelentést küld, NE várjon hibajavítást.</string>
     <string name="extensions_dialog_toast">OLVASSA EL AZ EGÉSZET!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Kiemelőszín-választás</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Majdnem teljes akkumulátorszint</string>
     <string name="battery_light_reallyfull_color">100%-os akkumulátorszint</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Értesítési LED-fény</string>
     <string name="notification_light_summary">Az értesítések LED-jelzőfényének alkalmazásonkénti testreszabása</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">Az órától jobbra</string>
     <string name="clock_date_left">Az órától balra</string>
     <string name="clock_date_position">Dátum pozíciója</string>
+    <string name="status_bar_clock_seconds_title">Másodpercmutató</string>
+    <string name="status_bar_clock_seconds_summary">Az állapotsori óra a másodperceket is tartalmazza</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Gyors legördítés</string>
     <string name="quick_pulldown_summary">Csempék megjelenítése az értesítési sáv %1$s oldalán történő legörgetéskor</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Analóg</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
-    <!-- Weather -->
-    <string name="weather_title">Időjárás</string>
-    <string name="weather_unit">A hőmérséklet mértékegysége</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy kiemeléssel</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy kiemeléssel (alternatív)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Teljesen színátmenetes óra</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Monokróm színátmenetes óra</string>
+    <string name="lockscreen_clock_selection_text">Android Q szöveges óra</string>
     <string name="qs_styles_dialog_title">Válasszon egy Gyorsbeállítás-csempestílust</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">A kikapcsolt mobiladat jelzése</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">Általános</string>
     <string name="volume_pannel_misc">Egyebek</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Képernyőkivágási beállítások</string>
+    <string name="cutout_main_summary">Ezzel ténylegesen levághatóak a sarkok</string>
+    <string name="display_cutout_style_title">Kivágási stílus</string>
+    <string name="display_cutout_style_normal">Szokásos</string>
+    <string name="display_cutout_style_immerse">Immerzív</string>
+    <string name="display_cutout_style_hide">Elrejtés</string>
+    <string name="stock_statusbar_in_hide">Gyári állapotsormagasság</string>
+    <string name="stock_statusbar_in_hide_summary">Rejtéskor a gyári állapotsormagasságot használja</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Alapértelmezett</string>
+    <!-- Heads up options -->
 </resources>

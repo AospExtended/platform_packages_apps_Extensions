@@ -93,7 +93,6 @@
     <string name="app_ops_category">应用权限管理</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">帮助我们也是帮助您！</string>
-    <string name="extensions_dialog_message">如您发现这些设置有任何错误，请在我们的 Google+ 主页”错误报告“专栏发贴说明。 错误报告必须包含下列内容：\n\n1. logcat 或 last_kmsg\n2. 所用内核及mod版本\n3. 有用信息\n\n若您不能正确报告错误，问题将不会得到修复。</string>
     <string name="extensions_dialog_toast">务必阅读全部内容！</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">选择一种强调色</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">接近满电</string>
     <string name="battery_light_reallyfull_color">满电（100%）</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">通知指示灯</string>
     <string name="notification_light_summary">个性化各种应用的通知指示灯</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">在时间右侧</string>
     <string name="clock_date_left">在时间左侧</string>
     <string name="clock_date_position">日期位置</string>
+    <string name="status_bar_clock_seconds_title">显示秒数</string>
+    <string name="status_bar_clock_seconds_summary">在状态栏时钟中包含秒数</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">快速下拉</string>
     <string name="quick_pulldown_summary">从状态栏的 %1$s 边下拉直接显示快捷设置</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">模拟时钟</string>
     <string name="lockscreen_clock_selection_sammy">竖式时钟</string>
     <string name="lockscreen_clock_selection_sammy_bold">竖式时钟(粗体)</string>
-    <!-- Weather -->
-    <string name="weather_title">天气</string>
-    <string name="weather_unit">温度单位</string>
+    <string name="lockscreen_clock_selection_sammy_accent">三星样式 主题色</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">三星样式 主题色 (其它)</string>
+    <string name="lockscreen_clock_selection_gradient_full">全梯度时钟</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">单色渐变时钟</string>
+    <string name="lockscreen_clock_selection_text">Android Q 文本时钟</string>
     <string name="qs_styles_dialog_title">选择快速设置磁贴样式</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">显示数据连接停用图标</string>
@@ -545,8 +549,8 @@
     <string name="smart_pixels_shift_summary">通过经常移动像素来防止 OLED 屏幕的设备发生烧屏</string>
     <string name="lockscreen_items_other">其它</string>
     <string name="gesture_settings_title">手势操作</string>
-    <string name="gesture_settings_info">必须关闭导航栏！\n\n可用手势\n\n后退\n-向左或向右滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并长按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
-    <string name="gesture_settings_info_new">必须关闭导航栏！\n\n可用手势\n\n后退\n-向左或向右滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
+    <string name="gesture_settings_info">必须关闭导航栏！\n\n可用手势\n\n后退\n-从左侧或右侧向上滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并长按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
+    <string name="gesture_settings_info_new">必须关闭导航栏！\n\n可用手势\n\n后退\n-从左侧或右侧向上滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
     <string name="use_bottom_gesture_title">导航手势</string>
     <string name="use_bottom_gesture_summary">使用底部滑动手势进行导航</string>
     <string name="gesture_swipe_length_title">滑动触发区高度</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">常规</string>
     <string name="volume_pannel_misc">其他设置</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">显示切口设置</string>
+    <string name="cutout_main_summary">他们在这个上真的偷工减料</string>
+    <string name="display_cutout_style_title">切口样式</string>
+    <string name="display_cutout_style_normal">标准</string>
+    <string name="display_cutout_style_immerse">沉浸</string>
+    <string name="display_cutout_style_hide">隐藏</string>
+    <string name="stock_statusbar_in_hide">原生状态栏高度</string>
+    <string name="stock_statusbar_in_hide_summary">在隐藏中使用默认状态栏高度</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">默认</string>
+    <!-- Heads up options -->
 </resources>

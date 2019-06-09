@@ -93,7 +93,7 @@
     <string name="app_ops_category">Oprávnění aplikací</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomozte nám, pomůžeme vám!</string>
-    <string name="extensions_dialog_message">Pokud najdete chybu v některém z těchto nastavení, popište chybu na naší stránce G+/Reports. Zpráva musí obsahovat následující:\n\n1. Logcat nebo last_kmsg\n2. Jádro a používané vylepšení\n3. Užitečné informace\n\nPokud se něco nepodaří nahlásit adekvátně, NEČEKEJTE, že chyby budou opraveny.</string>
+    <string name="extensions_dialog_message">Pokud najdete chybu v některém z těchto nastavení, popište chybu v naší skupině Telegram. Zpráva musí obsahovat následující:\n\n1. Logcat nebo last_kmsg\n2. Jádro a používané vylepšení\n3. Užitečné informace\n\nPokud se něco nepodaří nahlásit adekvátně, NEČEKEJTE, že chyby budou opraveny.</string>
     <string name="extensions_dialog_toast">ČTĚTE DO KONCE!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Vyberte doplňkovou barvu</string>
@@ -227,6 +227,7 @@
     <string name="battery_light_full_color">Téměř nabito</string>
     <string name="battery_light_reallyfull_color">Plně nabito (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">LED oznámení</string>
     <string name="notification_light_summary">Přizpůsobení LED kontrolky oznámení pro různé aplikace</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
@@ -241,6 +242,7 @@
     <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Na výšku</string>
+    <string name="status_bar_battery_style_q">Styl Q</string>
     <string name="status_bar_battery_style_circle">Kruh</string>
     <string name="battery_style_dotted_circle">Tečkovaný kruh</string>
     <string name="status_bar_battery_style_text">Text</string>
@@ -294,6 +296,8 @@
     <string name="clock_date_right">Vpravo od času</string>
     <string name="clock_date_left">Vlevo od času</string>
     <string name="clock_date_position">Pozice data</string>
+    <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
+    <string name="status_bar_clock_seconds_summary">Zahrnout sekundy do hodin ve stavové liště</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Rychlé vysunutí nabídky</string>
     <string name="quick_pulldown_summary">Tažením dolů z %1$s strany stavové lišty se vysune rychlé nastavení</string>
@@ -342,9 +346,11 @@
     <string name="lockscreen_clock_selection_analog">Analogové</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (tučné)</string>
-    <!-- Weather -->
-    <string name="weather_title">Počasí</string>
-    <string name="weather_unit">Jednotky teploty</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy se zvýrazněním</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy se zvýrazněním (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Hodiny s plným gradientem</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Monochromatické gradientní hodiny</string>
+    <string name="lockscreen_clock_selection_text">Text hodin Android Q</string>
     <string name="qs_styles_dialog_title">Vybrat styl dlaždic QS</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
@@ -601,5 +607,17 @@
     <string name="volume_pannel_general">Obecné</string>
     <string name="volume_pannel_misc">Různé</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Nastavení zobrazení výřezu</string>
+    <string name="cutout_main_summary">S tímhle opravdu zmenšili rohy</string>
+    <string name="display_cutout_style_title">Styl výřezu</string>
+    <string name="display_cutout_style_normal">Normální</string>
+    <string name="display_cutout_style_immerse">Vnořený</string>
+    <string name="display_cutout_style_hide">Skrytý</string>
+    <string name="stock_statusbar_in_hide">Výchozí výška stavové lišty</string>
+    <string name="stock_statusbar_in_hide_summary">Použít výchozí výšku stavové lišty při skrytí</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Výchozí</string>
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Omezit obtěžující plovoucí oznámení</string>
+    <string name="less_boring_heads_up_summary">Zobrazit plovoucí oznámení pouze pro aplikaci pro volání nebo zasílání zpráv, pokud neběží v popředí</string>
 </resources>

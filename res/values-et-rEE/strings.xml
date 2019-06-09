@@ -18,93 +18,602 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General app strings -->
+    <string name="extensions_title">Lisad</string>
+    <string name="add">Lisa</string>
+    <string name="advanced">Lisavalikud</string>
+    <string name="cancel">Tühista</string>
+    <string name="choose_app">Valige rakendus</string>
+    <string name="default_text">Vaikimisi</string>
+    <string name="general_category">Üldine</string>
+    <string name="gestures_category">Viiped</string>
+    <string name="music_category">Muusika</string>
+    <string name="security_category">Turvalisus</string>
+    <string name="hardware_category">Riistvara</string>
+    <string name="icons_category">Ikoonid</string>
+    <string name="aosp_recents_category">AOSP hiljutised rakendused</string>
+    <string name="oreo_recents_category">Viimatine Oreo</string>
+    <string name="light_category">Valgustus</string>
+    <string name="dlg_ok">OK</string>
+    <string name="attention">Tähelepanu</string>
+    <string name="loading">Laadimine\u2026</string>
+    <string name="reset">Lähtesta</string>
+    <string name="reset_colors">Taasta värvide vaikesätted</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Tekst</string>
+    <string name="icon_title">Ikoon</string>
+    <string name="color_title">Värv</string>
+    <string name="colors_title">Värvid</string>
     <!-- Extensions categories -->
+    <string name="recents_category">Hiljutised</string>
+    <string name="recents_category_summary">Kohandage oma uudiste ülevaadet</string>
+    <string name="status_bar_category">Olekuriba</string>
+    <string name="status_bar_category_summary">Kohanda oma olekuriba</string>
+    <string name="notifications_panel_category">Teavituste paneel</string>
+    <string name="notifications_panel_category_summary">Kohanda oma QS-paneeli ja teateid</string>
+    <string name="system_category">Süsteem</string>
+    <string name="system_category_summary">Erinevad süsteemi laiendused</string>
+    <string name="lockscreen_category">Lukustusekraan</string>
+    <string name="lockscreen_category_summary">Kohanda oma lukustusekraani</string>
+    <string name="navigation_category">Navigeerimine</string>
+    <string name="navigation_category_summary">Kohandage oma navigeerimisriba</string>
+    <string name="build_tweaks_summary_title">Laiendage oma seadet!</string>
+    <string name="system_animations">Süsteemianimatsioonid</string>
+    <string name="listview">Loendivaade</string>
     <!-- Frags -->
     <!-- General Tweaks -->
+    <string name="general_tweaks_title">Üldine Tweaks</string>
     <!-- Network traffic -->
+    <string name="traffic_title">Võrguliikluse indikaatorid</string>
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">Kärjeteate kuvamine</string>
     <!-- Misc Extensions -->
+    <string name="misc_extensions_title">Mitmesugused laiendused</string>
     <!-- Recents UI -->
+    <string name="recents_ui_title">Viimased kasutajaliidesed</string>
     <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lukustuskuva kasutajaliidesed</string>
     <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts">Lukustusekraani otseteed</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lukustusekraani tuuner</string>
+    <string name="hide_lockscreen_items_title">Lukustusekraani detailid</string>
     <!-- Statusbar Iten -->
+    <string name="statusbar_items_category">Olekuriba detailid</string>
     <!-- Notifications -->
+    <string name="notifications_title">Teavitused</string>
     <!-- Footer warnings -->
+    <string name="smart_pixels_warning_text">Nutikad pikslid on energiasäästufunktsioon. Sõltuvalt sellest, kui palju piksleid te otsustate välja lülitada, suureneb aku kasutusaega oluliselt. Hea kasutuskogemuse saavutamiseks soovitame teil määrata väljalülitatud pikslite suuruseks 75 protsenti.</string>
     <!-- Navigation -->
+    <string name="navigationbar_settings_title">Navigeerimisriba</string>
     <!-- Quick Settings -->
+    <string name="quick_settings_title">Kiirsätted</string>
     <!-- Buttons -->
+    <string name="buttons_title">Nupud</string>
     <!-- App Ops -->
+    <string name="app_ops_category">Rakenduse tööd</string>
     <!-- App info dialog -->
+    <string name="extensions_dialog_title">Aita meil aidata!</string>
+    <string name="extensions_dialog_toast">LOE KÕIK LÄBI!</string>
     <!-- System theme -->
+    <string name="accent_picker_dialog_title">Valige aktsentvärv</string>
+    <string name="theme_accent_picker_title">Rõhuvärv</string>
+    <string name="theme_accent_picker_summary">Valige süsteemi teema aktsentvärv</string>
+    <string name="theme_accent_picker_default">Vaikimisi</string>
     <!-- Color Picker -->
+    <string name="dialog_color_picker">Värvi valimine</string>
+    <string name="press_color_to_apply">Värvi rakendamiseks vajutage värvi peale</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Määra</string>
+    <string name="color_default">Vaikimisi</string>
     <!-- Power Menu -->
+    <string name="power_menu_title">Toitemenüü</string>
+    <string name="power_menu_title_summary">Vaadake või muutke toite menüü kirjeid</string>
+    <string name="powermenu_screenshot">Kuvatõmmis</string>
+    <string name="powermenu_torch">Taskulamp</string>
+    <string name="powermenu_power">Toide</string>
+    <string name="powermenu_restart">Taaskäivita</string>
+    <string name="powermenu_restart_recovery">Täiustatud taaskäivitamine</string>
+    <string name="powermenu_airplane">Lennukirežiim</string>
+    <string name="powermenu_settings">Seaded</string>
+    <string name="powermenu_lockdown">Lukusta</string>
+    <string name="powermenu_soundpanel">Helipaneel</string>
+    <string name="powermenu_users">Kasutajad</string>
+    <string name="powermenu_logout">Välju</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Ereduse liugur</string>
+    <string name="qs_brightness_slider_summary">Näita heleduse liugurit kiirseadete paneelis</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Topelttoksake ekraani lukustamiseks</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Seadme unerežiimi seadmiseks topelt koputage lukustusekraani kolmandal või alumisel otsetee peal</string>
     <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Olekuriba</string>
+    <string name="double_tap_to_sleep_summary">Koputage kaks olekuribalee, et seade unerežiimi panna</string>
     <!-- Network traffic -->
+    <string name="network_traffic_title">Võrguliiklus</string>
+    <string name="network_traffic_type">Valige võrgu tegevuse tüüp</string>
+    <string name="show_network_traffic_up">Üleslink</string>
+    <string name="show_network_traffic_down">Allalink</string>
+    <string name="show_network_traffic_all">Üleslink ja allalink</string>
+    <string name="network_traffic_state_title">Näita staatuseribal võrguaktiivsust</string>
+    <string name="network_traffic_autohide_threshold_title">Võrgu aktiivsuse automaatne peitmine (KB/s)</string>
     <!-- Heads up -->
+    <string name="headsup_category">HeadsUp seaded</string>
+    <string name="heads_up_notifications">Etteteavitus</string>
+    <string name="heads_up_notifications_summary">Kohandage heads up  teadete seadeid</string>
+    <string name="summary_heads_up_enabled">Hüpikakende teated on lubatud</string>
+    <string name="summary_heads_up_disabled">Hüpikakende teated on keelatud</string>
+    <string name="add_heads_up_package">Lisa rakendus</string>
+    <string name="add_heads_up_stoplist_summary">Keelake nende rakenduste kasutamisel kõik heads up teated</string>
+    <string name="add_heads_up_blacklist_summary">Keela nende rakenduste heads up</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_blacklist_title">Must nimekiri</string>
+    <string name="profile_choose_app">Valige rakendus</string>
+    <string name="dialog_delete_title">Kustuta</string>
+    <string name="dialog_delete_message">Eemaldada valitud üksus?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Aja ületus</string>
+    <string name="heads_up_time_out_summary">Vaadatavaid teateid kuvatakse <xliff:g id="number">%d</xliff:g> sekundit</string>
+    <string name="heads_up_time_out_2sec">2 sekundit</string>
+    <string name="heads_up_time_out_4sec">4 sekundit</string>
+    <string name="heads_up_time_out_5sec">5 sekundit</string>
+    <string name="heads_up_time_out_6sec">6 sekundit</string>
+    <string name="heads_up_time_out_8sec">8 sekundit</string>
+    <string name="heads_up_time_out_10sec">10 sekundit</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Une taimer</string>
+    <string name="heads_up_snooze_summary_one_minute">Pühkides üles lükkate vaadatava teate rakendumise edasi 1 minuti</string>
+    <string name="heads_up_snooze_summary">Pühkides üles lükkate vaadatava teate rakendumise edasi <xliff:g id="number">%d</xliff:g> minutit</string>
+    <string name="heads_up_snooze_disabled_summary">Uinaku taimer on välja lülitatud</string>
+    <string name="heads_up_snooze_1min">1 minut</string>
+    <string name="heads_up_snooze_5min">5 minutit</string>
+    <string name="heads_up_snooze_10min">10 minutit</string>
+    <string name="heads_up_snooze_15min">15 minutit</string>
+    <string name="heads_up_snooze_20min">20 minutit</string>
+    <string name="face_auto_unlock_title">Automaatne lahtilukustus näo peale</string>
+    <string name="face_auto_unlock_summary">Väldi lukustusekraani peale näotuvastust</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Rändlusindikaator</string>
+    <string name="roaming_indicator_icon_summary">Rändluse režiimis kuvatakse rändluse indikaator signaalikuval</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G ikoon</string>
+    <string name="show_fourg_icon_summary">Kuvage signaali ikoonil LTE asemel 4G ikoon</string>
     <!-- Buttons title -->
+    <string name="volume_category">Helitugevuse muutja</string>
     <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Taasesituse juhtimine</string>
+    <string name="volume_rocker_music_controls_summary">Kui ekraani väljas olekul pikalt helitugevuse muutja nuppe vajutada, kuvatakse muusikapalad</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibratsioon sõrmejälje autentimisel</string>
+    <string name="fprint_sucess_vib_summary">Vibreeri edukal sõrmejälje autentimisel</string>
     <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Sõrmejäljega avamine</string>
+    <string name="fp_unlock_keystore_summary">Avada seade sõrmejäljega pärast taaskäivitust ilma PIN/Parooli/Mustrita\nNote: kasutage omal vastutusel!</string>
     <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Kursor</string>
+    <string name="volume_key_cursor_control_title">Helitugevuse klahvi kursorikontroll</string>
+    <string name="volume_key_cursor_control_off">Keelatud</string>
+    <string name="volume_key_cursor_control_on">Helitugevuse üles/alla vajutamine liigutab kursorit vasakule/paremale</string>
+    <string name="volume_key_cursor_control_on_reverse">Helitugevuse üles/alla vajutamine liigutab kursorit paremale/vasakule</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Helitugevuse muutja äratamine</string>
+    <string name="volume_rocker_wake_summary">Helitugevuse nuppude vajutamisel äratatakse Teie seade</string>
     <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Helitugevusklahvidega vastamine</string>
+    <string name="volume_answer_call_summary">Võtke kõne vastu helitugevusklahve vajutades</string>
+    <string name="torch_long_press_power_gesture_title">Ekraani väljalülitamine toitenupust</string>
+    <string name="torch_long_press_power_gesture_desc">Taskulambi sisselülitamiseks vajutage väljalülitatud ekraani korral pikalt toitenuppu</string>
+    <string name="torch_long_press_power_timeout_title">Lülita taskulamp automaatselt välja</string>
+    <string name="torch_long_press_power_timeout_never">Mitte kunagi</string>
+    <string name="torch_long_press_power_timeout_1min">1 minut</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutit</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutit</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutit</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Aku laadimise LED-tuli</string>
+    <string name="battery_charging_light_summary">Kohandage aku laadimise LED-tuld</string>
+    <string name="battery_light_enable">Aku märgutuli</string>
+    <string name="battery_light_enabled_summary">Lülitage see sisse, et näidata aku LED-i vastavaid värve</string>
+    <string name="battery_light_allow_on_dnd_title">Aku märgutuli \'Mitte segada\' režiimis</string>
+    <string name="battery_light_allow_on_dnd_summary">Lülitage see sisse, et näidata aku LED-tuld, kui seade on režiimis Ära häiri</string>
+    <string name="battery_light_low_blinking_title">Vilkuv tuli tühja aku korral</string>
+    <string name="battery_light_low_blinking_summary">LED-tuli vilgub, kui aku on tühi</string>
+    <string name="battery_light_cat">Aku laadimisel LED tuli põleb</string>
+    <string name="battery_light_low_color">Nõrk aku</string>
+    <string name="battery_light_medium_color">Keskmine aku</string>
+    <string name="battery_light_full_color">Peaaegu täis aku</string>
+    <string name="battery_light_reallyfull_color">Täis (100) aku</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Teadete LED märgutuli</string>
+    <string name="notification_light_summary">Kohanda LED-valguse teateid erinevate rakenduste jaoks</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Laadimise info lukustusekraanil</string>
+    <string name="lockscreen_battery_info_summary">Laadimise ajal kuvatakse lukustus ekraanil kokkulepitud laadija max voolutugevus ja pinge ning aku temperatuur</string>
     <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Aku stiil olekuribal</string>
     <!-- Battery percentage -->
+    <string name="battery_style_category_title">Akuikoon</string>
+    <string name="status_bar_battery_percentage_title">Aku protsent</string>
+    <string name="status_bar_battery_percentage_default">Peidetud</string>
+    <string name="status_bar_battery_percentage_text_next">Ikooni kõrval</string>
+    <string name="status_bar_battery_percentage_text_inside">Ikooni sees</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_port">Portree</string>
+    <string name="status_bar_battery_style_circle">Ring</string>
+    <string name="battery_style_dotted_circle">Täppidest ring</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Peidetud</string>
     <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Hiljutiste rakenduste valija stiil</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
     <!-- Toast app icon -->
+    <string name="toast_icon_title">Soovitud rakenduse ikoon</string>
+    <string name="toast_icon_summary">Kuva rakenduse ikoon, mis vastab soovile</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_position_bottom_title">Heleduse liugur alumine</string>
+    <string name="qs_brightness_position_bottom_summary">Näita heleduse liugurit kiirseadete all</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS jaluse hoiatused</string>
+    <string name="qs_footer_warnings_summary">Kuvage hoiatus QS-paneeli allosas, kui võrku jälgitakse väliste rakenduste või vpn abil</string>
     <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Lukustusekraani nähtavus</string>
+    <string name="powermenu_lockscreen_summary">Võimalda vooluseadete muutmine lukuekraanilt</string>
     <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibreeri puudutusel</string>
+    <string name="quick_settings_vibrate_summary">Vibratsioon Kiir seadete plaatide puudutamisel</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">Kellaaeg &amp; kuupäev</string>
+    <string name="status_bar_clock_title">Kella seaded</string>
+    <string name="clock_enabled">Lubatud</string>
+    <string name="clock_disabled">Keelatud</string>
+    <string name="status_bar_clock_style_reset">Taasta värvide vaikesätted</string>
+    <string name="status_bar_show_clock_title">Näita kella &amp; kuupäev</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Valiud 24-tunnine kell</string>
+    <string name="enable_clock_weekday">Nädalapäev</string>
+    <string name="enable_clock_weekday_summary">Lühendatud nädalapäeva enne kella aega</string>
+    <string name="dont_show">Ära näita</string>
+    <string name="clock_date_display">Kuupäev</string>
+    <string name="clock_date_display_summary">Näita kohandatud kuupäeva kella ees</string>
+    <string name="clock_date_style">Kuupäeva stiil</string>
+    <string name="clock_date_format">Aja esitusviis</string>
+    <string name="clock_date_string_edittext_title">Peab olema KuupäevFormaat nt. KK/pp/aa</string>
+    <string name="clock_date_string_edittext_summary">Sisestage string</string>
+    <string name="am_pm_clock_normal">Tavaline fondi suurus</string>
+    <string name="am_pm_clock_small">Väike fondi suurus</string>
+    <string name="am_pm_clock_none">Ära näita</string>
+    <string name="clock_date_display_none">Ära näita</string>
+    <string name="clock_date_display_small">Väike fondi suurus</string>
+    <string name="clock_date_display_normal">Tavaline fondi suurus</string>
+    <string name="clock_date_style_normal">Tavaline</string>
+    <string name="clock_date_style_lowercase">Väiketähed</string>
+    <string name="clock_date_style_uppercase">Suurtäheline</string>
+    <string name="clock_date_right">Kellast paremal</string>
+    <string name="clock_date_left">Kellast vasakul</string>
+    <string name="clock_date_position">Kuupäeva positsioon</string>
+    <string name="status_bar_clock_seconds_title">Kuva sekundid</string>
+    <string name="status_bar_clock_seconds_summary">Lisage olekuriba kellale sekundid</string>
     <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Kiire rippmenüü</string>
+    <string name="quick_pulldown_summary">%1$s olekuriba äär tõmbab alla kiirseaded</string>
+    <string name="quick_pulldown_summary_always">Näita olekuriba rippmenüüs alati Kiir seadeid</string>
+    <string name="quick_pulldown_off">Väljas</string>
+    <string name="quick_pulldown_left">Vasak</string>
+    <string name="quick_pulldown_right">Parem</string>
+    <string name="quick_pulldown_always">Alati</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE ikoon</string>
+    <string name="volte_icon_summary">Kuva VoLTE ikoon</string>
     <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Nutikas ripp menüü</string>
+    <string name="smart_pulldown_summary">Avage kiirseaded, kui teile on %1$s teadet</string>
+    <string name="smart_pulldown_none_summary">Avage kiirseaded, kui teateid pole</string>
+    <string name="smart_pulldown_off">Väljas</string>
+    <string name="smart_pulldown_none">Teated puuduvad</string>
+    <string name="smart_pulldown_dismissable">Ei ole vallandatavad</string>
+    <string name="smart_pulldown_ongoing">Pole käimas</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">Seadistage mõned toimingud, kui ekraan on välja lülitatud</string>
+    <string name="screen_state_toggles_title">Peata tegevused</string>
+    <string name="screen_state_toggles_enable_title">Luba</string>
+    <string name="screen_state_toggles_enable_summary">Tegevused sooritatakse väljalülitatud ekraaniga. Ekraani sisselülitamisel eelmine olukord taastatakse.</string>
+    <string name="screen_state_toggles_mobile_title">Mobiilivõrgud</string>
+    <string name="screen_state_toggles_location_title">Asukoht</string>
+    <string name="screen_state_toggles_twog">2G-le ümberlülitamine</string>
+    <string name="screen_state_toggles_twog_summary">Kui ekraan on kustus, lülitatakse võrgurežiim 2G peale</string>
+    <string name="screen_state_toggles_gps">Keela GPS</string>
+    <string name="screen_state_toggles_gps_summary">Asukohapõhine GPS lülitatakse välja, kui seadme ekraan on välja lülitatud</string>
+    <string name="screen_state_toggles_mobile_data">Keela mobiilsed andmed</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobiilse andmeside lülitatakse välja, kui ekraan on väljalülitatud</string>
+    <string name="screen_state_off_delay_title">Tegevuste viivitus väljalülitatud ekraaniga</string>
+    <string name="screen_state_off_delay_summary">Mitu sekundit peab ootama enne toimingute sooritamist pärast ekraani väljalülitamist</string>
+    <string name="screen_state_on_delay_title">Tegevuste viivitus sisselülitatud ekraaniga</string>
+    <string name="screen_state_on_delay_summary">Mitu sekundit peab ootama enne toimingute sooritamist pärast ekraani sisselülitamist</string>
     <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Kella vidin</string>
+    <string name="lockscreen_clock_summary">Kuva lukustusekraanil kella vidinat</string>
+    <string name="lockscreen_info_title">Kella all olevad elemendid</string>
+    <string name="lockscreen_info_summary">Kuva lukustusekraanil kuupäeva, ilma, äratusi ja zeni</string>
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
+    <string name="lockscreen_clock_selection_title">Kella stiil</string>
+    <string name="lockscreen_clock_selection_digital">Vaikimisi</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitaalne (rasvane)</string>
+    <string name="lockscreen_clock_selection_analog">Analoog</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (rasvane)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy aktsendiga</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy aktsendiga (alternatiiv)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Täielik gradientkell</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Mustvalge gradientkell</string>
+    <string name="lockscreen_clock_selection_text">Android Q teksti kell</string>
+    <string name="qs_styles_dialog_title">Valige Kiir seadete plaatide stiil</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Näita andmesideme keelatud ikooni</string>
+    <string name="data_disabled_icon_summary">Kui andmed on keelatud, kuvatakse signaaliriba kõrval olev ristmärk</string>
     <!-- Hardware button navigation -->
+    <string name="hardware_keys_home_key_title">Kodunupp</string>
+    <string name="hardware_keys_menu_key_title">Menüü nupp</string>
+    <string name="hardware_keys_assist_key_title">Otsingunupp</string>
+    <string name="hardware_keys_appswitch_key_title">Ülevaatenupp</string>
+    <string name="hardware_keys_back_key_title">Tagasi nupp</string>
+    <string name="hardware_keys_double_tap_summary">Määrake topeltvajutuse toiming</string>
+    <string name="hardware_keys_single_tap_summary">Määrake ühekordse vajutuse toiming</string>
+    <string name="hardware_keys_long_press_summary">Määrake pika vajutuse toiming</string>
+    <string name="hardware_keys_single_tap_title">Ühekordse vajutuse toiming</string>
+    <string name="hardware_keys_long_press_title">Pika vajutuse toiming</string>
+    <string name="hardware_keys_double_tap_title">Topeltvajutuse toiming</string>
+    <string name="hardware_keys_category">Füüsilised navigatsiooninupud</string>
+    <string name="hardware_keys_disable_title">Keela füüsilised navigatsiooninupud</string>
     <!-- Button brightness -->
+    <string name="button_backlight_options_category">Taustavalguse valikud</string>
+    <string name="button_backlight_enable_title">Lülita välja nupu taustavalgustus</string>
+    <string name="button_link_brightness">Madalaim ekraani heledus</string>
+    <string name="button_link_brightness_summary">Nupu taustvalguse heledust reguleeritakse vastavalt praegusele ekraani heledusele</string>
+    <string name="button_manual_brightness">Heleduse tase</string>
+    <string name="button_timeout_title">Taustvalgustuse Viivitus</string>
+    <string name="button_backlight_on_touch_only_title">Nupu taustavalguse puudutus</string>
+    <string name="button_backlight_on_touch_only_summary">Nupu taustavalgustus ilmneb ainult siis, kui nuppe vajutatakse. Vaheaeg sellegipoolest mõjutab seda funktsiooni.</string>
     <!-- Ambient display music ticker -->
+    <string name="force_ambient_for_media_pref_title">Ambientne muusika vajutaja</string>
+    <string name="force_ambient_for_media_pref_summary">Konfigureerige ümbritseva muusika märgistus</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker näitab muusikapalade info esitamist ümbritseva pildi ekraanil.\n\nSee käivitub ka siis, kui uue raja käivitamisel keelatakse ümbritseva pildi kuvamine, ekraani keskel sundides puhast ümbritsevat ekraani, mille info on jälgitav.\n\nRaja info vahelejätmiseks võite ka topelt puudutada.\n\nKui teil on Pixel ja lubate Now Playing ning selle teate süsteemi Audio seaded, töötab ka Ambient Music Ticker selle ümbruses.</string>
+    <string name="force_ambient_for_media_title">Luba</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Heleduse kohanduvuse nupp</string>
+    <string name="brightness_icon_summary">Kuva heleduse kohanduvuse nupp</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Heleduse juhtnupud</string>
+    <string name="brightness_side_buttons_summary">Näita heleduse suurendamise või vähendamise nuppe</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_category">Kärjeteate kuvamine</string>
+    <string name="carrier_label_settings_summary">Kärjeteate kohandamine</string>
+    <string name="custom_carrier_label_title">Kohandatud kärjeteade</string>
+    <string name="custom_carrier_label_explain">Palun sisestage uus silt. Jätke tühjaks, kui tahate silti tagasi originaali.</string>
+    <string name="custom_carrier_label_notset">Kohandatud silt pole seatud</string>
+    <string name="show_carrier_title">Kärjeteate silt</string>
+    <string name="show_carrier_disabled">Käsitsi</string>
+    <string name="show_carrier_keyguard">Ainult lukustuskuva</string>
+    <string name="show_carrier_statusbar">Ainult olekuriba</string>
+    <string name="show_carrier_enabled">Lukustuskuva &amp; olekuriba</string>
     <!-- Toast Animation -->
+    <string name="toast_animation_title">Soovitud animatsioon</string>
+    <string name="toast_none_animation">Mitte ükski</string>
+    <string name="toast_default_animation">Vaikimisi</string>
+    <string name="toast_fade_animation">Tuhmuv</string>
+    <string name="toast_SlideRight_animation">Lohistage paremale</string>
+    <string name="toast_SlideLeft_animation">Lohistage vasakule</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Kiire tuhmumine</string>
+    <string name="toast_GrowFade_animation">Muutuv tuhmumine</string>
+    <string name="toast_GrowFadeCenter_animation">Muutuva tuhmumise keskpaik</string>
+    <string name="toast_GrowFadeBottom_animation">Muutuva tuhmumise madalaim tase</string>
+    <string name="toast_Translucent_animation">Läbipaistev</string>
+    <string name="toast_SlideLeftRight_animation">Lükake vasakult paremale</string>
+    <string name="toast_SlideRightLeft_animation">Lükake paremalt vasakule</string>
+    <string name="toast_animation_test">See on valitud animatsiooni test</string>
+    <string name="toast">Teavitus</string>
     <!-- Animations -->
+    <string name="animations_title">Animatsioon</string>
     <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Heleduse reguleerimine</string>
+    <string name="status_bar_toggle_brightness_summary">Reguleeri heledust, libistades mööda ülariba</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Kolme sõrme žest</string>
+    <string name="three_finger_gesture_summary">Pühkige kolme sõrmega ekraanil</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">Akuriba</string>
+    <string name="battery_bar_summary">Kuvage ja kohandage aku riba läheduses  olekuriba või navigeerimisriba</string>
+    <string name="battery_bar">Akuriba asukoht</string>
+    <string name="battery_bar_no_navbar">Akuriba asukoht</string>
+    <string name="battery_bar_location_hide">Peida</string>
+    <string name="battery_bar_location_statusbar">Olekuriba</string>
+    <string name="battery_bar_location_top_navbar">Navigeerimisriba kohal</string>
+    <string name="battery_bar_location_bottom_navbar">Navigeerimisriba all</string>
+    <string name="battery_bar_color">Akuriba värv</string>
+    <string name="battery_bar_charging_color">Akuriba laadimise värv</string>
+    <string name="battery_bar_battery_low_color">Akuriba tühja aku värv</string>
+    <string name="battery_bar_cat">Akuriba stiil</string>
+    <string name="battery_bar_style_title">Akuriba joonendamine</string>
+    <string name="battery_bar_thickness_title">Akuriba paksus</string>
+    <string name="battery_bar_animate_title">Laadimise animatsioon</string>
+    <string name="battery_bar_style_regular">Regulaarne</string>
+    <string name="battery_bar_style_center_mirrored">Keskpeegeldatud</string>
+    <string name="battery_bar_style_reversed">Vastupidi</string>
+    <string name="battery_bar_use_charging_color">Kohandatud laadimisvärv</string>
+    <string name="battery_bar_blend_color_title">Segage värvid</string>
+    <string name="battery_bar_blend_color_summary">Segage aku protsentidele vastavad täis-/tühjad värvid</string>
+    <string name="battery_bar_blend_color_reverse_title">Pöördvärv</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Täielikult &#8594; tühjenema: punane &#8592; roheline &#8592; sinine &#8592; punane</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Täielikult &#8594; tühjenema: punane &#8594; roheline &#8594; sinine &#8594; punane</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Nurgad</string>
+    <string name="corner_radius">Ümardatud nurkade raadius</string>
+    <string name="content_padding">Nurga sisu täitmine</string>
+    <string name="corner_fwvals">Kasutage raames väärtuseid</string>
+    <string name="corner_fwvals_summary">Kasulik, kui seadmel on ümarad nurgad</string>
+    <string name="lockscreen_qs_disabled_title">Keela kiirklahvide lukustus</string>
+    <string name="lockscreen_qs_disabled_summary">Keela kiirseadete laiendamine turvalistele lukustusekraanidele</string>
     <!-- AOKP custom system animations -->
+    <string name="system_animation_title">Süsteemianimatsioonid</string>
+    <string name="activity_open_title">Aktiivne avamis animatsioon</string>
+    <string name="activity_close_title">Aktiivne sulgemis animatsioon</string>
+    <string name="task_open_title">Avatud animatsiooni ülesanne</string>
+    <string name="task_open_behind_title">Ava tagumise animatsiooni ülesanne</string>
+    <string name="task_close_title">Suletud animatsiooni ülesanne</string>
+    <string name="task_move_to_front_title">Liigu ees animatsiooni</string>
+    <string name="task_move_to_back_title">Liigu tagumisse animatsiooni</string>
+    <string name="wallpaper_open_title">Taustapildi animatsioon avatud</string>
+    <string name="wallpaper_close_title">Taustapildi animatsioon suletud</string>
+    <string name="wallpaper_intra_open_title">Taustapildi avatud animatsioon avatud</string>
+    <string name="wallpaper_intra_close_title">Taustapildi avatud animatsioon suletud</string>
+    <string name="animation_duration_title">Animatsiooni kestus</string>
+    <string name="title_animation_no_override">Rakenduste ülekirjutamise vältimine</string>
+    <string name="summary_animation_no_override">Vältige rakenduste ülekaalukaid ülekirjutamisi</string>
+    <string name="animation_duration_default">Vaikimisi</string>
     <!-- ListView animation -->
+    <string name="listview_animation_title">Loendivaate animatsioon</string>
+    <string name="listview_off">Vaikimisi</string>
+    <string name="listview_wave_left">Viipama (vasakule)</string>
+    <string name="listview_wave_right">Viipama (paremale)</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Skaala</string>
+    <string name="listview_stack_top">Virn (ülemine)</string>
+    <string name="listview_stack_bottom">Virn (alumine)</string>
+    <string name="listview_unfold">Lahti</string>
+    <string name="listview_fold">Voldi</string>
+    <string name="listview_translate_left">Tõlgi (vasakul)</string>
+    <string name="listview_translate_right">Tõlgi (paremal)</string>
     <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Loendivaate interpolaator</string>
+    <string name="listview_accelerate_interpolator">Kiirendage</string>
+    <string name="listview_decelerate_interpolator">Aeglustage</string>
+    <string name="listview_accelerate_decelerate_interpolator">Kiirendada ja aeglustada</string>
+    <string name="listview_anticipate_interpolator">Prognoosige</string>
+    <string name="listview_overshoot_interpolator">Ületage</string>
+    <string name="listview_anticipate_overshoot_interpolator">Ennusta ja ületage</string>
+    <string name="listview_bounce_interpolator">Hüpitamine</string>
     <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Vahemälu kerimine</string>
+    <string name="pref_scrollingcache_summary">Vahemälu kerimine võib parandada mälu jõudlust</string>
+    <string name="pref_scrollingcache_force_enable">Luba jõuga </string>
+    <string name="pref_scrollingcache_default_enable">Vaikimisi lubamine</string>
+    <string name="pref_scrollingcache_default_disable">Vaikimisi keelamine</string>
+    <string name="pref_scrollingcache_force_disable">Keela jõuga </string>
     <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Ekraani väljalülitamine</string>
+    <string name="screen_off_animation_default">Vaikimisi</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Skaala</string>
     <!-- Media art -->
+    <string name="media_art_title">Meedia kaane pilt</string>
+    <string name="media_art_summary">Luba meedia kaanepilt lukustusekraanil</string>
     <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_title">Lukustusekraani visualiseerija</string>
+    <string name="lockscreen_visualizer_summary">Näitab liikuvate kujundust lukustusekraanil muusika esitamise ajal</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Kustuta kõik nupud</string>
+    <string name="show_clear_all_recents_button_summary">Näita kõige tühjendamise nuppu</string>
+    <string name="recents_clear_all_location_title">Tühjenda kõik asukohad</string>
+    <string name="recents_clear_all_location_top_right">Üleval paremal</string>
+    <string name="recents_clear_all_location_top_left">Üleval vasakul</string>
+    <string name="recents_clear_all_location_top_center">Üleval keskel</string>
+    <string name="recents_clear_all_location_bottom_right">All paremal</string>
+    <string name="recents_clear_all_location_bottom_left">All vasakul</string>
+    <string name="recents_clear_all_location_bottom_center">All keskel</string>
+    <string name="recents_show_membar_title">Mäluriba</string>
+    <string name="recents_show_membar_summary">Näita riba seadme vabast mälumahust</string>
     <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Oreo viimatine paigutus</string>
+    <string name="recents_stock">Ladu</string>
+    <string name="recents_grid">Ruudustik</string>
+    <string name="recents_go">Android Go</string>
+    <string name="qs_running_services_title">Töötavate teenuste ikoon</string>
+    <string name="qs_running_services_summary">Luba jaluses jooksvate teenuste ikoon</string>
+    <string name="qs_edit_title">Muuda ikooni</string>
+    <string name="qs_edit_summary">Luba plaadil muuta ikooni jalust</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Targad pikslid</string>
+    <string name="smart_pixels_summary">Aku säästmiseks lülita täiendavad pikslid välja</string>
+    <string name="smart_pixels_enable_title">Luba targad pikslid</string>
+    <string name="smart_pixels_enable_summary">Voolutarbe vähendamiseks lülita pikslid välja</string>
+    <string name="smart_pixels_on_power_save_title">Auto-luba akusäästja</string>
+    <string name="smart_pixels_on_power_save_summary">Lülita targad pikslid sisse kui akusäästja on sisse lülitatud</string>
+    <string name="smart_pixels_percent">Keelatavate pikslite protsent</string>
+    <string name="smart_pixels_shift_title">Sissepõlemise kaitse</string>
+    <string name="smart_pixels_shift_summary">Väldib OLED ekraanidel sissepõlemist nihutades piksleid aeg-ajalt</string>
+    <string name="lockscreen_items_other">Muu</string>
+    <string name="gesture_settings_title">Viiped</string>
+    <string name="gesture_settings_info">Navigeerimisriba peab olema keelatud!\n\nSaadaolevad žestid:\n\nTagasi\n- Pühkige üles vasakul või paremal pool\n\nAvaleht\n- Pühkige keskel üles\n\nViimased rakendused\n- Pühkige keskel üles ja hoidge peal\n\nAvaleht pikk vajutus\n- Keskel lühike pühkimine üles ja hoidke peal</string>
+    <string name="gesture_settings_info_new">Navigeerimisriba peab olema keelatud!\n\nSaadaolevad žestid:\n\nTagasi\n- Pühkige üles vasakul või paremal pool\n\nAvaleht\n- Pühkige keskel üles\n\nViimased rakendused\n- Pühkige keskel üles ja hoidge peal\n\nLülita viimasesse rakendusse\n- Keskel lühike pühkimine üles ja hoidke peal</string>
+    <string name="use_bottom_gesture_title">Navigeerimise žestid</string>
+    <string name="use_bottom_gesture_summary">Kasutage navigeerimiseks alt üles liikuvaid žeste</string>
+    <string name="gesture_swipe_length_title">Pühkige käivituskõrgust</string>
+    <string name="gesture_swipe_length_summary">Kõrgus alt pühkimisega käivitamiseks</string>
+    <string name="gesture_action_timeout_title">Pühkige käivitusaja vallandamiseks</string>
+    <string name="gesture_action_timeout_summary">Aegumine enne žesti tegevust on alanud</string>
     <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Ikoonipakk</string>
+    <string name="recents_icon_pack_summary">Rakenda värskete paneelide jaoks kohandatud ikoonipaketti</string>
     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Heli astmed</string>
+    <string name="volume_steps_summary">Kohandage helitugevuse samme</string>
+    <string name="volume_steps_alarm_title">Helitugevuse astmed: Äratuskell</string>
+    <string name="volume_steps_dtmf_title">Helitugevuse astmed: Multisageduslik kakstoonvalimine</string>
+    <string name="volume_steps_music_title">Helitugevuse astmed: Meedia</string>
+    <string name="volume_steps_notification_title">Helitugevuse astmed: Teated</string>
+    <string name="volume_steps_ring_title">Helitugevuse astmed: Helin</string>
+    <string name="volume_steps_system_title">Helitugevuse astmed: Süsteem</string>
+    <string name="volume_steps_voice_call_title">Helitugevuse astmed: Helikõne</string>
+    <string name="volume_steps_reset">Lähtesta</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibratsioon kõne ajal</string>
+    <string name="incall_vibrate_connect_title">Vibreeri ühendamisel</string>
+    <string name="incall_vibrate_connect_summary">Luba vibreerida, kui kõne on ühendatud</string>
+    <string name="incall_vibrate_call_wait_title">Vibreeri kõne koputusel</string>
+    <string name="incall_vibrate_call_wait_summary">Luba vibreerida, kui kõne ootab</string>
+    <string name="incall_vibrate_disconnect_title">Vibreeri katkemisel</string>
+    <string name="incall_vibrate_disconnect_summary">Luba vibreerida pärast kõne katkestamist</string>
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Rakendusest väljumise nupp</string>
+    <string name="notification_guts_kill_app_button_summary">Näita sulge rakendus nuppu teate menüüle pikal vajutusel</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">Lärmakad märguanded, kui ekraan on sisse lülitatud</string>
+    <string name="notification_sound_vib_screen_on_summary">Keela teadete heli ja vibratsiooni blokeerimine, kui ekraan on ärkvel</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Nutikas teavitusheli</string>
+    <string name="less_notification_sounds_summary">Esita iga rakenduse teavitusheli ainult üks kord määratud ajavahemiku jooksul</string>
+    <string name="less_notification_sounds_default">Rakendus vaikimisi</string>
+    <string name="less_notification_sounds_10s">Iga 10 sek. järel</string>
+    <string name="less_notification_sounds_30s">Iga 30 sek. järel</string>
+    <string name="less_notification_sounds_1m">Iga  minuti järel</string>
+    <string name="less_notification_sounds_2m">Iga 2 minuti järel</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">Helipaneel</string>
+    <string name="audio_panel_view_summary">Helitugevuse paneeli dialoogi kohandamine</string>
+    <string name="audio_panel_view_info">Aktiivne helitugevus kuvatakse ekraanil ka siis, kui see on siin keelatud. Siin lubatavad mahtuvused kuvatakse jõuliselt.</string>
+    <string name="audio_panel_view_ringer_title">Helin</string>
+    <string name="audio_panel_view_ringer_title_summary">Helitugevuse reguleerimine helitugevuse paneeli dialoogist</string>
+    <string name="audio_panel_view_position_title">Helitugevuse paneel vasakul</string>
+    <string name="audio_panel_view_position_summary">Näita helitugevuse paneeli dialoogi ekraani vasakus servas.</string>
+    <string name="audio_panel_view_timeout_title">Helitugevuse paneeli ajalõpp</string>
+    <string name="volume_pannel_general">Üldine</string>
+    <string name="volume_pannel_misc">Mitmesugust</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Ekraani väljalülitamise seaded</string>
+    <string name="cutout_main_summary">Nad lõikasid selle nurga all</string>
+    <string name="display_cutout_style_title">Väljalõigete stiil</string>
+    <string name="display_cutout_style_normal">Tavaline</string>
+    <string name="display_cutout_style_immerse">Sukeldama</string>
+    <string name="display_cutout_style_hide">Peida</string>
+    <string name="stock_statusbar_in_hide">Varu olekuriba kõrgus</string>
+    <string name="stock_statusbar_in_hide_summary">Kasutage vaikimisi olekuriba kõrgust menüüs Peida</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Vaikimisi</string>
+    <!-- Heads up options -->
 </resources>

@@ -93,7 +93,6 @@
     <string name="app_ops_category">Działania aplikacji</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomóż nam, pomóż sobie!</string>
-    <string name="extensions_dialog_message">Jeśli znajdziesz błąd w którymkolwiek z tych ustawień, poinformuj o tym w dziale raporty błędów naszej społeczności na Google+. Raport MUSI zawierać następujące dane: \n\n1. Logcat lub last_kmsg\n2. Używany\n3 kernel i zastosowane modyfikacje.\n3. Przydatna informacja\n\nJeśli nie dołączysz odpowiednich danych, nie spodziewaj się pomocy z naszej strony.</string>
     <string name="extensions_dialog_toast">PRZECZYTAJ CAŁOŚĆ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Wybierz kolor akcentu</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Bateria prawie pełna</string>
     <string name="battery_light_reallyfull_color">Bateria pełna (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Dioda powiadomień</string>
     <string name="notification_light_summary">Dostosuj ustawienia diody powiadomień dla poszczególnych aplikacji</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informacje o ładowaniu na ekranie blokady</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">Po prawej stronie zegara</string>
     <string name="clock_date_left">Po lewej stronie zegara</string>
     <string name="clock_date_position">Położenie daty</string>
+    <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
+    <string name="status_bar_clock_seconds_summary">Wyświetlaj sekundy w widoku zegara na pasku statusu</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Szybkie rozwijanie</string>
     <string name="quick_pulldown_summary">%1$s krawędź paska stanu rozwija szybkie ustawienia</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Analogowy</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (pogrubiony)</string>
-    <!-- Weather -->
-    <string name="weather_title">Pogoda</string>
-    <string name="weather_unit">Jednostka temperatury</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy z akcentem</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy z akcentem (Alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Zegar z pełnym gradientem</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Zegar z monochromatycznym gradientem</string>
+    <string name="lockscreen_clock_selection_text">Zegar w stylu Androida Q</string>
     <string name="qs_styles_dialog_title">Wybierz styl QS</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">Ogólne</string>
     <string name="volume_pannel_misc">Pozostałe</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Ustawienia wyświetlania wcięcia</string>
+    <string name="cutout_main_summary">Naprawdę przycięte narożniki</string>
+    <string name="display_cutout_style_title">Styl wycięcia</string>
+    <string name="display_cutout_style_normal">Normalny</string>
+    <string name="display_cutout_style_immerse">Zanurzenie</string>
+    <string name="display_cutout_style_hide">Ukryj</string>
+    <string name="stock_statusbar_in_hide">Domyślna wysokość paska stanu</string>
+    <string name="stock_statusbar_in_hide_summary">Użyj domyślnej wysokości paska stanu w ukryciu</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Domyślny</string>
+    <!-- Heads up options -->
 </resources>

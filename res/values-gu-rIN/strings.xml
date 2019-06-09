@@ -211,7 +211,6 @@
     <string name="screen_state_off_delay_summary">સ્ક્રીન બંધ પછી ક્રિયાઓ કરવા પહેલાં રાહ જોવી સેકન્ડ્સની સંખ્યા</string>
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -244,4 +243,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

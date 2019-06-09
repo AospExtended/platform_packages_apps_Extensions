@@ -30,9 +30,9 @@
     <string name="security_category">Sécurité</string>
     <string name="hardware_category">Matériel</string>
     <string name="icons_category">Icônes</string>
-    <string name="aosp_recents_category">AOSP récents</string>
+    <string name="aosp_recents_category">Style des applications récentes AOSP</string>
     <string name="oreo_recents_category">Style des applications récentes Oreo</string>
-    <string name="light_category">Lumières</string>
+    <string name="light_category">Voyants</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
     <string name="loading">Chargement\u2026</string>
@@ -48,15 +48,15 @@
     <string name="recents_category_summary">Personnaliser la vue applications récentes</string>
     <string name="status_bar_category">Barre d\'état</string>
     <string name="status_bar_category_summary">Personnaliser la barre d\'état</string>
-    <string name="notifications_panel_category">Panneau de notification</string>
-    <string name="notifications_panel_category_summary">Personnaliser le panneau de réglage rapide et de notifications</string>
+    <string name="notifications_panel_category">Panneau de notifications</string>
+    <string name="notifications_panel_category_summary">Personnaliser le panneau de réglages rapides et de notifications</string>
     <string name="system_category">Système</string>
-    <string name="system_category_summary">Différentes extensions du système</string>
+    <string name="system_category_summary">Diverses extensions du système</string>
     <string name="lockscreen_category">Écran de verrouillage</string>
-    <string name="lockscreen_category_summary">Personnaliser votre écran de verrouillage</string>
+    <string name="lockscreen_category_summary">Personnaliser l\'écran de verrouillage</string>
     <string name="navigation_category">Navigation</string>
-    <string name="navigation_category_summary">Personnaliser votre barre de navigation</string>
-    <string name="build_tweaks_summary_title">Etendez les capacités de votre appareil !</string>
+    <string name="navigation_category_summary">Personnaliser la barre de navigation</string>
+    <string name="build_tweaks_summary_title">Étendez les capacités de votre appareil !</string>
     <string name="system_animations">Animations système</string>
     <string name="listview">ListView</string>
     <!-- Frags -->
@@ -69,16 +69,16 @@
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Autres extensions</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Interface applications récentes</string>
+    <string name="recents_ui_title">Interface des applications récentes</string>
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Interface de l\'écran de verrouillage</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts">Raccourcis de l\'écran de déverrouillage</string>
+    <string name="lockscreen_shortcuts">Raccourcis de l\'écran de verrouillage</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Réglages de l\'écran de verrouillage</string>
     <string name="hide_lockscreen_items_title">Éléments de l\'écran de verrouillage</string>
     <!-- Statusbar Iten -->
-    <string name="statusbar_items_category">Éléments de la barre d\'État</string>
+    <string name="statusbar_items_category">Éléments de la barre d\'état</string>
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
     <!-- Footer warnings -->
@@ -90,10 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Boutons</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Fonctionnement des applications</string>
+    <string name="app_ops_category">Comportement des applications</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Laissez-nous vous aider !</string>
-    <string name="extensions_dialog_message">Si vous trouvez un bug avec l\'un de ces paramètres, postez-le dans la section Bug Reports de notre page Google+. Vous DEVEZ inclure les informations suivantes lorsque vous signalez un bug:\n\n1. Un logcat ou last_kmsg\n2. Noyaux et modes utilisés\n3. Informations utiles\n\nSi vous indiquez un bug sans renseigner les informations demandées, NE VOUS ATTENDEZ PAS à voir ce bug corrigé.</string>
     <string name="extensions_dialog_toast">À LIRE ENTIÈREMENT !</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Choisir une couleur d\'accentuation</string>
@@ -101,17 +100,17 @@
     <string name="theme_accent_picker_summary">Choisir la couleur d\'accentuation du thème système</string>
     <string name="theme_accent_picker_default">Par défaut</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Définir une couleur</string>
-    <string name="press_color_to_apply">Appuyer sur une couleur ci-dessous pour l\'appliquer</string>
+    <string name="dialog_color_picker">Sélecteur de couleur</string>
+    <string name="press_color_to_apply">Appuyez sur une couleur ci-dessous pour l\'appliquer</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Hex :</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Définir</string>
     <string name="color_default">Par défaut</string>
     <!-- Power Menu -->
     <string name="power_menu_title">Menu Marche/Arrêt</string>
-    <string name="power_menu_title_summary">Afficher ou modifier les entrées du menu Menu Marche/Arrêt</string>
+    <string name="power_menu_title_summary">Afficher ou modifier les entrées du menu Marche/Arrêt</string>
     <string name="powermenu_screenshot">Capture d\'écran</string>
     <string name="powermenu_torch">Lampe de poche</string>
     <string name="powermenu_power">Éteindre</string>
@@ -228,6 +227,7 @@ Note : à vos risques et périls !</string>
     <string name="battery_light_full_color">Batterie presque pleine</string>
     <string name="battery_light_reallyfull_color">Batterie pleine (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Voyant de notification</string>
     <string name="notification_light_summary">Personnaliser les notifications LED pour différentes applications</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
@@ -295,6 +295,8 @@ Note : à vos risques et périls !</string>
     <string name="clock_date_right">À droite de l\'heure</string>
     <string name="clock_date_left">À gauche de l\'heure</string>
     <string name="clock_date_position">Position de la date</string>
+    <string name="status_bar_clock_seconds_title">Afficher les secondes</string>
+    <string name="status_bar_clock_seconds_summary">Inclure les secondes dans l\'horloge de la barre d\'état</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Déroulement rapide</string>
     <string name="quick_pulldown_summary">Déployer le volet de réglages rapides en appuyant sur la %1$s de la barre d\'état</string>
@@ -343,9 +345,11 @@ Note : à vos risques et périls !</string>
     <string name="lockscreen_clock_selection_analog">Analogique</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (gras)</string>
-    <!-- Weather -->
-    <string name="weather_title">Météo</string>
-    <string name="weather_unit">Unité de température</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy Accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy Accent (alternatif)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Horloge complète en dégradé</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Horloge Monochrome en dégradé</string>
+    <string name="lockscreen_clock_selection_text">Style Android Q</string>
     <string name="qs_styles_dialog_title">Sélectionnez un style de réglages rapides</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Afficher l\'icône des données désactivées</string>
@@ -602,5 +606,15 @@ Note : à vos risques et périls !</string>
     <string name="volume_pannel_general">Général</string>
     <string name="volume_pannel_misc">Divers</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Paramètres de l\'encoche de l\'affichage</string>
+    <string name="cutout_main_summary">Ils ont vraiment fait des économies avec ça</string>
+    <string name="display_cutout_style_title">Style de l\'encoche</string>
+    <string name="display_cutout_style_normal">Normale</string>
+    <string name="display_cutout_style_immerse">Immersive</string>
+    <string name="display_cutout_style_hide">Masquée</string>
+    <string name="stock_statusbar_in_hide">Hauteur de la barre d\'état par défaut</string>
+    <string name="stock_statusbar_in_hide_summary">Utiliser la hauteur par défaut de la barre de statut dans le mode cacher</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Par défaut</string>
+    <!-- Heads up options -->
 </resources>

@@ -93,7 +93,6 @@
     <string name="app_ops_category">Permisos de aplicaciones</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">¡Ayúdanos a ayudarte!</string>
-    <string name="extensions_dialog_message">Si usted encuentra un error con cualquiera de estas opciones, publique en la sección de informes de errores de nuestra página de Google+. DEBE incluir lo siguiente al publicar un informe de error: \n\n1. Un logcat o last_kmsg\n2. Kernel y mods usados\n3. Información útil \n\nSi no publica adecuadamente, no espere a que el error sea corregido.</string>
     <string name="extensions_dialog_toast">¡LEER TODO!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Seleccione un color de acento</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Batería casi llena</string>
     <string name="battery_light_reallyfull_color">Batería completa (100%)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Luz de notificaciones LED</string>
     <string name="notification_light_summary">Personalizar la luz LED de notificaciones para varias aplicaciones</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">A la derecha de la hora</string>
     <string name="clock_date_left">A la izquierda de la hora</string>
     <string name="clock_date_position">Posición de la fecha</string>
+    <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
+    <string name="status_bar_clock_seconds_summary">Incluir segundos en el reloj de la barra de estado</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Despliegue rápido</string>
     <string name="quick_pulldown_summary">El borde %1$s de la barra de estado despliega los ajustes rápidos</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Analógico</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
-    <!-- Weather -->
-    <string name="weather_title">Clima</string>
-    <string name="weather_unit">Unidad de medida de temperatura</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy con acento</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy con acento (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Reloj degradado completo</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Reloj degradado monocromo</string>
+    <string name="lockscreen_clock_selection_text">Reloj de texto Android Q</string>
     <string name="qs_styles_dialog_title">Selecciona un estilo de ajustes rápidos</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mostrar icono de datos deshabilitados</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">General</string>
     <string name="volume_pannel_misc">Varios</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Mostrar configuración de \'cutout\'</string>
+    <string name="cutout_main_summary">Realmente cortan esquinas con este</string>
+    <string name="display_cutout_style_title">Estilo de \'cutout\'</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Inmersivo</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
+    <string name="stock_statusbar_in_hide">Altura de barra de estado stock</string>
+    <string name="stock_statusbar_in_hide_summary">Usar altura de barra de estado por defecto en ocultar</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Predeterminado</string>
+    <!-- Heads up options -->
 </resources>

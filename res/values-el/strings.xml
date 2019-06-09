@@ -93,7 +93,6 @@
     <string name="app_ops_category">Εφαρμογές Συστήματος</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Βοηθήστε μας να σας βοηθήσουμε!</string>
-    <string name="extensions_dialog_message">Αν βρείτε κάποιο πρόβλημα (bug) σε οποιαδήποτε από αυτές τις ρυθμίσεις, αναρτήστε το στην ενότητα Bug Reports της σελίδας μας στο Google+. ΠΡΕΠΕΙ να συμπεριλάβετε τα ακόλουθα κατά την ανάρτηση μιας αναφοράς για bug: \n\n1. Ένα αρχείο καταγραφής logcat ή last_kmsg\n2. Ποιον kernel και ποια mods χρησιμοποιούσατε\n3. Χρήσιμες πληροφορίες\n\n Αν αποτύχετε να αναφέρετε κάτι επαρκώς, ΜΗΝ περιμένετε να το διορθώσουμε.</string>
     <string name="extensions_dialog_toast">ΔΙΑΒΑΣΤΕ ΟΛΟΚΛΗΡΟ ΤΟ ΚΕΙΜΕΝΟ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Επιλέξτε ένα χρώμα έμφασης</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Σχεδόν πλήρης μπαταρία</string>
     <string name="battery_light_reallyfull_color">Πλήρης (100%) Φόρτιση</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Φωτισμός LED ειδοποιήσεων</string>
     <string name="notification_light_summary">Προσαρμόστε τον φωτισμό LED για ειδοποιήσεις διαφόρων εφαρμογών</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Πληροφορίες φόρτισης στο κλείδωμα οθόνης</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">Δεξιά της ώρας</string>
     <string name="clock_date_left">Αριστερά της ώρας</string>
     <string name="clock_date_position">Θέση ημερομηνίας</string>
+    <string name="status_bar_clock_seconds_title">Εμφάνιση δευτερολέπτων</string>
+    <string name="status_bar_clock_seconds_summary">Εμφάνιση δευτ/πτων στο ρολόι της γραμμής κατάστασης</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Γρήγορο τράβηγμα προς τα κάτω</string>
     <string name="quick_pulldown_summary">Τραβώντας προς τα κάτω το %1$s άκρο της γραμμής κατάστασης ενεργοποιεί την ομάδα γρήγορων ρυθμίσεων</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Αναλογικό</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
-    <!-- Weather -->
-    <string name="weather_title">Καιρός</string>
-    <string name="weather_unit">Μονάδα μέτρησης θερμοκρασίας</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy με έμφαση</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy με έμφαση (εναλλακτικό)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Πλήρες διαβαθμισμένο ρολόι</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Μονόχρωμο διαβαθμισμένο ρολόι</string>
+    <string name="lockscreen_clock_selection_text">Ρολόι κειμένου από το Android Q</string>
     <string name="qs_styles_dialog_title">Επιλογή του QS στυλ</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Εμφάνιση εικονιδίου απενεργοποίησης δεδομένων</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">Γενικά</string>
     <string name="volume_pannel_misc">Διάφορα</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Ρυθμίσεις διακοπής οθόνης</string>
+    <string name="cutout_main_summary">Πραγματικά κόβει τις γωνίες με αυτό</string>
+    <string name="display_cutout_style_title">Στυλ εγκοπής</string>
+    <string name="display_cutout_style_normal">Κανονική</string>
+    <string name="display_cutout_style_immerse">Πλήρης</string>
+    <string name="display_cutout_style_hide">Απόκρυψη</string>
+    <string name="stock_statusbar_in_hide">Προεπιλεγμένο ύψος γραμμής κατάστασης</string>
+    <string name="stock_statusbar_in_hide_summary">Χρήση προεπιλεγμένου ύψους της γραμμής κατάστασης σε Απόκρυψη</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Προεπιλογή</string>
+    <!-- Heads up options -->
 </resources>

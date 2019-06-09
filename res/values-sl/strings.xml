@@ -93,7 +93,6 @@
     <string name="app_ops_category">Dovoljenja za aplikacijo</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomagajte nam, da vam pomagamo!</string>
-    <string name="extensions_dialog_message">Če najdete napako v katerikoli od teh nastavitev, objavite to v Bug Reports kategorijo na naši Google+ strani. Ob prijavi napake MORATE vključiti naslednje:\n\n1. Logcat ali last_kmsg\n2. Uporabljeno jedro (kernel) in modifikacije\n3. Uporabne podatke\n\nČe prijave ne izpolnite ustrezno, NE pričakujte, da bodo stvari popravljene.</string>
     <string name="extensions_dialog_toast">PREBERITE CELOTNO STVAR!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Izberite barvo poudarka</string>
@@ -342,9 +341,6 @@
     <string name="lockscreen_clock_selection_analog">Analogna</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (krepko)</string>
-    <!-- Weather -->
-    <string name="weather_title">Vreme</string>
-    <string name="weather_unit">Enote za temperaturo</string>
     <string name="qs_styles_dialog_title">Izberite slog ploščice hitrih nastavitev</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Prikaži ikono onemogočenih podatkov</string>
@@ -602,4 +598,5 @@
     <string name="volume_pannel_misc">Razno</string>
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

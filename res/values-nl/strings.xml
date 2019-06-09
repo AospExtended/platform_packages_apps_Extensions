@@ -91,7 +91,6 @@
     <string name="app_ops_category">App Ops</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help ons, help jezelf!</string>
-    <string name="extensions_dialog_message">Als je een bug vindt in een van deze settings, post het in de Bug Reports sectie van onze Google+ pagina. Je MOET het volgende toevoegen wanneer je een bug report post:\n\n1. Een logcat of last_kmsg\n2. Kernel en gebruikte mods\n3. Nuttige informatie\n\nAls je iets niet adequaat rapporteert, verwacht dan NIET dat dingen opgelost worden.</string>
     <string name="extensions_dialog_toast">LEES HET HELE DING!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Selecteer een accentkleur</string>
@@ -184,9 +183,30 @@
     <!-- Fingerprint authentication vibration -->
     <!-- Fingerprint unlock keystore -->
     <!-- Language options - Volume rocker cursor control -->
+    <string name="volume_key_cursor_control_on">Volume omhoog/omlaag beweegt cursor naar links/rechts</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume omhoog/omlaag beweegt cursor naar rechts/links</string>
     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Ontwaak door volumeknoppen</string>
+    <string name="volume_rocker_wake_summary">Drukken op de volumeknoppen zal het apparaat ontwaken</string>
     <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Volumetoetsen beantwoorden</string>
+    <string name="volume_answer_call_summary">Oproep beantwoorden wanneer de volumeknoppen worden ingedrukt</string>
+    <string name="torch_long_press_power_gesture_title">Aan/uit-knop indrukken voor zaklamp wanneer het scherm uit is</string>
+    <string name="torch_long_press_power_timeout_title">Zaklamp automatisch uitschakelen</string>
+    <string name="torch_long_press_power_timeout_never">Nooit</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuut</string>
+    <string name="torch_long_press_power_timeout_2min">2 minuten</string>
+    <string name="torch_long_press_power_timeout_5min">5 minuten</string>
+    <string name="torch_long_press_power_timeout_10min">10 minuten</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">Acculed bij opladen</string>
+    <string name="battery_charging_light_summary">Het licht bij het opladen van de batterij aanpassen</string>
+    <string name="battery_light_enable">Batterij licht</string>
+    <string name="battery_light_enabled_summary">Schakel in om de respectieve kleuren van de batterij LED te tonen</string>
+    <string name="battery_light_allow_on_dnd_title">Acculicht in Niet-storen-modus</string>
+    <string name="battery_light_allow_on_dnd_summary">Schakel in om het batterij LED licht te tonen terwijl het apparaat in Niet storen modus is</string>
+    <string name="battery_light_low_blinking_title">Knipperend lampje bij bijna lege batterij</string>
+    <string name="battery_light_low_blinking_summary">Knipper de batterij LED licht bij lage batterij</string>
     <!-- Notifications LED -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
@@ -206,7 +226,6 @@
     <!-- Screen state service -->
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -241,4 +260,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

@@ -23,20 +23,22 @@
     <string name="advanced">ขั้นสูง</string>
     <string name="cancel">ยกเลิก</string>
     <string name="choose_app">เลือกแอป</string>
+    <string name="default_text">ค่าเริ่มต้น</string>
     <string name="general_category">ทั่วไป</string>
     <string name="gestures_category">ท่าทาง</string>
     <string name="music_category">เพลง</string>
     <string name="security_category">ความปลอดภัย</string>
-    <string name="hardware_category">Hardware</string>
+    <string name="hardware_category">ฮาร์ดแวร์</string>
     <string name="icons_category">ไอคอน</string>
     <string name="aosp_recents_category">AOSP ล่าสุด</string>
+    <string name="oreo_recents_category">Oreo ล่าสุด</string>
     <string name="light_category">แสง</string>
     <string name="dlg_ok">ตกลง</string>
     <string name="attention">ข้อควรระวัง</string>
     <string name="loading">กำลังโหลด\u2026</string>
     <string name="reset">ตั้งค่าใหม่</string>
     <string name="reset_colors">ตั้งค่าสีใหม่</string>
-    <string name="reset_android">Android</string>
+    <string name="reset_android">แอนดรอยด์</string>
     <string name="text_title">ข้อความ</string>
     <string name="icon_title">ไอคอน</string>
     <string name="color_title">สี</string>
@@ -103,7 +105,7 @@
     <string name="press_color_to_apply">แตะบนสีที่ต้องการใช้</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">ตั้งค่า</string>
     <string name="color_default">ค่าเริ่มต้น</string>
@@ -113,9 +115,9 @@
     <string name="powermenu_screenshot">จับภาพหน้าจอ</string>
     <string name="powermenu_torch">ไฟฉาย</string>
     <string name="powermenu_power">ปุ่มเปิด-ปิด</string>
-    <string name="powermenu_restart">เริ่มต้นใหม่</string>
+    <string name="powermenu_restart">เริ่มต้นระบบใหม่</string>
     <string name="powermenu_restart_recovery">เริ่มระบบใหม่แบบขั้นสูง</string>
-    <string name="powermenu_airplane">โหมดเครื่องบิน</string>
+    <string name="powermenu_airplane">โหมดใช้งานบนเครื่องบิน</string>
     <string name="powermenu_settings">การตั้งค่า</string>
     <string name="powermenu_soundpanel">แผงระดับเสียง</string>
     <string name="powermenu_users">ผู้ใช้</string>
@@ -125,9 +127,10 @@
     <string name="qs_brightness_slider_summary">แสดงแถบเลื่อนความสว่างในแผงการตั้งค่าด่วน</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">แตะสองครั้งบนหน้าจอล็อกเพื่อเข้าสู่โหมดสลีป</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">แตะสองครั้งบนพื้นที่ทางลัดด้านบน หรือด้านล่างของหน้าจอล็อคเพื่อให้อุปกรณ์เข้าสู่โหมดสลีป</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">แถบสถานะ</string>
-    <string name="double_tap_to_sleep_summary">แตะ2ครั้งบนแถบสถานะเพื่อนำอุปกรณ์เข้าสู่โหมดสลีป</string>
+    <string name="double_tap_to_sleep_summary">แตะ 2 ครั้งบนแถบสถานะเพื่อนำอุปกรณ์เข้าสู่โหมดสลีป</string>
     <!-- Network traffic -->
     <string name="network_traffic_title">ข้อมูลเครือข่าย</string>
     <string name="network_traffic_type">เลือกการแสดงข้อมูล</string>
@@ -135,14 +138,16 @@
     <string name="show_network_traffic_down">ข้อมูลขาเข้า</string>
     <string name="show_network_traffic_all">ข้อมูลขาออกและขาเข้า</string>
     <string name="network_traffic_state_title">แสดงความเร็วข้อมูลบนแถบสถานะ</string>
-    <string name="network_traffic_autohide_threshold_title">ซ่อนแถบแสดงข้อมูลอัติโนมัติ(kb/s)</string>
+    <string name="network_traffic_autohide_threshold_title">ซ่อนแถบแสดงข้อมูลอัตโนมัติ (KB/s)</string>
     <!-- Heads up -->
     <string name="headsup_category">ตั้งค่าการแจ้งเตือนด้านบน</string>
     <string name="heads_up_notifications">การแจ้งเตือนด้านบน</string>
+    <string name="heads_up_notifications_summary">ปรับแต่งการตั้งค่าการแจ้งเตือนด้านบน</string>
     <string name="summary_heads_up_enabled">เปิดใช้งานการแจ้งเตือนแบบป๊อปอัพ</string>
     <string name="summary_heads_up_disabled">ปิดใช้งานการแจ้งเตือนแบบป๊อปอัพ</string>
     <string name="add_heads_up_package">เพิ่มแอป</string>
-    <string name="add_heads_up_blacklist_summary">ปิดการแจ้งเตือนในแอปพลิเคชันเหล่านี้</string>
+    <string name="add_heads_up_stoplist_summary">ปิดใช้งานการแจ้งเตือนด้านบนทั้งหมดเมื่อใช้แอปพลิเคชันเหล่านี้</string>
+    <string name="add_heads_up_blacklist_summary">ปิดการแจ้งเตือนด้านบนในแอปพลิเคชันเหล่านี้</string>
     <string name="heads_up_stoplist_title">ปิดบัญชี</string>
     <string name="heads_up_blacklist_title">บัญชีดำ</string>
     <string name="profile_choose_app">เลือกแอป</string>
@@ -150,7 +155,7 @@
     <string name="dialog_delete_message">ลบรายการที่เลือกหรือไม่</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">หมดเวลา</string>
-    <string name="heads_up_time_out_summary">ซ่อนการแสดงการแจ้งเตือน <xliff:g id="number">%d</xliff:g> วินาที</string>
+    <string name="heads_up_time_out_summary">ซ่อนการแสดงการแจ้งเตือน <xliff:g id="ตัวเลข">%d</xliff:g> วินาที</string>
     <string name="heads_up_time_out_2sec">2 วินาที</string>
     <string name="heads_up_time_out_4sec">4 วินาที</string>
     <string name="heads_up_time_out_5sec">5 วินาที</string>
@@ -159,8 +164,8 @@
     <string name="heads_up_time_out_10sec">10 วินาที</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">ตั้งเวลาปลุก</string>
-    <string name="heads_up_snooze_summary_one_minute">ปัดขึ้นเพื่อทำการแจ้งเตือนซ้ำอีก1นาที</string>
-    <string name="heads_up_snooze_summary">ปัดขึ้นเพื่อทำการแจ้งเตือนซ้ำ <xliff:g id="number">%d</xliff:g>นาที</string>
+    <string name="heads_up_snooze_summary_one_minute">ปัดขึ้นเพื่อทำการแจ้งเตือนซ้ำอีก 1 นาที</string>
+    <string name="heads_up_snooze_summary">ปัดขึ้นเพื่อทำการแจ้งเตือนซ้ำ <xliff:g id="ตัวเลข">%d</xliff:g>นาที</string>
     <string name="heads_up_snooze_disabled_summary">การตั้งปลุกไม่ทำงาน</string>
     <string name="heads_up_snooze_1min">1 นาที</string>
     <string name="heads_up_snooze_5min">5 นาที</string>
@@ -171,7 +176,7 @@
     <string name="face_auto_unlock_summary">ยกเลิกหน้าจอล็อกหลังจากปลดล็อกด้วยใบหน้า</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">แสดงการโรมมิ่ง</string>
-    <string name="roaming_indicator_icon_summary">ไอค่อนแจ้งเตือนเมื่อมีการโรมมิ่ง</string>
+    <string name="roaming_indicator_icon_summary">ไอคอนแจ้งเตือนเมื่อมีอยู่ในโหมดโรมมิ่ง</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">ไอคอน 4G</string>
     <string name="show_fourg_icon_summary">แสดงสัญลักษณ์ 4G แทนสัญลักษณ์ LTE</string>
@@ -182,24 +187,24 @@
     <string name="volume_rocker_music_controls_summary">เมื่อปิดหน้าจอ, กดปุ่มปรับเสียงค้างใว้เพื่อเปลี่ยนเพลง</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">สั่นเมื่อทำการตรวจสอบลายนิ้วมือ</string>
-    <string name="fprint_sucess_vib_summary">สั่นเมื่อประสบความสำเร็จในการตรวจสอบ</string>
+    <string name="fprint_sucess_vib_summary">สั่นเมื่อเมื่อตรวจสอบลายนิ้วมือสำเร็จ</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">ปลดล็อคด้วยลายนิ้วมือ</string>
-    <string name="fp_unlock_keystore_summary">ปลดล็อคเครื่องหลังจากเริ่มระบบใหม่ด้วยลายนิ้วมือเพียงอย่างเดียว\nNote:มีความเสี่ยง</string>
+    <string name="fp_unlock_keystore_summary">ปลดล็อคเครื่องหลังจากเริ่มระบบใหม่ด้วยลายนิ้วมือเพียงอย่างเดียว\nNote: มีความเสี่ยง</string>
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">เคอร์เซอร์</string>
-    <string name="volume_key_cursor_control_title">ใช้ปุ่มปรับระดับเสียงควบคุมเคอเซอร์</string>
+    <string name="volume_key_cursor_control_title">ใช้ปุ่มปรับระดับเสียงควบคุมเคอร์เซอร์</string>
     <string name="volume_key_cursor_control_off">ปิดการใช้งาน</string>
-    <string name="volume_key_cursor_control_on">เพิ่ม/ลด ระดับเสียง ขยับเคอเซอร์ ซ้าย/ขวา</string>
-    <string name="volume_key_cursor_control_on_reverse">เพิ่ม/ลด ระดับเสียง ขยับเคอเซอร์ ขวา/ซ้าย</string>
+    <string name="volume_key_cursor_control_on">เพิ่ม/ลด ระดับเสียง ขยับเคอร์เซอร์ ซ้าย/ขวา</string>
+    <string name="volume_key_cursor_control_on_reverse">เพิ่ม/ลด ระดับเสียง ขยับเคอร์เซอร์ ขวา/ซ้าย</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">ปุ่มปรับระดับเสียงเพื่อปิดเสียงเรียกเข้า</string>
     <string name="volume_rocker_wake_summary">การกดปุ่มปรับระดับเสียงเพื่อจะปลุกอุปกรณ์ของคุณ</string>
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">รับสายด้วยปุ่มปรับระดับเสียง</string>
     <string name="volume_answer_call_summary">รับสายเมื่อกดปุ่มปรับระดับเสียง</string>
-    <string name="torch_long_press_power_gesture_title">กดปุ่มเปิด-ปิดขณะปิดหน้าจอเพื่อเปิดไฟฉาย</string>
-    <string name="torch_long_press_power_gesture_desc">กดปุ่มเพาเวอร์ค้างใว้ในขณะที่หน้าจอปิดอยู่เพื่อเปิดไฟฉาย</string>
+    <string name="torch_long_press_power_gesture_title">กดปุ่มเปิด-ปิด ขณะปิดหน้าจอเพื่อเปิดไฟฉาย</string>
+    <string name="torch_long_press_power_gesture_desc">กดปุ่มเปิด-ปิด ค้างใว้ในขณะที่หน้าจอปิดอยู่เพื่อเปิดไฟฉาย</string>
     <string name="torch_long_press_power_timeout_title">ปิดไฟฉายอัตโนมัติ</string>
     <string name="torch_long_press_power_timeout_never">ไม่เคย</string>
     <string name="torch_long_press_power_timeout_1min">1 นาที</string>
@@ -207,15 +212,22 @@
     <string name="torch_long_press_power_timeout_5min">5 นาที</string>
     <string name="torch_long_press_power_timeout_10min">10 นาที</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">ไฟแสดงสถานะการชาร์จ​แบตเตอรี่</string>
+    <string name="battery_charging_light_summary">ปรับแต่งไฟการแจ้งเตือนชาร์จแบตเตอรี่</string>
     <string name="battery_light_enable">ไฟแจ้งเตือนแบตเตอรี่</string>
+    <string name="battery_light_enabled_summary">เปิดใช้งานเพื่อแสดงสีที่เกี่ยวข้องในไฟการแจ้งเตือนของแบตเตอรี่</string>
     <string name="battery_light_allow_on_dnd_title">ไฟแจ้งเมื่ออยู่ในโหมดห้ามรบกวน</string>
+    <string name="battery_light_allow_on_dnd_summary">เปิดใช้งานเพื่อแสดงไฟการแจ้งเตือน ของแบตเตอรี่ขณะที่อุปกรณ์อยู่ในโหมดห้ามรบกวน</string>
     <string name="battery_light_low_blinking_title">ไฟกะพริบเมื่อแบตเตอรี่ต่ำ</string>
+    <string name="battery_light_low_blinking_summary">ไฟกะพริบการแจ้งเตือนของแบตเตอรี่เมื่อแบตเตอรี่อ่อน</string>
     <string name="battery_light_cat">แบตเตอรี่ไฟสีขณะชาร์จ</string>
     <string name="battery_light_low_color">แบตเตอรี่ต่ำ</string>
     <string name="battery_light_medium_color">แบตเตอรี่ปานกลาง</string>
     <string name="battery_light_full_color">แบตเตอรี่เกือบเต็ม</string>
     <string name="battery_light_reallyfull_color">แบตเตอรี่เต็ม (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">ไฟการแจ้งเตือน</string>
+    <string name="notification_light_summary">ปรับแต่งไฟการแจ้งเตือนสำหรับแอพต่างๆ</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">แสดงข้อมูลการชาร์จในหน้าจอล็อค</string>
     <string name="lockscreen_battery_info_summary">แสดงรายละเอียด กระแสสูงสุด แรงดันไฟฟ้าและอุณหภูมิแบตเตอรี่บนหน้าจอล็อกขณะชาร์จ</string>
@@ -253,20 +265,37 @@
     <string name="quick_settings_vibrate_title">สั่นเมื่อแตะ</string>
     <string name="quick_settings_vibrate_summary">สั่นเมื่อแตะแผงตั้งค่าด่วน</string>
     <!-- Status bar clock and date options -->
+    <string name="status_bar_clock">นาฬิกา &amp; วันที่</string>
     <string name="status_bar_clock_title">การตั้งค่าเวลา</string>
+    <string name="clock_enabled">เปิดใช้งาน</string>
+    <string name="clock_disabled">ปิด​ใช้​งาน</string>
+    <string name="status_bar_clock_style_reset">ตั้งค่าสีใหม่</string>
+    <string name="status_bar_show_clock_title">แสดงนาฬิกา &amp; วัน</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">เปิดใช้งานนาฬิกาแบบ 24 ชั่วโมง</string>
+    <string name="enable_clock_weekday">วันของสัปดาห์</string>
+    <string name="enable_clock_weekday_summary">วันที่ย่อของสัปดาห์ก่อนเวลา</string>
+    <string name="dont_show">ไม่ต้องแสดง</string>
     <string name="clock_date_display">วัน</string>
     <string name="clock_date_display_summary">แสดงวันอยู่หน้าเวลา</string>
     <string name="clock_date_style">รูปแบบวันที่</string>
     <string name="clock_date_format">รูปแบบวันที่</string>
     <string name="clock_date_string_edittext_title">ต้องเป็นรูปแบบวันที่ เช่น เดือน/วัน/ปี</string>
     <string name="clock_date_string_edittext_summary">ป้อนข้อความ</string>
+    <string name="am_pm_clock_normal">ขนาดตัวอักษรปกติ</string>
+    <string name="am_pm_clock_small">ขนาดตัวอักษรเล็ก</string>
+    <string name="am_pm_clock_none">ไม่แสดง</string>
     <string name="clock_date_display_none">ไม่ต้องแสดง</string>
     <string name="clock_date_display_small">ขนาดแบบอักษรขนาดเล็ก</string>
     <string name="clock_date_display_normal">ขนาดแบบอักษรปกติ</string>
     <string name="clock_date_style_normal">ปกติ</string>
     <string name="clock_date_style_lowercase">ตัวพิมพ์เล็ก</string>
     <string name="clock_date_style_uppercase">ตัวพิมพ์ใหญ่</string>
+    <string name="clock_date_right">เวลาที่เหมาะสม</string>
+    <string name="clock_date_left">เหลือเวลา</string>
+    <string name="clock_date_position">ตำแหน่งวันที่</string>
+    <string name="status_bar_clock_seconds_title">แสดงวินาที</string>
+    <string name="status_bar_clock_seconds_summary">รวมวินาที ในแถบสถานะของนาฬิกา</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">ปัดแถบสถานะลงอย่างเร็ว</string>
     <string name="quick_pulldown_summary">%1$s ปัดที่มุมของแถบการแจ้งเตือนเพื่อเปิดแผงการตั้งค่าอย่างรวดเร็ว</string>
@@ -283,8 +312,11 @@
     <string name="smart_pulldown_summary">เปิดแผงตั้งค่าด่วนอย่างรวดเร็วเมื่อมีการแจ้งเตือน %1$s</string>
     <string name="smart_pulldown_none_summary">เปิดแผงตั้งค่าอย่างรวดเร็วเมื่อไม่มีการแจ้งเตือน</string>
     <string name="smart_pulldown_off">ปิด</string>
+    <string name="smart_pulldown_none">ไม่มีการแจ้งเตือน</string>
+    <string name="smart_pulldown_dismissable">ไม่สามารถยกเลิกใด้</string>
     <string name="smart_pulldown_ongoing">ไม่ต่อเนื่อง</string>
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">กำหนดค่า การดำเนินการบางอย่างเมื่อปิดหน้าจอ</string>
     <string name="screen_state_toggles_title">ระงับการดำเนินการ</string>
     <string name="screen_state_toggles_enable_title">เปิดใช้งาน</string>
     <string name="screen_state_toggles_enable_summary">การดำเนินการจะปิดหน้าจอ เมื่อหน้าจอเปิดสถานะก่อนหน้าจะถูกคืนค่า</string>
@@ -312,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">อนาล็อก</string>
     <string name="lockscreen_clock_selection_sammy">แซมมี่</string>
     <string name="lockscreen_clock_selection_sammy_bold">แซมมี่ (ตัวหนา)</string>
-    <!-- Weather -->
-    <string name="weather_title">สภาพอากาศ</string>
-    <string name="weather_unit">หน่วยอุณหภูมิ</string>
+    <string name="lockscreen_clock_selection_sammy_accent">แซมมี่ ด้วยสำเนียง</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">แซมมี่ ด้วยสำเนียง (เสียงสูง)</string>
+    <string name="lockscreen_clock_selection_gradient_full">นาฬิกาไล่ระดับโทนสีเต็ม</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">นาฬิกาไล่โทนสีขาวดำ</string>
+    <string name="lockscreen_clock_selection_text">นาฬิกาข้อความ Android Q</string>
     <string name="qs_styles_dialog_title">เลือกรูปแบบแผงการตั่งค่าด่วน</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">แสดงไอค่อนข้อมูลที่ปิดใช้งาน</string>
@@ -345,6 +379,7 @@
     <!-- Ambient display music ticker -->
     <string name="force_ambient_for_media_pref_title">แสดงรายละเอียดเพลงบนจอAmbient</string>
     <string name="force_ambient_for_media_pref_summary">ปรับการแสดงรายละเอียดเพลงบนจอAmbient</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker แสดงข้อมูลการเล่นแทร็กเพลงภายใน Ambient Display\n\n นอกจากนี้ยังมีการเปิดใช้งาน ถ้า Ambient Display ถูกปิดการใช้งานเมื่อเริ่มแทร็กใหม่บังคับให้หน้าจอแอมเบียนต์ที่โล่ง\n\nคุณยังสามารถแตะสองครั้งที่ข้อมูลแทร็กเพื่อข้ามแทร็ก\n\nหากคุณเป็นเจ้าของ Pixel และเปิดใช้งาน Now Playing และการแจ้งเตือนในการตั้งค่าระบบเสียง Ambient Music Ticker จะทำงานได้เช่นกัน</string>
     <string name="force_ambient_for_media_title">เปิดใช้งาน</string>
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">ปุ่มปรับความสว่าง</string>
@@ -387,8 +422,23 @@
     <string name="animations_title">ภาพเคลื่อนไหว</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">ควบคุมความสว่าง</string>
+    <string name="status_bar_toggle_brightness_summary">ปรับความสว่างหน้าจอโดยเลื่อนไปตามแถบสถานะ</string>
     <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">ท่าทางสามนิ้ว</string>
+    <string name="three_finger_gesture_summary">ใช้สามนิ้วปัดเพื่อถ่ายภาพหน้าจอ</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">แถบแบตเตอรี่</string>
+    <string name="battery_bar_summary">แสดงและปรับแต่งแถบแบตเตอรี่ใกล้กับแถบสถานะหรือแถบนำทาง</string>
+    <string name="battery_bar">ตำแหน่งของแถบแบตเตอรี่</string>
+    <string name="battery_bar_no_navbar">ตำแหน่งของแถบแบตเตอรี่</string>
+    <string name="battery_bar_location_hide">ซ่อน</string>
+    <string name="battery_bar_location_statusbar">แถบสถานะ</string>
+    <string name="battery_bar_location_top_navbar">ด้านบนของแถบนำทาง</string>
+    <string name="battery_bar_location_bottom_navbar">ด้านล่างของแถบนำทาง</string>
+    <string name="battery_bar_color">แถบสีแบตเตอรี่</string>
+    <string name="battery_bar_charging_color">แถบสีชาร์จแบตเตอรี่</string>
+    <string name="battery_bar_battery_low_color">แถบสีแบตเตอรี่เมื่อเหลือน้อย</string>
+    <string name="battery_bar_cat">สไตล์แถบแบตเตอรี่</string>
     <!-- Rounded corners -->
     <!-- AOKP custom system animations -->
     <string name="animation_duration_default">ค่าตั้งต้น</string>
@@ -409,5 +459,12 @@
     <!-- Less Notification sounds -->
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">ปกติ</string>
+    <string name="display_cutout_style_immerse">ขยายจอ</string>
+    <string name="display_cutout_style_hide">ซ่อน</string>
+    <string name="stock_statusbar_in_hide">ความสูงของแถบสถานะดั่งเดิม</string>
+    <string name="stock_statusbar_in_hide_summary">ใช้ความสูงเริ่มต้นของแถบสถานะในการซ่อน</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">ค่าเริ่มต้น</string>
+    <!-- Heads up options -->
 </resources>

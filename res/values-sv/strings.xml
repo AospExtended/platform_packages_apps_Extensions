@@ -273,9 +273,6 @@
     <string name="lockscreen_clock_selection_analog">Analog</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (fetstil)</string>
-    <!-- Weather -->
-    <string name="weather_title">Väder</string>
-    <string name="weather_unit">Temperaturenhet</string>
     <string name="qs_styles_dialog_title">Välj stil på snabbinställningar</string>
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
@@ -404,4 +401,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

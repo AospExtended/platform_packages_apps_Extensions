@@ -92,13 +92,6 @@
     <string name="app_ops_category">앱 작업</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">돕도록 해주세요!</string>
-    <string name="extensions_dialog_message">만약 이 설정들과 관련된 어떤 버그라도 찾게 되면, 우리의 Google+ 페이지에 버그리포트를 게시해주세요. 반드시 다음 내용들을 포함해서 게시하셔야 합니다.
-
-1. logcat 또는 last_kmsg
-2. 사용중인 커널이나 모드
-3. 기타 유용한 정보
-
-만약 적절하게 리포트되지 않으면 해당 버그들이 수정되지 않을 수 있습니다.</string>
     <string name="extensions_dialog_toast">본문을 모두 읽어주세요!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">강조 색상 선택</string>
@@ -217,15 +210,19 @@
     <string name="torch_long_press_power_timeout_5min">5분</string>
     <string name="torch_long_press_power_timeout_10min">10분</string>
     <!-- Battery light -->
+    <string name="battery_light_settings">배터리 충전 표시</string>
     <string name="battery_light_enable">배터리 표시등</string>
     <string name="battery_light_allow_on_dnd_title">방해 금지 모드에서 배터리 표시등 사용</string>
+    <string name="battery_light_allow_on_dnd_summary">방해 금지 모드에서 배터리 표시등을 보이려면 활성화하세요</string>
     <string name="battery_light_low_blinking_title">배터리 부족시 표시등 깜박임</string>
+    <string name="battery_light_low_blinking_summary">배터리가 별로 없을 때 배터리 표시등을 깜빡입니다</string>
     <string name="battery_light_cat">충전시 배터리 표시등</string>
     <string name="battery_light_low_color">배터리 부족</string>
     <string name="battery_light_medium_color">배터리 보통</string>
     <string name="battery_light_full_color">거의 충전됨</string>
     <string name="battery_light_reallyfull_color">충전 완료</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">알림 표시등</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">잠금 화면 배터리 정보</string>
     <string name="lockscreen_battery_info_summary">충전 중일 때 잠금 화면에 충전기의 최대 전류 및 전압과 배터리의 온도를 표시합니다</string>
@@ -326,9 +323,6 @@
     <string name="screen_state_on_delay_summary">화면이 켜진 후 일시 중지된 기능 복구 전 대기 시간</string>
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
-    <string name="weather_title">날씨</string>
-    <string name="weather_unit">온도 단위</string>
     <string name="qs_styles_dialog_title">빠른 설정 타일 스타일 선택</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">데이터 사용 중지 아이콘 표시</string>
@@ -553,9 +547,29 @@
     <!-- Volume Steps Fragment -->
     <!-- Incall vibrate options -->
     <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">앱 종료 버튼</string>
+    <string name="notification_guts_kill_app_button_summary">알림을 길게 눌렀을 때 앱 종료 버튼 보이기</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_summary">화면이 켜져있을 때 알림 소리 및 진동을 차단합니다</string>
     <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">스마트 알림 소리</string>
+    <string name="less_notification_sounds_default">앱 기본</string>
+    <string name="less_notification_sounds_10s">10초마다</string>
+    <string name="less_notification_sounds_30s">30초마다</string>
+    <string name="less_notification_sounds_1m">1분마다</string>
+    <string name="less_notification_sounds_2m">2분마다</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_title">볼륨 패널</string>
+    <string name="audio_panel_view_ringer_title">벨소리</string>
+    <string name="audio_panel_view_ringer_title_summary">볼륨 패널에서 벨소리 크기 조절하기</string>
+    <string name="audio_panel_view_position_title">볼륨 패널 왼쪽에 표시하기</string>
+    <string name="audio_panel_view_position_summary">볼륨 패널이 화면의 왼쪽에 보입니다</string>
+    <string name="volume_pannel_general">일반</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">디스플레이 컷아웃 설정</string>
+    <string name="display_cutout_style_title">컷아웃 스타일</string>
+    <string name="display_cutout_style_normal">기본</string>
+    <string name="stock_statusbar_in_hide">기본 상태 표시줄 높이</string>
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

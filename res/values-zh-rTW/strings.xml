@@ -93,7 +93,6 @@
     <string name="app_ops_category">權限管理</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">幫助我們也幫助您！</string>
-    <string name="extensions_dialog_message">發現這些錯誤有任何 BUG 時，請到我們的 Google+ 頁面的 BUG 報告文章並貼文說明。 BUG 報告必須包含下列內容：\n\n1. logcat 或是 last_kmsg\n2. 所用的内核及mod 版本\n3. 有用的資訊\n\n若不能適當回報 BUG，請不要期望問題會得到修復。</string>
     <string name="extensions_dialog_toast">請閱讀全部的內容！</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">選取一個強調色</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">電池幾乎已滿</string>
     <string name="battery_light_reallyfull_color">電池已滿 (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">通知指示燈</string>
     <string name="notification_light_summary">為個別應用程式自訂其通知指示燈</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">鎖定畫面充電資訊</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">時鐘右側</string>
     <string name="clock_date_left">時鐘左側</string>
     <string name="clock_date_position">日期位置</string>
+    <string name="status_bar_clock_seconds_title">顯示秒數</string>
+    <string name="status_bar_clock_seconds_summary">狀態列時鐘顯示秒數</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">快速下拉</string>
     <string name="quick_pulldown_summary">從狀態列的%1$s邊拉下近入快速設定</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">類比</string>
     <string name="lockscreen_clock_selection_sammy">豎式時鐘</string>
     <string name="lockscreen_clock_selection_sammy_bold">豎式時鐘（粗體）</string>
-    <!-- Weather -->
-    <string name="weather_title">天氣</string>
-    <string name="weather_unit">溫度單位</string>
+    <string name="lockscreen_clock_selection_sammy_accent">有強調色的豎式時鐘</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">有強調色的豎式時鐘(另一種)</string>
+    <string name="lockscreen_clock_selection_gradient_full">完全梯度時鐘</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">單色梯度時鐘</string>
+    <string name="lockscreen_clock_selection_text">Android Q 文字時鐘</string>
     <string name="qs_styles_dialog_title">選擇快速設定的標題樣式</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">顯示關閉行動網路的圖示</string>
@@ -545,8 +549,8 @@
     <string name="smart_pixels_shift_summary">透過經常移動像素塊來防止使用 OLED 螢幕的裝置烙印</string>
     <string name="lockscreen_items_other">其它</string>
     <string name="gesture_settings_title">手勢操作</string>
-    <string name="gesture_settings_info">必須停用導覽列！\n\n可用的手勢：\n\n返回\n - 向左或向右滑動 \n\n主畫面\n - 向上滑動中心\n\n最近使用的應用程式\n - 在中心向上滑動並按住\n\n最後的應用程式\n - 短暫向上滑動並保持在中心位置</string>
-    <string name="gesture_settings_info_new">必須停用導覽列！\n\n可用的手勢：\n\n返回\n - 向左或向右滑動 \n\n主畫面\n - 向上滑動中心\n\n最近使用的應用程式\n - 向上滑動並按住\n\n以切換到最後的應用程式\n - 短暫向上滑動並保持在中心位置</string>
+    <string name="gesture_settings_info">必須停用導覽列！\n\n可用的手勢：\n\n返回\n - 從左側或右側向上滑動 \n\n主畫面\n - 從中心向上滑動\n\n最近使用的應用程式\n - 從中心向上滑動並按住\n\n最後的應用程式\n - 短暫向上滑動並保持在中心位置</string>
+    <string name="gesture_settings_info_new">必須停用導覽列！\n\n可用的手勢：\n\n返回\n - 從左側或右側向上滑動 \n\n主畫面\n - 從中心向上滑動\n\n最近使用的應用程式\n - 從中心向上滑動並按住\n\n最後的應用程式\n - 短暫向上滑動並保持在中心位置</string>
     <string name="use_bottom_gesture_title">導航手勢</string>
     <string name="use_bottom_gesture_summary">使用底部向上滑動手勢進行導航</string>
     <string name="gesture_swipe_length_title">滑動觸發高度</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">一般</string>
     <string name="volume_pannel_misc">其他設定</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">顯示剪切設定</string>
+    <string name="cutout_main_summary">他們真的把這個的角落切掉了</string>
+    <string name="display_cutout_style_title">鑼空風格</string>
+    <string name="display_cutout_style_normal">正常</string>
+    <string name="display_cutout_style_immerse">沉浸式</string>
+    <string name="display_cutout_style_hide">隱藏</string>
+    <string name="stock_statusbar_in_hide">原生狀態欄高度</string>
+    <string name="stock_statusbar_in_hide_summary">在隱藏中使用默認狀態欄高度</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">預設</string>
+    <!-- Heads up options -->
 </resources>

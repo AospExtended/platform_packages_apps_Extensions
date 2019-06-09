@@ -23,6 +23,7 @@
     <string name="advanced">Avansate</string>
     <string name="cancel">Anulați</string>
     <string name="choose_app">Alege aplicația</string>
+    <string name="default_text">Def</string>
     <string name="general_category">Comune</string>
     <string name="gestures_category">Gesturi</string>
     <string name="music_category">Muzică</string>
@@ -165,7 +166,6 @@
     <!-- Screen state service -->
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
@@ -198,4 +198,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

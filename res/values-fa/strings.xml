@@ -23,6 +23,7 @@
     <string name="advanced">پیشرفته</string>
     <string name="cancel">لغو</string>
     <string name="choose_app">انتخاب برنامه‌</string>
+    <string name="default_text">پیشفرض</string>
     <string name="general_category">عمومی</string>
     <string name="gestures_category">ژست های حرکتی</string>
     <string name="music_category">موسیقی</string>
@@ -30,6 +31,7 @@
     <string name="hardware_category">سخت‌افزار</string>
     <string name="icons_category">آیکن‌‌ها</string>
     <string name="aosp_recents_category">برنامه های اخیر AOSP</string>
+    <string name="oreo_recents_category">حالت برنامه های باز اندروید اریو</string>
     <string name="light_category">چراغ‌ها</string>
     <string name="dlg_ok">تأیید</string>
     <string name="attention">توجه</string>
@@ -91,13 +93,6 @@
     <string name="app_ops_category">اقدامات مربوط به برنامه‌ها</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">کمک به ما کمک به شما!</string>
-    <string name="extensions_dialog_message">اگر ایرادی در هر یک از این تنطیمات دیدید، ایراد را در قسمت گزارش باگ یا ایراد واقع در صفحه گوگل پلاس پست کنید. شما باید این موارد را در پست تان قرار دهید:
-
-1. یک logcat یا last_kmsg
-2. کرنل و مود های استفاده شده
-3. اطلاعات کاربردی 
-
-اگر ایراد یا باگ رابه درستی گزارش نکنید، انتظار رفع مشکل را نداشته باشید.</string>
     <string name="extensions_dialog_toast">همه چیز را بخوانید!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">رنگ accent را انتخاب نمایید</string>
@@ -310,9 +305,6 @@
     <string name="screen_state_on_delay_summary">میزان زمانی که صبر می کند قبل از اینکه عملکردی در روشن شدن صفحه انجام دهد</string>
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
-    <!-- Weather -->
-    <string name="weather_title">آب و هوا</string>
-    <string name="weather_unit">واحد دما</string>
     <string name="qs_styles_dialog_title">انتخاب سبک کاشی های تنطیمات سریع</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">نشان دادن ایکون داده غیرفعال</string>
@@ -368,4 +360,5 @@
     <!-- Audio Panel view  -->
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
+    <!-- Heads up options -->
 </resources>

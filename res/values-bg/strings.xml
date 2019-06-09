@@ -93,7 +93,6 @@
     <string name="app_ops_category">Операции на приложенията</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Помогнете ни, за да ви помогнем!</string>
-    <string name="extensions_dialog_message">Ако откриете бъг с някоя от тези настройки, моля докладвайте за грешки на нашата страница в Google+. Докладът за грешка трябва да включва следната информация: \n\n1. Logcat или last_kmsg\n2. Използвано ядро и модове\n3. Полезна информация\n\nАко не успеете адекватно да опишете проблема, не очаквайте нещата да бъдат поправени.</string>
     <string name="extensions_dialog_toast">ПРОЧЕТЕТЕ ДО КРАЙ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Изберете цвят за акцентиране</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Почти пълна батерия</string>
     <string name="battery_light_reallyfull_color">Заредена (100) батерия</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">Светлинна Лед индикация на известия</string>
     <string name="notification_light_summary">Настрой уведомленията чрез ЛЕД светлина за различните приложения</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация за зареждането на заключен екран</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">Вдясно от часовника</string>
     <string name="clock_date_left">Вляво от часовника</string>
     <string name="clock_date_position">Позиция на датата</string>
+    <string name="status_bar_clock_seconds_title">Покажи секунди</string>
+    <string name="status_bar_clock_seconds_summary">Включи секунди към часовника в лентата на състоянието</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Бързи настройки</string>
     <string name="quick_pulldown_summary">Дръпнете %1$s страна на лентата на състоянието за бързи настройки</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Аналогов</string>
     <string name="lockscreen_clock_selection_sammy">Самми</string>
     <string name="lockscreen_clock_selection_sammy_bold">Самми (удебелен)</string>
-    <!-- Weather -->
-    <string name="weather_title">Времето</string>
-    <string name="weather_unit">Температурни единици</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Самми с акцент</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Самми с акцент (алтернативен)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Часовник с пълен градиент</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Монохромен градиент часовник</string>
+    <string name="lockscreen_clock_selection_text">Андроид Q текст часовник</string>
     <string name="qs_styles_dialog_title">Изберете стил на плочките</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Покажи икона при забранени данни</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">Основни</string>
     <string name="volume_pannel_misc">Разни</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Настройки на екранния силует</string>
+    <string name="cutout_main_summary">Те наистина изрязват ъглите с това</string>
+    <string name="display_cutout_style_title">Силует стил</string>
+    <string name="display_cutout_style_normal">Нормален</string>
+    <string name="display_cutout_style_immerse">Вложен</string>
+    <string name="display_cutout_style_hide">Скрий</string>
+    <string name="stock_statusbar_in_hide">Стандартна височина на лентата на състоянието</string>
+    <string name="stock_statusbar_in_hide_summary">Използвайте височината на статусбара по подразбиране при скриване</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">По подразбиране</string>
+    <!-- Heads up options -->
 </resources>

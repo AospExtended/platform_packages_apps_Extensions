@@ -93,7 +93,6 @@
     <string name="app_ops_category">Дозволи додатків</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Допоможіть нам допомогти Вам!</string>
-    <string name="extensions_dialog_message">Якщо Ви знайшли баг у будь-яких з цих налаштувань, напишіть про це у секцію \"Bug Reports\" на нашій сторінці в Google+. Ви ПОВИННІ додати наступне коли будете писати про баг:\n\n1. Logcat чи last_kmsg;\n2. Ядро та модифікації, що встановлені;\n3. Корисна інформація\n\nЯкщо Ви не можете адекватно надати необхідну інформацію, НЕ ОЧІКУЙТЕ, що щось буде виправлено.</string>
     <string name="extensions_dialog_toast">ПРОЧИТАЙТЕ ВСЕ ЦЕ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Виберіть колір акценту</string>
@@ -227,6 +226,7 @@
     <string name="battery_light_full_color">Майже повний заряд батареї</string>
     <string name="battery_light_reallyfull_color">Повний (100) заряд</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">LED світло сповіщень</string>
     <string name="notification_light_summary">Налаштувати сповіщення кольором для різних додатків</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
@@ -294,6 +294,8 @@
     <string name="clock_date_right">Праворуч від часу</string>
     <string name="clock_date_left">Ліворуч від часу</string>
     <string name="clock_date_position">Розташування дати</string>
+    <string name="status_bar_clock_seconds_title">Показати секунди</string>
+    <string name="status_bar_clock_seconds_summary">Відображати годинник з секундами в рядку стану</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Швидкий доступ</string>
     <string name="quick_pulldown_summary">%1$s край рядку стану при опусканні вниз відкриває панель швидких налаштувань</string>
@@ -342,9 +344,11 @@
     <string name="lockscreen_clock_selection_analog">Аналоговий</string>
     <string name="lockscreen_clock_selection_sammy">Вертикальний</string>
     <string name="lockscreen_clock_selection_sammy_bold">Вертикальний (жирний)</string>
-    <!-- Weather -->
-    <string name="weather_title">Погода</string>
-    <string name="weather_unit">Одиниця температури</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy з акцентом</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy з акцентом (альтернативний)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Годинник з повним градієнтом</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Годинник з монохромним градієнтом</string>
+    <string name="lockscreen_clock_selection_text">Текстовий годинник із Android Q</string>
     <string name="qs_styles_dialog_title">Вибрати стиль плиток Швидких налаштувань</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Відображати іконку вимкнених даних</string>
@@ -601,5 +605,15 @@
     <string name="volume_pannel_general">Загальні</string>
     <string name="volume_pannel_misc">Інше</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Налаштування відображення вирізу</string>
+    <string name="cutout_main_summary">Вони справді зрізають цим кути</string>
+    <string name="display_cutout_style_title">Стиль вирізу</string>
+    <string name="display_cutout_style_normal">Звичайний</string>
+    <string name="display_cutout_style_immerse">Занурений</string>
+    <string name="display_cutout_style_hide">Приховати</string>
+    <string name="stock_statusbar_in_hide">Стандартна висота панелі стану</string>
+    <string name="stock_statusbar_in_hide_summary">Використовувати стандартну  висоту рядку стану якщо в режимі \"Приховано\"</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">За замовчуванням</string>
+    <!-- Heads up options -->
 </resources>

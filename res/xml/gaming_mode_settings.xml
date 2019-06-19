@@ -12,11 +12,18 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="gaming_mode_master_switch"
+        android:title="@string/gaming_mode_master_title"
+        android:summary="@string/gaming_mode_master_summary"
+        android:defaultValue="true" />
+
     <!-- Loudspeaker for calls -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_speaker_in_call_toggle"
         android:title="@string/gaming_mode_speaker_title"
         android:summary="@string/gaming_mode_speaker_summary"
+        android:dependency="gaming_mode_master_switch"
         android:defaultValue="false" />
 
     <!-- HeadsUP -->
@@ -24,6 +31,7 @@
         android:key="gaming_mode_headsup_toggle"
         android:title="@string/gaming_mode_headsup_title"
         android:summary="@string/gaming_mode_headsup_summary"
+        android:dependency="gaming_mode_master_switch"
         android:defaultValue="true" />
 
     <!-- Hardware keys -->
@@ -31,35 +39,44 @@
         android:key="gaming_mode_hw_keys_toggle"
         android:title="@string/gaming_mode_hardware_keys_title"
         android:summary="@string/gaming_mode_hardware_keys_summary"
-        android:defaultValue="true" />
+        android:dependency="gaming_mode_master_switch"
+        android:defaultValue="false" />
 
     <!-- Manual brightness -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_manual_brightness_toggle"
         android:title="@string/gaming_mode_brightness_title"
         android:summary="@string/gaming_mode_brightness_summary"
+        android:dependency="gaming_mode_master_switch"
         android:defaultValue="true" />
 
-    <!-- DND -->
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="gaming_mode_enter_dnd"
-        android:title="@string/gaming_mode_dnd_title"
-        android:summary="@string/gaming_mode_dnd_summary"
-        android:defaultValue="true" />
+    <org.aospextended.extensions.preference.SystemSettingListPreference
+        android:key="gaming_mode_ringer_mode"
+        android:title="@string/gaming_mode_ringer_title"
+        android:dialogTitle="@string/gaming_mode_ringer_title"
+        android:entries="@array/gaming_mode_ringer_entries"
+        android:entryValues="@array/gaming_mode_ringer_values"
+        android:defaultValue="0"
+        android:dependency="gaming_mode_master_switch"
+        android:summary="%s" />
 
-    <!-- Max media volume -->
-    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-        android:key="gaming_mode_maximize_media_toggle"
-        android:title="@string/gaming_mode_max_media_title"
-        android:summary="@string/gaming_mode_max_media_summary"
-        android:defaultValue="false" />
+    <org.aospextended.extensions.preference.SystemSettingListPreference
+        android:key="gaming_mode_notifications"
+        android:title="@string/gaming_mode_notifications_title"
+        android:dialogTitle="@string/gaming_mode_notifications_title"
+        android:entries="@array/gaming_mode_notifications_entries"
+        android:entryValues="@array/gaming_mode_notifications_values"
+        android:defaultValue="3"
+        android:dependency="gaming_mode_master_switch"
+        android:summary="%s" />
 
     <!-- Dynamic gaming mode -->
-    <Preference
-        android:key="dynamic_mode"
-        android:fragment="org.aospextended.extensions.fragments.DynamicMode"
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="gaming_mode_dynamic_state"
         android:title="@string/gaming_mode_dynamic_title"
-        android:summary="@string/gaming_mode_dynamic_summary" />
+        android:summary="@string/gaming_mode_dynamic_summary"
+        android:dependency="gaming_mode_master_switch"
+        android:defaultValue="false" />
 
     <!-- App picker activity for gaming mode -->
     <PreferenceCategory
@@ -69,7 +86,8 @@
             android:key="add_gamingmode_packages"
             android:icon="@drawable/ic_menu_add"
             android:title="@string/add_gaming_mode_package_title"
-            android:summary="@string/add_gaming_mode_package_summary" />
+            android:summary="@string/add_gaming_mode_package_summary"
+            android:dependency="gaming_mode_master_switch" />
     </PreferenceCategory>
 
 </PreferenceScreen>

@@ -41,7 +41,7 @@
          <org.aospextended.extensions.preference.CardviewPreference
             android:key="gaming_mode"
             android:fragment="org.aospextended.extensions.fragments.GamingMode"
-            android:icon="@drawable/ic_gaming_mode"
+            android:icon="@drawable/ic_gaming"
             android:title="@string/gaming_mode_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference

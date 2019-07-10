@@ -33,6 +33,14 @@
         android:summary="@string/gaming_mode_hardware_keys_summary"
         android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
+		
+    <!-- Gestures -->
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="gaming_mode_gestures_toggle"
+        android:title="@string/gaming_mode_gestures_title"
+        android:summary="@string/gaming_mode_gestures_summary"
+        android:dependency="gaming_mode_enabled"
+        android:defaultValue="false" />
 
     <!-- Manual brightness -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference

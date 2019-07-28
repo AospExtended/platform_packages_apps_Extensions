@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
     android:width="30dp"
     android:height="30dp"
     android:viewportWidth="24"
-    android:viewportHeight="24"
-    android:tint="?android:attr/colorAccent">
-
+    android:viewportHeight="24">
     <path
-        android:pathData="M15.4,9.5h5v5h-5V9.5z" />
+        android:name="path"
+        android:pathData="M 7.5 6 C 7.5 5.724 7.724 5.5 8 5.5 L 10 5.5 C 10.276 5.5 10.5 5.724 10.5 6 C 10.5 6.276 10.276 6.5 10 6.5 L 8 6.5 C 7.724 6.5 7.5 6.276 7.5 6 Z M 14 6 C 14 6.276 13.776 6.5 13.5 6.5 C 13.224 6.5 13 6.276 13 6 C 13 5.724 13.224 5.5 13.5 5.5 C 13.776 5.5 14 5.724 14 6 Z M 16.5 6 C 16.5 6.276 16.276 6.5 16 6.5 C 15.724 6.5 15.5 6.276 15.5 6 C 15.5 5.724 15.724 5.5 16 5.5 C 16.276 5.5 16.5 5.724 16.5 6 Z M 15.25 6 C 15.25 6.276 15.026 6.5 14.75 6.5 C 14.474 6.5 14.25 6.276 14.25 6 C 14.25 5.724 14.474 5.5 14.75 5.5 C 15.026 5.5 15.25 5.724 15.25 6 Z"
+        android:fillColor="?android:attr/colorAccent"
+        android:strokeWidth="1"/>
     <path
-        android:pathData="M 14 14 L 14 10 L 10 14 Z" />
-    <path
-        android:pathData="M3.5,10.8L6,14l2.5-3.1C8.4,10.8,7.4,10,6,10S3.6,10.8,3.5,10.8z" />
-    <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M20,8H4c-1.1,0-2,0.9-2,2v4c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2v-4C22,8.9,21.1,8,20,8z M6,14l-2.5-3.2 C3.6,10.8,4.6,10,6,10s2.4,0.8,2.5,0.9L6,14z M14,14h-4l4-4V14z M18.9,13.8c0,0.2-0.1,0.3-0.3,0.3h-1.5c-0.2,0-0.3-0.1-0.3-0.3v-3.2 c0-0.2,0.1-0.3,0.3-0.3h0.3V9.9h0.8v0.4h0.3c0.2,0,0.3,0.1,0.3,0.3V13.8z" />
+        android:name="path_1"
+        android:pathData="M 17 19 L 7 19 L 7 5 L 17 5 L 17 19 Z M 17 1 L 7 1 C 5.89 1 5 1.89 5 3 L 5 21 C 5 21.53 5.211 22.039 5.586 22.414 C 5.961 22.789 6.47 23 7 23 L 17 23 C 17.53 23 18.039 22.789 18.414 22.414 C 18.789 22.039 19 21.53 19 21 L 19 3 C 19 1.89 18.1 1 17 1 Z"
+        android:fillColor="?android:attr/colorAccent"
+        android:strokeWidth="1"/>
 </vector>

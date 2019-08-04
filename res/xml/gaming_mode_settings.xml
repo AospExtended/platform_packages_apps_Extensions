@@ -16,7 +16,7 @@
         android:key="gaming_mode_enabled"
         android:title="@string/gaming_mode_master_title"
         android:summary="@string/gaming_mode_master_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <!-- HeadsUP -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
@@ -33,7 +33,7 @@
         android:summary="@string/gaming_mode_hardware_keys_summary"
         android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
-		
+
     <!-- Gestures -->
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_gestures_toggle"

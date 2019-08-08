@@ -672,6 +672,7 @@
     <string name="incall_vibrate_call_wait_summary">Enable to vibrate while call is on waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string>
+    <string name="incall_vibrate_footer">In-call \"Vibrate On Connect\" works only during outgoing calls and not on incoming calls. The vibrator works only when the call timer is initiated.</string>
 
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Kill app button</string>

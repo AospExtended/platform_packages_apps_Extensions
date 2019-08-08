@@ -400,7 +400,8 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_call_wait_summary">Enable to vibrate while call is on waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-    <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string
+    <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string>
+    <string name="incall_vibrate_footer">In-call \"Vibrate On Connect\" works only during outgoing calls and not on incoming calls. The vibrator works only when the call timer is initiated.</string>
 
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart Pixels</string>

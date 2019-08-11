@@ -33,7 +33,6 @@
     <string name="icons_category">Icons</string>
     <string name="aosp_recents_category">AOSP recents</string>
     <string name="oreo_recents_category">Oreo recents</string>
-    <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
     <string name="loading">Loading\u2026</string>
@@ -261,25 +260,6 @@
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
-
-    <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging LED light</string>
-    <string name="battery_charging_light_summary">Customise the battery charging LED light</string>
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_enabled_summary">Enable it to show the respective colors of the battery LED</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_allow_on_dnd_summary">Enable it to show the battery LED light while the device is in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_low_blinking_summary">Blink the battery LED light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
-
-    <!-- Notifications LED -->
-    <string name="notification_light_settings">Notifications LED light</string>
-    <string name="notification_light_summary">Customise the notifications LED light for various apps</string> 
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
@@ -761,4 +741,6 @@
     <string name="gaming_mode_dynamic_title">Dynamic Gaming mode</string>
     <string name="gaming_mode_dynamic_summary">Whenever you open any app and the system finds it to be a game, it will be added in gaming list automatically. Please note that this does not work for every game app.</string>
 
+    <string name="batterylight_title">Battery LED settings</string>
+    <string name="notification_light_title">Notification light</string>
 </resources>

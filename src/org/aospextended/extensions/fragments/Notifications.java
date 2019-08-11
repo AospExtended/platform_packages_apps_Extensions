@@ -57,8 +57,8 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
-    private PreferenceCategory mLedsCategory;
-    private Preference mChargingLeds;
+//    private PreferenceCategory mLeds;
+//    private Preference mChargingLeds;
     private ListPreference mAnnoyingNotification;
 
     @Override
@@ -66,20 +66,18 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.notifications);
+        final Resources res = getResources();
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
-        mLedsCategory = (PreferenceCategory) findPreference("light_category");
-        mChargingLeds = (Preference) findPreference("battery_charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            mLedsCategory.removePreference(mChargingLeds);
-        }
-          if (mChargingLeds == null) {
-            prefSet.removePreference(mLedsCategory);
-        }
+/*        mLeds = (PreferenceCategory) findPreference("leds");
+        mChargingLeds = (Preference) findPreference("charging_light");
+        boolean mChargingLeds = res.getInteger(
+                com.android.internal.R.integer.config_deviceLightCapabilities) >= 64;
+          if (!mChargingLeds) {
+            prefSet.removePreference(mLeds);
+        }*/
 
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
         if (!Utils.isVoiceCapable(getActivity())) {

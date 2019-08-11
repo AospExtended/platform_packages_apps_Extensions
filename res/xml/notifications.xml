@@ -60,23 +60,22 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="light_category"
-        android:title="@string/light_category">
+        android:key="leds"
+        android:title="@string/leds_category_title">
+
+     <SwitchPreference
+         android:key="notification_pulse"
+         android:title="@string/notification_pulse_title"/>
 
      <Preference
-         android:key="battery_charging_light"
-         android:summary="@string/battery_charging_light_summary"
-         android:fragment="org.aospextended.extensions.fragments.BatteryLightSettings"
-         android:title="@string/battery_light_settings" />
+         android:key="charging_light"
+         android:fragment="com.android.settings.notificationlight.BatteryLightSettings"
+         android:title="@string/batterylight_title" />
 
     <Preference
         android:key="notification_light"
-        android:summary="@string/notification_light_summary"
-        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
-        android:title="@string/notification_light_settings" >
-        <extra
-            android:name="classname"
-            android:value="com.android.settings.Settings$NotificationAppListActivity" />
+        android:fragment="com.android.settings.notificationlight.NotificationLightSettings"
+        android:title="@string/notification_light_title" >
     </Preference>
 
     </PreferenceCategory>

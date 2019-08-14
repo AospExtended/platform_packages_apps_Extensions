@@ -91,7 +91,6 @@
     <!-- Buttons -->
     <string name="buttons_title">ปุ่ม</string>
     <!-- App Ops -->
-    <string name="app_ops_category">App Ops</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">ช่วยเราช่วยคุณ</string>
     <string name="extensions_dialog_toast">อ่านทั้งหมด!</string>
@@ -376,11 +375,7 @@
     <string name="button_timeout_title">หมดเวลาไฟปุ่ม</string>
     <string name="button_backlight_on_touch_only_title">ไฟปุ่มกดจะสว่างเมื่อสัมผัส</string>
     <string name="button_backlight_on_touch_only_summary">ไฟปุ่มกดจะสว่างเมื่อกดไว้ การตั้งค่าหมดเวลาปุ่มกดจะควบคุมโหมดนี้ด้วย</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">แสดงรายละเอียดเพลงบนจอAmbient</string>
-    <string name="force_ambient_for_media_pref_summary">ปรับการแสดงรายละเอียดเพลงบนจอAmbient</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker แสดงข้อมูลการเล่นแทร็กเพลงภายใน Ambient Display\n\n นอกจากนี้ยังมีการเปิดใช้งาน ถ้า Ambient Display ถูกปิดการใช้งานเมื่อเริ่มแทร็กใหม่บังคับให้หน้าจอแอมเบียนต์ที่โล่ง\n\nคุณยังสามารถแตะสองครั้งที่ข้อมูลแทร็กเพื่อข้ามแทร็ก\n\nหากคุณเป็นเจ้าของ Pixel และเปิดใช้งาน Now Playing และการแจ้งเตือนในการตั้งค่าระบบเสียง Ambient Music Ticker จะทำงานได้เช่นกัน</string>
-    <string name="force_ambient_for_media_title">เปิดใช้งาน</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">ปุ่มปรับความสว่าง</string>
     <string name="brightness_icon_summary">แสดงปุ่มปรับความสว่าง</string>
@@ -467,4 +462,6 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">ค่าเริ่มต้น</string>
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

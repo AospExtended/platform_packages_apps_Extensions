@@ -22,7 +22,7 @@
     <string name="add">添加</string>
     <string name="advanced">高级选项</string>
     <string name="cancel">取消</string>
-    <string name="choose_app">选择应用程序</string>
+    <string name="choose_app">选择应用</string>
     <string name="default_text">定义</string>
     <string name="general_category">常规</string>
     <string name="gestures_category">手势</string>
@@ -56,7 +56,7 @@
     <string name="lockscreen_category_summary">定制锁屏</string>
     <string name="navigation_category">导航栏</string>
     <string name="navigation_category_summary">定制导航栏</string>
-    <string name="build_tweaks_summary_title">扩展您的设备!</string>
+    <string name="build_tweaks_summary_title">扩展功能设置</string>
     <string name="system_animations">系统动画</string>
     <string name="listview">列表视图</string>
     <!-- Frags -->
@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">按键</string>
     <!-- App Ops -->
-    <string name="app_ops_category">应用权限管理</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">帮助我们也是帮助您！</string>
+    <string name="extensions_dialog_message">如果您发现这些设置有任何错误，请在我们的的 Telegram 群组中报告。 错误报告必须包含下列内容：\n\n1. logcat 或 last_kmsg\n2. 所用的内核及模块\n3. 其他有用信息\n\n如果您不能充分报告错误内容，那么也不要期望问题会被修复。</string>
     <string name="extensions_dialog_toast">务必阅读全部内容！</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">选择一种强调色</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">图标内</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">纵向</string>
+    <string name="status_bar_battery_style_q">Android Q 样式</string>
     <string name="status_bar_battery_style_circle">环形</string>
     <string name="battery_style_dotted_circle">环形虚线</string>
     <string name="status_bar_battery_style_text">文本</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">背光时长</string>
     <string name="button_backlight_on_touch_only_title">触摸时点亮按键背光</string>
     <string name="button_backlight_on_touch_only_summary">按键背光将只在按下按键时点亮, 而不是一直点亮。背光超时仍然会影响此功能。</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">息屏音乐信息</string>
-    <string name="force_ambient_for_media_pref_summary">配置息屏音乐信息</string>
-    <string name="ambient_ticker_footer">环境音乐收录器显示在环境显示屏幕内播放音乐曲目信息。\n\n如果在启动新曲目时禁用环境显示，则会触发此操作，从而在屏幕中间强制显示带有曲目信息的干净环境屏幕。\n\n您也可以双击音轨信息以跳过音轨。\n\n如果您拥有Pixel并启用正在播放及其在系统音频设置中的通知，环境音乐收录器也可以在其中使用。</string>
-    <string name="force_ambient_for_media_title">启用</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">自动调节亮度按钮</string>
     <string name="brightness_icon_summary">显示自动调节亮度按钮</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">默认</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">让浮动通知更少地打扰你</string>
+    <string name="less_boring_heads_up_summary">只显示电话和短信的后台浮动通知</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

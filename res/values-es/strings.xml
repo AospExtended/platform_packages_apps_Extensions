@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Botones</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Permisos de aplicaciones</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">¡Ayúdanos a ayudarte!</string>
+    <string name="extensions_dialog_message">Si encuentras un error con cualquiera de estas opciones, infórmalo en nuestro Grupo de Telegram. DEBES incluir lo siguiente al publicar un informe de error:\n\n. Un logcat o last_kmsg\n. Kernel y mods usados\n. Información útil\n\nSi no reportas algo adecuadamente, NO esperes que las cosas se corrijan.</string>
     <string name="extensions_dialog_toast">¡LEER TODO!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Seleccione un color de acento</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Vertical</string>
+    <string name="status_bar_battery_style_q">Estilo Android Q</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="battery_style_dotted_circle">Círculo punteado</string>
     <string name="status_bar_battery_style_text">Texto</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Tiempo de espera de retroiluminación</string>
     <string name="button_backlight_on_touch_only_title">Botón de retroiluminación táctil</string>
     <string name="button_backlight_on_touch_only_summary">La retroiluminación del botón solo aparecerá cuando se presionen los botones en lugar de estar encendidos todo el tiempo. El tiempo de espera todavía afecta esta característica.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ticker de música ambiente</string>
-    <string name="force_ambient_for_media_pref_summary">Configurar el ticker de música ambiente</string>
-    <string name="ambient_ticker_footer">Ticker de música ambiente muestra información de la reproducción en pantalla ambiente.\n\nTambién se activa si la Pantalla ambiente se desactiva cuando se inicia una nueva pista, forzando una pantalla de ambiente limpia con información de la pista en el centro de la pantalla.\n\nTambién puede hacer doble toque en la información de la canción para saltarla.\n\nSi posee un píxel y habilita la reproducción en curso y su notificación en la configuración de audio del sistema, Ticker de música ambiente también funcionará dentro de él.</string>
-    <string name="force_ambient_for_media_title">Activar</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Botón de brillo adaptativo</string>
     <string name="brightness_icon_summary">Mostar botón de brillo adaptativo</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Predeterminado</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Hacer las notificaciones flotantes menos molestas</string>
+    <string name="less_boring_heads_up_summary">Mostrar las notificaciones flotantes solo para la aplicación de teléfono y mensajes si no están en primer plano</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -31,7 +31,7 @@
     <string name="hardware_category">Hardware</string>
     <string name="icons_category">Symbole</string>
     <string name="aosp_recents_category">AOSP-Anwendungsverlauf</string>
-    <string name="oreo_recents_category">Oreo Anwendungsverkauf</string>
+    <string name="oreo_recents_category">Oreo-Anwendungsverlauf</string>
     <string name="light_category">Benachrichtigungs Leds</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Achtung</string>
@@ -56,20 +56,20 @@
     <string name="lockscreen_category_summary">Konfiguration des Sperrbildschirms</string>
     <string name="navigation_category">Navigation</string>
     <string name="navigation_category_summary">Anpassen der Navigationsleiste</string>
-    <string name="build_tweaks_summary_title">Erweiteren sie ihr Gerät!</string>
+    <string name="build_tweaks_summary_title">Erweitere dein Gerät!</string>
     <string name="system_animations">Systemanimationen</string>
     <string name="listview">Listenansicht</string>
     <!-- Frags -->
     <!-- General Tweaks -->
     <string name="general_tweaks_title">Haupteinstellungen</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Anzeige des Netzwerkverkehrs</string>
+    <string name="traffic_title">Netzwerkverkehr</string>
     <!-- Carrier Label -->
     <string name="carrierlabel_title">Provider-Anzeige</string>
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Verschiedene Optimierungen</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Anwendungsverlauf UI</string>
+    <string name="recents_ui_title">Anwendungsverlauf-UI</string>
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Sperrbildschirm UI</string>
     <!-- Lockscreen shortcuts -->
@@ -82,7 +82,7 @@
     <!-- Notifications -->
     <string name="notifications_title">Benachrichtigungen</string>
     <!-- Footer warnings -->
-    <string name="smart_pixels_warning_text">Smart Pixel ist eine Energiesparfunktion. Je nachdem, wie viele Pixel Sie abschalten, können Sie eine deutliche Verbesserung der Akkulaufzeit feststellen. Für ein gutes Benutzererlebnis empfehlen wir Ihnen, die Anzahl der deaktivierten Pixel auf 75 Prozent zu setzen.</string>
+    <string name="smart_pixels_warning_text">Smart Pixel ist eine Energiesparfunktion. Je nachdem, wie viele Pixel du abschaltest, kannst du eine deutliche Verbesserung der Akkulaufzeit feststellen. Für ein gutes Benutzererlebnis empfehlen wir, die Anzahl der deaktivierten Pixel auf 75 Prozent zu setzen.</string>
     <!-- Navigation -->
     <string name="navigationbar_settings_title">Navigationsleiste</string>
     <!-- Quick Settings -->
@@ -90,14 +90,14 @@
     <!-- Buttons -->
     <string name="buttons_title">Tasten</string>
     <!-- App Ops -->
-    <string name="app_ops_category">App-Vorgänge</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Hilf uns, dir zu helfen!</string>
+    <string name="extensions_dialog_message">Wenn du einen Fehler mit einer dieser Einstellungen findest, melde ihn in unserer Telegram-Gruppe. Du MUSST folgendes angeben, wenn du einen Fehlerbericht veröffentlichst:\n\n1. Ein Logcat oder last_kmsg\n2. Verwendete Kernel und Mods\n3. Nützliche Informationen\n\n\Wenn du etwas nicht angemessen meldest, erwarte NICHT, dass die Fehler behoben werden.</string>
     <string name="extensions_dialog_toast">Lies den gesamten Text!</string>
     <!-- System theme -->
-    <string name="accent_picker_dialog_title">Wählen Sie eine Akzentfarbe</string>
+    <string name="accent_picker_dialog_title">Wähle eine Akzentfarbe</string>
     <string name="theme_accent_picker_title">Akzentfarbe</string>
-    <string name="theme_accent_picker_summary">Wählen Sie eine Akzentfarbe für das System</string>
+    <string name="theme_accent_picker_summary">Wähle eine Akzentfarbe</string>
     <string name="theme_accent_picker_default">Standardeinstellung</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Farbauswahl</string>
@@ -110,7 +110,7 @@
     <string name="color_default">Standard</string>
     <!-- Power Menu -->
     <string name="power_menu_title">Ein-/Aus-Menü</string>
-    <string name="power_menu_title_summary">Einträge des Ein-/Aus-Menüs anzeigen oder bearbeiten</string>
+    <string name="power_menu_title_summary">Ein-/Aus-Menü-Einträge anzeigen oder bearbeiten</string>
     <string name="powermenu_screenshot">Bildschirmfoto</string>
     <string name="powermenu_torch">Taschenlampe</string>
     <string name="powermenu_power">Ein/Aus</string>
@@ -126,7 +126,7 @@
     <string name="qs_brightness_slider_title">Helligkeitsregler</string>
     <string name="qs_brightness_slider_summary">Helligkeitsregler in den Schnelleinstellungen anzeigen</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Doppel-Tippen auf dem Sperrbildschirm für Standyby</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Doppeltippen auf den Sperrbildschirm für Standby</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Tippen Sie zweimal auf das obere Drittel oder die untere Verknüpfungsreihe des Sperrbildschirms, um das Gerät in den Ruhezustand zu versetzen</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Statusleiste</string>
@@ -150,7 +150,7 @@
     <string name="add_heads_up_blacklist_summary">Heads-Up von diesen Anwendungen deaktivieren</string>
     <string name="heads_up_stoplist_title">Stopliste</string>
     <string name="heads_up_blacklist_title">Sperrliste</string>
-    <string name="profile_choose_app">Anwendung wählen</string>
+    <string name="profile_choose_app">App wählen</string>
     <string name="dialog_delete_title">Löschen</string>
     <string name="dialog_delete_message">Ausgewähltes Objekt entfernen?</string>
     <!-- Heads up timeout -->
@@ -178,7 +178,7 @@
     <string name="roaming_indicator_icon_title">Roaming-Indikator</string>
     <string name="roaming_indicator_icon_summary">Zeigt den Roaming-Indikator im Netz Symbol, wenn man im Roamingmodus ist</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G Symbol</string>
+    <string name="show_fourg_icon_title">4G-Symbol</string>
     <string name="show_fourg_icon_summary">4G-Symbol anstelle LTE anzeigen</string>
     <!-- Buttons title -->
     <string name="volume_category">Lautstärketasten</string>
@@ -215,9 +215,9 @@
     <string name="battery_light_settings">Akku-Lade-LED</string>
     <string name="battery_charging_light_summary">Passe die Akku-Lade-LED an</string>
     <string name="battery_light_enable">Akku-LED</string>
-    <string name="battery_light_enabled_summary">Aktivieren um die Farben der Akku-LED anzuzeigen</string>
+    <string name="battery_light_enabled_summary">Aktivieren, um die Farben der Akku-LED anzuzeigen</string>
     <string name="battery_light_allow_on_dnd_title">Akku-Led im \"Nicht stören\"-Modus</string>
-    <string name="battery_light_allow_on_dnd_summary">Aktivieren um die Akku-LED im \"Bitte nicht stören\"-Modus anzuzeigen</string>
+    <string name="battery_light_allow_on_dnd_summary">Aktivieren, um die Akku-LED im \"Bitte nicht stören\"-Modus anzuzeigen</string>
     <string name="battery_light_low_blinking_title">Blinkende LED bei schwachem Akku</string>
     <string name="battery_light_low_blinking_summary">Blinkende Akku-LED bei niedrigem Akkustand</string>
     <string name="battery_light_cat">LED-Farbe beim Akkuladevorgang</string>
@@ -241,12 +241,13 @@
     <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Hochformat</string>
+    <string name="status_bar_battery_style_q">Q-Stil</string>
     <string name="status_bar_battery_style_circle">Kreis</string>
     <string name="battery_style_dotted_circle">Gepunkteter Kreis</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Versteckt</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Anwendungsverlaufs Typ</string>
+    <string name="recents_component_type_title">Anwendungsverlauf-Design</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
     <!-- Toast app icon -->
@@ -263,7 +264,7 @@
     <string name="powermenu_lockscreen_summary">Powermenü auf dem Sperrbildschirm anzeigen und verwenden</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
-    <string name="quick_settings_vibrate_summary">Vibriert beim Berühren von Schnelleinstellungen</string>
+    <string name="quick_settings_vibrate_summary">Vibration beim Berühren von Schnelleinstellungen</string>
     <!-- Status bar clock and date options -->
     <string name="status_bar_clock">Uhr &amp; Datum</string>
     <string name="status_bar_clock_title">Uhr-Einstellungen</string>
@@ -306,17 +307,17 @@
     <string name="quick_pulldown_always">Immer</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE-Symbol</string>
-    <string name="volte_icon_summary">VoLTE Symbol \"Anzeige\"</string>
+    <string name="volte_icon_summary">VoLTE Symbol anzeigen</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Intelligentes ausklappen</string>
-    <string name="smart_pulldown_summary">Öffnen der Schnelleinstellungen wenn %1$s Benachtichtigungen vorliegen</string>
+    <string name="smart_pulldown_summary">Öffnen der Schnelleinstellungen, wenn %1$s Benachrichtigungen vorliegen</string>
     <string name="smart_pulldown_none_summary">Schnelleinstellungen öffnen, wenn keine Benachrichtigungen vorhanden sind</string>
     <string name="smart_pulldown_off">Aus</string>
     <string name="smart_pulldown_none">Keine Benachrichtigungen</string>
     <string name="smart_pulldown_dismissable">Keine entfernbaren</string>
     <string name="smart_pulldown_ongoing">Keine fortlaufenden</string>
     <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">Konfigurieren von Aktionen wenn der Bildschirm ausgeschaltet ist</string>
+    <string name="screen_state_toggles_summary">Konfigurieren von Aktionen, wenn der Bildschirm ausgeschaltet ist</string>
     <string name="screen_state_toggles_title">Aktionen abbrechen</string>
     <string name="screen_state_toggles_enable_title">Aktiviert</string>
     <string name="screen_state_toggles_enable_summary">Aktionen werden bei ausgeschaltetem Bildschirm aktiviert. Bei eingeschaltetem Bildschirm werden vorherige Einstellungen wiederhergestellt.</string>
@@ -328,15 +329,15 @@
     <string name="screen_state_toggles_gps_summary">GPS basierter Standort wird bei ausgeschaltetem Bildschirm deaktiviert</string>
     <string name="screen_state_toggles_mobile_data">Mobile Daten deaktivieren</string>
     <string name="screen_state_toggles_mobile_data_summary">Mobile Datenverbindung wird bei ausgeschaltetem Bildschirm deaktiviert</string>
-    <string name="screen_state_off_delay_title">Aktions Verzögerung nach dem ausgeschalten des Bildschirms</string>
+    <string name="screen_state_off_delay_title">Verzögerung nach Ausschalten</string>
     <string name="screen_state_off_delay_summary">Anzahl der Sekunden, die gewartet werden, bevor Aktionen in Kraft treten nachdem der Bildschirm ausgeschaltet wurde</string>
-    <string name="screen_state_on_delay_title">Aktions Verzögerung bei eingeschaltetem Bildschirm</string>
+    <string name="screen_state_on_delay_title">Verzögerung nach Einschalten</string>
     <string name="screen_state_on_delay_summary">Anzahl der Sekunden, die gewartet werden, bevor Aktionen in Kraft treten nachdem anschalten des Bildschirmes</string>
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Uhr-Widget</string>
     <string name="lockscreen_clock_summary">Zeige das Uhr-Widget auf dem Sperrbildschirm</string>
     <string name="lockscreen_info_title">Objekte unterhalb der Uhr</string>
-    <string name="lockscreen_info_summary">Zeige das Datum, Wetter, Alarme und zen auf dem Sperrbildschirm</string>
+    <string name="lockscreen_info_summary">Zeige das Datum, Wetter, Alarme und Zen auf dem Sperrbildschirm</string>
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Darstellung der Uhr</string>
     <string name="lockscreen_clock_selection_digital">Standardeinstellung</string>
@@ -349,7 +350,7 @@
     <string name="lockscreen_clock_selection_gradient_full">Analoge Uhr mit vollem Farbverlauf</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Einfarbig analoge Uhr </string>
     <string name="lockscreen_clock_selection_text">Uhr mit Android Q Text</string>
-    <string name="qs_styles_dialog_title">Wähle ein Stil für die Kacheln der Schnelleinstellungen</string>
+    <string name="qs_styles_dialog_title">Wähle ein Design für die Kacheln der Schnelleinstellungen</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Datenverbindung deaktiviert Symbol anzeigen</string>
     <string name="data_disabled_icon_summary">Kreuz Symbol neben dem Signalbalken anzeigen, wenn Datenverbindung deaktiviert ist</string>
@@ -371,32 +372,28 @@
     <string name="button_backlight_options_category">Tasten-Beleuchtungseinstellungen</string>
     <string name="button_backlight_enable_title">Tasten-Hintergrundbeleuchtung aktivieren</string>
     <string name="button_link_brightness">Verknüpfung mit Bildschirmhelligkeit</string>
-    <string name="button_link_brightness_summary">Die Hintergrundbelichtung der Tasten, passt sich der aktuellen Hellichkeit des Bildschirms an</string>
+    <string name="button_link_brightness_summary">Die Hintergrundbelichtung der Tasten passt sich der aktuellen Helligkeit des Bildschirms an</string>
     <string name="button_manual_brightness">Helligkeitsstufe</string>
     <string name="button_timeout_title">Tastenbeleuchtungs-Dauer</string>
     <string name="button_backlight_on_touch_only_title">Tastenbeleuchtung bei Berührung</string>
     <string name="button_backlight_on_touch_only_summary">Tastenbeleuchtung nur einschalten, wenn die Tasten bedient werden. Das Timeout der Beleuchtung bleibt hierbei unverändert.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambient-Musiktitelanzeige</string>
-    <string name="force_ambient_for_media_pref_summary">Einstellungen für Ambient-Musiktitelanzeige</string>
-    <string name="ambient_ticker_footer">Die Musiktitelanzeige im Inaktivitätsdisplay stellt Titelinformationen auf dem Bildschirm während der Inaktivität an.\n\nDie Titelanzeige erfolgt auch, wenn das Inaktivitätsdisplay deaktiviert ist und ein neuer Titel startet. Der Titel wird an in der Bilschirmmitte auf einem sonst leeren Bildschirm angezeigt.\n\nDoppeltes Tippen auf die Titelanzeige springt zum nächsten Titel.\n\nSofern das Gerät ein Google Pixel Telefon ist und Now Playing mit Benachrichtigungen aktiviert wurde, wird die Titelanzeige auch hier angezeigt.</string>
-    <string name="force_ambient_for_media_title">Aktiviert</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Schaltfläche \"Adaptive Helligkeit\"</string>
     <string name="brightness_icon_summary">Schaltfläche \"Adaptive Helligkeit\" anzeigen</string>
     <!-- Quick Settings brightness side buttons -->
     <string name="brightness_side_buttons_title">Schaltflächen zur Helligkeitssteuerung</string>
-    <string name="brightness_side_buttons_summary">Schaltflächen zum erhöhen oder verringern der Helligkeit anzeigen</string>
+    <string name="brightness_side_buttons_summary">Schaltflächen zum Erhöhen oder Verringern der Helligkeit anzeigen</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_category">Provider-Anzeige</string>
-    <string name="carrier_label_settings_summary">Netzbetreiber-Bezeichnung ändern</string>
-    <string name="custom_carrier_label_title">Benutzerdefinierte Netzbetreiber-Bezeichnung</string>
-    <string name="custom_carrier_label_explain">Bitte tragen Sie die Bezeichnung ein. Das Freilassen des Feldes setzt die Anzeige auf den Standard zurück.</string>
+    <string name="carrier_label_settings_summary">Provider-Bezeichnung ändern</string>
+    <string name="custom_carrier_label_title">Benutzerdefinierte Provider-Bezeichnung</string>
+    <string name="custom_carrier_label_explain">Bitte trage eine Bezeichnung ein. Das Freilassen des Feldes setzt die Anzeige auf den Standard zurück.</string>
     <string name="custom_carrier_label_notset">Die angepasste Anzeige ist zurzeit nicht eingestellt</string>
-    <string name="show_carrier_title">Netzbetreiber-Bezeichnung</string>
+    <string name="show_carrier_title">Provider-Bezeichnung</string>
     <string name="show_carrier_disabled">Deaktiviert</string>
     <string name="show_carrier_keyguard">Nur Sperrbildschirm</string>
-    <string name="show_carrier_statusbar">Nur die Statusleiste</string>
+    <string name="show_carrier_statusbar">Nur Statusleiste</string>
     <string name="show_carrier_enabled">Sperrbildschirm &amp; Statusleiste</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast-Animation</string>
@@ -424,11 +421,11 @@
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
     <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste ändern</string>
     <!--3-Finger screenshot-->
-    <string name="three_finger_gesture">Drei Finger-Geste</string>
+    <string name="three_finger_gesture">Drei-Finger-Geste</string>
     <string name="three_finger_gesture_summary">Wische mit drei Fingern, um ein Bildschirmfoto aufzunehmen</string>
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Akkuleiste</string>
-    <string name="battery_bar_summary">Zeige und passe die Akkuanzeige in der Nähe der Statusleiste oder der Navigationsleiste an</string>
+    <string name="battery_bar_title">Akku-Anzeige</string>
+    <string name="battery_bar_summary">Zeige und passe die Akku-Anzeige in der Nähe der Statusleiste oder der Navigationsleiste an</string>
     <string name="battery_bar">Position der Akkuanzeige</string>
     <string name="battery_bar_no_navbar">Position der Akkuanzeige</string>
     <string name="battery_bar_location_hide">Ausblenden</string>
@@ -438,38 +435,38 @@
     <string name="battery_bar_color">Farbe der Akku Anzeige</string>
     <string name="battery_bar_charging_color">Farbe der Akkuanzeige beim Ladevorgang</string>
     <string name="battery_bar_battery_low_color">Akkuleistenfarbe bei niedrigem Akkustand</string>
-    <string name="battery_bar_cat">Stil der Akku Anzeige</string>
-    <string name="battery_bar_style_title">Ausrichtung der Akku Anzeige</string>
-    <string name="battery_bar_thickness_title">Dicke der Akku Anzeige</string>
+    <string name="battery_bar_cat">Stil der Akku-Anzeige</string>
+    <string name="battery_bar_style_title">Ausrichtung der Akku-Anzeige</string>
+    <string name="battery_bar_thickness_title">Dicke der Akku-Anzeige</string>
     <string name="battery_bar_animate_title">Ladeanimation</string>
     <string name="battery_bar_style_regular">Standard</string>
     <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
     <string name="battery_bar_style_reversed">Umgekehrt</string>
     <string name="battery_bar_use_charging_color">Benutzerdefinierte Farbe beim Laden</string>
     <string name="battery_bar_blend_color_title">Farben</string>
-    <string name="battery_bar_blend_color_summary">Passe die Farben passend zum Akkustand an</string>
+    <string name="battery_bar_blend_color_summary">Farben mit Akkustand anpassen</string>
     <string name="battery_bar_blend_color_reverse_title">Farbübergang umkehren</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Voll &#8594; leer: Rot &#8592; Grün &#8592; Blau &#8592; Rot</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Voll &#8594; Leer: Rot &#8594; Grün &#8594; Blau &#8594; Rot</string>
     <!-- Rounded corners -->
     <string name="corners_category">Ecken</string>
-    <string name="corner_radius">Radius der abgerundenten Ecken</string>
+    <string name="corner_radius">Radius der abgerundeten Ecken</string>
     <string name="content_padding">Ecken füllen</string>
-    <string name="corner_fwvals">Benutze Framework Werte</string>
-    <string name="corner_fwvals_summary">Nützlich, wenn auf dem Gerät abgerundete Ecken eingschaltet sind</string>
+    <string name="corner_fwvals">Benutze Framework-Werte</string>
+    <string name="corner_fwvals_summary">Nützlich, wenn auf dem Gerät abgerundete Ecken eingeschaltet sind</string>
     <string name="lockscreen_qs_disabled_title">Schnelleinstellungen auf dem Sperrbildschirm deaktivieren</string>
     <string name="lockscreen_qs_disabled_summary">Erweiterte Schnelleinstellungen im sicheren Sperrbildschirm deaktivieren</string>
     <!-- AOKP custom system animations -->
     <string name="system_animation_title">System-Animationen</string>
     <string name="activity_open_title">Öffnungsanimation</string>
-    <string name="activity_close_title">Schließanimations</string>
-    <string name="task_open_title">\"Aufgabe öffnen\" Animation</string>
-    <string name="task_open_behind_title">\"Anwendung im Hintergrund öffnen\"-Animation</string>
-    <string name="task_close_title">\"Anwendung beenden\"-Animation</string>
+    <string name="activity_close_title">Schließanimation</string>
+    <string name="task_open_title">\"App öffnen\" Animation</string>
+    <string name="task_open_behind_title">\"App im Hintergrund öffnen\"-Animation</string>
+    <string name="task_close_title">\"App beenden\" Animation</string>
     <string name="task_move_to_front_title">\"In den Vordergrund holen\" Animation</string>
     <string name="task_move_to_back_title">\"In den Hintergrund schieben\" Animation</string>
-    <string name="wallpaper_open_title">\"Hintergrundbild öffnen\"-Animation</string>
-    <string name="wallpaper_close_title">\"Hintergrundbild schließen\"-Animation</string>
+    <string name="wallpaper_open_title">\"Hintergrundbild öffnen\" Animation</string>
+    <string name="wallpaper_close_title">\"Hintergrundbild schließen\" Animation</string>
     <string name="wallpaper_intra_open_title">\"Hintergrundbild intern öffnen\" Animation</string>
     <string name="wallpaper_intra_close_title">\"Hintergrundbild intern schließen\" Animation</string>
     <string name="animation_duration_title">Animationsdauer</string>
@@ -490,7 +487,7 @@
     <string name="listview_translate_left">Versetzen (links)</string>
     <string name="listview_translate_right">Versetzen (rechts)</string>
     <!-- ListView interpolator -->
-    <string name="listview_interpolator_title">ListView-Interpolator</string>
+    <string name="listview_interpolator_title">Listenansichtsinterpolator</string>
     <string name="listview_accelerate_interpolator">Beschleunigen</string>
     <string name="listview_decelerate_interpolator">Verlangsamen</string>
     <string name="listview_accelerate_decelerate_interpolator">Beschleunigen und verlangsamen</string>
@@ -514,11 +511,11 @@
     <string name="media_art_title">Albumcover anzeigen</string>
     <string name="media_art_summary">Albumcover auf dem Sperrbildschirm anzeigen</string>
     <!-- Lockscreen visualizer -->
-    <string name="lockscreen_visualizer_title">Sperrbildschirm Visualisierungen</string>
-    <string name="lockscreen_visualizer_summary">Zeige Visualisierungen auf dem Sperrbildschirm während Musik spielt</string>
+    <string name="lockscreen_visualizer_title">Sperrbildschirm-Visualisierungen</string>
+    <string name="lockscreen_visualizer_summary">Zeige Visualisierungen auf dem Sperrbildschirm, während Musik spielt</string>
     <!-- Recents panel settings -->
-    <string name="show_clear_all_recents_button_title">Alle schließen Schaltfläche</string>
-    <string name="show_clear_all_recents_button_summary">Zeige die Alle-Schließen Taste</string>
+    <string name="show_clear_all_recents_button_title">\"Alle schließen\" Schaltfläche</string>
+    <string name="show_clear_all_recents_button_summary">Zeige die \"Alle-Schließen\" Taste</string>
     <string name="recents_clear_all_location_title">Position der Löschtaste</string>
     <string name="recents_clear_all_location_top_right">Oben rechts</string>
     <string name="recents_clear_all_location_top_left">Oben links</string>
@@ -529,14 +526,14 @@
     <string name="recents_show_membar_title">Speicheranzeige</string>
     <string name="recents_show_membar_summary">Anzeige des verfügbaren Arbeitsspeichers als Leiste</string>
     <!-- Oreo Recents Style -->
-    <string name="recents_type_title">Layout Oreo Anwendungverlauf</string>
+    <string name="recents_type_title">Oreo-Anwendungverlauf</string>
     <string name="recents_stock">Standard</string>
     <string name="recents_grid">Raster</string>
     <string name="recents_go">Android Go</string>
     <string name="qs_running_services_title">\"Task Manager\"-Symbol</string>
-    <string name="qs_running_services_summary">Aktivieren Sie das Symbol für laufende Dienste in der Fußzeile</string>
+    <string name="qs_running_services_summary">Aktiviere das Symbol für laufende Dienste in der Fußzeile</string>
     <string name="qs_edit_title">Icon bearbeiten</string>
-    <string name="qs_edit_summary">Aktivieren Sie das Kachelbearbeitungssymbol in der Fußzeile</string>
+    <string name="qs_edit_summary">Aktivieren das Kachelbearbeitungssymbol in der Fußzeile</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart Pixels</string>
     <string name="smart_pixels_summary">Energie sparen durch das Abschalten von zusätzlichen Pixeln</string>
@@ -549,22 +546,22 @@
     <string name="smart_pixels_shift_summary">Verhindert das Einbrennen auf OLED-Displays durch das Verlagern von Pixeln</string>
     <string name="lockscreen_items_other">Sonstiges</string>
     <string name="gesture_settings_title">Gesten</string>
-    <string name="gesture_settings_info">Die Navigationsleiste muss deaktiviert werden!\n\nVerfügbare Gesten:\n\nZurück\n- auf der Linken oder rechten Seite nach oben wischen\n\nStart\n- Mittig nach oben wischen\n\nVerlauf\n- Mittig nach oben wischen und halten\n\nStart (Langes Drücken)\n- Mittig kurz nach oben wischen und halten</string>
-    <string name="gesture_settings_info_new">Die Navigationsleiste muss deaktiviert werden!\n\nVerfügbare Gesten:\n\nZurück\n- auf der Linken oder rechten Seite nach oben wischen\n\nStart\n- Mittig nach oben wischen\n\nVerlauf\n- Mittig nach oben wischen und halten\n\nStart (Langes Drücken)\n- Mittig kurz nach oben wischen und halten</string>
-    <string name="use_bottom_gesture_title">Gesten zum Navigieren</string>
+    <string name="gesture_settings_info">Die Navigationsleiste muss deaktiviert werden!\n\nVerfügbare Gesten:\n\nZurück\n- Auf der linken oder rechten Seite nach oben wischen\n\nStart\n- Mittig nach oben wischen\n\nVerlauf\n- Mittig nach oben wischen und halten\n\nStart (Langes Drücken)\n- Mittig kurz nach oben wischen und halten</string>
+    <string name="gesture_settings_info_new">Die Navigationsleiste muss deaktiviert werden!\n\nVerfügbare Gesten:\n\nZurück\n- Auf der linken oder rechten Seite nach oben wischen\n\nStart\n- Mittig nach oben wischen\n\nVerlauf\n- Mittig nach oben wischen und halten\n\nStart (Langes Drücken)\n- Mittig kurz nach oben wischen und halten</string>
+    <string name="use_bottom_gesture_title">Navigationsgesten</string>
     <string name="use_bottom_gesture_summary">Vom unteren Bildschirmrand nach oben wischen, um zu navigieren</string>
     <string name="gesture_swipe_length_title">Höhe des Wischbereichs</string>
-    <string name="gesture_swipe_length_summary">Höhe von unten ab der eine Wischgeste erkannt wird</string>
+    <string name="gesture_swipe_length_summary">Höhe von unten, ab der eine Wischgeste erkannt wird</string>
     <string name="gesture_action_timeout_title">Erkennungsdauer für Wischgesten</string>
     <string name="gesture_action_timeout_summary">Dauer bis zur Erkennung einer Wischgeste</string>
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Symbolpaket</string>
-    <string name="recents_icon_pack_summary">Ein benutzerdefiniertes Symbolpaket für den Anwenungsverlauf anwenden</string>
+    <string name="recents_icon_pack_summary">Benutzerdefiniertes Symbolpaket für den Anwenungsverlauf</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Lautstärkestufen</string>
-    <string name="volume_steps_summary">Anpassen der Lautstärke Schritte</string>
+    <string name="volume_steps_summary">Anpassen der Lautstärke-Stufen</string>
     <string name="volume_steps_alarm_title">Lautstärkestufen: Wecker</string>
-    <string name="volume_steps_dtmf_title">Lautstärkestufen: DTMF</string>
+    <string name="volume_steps_dtmf_title">Lautstärkestufen: MFV/DTMF</string>
     <string name="volume_steps_music_title">Lautstärkestufen: Musik</string>
     <string name="volume_steps_notification_title">Lautstärkestufen: Benachrichtigung</string>
     <string name="volume_steps_ring_title">Lautstärkestufen: Klingelton</string>
@@ -584,7 +581,7 @@
     <string name="notification_guts_kill_app_button_summary">Zeige eine Taste zum Beenden der App, wenn deren Benachrichtigung lange gedrückt wird</string>
     <!-- Notification with screen on -->
     <string name="notification_sound_vib_screen_on_title">Laute Benachrichtigungen bei eingeschaltetem Bildschirm</string>
-    <string name="notification_sound_vib_screen_on_summary">Deaktivieren, um Benachrichtigungen zu blockieren, wenn der Bildschirm wach ist</string>
+    <string name="notification_sound_vib_screen_on_summary">Deaktivieren, um Benachrichtigungen zu blockieren, wenn der Bildschirm an ist</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Smarte Benachrichtigungstöne</string>
     <string name="less_notification_sounds_summary">Die Benachrichtigungs-Töne einer App nur einmal pro festgelegtem Zeitraum wiedergeben</string>
@@ -596,7 +593,7 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_title">Lautstärkeregler</string>
     <string name="audio_panel_view_summary">Lautstärke-Dialog anpassen</string>
-    <string name="audio_panel_view_info">Aktiver Lautstärkerfluss wird auf dem Bildschirm angezeigt, auch wenn hier deaktiviert. Lautstärke-Streams, die hier aktiviert sind, werden immer angezeigt.</string>
+    <string name="audio_panel_view_info">Aktiver Lautstärke-Steam wird auf dem Bildschirm angezeigt, auch wenn hier deaktiviert. Lautstärke-Streams, die hier aktiviert sind, werden immer angezeigt.</string>
     <string name="audio_panel_view_ringer_title">Klingeln</string>
     <string name="audio_panel_view_ringer_title_summary">Anpassen der Lautstärke des Klingeltons aus Lautstärke-Dialog</string>
     <string name="audio_panel_view_position_title">Lautstärkeregler auf der linken Seite</string>
@@ -605,15 +602,19 @@
     <string name="volume_pannel_general">Allgemein</string>
     <string name="volume_pannel_misc">Sonstiges</string>
     <!-- Display cutout options -->
-    <string name="cutout_main">Display Ausschnitt Einstellungen</string>
+    <string name="cutout_main">Display-Ausschnittseinstellungen</string>
     <string name="cutout_main_summary">Sie schneiden wirklich Ecken damit</string>
     <string name="display_cutout_style_title">Ausschnitt Stil</string>
     <string name="display_cutout_style_normal">Normal</string>
-    <string name="display_cutout_style_immerse">Eintauchen</string>
+    <string name="display_cutout_style_immerse">Immersiv</string>
     <string name="display_cutout_style_hide">Ausblenden</string>
     <string name="stock_statusbar_in_hide">Standard Statusleisten-Höhe</string>
     <string name="stock_statusbar_in_hide_summary">Nutze die Standard Statusbarhöhe beim Ausblenden</string>
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Standard</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Heads-Up weniger nervig machen</string>
+    <string name="less_boring_heads_up_summary">Zeige Hinweise nur für Telefon- oder Nachrichten-App an, wenn diese nicht im Vordergrund sind</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

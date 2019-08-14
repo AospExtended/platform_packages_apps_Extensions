@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Mygtukai</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Operacijos programose</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Padėkite mums padėti tau!</string>
+    <string name="extensions_dialog_message">Jei radote klaidą su bet kuriuo iš šių nustatymų, praneškite apie tai „Telegram“ grupėje. Įrašydami klaidos ataskaitą, privalote įtraukti: n n1. Logcat arba last_kmsg n2. Naudojami branduoliai ir modifikacijos n3. Naudinga informacija n Jei nepavyksta tinkamai pranešti apie tai, NEGALIMA tikėtis, kad viskas bus fiksuota.</string>
     <string name="extensions_dialog_toast">PERSKAITYKITE VISĄ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Pasirinkti pagrindinę spalvą</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Piktogramos viduje</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Portretas</string>
+    <string name="status_bar_battery_style_q">Q stilius</string>
     <string name="status_bar_battery_style_circle">Apskritimas</string>
     <string name="battery_style_dotted_circle">Taškuotas apskritimas</string>
     <string name="status_bar_battery_style_text">Tekstas</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Mygtukų apšvietimo trukmė</string>
     <string name="button_backlight_on_touch_only_title">Apšvietimo mygtukai liečiant</string>
     <string name="button_backlight_on_touch_only_summary">Mygtukai bus apšviesti tik paspaudus, o ne visada. Apšvietimo trukmė taip pat įtakoja šią funkciją.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Aplinkos muzikos simbolis</string>
-    <string name="force_ambient_for_media_pref_summary">Konfigūruoti aplinkos muzikos simbolį</string>
-    <string name="ambient_ticker_footer">Ši funkcija leidžia jums rodyti informaciją apie dabartinę muziką užrakto ekrane su arba be aktyviosios ekrano funkcijos N Taip pat galite dukart spustelėti takelį, kad praleistumėte takelį. \ T pranešimai garso sistemos nustatymuose, informacija apie ją bus rodoma kartu su juo.</string>
-    <string name="force_ambient_for_media_title">Įgalinti</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Adaptyvus ryškumo mygtukas</string>
     <string name="brightness_icon_summary">Rodyti adaptyvaus ryškumo mygtuką</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Numatytas</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Mažiau trikdantys plaukiojantieji pranešimai</string>
+    <string name="less_boring_heads_up_summary">Rodo pranešimo langus tik skambinimo ar pranešimų siuntimo programoms, kai jie nėra pirmoje vietoje</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

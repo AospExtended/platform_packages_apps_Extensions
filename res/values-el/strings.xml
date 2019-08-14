@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Πλήκτρα</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Εφαρμογές Συστήματος</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Βοηθήστε μας να σας βοηθήσουμε!</string>
+    <string name="extensions_dialog_message">Εάν εντοπίσετε κάποιο σφάλμα σε κάποια από αυτές τις ρυθμίσεις, αναρτήστε το στο Telegram Group. Πρέπει να συμπεριλάβετε τα παρακάτω όταν αναρτάτε μια αναφορά σφάλματος:\n\n1. Ένα logcat ή last_kmsg\n2. Τι Kernel και τι τροποποιήσεις χρησιμοποιείτε\n3. Χρήσιμες πληροφορίες\n\n Αν δεν καταφέρετε να αναφέρετε κάτι επαρκώς, ΜΗΝ περιμένετε να διορθωθούν τα πράγματα.</string>
     <string name="extensions_dialog_toast">ΔΙΑΒΑΣΤΕ ΟΛΟΚΛΗΡΟ ΤΟ ΚΕΙΜΕΝΟ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Επιλέξτε ένα χρώμα έμφασης</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Μέσα στο εικονίδιο</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Κατακόρυφα</string>
+    <string name="status_bar_battery_style_q">Q Εμφάνιση</string>
     <string name="status_bar_battery_style_circle">Κύκλος</string>
     <string name="battery_style_dotted_circle">Κύκλος με τελείες</string>
     <string name="status_bar_battery_style_text">Κείμενο</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Χρονικό όριο φωτισμού</string>
     <string name="button_backlight_on_touch_only_title">Φωτισμός πλήκτρων κατά το άγγιγμα</string>
     <string name="button_backlight_on_touch_only_summary">Ο φωτισμός πλήκτρων θα εμφανιστεί μόνο όταν τα πλήκτρα πατηθούν και όχι συνέχεια. Το όριο απενεργοποίησης παραμένει.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Επιλογέας μουσικής Οθόνης Περιβάλλοντος</string>
-    <string name="force_ambient_for_media_pref_summary">Διαμόρφωση του επιλογέα μουσικής οθόνης περιβάλλοντος</string>
-    <string name="ambient_ticker_footer">Η επιλογή μουσικής οθόνης περιβάλλοντος εμφανίζει το κομμάτι αναπαραγωγής ενώ παίζει μουσική και επιτρέπει να παρακολουθείτε πληροφορίες μέσα στην \n\n οθόνη που ενεργοποιείται..\n\n Επίσης, εάν η οθόνη περιβάλλοντος είναι απενεργοποιημένη κατά την εκκίνηση ένα νέο κομμάτι, εμφανίζεται σε νέα οθόνη με πληροφορίες κομματιού στη μέση της screen.\n\n Mπορεί επίσης να διπλασιαστεί αν πατήσετε παρακολούθηση πληροφοριών σε παράβλεψη κομματιών.</string>
-    <string name="force_ambient_for_media_title">Ενεργοποίηση</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Πλήκτρο προσαρμοστικής φωτεινότητας</string>
     <string name="brightness_icon_summary">Εμφάνιση του κουμπιού προσαρμοστικής φωτεινότητας</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Προεπιλογή</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Κάντε τις κεφαλίδες λιγότερο ενοχλητικές</string>
+    <string name="less_boring_heads_up_summary">Εμφάνιση κεφαλίδων μόνο για εφαρμογές κλήσης ή μηνυμάτων, αν δεν βρίσκονται στο προσκήνιο</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

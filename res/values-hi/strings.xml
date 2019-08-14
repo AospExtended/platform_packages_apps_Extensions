@@ -89,7 +89,6 @@
     <!-- Buttons -->
     <string name="buttons_title">बटन</string>
     <!-- App Ops -->
-    <string name="app_ops_category">एप्लिकेशन ऑप्स</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">आपकी सहायता करने में हमारी सहायता करें!</string>
     <string name="extensions_dialog_toast">इसको पूरा पढ़ें!</string>
@@ -359,11 +358,7 @@
     <string name="button_timeout_title">बैकलाइट समय समाप्ति</string>
     <string name="button_backlight_on_touch_only_title">बटन बैकलाइट स्पर्श</string>
     <string name="button_backlight_on_touch_only_summary">बटन बैकलाइट केवल तभी दिखाई देगा जब बटन दबाया जाता है बजाय हर समय के। बैकलाइट समय समाप्ति अभी भी इस सुविधा को प्रभावित करता है ।</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">परिवेश संगीत टिकर</string>
-    <string name="force_ambient_for_media_pref_summary">परिवेश संगीत टिकर को कॉन्फ़िगर करें</string>
-    <string name="ambient_ticker_footer">परिवेशी संगीत टिकर चल रहे गाने की जानकारी परिवेशी स्क्रीन पर दर्शाता है.\n\nअगर परिवेश स्क्रीन अक्षम है या नया ट्रैक शुरू किया है, स्क्रीन के बीच में गाने की जानकारी के साथ एक नया परिवेश स्क्रीन दिखाया जायेगा।\n\nट्रैक को छोड़ने के लिए जानकारी पर डबल टैप करें।</string>
-    <string name="force_ambient_for_media_title">सक्षम करें</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <!-- Quick Settings brightness side buttons -->
     <!-- Custom carrier label and position -->
@@ -393,4 +388,6 @@
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

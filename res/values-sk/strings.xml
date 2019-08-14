@@ -90,7 +90,6 @@
     <!-- Buttons -->
     <string name="buttons_title">Tlačidlá</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Oprávnenia aplikácií</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomôžte nám, pomôžeme vám!</string>
     <string name="extensions_dialog_toast">ČÍTAJTE DO KONCA!</string>
@@ -367,10 +366,7 @@
     <string name="button_timeout_title">Časový limit podsvietenia</string>
     <string name="button_backlight_on_touch_only_title">Časový limit podsvietenia tlačidiel pri dotyku</string>
     <string name="button_backlight_on_touch_only_summary">Podsvietenie tlačidiel bude zobrazené iba pri stlačení, nie po celú dobu. Časový limit stále ovplyvňuje túto funkciu.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Hudobný ukazovateľ na Ambientnom displeji</string>
-    <string name="force_ambient_for_media_pref_summary">Konfigurácia hudobného ukazovateľa na Ambientnom displeji</string>
-    <string name="force_ambient_for_media_title">Povoliť</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Adaptívne jas tlačidlo </string>
     <string name="brightness_icon_summary">Adaptívne jas tlačidlo </string>
@@ -598,4 +594,6 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Predvolený</string>
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

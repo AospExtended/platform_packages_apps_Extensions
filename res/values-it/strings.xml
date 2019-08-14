@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Pulsanti</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Op app</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Aiutaci ad aiutarti!</string>
+    <string name="extensions_dialog_message">Se trovi un bug con una qualsiasi di queste impostazioni, segnalalo nel nostro gruppo Telegram. È necessario includere quanto segue durante il postazione di un report di bug:\n\n. Un logcat o last_kmsg\n. Kernel e mods utilizzati\n. Informazioni utili\n\nSe non si segnala qualcosa in modo adeguato, NON si aspettano che le cose siano riparate.</string>
     <string name="extensions_dialog_toast">LEGGI TUTTO!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Seleziona un colore primario</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Verticale</string>
+    <string name="status_bar_battery_style_q">Stile Q</string>
     <string name="status_bar_battery_style_circle">Cerchio</string>
     <string name="battery_style_dotted_circle">Cerchio tratteggiato</string>
     <string name="status_bar_battery_style_text">Testo</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Durata retroilluminazione</string>
     <string name="button_backlight_on_touch_only_title">Retroilluminazione pulsanti al tocco</string>
     <string name="button_backlight_on_touch_only_summary">La retroilluminazione dei pulsanti viene visualizzata solo quando i pulsanti vengono premuti anziché per tutto il tempo. Il timeout influisce su questa funzione.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ticker Ambient musicale</string>
-    <string name="force_ambient_for_media_pref_summary">Configura il ticker musicale su Ambient Display</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker mostra le informazioni della traccia musicale all\'interno della schermata di visualizzazione Ambient.\n\nSi attiva anche se Ambient Display è disabilitato quando viene avviata una nuova traccia, forzando una schermata ambiente pulita con le informazioni sulla traccia nel mezzo dello schermo.\n\nTu puoi anche toccare due volte le informazioni sulla traccia per saltare la traccia.\n\nSe possiedi un Pixel e attivi la riproduzione in corso e la sua notifica nelle impostazioni audio del sistema, Ambient Music Ticker funzionerà anche al suo interno.</string>
-    <string name="force_ambient_for_media_title">Abilita</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Pulsante luminosità adattivo</string>
     <string name="brightness_icon_summary">Mostra il pulsante della luminosità adattiva</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Predefinito</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Rendi le notifiche fluttuanti meno invasive</string>
+    <string name="less_boring_heads_up_summary">Mostra le notifiche fluttuanti solo per il telefono o i messaggi se non sono in primo piano</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

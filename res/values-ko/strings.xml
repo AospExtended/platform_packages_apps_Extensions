@@ -89,7 +89,6 @@
     <!-- Buttons -->
     <string name="buttons_title">버튼</string>
     <!-- App Ops -->
-    <string name="app_ops_category">앱 작업</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">돕도록 해주세요!</string>
     <string name="extensions_dialog_toast">본문을 모두 읽어주세요!</string>
@@ -348,11 +347,7 @@
     <string name="button_timeout_title">백라이트 시간 제한</string>
     <string name="button_backlight_on_touch_only_title">버튼 백라이트 터치</string>
     <string name="button_backlight_on_touch_only_summary">버튼 백라이트는 버튼을 누르는 경우에만 나타납니다. 시간 제한은 여전히 이 기능에 영향을 줍니다.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">음악 알림</string>
-    <string name="force_ambient_for_media_pref_summary">앰비언트 뮤직 티커 구성</string>
-    <string name="ambient_ticker_footer">앰비언트 뮤직 티커는 앰비언트 디스플레이 화면에 현재 재생되는 음악 트랙 정보를 나타냅니다.\n\n 만약 새 트랙이 시작될 때 앰비언트 화면이 꺼져 있을 경우, 화면 중간에 트랙 정보를 담은 깨끗한 앰비언트 화면을 강제로 표시합니다.\n\n또한 트랙 정보를 두 번 눌러서 트랙을 건너 뛸 수 있습니다.\n\n 픽셀을 가지고 있고 Now Playing 및 시스템 오디오 설정에서 알림을 사용할 경우 앰비언트 뮤직 티커도 그 안에서 작동합니다.</string>
-    <string name="force_ambient_for_media_title">활성화</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">밝기 자동 조절 버튼</string>
     <string name="brightness_icon_summary">밝기 자동 조절 버튼 표시</string>
@@ -546,13 +541,17 @@
     <!-- Recents icon packs -->
     <!-- Volume Steps Fragment -->
     <!-- Incall vibrate options -->
+    <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
+    <string name="incall_vibrate_disconnect_summary">통화 종료 시 진동하도록 사용합니다.</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">앱 종료 버튼</string>
     <string name="notification_guts_kill_app_button_summary">알림을 길게 눌렀을 때 앱 종료 버튼 보이기</string>
     <!-- Notification with screen on -->
+    <string name="notification_sound_vib_screen_on_title">화면이 켜졌을 때 소리 및 팝업 알림</string>
     <string name="notification_sound_vib_screen_on_summary">화면이 켜져있을 때 알림 소리 및 진동을 차단합니다</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">스마트 알림 소리</string>
+    <string name="less_notification_sounds_summary">각각 앱의 알림 소리를 정해진 기간 당 한번만 울리게 제한합니다</string>
     <string name="less_notification_sounds_default">앱 기본</string>
     <string name="less_notification_sounds_10s">10초마다</string>
     <string name="less_notification_sounds_30s">30초마다</string>
@@ -560,16 +559,29 @@
     <string name="less_notification_sounds_2m">2분마다</string>
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_title">볼륨 패널</string>
+    <string name="audio_panel_view_summary">볼륨 패널창을 맞춤설정</string>
+    <string name="audio_panel_view_info">여기에서 비활성화 된 경우에도 활성 볼륨 스트림이 화면에 표시됩니다. 여기에서 활성화 된 볼륨 스트림은 강제로 표시됩니다.</string>
     <string name="audio_panel_view_ringer_title">벨소리</string>
     <string name="audio_panel_view_ringer_title_summary">볼륨 패널에서 벨소리 크기 조절하기</string>
     <string name="audio_panel_view_position_title">볼륨 패널 왼쪽에 표시하기</string>
     <string name="audio_panel_view_position_summary">볼륨 패널이 화면의 왼쪽에 보입니다</string>
+    <string name="audio_panel_view_timeout_title">볼륨 패널 시간 초과</string>
     <string name="volume_pannel_general">일반</string>
+    <string name="volume_pannel_misc">기타</string>
     <!-- Display cutout options -->
     <string name="cutout_main">디스플레이 컷아웃 설정</string>
+    <string name="cutout_main_summary">이 항목에 대해서 그들은 절차를 완전히 무시했네요.</string>
     <string name="display_cutout_style_title">컷아웃 스타일</string>
     <string name="display_cutout_style_normal">기본</string>
+    <string name="display_cutout_style_immerse">확장</string>
+    <string name="display_cutout_style_hide">숨기기</string>
     <string name="stock_statusbar_in_hide">기본 상태 표시줄 높이</string>
+    <string name="stock_statusbar_in_hide_summary">숨기기에서 기본 상태 표시 줄 높이 사용</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">기본값</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">헤드업 알림 빈도 줄이기</string>
+    <string name="less_boring_heads_up_summary">전화나 메세지 앱만 백그라운드에서 실행되고 있지 않을 경우 헤드업 알림을 표시합니다.</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -88,7 +88,6 @@
     <!-- Buttons -->
     <string name="buttons_title">Knoppen</string>
     <!-- App Ops -->
-    <string name="app_ops_category">App Ops</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Help ons, help jezelf!</string>
     <string name="extensions_dialog_toast">LEES HET HELE DING!</string>
@@ -229,9 +228,7 @@
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambiente muziekticker</string>
-    <string name="force_ambient_for_media_pref_summary">Ambiente muziekticker instellen</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <!-- Quick Settings brightness side buttons -->
     <!-- Custom carrier label and position -->
@@ -261,4 +258,6 @@
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

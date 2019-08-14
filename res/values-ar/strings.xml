@@ -30,8 +30,8 @@
     <string name="security_category">الأمان</string>
     <string name="hardware_category">المعِدات</string>
     <string name="icons_category">الأيقونات</string>
-    <string name="aosp_recents_category">التطبيقات الحديثة الخاصة بـ AOSP</string>
-    <string name="oreo_recents_category">التطبيقات الحديثة أوريو</string>
+    <string name="aosp_recents_category">التطبيقات الاخيرة الخاصة بـ AOSP</string>
+    <string name="oreo_recents_category">التطبيقات الاخيرة أوريو</string>
     <string name="light_category">الأضواء</string>
     <string name="dlg_ok">موافق</string>
     <string name="attention">تنبيه</string>
@@ -44,7 +44,7 @@
     <string name="color_title">اللون</string>
     <string name="colors_title">الألوان</string>
     <!-- Extensions categories -->
-    <string name="recents_category">التطبيقات الحديثة</string>
+    <string name="recents_category">التطبيقات الاخيرة</string>
     <string name="recents_category_summary">تخصيص النظرة العامة للتطبيقات الحديثة</string>
     <string name="status_bar_category">شريط الحالة</string>
     <string name="status_bar_category_summary">تخصيص شريط الحالة</string>
@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">الأزرار</string>
     <!-- App Ops -->
-    <string name="app_ops_category">أذونات التطبيق </string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">ساعدنا على مساعدتك!</string>
+    <string name="extensions_dialog_message">اذا وجدت مشكله مع اي من هاذه الاعدادات، بلغ عنها في مجموعة تليقرام الخاصه بنا. تحتاج الى اضافة الاشياء التاليه لنشر التبليغ:\n\n1. سجل الاستخدام او last_kmsg\n2. النواه والتعديلات المستخدمه\n3. معلومات مفيده\n\nاذا فشلت في التبليغ هناك شيء غير كافي، لاتتوقع ان يتم اصلاح شيء.</string>
     <string name="extensions_dialog_toast">أقرأ كل شيء</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">حدد لون السمة</string>
@@ -241,12 +241,13 @@
     <string name="status_bar_battery_percentage_text_inside">داخل الأيقونة</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">عمودي</string>
+    <string name="status_bar_battery_style_q">نمط Q</string>
     <string name="status_bar_battery_style_circle">دائرة</string>
     <string name="battery_style_dotted_circle">دائرة منقطة</string>
     <string name="status_bar_battery_style_text">نص</string>
     <string name="status_bar_battery_style_hidden">مخفي</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">نمط التطبيقات الحديثة</string>
+    <string name="recents_component_type_title">نمط التطبيقات الاخيرة</string>
     <string name="recents_pie">أندرويد P</string>
     <string name="recents_oreo">أندرويد O</string>
     <!-- Toast app icon -->
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">مهلة إضاءة الأزرار</string>
     <string name="button_backlight_on_touch_only_title">إضاءة الأزرار عند لمسها</string>
     <string name="button_backlight_on_touch_only_summary">سوف يعمل ضوء الأزرار فقط عند الضغط عليها بدلاً من ان تعمل كل الوقت. المهلة لا تزال تؤثر في هذه الميزة.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">الشريط الموسيقي المحيطي</string>
-    <string name="force_ambient_for_media_pref_summary">تهيئة شريط الموسيقى المحيطي</string>
-    <string name="ambient_ticker_footer">يعرض الشريط الموسيقي المحيطي معلومات عن مسار الموسيقى ضمن شاشة العرض المحيطة.\n\nكما يتم تشغيله أيضًا في حالة تعطيل العرض المحيط عند بدء مسار جديد، مما يؤدي إلى عرض شاشة محيطة نظيفة تحتوي على معلومات المسار في منتصف الشاشة.\n\nيمكنك أيضًا النقر مزدوجًا على معلومات المسار لتخطي المسار.\n\nإذا كنت تملك Pixel وتمكّن التشغيل الآن وإشعاره في إعدادات صوت النظام، فسيعمل شريط الموسيقى المحيطي أيضًا معه.</string>
-    <string name="force_ambient_for_media_title">تمكين</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">زر السطوع التلقائي</string>
     <string name="brightness_icon_summary">إظهار زر السطوع التلقائي</string>
@@ -529,7 +526,7 @@
     <string name="recents_show_membar_title">شريط الذاكرة</string>
     <string name="recents_show_membar_summary">إظهار شريط مع الذاكرة المتوفرة للجهاز</string>
     <!-- Oreo Recents Style -->
-    <string name="recents_type_title">تخطيط التطبيقات الحديثة أوريو</string>
+    <string name="recents_type_title">تخطيط التطبيقات الاخيرة أوريو</string>
     <string name="recents_stock">الأصلية</string>
     <string name="recents_grid">شبكة</string>
     <string name="recents_go">أندرويد Go</string>
@@ -549,8 +546,8 @@
     <string name="smart_pixels_shift_summary">منع الاحتراق في اجهزة OLED عن طريق نقل وحدات البكسل في كل مرة</string>
     <string name="lockscreen_items_other">غير ذلك</string>
     <string name="gesture_settings_title">الإيماءات</string>
-    <string name="gesture_settings_info">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة:\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nضغط مطول على الرئيسية\n- اسحب سريعاً لأعلى مع الاستمرار في المركز</string>
-    <string name="gesture_settings_info_new">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة::\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nالتبديل إلى التطبيق الأخير\n- اسحب سريعًا لأعلى مع الاستمرار في المركز</string>
+    <string name="gesture_settings_info">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة:\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الاخيرة\n- مرر لأعلى من الوسط مع الاستمرار\n\nضغط مطول على الرئيسية\n- اسحب سريعاً لأعلى مع الاستمرار في المركز</string>
+    <string name="gesture_settings_info_new">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة::\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الاخيرة\n- مرر لأعلى من الوسط مع الاستمرار\n\nالتبديل إلى التطبيق الأخير\n- اسحب سريعًا لأعلى مع الاستمرار في المركز</string>
     <string name="use_bottom_gesture_title">إيماءات التنقل</string>
     <string name="use_bottom_gesture_summary">استخدم إيماءات السحب لأعلى من الأسفل للتنقل</string>
     <string name="gesture_swipe_length_title">إرتفاع مشغل التمرير</string>
@@ -559,7 +556,7 @@
     <string name="gesture_action_timeout_summary">المهلة قبل بدء إجراء الإيماءة</string>
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">حزم الرموز</string>
-    <string name="recents_icon_pack_summary">تطبيق حزمة رموز مخصصة للوحة التطبيقات الحديثة</string>
+    <string name="recents_icon_pack_summary">تطبيق حزمة رموز مخصصة للوحة التطبيقات الاخيرة</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">درجات الصوت</string>
     <string name="volume_steps_summary">تخصيص درجات الصوت</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">الإفتراضي</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">جعل التنبيهات العلوية اقل أزعاجاً</string>
+    <string name="less_boring_heads_up_summary">اظهار التنبيهات العلويه لتطبيق الاتصال والرسائل اذا لم تكن في المقدمه</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

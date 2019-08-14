@@ -90,7 +90,6 @@
     <!-- Buttons -->
     <string name="buttons_title">دکمه‌‌ها</string>
     <!-- App Ops -->
-    <string name="app_ops_category">اقدامات مربوط به برنامه‌ها</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">کمک به ما کمک به شما!</string>
     <string name="extensions_dialog_toast">همه چیز را بخوانید!</string>
@@ -330,8 +329,7 @@
     <string name="button_timeout_title">زمان خاموش کردن نور پس زمینه</string>
     <string name="button_backlight_on_touch_only_title">نور پس زمینه دکمه در زمان لمس</string>
     <string name="button_backlight_on_touch_only_summary">نور پس زمینه دکمه‌ها به جای اینکه دائما روشن باشد تنها در زمان فشردن آنها روشن خواهد شد. زمان خاموش شدن نور پس زمینه بر روی این قابلیت نیز عمل می‌کند.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_title">فعال‌سازی</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <!-- Quick Settings brightness side buttons -->
     <!-- Custom carrier label and position -->
@@ -361,4 +359,6 @@
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

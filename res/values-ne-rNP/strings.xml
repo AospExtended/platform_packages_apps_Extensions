@@ -72,12 +72,14 @@
     <!-- Show VoLTE icon on statusbar -->
     <!-- Smart pulldown-->
     <!-- Screen state service -->
+    <string name="screen_state_toggles_mobile_title">मोबाइल नेटवर्क</string>
+    <string name="screen_state_toggles_mobile_data">मोबाइल डेटा बन्द गर्नुहोस्</string>
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
-    <!-- Ambient display music ticker -->
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <!-- Quick Settings brightness side buttons -->
     <!-- Custom carrier label and position -->
@@ -107,4 +109,6 @@
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Gumbi</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Dovoljenja za aplikacijo</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomagajte nam, da vam pomagamo!</string>
+    <string name="extensions_dialog_message">Če najdete napako v katerikoli od teh nastavitev, objavite to v naši Telegram skupini. Ob prijavi napake MORATE vključiti naslednje:\n\n1. Logcat ali last_kmsg\n2. Uporabljeno jedro (kernel) in modifikacije\n3. Uporabne podatke\n\nČe prijave ne izpolnite ustrezno, NE pričakujte, da bodo stvari popravljene.</string>
     <string name="extensions_dialog_toast">PREBERITE CELOTNO STVAR!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Izberite barvo poudarka</string>
@@ -226,6 +226,7 @@
     <string name="battery_light_full_color">Akumulator skoraj napolnjen</string>
     <string name="battery_light_reallyfull_color">Akumulator napolnjen (100)</string>
     <!-- Notifications LED -->
+    <string name="notification_light_settings">LED lučka za obvestila</string>
     <string name="notification_light_summary">Prilagodite LED lučko za obvestila za različne aplikacije</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Podatki o polnjenju na zaklenjenem zaslonu</string>
@@ -240,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">V ikoni</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Pokončno</string>
+    <string name="status_bar_battery_style_q">Q slog</string>
     <string name="status_bar_battery_style_circle">Krog</string>
     <string name="battery_style_dotted_circle">Pikčast krog</string>
     <string name="status_bar_battery_style_text">Besedilo</string>
@@ -293,6 +295,8 @@
     <string name="clock_date_right">Desno od ure</string>
     <string name="clock_date_left">Levo od ure</string>
     <string name="clock_date_position">Položaj datuma</string>
+    <string name="status_bar_clock_seconds_title">Prikaži sekunde</string>
+    <string name="status_bar_clock_seconds_summary">Vključi sekunde v uro vrstice stanja</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Hitro spuščanje</string>
     <string name="quick_pulldown_summary">%1$s rob vrstice stanja spusti Hitre nastavitve</string>
@@ -341,6 +345,11 @@
     <string name="lockscreen_clock_selection_analog">Analogna</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (krepko)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy s poudarkom</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy s poudarkom (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Analogna s polnim barvnim prelivom</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Analogna z enobarvnim prelivom</string>
+    <string name="lockscreen_clock_selection_text">Android Q besedna ura</string>
     <string name="qs_styles_dialog_title">Izberite slog ploščice hitrih nastavitev</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Prikaži ikono onemogočenih podatkov</string>
@@ -368,11 +377,7 @@
     <string name="button_timeout_title">Čas osvetlitve</string>
     <string name="button_backlight_on_touch_only_title">Osvetlitev ozadja gumbov ob dotiku</string>
     <string name="button_backlight_on_touch_only_summary">Osvetlitev ozadja gumbov se bo pojavila samo ob pritisku na gumbe, namesto, da je vklopljena ves čas. Čas osvetlitve vseeno vpliva na to značilnost.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Glasba na okoliškem zaslonu</string>
-    <string name="force_ambient_for_media_pref_summary">Nastavite glasbo na okoliškem zaslonu</string>
-    <string name="ambient_ticker_footer">Glasba na okoliškem zaslonu kaže podatke o predvajani glasbi.\n\nSproži se tudi, če je okoliški zaslon onemogočen, ko je predvajana nova skladba, kar pokaže podatke o skladbi na sredini praznega okoliškega zaslona.\n\nZ dvojnim tapom na podatke o skladbi, jo lahko preskočite.\n\nČe ste lastnik Pixla in omogočite Sedaj se predvaja in njegovo obvestilo v nastavitvah zvoka sistema, bo Glasba na okoliškem zaslonu delovala tudi znotraj njega.</string>
-    <string name="force_ambient_for_media_title">Omogoči</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Gumb prilagodljive svetlosti</string>
     <string name="brightness_icon_summary">Prikaži gumb prilagodljive svetlosti</string>
@@ -597,6 +602,19 @@
     <string name="volume_pannel_general">Splošno</string>
     <string name="volume_pannel_misc">Razno</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Nastavitve zareze zaslona</string>
+    <string name="cutout_main_summary">Tukaj so resnično porezali robove</string>
+    <string name="display_cutout_style_title">Slog zareze</string>
+    <string name="display_cutout_style_normal">Običajno</string>
+    <string name="display_cutout_style_immerse">Poglobljeno</string>
+    <string name="display_cutout_style_hide">Skrito</string>
+    <string name="stock_statusbar_in_hide">Standardna višina vrstice stanja</string>
+    <string name="stock_statusbar_in_hide_summary">Uporabi privzeto višino vrstice stanja, ko je skrito</string>
     <!-- IconPack Preference -->
+    <string name="default_iconpack_title">Privzeto</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Naredi obvestila na zaslonu manj nadležna</string>
+    <string name="less_boring_heads_up_summary">Prikaži obvestila na zaslonu samo za klicalnik ali aplikacijo za sporočanje, če nista v ospredju</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

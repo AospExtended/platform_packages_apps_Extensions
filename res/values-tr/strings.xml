@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Tuşlar</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Uygulama çalışma ayarları</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Bize yardımcı olun!</string>
+    <string name="extensions_dialog_message">Bu ayarlardan herhangi birinde bir hata bulursanız, Telegram grubumuza rapor edin. Bir hata raporu yayınlarken aşağıdakileri dahil etmeniz GEREKİR:\n\n1. Bir logcat veya last_kmsg\n2. Çekirdek ve kullanılan modlar\n3. Yararlı bilgiler\n\nBir şeyi yeterince rapor etmekte başarısız olursanız, hataların düzeltilmesini beklemeyin.</string>
     <string name="extensions_dialog_toast">HER ŞEYİ OKUYUN!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Bir vurgu rengi seçin</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Dikey</string>
+    <string name="status_bar_battery_style_q">Q stili</string>
     <string name="status_bar_battery_style_circle">Daire</string>
     <string name="battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Arka ışık zaman aşımı</string>
     <string name="button_backlight_on_touch_only_title">Dokunulduğunda aydınlat</string>
     <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı yalnızca tuşlara basıldığında değil her zaman açık kalır. Zaman aşımı yine de bu özelliği etkiler.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ortam müzik bilgisi</string>
-    <string name="force_ambient_for_media_pref_summary">Ortam ekranında müzik bilgisini yapılandır</string>
-    <string name="ambient_ticker_footer">Ortam ekranı müzik bilgisi, ortam ekranında müzik parça bilgilerini gösterir.\n\nYeni bir parça başlatıldığında ortam ekranı devre dışı bırakılmışsa, ekranın ortasında parça bilgisi içeren temiz bir ortam ekranına zorlamak için de kullanılır.\n\nParçayı atlamak için parça bilgisine de iki kez dokunabilirsiniz.\n\nBir piksel değerine sahipseniz Sistem ses ayarlarında şimdi çalınıyor bildirimlerini etkinleştirin, Ortam ekranı müzik bilgisi de bunun içinde çalışır.</string>
-    <string name="force_ambient_for_media_title">Etkinleştir</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Uyarlanabilir parlaklık tuşu</string>
     <string name="brightness_icon_summary">Uyarlanabilir parlaklık tuşlarını göster</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Varsayılan</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Daha az bildirim alın</string>
+    <string name="less_boring_heads_up_summary">Ön planda olmadıklarında yalnızca çevirici veya mesajlaşma uygulaması için bildirim pencerelerini gösterir</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

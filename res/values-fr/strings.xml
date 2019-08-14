@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Boutons</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Comportement des applications</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Laissez-nous vous aider !</string>
+    <string name="extensions_dialog_message">Si vous trouvez un bogue avec l’un de ces paramètres, signalez-le dans notre groupe Telegram. Vous DEVEZ inclure les éléments suivants lors de la publication d’un rapport de bogue:\n\n1. Un logcat ou last_kmsg\n2. Noyau et mods utilisés\n3. Informations utiles\n\nSi vous ne signalez pas correctement quelque chose, NE vous attendez pas à ce que les problèmes soient corrigés.</string>
     <string name="extensions_dialog_toast">À LIRE ENTIÈREMENT !</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Choisir une couleur d\'accentuation</string>
@@ -242,6 +242,7 @@ Note : à vos risques et périls !</string>
     <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Vertical</string>
+    <string name="status_bar_battery_style_q">Style Q</string>
     <string name="status_bar_battery_style_circle">Cercle</string>
     <string name="battery_style_dotted_circle">Cercle en pointillé</string>
     <string name="status_bar_battery_style_text">Texte</string>
@@ -377,11 +378,7 @@ Note : à vos risques et périls !</string>
     <string name="button_timeout_title">Délai avant extinction du Rétroéclairage</string>
     <string name="button_backlight_on_touch_only_title">Rétroéclairage uniquement lors d\'un appui</string>
     <string name="button_backlight_on_touch_only_summary">Le Rétroéclairage des boutons est effectif uniquement lors d\'un appui. Le délai du Rétroéclairage est pris en compte par cette fonctionnalité.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Afficher les infos du média en mode Veille</string>
-    <string name="force_ambient_for_media_pref_summary">Configurer les infos du média en mode Veille</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker montre les informations de la piste jouée dans l\'affichage ambiant.\n\nIl est déclenché même si l\'affichage ambiant est désactivé quand une nouvelle piste commence, forçant un écran ambiant propre avec des informations sur la piste au milieu de l\'écran.\n\nSi vous possédez un pixel et activez la lecture en cours et sa notification dans les paramètres audio du système, Ambient Music Ticker fonctionnera également avec ce pixel.</string>
-    <string name="force_ambient_for_media_title">Activer</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Bouton Adaptation de la luminosité</string>
     <string name="brightness_icon_summary">Affiche le Bouton Adaptation de la luminosité</string>
@@ -617,4 +614,8 @@ Note : à vos risques et périls !</string>
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Par défaut</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Rendre les messages flottants moins agaçant</string>
+    <string name="less_boring_heads_up_summary">Afficher les messages flottants pour l\'application téléphone ou messagerie uniquement s\'ils ne sont pas en premier plan</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

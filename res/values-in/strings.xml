@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Tombol</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Opsi aplikasi</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Bantu kami membantu kamu!</string>
+    <string name="extensions_dialog_message">If you find a bug with any of these settings, report it in our Telegram Group. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
     <string name="extensions_dialog_toast">BACA KESELURUHAN!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Pilih warna aksen</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Tegak</string>
+    <string name="status_bar_battery_style_q">Gaya Q</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="battery_style_dotted_circle">Lingkaran putus-putus</string>
     <string name="status_bar_battery_style_text">Teks</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Batas waktu lampu latar</string>
     <string name="button_backlight_on_touch_only_title">Tombol sentuh lampu latar</string>
     <string name="button_backlight_on_touch_only_summary">Lampu latar tombol hanya akan tampak ketika tombol ditekan daripada aktif sepanjang waktu. Batas waktu sangat mempengaruhi fitur ini.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Tampilan musik sekitar</string>
-    <string name="force_ambient_for_media_pref_summary">Mengkonfigurasi tampilan musik sekitar</string>
-    <string name="ambient_ticker_footer">Tampilan musik sekitar menampilkan informasi trek musik yang dimainkan dengan tampilan layar Ambient.\n\nIni juga terpicu jika Tampilan Ambien dimatikan saat trek baru dimulai, memaksa membersihkan layar ambien dengan informasi trek di tengah layar.\n\nKamu juga bisa mengetuk dua kali pada info trek untuk melewati trek.</string>
-    <string name="force_ambient_for_media_title">Aktif</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Tombol kecerahan adaptif</string>
     <string name="brightness_icon_summary">Tampilkan tombol kecerahan adaptif</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Default</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Make heads up less annoying</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

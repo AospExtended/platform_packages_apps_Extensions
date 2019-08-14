@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Кнопки</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Дозволи додатків</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Допоможіть нам допомогти Вам!</string>
+    <string name="extensions_dialog_message">Якщо Ви знайшли баг у будь-яких з цих налаштувань, напишіть про це у нашій групі в Telegram. Ви ПОВИННІ додати наступне коли будете писати про баг:\n\n1. Logcat чи last_kmsg;\n2. Ядро та модифікації, що встановлені;\n3. Корисна інформація\n\nЯкщо Ви не можете адекватно надати необхідну інформацію, НЕ ОЧІКУЙТЕ, що щось буде виправлено.</string>
     <string name="extensions_dialog_toast">ПРОЧИТАЙТЕ ВСЕ ЦЕ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Виберіть колір акценту</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Всередині іконки</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Портретна орієнтація</string>
+    <string name="status_bar_battery_style_q">Стиль Android Q</string>
     <string name="status_bar_battery_style_circle">Кільце</string>
     <string name="battery_style_dotted_circle">Пунктирне кільце</string>
     <string name="status_bar_battery_style_text">Текст</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Тайм-аут підсвічування</string>
     <string name="button_backlight_on_touch_only_title">Підсвічування кнопок при торканні</string>
     <string name="button_backlight_on_touch_only_summary">Включати підсвічування сенсорних кнопок тільки при торканні. Затримка підсвічування впливає на цю функцію.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Індикатор назви треку на Ambient Display</string>
-    <string name="force_ambient_for_media_pref_summary">Налаштування сповіщень музики на Ambient Display</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker відображає інформацію про поточний трек для Ambient Display.\n\nВін також запускається, якщо Ambient Display вимкнений, коли починається новий трек й вмикає Ambient Display з інформацією про трек на середені екрану.\n\nВи також можете натиснути двічі на інформацію про трек, щоб пропустити його.\n\nЯкщо ви власник Pixel і ввімкнете показ \"Зараз відтворюється\" і його сповіщення в системних налаштування звуку, то Ambient Music Ticker також буде працювати з ним.</string>
-    <string name="force_ambient_for_media_title">Увімкнути</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Кнопка адаптивної яскравості</string>
     <string name="brightness_icon_summary">Відображати кнопку адаптивної яскравості</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">За замовчуванням</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Зробити спливаючі сповіщення менш набридливими</string>
+    <string name="less_boring_heads_up_summary">Відображати спливаючі сповіщення лише для дзвінків і повідомлень</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

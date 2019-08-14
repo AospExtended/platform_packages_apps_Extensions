@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Gombok</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Alkalmazásműveletek</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Segítsen nekünk, hogy segíthessünk önnek!</string>
+    <string name="extensions_dialog_message">Ha talál egy hibát ezekben a beállításokban, jelentse azt Telegram csoportunkban. A következőket KELL csatolnia, ha hibajelentést ír: \n\n 1. Egy \"logcat\"-et vagy \"last_kmsg\"-t\n2. A használt kernel és módosítások megnevezését\n3. Hasznos információkat\n\nHa nem érthető hibajelentést küld, NE várjon hibajavítást.</string>
     <string name="extensions_dialog_toast">OLVASSA EL AZ EGÉSZET!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Kiemelőszín-választás</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Álló</string>
+    <string name="status_bar_battery_style_q">Q stílusú</string>
     <string name="status_bar_battery_style_circle">Kör</string>
     <string name="battery_style_dotted_circle">Pontozott kör</string>
     <string name="status_bar_battery_style_text">Szöveg</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">A háttérvilágítás időkorlátja</string>
     <string name="button_backlight_on_touch_only_title">A gombok háttérvilágítása csak érintéskor</string>
     <string name="button_backlight_on_touch_only_summary">A gomb háttérvilágítása csak akkor lesz aktív, amikor hozzáér a gombhoz. Az időkorlát hatással van erre a szolgáltatásra.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambient music jelzőszalag</string>
-    <string name="force_ambient_for_media_pref_summary">Az Ambient music jelzőszalagjának konfigurálása</string>
-    <string name="ambient_ticker_footer">Az Ambient Music Jelzőszalag a zeneszámokat a kiterjesztett képernyőn jeleníti meg.\n\nAkkor is aktiválódik, ha a környezeti kijelző le van tiltva, amikor egy új zeneszám elindul, a képernyő közepén egy új infobox jelenik meg.\n\nA zeneszámok átugrásához duplán érintse meg a zene adatait.\n\nHa Pixel-e van, és engedélyezi a Now Playing szolgáltatást és annak értesítéseit a rendszer hangbeállításaiban, az Ambient Music Jelzőszalag is működni fog benne.</string>
-    <string name="force_ambient_for_media_title">Engedélyezés</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Az \'Alkalmazkodó fényerő\' gombja</string>
     <string name="brightness_icon_summary">\'Alkalmazkodó fényerő\' gomb mutatása</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Alapértelmezett</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Kevésbé zavaró lebegő értesítések</string>
+    <string name="less_boring_heads_up_summary">Csak a Tárcsázó és az Üzenetek alkalmazáshoz jelenít meg feluró értesítéseket</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

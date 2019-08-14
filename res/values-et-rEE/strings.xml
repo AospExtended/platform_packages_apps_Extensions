@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Nupud</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Rakenduse tööd</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Aita meil aidata!</string>
+    <string name="extensions_dialog_message">Kui leiate mõnest neist seadetest vea, teatage sellest meie Telegram Group-i. Te peate veateate postitamisel lisama järgmise info:\n\n1. Logcat või last_kmsg\n2. Kasutatud kernel ja modifikatsioonid\n3. Kasulik informatsioon\n\nKui te ei tea piisavalt, ÄRGE oodake, et asjad fikseeritakse.</string>
     <string name="extensions_dialog_toast">LOE KÕIK LÄBI!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Valige aktsentvärv</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Ikooni sees</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Portree</string>
+    <string name="status_bar_battery_style_q">Q stiil</string>
     <string name="status_bar_battery_style_circle">Ring</string>
     <string name="battery_style_dotted_circle">Täppidest ring</string>
     <string name="status_bar_battery_style_text">Tekst</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Taustvalgustuse Viivitus</string>
     <string name="button_backlight_on_touch_only_title">Nupu taustavalguse puudutus</string>
     <string name="button_backlight_on_touch_only_summary">Nupu taustavalgustus ilmneb ainult siis, kui nuppe vajutatakse. Vaheaeg sellegipoolest mõjutab seda funktsiooni.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambientne muusika vajutaja</string>
-    <string name="force_ambient_for_media_pref_summary">Konfigureerige ümbritseva muusika märgistus</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker näitab muusikapalade info esitamist ümbritseva pildi ekraanil.\n\nSee käivitub ka siis, kui uue raja käivitamisel keelatakse ümbritseva pildi kuvamine, ekraani keskel sundides puhast ümbritsevat ekraani, mille info on jälgitav.\n\nRaja info vahelejätmiseks võite ka topelt puudutada.\n\nKui teil on Pixel ja lubate Now Playing ning selle teate süsteemi Audio seaded, töötab ka Ambient Music Ticker selle ümbruses.</string>
-    <string name="force_ambient_for_media_title">Luba</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Heleduse kohanduvuse nupp</string>
     <string name="brightness_icon_summary">Kuva heleduse kohanduvuse nupp</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Vaikimisi</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Vähem häirivad hüpikaknad</string>
+    <string name="less_boring_heads_up_summary">Näita hüpikakende teateid ainult kõnede või sõnumite puhul (kui need ei ole esiplaanil)</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -90,7 +90,6 @@
     <!-- Buttons -->
     <string name="buttons_title">按鍵</string>
     <!-- App Ops -->
-    <string name="app_ops_category">權限管理</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">幫助我們也幫助您！</string>
     <string name="extensions_dialog_toast">請閱讀全部的內容！</string>
@@ -376,11 +375,7 @@
     <string name="button_timeout_title">背光逾時</string>
     <string name="button_backlight_on_touch_only_title">按鍵背光觸控</string>
     <string name="button_backlight_on_touch_only_summary">按鍵背光只會在按下按鍵時出現，而不是一直按下。逾時仍會影響此功能。</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">環境音樂通知</string>
-    <string name="force_ambient_for_media_pref_summary">設定環境音樂通知</string>
-    <string name="ambient_ticker_footer">鎖定螢幕音樂通知會在關閉的螢幕上顯示正在播放的音樂曲目資訊。\n\n即使鎖定螢幕音樂通知被禁用，在播放新曲目時它仍會被觸發，強制在螢幕中央顯示簡潔的曲目資訊。\n\n您也可以雙擊曲目資訊以跳過此曲目。\n\n如果您擁有一部 Pixel 並啟用了正在播放及其在系統音頻設置中的通知，環境音樂收錄器同樣可在其中工作。</string>
-    <string name="force_ambient_for_media_title">啟用</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">自動調整亮度按鈕</string>
     <string name="brightness_icon_summary">顯示自動調整亮度按鈕</string>
@@ -616,4 +611,6 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">預設</string>
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -77,7 +77,7 @@
     <!-- Data disabled icon -->
     <!-- Hardware button navigation -->
     <!-- Button brightness -->
-    <!-- Ambient display music ticker -->
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <!-- Quick Settings brightness side buttons -->
     <!-- Custom carrier label and position -->
@@ -107,4 +107,6 @@
     <!-- Display cutout options -->
     <!-- IconPack Preference -->
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -90,7 +90,6 @@
     <!-- Buttons -->
     <string name="buttons_title">Tlačítka</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Oprávnění aplikací</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomozte nám, pomůžeme vám!</string>
     <string name="extensions_dialog_message">Pokud najdete chybu v některém z těchto nastavení, popište chybu v naší skupině Telegram. Zpráva musí obsahovat následující:\n\n1. Logcat nebo last_kmsg\n2. Jádro a používané vylepšení\n3. Užitečné informace\n\nPokud se něco nepodaří nahlásit adekvátně, NEČEKEJTE, že chyby budou opraveny.</string>
@@ -378,11 +377,7 @@
     <string name="button_timeout_title">Délka podsvícení</string>
     <string name="button_backlight_on_touch_only_title">Délka podsvícení tlačítek při dotyku</string>
     <string name="button_backlight_on_touch_only_summary">Podsvícení tlačítek bude zobrazeno pouze při stisknutí, nikoli po celou dobu. Časový limit stále ovlivňuje tuto funkci.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Hudební oznámení na Ambientním displeji</string>
-    <string name="force_ambient_for_media_pref_summary">Nastavení hudebního oznámení na Ambientním displeji</string>
-    <string name="ambient_ticker_footer">Hudební oznámení zobrazuje informace o hrající hudbě na Ambientním displeji. \n\nSpustí se i pokud je Ambientní displej vypnutý a spustí se nová skladba, uprostřed obrazovky se zobrazí informace o skladbě.\n\nDvojím klepnutním na informace sklabu přeskočíte.\n\nPokud vlastníte Pixel a spustíte funkci \"Nyní hraje\" a oznámení v nastavení zvuku, hudební oznámení bude také fungovat.</string>
-    <string name="force_ambient_for_media_title">Povolit</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Tlačítko adaptivního jasu</string>
     <string name="brightness_icon_summary">Zobrazovat tlačítko adaptivního jasu</string>
@@ -620,4 +615,6 @@
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Omezit obtěžující plovoucí oznámení</string>
     <string name="less_boring_heads_up_summary">Zobrazit plovoucí oznámení pouze pro aplikaci pro volání nebo zasílání zpráv, pokud neběží v popředí</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -90,7 +90,6 @@
     <!-- Buttons -->
     <string name="buttons_title">Бутони</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Операции на приложенията</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Помогнете ни, за да ви помогнем!</string>
     <string name="extensions_dialog_toast">ПРОЧЕТЕТЕ ДО КРАЙ!</string>
@@ -376,11 +375,7 @@
     <string name="button_timeout_title">Време на изчакване на подсветката</string>
     <string name="button_backlight_on_touch_only_title">Подсветка на бутоните при докосване</string>
     <string name="button_backlight_on_touch_only_summary">Подсветката ще се включи само когато бутоните се натискат, а не през цялото време. Времето за изчакване оказва влияние върху тази функция.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Активен музикален тикер</string>
-    <string name="force_ambient_for_media_pref_summary">Настрой Активно музикалено уведомление</string>
-    <string name="ambient_ticker_footer">Активното Музикалното Известяване показва информация за текущата песен на Активния екран.\n\nвключва се и ако Активния екран е изключен, когато нова песен се пусне, показвайки чист Активен екран с информация за песента по средата на екрана.\n\nМожете двукратно да докоснете върху информацията за песента, за да я пропуснете.\n\nАко имате Pixel и включите Слушане В Момента и неговите съобщения в системните аудио настройки, Активното Музикално Известяване също ще работи.</string>
-    <string name="force_ambient_for_media_title">Включен</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Бутон за адаптивна яркост</string>
     <string name="brightness_icon_summary">Показване на бутона за адаптивна яркост</string>
@@ -616,4 +611,6 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">По подразбиране</string>
     <!-- Heads up options -->
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

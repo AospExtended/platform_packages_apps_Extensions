@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Кнопки</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Операции в приложениях</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Помогите нам помочь Вам!</string>
+    <string name="extensions_dialog_message">Если Вы найдете ошибку в любых из этих настроек, сообщите в разделе баг-репортов в нашей Telegram группе. Вы ДОЛЖНЫ прикрепить следующее: 1. Logcat или last_kmsg; 2. используемое ядро и моды; 3. Любую полезную информацию. Если Вы не сможете адекватно сообщить о проблеме, не ждите, что мы её исправим.</string>
     <string name="extensions_dialog_toast">ПРОЧИТАЙТЕ ЭТО ПОЛНОСТЬЮ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Выберите оттенок цвета</string>
@@ -116,7 +116,7 @@
     <string name="powermenu_power">Питание</string>
     <string name="powermenu_restart">Перезагрузка</string>
     <string name="powermenu_restart_recovery">Варианты перезагрузки</string>
-    <string name="powermenu_airplane">Режим \"В самолёте\"</string>
+    <string name="powermenu_airplane">Режим полета</string>
     <string name="powermenu_settings">Настройки</string>
     <string name="powermenu_lockdown">Заблокировать</string>
     <string name="powermenu_soundpanel">Звуковая панель</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Вертикальный</string>
+    <string name="status_bar_battery_style_q">Стиль Android Q</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="battery_style_dotted_circle">Пунктирный круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Длительность подсветки кнопок</string>
     <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
     <string name="button_backlight_on_touch_only_summary">Подсветка кнопок будет работать только при их нажатии. Длительность по-прежнему влияет на эту функцию.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Сейчас играет</string>
-    <string name="force_ambient_for_media_pref_summary">Отображение информации о текущей музыкальной дорожке</string>
-    <string name="ambient_ticker_footer">Эта функция позволяет отображать информацию о текущем музыкальном произведении на экране блокировки с включенной функцией активного экрана или без неё.\n\nВы также можете дважды нажать на трек, чтобы пропустить дорожку.\n\nЕсли у Вас устройство Pixel и включена функция Сейчас Проигрывается и её уведомления в системных настройках Звука, информация о треке будет отображаться вместе с ней.</string>
-    <string name="force_ambient_for_media_title">Включить</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Кнопка адаптивной яркости</string>
     <string name="brightness_icon_summary">Показать кнопку адаптивной яркости</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">По умолчанию</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Менее надоедливые всплывающие уведомления</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонков или сообщений (если они не на переднем плане)</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -30,8 +30,8 @@
     <string name="security_category">Bảo mật</string>
     <string name="hardware_category">Phần cứng</string>
     <string name="icons_category">Biểu tượng</string>
-    <string name="aosp_recents_category">Giao diện gần đây kiểu AOSP</string>
-    <string name="oreo_recents_category">Gần đây kiểu Oreo</string>
+    <string name="aosp_recents_category">Giao diện đa nhiệm AOSP</string>
+    <string name="oreo_recents_category">Đa nhiệm kiểu Oreo</string>
     <string name="light_category">Đèn thông báo</string>
     <string name="dlg_ok">Đồng ý</string>
     <string name="attention">Chú ý</string>
@@ -44,8 +44,8 @@
     <string name="color_title">Màu</string>
     <string name="colors_title">Màu sắc</string>
     <!-- Extensions categories -->
-    <string name="recents_category">Gần đây</string>
-    <string name="recents_category_summary">Tuỳ chỉnh gần đây</string>
+    <string name="recents_category">Đa nhiệm</string>
+    <string name="recents_category_summary">Tuỳ chỉnh đa nhiệm</string>
     <string name="status_bar_category">Thanh trạng thái</string>
     <string name="status_bar_category_summary">Tùy chỉnh thanh trạng thái</string>
     <string name="notifications_panel_category">Bảng thông báo</string>
@@ -54,7 +54,7 @@
     <string name="system_category_summary">Mở rộng hệ thống</string>
     <string name="lockscreen_category">Màn hình khóa</string>
     <string name="lockscreen_category_summary">Tuỳ chỉnh của màn hình khóa</string>
-    <string name="navigation_category">Điều hướng</string>
+    <string name="navigation_category">Thanh điều hướng</string>
     <string name="navigation_category_summary">Tùy chỉnh thanh điều hướng của bạn</string>
     <string name="build_tweaks_summary_title">Tuỳ biến thiết bị của bạn!</string>
     <string name="system_animations">Hoạt ảnh hệ thống</string>
@@ -63,13 +63,13 @@
     <!-- General Tweaks -->
     <string name="general_tweaks_title">Tinh chỉnh tổng hợp</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Chỉ số lưu lượng truy cập</string>
+    <string name="traffic_title">Tốc độ mạng</string>
     <!-- Carrier Label -->
     <string name="carrierlabel_title">Tên nhà cung cấp</string>
     <!-- Misc Extensions -->
     <string name="misc_extensions_title">Tiện ích mở rộng</string>
     <!-- Recents UI -->
-    <string name="recents_ui_title">Giao diện gần đây</string>
+    <string name="recents_ui_title">Giao diện đa nhiệm</string>
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Giao diện màn hình khóa</string>
     <!-- Lockscreen shortcuts -->
@@ -88,11 +88,11 @@
     <!-- Quick Settings -->
     <string name="quick_settings_title">Cài đặt nhanh</string>
     <!-- Buttons -->
-    <string name="buttons_title">Nút bấm</string>
+    <string name="buttons_title">Phím bấm</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Quản lý Quyền</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Giúp chúng tôi giúp bạn!</string>
+    <string name="extensions_dialog_message">Nếu bạn tìm thấy lỗi trong bất kì các cài đặt này, hãy báo cáo nó trong nhóm Telegram của chúng tôi. Bạn PHẢI bao gồm những điều sau đây khi đăng báo cáo lỗi:\n\n1. Logcat hoặc last_kmsg\n2. Kernel và mod được sử dụng\n3. Thông tin hữu ích\n\nNếu bạn không báo cáo điều gì đó đầy đủ, ĐỪNG mong đợi mọi thứ sẽ được sửa chữa.</string>
     <string name="extensions_dialog_toast">HÃY ĐỌC TẤT CẢ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Chọn màu nhấn</string>
@@ -164,8 +164,8 @@
     <string name="heads_up_time_out_10sec">10 giây</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Thời gian báo lại</string>
-    <string name="heads_up_snooze_summary_one_minute">Vuốt lên trên thông báo nổi sẽ báo lại thông báo đó trong 1 phút</string>
-    <string name="heads_up_snooze_summary">Vuốt lên trên thông báo nổi sẽ báo lại thông báo đó trong <xliff:g id="number">%d</xliff:g> phút</string>
+    <string name="heads_up_snooze_summary_one_minute">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó trong vòng 1 phút</string>
+    <string name="heads_up_snooze_summary">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó trong vòng <xliff:g id="number">%d</xliff:g> phút</string>
     <string name="heads_up_snooze_disabled_summary">Thời gian báo lại đã bị tắt</string>
     <string name="heads_up_snooze_1min">1 phút</string>
     <string name="heads_up_snooze_5min">5 phút</string>
@@ -216,10 +216,10 @@
     <string name="battery_charging_light_summary">Tùy chỉnh đèn báo khi đang sạc pin</string>
     <string name="battery_light_enable">Đèn báo pin</string>
     <string name="battery_light_enabled_summary">Cho phép đèn báo pin hiển thị màu tương ứng</string>
-    <string name="battery_light_allow_on_dnd_title">Đèn báo pin trong chế độ Không Làm Phiền</string>
+    <string name="battery_light_allow_on_dnd_title">Đèn báo pin trong chế độ không làm phiền</string>
     <string name="battery_light_allow_on_dnd_summary">Cho phép đèn báo pin hiển thị trong khi thiết bị ở chế độ Không làm phiền</string>
-    <string name="battery_light_low_blinking_title">Đèn nhấp nháy trên pin yếu</string>
-    <string name="battery_light_low_blinking_summary">Nhấp nháy đèn báo pin khi pin yếu</string>
+    <string name="battery_light_low_blinking_title">Đèn nhấp nháy khi pin yếu</string>
+    <string name="battery_light_low_blinking_summary">Nháy đèn báo pin khi pin yếu</string>
     <string name="battery_light_cat">Màu đèn báo pin khi sạc</string>
     <string name="battery_light_low_color">Pin yếu</string>
     <string name="battery_light_medium_color">Pin trung bình</string>
@@ -232,7 +232,7 @@
     <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khóa</string>
     <string name="lockscreen_battery_info_summary">Hiển thị điện áp bộ sạc tối đa hiện tại đã ước tính và nhiệt độ pin trên màn hình khóa trong khi sạc</string>
     <!-- Battery Styles -->
-    <string name="status_bar_battery_style_title">Kiểu pin thanh trạng thái</string>
+    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
     <!-- Battery percentage -->
     <string name="battery_style_category_title">Biểu tượng pin</string>
     <string name="status_bar_battery_percentage_title">Tỷ lệ phần trăm pin</string>
@@ -240,13 +240,14 @@
     <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
     <!-- Status bar battery style-->
-    <string name="status_bar_battery_style_port">Portrait</string>
+    <string name="status_bar_battery_style_port">Dọc</string>
+    <string name="status_bar_battery_style_q">Kiểu Android Q</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
     <string name="battery_style_dotted_circle">Vòng chấm</string>
-    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_text">Chỉ số phần trăm</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Kiểu màn hình Gần Đây</string>
+    <string name="recents_component_type_title">Kiểu màn hình đa nhiệm</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
     <!-- Toast app icon -->
@@ -317,7 +318,7 @@
     <string name="smart_pulldown_ongoing">Không liên tục</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">Cấu hình một số hành động khi màn hình tắt</string>
-    <string name="screen_state_toggles_title">Đình Chỉ Hoạt Động</string>
+    <string name="screen_state_toggles_title">Đình chỉ hoạt động</string>
     <string name="screen_state_toggles_enable_title">Bật</string>
     <string name="screen_state_toggles_enable_summary">Các hành động sẽ được thực hiện lúc màn hình tắt. Khi bật màn hình trạng thái trước đó sẽ được khôi phục.</string>
     <string name="screen_state_toggles_mobile_title">Mạng di động</string>
@@ -354,7 +355,7 @@
     <string name="data_disabled_icon_title">Hiển thị biểu tượng tắt mạng di động</string>
     <string name="data_disabled_icon_summary">Hiển thị các dấu hiệu chéo bên cạnh thanh tín hiệu khi dữ liệu bị vô hiệu hóa</string>
     <!-- Hardware button navigation -->
-    <string name="hardware_keys_home_key_title">Phím Home</string>
+    <string name="hardware_keys_home_key_title">Phím Trang chủ</string>
     <string name="hardware_keys_menu_key_title">Nút Menu</string>
     <string name="hardware_keys_assist_key_title">Nút Tìm kiếm</string>
     <string name="hardware_keys_appswitch_key_title">Nút đa nhiệm</string>
@@ -365,22 +366,18 @@
     <string name="hardware_keys_single_tap_title">Hành động khi nhấn một lần</string>
     <string name="hardware_keys_long_press_title">Hành động khi nhấn giữ</string>
     <string name="hardware_keys_double_tap_title">Hành động chạm hai lần</string>
-    <string name="hardware_keys_category">Phím điều hướng cứng</string>
-    <string name="hardware_keys_disable_title">Tắt phím điều hướng cứng</string>
+    <string name="hardware_keys_category">Phím điều hướng</string>
+    <string name="hardware_keys_disable_title">Tắt phím điều hướng</string>
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Tùy chọn đèn nền</string>
-    <string name="button_backlight_enable_title">Cho phép nút đèn nền</string>
+    <string name="button_backlight_enable_title">Bật đèn nền phím</string>
     <string name="button_link_brightness">Liên kết đến độ sáng màn hình</string>
     <string name="button_link_brightness_summary">Độ sáng đèn nền phím điều chỉnh dựa vào độ sáng màn hình</string>
     <string name="button_manual_brightness">Độ sáng</string>
     <string name="button_timeout_title">Thời gian chờ đèn nền</string>
-    <string name="button_backlight_on_touch_only_title">Đèn nền phím chiếu sáng</string>
+    <string name="button_backlight_on_touch_only_title">Thời gian chờ đèn nền</string>
     <string name="button_backlight_on_touch_only_summary">Đèn nền phím sẽ chỉ bật khi các phím được nhấn chứ không phải bật mọi lúc. Thời gian chờ vẫn ảnh hưởng đến tính năng này.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Thẻ âm nhạc</string>
-    <string name="force_ambient_for_media_pref_summary">Cấu hình thẻ âm nhạc</string>
-    <string name="ambient_ticker_footer">Thẻ âm nhạc hiển thị thông tin bài hát đang phát ngay trên màn hình xem nhanh.\n\nTính năng này vẫn hoạt động khi có một bài hát đang phát cho dù màn hình xem nhanh đang bị tắt. Nó sẽ thay màn hình xem nhanh bằng một màn hình đen với thông tin bài hát ở chính giữa.\n\nBạn vẫn có thể chạm đúp vào thông tin bài hát để chuyển sang bài tiếp theo.\n\nNếu bạn đang sở hữu điện thoại Pixel và bật Đang phát, và thông báo của nó trong cài đặt Âm thanh, thì Thẻ Âm nhạc Màn hình sáng vẫn sẽ hoạt động cùng với Đang phát.</string>
-    <string name="force_ambient_for_media_title">Bật</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Nút độ sáng thích nghi</string>
     <string name="brightness_icon_summary">Hiển thị nút độ sáng thích nghi</string>
@@ -438,7 +435,7 @@
     <string name="battery_bar_color">Màu thanh pin</string>
     <string name="battery_bar_charging_color">Màu thanh pin khi sạc</string>
     <string name="battery_bar_battery_low_color">Màu thanh pin khi pin yếu</string>
-    <string name="battery_bar_cat">Kiểu thanh pin</string>
+    <string name="battery_bar_cat">Kiểu biểu tượng pin</string>
     <string name="battery_bar_style_title">Vị trí thanh pin</string>
     <string name="battery_bar_thickness_title">Độ dày thanh pin</string>
     <string name="battery_bar_animate_title">Hiệu ứng sạc</string>
@@ -467,7 +464,7 @@
     <string name="task_open_behind_title">Mở sau hiệu ứng</string>
     <string name="task_close_title">Hiệu ứng đóng</string>
     <string name="task_move_to_front_title">Hoạt ảnh di chuyển tới trước</string>
-    <string name="task_move_to_back_title">Hoạt ảnh di chuyển ra sau</string>
+    <string name="task_move_to_back_title">Hoạt ảnh di chuyển trở lại</string>
     <string name="wallpaper_open_title">Hiệu ứng mở ảnh nền</string>
     <string name="wallpaper_close_title">Hiệu ứng đóng ảnh nền</string>
     <string name="wallpaper_intra_open_title">Hiệu ứng mở bên trong ảnh nền</string>
@@ -529,7 +526,7 @@
     <string name="recents_show_membar_title">Thanh hiển thị bộ nhớ</string>
     <string name="recents_show_membar_summary">Hiện một thanh với bộ nhớ có sẵn của thiết bị</string>
     <!-- Oreo Recents Style -->
-    <string name="recents_type_title">Gần đây kiểu Oreo</string>
+    <string name="recents_type_title">Kiểu đa nhiệm Android 8.0</string>
     <string name="recents_stock">Gốc</string>
     <string name="recents_grid">Dạng lưới</string>
     <string name="recents_go">Android Go</string>
@@ -549,8 +546,8 @@
     <string name="smart_pixels_shift_summary">Tránh lỗi lưu ảnh trên màn OLED bằng cách di chuyển các điểm ảnh thường xuyên</string>
     <string name="lockscreen_items_other">Khác</string>
     <string name="gesture_settings_title">Cử chỉ</string>
-    <string name="gesture_settings_info">Thanh điều hướng phải được vô hiệu hóa!\n\nCử chỉ có sẵn:\n\nQuay lại\n- Vuốt lên bên trái hay bên phải\n\nMàn hình chính\n- Vuốt lên ở trung tâm\n\nỨng dụng gần đây\n- Vuốt lên ở trung tâm và giữ\n\nNhấn giữ nút Màn hình chính\n- Vuốt ngắn lên và giữ ở trung tâm</string>
-    <string name="gesture_settings_info_new">Thanh điều hướng phải được vô hiệu hóa!\n\nCử chỉ sẵn có:\n\nQuay lại\n- Vuốt lên bên trái hay bên phải\n\nMàn hình chính\n- Vuốt lên ở trung tâm\n\nỨng dụng gần đây\n- Vuốt mạnh lên ở trung tâm và giữ\n\nChuyển sang ứng dụng cuối\n- Vuốt ngắn lên và giữ ở trung tâm</string>
+    <string name="gesture_settings_info">Thanh điều hướng phải được vô hiệu hóa!\n\nCử chỉ có sẵn:\n\nTrở về\n- Vuốt lên bên trái hay bên phải\n\nTrang chủ\n- Vuốt lên ở giữa\n\nĐa nhiệm\n- Vuốt lên ở trung tâm và giữ\n\nNhấn giữ nút Trang chủ\n- Vuốt ngắn lên và giữ ở giữa</string>
+    <string name="gesture_settings_info_new">Thanh điều hướng phải được vô hiệu hóa!\n\nCử chỉ sẵn có:\n\nTrở về\n- Vuốt lên bên trái hay bên phải\n\nTrang chủ\n- Vuốt lên ở giữa\n\nĐa nhiệm\n- Vuốt mạnh lên ở giữa và giữ\n\nChuyển sang ứng dụng cuối\n- Vuốt ngắn lên và giữ ở giữa</string>
     <string name="use_bottom_gesture_title">Điều hướng bằng cử chỉ</string>
     <string name="use_bottom_gesture_summary">Sử dụng cử chỉ vuốt lên phía dưới để điều hướng</string>
     <string name="gesture_swipe_length_title">Độ cao khu vực vuốt</string>
@@ -559,7 +556,7 @@
     <string name="gesture_action_timeout_summary">Thời gian trước khi hành động cử chỉ được bắt đầu</string>
     <!-- Recents icon packs -->
     <string name="recents_icon_pack_title">Gói biểu tượng</string>
-    <string name="recents_icon_pack_summary">Áp dụng gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng Gần đây</string>
+    <string name="recents_icon_pack_summary">Áp dụng một gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng đa nhiệm</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Các mức âm lượng</string>
     <string name="volume_steps_summary">Tùy chỉnh mức âm lượng</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Mặc định</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Làm cho thông báo nổi bớt khó chịu</string>
+    <string name="less_boring_heads_up_summary">Chỉ hiển thị thông báo nổi cho trình quay số hoặc ứng dụng nhắn tin nếu chúng không ở phía trước</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

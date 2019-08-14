@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Przyciski</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Działania aplikacji</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Pomóż nam, pomóż sobie!</string>
+    <string name="extensions_dialog_message">Jeśli znajdziesz błąd w którymkolwiek z tych ustawień, poinformuj o tym w dziale raporty błędów naszej społeczności na Google+. Raport MUSI zawierać następujące dane: \n\n1. Logcat lub last_kmsg\n2. Używany\n3 kernel i zastosowane modyfikacje.\n3. Przydatna informacja\n\nJeśli nie dołączysz odpowiednich danych, nie spodziewaj się pomocy z naszej strony.</string>
     <string name="extensions_dialog_toast">PRZECZYTAJ CAŁOŚĆ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Wybierz kolor akcentu</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Pionowy</string>
+    <string name="status_bar_battery_style_q">Styl Q</string>
     <string name="status_bar_battery_style_circle">Okrąg</string>
     <string name="battery_style_dotted_circle">Wykropkowany okrąg</string>
     <string name="status_bar_battery_style_text">Tekst</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Czas podświetlania</string>
     <string name="button_backlight_on_touch_only_title">Podświetlenie przycisków podczas naciskania</string>
     <string name="button_backlight_on_touch_only_summary">Podświetlenie przycisków włączy się tylko gdy przyciski są używane, zamiast świecić się cały czas. Czas podświetlenia ma wpływ na tę funkcję.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Powiadomienia muzyki na ekranie Ambient</string>
-    <string name="force_ambient_for_media_pref_summary">Konfiguracja powiadomień muzyki na ekranie Ambient</string>
-    <string name="ambient_ticker_footer">Powiadomienie muzyki Ambient pokazuje odtwarzanie informacji o ścieżce muzycznej na ekranie Ambient.\n\nWyzwalane jest to również wtedy, gdy ekran Ambient jest wyłączony po uruchomieniu nowego utworu, wymuszając czysty ekran Ambient z informacjami o utworze na środku ekranu.\n\nMożesz uzyskać informacje o utworze, lub pominąć ścieżkę dwukrotnie dotykając ekran.\n\nJeśli posiadasz Pixel\'a i włączysz Now Playing oraz jego powiadomienia w ustawieniach audio, powiadomienie muzyki Ambient również zadziała.</string>
-    <string name="force_ambient_for_media_title">Włącz</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Przycisk automatycznej jasności</string>
     <string name="brightness_icon_summary">Pokaż przycisk jasności adaptacyjnej</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Domyślny</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Mniej inwazyjne wyskakujące powiadomienia</string>
+    <string name="less_boring_heads_up_summary">Pokazuj wyskakujące powiadomienia tylko dla połączeń lun wiadomości</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

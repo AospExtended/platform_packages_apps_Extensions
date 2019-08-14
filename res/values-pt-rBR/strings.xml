@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Botões</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Operações de aplicativos</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Nos ajude a ajudá-lo!</string>
+    <string name="extensions_dialog_message">Se você encontrar um bug em qualquer uma dessas configurações, relate em nosso Grupo do Telegram. Você deve incluir o seguinte quando publicar um relatório de bug:\n\n1. Um logcat ou last_kmsg\n2. Kernel e mods utilizados\n3. Informações úteis\n\nSe você não relatar adequadamente, NÃO espere que as coisas sejam corrigidas.</string>
     <string name="extensions_dialog_toast">LEIA TUDO!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Selecione uma cor de destaque</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Retrato</string>
+    <string name="status_bar_battery_style_q">Estilo Q</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="battery_style_dotted_circle">Círculo pontilhado</string>
     <string name="status_bar_battery_style_text">Texto</string>
@@ -265,7 +266,7 @@
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
     <!-- Status bar clock and date options -->
-    <string name="status_bar_clock">Relógio &amp; Data</string>
+    <string name="status_bar_clock">Hora e Data</string>
     <string name="status_bar_clock_title">Configurações do Relógio</string>
     <string name="clock_enabled">Ativado</string>
     <string name="clock_disabled">Desativado</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Tempo limite da luz de fundo</string>
     <string name="button_backlight_on_touch_only_title">Tempo de iluminação dos botões</string>
     <string name="button_backlight_on_touch_only_summary">A iluminação do botão só aparece quando os botões são pressionados, em vez do tempo todo. O tempo limite ainda afeta esse recurso.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ticker de Música em Ambiente</string>
-    <string name="force_ambient_for_media_pref_summary">Configurar o Ticker de Música em Ambiente</string>
-    <string name="ambient_ticker_footer">O Ticker de Música em Ambiente mostra a reprodução da música e as informações na Tela Ambiente.\n\nÉ acionado também, se a Tela Ambiente está desativada, quando uma nova música for iniciada, forçando uma tela ambiente limpa com informações da música no meio da tela.\n\nVocê também pode clicar duas vezes na informação da música para pular de faixa.\n\nSe você possui um Pixel e ativar o Now Playing e essa notificação nas configurações de áudio do sistema, o Ticker de Música Ambiente irá funcionar com isso também.</string>
-    <string name="force_ambient_for_media_title">Ativar</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Botão de brilho adaptável</string>
     <string name="brightness_icon_summary">Mostrar botão de brilho adaptável</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Padrão</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Torne as notificações pop-up menos irritantes</string>
+    <string name="less_boring_heads_up_summary">Mostrar pop-up apenas para discadores ou aplicativos de mensagens, se eles não estiverem em primeiro plano</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

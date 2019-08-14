@@ -90,9 +90,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Кнопкі</string>
     <!-- App Ops -->
-    <string name="app_ops_category">Дзеянні ў праграмах</string>
     <!-- App info dialog -->
     <string name="extensions_dialog_title">Дапамажыце нам дапамагчы вам!</string>
+    <string name="extensions_dialog_message">Калі Вы знойдзеце памылку ў любых з гэтых раздзелаў налад, паведаміце ў нашую суполку багрэпортаў у Telegram. Вы ПАВІННЫ прымацаваць наступнае:\n\n1. Logcat або last_kmsg\n2. Якое выкарыстоўваецца ядро ​​і моды\n3. Любую карысную інфармацыю.\n\nКалі Вы не зможаце адэкватна паведаміць аб праблеме, не чакайце, што мы яе выправім.</string>
     <string name="extensions_dialog_toast">ПРАЧЫТАЙЦЕ ГЭТА ЦАЛКАМ!</string>
     <!-- System theme -->
     <string name="accent_picker_dialog_title">Выберыце адценне колеру</string>
@@ -241,6 +241,7 @@
     <string name="status_bar_battery_percentage_text_inside">Унутры значка</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_port">Партрэтная</string>
+    <string name="status_bar_battery_style_q">Стыль Q</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="battery_style_dotted_circle">Пункцірны круг</string>
     <string name="status_bar_battery_style_text">Тэкст</string>
@@ -376,11 +377,7 @@
     <string name="button_timeout_title">Працягласць падсвятлення кнопак</string>
     <string name="button_backlight_on_touch_only_title">Падсвятленне кнопак пры дотыку</string>
     <string name="button_backlight_on_touch_only_summary">Падсвятляць кнопкі толькі пры дотыку, а не ўвесь час. Працягласць падсвятлення ўплывае на гэтую функцыю.</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Музычны цікер на Ambient Display</string>
-    <string name="force_ambient_for_media_pref_summary">Налады музычнага цікера на Ambient Display</string>
-    <string name="ambient_ticker_footer">Гэтая функцыя дазваляе адлюстроўваць інфармацыю аб бягучым музычным творы на экране блакавання з уключанай функцыяй актыўнага экрана або без яе.\n\nВы таксама можаце двойчы націснуць на трэк, каб прапусціць дарожку.\n\nКалі ў Вас прылада Pixel і ўключана функцыя Зараз Гучыць і яе апавяшчэнні ў сістэмных наладах Гуку, інфармацыя аб трэку будзе адлюстроўвацца разам з ёй.</string>
-    <string name="force_ambient_for_media_title">Уключыць</string>
+    <!-- Ambient Music Ticker -->
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Кнопка Адаптыўная яркасць</string>
     <string name="brightness_icon_summary">Паказваць кнопку Адаптыўная яркасць</string>
@@ -616,4 +613,8 @@
     <!-- IconPack Preference -->
     <string name="default_iconpack_title">Па змаўчанні</string>
     <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Менш надакучлівых усплывальных апавяшчэнняў</string>
+    <string name="less_boring_heads_up_summary">Паказваць усплывальныя апавяшчэння толькі для званкоў або паведамленняў (калі яны не на пярэднім плане)</string>
+    <!-- AEX logo -->
+    <!-- Gaming mode -->
 </resources>

@@ -17,7 +17,7 @@
 package org.aospextended.extensions.preference;
 
 import android.content.Context;
-import android.support.v7.preference.CheckBoxPreference;
+import androidx.preference.CheckBoxPreference;
 import android.provider.Settings;
 import android.util.AttributeSet;
 

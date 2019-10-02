@@ -114,6 +114,7 @@ public class Extensions extends SettingsPreferenceFragment implements
             stats.setModel(stats.getModel());
             stats.setVersion(stats.getVersion());
             stats.setBuildType(stats.getBuildType());
+            stats.setBuildName(stats.getBuildName());
             stats.setCountryCode(stats.getCountryCode(getActivity()));
             stats.setBuildDate(stats.getBuildDate());
             ServerRequest request = new ServerRequest();

@@ -5,7 +5,7 @@ package org.aospextended.extensions.aexstats;
  */
 
 public class Constants {
-    public static final String BASE_URL= "https://stats.aospextended.com/";
+    public static final String BASE_URL= "https://apitmp.aospextended.com/";
     public static final String TAG= "AEXstats";
     public static final String PUSH_OPERATION = "push";
 
@@ -18,6 +18,7 @@ public class Constants {
     public static final String KEY_DEVICE = "ro.aex.device";
     public static final String KEY_MODEL = "ro.product.model";
     public static final String KEY_VERSION = "6.7";
+    public static final String KEY_BUILD_NAME = "ro.modversion";
     public static final String KEY_BUILD_TYPE = "ro.extended.releasetype";
     public static final String KEY_BUILD_DATE = "ro.build.date";
 }

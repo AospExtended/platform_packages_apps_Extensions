@@ -19,6 +19,7 @@ public class StatsData {
     private String buildType;
     private String countryCode;
     private String buildDate;
+    private String buildName;
 
     public String getDevice() {
         return SystemProperties.get(Constants.KEY_DEVICE);
@@ -50,6 +51,14 @@ public class StatsData {
 
     public void setBuildType(String buildType) {
         this.buildType = TextUtils.isEmpty(buildType) ? "unknown" : buildType;
+    }
+
+    public String getBuildName() {
+        return SystemProperties.get(Constants.KEY_BUILD_NAME);
+    }
+
+    public void setBuildName(String buildName) {
+        this.buildName = TextUtils.isEmpty(buildName) ? "unknown" : buildName;
     }
 
     public String getCountryCode(Context context) {

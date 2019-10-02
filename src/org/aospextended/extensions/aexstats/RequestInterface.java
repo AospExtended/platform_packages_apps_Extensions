@@ -13,7 +13,7 @@ import retrofit2.http.POST;
 
 public interface RequestInterface {
 
-    @POST("aexstats_api/")
+    @POST("stats/")
     Observable<ServerResponse> operation(@Body ServerRequest request);
 
 }

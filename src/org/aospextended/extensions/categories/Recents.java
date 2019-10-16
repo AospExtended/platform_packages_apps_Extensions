@@ -44,6 +44,7 @@ public class Recents extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.recents);
+        setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }

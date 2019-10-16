@@ -44,6 +44,7 @@ public class NotificationsPanel extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.notificationspanel);
+        setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }

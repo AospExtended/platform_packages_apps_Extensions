@@ -44,6 +44,7 @@ public class Lockscreen extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.lockscreen);
+        setHasOptionsMenu(false);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }

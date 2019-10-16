@@ -39,6 +39,7 @@ import android.os.Bundle;
 import android.os.Build;
 import android.os.SystemProperties;
 import android.provider.Settings;
+import androidx.core.content.ContextCompat;
 import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
@@ -71,6 +72,15 @@ import io.reactivex.schedulers.Schedulers;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomnavigation.LabelVisibilityMode;
+
+import org.aospextended.extensions.categories.StatusBar;
+import org.aospextended.extensions.categories.NotificationsPanel;
+import org.aospextended.extensions.categories.Navigation;
+import org.aospextended.extensions.categories.Recents;
+import org.aospextended.extensions.categories.Lockscreen;
+import org.aospextended.extensions.categories.System;
 
 public class Extensions extends SettingsPreferenceFragment implements   
        Preference.OnPreferenceChangeListener {
@@ -80,10 +90,63 @@ public class Extensions extends SettingsPreferenceFragment implements
     private CompositeDisposable mCompositeDisposable;
 
     @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        
+        View view = inflater.inflate(R.layout.layout_extensions, container, false);
+
+        final BottomNavigationView bottomNavigation = (BottomNavigationView) view.findViewById(R.id.bottom_navigation);
+
+    bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        @Override
+	  public boolean onNavigationItemSelected(MenuItem item) {
+
+             if (item.getItemId() == bottomNavigation.getSelectedItemId()) {
+
+               return false;
+
+             } else {
+
+		switch(item.getItemId()){
+                case R.id.status_bar_category:
+                switchFrag(new StatusBar());
+                break;
+                case R.id.notifications_panel_category:
+                switchFrag(new NotificationsPanel());
+                break;
+                case R.id.navigation_category:
+                switchFrag(new Navigation());
+                break;
+/*                case 3:
+                switchFrag(new Recents());
+                break; */
+                case R.id.lockscreen_category:
+                switchFrag(new Lockscreen());
+                break;
+                case R.id.system_category:
+                switchFrag(new System());
+                break;
+               }
+            return true;
+            }
+	 }
+    });
+        
+
+        setHasOptionsMenu(true);
+        bottomNavigation.setSelectedItemId(R.id.status_bar_category);
+        switchFrag(new StatusBar());
+        bottomNavigation.setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_AUTO);
+        return view;
+    }
+
+    private void switchFrag(Fragment fragment) {
+        getFragmentManager().beginTransaction().replace(R.id.fragment_frame, fragment).commit();
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.extensions);
-        setHasOptionsMenu(true);
+        setRetainInstance(true);
         ContentResolver resolver = getActivity().getContentResolver();
         mCompositeDisposable = new CompositeDisposable();
         pref = getActivity().getSharedPreferences("aexStatsPrefs", Context.MODE_PRIVATE);

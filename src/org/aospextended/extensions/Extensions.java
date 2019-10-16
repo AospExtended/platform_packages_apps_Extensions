@@ -39,6 +39,7 @@ import android.os.Bundle;
 import android.os.Build;
 import android.os.SystemProperties;
 import android.provider.Settings;
+import androidx.core.content.ContextCompat;
 import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
@@ -71,6 +72,14 @@ import io.reactivex.schedulers.Schedulers;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
+import com.aurelhubert.ahbottomnavigation.AHBottomNavigationAdapter;
+
+import org.aospextended.extensions.categories.StatusBar;
+import org.aospextended.extensions.categories.NotificationsPanel;
+import org.aospextended.extensions.categories.Navigation;
+import org.aospextended.extensions.categories.Recents;
+import org.aospextended.extensions.categories.Lockscreen;
+import org.aospextended.extensions.categories.System;
 
 public class Extensions extends SettingsPreferenceFragment implements   
        Preference.OnPreferenceChangeListener {
@@ -80,10 +89,56 @@ public class Extensions extends SettingsPreferenceFragment implements
     private CompositeDisposable mCompositeDisposable;
 
     @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        
+        View view = inflater.inflate(R.layout.extensions, container, false);
+
+        final AHBottomNavigation bottomNavigation = (AHBottomNavigation) view.findViewById(R.id.bottom_navigation);
+        bottomNavigation.setDefaultBackgroundColor(ContextCompat.getColor(getActivity(), R.color.bottombar_bg));
+        bottomNavigation.setAccentColor(ContextCompat.getColor(getActivity(), R.color.bottombar_active));
+
+        final AHBottomNavigationAdapter navigationAdapter = new AHBottomNavigationAdapter(getActivity(), R.menu.menu_categories);
+        navigationAdapter.setupWithBottomNavigation(bottomNavigation);
+
+    bottomNavigation.setOnTabSelectedListener(new AHBottomNavigation.OnTabSelectedListener() {
+        @Override
+	    public boolean onTabSelected(int position, boolean wasSelected) {
+		    switch(position){
+                case 0:
+                switchFrag(new StatusBar());
+                break;
+                case 1:
+                switchFrag(new NotificationsPanel());
+                break;
+                case 2:
+                switchFrag(new Navigation());
+                break;
+                case 3:
+                switchFrag(new Recents());
+                break;
+                case 4:
+                switchFrag(new Lockscreen());
+                break;
+                case 5:
+                switchFrag(new System());
+                break;
+            }
+            return true;
+	    }
+    });
+        
+
+        setHasOptionsMenu(true);
+        return view;
+    }
+
+    private void switchFrag(Fragment fragment) {
+        getFragmentManager().beginTransaction().replace(R.id.fragment_frame, fragment).commit();
+    }
+
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.extensions);
-        setHasOptionsMenu(true);
         ContentResolver resolver = getActivity().getContentResolver();
         mCompositeDisposable = new CompositeDisposable();
         pref = getActivity().getSharedPreferences("aexStatsPrefs", Context.MODE_PRIVATE);

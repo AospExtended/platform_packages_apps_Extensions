@@ -44,6 +44,7 @@ public class Navigation extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.navigation);
+        setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }

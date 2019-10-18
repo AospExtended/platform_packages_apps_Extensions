@@ -57,6 +57,15 @@
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false"
 	    android:disableDependentsState="true" />
+
+        <org.aospextended.extensions.preference.SystemSettingListPreference
+            android:key="volume_key_cursor_control"
+            android:summary="%s"
+            android:title="@string/volume_key_cursor_control_title"
+            android:dialogTitle="@string/volume_key_cursor_control_title"
+            android:entries="@array/volume_key_cursor_control_entries"
+            android:entryValues="@array/volume_key_cursor_control_values"
+            android:defaultValue="0" />
     </PreferenceCategory>
 
     <PreferenceCategory

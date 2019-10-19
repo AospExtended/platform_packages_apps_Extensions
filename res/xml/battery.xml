@@ -28,6 +28,32 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title">
+
+        <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+            android:key="aggressive_idle_enabled"
+            android:title="@string/aggressive_idle_title"
+            android:summary="@string/aggressive_idle_summary"
+            android:defaultValue="false"
+            android:dependency="aggressive_battery_saver" />
+
+        <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+            android:key="aggressive_standby_enabled"
+            android:title="@string/aggressive_standby_title"
+            android:summary="@string/aggressive_standby_summary"
+            android:defaultValue="false"
+            android:dependency="aggressive_battery_saver" />
+
+        <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+            android:key="aggressive_battery_saver"
+            android:title="@string/aggressive_battery_saver_title"
+            android:summary="@string/aggressive_battery_saver_summary"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="light_category"
         android:title="@string/light_category">
 

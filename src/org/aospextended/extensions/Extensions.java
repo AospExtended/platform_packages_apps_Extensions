@@ -131,7 +131,7 @@ public class Extensions extends SettingsPreferenceFragment implements
         setHasOptionsMenu(true);
         bottomNavigation.setSelectedItemId(R.id.status_bar_category);
         switchFrag(new StatusBar());
-        bottomNavigation.setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_AUTO);
+        bottomNavigation.setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_LABELED);
         return view;
     }
 
@@ -143,6 +143,7 @@ public class Extensions extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
+        getActivity().setTitle(R.string.extensions_title);
         ContentResolver resolver = getActivity().getContentResolver();
         mCompositeDisposable = new CompositeDisposable();
         pref = getActivity().getSharedPreferences("aexStatsPrefs", Context.MODE_PRIVATE);

@@ -49,13 +49,13 @@
     <string name="recents_category_summary">Customize your recents overview</string>
     <string name="status_bar_category">Statusbar</string>
     <string name="status_bar_category_summary">Customize your statusbar</string>
-    <string name="notifications_panel_category">Notifications panel</string>
+    <string name="notifications_panel_category">QS panel</string>
     <string name="notifications_panel_category_summary">Customize your QS panel and notifications</string>
     <string name="system_category">System</string>
     <string name="system_category_summary">Various system extensions</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
-    <string name="navigation_and_recents_category">Navigation &amp; Recents </string>
+    <string name="navigation_and_recents_category">Navigation</string>
     <string name="navigation_and_recents_category_summary">Customize your navigation bar &amp; recents overview</string>
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="system_animations">System Animations</string>

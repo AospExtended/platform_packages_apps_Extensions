@@ -32,8 +32,8 @@
             android:layout_alignParentBottom="true"
             app:menu="@menu/menu_categories"
             app:itemRippleColor="@color/bottombar_ripple"
-            app:itemIconTint="@color/bottombar_active"
-            app:itemTextColor="@color/bottombar_active"
+            app:itemIconTint="@drawable/categories_selector"
+            app:itemTextColor="@drawable/categories_selector"
             android:layout_gravity="bottom" />
 
 </RelativeLayout>

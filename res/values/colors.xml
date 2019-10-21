@@ -22,9 +22,34 @@
     <color name="icon_tint_color">@color/material_deep_teal_500</color>
     <color name="theme_accent">@*android:color/accent_device_default_light</color>
     <color name="actionbar_icon_color">@android:color/white</color>
-    <color name="bottombar_bg">@*android:color/background_device_default_light</color>
+    <color name="bottombar_bg">@*android:color/primary_material_settings_light</color>
     <color name="cardview_bg">@*android:color/background_device_default_light</color>
     <color name="bottombar_active">@*android:color/accent_device_default_light</color>
+    <color name="bottom_inactive">#61000000</color>
     <color name="bottombar_ripple">#1f000000</color>
+
+    <!-- Extensions subcategories icon colors -->
+    <color name="extensions_subcategory_1">#2196F3</color>
+    <color name="extensions_subcategory_2">#72B70F</color>
+    <color name="extensions_subcategory_3">#FF7E0F</color>
+    <color name="extensions_subcategory_4">#258982</color>
+    <color name="extensions_subcategory_5">#FFA727</color>
+    <color name="extensions_subcategory_6">#01B1AF</color>
+    <color name="extensions_subcategory_7">#C14CE6</color>
+    <color name="extensions_subcategory_8">#0F9D58</color>
+    <color name="extensions_subcategory_9">#F15B8D</color>
+    <color name="extensions_subcategory_10">#5011C1</color>
+
+    <!-- Extensions subcategories icon bg colors -->
+    <color name="extensions_subcategory_bg_1">#332196F3</color>
+    <color name="extensions_subcategory_bg_2">#3372B70F</color>
+    <color name="extensions_subcategory_bg_3">#33FF7E0F</color>
+    <color name="extensions_subcategory_bg_4">#33258982</color>
+    <color name="extensions_subcategory_bg_5">#33FFA727</color>
+    <color name="extensions_subcategory_bg_6">#3301B1AF</color>
+    <color name="extensions_subcategory_bg_7">#33C14CE6</color>
+    <color name="extensions_subcategory_bg_8">#330F9D58</color>
+    <color name="extensions_subcategory_bg_9">#33F15B8D</color>
+    <color name="extensions_subcategory_bg_10">#335011C1</color>
 
 </resources>

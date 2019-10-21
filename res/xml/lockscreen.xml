@@ -17,13 +17,12 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/lockscreen_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
          <org.aospextended.extensions.preference.CardviewPreference
             android:key="lockscreen_ui"
             android:fragment="org.aospextended.extensions.fragments.LockscreenUI"
-            android:icon="@drawable/ic_lockscreen_ui"
+            android:icon="@drawable/ic_sub_lockscreen_ui"
             android:title="@string/lockscreen_ui_title" />
 
 </PreferenceScreen>

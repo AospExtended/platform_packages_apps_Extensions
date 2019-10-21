@@ -14,13 +14,12 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/notifications_panel_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
          <org.aospextended.extensions.preference.CardviewPreference
             android:key="quick_settings"
             android:fragment="org.aospextended.extensions.fragments.QuickSettings"
-            android:icon="@drawable/ic_quick_settings"
+            android:icon="@drawable/ic_sub_quicksettings"
             android:title="@string/quick_settings_title" />
 
 </PreferenceScreen>

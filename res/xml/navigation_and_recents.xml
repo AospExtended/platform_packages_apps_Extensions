@@ -17,13 +17,12 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/navigation_and_recents_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <org.aospextended.extensions.preference.CardviewPreference
+         <Preference
             android:key="navbar_settings"
             android:fragment="org.aospextended.extensions.fragments.NavbarSettings"
-            android:icon="@drawable/ic_navigation"
+            android:icon="@drawable/ic_sub_navigation"
             android:title="@string/navigationbar_settings_title" />
 
 

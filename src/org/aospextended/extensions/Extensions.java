@@ -77,8 +77,7 @@ import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 
 import org.aospextended.extensions.categories.StatusBar;
 import org.aospextended.extensions.categories.NotificationsPanel;
-import org.aospextended.extensions.categories.Navigation;
-import org.aospextended.extensions.categories.Recents;
+import org.aospextended.extensions.categories.NavigationAndRecents;
 import org.aospextended.extensions.categories.Lockscreen;
 import org.aospextended.extensions.categories.System;
 
@@ -113,12 +112,9 @@ public class Extensions extends SettingsPreferenceFragment implements
                 case R.id.notifications_panel_category:
                 switchFrag(new NotificationsPanel());
                 break;
-                case R.id.navigation_category:
-                switchFrag(new Navigation());
+                case R.id.navigation_and_recents_category:
+                switchFrag(new NavigationAndRecents());
                 break;
-/*                case 3:
-                switchFrag(new Recents());
-                break; */
                 case R.id.lockscreen_category:
                 switchFrag(new Lockscreen());
                 break;

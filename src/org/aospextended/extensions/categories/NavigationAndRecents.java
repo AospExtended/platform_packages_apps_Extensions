@@ -34,16 +34,16 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-public class Recents extends SettingsPreferenceFragment implements
+public class NavigationAndRecents extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String TAG = "Recents";
+    private static final String TAG = "NavigationAndRecents";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.recents);
+        addPreferencesFromResource(R.xml.navigation_and_recents);
         setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();

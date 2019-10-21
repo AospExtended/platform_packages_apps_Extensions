@@ -12,14 +12,9 @@
             android:title="@string/notifications_panel_category" />
 
     <item
-            android:id="@+id/navigation_category"
-            android:icon="@drawable/ic_navigation_category"
-            android:title="@string/navigation_category" />
-
-<!--    <item
-            android:id="@+id/recents_category"
-            android:icon="@drawable/ic_recents_category"
-            android:title="@string/recents_category" /> -->
+            android:id="@+id/navigation_and_recents_category"
+            android:icon="@drawable/ic_navigation_and_recents_category"
+            android:title="@string/navigation_and_recents_category" />
 
     <item
             android:id="@+id/lockscreen_category"

@@ -55,8 +55,8 @@
     <string name="system_category_summary">Various system extensions</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
-    <string name="navigation_category">Navigation</string>
-    <string name="navigation_category_summary">Customize your navigation bar</string>
+    <string name="navigation_and_recents_category">Navigation &amp; Recents </string>
+    <string name="navigation_and_recents_category_summary">Customize your navigation bar &amp; recents overview</string>
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="system_animations">System Animations</string>
     <string name="listview">ListView</string>

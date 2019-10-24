@@ -72,11 +72,11 @@
             android:defaultValue="25"
             settings:units="dp"/>
 
-        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
-            android:key="lockscreen_visualizer_enabled"
+        <Preference
+            android:key="lockscreen_visualizer"
+            android:fragment="org.aospextended.extensions.fragments.Visualizer"
             android:title="@string/lockscreen_visualizer_enable"
-            android:summary="@string/lockscreen_visualizer_enable_summary"
-            android:defaultValue="false" />
+            android:summary="@string/lockscreen_visualizer_enable_summary" />
 
     </PreferenceCategory>
 

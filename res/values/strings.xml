@@ -355,4 +355,9 @@
     <string name="hardware_keys_category">Hardware navigation buttons</string>
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
 
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
+    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
+
 </resources>

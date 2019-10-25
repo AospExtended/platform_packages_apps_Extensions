@@ -5,7 +5,7 @@ package org.aospextended.extensions.aexstats;
  */
 
 public class Constants {
-    public static final String BASE_URL= "https://apitmp.aospextended.com/";
+    public static final String BASE_URL= "https://stats.aospextended.com/";
     public static final String TAG= "AEXstats";
     public static final String PUSH_OPERATION = "push";
 

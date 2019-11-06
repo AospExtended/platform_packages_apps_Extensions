@@ -38,6 +38,12 @@
             android:title="@string/buttons_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
+            android:key="animations"
+            android:fragment="org.aospextended.extensions.fragments.Animations"
+            android:icon="@drawable/ic_sub_animations"
+            android:title="@string/animations_title" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="general_tweaks"
             android:fragment="org.aospextended.extensions.fragments.GeneralTweaks"
             android:icon="@drawable/ic_sub_general_tweaks"

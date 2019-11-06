@@ -52,7 +52,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
-        int NetTrafficSize = Settings.System.getInt(resolver,
+        int NetTrafficSize = Settings.System.getIntForUser(resolver,
                 Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 21, UserHandle.USER_CURRENT);
         mNetTrafficSize = (CustomSeekBarPreference) findPreference(NETWORK_TRAFFIC_FONT_SIZE);
         mNetTrafficSize.setValue(NetTrafficSize / 1);
@@ -135,7 +135,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             return true;
         }  else if (preference == mNetTrafficSize) {
             int width = ((Integer)objValue).intValue();
-            Settings.System.putInt(getActivity().getContentResolver(),
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_FONT_SIZE, width,
                     UserHandle.USER_CURRENT);
             return true;

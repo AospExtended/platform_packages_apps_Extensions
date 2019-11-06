@@ -675,6 +675,7 @@
     <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes.</string>
     <string name="cutout_force_fullscreen_no_apps">No apps</string>    
 
+<<<<<<< HEAD
     <!-- Pulse notifications lightning -->
     <string name="edge_light_category">EDGE LIGHT OPTIONS</string>    
     <string name="pulse_ambient_light_title">Ambient edge lightning</string>
@@ -720,4 +721,23 @@
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
 
+    <string name="animations_title">Animations</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="system_animation_title">System</string>
+    <string name="activity_open_title">Activity open animation</string>
+    <string name="activity_close_title">Activity close animation</string>
+    <string name="task_open_title">Task open animation</string>
+    <string name="task_open_behind_title">Task open behind animation</string>
+    <string name="task_close_title">Task close animation</string>
+    <string name="task_move_to_front_title">Move to front animation</string>
+    <string name="task_move_to_back_title">Move to back animation</string>
+    <string name="wallpaper_open_title">Wallpaper open animation</string>
+    <string name="wallpaper_close_title">Wallpaper close animation</string>
+    <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
+    <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
+    <string name="animation_duration_title">Animation duration</string>
+    <string name="title_animation_no_override">Prevent app overrides</string>
+    <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
+    <string name="animation_duration_default">Default</string>
 </resources>

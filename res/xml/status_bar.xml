@@ -21,9 +21,9 @@
 
     <org.aospextended.support.preference.CardviewPreference
         android:key="battery_bar_category"
-        android:fragment="org.aospextended.extensions.fragments.BatteryBar"
+        android:fragment="org.aospextended.extensions.fragments.BatterySettings"
         android:icon="@drawable/ic_battery_bar"
-        android:title="@string/battery_bar_title" />
+        android:title="@string/battery_settings_title" />
 
     <org.aospextended.support.preference.CardviewPreference
         android:key="status_bar_clock"

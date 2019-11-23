@@ -46,6 +46,12 @@
         android:icon="@drawable/ic_traffic"
         android:title="@string/traffic_title" />
 
+     <org.aospextended.support.preference.CardviewPreference
+        android:key="carrier_label"
+        android:fragment="org.aospextended.extensions.fragments.CarrierLabel"
+        android:icon="@drawable/ic_carrierlabel"
+        android:title="@string/carrier_label_settings_title" />
+
     <org.aospextended.support.preference.CardviewPreference
         android:key="misc_extensions"
         android:fragment="org.aospextended.extensions.fragments.MiscExtensions"

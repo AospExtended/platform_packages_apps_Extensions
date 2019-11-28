@@ -16,18 +16,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-            android:key="network_traffic_state"
+        <ListPreference
+            android:key="network_traffic_location"
             android:title="@string/network_traffic_state_title"
-            android:summary="@string/network_traffic_state_summary"
-            android:defaultValue="false" />
+            android:defaultValue="0" />
 
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="network_traffic_arrow"
             android:title="@string/network_traffic_arrow_title"
             android:summary="@string/network_traffic_arrow_summary"
-            android:defaultValue="true"
-            android:dependency="network_traffic_state" />
+            android:defaultValue="true" />
 
         <org.aospextended.extensions.preference.CustomSeekBarPreference
             android:key="network_traffic_autohide_threshold"
@@ -35,7 +33,6 @@
             android:max="10"
             settings:min="0"
             android:defaultValue="0"
-            settings:units="KB/s"
-            android:dependency="network_traffic_state" />
+            settings:units="KB/s" />
 
 </PreferenceScreen>

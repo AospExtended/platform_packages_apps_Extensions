@@ -44,9 +44,21 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.aospextended.AEXUtils;
 import com.android.settings.Utils;
 
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
+
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private static final String KEY_NETWORK_TRAFFIC = "network_traffic_location";
+    private static final String KEY_NETWORK_TRAFFIC_ARROW = "network_traffic_arrow";
+    private static final String KEY_NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide_threshold";
+
+    private ListPreference mNetworkTraffic;
+    private SystemSettingSwitchPreference mNetworkTrafficArrow;
+    private CustomSeekBarPreference mNetworkTrafficAutohide;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +68,26 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        mNetworkTraffic = (ListPreference) findPreference(KEY_NETWORK_TRAFFIC);
+        int networkTraffic = Settings.System.getInt(resolver,
+        Settings.System.NETWORK_TRAFFIC_LOCATION, 0);
+        CharSequence[] NonNotchEntries = { getResources().getString(R.string.network_traffic_disabled),
+                getResources().getString(R.string.network_traffic_statusbar),
+                getResources().getString(R.string.network_traffic_qs_header) };
+        CharSequence[] NotchEntries = { getResources().getString(R.string.network_traffic_disabled),
+                getResources().getString(R.string.network_traffic_qs_header) };
+        CharSequence[] NonNotchValues = {"0", "1" , "2"};
+        CharSequence[] NotchValues = {"0", "2"};
+        mNetworkTraffic.setEntries(AEXUtils.hasNotch(getActivity()) ? NotchEntries : NonNotchEntries);
+        mNetworkTraffic.setEntryValues(AEXUtils.hasNotch(getActivity()) ? NotchValues : NonNotchValues);
+        mNetworkTraffic.setValue(String.valueOf(networkTraffic));
+        mNetworkTraffic.setSummary(mNetworkTraffic.getEntry());
+        mNetworkTraffic.setOnPreferenceChangeListener(this);
+
+        mNetworkTrafficArrow = (SystemSettingSwitchPreference) findPreference(KEY_NETWORK_TRAFFIC_ARROW);
+        mNetworkTrafficAutohide = (SystemSettingSeekBarPreference) findPreference(KEY_NETWORK_TRAFFIC_AUTOHIDE);
+        updateNetworkTrafficPrefs(networkTraffic);
     }
 
     @Override
@@ -69,7 +101,28 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mNetworkTraffic) {
+            int networkTraffic = Integer.valueOf((String) newValue);
+            int index = mNetworkTraffic.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_LOCATION, networkTraffic);
+            mNetworkTraffic.setSummary(mNetworkTraffic.getEntries()[index]);
+            updateNetworkTrafficPrefs(networkTraffic);
+            return true;
+		}
         return false;
+    }
+
+	private void updateNetworkTrafficPrefs(int networkTraffic) {
+        if (mNetworkTraffic != null) {
+            if (networkTraffic == 0) {
+                mNetworkTrafficArrow.setEnabled(false);
+                mNetworkTrafficAutohide.setEnabled(false);
+            } else {
+                mNetworkTrafficArrow.setEnabled(true);
+                mNetworkTrafficAutohide.setEnabled(true);
+            }
+        }
     }
 }

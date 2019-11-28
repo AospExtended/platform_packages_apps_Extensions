@@ -312,7 +312,9 @@
 	    <!-- Statusbar net monitor -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show the network activity in statusbar</string>
+    <string name="network_traffic_disabled">Disabled</string>
+    <string name="network_traffic_statusbar">Statusbar</string>
+    <string name="network_traffic_qs_header">QS header</string>
     <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
     <string name="network_traffic_arrow_title">Activity arrows</string>
     <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>

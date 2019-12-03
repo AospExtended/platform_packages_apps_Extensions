@@ -539,4 +539,7 @@
     <string name="show_qs_call_strength_icon_title">Show call strength icon(s)</string>
     <string name="show_qs_call_strength_icon_summary">Show call strength icons in QuickSettings panel when available</string>
 
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>

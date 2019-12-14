@@ -26,6 +26,21 @@
         android:entries="@array/torch_power_button_gesture_entries"
         android:entryValues="@array/torch_power_button_gesture_values" />
 
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="reboot_in_power_menu"
+            android:title="@string/powermenu_reboot_title"
+            android:defaultValue="true" />
+
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="advanced_reboot_in_power_menu"
+            android:title="@string/powermenu_advanced_restart_title"
+            android:summary="@string/powermenu_advanced_restart_summary"
+            android:defaultValue="false" />
+
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="screenshot_in_power_menu"
+            android:title="@string/powermenu_screenshot_title"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 

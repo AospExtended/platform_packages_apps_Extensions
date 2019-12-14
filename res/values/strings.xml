@@ -171,6 +171,12 @@
     <!-- Power Button -->
     <string name="power_button_title">Power button</string>
 
+    <!-- Advanced Reboot Menu -->
+    <string name="powermenu_reboot_title">Restart</string>
+    <string name="powermenu_advanced_restart_title">Advanced restart</string>
+    <string name="powermenu_advanced_restart_summary">Enables the advanced restart menu for other restarting options</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+
     <!-- Power Menu -->
     <string name="power_menu_title">Power menu</string>
 
@@ -294,7 +300,7 @@
     <string name="qs_edit_title">Edit Icon</string>
     <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
 
-	    <!-- AEX logo -->
+    <!-- AEX logo -->
     <string name="aex_logo_title">AEX logo</string>
     <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 

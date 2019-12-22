@@ -373,5 +373,14 @@
 
     <string name="edit_hint">Value</string>
     <string name="seek_value_edit_label">Set value</string>
-</resources>
 
+    <!-- Themes -->
+    <string name="theme_category_title">Theme options</string>
+    <string name="accent_picker_dialog_title">Select an accent</string>
+    <string name="theme_accent_picker_title">Accent color</string>
+    <string name="theme_accent_picker_summary">Select system theme accent color</string>
+    <string name="theme_accent_picker_default">Default</string>
+    <string name="accent_picker_stock_colors">Stock</string>
+    <string name="accent_picker_custom_colors">Custom</string>
+
+</resources>

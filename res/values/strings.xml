@@ -374,6 +374,7 @@
     <string name="edit_hint">Value</string>
     <string name="seek_value_edit_label">Set value</string>
 
+<<<<<<< HEAD
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
@@ -408,5 +409,11 @@
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Hardware navigation buttons</string>
     <string name="hardware_keys_disable_title">Disable hardware buttons</string>
+
+    <!-- Themes -->
+    <string name="accent_picker_dialog_title">Select an accent</string>
+    <string name="theme_accent_picker_title">Accent color</string>
+    <string name="theme_accent_picker_summary">Select system theme accent color</string>
+    <string name="theme_accent_picker_default">Default</string>
 
 </resources>

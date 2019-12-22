@@ -505,4 +505,10 @@
     <string name="double_tap_on_doze_to_wake_title">Double-tap to wake on doze</string>
     <string name="double_tap_on_doze_to_wake_summary">Double tap to wake when device is dreaming</string>
 
+    <!-- Themes -->
+    <string name="accent_picker_dialog_title">Select an accent</string>
+    <string name="theme_accent_picker_title">Accent color</string>
+    <string name="theme_accent_picker_summary">Select system theme accent color</string>
+    <string name="theme_accent_picker_default">Default</string>
+
 </resources>

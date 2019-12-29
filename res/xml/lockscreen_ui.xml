@@ -29,4 +29,25 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title" >
+
+        <org.aospextended.support.preference.SystemSettingSwitchPreference
+            android:key="show_lockscreen_media_art"
+            android:title="@string/show_lockscreen_media_art_title"
+            android:defaultValue="true" />
+
+        <org.aospextended.support.preference.SystemSettingSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            android:dependency="show_lockscreen_media_art"
+            settings:allowEditText="true"
+            android:max="25"
+            android:min="0"
+            android:defaultValue="25"
+            settings:units="dp"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

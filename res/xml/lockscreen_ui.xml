@@ -45,6 +45,14 @@
             android:key="hide_lockscreen_items_category"
             android:title="@string/hide_lockscreen_items_title" >
 
+    <org.aospextended.extensions.preference.SystemSettingListPreference
+        android:key="lockscreen_clock_selection"
+        android:title="@string/lockscreen_clock_title"
+	    android:dialogTitle="@string/lockscreen_clock_dialog_title"
+        android:entries="@array/lockscreen_clock_titles"
+        android:entryValues="@array/lockscreen_clock_values"
+        android:defaultValue="2" />
+
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"

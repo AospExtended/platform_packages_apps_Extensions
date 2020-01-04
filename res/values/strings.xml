@@ -609,4 +609,12 @@
     <string name="gaming_mode_dynamic_title">Dynamic mode</string>
     <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
 
+    <!-- Lockscreen clock style -->
+    <string name="lockscreen_clock_title">Clock style</string>
+    <string name="lockscreen_clock_hide">Hide</string>
+    <string name="lockscreen_clock_default">Default</string>
+    <string name="lockscreen_clock_default_bold">Default (bold)</string>
+    <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
+
 </resources>

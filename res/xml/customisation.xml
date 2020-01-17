@@ -78,6 +78,12 @@
             android:title="@string/lock_screen_custom_clock_face_title"
             android:entries="@array/lock_screen_custom_clock_face_entries"
             android:entryValues="@array/lock_screen_custom_clock_face_values" />
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="clock_show_status_area"
+            android:title="@string/clock_show_status_area"
+            android:summary="@string/clock_show_status_area_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>

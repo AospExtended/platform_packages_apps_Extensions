@@ -83,6 +83,16 @@
             android:title="@string/qs_blur_title"
             android:summary="@string/qs_blur_summary" />
 
+        <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="qs_blur_alpha"
+            android:title="@string/qs_blur_alpha_title"
+            android:summary="@string/qs_blur_alpha_summary"
+            android:max="100"
+            settings:min="1"
+            settings:units="%"
+            android:persistent="false"
+            android:dependency="qs_background_blur" />
+
         <ListPreference
             android:key="status_bar_quick_qs_pulldown"
             android:title="@string/status_bar_quick_qs_pulldown"

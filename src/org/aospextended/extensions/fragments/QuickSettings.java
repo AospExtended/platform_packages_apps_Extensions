@@ -37,6 +37,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String QS_BLUR_ALPHA = "qs_blur_alpha";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -44,6 +45,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
     private ListPreference mQuickPulldown;
     private ListPreference mSmartPulldown;
+
+    private CustomSeekBarPreference mQSBlurAlpha;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,6 +93,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+        mQSBlurAlpha = (CustomSeekBarPreference) findPreference(QS_BLUR_ALPHA);
+        int qsBlurAlpha = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_BLUR_ALPHA, 100);
+        mQSBlurAlpha.setValue(qsBlurAlpha);
+        mQSBlurAlpha.setOnPreferenceChangeListener(this);
     }
 
      @Override
@@ -127,6 +136,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int smartPulldown = Integer.valueOf((String) newValue);
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
+            return true;
+        } else if (preference == mQSBlurAlpha) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BLUR_ALPHA, value);
             return true;
         }
         return false;

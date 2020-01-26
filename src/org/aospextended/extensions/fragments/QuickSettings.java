@@ -38,6 +38,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
     private static final String QS_BLUR_ALPHA = "qs_blur_alpha";
+    private static final String QS_BLUR_INTENSITY = "qs_blur_intensity";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -47,6 +48,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mSmartPulldown;
 
     private CustomSeekBarPreference mQSBlurAlpha;
+    private CustomSeekBarPreference mQSBlurIntensity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -99,6 +101,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_BLUR_ALPHA, 100);
         mQSBlurAlpha.setValue(qsBlurAlpha);
         mQSBlurAlpha.setOnPreferenceChangeListener(this);
+
+        mQSBlurIntensity = (CustomSeekBarPreference) findPreference(QS_BLUR_INTENSITY);
+        int qsBlurIntensity = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_BLUR_INTENSITY, 30);
+        mQSBlurIntensity.setValue(qsBlurIntensity);
+        mQSBlurIntensity.setOnPreferenceChangeListener(this);
     }
 
      @Override
@@ -141,6 +149,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int value = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.QS_BLUR_ALPHA, value);
+            return true;
+        } else if (preference == mQSBlurIntensity) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BLUR_INTENSITY, value);
             return true;
         }
         return false;

@@ -31,4 +31,10 @@
             android:icon="@drawable/ic_sub_buttons"
             android:title="@string/buttons_title" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="battery"
+            android:fragment="org.aospextended.extensions.fragments.Battery"
+            android:icon="@drawable/ic_sub_battery"
+            android:title="@string/battery_title" />
+
 </PreferenceScreen>

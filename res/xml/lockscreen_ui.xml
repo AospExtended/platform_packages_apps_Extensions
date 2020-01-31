@@ -62,7 +62,7 @@
             android:title="@string/show_lockscreen_media_art_title"
             android:defaultValue="true" />
 
-        <org.aospextended.extensions.preference.CustomSeekBarPreference
+        <org.aospextended.extensions.preference.SystemSettingSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
             android:dependency="show_lockscreen_media_art"

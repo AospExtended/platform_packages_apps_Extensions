@@ -98,6 +98,10 @@
     <!-- Buttons -->
     <string name="buttons_title">Buttons</string>
 
+    <!-- Battery -->
+    <string name="battery_title">Battery</string>
+    <string name="battery_category">Battery tweaks</string>
+
     <!-- App Ops -->
     <string name="app_ops_category">App Ops</string>
 

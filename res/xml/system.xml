@@ -25,10 +25,16 @@
         android:icon="@drawable/ic_general_tweaks"
         android:title="@string/general_tweaks_title" />
 
-    <org.aospextended.support.preference.CardviewPreference
+     <org.aospextended.support.preference.CardviewPreference
         android:key="buttons"
         android:fragment="org.aospextended.extensions.fragments.Buttons"
         android:icon="@drawable/ic_buttons"
         android:title="@string/buttons_title" />
+
+     <org.aospextended.support.preference.CardviewPreference
+        android:key="battery"
+        android:fragment="org.aospextended.extensions.fragments.Battery"
+        android:icon="@drawable/ic_battery"
+        android:title="@string/battery_title" />
 
 </PreferenceScreen>

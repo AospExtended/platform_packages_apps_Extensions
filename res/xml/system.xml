@@ -37,4 +37,10 @@
             android:icon="@drawable/ic_sub_battery"
             android:title="@string/battery_title" />
 
+        <org.aospextended.extensions.preference.CardviewPreference
+            android:key="gaming_mode"
+            android:fragment="org.aospextended.extensions.fragments.GamingMode"
+            android:icon="@drawable/ic_sub_gaming"
+            android:title="@string/gaming_mode_title" />
+
 </PreferenceScreen>

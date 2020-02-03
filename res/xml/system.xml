@@ -43,4 +43,10 @@
             android:icon="@drawable/ic_sub_general_tweaks"
             android:title="@string/general_tweaks_title" />
 
+        <org.aospextended.extensions.preference.CardviewPreference
+            android:key="gaming_mode"
+            android:fragment="org.aospextended.extensions.fragments.GamingMode"
+            android:icon="@drawable/ic_sub_gaming"
+            android:title="@string/gaming_mode_title" />
+
 </PreferenceScreen>

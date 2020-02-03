@@ -82,6 +82,11 @@ public class GamingMode extends SettingsPreferenceFragment
     private Map<String, Package> mGamingPackages;
     private Context mContext;
 
+    private static final int KEY_MASK_HOME = 0x01;
+    private static final int KEY_MASK_BACK = 0x02;
+    private static final int KEY_MASK_MENU = 0x04;
+    private static final int KEY_MASK_APP_SWITCH = 0x10;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,6 +98,10 @@ public class GamingMode extends SettingsPreferenceFragment
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mHardwareKeysDisable = (SwitchPreference) findPreference(GAMING_MODE_HW_KEYS);
+
+        if (!hasHWkeys()) {
+            prefScreen.removePreference(mHardwareKeysDisable);
+        }
 
         mPackageManager = getPackageManager();
         mPackageAdapter = new PackageListAdapter(getActivity());
@@ -240,6 +249,19 @@ public class GamingMode extends SettingsPreferenceFragment
         }
 
     };
+
+    private boolean hasHWkeys() {
+        final int deviceKeys = getContext().getResources().getInteger(
+                com.android.internal.R.integer.config_deviceHardwareKeys);
+
+        // read bits for present hardware keys
+        final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
+        final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
+        final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
+        final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
+
+        return (hasHomeKey || hasBackKey || hasMenuKey || hasAppSwitchKey);
+    }
 
     private void refreshCustomApplicationPrefs() {
         if (!parsePackageList()) {

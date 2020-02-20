@@ -45,13 +45,14 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.Utils;
+import com.android.internal.util.aospextended.AEXUtils;
 
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_NAVIGATION_BAR_ENABLED = "force_show_navbar";
+    private static final String KEY_LAYOUT_SETTINGS = "layout_settings";
 
     private SwitchPreference mNavigationBar;
 
@@ -76,7 +77,8 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
                 defaultToNavigationBar ? 1 : 0) == 1));
         mNavigationBar.setOnPreferenceChangeListener(this);
 
-    }
+        Preference mLayoutSettings = (Preference) findPreference(KEY_LAYOUT_SETTINGS);
+            prefSet.removePreference(mLayoutSettings);
 
     @Override
     public int getMetricsCategory() {

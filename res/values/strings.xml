@@ -506,4 +506,7 @@
     <string name="double_tap_on_doze_to_wake_title">Double-tap to wake on doze</string>
     <string name="double_tap_on_doze_to_wake_summary">Double tap to wake when device is dreaming</string>
 
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">On-screen navigation bar</string>
+    <string name="navigation_bar_summary">Enable on-screen navigation keys</string>
 </resources>

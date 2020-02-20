@@ -52,6 +52,7 @@ import org.aospextended.support.preference.SystemSettingSwitchPreference;
 public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_NAVIGATION_BAR_ENABLED = "force_show_navbar";
+    private static final String KEY_LAYOUT_SETTINGS = "layout_settings";
 
     private SwitchPreference mNavigationBar;
 
@@ -76,6 +77,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
                 defaultToNavigationBar ? 1 : 0) == 1));
         mNavigationBar.setOnPreferenceChangeListener(this);
 
+        Preference mLayoutSettings = (Preference) findPreference(KEY_LAYOUT_SETTINGS);
     }
 
     @Override

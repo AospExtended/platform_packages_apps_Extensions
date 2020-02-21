@@ -22,6 +22,7 @@ import android.content.ContentResolver;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -59,6 +60,10 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     private SwitchPreference mNavigationBar;
     private SystemSettingSwitchPreference mNavigationArrows;
 
+    private boolean mIsNavSwitchingMode = false;
+
+    private Handler mHandler;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,6 +88,9 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
         mLayoutSettings = (Preference) findPreference(KEY_LAYOUT_SETTINGS);
 
         mNavigationArrows = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_BAR_ARROWS);
+
+        mHandler = new Handler();
+
     }
 
     @Override
@@ -99,8 +107,18 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mNavigationBar) {
             boolean value = (Boolean) objValue;
+            if (mIsNavSwitchingMode) {
+                return false;
+            }
+            mIsNavSwitchingMode = true;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FORCE_SHOW_NAVBAR, value ? 1 : 0);
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mIsNavSwitchingMode = false;
+                }
+            }, 1500);
             return true;
         }
         return false;

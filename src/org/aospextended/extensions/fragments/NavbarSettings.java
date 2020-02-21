@@ -22,6 +22,7 @@ import android.content.ContentResolver;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -62,6 +63,9 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     private SystemSettingSwitchPreference mSwapHardwareKeys;
 
     private int deviceKeys;
+    private boolean mIsNavSwitchingMode = false;
+
+    private Handler mHandler;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -96,7 +100,9 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
         if (deviceKeys == 0) {
             prefSet.removePreference(mSwapHardwareKeys);
         }
-        updateOptions();
+        mHandler = new Handler();
+
+        navbarCheck();
     }
 
     @Override
@@ -107,16 +113,16 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     @Override
     public void onResume() {
         super.onResume();
-        updateOptions();
+        navbarCheck();
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        updateOptions();
+        navbarCheck();
     }
 
-    private void updateOptions() {
+    private void navbarCheck() {
         final ContentResolver resolver = getActivity().getContentResolver();
         boolean defaultToNavigationBar = getResources().getBoolean(
                 com.android.internal.R.bool.config_showNavigationBar);
@@ -135,9 +141,19 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mNavigationBar) {
             boolean value = (Boolean) objValue;
+            if (mIsNavSwitchingMode) {
+                return false;
+            }
+            mIsNavSwitchingMode = true;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FORCE_SHOW_NAVBAR, value ? 1 : 0);
-            updateOptions();
+            navbarCheck();
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mIsNavSwitchingMode = false;
+                }
+            }, 1500);
             return true;
         }
         return false;

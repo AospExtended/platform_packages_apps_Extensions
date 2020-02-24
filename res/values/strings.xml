@@ -682,6 +682,9 @@
     <string name="ambient_notification_light_enabled_summary">Keep showing edge lightning on AOD</string>
     <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
     <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when edges are lighted</string>
+    <string name="ambient_notification_light_layout_title">Light view</string>
+    <string name="ambient_notification_light_layout_solid">Solid</string>
+    <string name="ambient_notification_light_layout_faded">Faded</string>
     <string name="ambient_notification_light_duration_title">Duration</string>
     <string name="ambient_notification_light_duration_summary">Time it takes for each animation to complete</string>
     <string name="ambient_notification_light_repeats_title">Repeats</string>

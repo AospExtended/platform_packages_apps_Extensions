@@ -59,6 +59,13 @@
         android:defaultValue="0" />
 
     <org.aospextended.extensions.preference.SystemSettingListPreference
+        android:key="ambient_light_layout"
+        android:title="@string/ambient_notification_light_layout_title"
+        android:entries="@array/ambient_notification_light_layout_entries"
+        android:entryValues="@array/ambient_notification_light_layout_values"
+        android:defaultValue="0" />
+
+    <org.aospextended.extensions.preference.SystemSettingListPreference
         android:key="ambient_notification_color_mode"
         android:title="@string/ambient_notification_color_mode_title"
         android:entries="@array/ambient_notification_color_mode_entries"

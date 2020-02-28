@@ -19,7 +19,6 @@
         android:key="ambient_notification_light_enabled"
         android:title="@string/ambient_notification_light_enabled_title"
         android:summary="@string/ambient_notification_light_enabled_summary"
-        android:persistent="false"
         android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
@@ -28,6 +27,12 @@
         android:summary="@string/ambient_notification_light_hide_aod_summary"
         android:defaultValue="false"
         android:dependency="ambient_notification_light_enabled" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="ambient_light_pulse_for_all"
+        android:title="@string/ambient_notification_light_show_always_title"
+        android:summary="@string/ambient_notification_light_show_always_summary"
+        android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="ambient_notification_light_duration"

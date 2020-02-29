@@ -535,4 +535,8 @@
     <string name="theme_accent_picker_summary">Select system theme accent color</string>
     <string name="theme_accent_picker_default">Default</string>
 
+    <!-- QS blur -->
+    <string name="qs_blur_title">Background blur</string>
+    <string name="qs_blur_summary">Blur empty space in notification panel below quick settings</string>
+
 </resources>

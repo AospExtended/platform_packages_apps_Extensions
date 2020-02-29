@@ -570,4 +570,8 @@
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
 
+    <!-- QS blur -->
+    <string name="qs_blur_title">Background blur</string>
+    <string name="qs_blur_summary">Blur empty space in notification panel below quick settings</string>
+
 </resources>

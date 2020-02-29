@@ -557,4 +557,8 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
+    <!-- QS blur -->
+    <string name="qs_blur_title">Background blur</string>
+    <string name="qs_blur_summary">Blur empty space in notification panel below quick settings</string>
+
 </resources>

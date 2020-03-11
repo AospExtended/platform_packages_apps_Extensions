@@ -64,15 +64,22 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+        final PackageManager mPm = getActivity().getPackageManager();
 
-	    mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
-        if (!mFingerprintManager.isHardwareDetected()){
-            prefSet.removePreference(mFingerprintVib);
+
+        if (mPm.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT) &&
+                 mFingerprintManager != null) {
+            if (!mFingerprintManager.isHardwareDetected()){
+                prefSet.removePreference(mFingerprintVib);
+            } else {
+            mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
+                    Settings.System.FP_SUCCESS_VIBRATE, 1) == 1));
+            mFingerprintVib.setOnPreferenceChangeListener(this);
+            }
         } else {
-        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.FP_SUCCESS_VIBRATE, 1) == 1));
-        mFingerprintVib.setOnPreferenceChangeListener(this);
+            prefSet.removePreference(mFingerprintVib);
         }
     }
 

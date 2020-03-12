@@ -37,8 +37,14 @@
     <PreferenceCategory android:key="hardware_keys"
 	android:title="@string/hardware_keys_category">
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="swap_navigation_keys"
+        android:title="@string/hw_keys_swap_title"
+        android:summary="@string/hw_keys_swap_summary"
+        android:defaultValue="false" />
+
 	<SwitchPreference android:key="hardware_keys_disable"
-		android:title="@string/hardware_keys_disable_title" />
+        android:title="@string/hardware_keys_disable_title" />
     </PreferenceCategory>
 
    <PreferenceCategory
@@ -46,7 +52,7 @@
         android:title="@string/volume_category">
 
 	<org.aospextended.extensions.preference.SystemSettingSwitchPreference
-	    android:key="volume_button_music_control"
+	android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false"
@@ -63,7 +69,7 @@
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false"
-	    android:disableDependentsState="true" />
+	android:disableDependentsState="true" />
 
         <org.aospextended.extensions.preference.SystemSettingListPreference
             android:key="volume_key_cursor_control"

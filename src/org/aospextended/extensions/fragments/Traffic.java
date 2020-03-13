@@ -49,7 +49,7 @@ import com.android.settings.Utils;
 import org.aospextended.extensions.preference.CustomSeekBarPreference;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
-public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class Traffic extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     private static final String NETWORK_TRAFFIC_FONT_SIZE  = "network_traffic_font_size";
 
@@ -69,7 +69,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         final PreferenceScreen prefSet = getPreferenceScreen();
 
         int NetTrafficSize = Settings.System.getInt(resolver,
-                Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 42);
+                Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 36);
         mNetTrafficSize = (CustomSeekBarPreference) findPreference(NETWORK_TRAFFIC_FONT_SIZE);
         mNetTrafficSize.setValue(NetTrafficSize / 1);
         mNetTrafficSize.setOnPreferenceChangeListener(this);

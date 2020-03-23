@@ -19,30 +19,23 @@ package org.aospextended.extensions.fragments;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.InputFilter;
 import android.text.Spannable;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Gravity;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import androidx.preference.ListPreference;
+
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.aospextended.AEXUtils;
-
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 

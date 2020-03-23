@@ -19,16 +19,18 @@ package org.aospextended.extensions.preference;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
-import android.util.AttributeSet;
-import android.view.View;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.ShapeDrawable;
+import android.provider.Settings;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.ImageView;
+
 import androidx.core.content.res.TypedArrayUtils;
 import androidx.core.graphics.ColorUtils;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
-import android.provider.Settings;
-import android.widget.ImageView;
+
 import com.android.settings.R;
 
 public class CardviewPreference extends Preference {

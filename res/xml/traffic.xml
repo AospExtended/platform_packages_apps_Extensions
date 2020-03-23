@@ -36,7 +36,8 @@
             android:key="network_traffic_autohide_threshold"
             android:title="@string/network_traffic_autohide_threshold_title"
             android:max="10"
-            settings:min="0"
+            android:min="0"
+            android:defaultValue="1"  
             settings:units="" />
 
        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
@@ -48,8 +49,8 @@
        <org.aospextended.extensions.preference.CustomSeekBarPreference
             android:key="network_traffic_font_size"
             android:title="@string/nettraf_font_size"
-            android:max="60"
-            settings:min="21"
-            settings:defaultValue="30"
+            android:max="30"
+            android:min="18"
+            android:defaultValue="26"
             settings:units="dp" />
 </PreferenceScreen>

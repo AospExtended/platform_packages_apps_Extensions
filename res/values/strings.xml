@@ -69,7 +69,7 @@
     <string name="carrierlabel_title">Carrier Label</string>
 
     <!-- Misc Extensions -->
-    <string name="misc_extensions_title">Misc extensions</string>
+    <string name="misc_extensions_title">Misc Extensions</string>
 
     <!-- Recents UI -->
     <string name="recents_ui_title">Recents UI</string>
@@ -78,13 +78,13 @@
     <string name="lockscreen_ui_title">Lockscreen UI</string>
 
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts">Lockscreen Shortcuts</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen tuner</string>
 
     <!-- Statusbar Iten -->
-    <string name="statusbar_items_category">Statusbar items</string>
+    <string name="statusbar_items_category">Statusbar Items</string>
 
     <!-- Notifications -->
     <string name="notifications_title">Notifications</string>
@@ -93,7 +93,7 @@
     <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend you set the amount of disabled pixels at 75 percent.</string>
 
     <!-- Navigation -->
-    <string name="navigationbar_settings_title">Navigation bar</string>
+    <string name="navigationbar_settings_title">Navigation Bar</string>
 
     <!-- Buttons -->
     <string name="buttons_title">Buttons</string>
@@ -298,7 +298,7 @@
     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
 
     <!-- Status bar clock and date options -->
-    <string name="status_bar_clock_title">Clock settings</string>
+    <string name="status_bar_clock_title">Clock Settings</string>
     <string name="status_bar_clock">Clock &amp; Date</string>
     <string name="clock_enabled">Enabled</string>
     <string name="clock_disabled">Disabled</string>
@@ -339,7 +339,7 @@
     <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 
     <!-- Statusbar net monitor -->
-    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_title">Traffic Indicators</string>
     <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_state_title">Network traffic display</string>
     <string name="network_traffic_location">Traffic indicator placement</string>
@@ -460,7 +460,7 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_title">Battery Bar</string>
     <string name="battery_bar_summary">Display and customize battery bar near status bar or navigation bar</string>
     <string name="battery_bar">Battery bar location</string>
     <string name="battery_bar_no_navbar">Battery bar location</string>
@@ -494,7 +494,7 @@
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier label</string>
+    <string name="carrier_label_settings_title">Carrier Label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>

@@ -17,23 +17,20 @@
 package org.aospextended.extensions.fragments;
 
 import android.content.ContentResolver;
-import android.content.Context;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
-import androidx.preference.ListPreference;
+import android.widget.Switch;
+
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
-
-import android.widget.Switch;
 import com.android.settings.SettingsActivity;
+import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.widget.SwitchBar;
 
 public class Visualizer extends SettingsPreferenceFragment implements

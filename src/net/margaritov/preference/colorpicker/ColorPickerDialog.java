@@ -22,13 +22,14 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+
+import androidx.annotation.NonNull;
 
 import com.android.settings.R;
 

@@ -17,29 +17,15 @@
 package org.aospextended.extensions.preference;
 
 import android.content.Context;
-import android.content.om.IOverlayManager;
-import android.content.om.OverlayInfo;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
-import android.graphics.PorterDuff;
-import android.os.RemoteException;
-import android.os.ServiceManager;
-import android.os.UserHandle;
-import androidx.annotation.VisibleForTesting;
+import android.util.AttributeSet;
+import android.view.View;
+
 import androidx.core.content.res.TypedArrayUtils;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
-import android.text.TextUtils;
-import android.util.AttributeSet;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.android.settings.R;
-import com.android.settings.Utils;
 
 public class CardviewPreference extends Preference {
 

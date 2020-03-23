@@ -32,12 +32,12 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.android.settings.R;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
-
-import com.android.settings.R;
 
 public class PackageListAdapter extends BaseAdapter implements Runnable {
     private PackageManager mPm;

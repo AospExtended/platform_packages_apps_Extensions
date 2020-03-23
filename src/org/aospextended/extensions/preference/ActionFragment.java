@@ -19,31 +19,31 @@
 
 package org.aospextended.extensions.preference;
 
-import java.util.ArrayList;
-
-import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.hwkeys.ActionConstants.Defaults;
-import com.android.internal.util.hwkeys.ActionHandler;
-import com.android.internal.util.hwkeys.Config;
-import com.android.internal.util.hwkeys.Config.ActionConfig;
-import com.android.internal.util.hwkeys.Config.ButtonConfig;
-
-import org.aospextended.extensions.preference.ShortcutPickHelper;
-import org.aospextended.extensions.preference.ActionPreference;
-import org.aospextended.extensions.preference.CustomActionListAdapter;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 
+import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.hwkeys.ActionConstants.Defaults;
+import com.android.internal.util.hwkeys.ActionHandler;
+import com.android.internal.util.hwkeys.Config;
+import com.android.internal.util.hwkeys.Config.ActionConfig;
+import com.android.internal.util.hwkeys.Config.ButtonConfig;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
+import org.aospextended.extensions.preference.ActionPreference;
+import org.aospextended.extensions.preference.CustomActionListAdapter;
+import org.aospextended.extensions.preference.ShortcutPickHelper;
+
+import java.util.ArrayList;
 
 public class ActionFragment extends SettingsPreferenceFragment implements
         ShortcutPickHelper.OnPickListener {

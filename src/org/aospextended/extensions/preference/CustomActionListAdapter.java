@@ -18,9 +18,6 @@
 
 package org.aospextended.extensions.preference;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -34,8 +31,10 @@ import android.widget.TextView;
 
 import com.android.internal.util.hwkeys.ActionHandler;
 import com.android.internal.util.hwkeys.Config.ActionConfig;
-
 import com.android.settings.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomActionListAdapter extends BaseAdapter {
     private LayoutInflater mInflater;

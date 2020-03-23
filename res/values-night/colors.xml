@@ -16,10 +16,10 @@
  -->
 
 <resources>
-    <color name="cardview_bg">@*android:color/primary_device_default_settings</color>
-    <color name="bottombar_bg">@*android:color/primary_device_default_settings</color>
+    <color name="cardview_bg">@*android:color/secondary_device_default_settings</color>
+    <color name="bottombar_bg">@*android:color/primary_dark_device_default_settings</color>
     <color name="bottombar_active">@*android:color/accent_device_default_dark</color>
-    <color name="bottom_inactive">#80FFFFFF</color>
+    <color name="bottom_inactive">#99FFFFFF</color>
     <color name="bottombar_ripple">#33ffffff</color>
 
     <!-- Extensions subcategories icon colors -->

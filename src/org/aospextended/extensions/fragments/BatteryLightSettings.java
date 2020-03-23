@@ -15,23 +15,21 @@
  */
 package org.aospextended.extensions;
 
-import android.content.ContentResolver;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
-import androidx.preference.ListPreference;
+import android.provider.Settings;
+
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
-
-import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
+
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {

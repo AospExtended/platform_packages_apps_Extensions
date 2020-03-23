@@ -17,9 +17,10 @@
 package org.aospextended.extensions.preference;
 
 import android.content.Context;
-import androidx.preference.CheckBoxPreference;
 import android.provider.Settings;
 import android.util.AttributeSet;
+
+import androidx.preference.CheckBoxPreference;
 
 public class SystemCheckBoxPreference extends CheckBoxPreference {
     public SystemCheckBoxPreference(Context context, AttributeSet attrs, int defStyle) {

@@ -18,8 +18,9 @@ package org.aospextended.extensions.preference;
 
 import android.content.Context;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
 import android.util.AttributeSet;
+
+import androidx.preference.SwitchPreference;
 
 public class GlobalSettingSwitchPreference extends SwitchPreference {
     public GlobalSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {

@@ -28,12 +28,13 @@
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/bottombar_bg"
             android:layout_alignParentBottom="true"
             app:menu="@menu/menu_categories"
+            android:background="@drawable/bottombar_bg"
             app:itemRippleColor="@color/bottombar_ripple"
             app:itemIconTint="@drawable/categories_selector"
             app:itemTextColor="@drawable/categories_selector"
+            app:elevation="0dp"
             android:layout_gravity="bottom" />
 
 </RelativeLayout>

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a4a99f31_62085c69",
+        "filename": "res/xml/battery.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2020-03-26T10:58:44Z",
+      "side": 1,
+      "message": "Fix the derp",
+      "revId": "e825653cc0a6246e9dc628bc3f171c250430994f",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    }
+  ]
+}

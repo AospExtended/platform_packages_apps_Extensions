@@ -580,6 +580,10 @@
     <string name="qs_blur_intensity_summary">Sets the blur intensity/radius</string>
     <string name="unit_percent">\u0025</string>
 
+    <!-- QS Transparency -->
+    <string name="qs_panel_alpha_title">Quick Settings opacity</string>
+    <string name="qs_panel_alpha_summary">Configure opacity of background</string>
+
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Gaming Mode</string>
     <string name="gaming_mode_summary">Customize gaming mode preferences</string>

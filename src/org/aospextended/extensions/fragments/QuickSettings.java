@@ -41,6 +41,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
     private static final String QS_BACKGROUND_BLUR_ALPHA = "qs_blur_alpha";
     private static final String QS_BACKGROUND_BLUR_INTENSITY = "qs_blur_intensity";
+    private static final String KEY_QS_PANEL_ALPHA = "qs_panel_alpha";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -51,6 +52,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
     private CustomSeekBarPreference mQSBlurAlpha;
     private CustomSeekBarPreference mQSBlurIntensity;
+    private CustomSeekBarPreference mQsPanelAlpha;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -109,6 +111,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_BACKGROUND_BLUR_INTENSITY, 30);
         mQSBlurIntensity.setValue(qsBlurIntensity);
         mQSBlurIntensity.setOnPreferenceChangeListener(this);
+
+
+        mQsPanelAlpha = (CustomSeekBarPreference) findPreference(KEY_QS_PANEL_ALPHA);
+        int qsPanelAlpha = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_PANEL_BG_ALPHA, 221);
+        mQsPanelAlpha.setValue((int)(((double) qsPanelAlpha / 255) * 100));
+        mQsPanelAlpha.setOnPreferenceChangeListener(this);
     }
 
      @Override
@@ -156,6 +165,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int value = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.QS_BACKGROUND_BLUR_INTENSITY, value);
+            return true;
+        } else if (preference == mQsPanelAlpha) {
+            int bgAlpha = (Integer) newValue;
+            int trueValue = (int) (((double) bgAlpha / 100) * 255);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_PANEL_BG_ALPHA, trueValue);
             return true;
         }
         return false;

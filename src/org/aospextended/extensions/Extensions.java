@@ -36,7 +36,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.os.Bundle;
-import android.os.Build;
 import android.os.SystemProperties;
 import android.provider.Settings;
 import androidx.core.content.ContextCompat;
@@ -147,7 +146,7 @@ public class Extensions extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         mCompositeDisposable = new CompositeDisposable();
         pref = getActivity().getSharedPreferences("aexStatsPrefs", Context.MODE_PRIVATE);
-        if (!pref.getString(Constants.LAST_CUSTOM_FINGERPRINT, "null").equals(Build.CUSTOM_FINGERPRINT)
+        if (!pref.getString(Constants.LAST_BUILD_DATE, "null").equals(SystemProperties.get(Constants.KEY_BUILD_DATE))
                 || pref.getBoolean(Constants.IS_FIRST_LAUNCH, true)) {
             pushStats();
         }
@@ -196,7 +195,7 @@ public class Extensions extends SettingsPreferenceFragment implements
 
             SharedPreferences.Editor editor = pref.edit();
             editor.putBoolean(Constants.IS_FIRST_LAUNCH, false);
-            editor.putString(Constants.LAST_CUSTOM_FINGERPRINT, Build.CUSTOM_FINGERPRINT);
+            editor.putString(Constants.LAST_BUILD_DATE, SystemProperties.get(Constants.KEY_BUILD_DATE));
             editor.apply();
             Log.d(Constants.TAG, "push successful");
 

@@ -78,7 +78,15 @@ public class Extensions extends SettingsPreferenceFragment implements
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        
+
+        Resources res = getResources();
+        Window win = getActivity().getWindow();
+
+        win.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        win.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+        win.setNavigationBarColor(res.getColor(R.color.bottombar_bg));
+        win.setNavigationBarDividerColor(res.getColor(R.color.bottombar_bg));
+
         View view = inflater.inflate(R.layout.layout_extensions, container, false);
 
         final BottomNavigationView bottomNavigation = (BottomNavigationView) view.findViewById(R.id.bottom_navigation);

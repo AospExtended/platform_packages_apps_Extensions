@@ -16,10 +16,13 @@
 
 package org.aospextended.extensions.categories;
 
+import android.content.Context;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
+
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
@@ -44,6 +47,14 @@ public class System extends SettingsPreferenceFragment implements
 
         ContentResolver resolver = getActivity().getContentResolver();
 
+        Preference mBattery = (Preference) findPreference(PREF_BATTERY);
+        if (!hasBatteryLights(getContext()))
+            getPreferenceScreen().removePreference(mBattery);
+    }
+
+    private static boolean hasBatteryLights(Context context) {
+        return context.getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveBatteryLed);
     }
 
     @Override

@@ -19,6 +19,7 @@ package org.aospextended.extensions.categories;
 import android.content.ContentResolver;
 import android.os.Bundle;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.internal.logging.nano.MetricsProto;

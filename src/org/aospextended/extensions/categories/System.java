@@ -47,15 +47,16 @@ public class System extends SettingsPreferenceFragment implements
 
         ContentResolver resolver = getActivity().getContentResolver();
 
-        Preference mBattery = (Preference) findPreference(PREF_BATTERY);
-        if (!hasBatteryLights(getContext()))
+        Preference mBattery = findPreference(PREF_BATTERY);
+        if (mBattery != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_enableSmartPixels)
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             getPreferenceScreen().removePreference(mBattery);
+        }
     }
 
-    private static boolean hasBatteryLights(Context context) {
-        return context.getResources().getBoolean(
-                com.android.internal.R.bool.config_intrusiveBatteryLed);
-    }
 
     @Override
     public int getMetricsCategory() {

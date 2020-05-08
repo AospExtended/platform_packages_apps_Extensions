@@ -31,8 +31,8 @@ import com.android.settings.SettingsPreferenceFragment;
 public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-        private static final String TAG = "System";
-        private static final String PREF_BATTERY = "battery";
+    private static final String TAG = "System";
+    private static final String PREF_BATTERY = "battery";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,15 +42,16 @@ public class System extends SettingsPreferenceFragment implements
         setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefSet = getPreferenceScreen();
 
-        Preference mBattery = (Preference) findPreference(PREF_BATTERY);
-        if (!hasBatteryLights(getContext()))
-            getPreferenceScreen().removePreference(mBattery);
-    }
-
-        private static boolean hasBatteryLights(Context context) {
-        return context.getResources().getBoolean(
-                com.android.internal.R.bool.config_intrusiveBatteryLed);
+        Preference mBattery = findPreference(PREF_BATTERY);
+        if (mBattery != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_enableSmartPixels)
+                    && !getResources().getBoolean(
+                             com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefSet.removePreference(mBattery);
+        }
     }
 
     @Override

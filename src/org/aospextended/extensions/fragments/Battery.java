@@ -62,12 +62,9 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
 
         mLedsCategory = (PreferenceCategory) findPreference("light_category");
         mChargingLeds = (Preference) findPreference("battery_charging_light");
-        if (mChargingLeds != null
+        if (mChargingLeds == null
                 && !getResources().getBoolean(
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            mLedsCategory.removePreference(mChargingLeds);
-        }
-          if (mChargingLeds == null) {
             prefSet.removePreference(mLedsCategory);
         }
 

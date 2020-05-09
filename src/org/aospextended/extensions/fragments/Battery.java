@@ -61,7 +61,7 @@ public class Battery extends SettingsPreferenceFragment implements OnPreferenceC
         Preference smartPixels = findPreference("smart_pixels");
 
         if (!enableSmartPixels){
-            mBatteryCategory.removePreference(smartPixels);
+            prefSet.removePreference(mBatteryCategory);
         }
     }
 

@@ -52,10 +52,16 @@
             android:title="@string/hide_lockscreen_items_title" >
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_charger_info"
+        android:title="@string/lockscreen_charger_info_title"
+        android:summary="@string/lockscreen_charger_info_summary"
+        android:defaultValue="true" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     </PreferenceCategory>
 

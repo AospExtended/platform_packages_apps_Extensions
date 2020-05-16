@@ -568,4 +568,13 @@
         <item>1</item>
     </string-array>
 
+    <string-array name="ambient_notification_light_repeat_direction_entries">
+        <item>@string/ambient_notification_light_repeat_direction_restart</item>
+        <item>@string/ambient_notification_light_repeat_direction_reverse</item>
+    </string-array>
+    <string-array name="ambient_notification_light_repeat_direction_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
 </resources>

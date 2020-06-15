@@ -55,7 +55,7 @@
         android:key="lockscreen_charger_info"
         android:title="@string/lockscreen_charger_info_title"
         android:summary="@string/lockscreen_charger_info_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"

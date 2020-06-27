@@ -200,6 +200,19 @@
     <string name="volume_rocker_music_controls_title">Music control</string>
     <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
 
+    <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Volume Panel Style</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+
+    <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+
     <!-- Hardware button navigation -->
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>

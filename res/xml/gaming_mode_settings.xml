@@ -45,7 +45,7 @@
         android:defaultValue="0"
         android:summary="%s" />
 
-    <ListPreference
+    <org.aospextended.extensions.preference.SystemSettingListPreference
         android:key="gaming_mode_notifications"
         android:title="@string/gaming_mode_notifications_title"
         android:entries="@array/gaming_mode_notifications_entries"

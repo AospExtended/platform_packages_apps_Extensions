@@ -666,4 +666,9 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes.</string>
     <string name="cutout_force_fullscreen_no_apps">No apps</string>    
+
+    <!-- Per App Volume Control -->
+    <string name="show_app_volume_title">Show app volume</string>
+    <string name="show_app_volume_summary">Show app volume in volume panel</string>
+
 </resources>

@@ -56,6 +56,12 @@
             android:summary="@string/use_old_mobiletype_summary"
             android:defaultValue="false" />            
 
+         <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="show_app_volume"
+            android:title="@string/show_app_volume_title"
+            android:summary="@string/show_app_volume_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

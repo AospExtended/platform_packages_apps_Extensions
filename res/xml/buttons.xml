@@ -64,6 +64,12 @@
         android:dependency="volume_rocker_wake" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/show_app_volume_title"
+        android:summary="@string/show_app_volume_summary"
+        android:defaultValue="false" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary"

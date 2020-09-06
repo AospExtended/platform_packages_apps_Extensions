@@ -838,4 +838,8 @@
     <string name="qs_datausage_title">Data usage</string>
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
+
+    <!-- Per App Volume Control -->
+    <string name="show_app_volume_title">Show app volume</string>
+    <string name="show_app_volume_summary">Show app volume in volume panel</string>
 </resources>

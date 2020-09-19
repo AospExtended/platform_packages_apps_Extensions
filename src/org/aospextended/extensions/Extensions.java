@@ -47,7 +47,6 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.dashboard.SummaryLoader;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 
@@ -101,26 +100,20 @@ public class Extensions extends SettingsPreferenceFragment implements
 
              } else {
 
-		switch(item.getItemId()){
-                case R.id.status_bar_category:
+        if (item.getItemId() == R.id.status_bar_category) {
                 switchFrag(new StatusBar());
-                break;
-                case R.id.notifications_panel_category:
+        } else if (item.getItemId() == R.id.notifications_panel_category) {
                 switchFrag(new NotificationsPanel());
-                break;
-                case R.id.navigation_and_recents_category:
+        } else if (item.getItemId() == R.id.navigation_and_recents_category) {
                 switchFrag(new NavigationAndRecents());
-                break;
-                case R.id.lockscreen_category:
+        } else if (item.getItemId() == R.id.lockscreen_category) {
                 switchFrag(new Lockscreen());
-                break;
-                case R.id.system_category:
+        } else if (item.getItemId() == R.id.system_category) {
                 switchFrag(new System());
-                break;
-               }
-            return true;
-            }
-	 }
+        }
+        return true;
+        }
+    }
     });
         
 
@@ -294,33 +287,5 @@ public class Extensions extends SettingsPreferenceFragment implements
 
         }
     }
-
-    private static class SummaryProvider implements SummaryLoader.SummaryProvider {
-
-        private final Context mContext;
-        private final SummaryLoader mSummaryLoader;
-
-        public SummaryProvider(Context context, SummaryLoader summaryLoader) {
-            mContext = context;
-            mSummaryLoader = summaryLoader;
-        }
-
-        @Override
-        public void setListening(boolean listening) {
-            if (listening) {
-                mSummaryLoader.setSummary(this, mContext.getString(R.string.build_tweaks_summary_title));
-            }
-        }
-    }
-
-    public static final SummaryLoader.SummaryProviderFactory SUMMARY_PROVIDER_FACTORY
-            = new SummaryLoader.SummaryProviderFactory() {
-        @Override
-        public SummaryLoader.SummaryProvider createSummaryProvider(Activity activity,
-                                                                   SummaryLoader summaryLoader) {
-            return new SummaryProvider(activity, summaryLoader);
-        }
-    };
-
 }
 

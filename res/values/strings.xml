@@ -514,6 +514,10 @@
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Carrier Label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>

@@ -529,4 +529,7 @@
     <!-- Device theme style -->
     <string name="system_theme_style_title">Device theme</string>
 
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+
 </resources>

@@ -535,4 +535,7 @@
     <!-- Tiles on secure keyguard -->
     <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
     <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
+
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
 </resources>

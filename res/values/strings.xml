@@ -572,4 +572,7 @@
     <!-- Keyguard force small clock -->
     <string name="lockscreen_small_clock_title">Force small clock</string>
     <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
 </resources>

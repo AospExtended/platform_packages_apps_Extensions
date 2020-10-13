@@ -39,6 +39,10 @@
         android:title="@string/volume_category">
 
     <org.aospextended.support.preference.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title" />
+
+    <org.aospextended.support.preference.SystemSettingSwitchPreference
 	android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"

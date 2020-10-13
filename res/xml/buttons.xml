@@ -46,7 +46,7 @@
         android:title="@string/volume_category">
 
 	<org.aospextended.extensions.preference.SystemSettingSwitchPreference
-	    android:key="volume_button_music_control"
+        android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false"
@@ -57,6 +57,13 @@
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary"
         android:defaultValue="false" />
+
+	<org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:defaultValue="false"
+        android:order="-132"
+        settings:controller="com.android.settings.sound.VolumePanelOnLeftPreferenceController"/>
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"

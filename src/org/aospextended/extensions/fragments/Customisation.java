@@ -68,8 +68,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String TAG = "Customisation";
 
+    private static final String SYSTEM_THEME_STYLE = "android.theme.customization.theme_style";
     private static final String SYSTEM_ICON_STYLE = "android.theme.customization.icon_pack.android";
 
+    private ListPreference mSystemThemeStyle;
     private ListPreference mIconPreference;
 
     private Context mContext;
@@ -86,6 +88,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen screen = getPreferenceScreen();
+
+        mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
+        mSystemThemeStyle.setOnPreferenceChangeListener(this);
+        updateState(mSystemThemeStyle);
 
         mIconPreference = (ListPreference) screen.findPreference(SYSTEM_ICON_STYLE);
         mIconPreference.setOnPreferenceChangeListener(this);
@@ -106,8 +112,16 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-            mThemeUtils.setOverlayEnabled(preference.getKey(), (String) newValue);
+        if (preference == mSystemThemeStyle) {
+            String value = (String) newValue;
+            mThemeUtils.setThemeEnabled(value);
             return true;
+        }
+        if (preference == mIconPreference) {
+            mThemeUtils.setOverlayEnabled(SYSTEM_ICON_STYLE, (String) newValue);
+            return true;
+        }
+        return false;
     }
 
     public void updateState(ListPreference preference) {
@@ -119,6 +133,15 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
         List<String> pkgs = mThemeUtils.getOverlayPackagesForCategory(preference.getKey());
         List<String> labels = mThemeUtils.getLabels(preference.getKey());
+
+        if (preference == mSystemThemeStyle) {
+            pkgs = mThemeUtils.getThemePackages();
+            labels = mThemeUtils.getThemeLabels();
+
+            int mCurrentTheme = Settings.System.getIntForUser(mContext.getContentResolver(),
+                    Settings.System.SYSTEM_THEME_STYLE, 1, USER_SYSTEM);
+            currentPackageName = pkgs.get(mCurrentTheme - 1);
+        }
 
         preference.setEntries(labels.toArray(new String[labels.size()]));
         preference.setEntryValues(pkgs.toArray(new String[pkgs.size()]));

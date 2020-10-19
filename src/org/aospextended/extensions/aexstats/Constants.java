@@ -13,7 +13,7 @@ public class Constants {
     public static final String FAILURE = "failure";
     public static final String IS_FIRST_LAUNCH = "isFirstLaunch";
     public static final String LAST_BUILD_DATE = "lastBuild";
-    public static final String LAST_CUSTOM_FINGERPRINT = "lastBuildFingerprint";
+    public static final String LAST_EXTENDED_FINGERPRINT = "lastBuildFingerprint";
 
     public static final String KEY_DEVICE = "ro.aex.device";
     public static final String KEY_MODEL = "ro.product.model";

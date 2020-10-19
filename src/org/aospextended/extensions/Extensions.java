@@ -136,7 +136,7 @@ public class Extensions extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         mCompositeDisposable = new CompositeDisposable();
         pref = getActivity().getSharedPreferences("aexStatsPrefs", Context.MODE_PRIVATE);
-        if (!pref.getString(Constants.LAST_CUSTOM_FINGERPRINT, "null").equals(Build.CUSTOM_FINGERPRINT)
+        if (!pref.getString(Constants.LAST_EXTENDED_FINGERPRINT, "null").equals(Build.EXTENDED_FINGERPRINT)
                 || pref.getBoolean(Constants.IS_FIRST_LAUNCH, true)) {
             pushStats();
         }
@@ -185,7 +185,7 @@ public class Extensions extends SettingsPreferenceFragment implements
 
             SharedPreferences.Editor editor = pref.edit();
             editor.putBoolean(Constants.IS_FIRST_LAUNCH, false);
-            editor.putString(Constants.LAST_CUSTOM_FINGERPRINT, Build.CUSTOM_FINGERPRINT);
+            editor.putString(Constants.LAST_EXTENDED_FINGERPRINT, Build.EXTENDED_FINGERPRINT);
             editor.apply();
             Log.d(Constants.TAG, "push successful");
 

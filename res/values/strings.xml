@@ -516,4 +516,14 @@
     <string name="navigation_bar_layout_summary">Customize the layout of the navigation bar</string>
     <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
     <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
+
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
+    <string name="theming_settings_dashboard_icons_default">Default background</string>
+    <string name="theming_settings_dashboard_icons_default_accent">Accent background</string>
+    <string name="theming_settings_dashboard_icons_plain">Plain</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Plain accent</string>
+    <string name="theming_settings_dashboard_icons_tinted_accent_bg">Tinted accent background</string>
+    <string name="theming_settings_dashboard_icons_tinted_bg">Tinted background</string>
+
 </resources>

@@ -21,12 +21,15 @@ import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
+import org.aospextended.extensions.preference.CardviewPreference;
 
 public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -53,6 +56,7 @@ public class System extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
+        themePreferences(getPreferenceScreen());
     }
 
     @Override
@@ -65,5 +69,22 @@ public class System extends SettingsPreferenceFragment implements
         return true;
     }
 
-}
+    private void themePreferences(PreferenceGroup prefGroup) {
+        themePreference(prefGroup);
+        for (int i = 0; i < prefGroup.getPreferenceCount(); i++) {
+            Preference pref = prefGroup.getPreference(i);
+            if (pref instanceof PreferenceGroup) {
+                themePreferences(prefGroup);
+            } else {
+                themePreference(pref);
+            }
+        }
+    }
 
+    private void themePreference(Preference pref) {
+        if (pref instanceof CardviewPreference) {
+            CardviewPreference card = (CardviewPreference) pref;
+            card.updateTheme();
+        }
+    }
+}

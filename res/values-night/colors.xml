@@ -22,27 +22,4 @@
     <color name="bottom_inactive">#99FFFFFF</color>
     <color name="bottombar_ripple">#33FFFFFF</color>
 
-    <!-- Extensions subcategories icon colors -->
-    <color name="extensions_subcategory_1">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_2">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_3">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_4">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_5">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_6">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_7">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_8">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_9">@*android:color/accent_device_default_dark</color>
-    <color name="extensions_subcategory_10">@*android:color/accent_device_default_dark</color>
-
-    <!-- Extensions subcategories icon bg colors -->
-    <color name="extensions_subcategory_bg_1">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_2">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_3">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_4">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_5">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_6">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_7">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_8">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_9">@*android:color/primary_dark_device_default_settings</color>
-    <color name="extensions_subcategory_bg_10">@*android:color/primary_dark_device_default_settings</color>
 </resources>

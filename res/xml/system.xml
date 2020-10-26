@@ -32,6 +32,12 @@
         android:title="@string/buttons_title" />
 
      <org.aospextended.support.preference.CardviewPreference
+        android:key="customisation"
+        android:fragment="org.aospextended.extensions.fragments.Customisation"
+        android:icon="@drawable/ic_customisation"
+        android:title="@string/customisation_title" />
+
+     <org.aospextended.support.preference.CardviewPreference
         android:key="general_tweaks"
         android:fragment="org.aospextended.extensions.fragments.GeneralTweaks"
         android:icon="@drawable/ic_general_tweaks"

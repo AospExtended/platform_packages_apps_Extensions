@@ -70,9 +70,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String SYSTEM_ICON_STYLE = "android.theme.customization.icon_pack.android";
 
-    private ListPreference mAccentPreference;
-    private ListPreference mFontPreference;
-    private ListPreference mIconShapePreference;
     private ListPreference mIconPreference;
 
     private Context mContext;
@@ -89,18 +86,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen screen = getPreferenceScreen();
-
-        mAccentPreference = (ListPreference) screen.findPreference(ACCENT_KEY);
-        mAccentPreference.setOnPreferenceChangeListener(this);
-        updateState(mAccentPreference);
-
-        mFontPreference = (ListPreference) screen.findPreference(ACCENT_KEY);
-        mFontPreference.setOnPreferenceChangeListener(this);
-        updateState(mFontPreference);
-
-        mIconShapePreference = (ListPreference) screen.findPreference(ACCENT_KEY);
-        mIconShapePreference.setOnPreferenceChangeListener(this);
-        updateState(mIconShapePreference);
 
         mIconPreference = (ListPreference) screen.findPreference(SYSTEM_ICON_STYLE);
         mIconPreference.setOnPreferenceChangeListener(this);

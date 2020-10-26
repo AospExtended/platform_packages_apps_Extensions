@@ -98,6 +98,9 @@
     <!-- Buttons -->
     <string name="buttons_title">Buttons</string>
 
+    <!-- Customisation -->
+    <string name="customisation_title">Customisation</string>
+
     <!-- Battery -->
     <string name="battery_title">Battery</string>
     <string name="battery_category">Battery tweaks</string>

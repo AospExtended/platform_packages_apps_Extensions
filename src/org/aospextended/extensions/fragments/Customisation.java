@@ -60,6 +60,8 @@ import com.android.settings.Utils;
 import com.android.internal.util.aospextended.AEXUtils;
 import com.android.internal.util.aospextended.ThemeUtils;
 
+import org.aospextended.extensions.preference.FontListPreference;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -70,9 +72,13 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String SYSTEM_THEME_STYLE = "android.theme.customization.theme_style";
     private static final String SYSTEM_ICON_STYLE = "android.theme.customization.icon_pack.android";
+    private static final String SYSTEM_FONT_STYLE = "android.theme.customization.font";
+
 
     private ListPreference mSystemThemeStyle;
     private ListPreference mIconPreference;
+
+    private FontListPreference mFontPreference;
 
     private Context mContext;
     private ThemeUtils mThemeUtils;
@@ -96,6 +102,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         mIconPreference = (ListPreference) screen.findPreference(SYSTEM_ICON_STYLE);
         mIconPreference.setOnPreferenceChangeListener(this);
         updateState(mIconPreference);
+
+        mFontPreference = (FontListPreference) screen.findPreference(SYSTEM_FONT_STYLE);
+        mFontPreference.setOnPreferenceChangeListener(this);
+        updateState((ListPreference) mFontPreference);
     }
 
     @Override
@@ -108,6 +118,7 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         super.onResume();
         updateState(mSystemThemeStyle);
         updateState(mIconPreference);
+        updateState((ListPreference) mFontPreference);
     }
 
     @Override
@@ -119,6 +130,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         }
         if (preference == mIconPreference) {
             mThemeUtils.setOverlayEnabled(SYSTEM_ICON_STYLE, (String) newValue);
+            return true;
+        }
+        if (preference == mFontPreference) {
+            mThemeUtils.setOverlayEnabled(SYSTEM_FONT_STYLE, (String) newValue);
             return true;
         }
         return false;

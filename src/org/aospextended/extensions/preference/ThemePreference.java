@@ -63,7 +63,6 @@ public class ThemePreference extends Preference {
     private List<String> mLabels;
     private List<String> mPkgs;
     private List<Integer> mColors;
-    private List<Typeface> mFonts;
     private List<ShapeDrawable> mShapes;
 
     public ThemePreference(Context context, AttributeSet attrs) {
@@ -79,7 +78,6 @@ public class ThemePreference extends Preference {
         mLabels = mThemeUtils.getLabels(mCategory);
         mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory);
         mColors = mThemeUtils.getColors();
-        mFonts = mThemeUtils.getFonts();
         mShapes = mThemeUtils.getShapeDrawables();
         updateSummary();
     }
@@ -106,16 +104,6 @@ public class ThemePreference extends Preference {
             if (mCategory.equals(ACCENT_KEY)) {
                 btn.setBackgroundDrawable(mThemeUtils.createShapeDrawable("default"));
                 btn.setBackgroundTintList(ColorStateList.valueOf(mColors.get(mPkgs.indexOf(overlayPackage))));
-            } else if (mCategory.equals(FONT_KEY)) {
-                btn.setBackgroundDrawable(mThemeUtils.createShapeDrawable("default"));
-                btn.setFocusable(true);
-                btn.requestFocus();
-                btn.setText(mLabels.get(mPkgs.indexOf(overlayPackage)));
-                btn.setTypeface(mFonts.get(mPkgs.indexOf(overlayPackage)));
-                btn.setEllipsize(TextUtils.TruncateAt.MARQUEE);
-                btn.setSingleLine(true);
-                btn.setMarqueeRepeatLimit(-1);
-                btn.setSelected(true);
             } else if (mCategory.equals(ICON_SHAPE_KEY)) {
                 btn.setBackgroundDrawable(mShapes.get(mPkgs.indexOf(overlayPackage)));
             }
@@ -142,8 +130,6 @@ public class ThemePreference extends Preference {
 
             if (mCategory.equals(ACCENT_KEY)) {
                     button.setText(overlayPackage.equals(currentPackageName) || isDefault ? "\u2713" : null);
-            } else if (mCategory.equals(FONT_KEY)) {
-                    button.setBackgroundTintList(ColorStateList.valueOf(color));
             } else if (mCategory.equals(ICON_SHAPE_KEY)) {
                     button.setBackgroundTintList(ColorStateList.valueOf(color));
             }

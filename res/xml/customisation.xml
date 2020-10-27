@@ -23,11 +23,11 @@
         <org.aospextended.extensions.preference.ThemePreference
             android:key="android.theme.customization.accent_color"
             android:title="@string/theme_customization_accent_color_title" />
-
+<!--
         <org.aospextended.extensions.preference.ThemePreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title" />
-
+-->
         <org.aospextended.extensions.preference.ThemePreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
@@ -43,6 +43,10 @@
             android:entries="@array/theming_settings_dashboard_icons_entries"
             android:entryValues="@array/theming_settings_dashboard_icons_values"
             android:defaultValue="0" />
+
+        <org.aospextended.extensions.preference.FontListPreference
+            android:key="android.theme.customization.font"
+            android:title="@string/theme_customization_font_title"/>
 
 </PreferenceScreen>
 

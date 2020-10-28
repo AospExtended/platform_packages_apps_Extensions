@@ -46,6 +46,7 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.aospextended.AEXUtils;
 import com.android.internal.util.aospextended.udfps.UdfpsUtils;
 import com.android.settings.Utils;
 
@@ -58,10 +59,13 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 
+    private static final String SMART_SPACE_TOGGLE = "smart_space";
+
     private FingerprintManager mFingerprintManager;
     private SystemSettingSwitchPreference mFingerprintSuccessVib;
     private SystemSettingSwitchPreference mFingerprintErrorVib;
     private SystemSettingSwitchPreference mUdfpsHapticFeedback;
+    private SystemSettingSwitchPreference mSmartSpacerToggle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,6 +84,8 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mFingerprintSuccessVib = findPreference(FINGERPRINT_SUCCESS_VIB);
         mFingerprintErrorVib = findPreference(FINGERPRINT_ERROR_VIB);
         mUdfpsHapticFeedback = findPreference(UDFPS_HAPTIC_FEEDBACK);
+        mSmartSpacerToggle = findPreference(SMART_SPACE_TOGGLE);
+        mSmartSpacerToggle.setOnPreferenceChangeListener(this);
 
         if (mPm.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT) &&
                  mFingerprintManager != null) {
@@ -131,6 +137,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.UDFPS_HAPTIC_FEEDBACK, value ? 1 : 0);
+            return true;
+        } else if (preference == mSmartSpacerToggle) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.SMART_SPACE, value ? 1 : 0);
+            AEXUtils.showSystemUiRestartDialog(getActivity());
             return true;
         }
         return false;

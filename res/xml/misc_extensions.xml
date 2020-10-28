@@ -65,7 +65,6 @@
 
          <org.aospextended.support.preference.SystemSettingSwitchPreference
             android:key="bluetooth_show_battery"
-            android:icon="@drawable/ic_battery_bluetooth"
             android:title="@string/bluetooth_battery_title"
             android:summary="@string/bluetooth_battery_summary"
             android:defaultValue="true"/>

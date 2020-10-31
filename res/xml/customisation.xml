@@ -48,5 +48,13 @@
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
 
+        <org.aospextended.extensions.preference.SecureSettingListPreference
+            android:key="qs_tile_style"
+            android:summary="%s"
+            android:title="@string/qs_tile_style_title"
+            android:entries="@array/qs_tile_style_entries"
+            android:entryValues="@array/qs_tile_style_values"
+            android:defaultValue="0" />
+
 </PreferenceScreen>
 

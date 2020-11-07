@@ -16,6 +16,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/customisation_title">
 
+    <PreferenceCategory
+        android:title="UI Tweaks">
+
         <ListPreference
             android:key="android.theme.customization.theme_style"
             android:title="@string/system_theme_style_title" />
@@ -64,6 +67,18 @@
             android:entries="@array/qs_tile_style_entries"
             android:entryValues="@array/qs_tile_style_values"
             android:defaultValue="0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/lock_screen_custom_clock_face_category">
+
+        <ListPreference
+            android:key="lock_screen_custom_clock_face"
+            android:summary="%s"
+            android:title="@string/lock_screen_custom_clock_face_title"
+            android:entries="@array/lock_screen_custom_clock_face_entries"
+            android:entryValues="@array/lock_screen_custom_clock_face_values" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
 

@@ -20,13 +20,20 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.provider.SearchIndexableResource;
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.provider.Settings;
+import android.text.TextUtils;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceGroup;
+import androidx.preference.PreferenceFragment;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;
@@ -34,14 +41,24 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.SettingsPreferenceFragment;
 
 import org.aospextended.extensions.Utils;
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import org.aospextended.extensions.preference.SystemSettingListPreference;
+import org.aospextended.extensions.preference.SystemSettingMasterSwitchPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SearchIndexable
 public class Notifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+
+    private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
+
+    private SystemSettingMasterSwitchPreference mEdgeLightning;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +73,13 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         if (!Utils.isVoiceCapable(getActivity())) {
                 prefSet.removePreference(incallVibCategory);
         }
+
+        mEdgeLightning = (SystemSettingMasterSwitchPreference)
+                findPreference(KEY_EDGE_LIGHTNING);
+        boolean enabled = Settings.System.getIntForUser(resolver,
+                KEY_EDGE_LIGHTNING, 0, UserHandle.USER_CURRENT) == 1;
+        mEdgeLightning.setChecked(enabled);
+        mEdgeLightning.setOnPreferenceChangeListener(this)
     }
 
     @Override
@@ -70,6 +94,13 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mEdgeLightning) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+        }
         return false;
     }
 

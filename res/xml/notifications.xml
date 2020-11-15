@@ -65,4 +65,18 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+           android:key="edge_light_options"
+           android:title="@string/edge_light_category">
+
+    <!-- Pulse notifications lightning -->
+    <org.aospextended.extensions.preference.SystemSettingMasterSwitchPreference
+        android:key="pulse_ambient_light"
+        android:title="@string/pulse_ambient_light_title"
+        android:summary="@string/pulse_ambient_light_summary"
+        android:fragment="org.aospextended.extensions.fragments.EdgeLightningSettings"
+        android:defaultValue="false" />
+    </PreferenceCategory>
+    
 </PreferenceScreen>

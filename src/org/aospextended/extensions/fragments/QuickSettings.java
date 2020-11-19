@@ -36,6 +36,8 @@ import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.SettingsPreferenceFragment;
 
+import org.aospextended.extensions.preference.CustomSeekBarPreference;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,11 +48,18 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
+    private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
+    private static final String PREF_COLUMNS_PORTRAIT = "qs_columns_portrait";
+    private static final String PREF_COLUMNS_LANDSCAPE = "qs_columns_landscape";            
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
-
+    private CustomSeekBarPreference mRowsPortrait;
+    private CustomSeekBarPreference mRowsLandscape;
+    private CustomSeekBarPreference mColumnsPortrait;
+    private CustomSeekBarPreference mColumnsLandscape;            
     private ListPreference mQuickPulldown;
     private ListPreference mSmartPulldown;
 
@@ -99,6 +108,26 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+        mRowsPortrait = (CustomSeekBarPreference) prefSet.findPreference(PREF_ROWS_PORTRAIT);
+        mRowsPortrait.setValue(Settings.System.getInt(resolver,
+            Settings.System.QS_ROWS_PORTRAIT, 3));
+        mRowsPortrait.setOnPreferenceChangeListener(this);
+
+        mRowsLandscape = (CustomSeekBarPreference) prefSet.findPreference(PREF_ROWS_LANDSCAPE);
+        mRowsLandscape.setValue(Settings.System.getInt(resolver,
+            Settings.System.QS_ROWS_LANDSCAPE, 1));
+        mRowsLandscape.setOnPreferenceChangeListener(this);
+
+        mColumnsPortrait = (CustomSeekBarPreference) prefSet.findPreference(PREF_COLUMNS_PORTRAIT);
+        mColumnsPortrait.setValue(Settings.System.getInt(resolver,
+            Settings.System.QS_COLUMNS_PORTRAIT, 4));
+        mColumnsPortrait.setOnPreferenceChangeListener(this);
+
+        mColumnsLandscape = (CustomSeekBarPreference) prefSet.findPreference(PREF_COLUMNS_LANDSCAPE);
+        mColumnsLandscape.setValue(Settings.System.getInt(resolver,
+            Settings.System.QS_COLUMNS_LANDSCAPE, 4));
+        mColumnsLandscape.setOnPreferenceChangeListener(this);                                       
     }
 
      @Override
@@ -136,6 +165,22 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int smartPulldown = Integer.valueOf((String) newValue);
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
+            return true;
+        } else if (preference == mRowsPortrait) {
+            int mRowsPortrait = Integer.valueOf((String) newValue);
+            Settings.System.putInt(resolver, Settings.System.QS_ROWS_PORTRAIT, mRowsPortrait);
+            return true;
+        } else if (preference == mRowsLandscape) {
+            int mRowsLandscape = Integer.valueOf((String) newValue);
+            Settings.System.putInt(resolver, Settings.System.QS_ROWS_LANDSCAPE, mRowsLandscape);
+            return true;
+        } else if (preference == mColumnsPortrait) {
+            int mColumnsPortrait = Integer.valueOf((String) newValue);
+            Settings.System.putInt(resolver, Settings.System.QS_COLUMNS_PORTRAIT, mColumnsPortrait);
+            return true;
+        } else if (preference == mColumnsLandscape) {
+            int mColumnsLandscape = Integer.valueOf((String) newValue);
+            Settings.System.putInt(resolver, Settings.System.QS_COLUMNS_LANDSCAPE, mColumnsLandscape);
             return true;
         }
         return false;

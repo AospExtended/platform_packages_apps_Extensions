@@ -70,6 +70,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="fod_category"
+        android:title="@string/fod_category">
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lock_screen_custom_clock_face_category">
 
         <ListPreference

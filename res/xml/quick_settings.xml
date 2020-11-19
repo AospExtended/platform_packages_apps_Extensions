@@ -161,6 +161,12 @@
             android:min="1"
             android:defaultValue="6"
             settings:units="" />
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:defaultValue="true" />
+                    
         </PreferenceCategory>
 
 </PreferenceScreen>

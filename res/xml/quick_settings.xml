@@ -127,6 +127,11 @@
             android:entryValues="@array/qs_tile_animation_interpolator_values"
             android:persistent="false" />
 
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="qs_tile_title_visibility"
+        android:title="@string/qs_tile_title_visibility_title"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="qs_columns_rows_category"
         android:title="@string/qs_columns_rows_category_title" >

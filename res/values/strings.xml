@@ -60,6 +60,7 @@
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="system_animations">System Animations</string>
     <string name="listview">ListView</string>
+    <string name="fod_category">FOD</string>
 
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -789,4 +790,9 @@
     <!-- Statusbar Icon Styles -->
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD recognizing animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+
 </resources>

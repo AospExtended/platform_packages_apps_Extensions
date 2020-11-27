@@ -42,4 +42,6 @@
     <color name="extensions_subcategory_11">#3DE725</color>
 
     <color name="option_border_default">#5f6368</color>
+
+    <color name="fod_item_background_stroke_color">#d6d6d6</color>
 </resources>

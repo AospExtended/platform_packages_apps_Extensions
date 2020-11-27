@@ -76,6 +76,19 @@
             android:entryValues="@array/switch_style_values"
             android:defaultValue="1" />
 
+        <!-- FOD icon picker -->
+        <Preference
+            android:key="fod_icon_picker_category"
+            android:title="@string/fod_icon_picker_title"
+            android:summary="@string/fod_icon_picker_summary"
+            android:fragment="org.aospextended.extensions.fragments.FODIconPickerFragment" />
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
+
         <org.aospextended.extensions.preference.SystemSettingListPreference 
             android:key="fod_recognizing_animation_list" 
             android:title="@string/fod_recog_animation_effect_title" 

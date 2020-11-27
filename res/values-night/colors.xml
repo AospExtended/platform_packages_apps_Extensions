@@ -22,4 +22,5 @@
     <color name="bottom_inactive">#99FFFFFF</color>
     <color name="bottombar_ripple">#33FFFFFF</color>
 
+    <color name="fod_item_background_stroke_color">#555555</color>
 </resources>

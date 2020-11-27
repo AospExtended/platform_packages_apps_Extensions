@@ -40,4 +40,6 @@
     <color name="extensions_subcategory_9">#F15B8D</color>
     <color name="extensions_subcategory_10">#5011C1</color>
     <color name="extensions_subcategory_11">#3DE725</color>
+
+    <color name="fod_item_background_stroke_color">#d6d6d6</color>
 </resources>

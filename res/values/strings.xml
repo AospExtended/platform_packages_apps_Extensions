@@ -518,6 +518,8 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+    <string name="center_notification_headers_title">Center notification headers</string>
+    <string name="center_notification_headers_summary">Whether to Center notification headers\nRequires a SystemUI restart</string>
 
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Carrier Label</string>

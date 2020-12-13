@@ -35,4 +35,12 @@ public class SecureSettingSeekBarPreference extends CustomSeekBarPreference {
         super(context, null);
         setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
+
+    @Override
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        if (defaultValue == null) {
+            defaultValue = 0;
+        }
+        setValue(restoreValue ? getPersistedInt((Integer) defaultValue) : (Integer) defaultValue);
+    }
 }

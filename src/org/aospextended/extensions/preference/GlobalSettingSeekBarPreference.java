@@ -35,4 +35,12 @@ public class GlobalSettingSeekBarPreference extends CustomSeekBarPreference {
         super(context, null);
         setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
+
+    @Override
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        if (defaultValue == null) {
+            defaultValue = 0;
+        }
+        setValue(restoreValue ? getPersistedInt((Integer) defaultValue) : (Integer) defaultValue);
+    }
 }

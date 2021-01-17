@@ -180,6 +180,7 @@ public class BubbleToggleView extends RelativeLayout {
         Drawable shape = null;
         int shapeColor = Integer.MIN_VALUE;
         int colorActive = ViewUtils.getThemeAccentColor(context);
+        int titleColorActive = colorActive;
         int colorInactive = ContextCompat.getColor(context, R.color.default_inactive_color);
         float titleSize = context.getResources().getDimension(R.dimen.default_nav_item_text_size);
         maxTitleWidth = context.getResources().getDimension(R.dimen.default_nav_item_title_max_width);
@@ -203,6 +204,7 @@ public class BubbleToggleView extends RelativeLayout {
                 title = ta.getString(R.styleable.BubbleToggleView_extensions_title);
                 titleSize = ta.getDimension(R.styleable.BubbleToggleView_extensions_titleSize, titleSize);
                 colorActive = ta.getColor(R.styleable.BubbleToggleView_extensions_colorActive, colorActive);
+                titleColorActive = ta.getColor(R.styleable.BubbleToggleView_extensions_titleColorActive, colorActive);
                 colorInactive = ta.getColor(R.styleable.BubbleToggleView_extensions_colorInactive, colorInactive);
                 isActive = ta.getBoolean(R.styleable.BubbleToggleView_extensions_active, false);
                 animationDuration = ta.getInteger(R.styleable.BubbleToggleView_extensions_duration, DEFAULT_ANIM_DURATION);
@@ -230,6 +232,7 @@ public class BubbleToggleView extends RelativeLayout {
         bubbleToggleItem.setTitlePadding(titlePadding);
         bubbleToggleItem.setShapeColor(shapeColor);
         bubbleToggleItem.setColorActive(colorActive);
+        bubbleToggleItem.setTitleColorActive(titleColorActive);
         bubbleToggleItem.setColorInactive(colorInactive);
         bubbleToggleItem.setIconWidth(iconWidth);
         bubbleToggleItem.setIconHeight(iconHeight);
@@ -287,6 +290,7 @@ public class BubbleToggleView extends RelativeLayout {
             lpTitle.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
         titleView.setLayoutParams(lpTitle);
         titleView.setSingleLine(true);
+        titleView.setTextColor(bubbleToggleItem.getTitleColorActive());
         titleView.setText(bubbleToggleItem.getTitle());
         titleView.setTextSize(TypedValue.COMPLEX_UNIT_PX, bubbleToggleItem.getTitleSize());
         //get the current measured title width

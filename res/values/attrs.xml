@@ -25,6 +25,7 @@
         <attr name="extensions_title" format="string" />
         <attr name="extensions_titleSize" format="dimension" />
         <attr name="extensions_colorActive" format="color" />
+        <attr name="extensions_titleColorActive" format="color" />
         <attr name="extensions_colorInactive" format="color" />
         <attr name="extensions_active" format="boolean" />
         <attr name="extensions_duration" format="integer" />

@@ -23,6 +23,12 @@
         android:key="quick_settings_general_category"
         android:title="@string/general_category">
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:title="@string/qs_show_battery_estimate_title"
+            android:summary="@string/qs_show_battery_estimate_summary"
+            android:defaultValue="true"/>
+        
         <org.aospextended.extensions.preference.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
             android:title="@string/quick_settings_vibrate_title"

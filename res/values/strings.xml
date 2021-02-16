@@ -759,4 +759,9 @@
     <!-- Show Statusbar on Lockscreen -->
     <string name="lockscreen_status_bar_title">Status bar</string>
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>    
+
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+    
 </resources>

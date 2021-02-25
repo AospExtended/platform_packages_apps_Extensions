@@ -17,7 +17,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
         <ListPreference
-            android:key="network_traffic_location"
+            android:key="network_traffic_state"
             android:title="@string/network_traffic_location"
             android:summary="%s"
             android:entries="@array/network_traffic_location_entries"
@@ -32,14 +32,6 @@
             android:defaultValue="0"
             android:persistent="false" />
 
-       <org.aospextended.extensions.preference.CustomSeekBarPreference
-            android:key="network_traffic_autohide_threshold"
-            android:title="@string/network_traffic_autohide_threshold_title"
-            android:max="10"
-            android:min="0"
-            android:defaultValue="1"  
-            settings:units="" />
-
        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="network_traffic_arrow"
             android:title="@string/network_traffic_arrow"
@@ -47,10 +39,18 @@
             android:defaultValue="true" />
 
        <org.aospextended.extensions.preference.CustomSeekBarPreference
+            android:key="network_traffic_autohide_threshold"
+            android:title="@string/network_traffic_autohide_threshold_title"
+            android:max="10"
+            settings:min="0"
+            settings:defaultValue="1"  
+            settings:units="" />
+
+       <org.aospextended.extensions.preference.CustomSeekBarPreference
             android:key="network_traffic_font_size"
             android:title="@string/nettraf_font_size"
-            android:max="30"
-            android:min="18"
-            android:defaultValue="26"
-            settings:units="dp" />
+            android:max="46"
+            settings:min="26"
+            settings:defaultValue="26"
+            settings:units="" />
 </PreferenceScreen>

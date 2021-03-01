@@ -21,8 +21,14 @@
 
          <org.aospextended.extensions.preference.CardviewPreference
             android:key="navbar_settings"
-            android:fragment="org.aospextended.extensions.NavbarSettings"
+            android:fragment="org.aospextended.extensions.fragments.NavbarSettings"
             android:icon="@drawable/ic_sub_navigation"
             android:title="@string/navigationbar_settings_title" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="gesture_settings"
+            android:fragment="org.aospextended.extensions.fragments.GestureOptions"
+            android:icon="@drawable/ic_sub_gestures"
+            android:title="@string/gestures_category" />
 
 </PreferenceScreen>

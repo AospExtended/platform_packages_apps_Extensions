@@ -39,6 +39,7 @@
     <color name="extensions_subcategory_8">#0F9D58</color>
     <color name="extensions_subcategory_9">#F15B8D</color>
     <color name="extensions_subcategory_10">#5011C1</color>
+    <color name="extensions_subcategory_11">#00FF80</color>
 
     <!-- Extensions subcategories icon bg colors -->
     <color name="extensions_subcategory_bg_1">#332196F3</color>
@@ -51,5 +52,4 @@
     <color name="extensions_subcategory_bg_8">#330F9D58</color>
     <color name="extensions_subcategory_bg_9">#33F15B8D</color>
     <color name="extensions_subcategory_bg_10">#335011C1</color>
-
 </resources>

@@ -25,4 +25,10 @@
             android:icon="@drawable/ic_sub_navigation"
             android:title="@string/navigationbar_settings_title" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="gesture_settings"
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            android:icon="@drawable/ic_sub_gestures"
+            android:title="@string/gestures_category" />
+
 </PreferenceScreen>

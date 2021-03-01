@@ -614,4 +614,9 @@
     <string name="gaming_mode_dynamic_title">Dynamic mode</string>
     <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
 
+    <!-- Navbar Entries -->
+    <string name="navigation_tuner_title">Navigation Tuner</string>
+    <string name="navigation_tuner_summary">Further adjust some elements of system navigation</string>
+    <string name="navbar_gestures_title">Navigation gesture options</string>
+    <string name="navbar_gestures_summary">Choose buttons or gestures to navigate your device</string>
 </resources>

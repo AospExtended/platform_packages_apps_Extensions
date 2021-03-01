@@ -46,6 +46,7 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.aospextended.AEXUtils;
 import com.android.settings.Utils;
 
 import org.aospextended.support.preference.SystemSettingSwitchPreference;
@@ -91,6 +92,8 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
         mHandler = new Handler();
 
+        mLayoutSettings.setEnabled(!AEXUtils.isOverlayEnabled("com.android.internal.systemui.navbar.gestural"));
+
     }
 
     @Override
@@ -119,6 +122,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
                     mIsNavSwitchingMode = false;
                 }
             }, 1500);
+            mLayoutSettings.setEnabled(!AEXUtils.isOverlayEnabled("com.android.internal.systemui.navbar.gestural"));
             return true;
         }
         return false;

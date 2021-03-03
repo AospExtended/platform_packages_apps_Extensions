@@ -41,7 +41,6 @@
         android:key="navigation_bar_menu_arrow_keys"
         android:title="@string/navigation_bar_arrow_keys_title"
         android:summary="@string/navigation_bar_arrow_keys_summary"
-        android:dependency="force_show_navbar"
         android:defaultValue="false" />
 
 </PreferenceScreen>

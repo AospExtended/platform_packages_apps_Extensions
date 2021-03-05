@@ -22,41 +22,43 @@ import static android.view.DisplayCutout.BOUNDS_POSITION_RIGHT;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
+import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.provider.SearchIndexableResource;
-import android.util.Log;
-import android.view.View;
-import androidx.preference.ListPreference;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.util.Log;
+import android.util.Log;
+import android.view.View;
 import android.view.View;
 import android.widget.EditText;
 
+import androidx.preference.ListPreference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
+
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.aospextended.AEXUtils;
 
 import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+import com.android.settings.search.BaseSearchIndexProvider;
 
 import com.android.settingslib.search.Indexable;
-
-import com.android.internal.util.aospextended.AEXUtils;
+import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@SearchIndexable
 public class ClockDateSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Indexable {
 

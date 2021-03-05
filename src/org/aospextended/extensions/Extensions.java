@@ -44,13 +44,18 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
 import androidx.viewpager.widget.ViewPager;
 
 import com.android.internal.logging.nano.MetricsProto;
+
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.schedulers.Schedulers;
 
 import org.aospextended.extensions.aexstats.Constants;
 import org.aospextended.extensions.aexstats.RequestInterface;
@@ -62,13 +67,9 @@ import org.aospextended.extensions.categories.NavigationAndRecents;
 import org.aospextended.extensions.categories.NotificationsPanel;
 import org.aospextended.extensions.categories.StatusBar;
 import org.aospextended.extensions.categories.System;
-
-import org.aospextended.extensions.navigation.BubbleNavigationConstraintView;
 import org.aospextended.extensions.navigation.BubbleNavigationChangeListener;
+import org.aospextended.extensions.navigation.BubbleNavigationConstraintView;
 
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
-import io.reactivex.schedulers.Schedulers;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;

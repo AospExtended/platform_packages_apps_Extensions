@@ -20,50 +20,58 @@ import static android.os.UserHandle.USER_SYSTEM;
 
 import android.app.ActivityManagerNative;
 import android.app.UiModeManager;
-import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.om.IOverlayManager;
 import android.content.om.OverlayInfo;
-import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import androidx.annotation.VisibleForTesting;
-import androidx.preference.Preference;
-import androidx.preference.ListPreference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
+import android.os.UserHandle;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.text.TextUtils;
+import android.text.TextUtils;
 import android.util.Log;
-import android.view.WindowManagerGlobal;
 import android.view.IWindowManager;
+import android.view.View;
+import android.view.WindowManagerGlobal;
 import android.widget.Toast;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import androidx.annotation.VisibleForTesting;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
-import java.util.Locale;
-import android.text.TextUtils;
-import android.view.View;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import com.android.settings.search.BaseSearchIndexProvider;
 
-import org.aospextended.support.colorpicker.ColorPickerPreference;
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
+import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.List;
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import org.aospextended.support.colorpicker.ColorPickerPreference;
+
+@SearchIndexable
 public class MonetEngine extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
@@ -115,4 +123,23 @@ public class MonetEngine extends SettingsPreferenceFragment implements OnPrefere
         }
         return false;
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                    boolean enabled) {
+                final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.monet_settings;
+                result.add(sir);
+                return result;
+            }
+
+            @Override
+            public List<String> getNonIndexableKeys(Context context) {
+                final List<String> keys = super.getNonIndexableKeys(context);
+                return keys;
+            }
+    };
 }

@@ -1,9 +1,10 @@
 package org.aospextended.extensions.aexstats;
 
+import io.reactivex.Observable;
+
 import org.aospextended.extensions.aexstats.models.ServerRequest;
 import org.aospextended.extensions.aexstats.models.ServerResponse;
 
-import io.reactivex.Observable;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 

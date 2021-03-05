@@ -16,8 +16,8 @@
 
 package org.aospextended.extensions.fragments;
 
-import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -27,12 +27,14 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.settings.gestures.GestureSettings;
+
 import com.android.settings.R;
+import com.android.settings.Utils;
+import com.android.settings.gestures.GestureSettings;
 import com.android.settings.search.BaseSearchIndexProvider;
+
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
-import com.android.settings.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

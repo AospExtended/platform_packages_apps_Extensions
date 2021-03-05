@@ -20,7 +20,10 @@
 
 package org.aospextended.extensions.preference;
 
-import java.util.Map;
+import android.content.Context;
+import android.util.AttributeSet;
+
+import androidx.preference.Preference;
 
 import com.android.internal.util.hwkeys.ActionConstants.ConfigMap;
 import com.android.internal.util.hwkeys.ActionConstants.Defaults;
@@ -28,9 +31,7 @@ import com.android.internal.util.hwkeys.ActionHolder;
 import com.android.internal.util.hwkeys.Config.ActionConfig;
 import com.android.internal.util.hwkeys.Config.ButtonConfig;
 
-import android.content.Context;
-import androidx.preference.Preference;
-import android.util.AttributeSet;
+import java.util.Map;
 
 public class ActionPreference extends Preference implements ActionHolder {
     private Defaults mDefaults;

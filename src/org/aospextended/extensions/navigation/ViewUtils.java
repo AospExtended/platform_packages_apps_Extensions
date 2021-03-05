@@ -4,8 +4,10 @@ import android.content.Context;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import androidx.annotation.Nullable;
 import android.util.TypedValue;
+
+import androidx.annotation.Nullable;
+
 import com.android.settings.R;
 
 public class ViewUtils {

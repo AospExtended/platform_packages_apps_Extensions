@@ -17,43 +17,53 @@
 package org.aospextended.extensions.fragments;
 
 import android.app.ActivityManagerNative;
-import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.os.UserHandle;
-import android.os.RemoteException;
 import android.os.PowerManager;
+import android.os.RemoteException;
 import android.os.ServiceManager;
-import androidx.preference.Preference;
+import android.os.UserHandle;
+import android.provider.SearchIndexableResource;
+import android.provider.Settings;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.IWindowManager;
+import android.view.View;
+import android.view.WindowManagerGlobal;
+import android.widget.Toast;
+
 import androidx.preference.ListPreference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
-import android.provider.Settings;
-import android.util.Log;
-import android.view.WindowManagerGlobal;
-import android.view.IWindowManager;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import java.util.Locale;
-import android.text.TextUtils;
-import android.view.View;
-import android.widget.Toast;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.hwkeys.ActionConstants;
+import com.android.internal.util.hwkeys.ActionUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import com.android.settings.search.BaseSearchIndexProvider;
+
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.aospextended.extensions.preference.ActionFragment;
 import org.aospextended.support.preference.CustomSeekBarPreference;
 
-import com.android.internal.util.hwkeys.ActionConstants;
-import com.android.internal.util.hwkeys.ActionUtils;
-import org.aospextended.extensions.preference.ActionFragment;
-
+@SearchIndexable
 public class Buttons extends ActionFragment implements OnPreferenceChangeListener {
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
@@ -240,4 +250,23 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         }
         return true;
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+        new BaseSearchIndexProvider() {
+            @Override
+            public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                    boolean enabled) {
+                final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+                final SearchIndexableResource sir = new SearchIndexableResource(context);
+                sir.xmlResId = R.xml.buttons;
+                result.add(sir);
+                return result;
+            }
+
+            @Override
+            public List<String> getNonIndexableKeys(Context context) {
+                final List<String> keys = super.getNonIndexableKeys(context);
+                return keys;
+            }
+    };
 }

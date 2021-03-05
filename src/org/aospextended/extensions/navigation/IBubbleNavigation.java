@@ -1,6 +1,7 @@
 package org.aospextended.extensions.navigation;
 
 import android.graphics.Typeface;
+
 import org.aospextended.extensions.navigation.BubbleNavigationChangeListener;
 
 @SuppressWarnings("unused")

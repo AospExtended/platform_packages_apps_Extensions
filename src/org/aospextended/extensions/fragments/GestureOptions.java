@@ -62,7 +62,7 @@ public class GestureOptions extends GestureSettings implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.gestures);
+        //addPreferencesFromResource(R.xml.gestures);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();

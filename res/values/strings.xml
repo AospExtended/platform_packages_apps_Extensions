@@ -206,12 +206,14 @@
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_miui">MIUI Compact</string>
 
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+    <string name="volume_panel_miui_val" translatable="false">co.potatoproject.plugin.volume.miui</string>
 
     <!-- Hardware button navigation -->
     <string name="action_value_default_action" translatable="false">default</string>
@@ -663,5 +665,5 @@
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes.</string>
-    <string name="cutout_force_fullscreen_no_apps">No apps</string>    
+    <string name="cutout_force_fullscreen_no_apps">No apps</string>
 </resources>

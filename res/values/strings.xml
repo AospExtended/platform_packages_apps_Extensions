@@ -334,7 +334,7 @@
     <string name="qs_edit_title">Edit Icon</string>
     <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
 
-    <!-- AEX logo -->
+	    <!-- AEX logo -->
     <string name="aex_logo_title">AEX logo</string>
     <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 
@@ -350,6 +350,7 @@
     <string name="network_traffic_arrow">Show arrows</string>
     <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
     <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
     <string name="show_network_traffic_dynamic">Dynamic</string>
     <string name="show_network_traffic_up">Upload</string>
     <string name="show_network_traffic_down">Download</string>

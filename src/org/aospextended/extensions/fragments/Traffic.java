@@ -44,8 +44,6 @@ import java.util.List;
 @SearchIndexable
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    private static final String NETWORK_TRAFFIC_FONT_SIZE  = "network_traffic_font_size";
-
     private ListPreference mNetTrafficLocation;
     private ListPreference mNetTrafficType;
     private CustomSeekBarPreference mNetTrafficSize;
@@ -61,9 +59,9 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
-        mNetTrafficSize = (CustomSeekBarPreference) findPreference(NETWORK_TRAFFIC_FONT_SIZE);
+        mNetTrafficSize = (CustomSeekBarPreference) findPreference("network_traffic_font_size");
         int NetTrafficSize = Settings.System.getInt(resolver,
-                Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 26);
+                Settings.System.NETWORK_TRAFFIC_FONT_SIZE, 36);
         mNetTrafficSize.setValue(NetTrafficSize / 1);
         mNetTrafficSize.setOnPreferenceChangeListener(this);
 
@@ -101,11 +99,6 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.EXTENSIONS;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
     }
 
     @Override
@@ -152,22 +145,16 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     }
 
     public void updateTrafficLocation(int location) {
-        switch(location){
-            case 0:
-                mThreshold.setEnabled(false);
-                mShowArrows.setEnabled(false);
-                mNetTrafficType.setEnabled(false);
-                mNetTrafficSize.setEnabled(false);
-                break;
-            case 1:
-            case 2:
-                mThreshold.setEnabled(true);
-                mShowArrows.setEnabled(true);
-                mNetTrafficType.setEnabled(true);
-                mNetTrafficSize.setEnabled(true);
-                break;
-            default:
-                break;
+        if (location == 0) {
+            mThreshold.setEnabled(false);
+            mShowArrows.setEnabled(false);
+            mNetTrafficType.setEnabled(false);
+            mNetTrafficSize.setEnabled(false);
+        } else {
+            mThreshold.setEnabled(true);
+            mShowArrows.setEnabled(true);
+            mNetTrafficType.setEnabled(true);
+            mNetTrafficSize.setEnabled(true);
         }
     }
 

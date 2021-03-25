@@ -115,11 +115,12 @@ public class Extensions extends SettingsPreferenceFragment implements
         }
     }
     });
-        
 
         setHasOptionsMenu(true);
-        bottomNavigation.setSelectedItemId(R.id.status_bar_category);
-        switchFrag(new StatusBar());
+        Fragment fragment = (Fragment) getFragmentManager().findFragmentById(R.id.fragment_frame);
+        if (fragment == null) {
+            getFragmentManager().beginTransaction().replace(R.id.fragment_frame, new StatusBar()).commit();
+        }
         bottomNavigation.setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_LABELED);
         return view;
     }
@@ -145,7 +146,6 @@ public class Extensions extends SettingsPreferenceFragment implements
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        
     }
 
     private void pushStats() {

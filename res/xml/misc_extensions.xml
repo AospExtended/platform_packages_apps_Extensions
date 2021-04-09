@@ -26,6 +26,14 @@
              android:summary="@string/aex_logo_summary"
              android:defaultValue="false" />
 
+        <org.aospextended.extensions.preference.SystemSettingListPreference
+             android:key="qs_datausage"
+             android:title="@string/qs_datausage_title"
+             android:entries="@array/qs_datausage_entries"
+             android:entryValues="@array/qs_datausage_values"
+             android:summary="%s"
+             android:defaultValue="0" />
+
         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"

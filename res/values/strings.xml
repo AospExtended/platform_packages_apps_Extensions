@@ -568,10 +568,21 @@
     <string name="lock_screen_custom_clock_face_default">Default</string>
     <string name="lock_screen_custom_clock_face_default_bold">Default (bold)</string>
     <string name="lock_screen_custom_clock_face_analog">Analog</string>
+    <string name="lock_screen_custom_clock_face_binary">Binary</string>
     <string name="lock_screen_custom_clock_face_bubble">Bubble</string>
+    <string name="lock_screen_custom_clock_face_dividedlines">Divided Lines</string>
+    <string name="lock_screen_custom_clock_face_fluid">Fluid</string>
+    <string name="lock_screen_custom_clock_face_ide">IDE</string>
+    <string name="lock_screen_custom_clock_face_mnml_box">MNML (Box)</string>
+    <string name="lock_screen_custom_clock_face_mnml_minimal">MNML (Minimal)</string>
     <string name="lock_screen_custom_clock_face_samsung">Samsung</string>
-    <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (bold)</string>
+    <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (Bold)</string>
+    <string name="lock_screen_custom_clock_face_samsung_highlight">Samsung (Highlight)</string>
+    <string name="lock_screen_custom_clock_face_sfunny"> SFunny</string>
+    <string name="lock_screen_custom_clock_face_shapeshift">OSS</string>
+    <string name="lock_screen_custom_clock_face_spectrum">Spectrum</string>
     <string name="lock_screen_custom_clock_face_typographic">Typographic</string>
+    <string name="lock_screen_custom_clock_face_typographic_alt">Typographic (Centre)</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>

@@ -936,4 +936,9 @@
     <string name="qs_media_player_title">Media player</string>
     <string name="qs_media_player_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
     <string name="qs_media_player_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+
+    <!-- Notification Media Options -->
+    <string name="media_category">Media Notification options</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
 </resources>

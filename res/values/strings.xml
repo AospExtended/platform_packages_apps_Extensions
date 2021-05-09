@@ -951,4 +951,7 @@
     <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
+
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Background opacity</string>
 </resources>

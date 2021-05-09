@@ -73,6 +73,15 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
+        <org.aospextended.extensions.preference.SystemSettingSeekBarPreference
+            android:key="notification_bg_alpha"
+            android:title="@string/notification_alpha_title"
+            android:max="255"
+            android:min="0"
+            settings:unitsLeft=""
+            settings:unitsRight=""
+            android:defaultValue="255" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

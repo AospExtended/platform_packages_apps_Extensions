@@ -37,6 +37,14 @@
             android:targetClass="com.android.systemui.tuner.NavbarActivity" />
     </Preference>
 
+
+    <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_gestures_navbar_switch_title"
+        android:summary="@string/show_gestures_navbar_switch_summary"
+        android:dependency="force_show_navbar"
+        android:defaultValue="true" />
+
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="navigation_bar_menu_arrow_keys"
         android:title="@string/navigation_bar_arrow_keys_title"

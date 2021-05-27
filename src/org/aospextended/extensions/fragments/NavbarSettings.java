@@ -48,10 +48,12 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     private static final String KEY_NAVIGATION_BAR_ENABLED = "force_show_navbar";
     private static final String KEY_LAYOUT_SETTINGS = "layout_settings";
     private static final String KEY_NAVIGATION_BAR_ARROWS = "navigation_bar_menu_arrow_keys";
+    private static final String KEY_NAVIGATION_BAR_HINT = "navigation_bar_hint";
 
     private Preference mLayoutSettings;
     private SwitchPreference mNavigationBar;
     private SystemSettingSwitchPreference mNavigationArrows;
+    private SystemSettingSwitchPreference mNavigationBarHint;
 
     private boolean mIsNavSwitchingMode = false;
 
@@ -82,10 +84,12 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
         mNavigationArrows = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_BAR_ARROWS);
 
+        mNavigationBarHint = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_BAR_HINT);
+
         mHandler = new Handler();
 
         mLayoutSettings.setEnabled(!AEXUtils.isOverlayEnabled("com.android.internal.systemui.navbar.gestural"));
-
+        mNavigationBarHint.setEnabled(!AEXUtils.isOverlayEnabled("com.android.internal.systemui.navbar.gestural"));
     }
 
     @Override
@@ -115,6 +119,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
                 }
             }, 1500);
             mLayoutSettings.setEnabled(!AEXUtils.isOverlayEnabled("com.android.internal.systemui.navbar.gestural"));
+            mNavigationBarHint.setEnabled(!AEXUtils.isOverlayEnabled("com.android.internal.systemui.navbar.gestural"));
             return true;
         }
         return false;

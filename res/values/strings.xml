@@ -660,6 +660,9 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
 
+    <!-- Hide Gestural Nav -->
+    <string name="show_gestures_navbar_switch_title">Show pill</string>
+    <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
 
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>

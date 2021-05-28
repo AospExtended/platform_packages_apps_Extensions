@@ -577,6 +577,7 @@
     <string name="lock_screen_custom_clock_face_ide">IDE</string>
     <string name="lock_screen_custom_clock_face_mnml_box">MNML (Box)</string>
     <string name="lock_screen_custom_clock_face_mnml_minimal">MNML (Minimal)</string>
+    <string name="lock_screen_custom_clock_face_oronos">Oroño</string>
     <string name="lock_screen_custom_clock_face_samsung">Samsung</string>
     <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (Bold)</string>
     <string name="lock_screen_custom_clock_face_samsung_highlight">Samsung (Highlight)</string>

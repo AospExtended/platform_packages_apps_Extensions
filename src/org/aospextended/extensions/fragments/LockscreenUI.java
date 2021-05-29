@@ -36,6 +36,8 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.SettingsPreferenceFragment;
 
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
+import org.aospextended.extensions.preference.SystemSettingSeekBarPreference;
+import org.aospextended.extensions.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,9 +46,11 @@ import java.util.List;
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
 	private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String KEY_LOCKSCREEN_BLUR = "lockscreen_blur"; 
 
     private FingerprintManager mFingerprintManager;
     private SystemSettingSwitchPreference mFingerprintVib;
+    private SystemSettingSeekBarPreference mLockscreenBlur;    
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -58,6 +62,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         final PreferenceScreen prefSet = getPreferenceScreen();
         final PackageManager mPm = getActivity().getPackageManager();
 
+        mLockscreenBlur = (SystemSettingSeekBarPreference) findPreference(KEY_LOCKSCREEN_BLUR);
+        if (!Utils.isBlurSupported()) {
+            mLockscreenBlur.setVisible(false);
+        }  
+        
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
 

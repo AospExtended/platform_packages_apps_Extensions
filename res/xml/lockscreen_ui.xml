@@ -45,6 +45,15 @@
         android:summary="@string/lockscreen_status_bar_summary"
         android:defaultValue="true" />   
 
+    <org.aospextended.extensions.preference.SystemSettingSeekBarPreference
+        android:key="lockscreen_blur"
+        android:title="@string/lockscreen_blur_title"
+        android:max="100"
+        settings:min="0"
+        settings:units="%"
+        settings:interval="5"
+        android:defaultValue="0" />
+        
     </PreferenceCategory>
 
     <PreferenceCategory

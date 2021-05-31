@@ -16,11 +16,13 @@
 
 package org.aospextended.extensions.fragments;
 
+import android.app.WallpaperManager;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
+import android.os.ParcelFileDescriptor;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
@@ -61,12 +63,15 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
         final PackageManager mPm = getActivity().getPackageManager();
+        Context mContext = getContext();
+        WallpaperManager manager = WallpaperManager.getInstance(mContext);
 
+        ParcelFileDescriptor pfd = manager.getWallpaperFile(WallpaperManager.FLAG_LOCK);
         mLockscreenBlur = (SystemSettingSeekBarPreference) findPreference(KEY_LOCKSCREEN_BLUR);
-        if (!Utils.isBlurSupported()) {
+        if (!Utils.isBlurSupported() || pfd != null) {
             mLockscreenBlur.setVisible(false);
-        }  
-        
+        }
+
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
 

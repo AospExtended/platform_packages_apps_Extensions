@@ -70,6 +70,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mLockscreenBlur = (SystemSettingSeekBarPreference) findPreference(KEY_LOCKSCREEN_BLUR);
         if (!Utils.isBlurSupported() || pfd != null) {
             mLockscreenBlur.setVisible(false);
+            mLockscreenBlur.setSummary(getResources().getString(R.string.lockscreen_blur_disabled));
         }
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);

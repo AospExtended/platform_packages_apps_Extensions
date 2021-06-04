@@ -24,6 +24,7 @@ import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.widget.Toast;
+import android.content.res.Resources;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -75,12 +76,14 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
     public static final int KEY_MASK_VOLUME = 0x40;
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String KEY_VOL_PANEL_ON_LEFT = "volume_panel_on_left";
 
     private SwitchPreference mHwKeyDisable;
     private ListPreference mTorchPowerButton;
     private CustomSeekBarPreference mButtonTimoutBar;
     private CustomSeekBarPreference mManualButtonBrightness;
     private PreferenceCategory mButtonBackLightCategory;
+    private SwitchPreference mVolPanelOnLeft;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -109,6 +112,19 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
          // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
+
+
+        Resources systemUiResources;
+        try {
+            systemUiResources = getPackageManager().getResourcesForApplication("com.android.systemui");
+        } catch (Exception e) {
+            return;
+        }
+
+        // default vol panel on left value
+        final boolean defaultPanelOnLeft = systemUiResources.getBoolean(systemUiResources.getIdentifier(
+                    "com.android.systemui:bool/config_audioPanelOnLeftSide", null, null));
+
          // read bits for present hardware keys
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
         final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
@@ -186,6 +202,13 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
         if (!enableBacklightOptions) {
             prefScreen.removePreference(mButtonBackLightCategory);
         }
+
+        // Vol panel on left
+        mVolPanelOnLeft = (SwitchPreference) findPreference(KEY_VOL_PANEL_ON_LEFT);
+        boolean mVolPanelOnLeftValue = Settings.System.getInt(resolver,
+                Settings.System.VOLUME_PANEL_ON_LEFT, defaultPanelOnLeft ? 1 : 0) == 1;
+        mVolPanelOnLeft.setOnPreferenceChangeListener(this);
+        mVolPanelOnLeft.setChecked(mVolPanelOnLeftValue);
     }
 
     @Override
@@ -238,6 +261,10 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
             int buttonBrightness = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else if (preference == mVolPanelOnLeft) {
+            boolean volPanelOnLeftValue = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.VOLUME_PANEL_ON_LEFT, volPanelOnLeftValue ? 1 : 0);
         } else {
             return false;
         }

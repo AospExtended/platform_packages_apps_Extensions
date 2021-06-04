@@ -353,7 +353,7 @@
     <string name="qs_edit_title">Edit Icon</string>
     <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
 
-	    <!-- AEX logo -->
+    <!-- AEX logo -->
     <string name="aex_logo_title">AEX logo</string>
     <string name="aex_logo_summary">Let everyone know that you\'re using AEX when they see your screen</string>
 
@@ -581,6 +581,9 @@
     <string name="lock_screen_custom_clock_face_ide">IDE</string>
     <string name="lock_screen_custom_clock_face_mnml_box">MNML (Box)</string>
     <string name="lock_screen_custom_clock_face_mnml_minimal">MNML (Minimal)</string>
+    <string name="lock_screen_custom_clock_face_oneplus_numbers">OnePlus Numbers</string>
+    <string name="lock_screen_custom_clock_face_oneplus_minimal">OnePlus Minimal</string>
+    <string name="lock_screen_custom_clock_face_oneplus_roman">OnePlus Roman</string>
     <string name="lock_screen_custom_clock_face_oronos">Oroño</string>
     <string name="lock_screen_custom_clock_face_samsung">Samsung</string>
     <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (Bold)</string>

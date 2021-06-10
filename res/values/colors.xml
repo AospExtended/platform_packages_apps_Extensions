@@ -40,4 +40,6 @@
     <color name="extensions_subcategory_9">#F15B8D</color>
     <color name="extensions_subcategory_10">#5011C1</color>
     <color name="extensions_subcategory_11">#3DE725</color>
+
+    <color name="option_border_default">#5f6368</color>
 </resources>

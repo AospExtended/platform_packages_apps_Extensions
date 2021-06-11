@@ -39,12 +39,6 @@
              android:defaultValue="false"/>
 
          <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-             android:key="volte_icon"
-             android:title="@string/volte_icon_title"
-             android:summary="@string/volte_icon_summary"
-             android:defaultValue="true"/>
-
-         <org.aospextended.extensions.preference.SystemSettingSwitchPreference
              android:key="roaming_indicator_icon"
              android:title="@string/roaming_indicator_icon_title"
              android:summary="@string/roaming_indicator_icon_summary"

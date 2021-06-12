@@ -79,7 +79,7 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String TAG = "Customisation";
 
-    private static final String SYSTEM_THEME_STYLE = "android.theme.customization.theme_style";
+    private static final String SYSTEM_THEME_STYLE = "android.theme.customization.theme_style.android";
     private static final String SYSTEM_ICON_STYLE = "android.theme.customization.icon_pack.android";
     private static final String SYSTEM_FONT_STYLE = "android.theme.customization.font";
 

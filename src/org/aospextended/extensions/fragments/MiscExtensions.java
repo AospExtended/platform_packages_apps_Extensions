@@ -28,6 +28,7 @@ import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -48,6 +49,7 @@ import java.util.List;
 public class MiscExtensions extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
+    private static final String KEY_ROUND_CORNER_CAT = "corners_category";
 
     private SwitchPreference mShowAexLogo;
 
@@ -72,6 +74,12 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         mShowAexLogo.setChecked((Settings.System.getInt(getContentResolver(),
              Settings.System.STATUS_BAR_LOGO, 0) == 1));
         mShowAexLogo.setOnPreferenceChangeListener(this);
+
+        final PreferenceCategory roundCornerCategory = (PreferenceCategory) prefSet.findPreference(KEY_ROUND_CORNER_CAT);
+
+        boolean shouldShowRoundedCornerCust = getResources().getBoolean(R.bool.config_showRoundedCornersCustomisation);
+
+        if(shouldShowRoundedCornerCust) {
 
         Resources res = null;
         Context ctx = getContext();
@@ -104,6 +112,10 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         // Rounded use Framework Values
         mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
+        } else {
+          prefSet.removePreference(roundCornerCategory);
+        }
+
     }
 
     @Override

@@ -60,7 +60,7 @@
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="system_animations">System Animations</string>
     <string name="listview">ListView</string>
-    <string name="fingerprint_category">Fingerprint</string>
+    <string name="fod_category">FOD</string>
 
     <!-- Frags -->
     <!-- General Tweaks -->

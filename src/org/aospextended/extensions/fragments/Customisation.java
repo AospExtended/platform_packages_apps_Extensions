@@ -64,9 +64,11 @@ import com.android.settings.Utils;
 
 import com.android.internal.util.aospextended.AEXUtils;
 import com.android.internal.util.aospextended.ThemeUtils;
+import com.android.internal.util.aospextended.fod.FodUtils;
 
 import org.aospextended.extensions.preference.FontListPreference;
 import org.aospextended.extensions.preference.SystemSettingListPreference;
+import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -127,6 +129,20 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         mSwitchStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mSwitchStyle.setSummary(mSwitchStyle.getEntry());
         mSwitchStyle.setOnPreferenceChangeListener(this);
+
+        SystemSettingSwitchPreference mFodAnim = (SystemSettingSwitchPreference) findPreference("fod_recognizing_animation");
+        Preference mFodAnimList = (Preference) findPreference("fod_recognizing_animation_list");
+
+        boolean mFodAnimPkgInstalled = AEXUtils.isPackageInstalled(getContext(),getResources()
+                .getString(com.android.internal.R.string.config_fodAnimationPackage));
+        PreferenceCategory fod = (PreferenceCategory) screen.findPreference("fod_category");
+        if (!mFodAnimPkgInstalled) {
+            fod.removePreference(mFodAnim);
+            fod.removePreference(mFodAnimList);
+        }
+        if (!FodUtils.hasFodSupport(mContext)) {
+            screen.removePreference(fod);
+        }
     }
 
     @Override

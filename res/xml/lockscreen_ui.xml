@@ -17,14 +17,8 @@
     android:title="@string/lockscreen_ui_title">
 
     <PreferenceCategory
-        android:key="lockscreen_ui_fingerprint_category"
-        android:title="@string/fingerprint_category">
-
-        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
-            android:key="fingerprint_success_vib"
-            android:title="@string/fprint_sucess_vib_title"
-            android:summary="@string/fprint_sucess_vib_summary"
-            android:persistent="true" />
+        android:key="lockscreen_ui_fod_category"
+        android:title="@string/fod_category">
 
         <!-- FOD icon picker -->
         <Preference
@@ -53,6 +47,12 @@
     <PreferenceCategory
         android:key="lockscreen_ui_general_category"
         android:title="@string/general_category">
+
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="fingerprint_success_vib"
+            android:title="@string/fprint_sucess_vib_title"
+            android:summary="@string/fprint_sucess_vib_summary"
+            android:persistent="true" />
 
     <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"

@@ -27,6 +27,7 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceScreen;
 
@@ -37,9 +38,13 @@ import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.SettingsPreferenceFragment;
 
+import org.aospextended.extensions.preference.SystemSettingListPreference;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 import org.aospextended.extensions.preference.SystemSettingSeekBarPreference;
 import org.aospextended.extensions.Utils;
+
+import com.android.internal.util.aospextended.AEXUtils;
+import com.android.internal.util.aospextended.fod.FodUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,11 +53,11 @@ import java.util.List;
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
 	private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
-    private static final String KEY_LOCKSCREEN_BLUR = "lockscreen_blur"; 
+    private static final String KEY_LOCKSCREEN_BLUR = "lockscreen_blur";
 
     private FingerprintManager mFingerprintManager;
     private SystemSettingSwitchPreference mFingerprintVib;
-    private SystemSettingSeekBarPreference mLockscreenBlur;    
+    private SystemSettingSeekBarPreference mLockscreenBlur;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -86,6 +91,21 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             }
         } else {
             prefSet.removePreference(mFingerprintVib);
+        }
+
+        SystemSettingSwitchPreference mFodAnim = (SystemSettingSwitchPreference) findPreference("fod_recognizing_animation");
+        SystemSettingListPreference mFodAnimList = (SystemSettingListPreference) findPreference("fod_recognizing_animation_list");
+
+        boolean mFodAnimPkgInstalled = AEXUtils.isPackageInstalled(getContext(),
+                      getResources().getString(com.android.internal.R.string.config_fodAnimationPackage));
+        if (!mFodAnimPkgInstalled) {
+            prefSet.removePreference(mFodAnim);
+            prefSet.removePreference(mFodAnimList);
+        }
+
+        PreferenceCategory fod = (PreferenceCategory) prefSet.findPreference("fod");
+        if (!FodUtils.hasFodSupport(mContext)) {
+            prefSet.removePreference(fod);
         }
     }
 

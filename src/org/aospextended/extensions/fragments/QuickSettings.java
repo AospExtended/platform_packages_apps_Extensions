@@ -16,18 +16,31 @@
 
 package org.aospextended.extensions.fragments;
 
+import static android.os.UserHandle.USER_CURRENT;
+import static android.os.UserHandle.USER_SYSTEM;
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
+import android.database.ContentObserver;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.content.om.IOverlayManager;
+
+import com.android.settings.display.OverlayCategoryPreferenceController;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -39,6 +52,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.aospextended.extensions.preference.SystemSettingListPreference;
+
 @SearchIndexable
 public class QuickSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -46,6 +61,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String SLIDER_STYLE  = "slider_style";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -53,6 +69,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
     private ListPreference mQuickPulldown;
     private ListPreference mSmartPulldown;
+
+    private Handler mHandler;
+    private IOverlayManager mOverlayManager;
+    private IOverlayManager mOverlayService;
+    private SystemSettingListPreference mSlider;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -99,6 +120,35 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+        mOverlayService = IOverlayManager.Stub
+                .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
+
+        mSlider = (SystemSettingListPreference) findPreference(SLIDER_STYLE);
+        mCustomSettingsObserver.observe();
+    }
+
+    private CustomSettingsObserver mCustomSettingsObserver = new CustomSettingsObserver(mHandler);
+    private class CustomSettingsObserver extends ContentObserver {
+
+        CustomSettingsObserver(Handler handler) {
+            super(handler);
+        }
+
+        void observe() {
+            Context mContext = getContext();
+            ContentResolver resolver = mContext.getContentResolver();
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.SLIDER_STYLE),
+                    false, this, UserHandle.USER_ALL);
+        }
+
+        @Override
+        public void onChange(boolean selfChange, Uri uri) {
+            if (uri.equals(Settings.System.getUriFor(Settings.System.SLIDER_STYLE))) {
+                updateSlider();
+            }
+        }
     }
 
      @Override
@@ -137,6 +187,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
             return true;
+        } else if (preference == mSlider) {
+            mCustomSettingsObserver.observe();
+            return true;
         }
         return false;
     }
@@ -170,6 +223,62 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             }
         }
     }
+
+    private void updateSlider() {
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        boolean sliderDefault = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.SLIDER_STYLE , 0, UserHandle.USER_CURRENT) == 0;
+        boolean sliderOOS = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.SLIDER_STYLE , 0, UserHandle.USER_CURRENT) == 1;
+        boolean sliderAosp = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.SLIDER_STYLE , 0, UserHandle.USER_CURRENT) == 2;
+        boolean sliderRUI = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.SLIDER_STYLE , 0, UserHandle.USER_CURRENT) == 3;
+
+        if (sliderDefault) {
+            setDefaultSlider(mOverlayService);
+        } else if (sliderOOS) {
+            enableSlider(mOverlayService, "com.android.theme.systemui_slider_oos");
+        } else if (sliderAosp) {
+            enableSlider(mOverlayService, "com.android.theme.systemui_slider.aosp");
+        } else if (sliderRUI) {
+            enableSlider(mOverlayService, "com.android.theme.systemui_slider.rui");
+        }
+    }
+
+    public static void setDefaultSlider(IOverlayManager overlayManager) {
+        for (int i = 0; i < SLIDERS.length; i++) {
+            String sliders = SLIDERS[i];
+            try {
+                overlayManager.setEnabled(sliders, false, USER_SYSTEM);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void enableSlider(IOverlayManager overlayManager, String overlayName) {
+        try {
+            for (int i = 0; i < SLIDERS.length; i++) {
+                String sliders = SLIDERS[i];
+                try {
+                    overlayManager.setEnabled(sliders, false, USER_SYSTEM);
+                } catch (RemoteException e) {
+                    e.printStackTrace();
+                }
+            }
+            overlayManager.setEnabled(overlayName, true, USER_SYSTEM);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static final String[] SLIDERS = {
+        "com.android.theme.systemui_slider_oos",
+        "com.android.theme.systemui_slider.aosp",
+        "com.android.theme.systemui_slider.rui"
+    };
 
     @Override
     public int getMetricsCategory() {

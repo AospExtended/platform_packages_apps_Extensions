@@ -106,6 +106,14 @@
             android:defaultValue="false"
             android:dependency="qs_show_brightness" />
 
+        <org.aospextended.extensions.preference.SystemSettingListPreference
+            android:key="slider_style"
+            android:title="@string/slider_styles_title"
+            android:entries="@array/slider_styles_entries"
+            android:entryValues="@array/slider_styles_values"
+            android:defaultValue="0" />
+
+
     </PreferenceCategory>
     
     <PreferenceCategory

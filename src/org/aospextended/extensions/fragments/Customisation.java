@@ -133,7 +133,7 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         mSwitchStyle.setOnPreferenceChangeListener(this);
 
         SystemSettingSwitchPreference mFodAnim = (SystemSettingSwitchPreference) findPreference("fod_recognizing_animation");
-        Preference mFodAnimList = (Preference) findPreference("fod_recognizing_animation_list");
+        Preference mFodAnimList = (Preference) findPreference("fod_recognizing_animation_preview");
 
         boolean mFodAnimPkgInstalled = AEXUtils.isPackageInstalled(getContext(),getResources()
                 .getString(com.android.internal.R.string.config_fodAnimationPackage));

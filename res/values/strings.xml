@@ -772,6 +772,7 @@
     <string name="fod_recog_animation">FOD recognizing animation</string>
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
     <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
+    <string name="fod_recog_animation_effect_summary">Choose recognizing animation effect</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string> 
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>

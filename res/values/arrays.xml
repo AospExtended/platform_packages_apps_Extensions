@@ -366,6 +366,8 @@
         <item>@string/lock_screen_custom_clock_face_spectrum</item>
         <item>@string/lock_screen_custom_clock_face_typographic</item>
         <item>@string/lock_screen_custom_clock_face_typographic_alt</item>
+        <item>@string/lock_screen_custom_clock_face_AndroidS</item>
+        <item>@string/lock_screen_custom_clock_face_AndroidS_DP3</item>
 
     </string-array>
     <string-array name="lock_screen_custom_clock_face_values" translatable="false">
@@ -391,6 +393,8 @@
         <item>com.android.keyguard.clock.SpectrumClockController</item>
         <item>com.android.keyguard.clock.TypeClockController</item>
         <item>com.android.keyguard.clock.TypeClockAltController</item>
+        <item>com.android.keyguard.clock.AndroidSClockController</item>
+        <item>com.android.keyguard.clock.AndroidSDP3ClockController</item>
     </string-array>
 
     <!-- Battery percent -->
@@ -586,6 +590,35 @@
         <item>15</item>
         <item>7</item>
         <item>5</item>
+    </string-array>
+
+    <!-- Gvisual mod -->
+    <string-array name="rounded_ui_titles">
+        <item>@string/rounded_style_default</item>
+        <item>@string/rounded_style_rectangle</item>
+        <item>@string/rounded_style_medium</item>
+        <item>@string/rounded_style_large</item>
+    </string-array>
+
+    <string-array name="rounded_ui_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="statusbar_height_titles" translatable="false">
+        <item>@string/sb_height_default</item>
+        <item>@string/sb_height_medium</item>
+        <item>@string/sb_height_large</item>
+        <item>@string/sb_height_extralarge</item>
+    </string-array>
+
+    <string-array name="statusbar_height_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 
 </resources>

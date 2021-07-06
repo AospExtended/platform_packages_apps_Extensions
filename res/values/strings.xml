@@ -591,6 +591,8 @@
     <string name="lock_screen_custom_clock_face_typographic_alt">Typographic (Centre)</string>
     <string name="clock_show_status_area">Clock status area</string>
     <string name="clock_show_status_area_summary">Show the extra row of info under the lock clock(SysUI restart may be required)</string>
+    <string name="lock_screen_custom_clock_face_AndroidS">Android_S</string>
+    <string name="lock_screen_custom_clock_face_AndroidS_DP3">Android_S_DP3</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
@@ -765,4 +767,21 @@
 
     <!-- Lockscreen blur -->
     <string name="lockscreen_blur_title">Background blur</string>
+
+    <!-- gvisual mod -->
+    <string name="gvisual_title">G-Visual Mod</string>
+    <string name="gvisual_summary">Various UI customizations</string>
+    <string name="rounded_ui_title">Rounded corner</string>
+    <string name="rounded_ui_dialog_title">Select rounded corner model</string>
+    <string name="rounded_style_default">Default</string>
+    <string name="rounded_style_rectangle">Rectangle</string>
+    <string name="rounded_style_large">Large</string>
+    <string name="rounded_style_medium">Medium</string>
+    <string name="statusbar_height_title">Statusbar height</string>
+    <string name="statusbar_height_dialog_title">Select statusbar height model</string>
+    <string name="sb_height_default">Default</string>
+    <string name="sb_height_medium">Medium</string>
+    <string name="sb_height_large">Large</string>
+    <string name="sb_height_extralarge">Extra Large</string>
+
 </resources>

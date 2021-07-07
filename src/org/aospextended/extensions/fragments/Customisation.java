@@ -82,13 +82,11 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     private static final String TAG = "Customisation";
 
     private static final String SYSTEM_THEME_STYLE = "android.theme.customization.theme_style";
-    private static final String SYSTEM_ICON_STYLE = "android.theme.customization.icon_pack.android";
     private static final String SYSTEM_FONT_STYLE = "android.theme.customization.font";
 
     private static final String FOD_FOOTER = "fod_footer";
 
     private ListPreference mSystemThemeStyle;
-    private ListPreference mIconPreference;
 
     private FontListPreference mFontPreference;
 
@@ -110,10 +108,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
         mSystemThemeStyle.setOnPreferenceChangeListener(this);
         updateState(mSystemThemeStyle);
-
-        mIconPreference = (ListPreference) screen.findPreference(SYSTEM_ICON_STYLE);
-        mIconPreference.setOnPreferenceChangeListener(this);
-        updateState(mIconPreference);
 
         mFontPreference = (FontListPreference) screen.findPreference(SYSTEM_FONT_STYLE);
         mFontPreference.setOnPreferenceChangeListener(this);
@@ -146,7 +140,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     public void onResume() {
         super.onResume();
         updateState(mSystemThemeStyle);
-        updateState(mIconPreference);
         updateState((ListPreference) mFontPreference);
     }
 
@@ -155,10 +148,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         if (preference == mSystemThemeStyle) {
             String value = (String) newValue;
             mThemeUtils.setThemeEnabled(value);
-            return true;
-        }
-        if (preference == mIconPreference) {
-            mThemeUtils.setOverlayEnabled(SYSTEM_ICON_STYLE, (String) newValue);
             return true;
         }
         if (preference == mFontPreference) {

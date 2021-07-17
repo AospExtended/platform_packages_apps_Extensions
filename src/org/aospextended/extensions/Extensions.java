@@ -47,8 +47,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.bottomnavigation.LabelVisibilityMode;
+import github.com.st235.lib_expandablebottombar.ExpandableBottomBar;
 
 import org.aospextended.extensions.aexstats.Constants;
 import org.aospextended.extensions.aexstats.RequestInterface;
@@ -88,40 +87,28 @@ public class Extensions extends SettingsPreferenceFragment implements
 
         View view = inflater.inflate(R.layout.layout_extensions, container, false);
 
-        final BottomNavigationView bottomNavigation = (BottomNavigationView) view.findViewById(R.id.bottom_navigation);
+        final ExpandableBottomBar bottomNavigation = (ExpandableBottomBar) view.findViewById(R.id.bottom_navigation);
 
-    bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-        @Override
-	  public boolean onNavigationItemSelected(MenuItem item) {
-
-             if (item.getItemId() == bottomNavigation.getSelectedItemId()) {
-
-               return false;
-
-             } else {
-
-        if (item.getItemId() == R.id.status_bar_category) {
+        bottomNavigation.setOnItemSelectedListener((mView, menuItem, byUser) -> {
+            if (menuItem.getId() == R.id.status_bar_category) {
                 switchFrag(new StatusBar());
-        } else if (item.getItemId() == R.id.notifications_panel_category) {
+            } else if (menuItem.getId() == R.id.notifications_panel_category) {
                 switchFrag(new NotificationsPanel());
-        } else if (item.getItemId() == R.id.navigation_and_recents_category) {
+            } else if (menuItem.getId() == R.id.navigation_and_recents_category) {
                 switchFrag(new NavigationAndRecents());
-        } else if (item.getItemId() == R.id.lockscreen_category) {
+            } else if (menuItem.getId() == R.id.lockscreen_category) {
                 switchFrag(new Lockscreen());
-        } else if (item.getItemId() == R.id.system_category) {
+            } else if (menuItem.getId() == R.id.system_category) {
                 switchFrag(new System());
-        }
-        return true;
-        }
-    }
-    });
+            }
+            return null;
+        });
 
         setHasOptionsMenu(true);
         Fragment fragment = (Fragment) getFragmentManager().findFragmentById(R.id.fragment_frame);
         if (fragment == null) {
             getFragmentManager().beginTransaction().replace(R.id.fragment_frame, new StatusBar()).commit();
         }
-        bottomNavigation.setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_LABELED);
         return view;
     }
 

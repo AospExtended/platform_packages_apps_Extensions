@@ -24,17 +24,16 @@
             android:layout_height="match_parent"
             android:layout_above="@id/bottom_navigation" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            app:menu="@menu/menu_categories"
-            android:background="@drawable/bottombar_bg"
-            app:itemRippleColor="@color/bottombar_ripple"
-            app:itemIconTint="@drawable/categories_selector"
-            app:itemTextColor="@drawable/categories_selector"
-            app:elevation="0dp"
-            android:layout_gravity="bottom" />
+    <github.com.st235.lib_expandablebottombar.ExpandableBottomBar
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:exb_backgroundColor="@color/bottombar_bg"
+        app:exb_itemInactiveColor="@color/bottom_inactive"
+        app:exb_items="@menu/menu_categories"
+        app:exb_transitionDuration="200"
+        app:exb_item_vertical_margin="12dp"
+        />     
 
 </RelativeLayout>

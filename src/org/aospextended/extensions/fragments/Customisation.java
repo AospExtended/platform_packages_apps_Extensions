@@ -87,8 +87,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String FOD_FOOTER = "fod_footer";
 
-    private ListPreference mSystemThemeStyle;
-
     private static final String SWITCH_STYLE = "switch_style";
 
     private SystemSettingListPreference mSwitchStyle;
@@ -109,10 +107,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen screen = getPreferenceScreen();
-
-        mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
-        mSystemThemeStyle.setOnPreferenceChangeListener(this);
-        updateState(mSystemThemeStyle);
 
         mFontPreference = (FontListPreference) screen.findPreference(SYSTEM_FONT_STYLE);
         mFontPreference.setOnPreferenceChangeListener(this);
@@ -151,17 +145,11 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     @Override
     public void onResume() {
         super.onResume();
-        updateState(mSystemThemeStyle);
         updateState((ListPreference) mFontPreference);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mSystemThemeStyle) {
-            String value = (String) newValue;
-            mThemeUtils.setThemeEnabled(value);
-            return true;
-        }
         if (preference == mFontPreference) {
             mThemeUtils.setOverlayEnabled(SYSTEM_FONT_STYLE, (String) newValue);
             return true;
@@ -185,14 +173,6 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         List<String> pkgs = mThemeUtils.getOverlayPackagesForCategory(preference.getKey());
         List<String> labels = mThemeUtils.getLabels(preference.getKey());
 
-        if (preference == mSystemThemeStyle) {
-            pkgs = mThemeUtils.getThemePackages();
-            labels = mThemeUtils.getThemeLabels();
-
-            int mCurrentTheme = Settings.System.getIntForUser(mContext.getContentResolver(),
-                    Settings.System.SYSTEM_THEME_STYLE, 1, USER_SYSTEM);
-            currentPackageName = pkgs.get(mCurrentTheme - 1);
-        }
 
         preference.setEntries(labels.toArray(new String[labels.size()]));
         preference.setEntryValues(pkgs.toArray(new String[pkgs.size()]));

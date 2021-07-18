@@ -88,6 +88,8 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     private static final String CUSTOM_CLOCK_FACE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_FACE;
     private static final String DEFAULT_CLOCK = "com.android.keyguard.clock.DefaultClockController";
 
+    private static final String FOD_FOOTER = "fod_footer";
+
     private ListPreference mSystemThemeStyle;
     private ListPreference mIconPreference;
     private ListPreference mLockClockStyles;
@@ -139,6 +141,8 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         }
         if (!FodUtils.hasFodSupport(mContext)) {
             screen.removePreference(fod);
+        } else {
+            findPreference(FOD_FOOTER).setTitle(R.string.fod_pressed_color_footer);
         }
 
     }

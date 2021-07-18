@@ -95,6 +95,20 @@
             android:defaultValue="0"
             android:dependency="fod_recognizing_animation" />
 
+        <org.aospextended.extensions.preference.SystemSettingListPreference
+            android:key="fod_color"
+            android:title="@string/fod_pressed_color_title"
+            android:summary="%s"
+            android:entries="@array/fod_pressed_color_entries"
+            android:entryValues="@array/fod_pressed_color_values"
+            android:defaultValue="0" />
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="fod_footer"
+            android:selectable="false"
+            settings:allowDividerAbove="false"
+            settings:searchable="false" />        
+
     </PreferenceCategory>
 
     <PreferenceCategory

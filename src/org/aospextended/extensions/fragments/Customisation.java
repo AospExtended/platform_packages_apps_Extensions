@@ -86,6 +86,8 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     private static final String SYSTEM_ICON_STYLE = "android.theme.customization.icon_pack.android";
     private static final String SYSTEM_FONT_STYLE = "android.theme.customization.font";
 
+    private static final String FOD_FOOTER = "fod_footer";
+
     private ListPreference mSystemThemeStyle;
     private ListPreference mIconPreference;
 
@@ -142,6 +144,8 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         }
         if (!FodUtils.hasFodSupport(mContext)) {
             screen.removePreference(fod);
+        } else {
+            findPreference(FOD_FOOTER).setTitle(R.string.fod_pressed_color_footer);
         }
     }
 

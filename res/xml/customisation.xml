@@ -19,9 +19,11 @@
     <PreferenceCategory
         android:title="UI Tweaks">
 
-        <ListPreference
+        <Preference
             android:key="android.theme.customization.theme_style"
-            android:title="@string/system_theme_style_title" />
+            android:title="@string/system_theme_style_title"
+            android:summary="@string/system_theme_style_summary"
+            android:fragment="org.aospextended.extensions.fragments.SystemThemeStyle"/>
 
         <com.android.settings.display.darkmode.DarkModePreference
             android:key="dark_ui_mode"

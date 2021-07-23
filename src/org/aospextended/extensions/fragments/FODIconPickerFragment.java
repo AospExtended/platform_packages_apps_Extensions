@@ -73,6 +73,7 @@ public class FODIconPickerFragment extends SettingsPreferenceFragment {
 
     private int[] mIcons = {
         R.drawable.fod_icon_default,
+        R.drawable.fod_icon_aex,
         R.drawable.fod_icon_default_1,
         R.drawable.fod_icon_default_2,
         R.drawable.fod_icon_default_3,

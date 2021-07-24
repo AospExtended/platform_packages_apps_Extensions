@@ -57,6 +57,12 @@
         android:title="@string/gaming_mode_dynamic_title"
         android:summary="@string/gaming_mode_dynamic_summary"
         android:defaultValue="false" />
+
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="gaming_mode_hide_incall_ui"
+        android:title="@string/gaming_mode_hide_incall_ui_title"
+        android:summary="@string/gaming_mode_hide_incall_ui_summary"
+        android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory

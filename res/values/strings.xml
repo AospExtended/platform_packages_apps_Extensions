@@ -653,6 +653,8 @@
     <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
     <string name="gaming_mode_dynamic_title">Dynamic mode</string>
     <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
+    <string name="gaming_mode_hide_incall_ui_title">Hide call ui screen</string>
+    <string name="gaming_mode_hide_incall_ui_summary">Hide incall ui and enable speaker mode for calls when gaming mode is active</string>
 
     <!-- Display cutout options -->
     <string name="cutout_main">Display Cutout</string>

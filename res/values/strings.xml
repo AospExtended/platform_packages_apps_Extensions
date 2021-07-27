@@ -816,4 +816,11 @@
     <string name="fod_pressed_color_green">Green</string>
     <string name="fod_pressed_color_yellow">Yellow</string>
     <string name="fod_pressed_color_light_yellow">Light Yellow</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_oos">OxygenOS 11</string>
 </resources>

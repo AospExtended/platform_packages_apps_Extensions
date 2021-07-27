@@ -67,6 +67,7 @@ import com.android.internal.util.aospextended.ThemeUtils;
 import com.android.internal.util.aospextended.fod.FodUtils;
 
 import org.aospextended.extensions.preference.FontListPreference;
+import org.aospextended.extensions.preference.SystemSettingListPreference;
 import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
@@ -85,6 +86,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     private static final String SYSTEM_FONT_STYLE = "android.theme.customization.font";
 
     private static final String FOD_FOOTER = "fod_footer";
+
+    private static final String SWITCH_STYLE = "switch_style";
+
+    private SystemSettingListPreference mSwitchStyle;
 
     private FontListPreference mFontPreference;
 
@@ -109,6 +114,14 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
         SystemSettingSwitchPreference mFodAnim = (SystemSettingSwitchPreference) findPreference("fod_recognizing_animation");
         Preference mFodAnimList = (Preference) findPreference("fod_recognizing_animation_preview");
+
+        mSwitchStyle = (SystemSettingListPreference) screen.findPreference(SWITCH_STYLE);
+        int switchStyle = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.SWITCH_STYLE, 0, UserHandle.USER_CURRENT);
+        int valueIndex = mSwitchStyle.findIndexOfValue(String.valueOf(switchStyle));
+        mSwitchStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mSwitchStyle.setSummary(mSwitchStyle.getEntry());
+        mSwitchStyle.setOnPreferenceChangeListener(this);
 
         boolean mFodAnimPkgInstalled = AEXUtils.isPackageInstalled(getContext(),getResources()
                 .getString(com.android.internal.R.string.config_fodAnimationPackage));
@@ -139,6 +152,12 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mFontPreference) {
             mThemeUtils.setOverlayEnabled(SYSTEM_FONT_STYLE, (String) newValue);
+            return true;
+        } else if (preference == mSwitchStyle) {
+            int switchStyleValue = Integer.valueOf((String) newValue);
+            Settings.System.putIntForUser(mContext.getContentResolver(),
+                    Settings.System.SWITCH_STYLE, switchStyleValue, UserHandle.USER_CURRENT);
+            mSwitchStyle.setSummary(mSwitchStyle.getEntries()[switchStyleValue]);
             return true;
         }
         return false;

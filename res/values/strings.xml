@@ -766,4 +766,13 @@
 
     <!-- Lockscreen blur -->
     <string name="lockscreen_blur_title">Background blur</string>
+
+    <!-- Rounded Corner Styles -->
+    <string name="rounded_style_title">Rounded style for system dialogs</string>
+    <string name="rounded_default">Default</string>
+    <string name="rounded_none">None</string>
+    <string name="rounded_slight">Slight</string>
+    <string name="rounded_medium">Medium</string>
+    <string name="rounded_high">High</string>
+    <string name="rounded_extreme">Extreme</string>
 </resources>

@@ -66,6 +66,7 @@ import com.android.internal.util.aospextended.AEXUtils;
 import com.android.internal.util.aospextended.ThemeUtils;
 
 import org.aospextended.extensions.preference.FontListPreference;
+import org.aospextended.extensions.preference.SystemSettingListPreference;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -85,6 +86,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private ListPreference mSystemThemeStyle;
     private ListPreference mIconPreference;
+
+    private static final String SWITCH_STYLE = "switch_style";
+
+    private SystemSettingListPreference mSwitchStyle;
 
     private FontListPreference mFontPreference;
 
@@ -115,6 +120,13 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         mFontPreference.setOnPreferenceChangeListener(this);
         updateState((ListPreference) mFontPreference);
 
+        mSwitchStyle = (SystemSettingListPreference) screen.findPreference(SWITCH_STYLE);
+        int switchStyle = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.SWITCH_STYLE, 0, UserHandle.USER_CURRENT);
+        int valueIndex = mSwitchStyle.findIndexOfValue(String.valueOf(switchStyle));
+        mSwitchStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mSwitchStyle.setSummary(mSwitchStyle.getEntry());
+        mSwitchStyle.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -143,6 +155,12 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         }
         if (preference == mFontPreference) {
             mThemeUtils.setOverlayEnabled(SYSTEM_FONT_STYLE, (String) newValue);
+            return true;
+        } else if (preference == mSwitchStyle) {
+            int switchStyleValue = Integer.valueOf((String) newValue);
+            Settings.System.putIntForUser(mContext.getContentResolver(),
+                    Settings.System.SWITCH_STYLE, switchStyleValue, UserHandle.USER_CURRENT);
+            mSwitchStyle.setSummary(mSwitchStyle.getEntries()[switchStyleValue]);
             return true;
         }
         return false;

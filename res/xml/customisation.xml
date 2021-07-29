@@ -80,6 +80,12 @@
             android:entryValues="@array/switch_style_values"
             android:defaultValue="1" />
 
+        <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+            android:key="use_new_searchbar"
+            android:title="@string/search_bar_style_title"
+            android:summary="@string/search_bar_style_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

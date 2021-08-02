@@ -46,6 +46,10 @@ import android.graphics.drawable.shapes.PathShape;
 import androidx.core.graphics.ColorUtils;
 import androidx.preference.Preference;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.android.internal.util.aospextended.ThemeUtils;
 
 import com.android.settings.R;
@@ -59,7 +63,7 @@ import java.util.List;
 public class ThemePreference extends Preference {
     private ThemeUtils mThemeUtils;
     private String mCategory;
-
+    private RecyclerView mRecyclerView;
     private List<String> mLabels;
     private List<String> mPkgs;
     private List<Integer> mColors;
@@ -90,26 +94,51 @@ public class ThemePreference extends Preference {
         holder.setDividerAllowedAbove(false);
         holder.setDividerAllowedBelow(false);
 
-        LinearLayout layout = (LinearLayout) holder.findViewById(R.id.accent_layout);
+        mRecyclerView = (RecyclerView) holder.itemView.findViewById(R.id.layout);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext(),
+                LinearLayoutManager.HORIZONTAL, false);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
+        CustomAdapter mCustomAdapter = new CustomAdapter(getContext());
+        mRecyclerView.setAdapter(mCustomAdapter);
+    }
 
-        int width = getContext().getResources().getDimensionPixelSize(R.dimen.back_gesture_indicator_width);
-        int margin = getContext().getResources().getDimensionPixelSize(R.dimen.dashboard_tile_foreground_image_inset);
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(width, width, 1.0f);
-        params.gravity = Gravity.FILL_HORIZONTAL;
-        params.setMarginStart(margin);
-        params.setMarginEnd(margin);
+    public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomViewHolder> {
 
-        for (String overlayPackage : mPkgs) {
-            Button btn = new Button(getContext());
+        Context context;
+
+        public CustomAdapter(Context context) {
+            this.context = context;
+        }
+
+        @Override
+        public CustomViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.preview_button, parent, false);
+            CustomViewHolder vh = new CustomViewHolder(v);
+            return vh;
+        }
+
+        @Override
+        public void onBindViewHolder(CustomViewHolder holder, final int position) {
             if (mCategory.equals(ACCENT_KEY)) {
-                btn.setBackgroundDrawable(mThemeUtils.createShapeDrawable("default"));
-                btn.setBackgroundTintList(ColorStateList.valueOf(mColors.get(mPkgs.indexOf(overlayPackage))));
+                holder.button.setBackgroundDrawable(mThemeUtils.createShapeDrawable("default"));
+                holder.button.setBackgroundTintList(ColorStateList.valueOf(mColors.get(position)));
             } else if (mCategory.equals(ICON_SHAPE_KEY)) {
-                btn.setBackgroundDrawable(mShapes.get(mPkgs.indexOf(overlayPackage)));
+                holder.button.setBackgroundDrawable(mShapes.get(position));
             }
-            btn.setLayoutParams(params);
-            layout.addView(btn);
-            setButton(overlayPackage, btn);
+            setButton(mPkgs.get(position), holder.button);
+        }
+
+        @Override
+        public int getItemCount() {
+            return mPkgs.size();
+        }
+
+        public class CustomViewHolder extends RecyclerView.ViewHolder {
+            Button button;
+            public CustomViewHolder(View itemView) {
+                super(itemView);
+                button = (Button) itemView.findViewById(R.id.button);
+            }
         }
     }
 

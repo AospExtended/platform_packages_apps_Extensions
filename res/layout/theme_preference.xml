@@ -54,22 +54,15 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <HorizontalScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scrollbars="none"
         android:layout_marginStart="65dp"
         android:layout_marginLeft="65dp"
         android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp" >
+        android:layout_marginBottom="4dp"/>
 
-        <LinearLayout
-            android:id="@+id/accent_layout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="?android:attr/selectableItemBackground"
-            android:orientation="horizontal" >
-        </LinearLayout>
-    </HorizontalScrollView>
 </LinearLayout>
 

@@ -170,7 +170,6 @@ public class FODIconPickerFragment extends SettingsPreferenceFragment {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-android.util.Slog.d("sagars", "iconRes: " + iconRes + " mSelectedIcon: " + mSelectedIcon);
                     updateActivatedStatus(mSelectedIcon, false);
                     updateActivatedStatus(iconRes, true);
                     mSelectedIcon = iconRes;
@@ -204,7 +203,6 @@ android.util.Slog.d("sagars", "iconRes: " + iconRes + " mSelectedIcon: " + mSele
             if (index < 0) {
                 return;
             }
-            android.util.Slog.d("sagars", "index: " + index);
             RecyclerView.ViewHolder holder = mRecyclerView.findViewHolderForAdapterPosition(index);
             if (holder != null && holder.itemView != null) {
                 holder.itemView.setActivated(isActivated);

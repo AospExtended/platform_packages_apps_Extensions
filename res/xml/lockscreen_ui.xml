@@ -53,6 +53,13 @@
         settings:units="%"
         settings:interval="5"
         android:defaultValue="0" />
+
+    <org.aospextended.extensions.preference.SystemSettingListPreference
+        android:key="lockscreen_charging_animation_style"
+        android:title="@string/lockscreen_charging_animation_title"
+        android:entries="@array/lockscreen_charging_animation_entries"
+        android:entryValues="@array/lockscreen_charging_animation_values"
+        android:defaultValue="1" />
         
     </PreferenceCategory>
 

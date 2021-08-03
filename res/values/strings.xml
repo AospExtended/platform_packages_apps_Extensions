@@ -917,4 +917,12 @@
     <!-- SearchBar Style -->
     <string name="search_bar_style_title">Use Android 12 Search Bar</string>
     <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Battery</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Explosion</string>
+    <string name="lockscreen_charging_animation_water">Water</string>
 </resources>

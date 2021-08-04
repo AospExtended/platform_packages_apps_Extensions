@@ -833,4 +833,9 @@
     <string name="fod_pressed_color_green">Green</string>
     <string name="fod_pressed_color_yellow">Yellow</string>
     <string name="fod_pressed_color_light_yellow">Light Yellow</string>
+    
+    <!-- QS Header data usage -->
+    <string name="qs_datausage_title">Data usage</string>
+    <string name="qs_datausage_daily">Daily usage</string>
+    <string name="qs_datausage_monthly">Monthly usage</string>
 </resources>

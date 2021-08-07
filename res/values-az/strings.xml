@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+      Copyright (C) 2016 AospExtended ROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="extensions_title">Genişləndirmələr</string>
+    <string name="add">Əlavə et</string>
+    <string name="advanced">Qabaqcıl</string>
+    <string name="cancel">İmtina</string>
+    <string name="choose_app">Tətbiq seç</string>
+    <string name="default_text">İlkin</string>
+    <string name="general_category">Ümumi</string>
+    <string name="gestures_category">Jestlər</string>
+    <string name="music_category">Musiqi</string>
+    <string name="security_category">Təhlükəsizlik</string>
+    <string name="hardware_category">Avadanlıq təminatı</string>
+    <string name="icons_category">Nişanlar</string>
+    <string name="aosp_recents_category">AOSP son tətbiqlər</string>
+    <string name="light_category">İşıqlar</string>
+    <string name="dlg_ok">Oldu</string>
+    <string name="attention">Diqqət</string>
+    <string name="loading">Yüklənir\u2026</string>
+    <string name="reset">Sıfırla</string>
+    <string name="reset_colors">Rəngləri sıfırla</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Mətn</string>
+    <string name="icon_title">Nişan</string>
+    <string name="color_title">Rəng</string>
+    <string name="colors_title">Rənglər</string>
+    <string name="recents_category">Son istifadə</string>
+    <string name="recents_category_summary">Son istifadələr icmalını özəlləşdirin</string>
+    <string name="status_bar_category">Vəziyyət sətri</string>
+    <string name="status_bar_category_summary">Vəziyyət sətrini özəlləşdirin</string>
+    <string name="notifications_panel_category">Cəld Tənzimləmələr paneli</string>
+    <string name="notifications_panel_category_summary">Cəld Tənzimləmələr paneli və bildirişləri özəlləşdirin</string>
+    <string name="system_category">Sistem </string>
+    <string name="system_category_summary">Müxtəlif sistem əlavələri</string>
+    <string name="lockscreen_category">Kilid ekranı</string>
+    <string name="lockscreen_category_summary">Kilid ekranını özəlləşdirin</string>
+    <string name="navigation_and_recents_category">Naviqasiya</string>
+    <string name="navigation_and_recents_category_summary">Naviqasiya sətrini və son istifadələr icmalını özəlləşdirin</string>
+    <string name="build_tweaks_summary_title">Cihazınızı genişləndirin!</string>
+    <string name="system_animations">Sistem animasiyaları</string>
+    <string name="listview">Siyahı Görünüşü</string>
+    <string name="fod_category">FOD</string>
+    <string name="general_tweaks_title">Ümumi Düzəlişlər</string>
+    <string name="carrierlabel_title">Operator Etiketi</string>
+    <string name="misc_extensions_title">Qarışıq genişləndirmələr</string>
+    <string name="recents_ui_title">Son istifadələr interfeysi</string>
+    <string name="lockscreen_ui_title">Kilid ekranı interfeysi</string>
+    <string name="lockscreen_shortcuts">Kilid ekranı qısayolları</string>
+    <string name="lockscreen_tuner_title">Kilid ekranı kökləyici</string>
+    <string name="statusbar_items_category">Vəziyyət sətri elementləri</string>
+    <string name="notifications_title">Bildirişlər</string>
+    <string name="navigationbar_settings_title">Naviqasiyas sətri</string>
+    <string name="buttons_title">Düymələr</string>
+    <string name="customisation_title">Özəlləşdirmə</string>
+    <string name="battery_title">Batareya</string>
+    <string name="battery_category">Batareya düzəlişləri</string>
+    <string name="app_ops_category">Tətbiq əməliyyatları</string>
+    <string name="extensions_dialog_title">Sizə kömək etməyimiz üçün bizə kömək edin!</string>
+    <string name="extensions_dialog_toast">HƏR ŞEYİ OXUYUN!</string>
+    <string name="dialog_color_picker">Rəng Seçici</string>
+    <string name="press_color_to_apply">Tətbiq etmək üçün aşağıdaki rəngin üzərinə basın</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Tənzimlə</string>
+    <string name="color_default">İlkin</string>
+    <string name="edit_hint">Dəyər</string>
+    <string name="seek_value_edit_label">Dəyəri tənzimlə</string>
+    <string name="unit_seconds">Saniyə</string>
+    <string name="default_string">İlkin</string>
+    <string name="quick_settings_title">Cəld Tənzimləmələr</string>
+    <string name="quick_settings_vibrate_title">Toxunanda titrət</string>
+    <string name="quick_settings_vibrate_summary">Cəld Tənzimləmələr çərçivələrinə toxunanda titrət</string>
+    <string name="qs_tile_animation_title">Animasiyalar</string>
+    <string name="qs_tile_animation_style_title">Animasiya stili</string>
+    <string name="qs_tile_animation_duration_title">Animasiya müddəti</string>
+    <string name="qs_tile_animation_interpolator_title">Çərçivə animasiya əlavəedici</string>
+    <string name="qs_tile_animation_style_off">Animasiya yoxdur</string>
+    <string name="qs_tile_animation_style_flip">Çevir</string>
+    <string name="qs_tile_animation_style_rotate">Döndər</string>
+    <string name="qs_tile_animation_duration_low">Aşağı</string>
+    <string name="qs_tile_animation_duration_default">İlkin</string>
+    <string name="qs_tile_animation_duration_fast">Sürətli</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Xətti</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Sürətləndirmə</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Yavaşlatma</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Sürətləndir və yavaşlat</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Sıçrat</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">İrəlilət</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Təxmin et</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Aşmanı təxmin et</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+    <string name="power_menu_title">Güc menyusu</string>
+    <string name="power_menu_title_summary">Güc menyusu elementlərinə baxın və ya dəyişdirin</string>
+    <string name="powermenu_screenshot">Ekran şəkli</string>
+    <string name="powermenu_torch">Fənər</string>
+    <string name="powermenu_power">Güc</string>
+    <string name="powermenu_advanced">Qabaqcıl yenidən başlatma seçimləri</string>
+    <string name="powermenu_restart">Yenidən başlat</string>
+    <string name="powermenu_airplane">Təyyarə</string>
+    <string name="powermenu_settings">Tənzimləmələr</string>
+    <string name="powermenu_lockdown">Kilidlə</string>
+    <string name="powermenu_soundpanel">Səs Paneli</string>
+    <string name="powermenu_users">İstifadəçilər</string>
+    <string name="powermenu_logout">Çıxış</string>
+    <string name="powermenu_emergency">Fövqəladə</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Yuxulatmaq üçün kilid ekranında cüt toxunun</string>
+    <string name="double_tap_to_sleep_title">Vəziyyət sətri</string>
+    <string name="three_finger_gesture">Üç barmaq jesti</string>
+    <string name="three_finger_gesture_summary">Ekran şəklini çəkmək üçün üç barmaqla sürüşdür</string>
+    <string name="torch_power_button_gesture_title">Ekran sönülü ikən fənəri yandır/söndür</string>
+    <string name="torch_power_button_gesture_none">Sıradan çıxarıldı</string>
+    <string name="volume_rocker_music_controls_title">Musiqiyə nəzarət</string>
+    <string name="volume_panel">Səs panel stili</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Yığcam</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_miui">MIUI Yığcam</string>
+    <string name="picker_activities">Fəaliyyətlər</string>
+    <string name="select_custom_app_title">Özəl tətbiqi seç</string>
+    <string name="select_custom_activity_title">Özəl fəaliyyət seç</string>
+    <string name="profile_applist_title">Tətbiqetmələr</string>
+    <string name="choose_action_title">Əməliyyat seç</string>
+    <string name="action_entry_default_action">İlkin tənzimləmələr</string>
+    <string name="action_entry_select_app">Tətbiqetmə seç</string>
+    <string name="action_entry_custom_action">Özəl fəaliyyət seç</string>
+    <string name="hardware_keys_home_key_title">Əsas ekran düyməsi</string>
+    <string name="hardware_keys_menu_key_title">Menyu düyməsi</string>
+    <string name="hardware_keys_assist_key_title">Axtarış düyməsi</string>
+    <string name="hardware_keys_appswitch_key_title">İcmal düyməsi</string>
+    <string name="hardware_keys_back_key_title">Geri düyməsi</string>
+    <string name="show_fourg_icon_title">4G nişanı</string>
+    <string name="swap_volume_buttons_title">Yenidən yönləndir</string>
+    <string name="swap_volume_buttons_summary">Ekran döndəriləndə səs düymələrinin yerini dəyişdir</string>
+    <string name="heads_up_snooze_disabled_summary">Ertələmə vaxtölçəni sıradan çıxarıldı</string>
+    <string name="heads_up_snooze_1min">1 dəqiqə </string>
+    <string name="heads_up_snooze_5min">5 dəqiqə</string>
+    <string name="heads_up_snooze_10min">10 dəqiqə</string>
+    <string name="heads_up_snooze_15min">15 dəqiqə</string>
+    <string name="heads_up_snooze_20min">20 dəqiqə</string>
+    <string name="quick_pulldown_none">Sıradan çıxarıldı</string>
+    <string name="status_bar_clock_title">Saat tənzimləmələri</string>
+    <string name="status_bar_clock">Saat və tarix</string>
+    <string name="clock_enabled">Fəallaşdırıldı</string>
+    <string name="clock_disabled">Sıradan çıxarıldı</string>
+    <string name="status_bar_clock_style_reset">Rəngi sıfırla</string>
+    <string name="status_bar_show_clock_title">Saat və tarixi göstər</string>
+    <string name="status_bar_am_pm_title">GƏ/GS</string>
+    <string name="status_bar_am_pm_info">24-saat formatı fəaldır</string>
+    <string name="enable_clock_weekday">Həftənin günü</string>
+    <string name="dont_show">Göstərmə</string>
+    <string name="clock_date_display">Tarix</string>
+</resources>

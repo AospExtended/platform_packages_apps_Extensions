@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+      Copyright (C) 2016 AospExtended ROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="extensions_title">擴充</string>
+    <string name="add">新增</string>
+    <string name="advanced">進階</string>
+    <string name="cancel">取消</string>
+    <string name="choose_app">選擇應用程式</string>
+    <string name="default_text">預設</string>
+    <string name="general_category">一般</string>
+    <string name="gestures_category">手勢操作</string>
+    <string name="music_category">音樂</string>
+    <string name="security_category">安全性</string>
+    <string name="hardware_category">硬體</string>
+    <string name="icons_category">圖示</string>
+    <string name="aosp_recents_category">AOSP 樣式的最近使用的應用程式</string>
+    <string name="light_category">指示燈</string>
+    <string name="dlg_ok">好的</string>
+    <string name="attention">注意</string>
+    <string name="loading">載入中\u2026</string>
+    <string name="reset">重設</string>
+    <string name="reset_colors">重設顏色</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">文字</string>
+    <string name="icon_title">圖示</string>
+    <string name="color_title">顏色</string>
+    <string name="colors_title">顏色</string>
+    <string name="recents_category">最近使用的應用程式</string>
+    <string name="recents_category_summary">自訂最近使用的應用程式總覽</string>
+    <string name="status_bar_category">狀態列</string>
+    <string name="status_bar_category_summary">自訂狀態列</string>
+    <string name="notifications_panel_category">快速設定面板</string>
+    <string name="notifications_panel_category_summary">自訂快速設定面板和通知</string>
+    <string name="system_category">系統</string>
+    <string name="system_category_summary">各類系統延伸</string>
+    <string name="lockscreen_category">鎖定畫面</string>
+    <string name="lockscreen_category_summary">自訂鎖定螢幕介面</string>
+    <string name="navigation_and_recents_category">導航列</string>
+    <string name="navigation_and_recents_category_summary">自訂導航列 &amp; 最近的應用程式總覽</string>
+    <string name="build_tweaks_summary_title">擴充您的裝置！</string>
+    <string name="system_animations">系統動畫</string>
+    <string name="listview">清單顯示</string>
+    <string name="fod_category">FOD</string>
+    <string name="general_tweaks_title">一般調整</string>
+    <string name="carrierlabel_title">電信業者名稱</string>
+    <string name="misc_extensions_title">其他擴充</string>
+    <string name="recents_ui_title">最近使用的應用程式介面</string>
+    <string name="lockscreen_ui_title">鎖定螢幕介面</string>
+    <string name="lockscreen_shortcuts">鎖定螢幕捷徑</string>
+    <string name="lockscreen_tuner_title">鎖定螢幕調整器</string>
+    <string name="statusbar_items_category">狀態欄項目</string>
+    <string name="notifications_title">通知</string>
+    <string name="smart_pixels_warning_text">智慧 Pixels 是一項省電功能。這取決於你要關掉多少 Pixels，你就可以看見電池的續航力有明顯的改進。為了讓使用者有比較好的體驗，我們建議你將停用的 Pixels 數量設置為75%。</string>
+    <string name="navigationbar_settings_title">導航列</string>
+    <string name="powermenu_restart">重新啟動</string>
+    <string name="powermenu_airplane">飛航模式</string>
+    <string name="powermenu_settings">設定</string>
+    <string name="powermenu_lockdown">鎖定</string>
+    <string name="powermenu_soundpanel">音效面板</string>
+    <string name="powermenu_users">使用者</string>
+    <string name="powermenu_logout">登出</string>
+    <string name="powermenu_emergency">緊急模式</string>
+    <string name="double_tap_to_sleep_lockscreen_title">輕觸兩下鎖定螢幕即可休眠</string>
+    <string name="rounded_style_title">系統對話框的圓角樣式</string>
+    <string name="rounded_default">預設</string>
+    <string name="rounded_none">無</string>
+    <string name="rounded_slight">輕微</string>
+    <string name="rounded_medium">中等</string>
+    <string name="rounded_high">高</string>
+    <string name="rounded_extreme">更高</string>
+    <string name="switch_style_title">開關樣式</string>
+    <string name="switch_default">預設</string>
+    <string name="switch_contained">容器</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
+    <string name="statusbar_icons_style">彩色的狀態列圖示</string>
+    <string name="statusbar_icons_style_summary">選擇狀態列圖示樣式 (需要重啟 系統使用者介面)</string>
+</resources>

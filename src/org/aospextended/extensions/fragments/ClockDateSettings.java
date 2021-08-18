@@ -53,12 +53,14 @@ import java.util.List;
 public class ClockDateSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Indexable {
 
-    private static final String PREF_AM_PM_STYLE = "status_bar_am_pm";
-    private static final String PREF_CLOCK_DATE_DISPLAY = "clock_date_display";
-    private static final String PREF_CLOCK_DATE_STYLE = "clock_date_style";
-    private static final String PREF_CLOCK_DATE_FORMAT = "clock_date_format";
-    private static final String PREF_STATUS_BAR_CLOCK = "status_bar_show_clock";
-    private static final String PREF_CLOCK_DATE_POSITION = "clock_date_position";
+    private static final String PREF_AM_PM_STYLE = "statusbar_clock_am_pm_style";
+    private static final String PREF_CLOCK_DATE_DISPLAY = "statusbar_clock_date_display";
+    private static final String PREF_CLOCK_DATE_STYLE = "statusbar_clock_date_style";
+    private static final String PREF_CLOCK_DATE_FORMAT = "statusbar_clock_date_format";
+    private static final String PREF_STATUS_BAR_CLOCK = "statusbar_clock";
+    private static final String PREF_CLOCK_DATE_POSITION = "statusbar_clock_date_position";
+    private static final String PREF_CLOCK_SECONDS = "statusbar_clock_seconds";
+    private static final String PREF_CLOCK_STYLE = "statusbar_clock_style";
 
     public static final int CLOCK_DATE_STYLE_LOWERCASE = 1;
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
@@ -69,7 +71,9 @@ public class ClockDateSettings extends SettingsPreferenceFragment
     private ListPreference mClockDateStyle;
     private ListPreference mClockDateFormat;
     private ListPreference mClockDatePosition;
+    private ListPreference mStatusBarClockStyle;
     private SwitchPreference mStatusBarClock;
+    private SwitchPreference mStatusBarSecondsShow;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -124,6 +128,19 @@ public class ClockDateSettings extends SettingsPreferenceFragment
                 getActivity().getApplicationContext().getContentResolver(),
                 Settings.System.STATUSBAR_CLOCK, 1) == 1));
         mStatusBarClock.setOnPreferenceChangeListener(this);
+
+        mStatusBarSecondsShow = (SwitchPreference) findPreference(PREF_CLOCK_SECONDS);
+        mStatusBarSecondsShow.setChecked((Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_SECONDS, 0) == 1));
+        mStatusBarSecondsShow.setOnPreferenceChangeListener(this);
+
+        mStatusBarClockStyle = (ListPreference) findPreference(PREF_CLOCK_STYLE);
+
+        int clockStyle = Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_STYLE, 0);
+        mStatusBarClockStyle.setValue(String.valueOf(clockStyle));
+        mStatusBarClockStyle.setSummary(mStatusBarClockStyle.getEntry());
+        mStatusBarClockStyle.setOnPreferenceChangeListener(this);
 
         mClockDatePosition = (ListPreference) findPreference(PREF_CLOCK_DATE_POSITION);
         mClockDatePosition.setOnPreferenceChangeListener(this);
@@ -232,6 +249,18 @@ public class ClockDateSettings extends SettingsPreferenceFragment
                     Settings.System.STATUSBAR_CLOCK_DATE_POSITION, val);
             mClockDatePosition.setSummary(mClockDatePosition.getEntries()[index]);
             parseClockDateFormats();
+            return true;
+        } else if (preference == mStatusBarClockStyle) {
+            int clockStyle = Integer.parseInt((String) newValue);
+            int index = mStatusBarClockStyle.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_STYLE, clockStyle);
+            mStatusBarClockStyle.setSummary(mStatusBarClockStyle.getEntries()[index]);
+            return true;
+        } else if (preference == mStatusBarSecondsShow) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_SECONDS, value ? 1 : 0);
             return true;
         }
         return false;

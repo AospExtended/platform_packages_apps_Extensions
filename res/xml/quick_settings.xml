@@ -86,6 +86,13 @@
             android:defaultValue="true"/>
 
         <org.aospextended.extensions.preference.SecureSettingSwitchPreference
+            android:key="sysui_qqs_brightness_slider"
+            android:title="@string/quick_qs_brightness_slider_title"
+            android:summary="@string/quick_qs_brightness_slider_summary"
+            android:dependency="qs_show_brightness"
+            android:defaultValue="false"/>
+
+        <org.aospextended.extensions.preference.SecureSettingSwitchPreference
             android:key="qs_show_auto_brightness_button"
             android:title="@string/brightness_icon_title"
             android:summary="@string/brightness_icon_summary"

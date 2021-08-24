@@ -26,6 +26,12 @@
             android:title="@string/battery_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
+            android:key="battery_tweaks"
+            android:fragment="org.aospextended.extensions.fragments.BatteryTweaks"
+            android:icon="@drawable/ic_sub_battery_tweaks"
+            android:title="@string/battery_tweaks_title" />
+
+         <org.aospextended.extensions.preference.CardviewPreference
             android:key="customisation"
             android:fragment="org.aospextended.extensions.fragments.Customisation"
             android:icon="@drawable/ic_sub_customisation"

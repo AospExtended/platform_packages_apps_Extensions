@@ -16,6 +16,9 @@
 
 package org.aospextended.extensions.fragments;
 
+import static android.view.DisplayCutout.BOUNDS_POSITION_LEFT;
+import static android.view.DisplayCutout.BOUNDS_POSITION_RIGHT;
+
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -26,9 +29,11 @@ import android.database.ContentObserver;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.provider.SearchIndexableResource;
-import androidx.preference.PreferenceCategory;
+import android.util.Log;
+import android.view.View;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
@@ -46,12 +51,16 @@ import com.android.settings.Utils;
 
 import com.android.settingslib.search.Indexable;
 
+import com.android.internal.util.aospextended.AEXUtils;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class ClockDateSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Indexable {
+
+    private static final String TAG = "ClockDateSettings";
 
     private static final String PREF_AM_PM_STYLE = "statusbar_clock_am_pm_style";
     private static final String PREF_CLOCK_DATE_DISPLAY = "statusbar_clock_date_display";
@@ -155,6 +164,29 @@ public class ClockDateSettings extends SettingsPreferenceFragment
             mClockDateStyle.setEnabled(false);
             mClockDateFormat.setEnabled(false);
             mClockDatePosition.setEnabled(false);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        final boolean hasNotch = AEXUtils.hasNotch(getActivity());
+        final int notchType = AEXUtils.getCutoutType(getActivity());
+        Log.v(TAG,"notchType: " + notchType);
+
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            if (hasNotch && !(notchType == BOUNDS_POSITION_LEFT || notchType == BOUNDS_POSITION_RIGHT)) {
+                mStatusBarClockStyle.setEntries(R.array.statusbar_clock_style_entries_notch_rtl);
+                mStatusBarClockStyle.setEntryValues(R.array.statusbar_clock_style_values_notch_rtl);
+            } else {
+                mStatusBarClockStyle.setEntries(R.array.statusbar_clock_style_entries_rtl);
+                mStatusBarClockStyle.setEntryValues(R.array.statusbar_clock_style_values_rtl);
+            }
+        } else if (hasNotch && !(notchType == BOUNDS_POSITION_LEFT || notchType == BOUNDS_POSITION_RIGHT)) {
+            mStatusBarClockStyle.setEntries(R.array.statusbar_clock_style_entries_notch);
+            mStatusBarClockStyle.setEntryValues(R.array.statusbar_clock_style_values_notch);
         }
     }
 

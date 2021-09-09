@@ -576,8 +576,8 @@
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
 
-    <!-- qs tile style -->
-    <string name="qs_tile_style_title">Qs tile style</string>
+    <!-- QS tile style -->
+    <string name="qs_tile_style_title">QS tile style</string>
     <string name="qs_tile_style_default">Default</string>
     <string name="qs_tile_style_stroked">Stroked accent</string>
     <string name="qs_tile_style_accent">Tinted accent</string>
@@ -610,7 +610,7 @@
     <string name="lock_screen_custom_clock_face_typographic">Typographic</string>
     <string name="lock_screen_custom_clock_face_typographic_alt">Typographic (Centre)</string>
     <string name="clock_show_status_area">Clock status area</string>
-    <string name="clock_show_status_area_summary">Show the extra row of info under the lock clock(SysUI restart may be required)</string>
+    <string name="clock_show_status_area_summary">Show the extra row of info under the lock clock (SystemUI restart may be required)</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>

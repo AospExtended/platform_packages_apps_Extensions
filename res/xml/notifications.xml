@@ -80,6 +80,9 @@
             android:summary="@string/incall_vibrate_disconnect_summary"
             android:defaultValue="false" />
 
+        <com.android.settingslib.widget.FooterPreference
+            android:title="@string/incall_vibrate_footer" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

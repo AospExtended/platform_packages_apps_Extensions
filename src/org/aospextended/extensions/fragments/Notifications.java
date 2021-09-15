@@ -70,7 +70,6 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
         final PreferenceScreen prefSet = getPreferenceScreen();
 
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
-        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.incall_vibrate_footer);
         if (!Utils.isVoiceCapable(getActivity())) {
                 prefSet.removePreference(incallVibCategory);
         }

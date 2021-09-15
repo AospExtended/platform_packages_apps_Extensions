@@ -16,6 +16,24 @@
       "message": "missing \u003e at the end",
       "revId": "8cb31f6e5368b89caa06dbaecae7a8152f21aabc",
       "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "216a5292_579a93ef",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-09-15T03:54:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "48ef5a95_45ee0322",
+      "revId": "8cb31f6e5368b89caa06dbaecae7a8152f21aabc",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
     }
   ]
 }

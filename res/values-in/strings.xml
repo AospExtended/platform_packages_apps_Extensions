@@ -365,6 +365,10 @@
     <string name="less_boring_heads_up_summary">Tampilkan notifikasi mengambang hanya untuk aplikasi telepon atau pesan jika mereka tidak berada di latar depan</string>
     <string name="notification_guts_kill_app_button_title">Tombol matikan aplikasi</string>
     <string name="notification_guts_kill_app_button_summary">Tampilkan tombol matikan aplikasi pada saat menu notifikasi ditekan</string>
+    <string name="notification_headers_title">Tajuk Pemberitahuan</string>
+    <string name="notification_headers_summary">Tampilkan tajuk di header pemberitahuan \nMemerlukan mulai ulang SistemUI</string>
+    <string name="center_notification_headers_title">Tajuk pemberitahuan pusat</string>
+    <string name="center_notification_headers_summary">Apakah akan menampilkan tajuk pemberitahuan di tengah (Memerlukan mulai ulang SistemUI)</string>
     <string name="carrier_label_settings_title">Label Operator</string>
     <string name="carrier_label_settings_summary">Kustomisasi label operator</string>
     <string name="custom_carrier_label_title">Label operator kustom</string>
@@ -390,6 +394,10 @@
     <string name="theming_settings_dashboard_icons_plain_accent">Aksen polos</string>
     <string name="theming_settings_dashboard_icons_tinted_accent_bg">Latar belakang berwarna aksen</string>
     <string name="theming_settings_dashboard_icons_tinted_bg">Latar belakang berwarna</string>
+    <string name="system_theme_style_title">Tema Sistem</string>
+    <string name="system_theme_style_summary">Setel gaya tema kustom</string>
+    <string name="theme_customization_system_icon_title">Gaya ikon bilah status</string>
+    <string name="theme_customization_system_icon_summary">Setel gaya kustom ikon bilah status </string>
     <string name="use_old_mobiletype_title">Tipe ikon seluler kecil</string>
     <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>
     <string name="volume_panel_on_left_title">Tampilkan panel volume di kiri</string>
@@ -466,6 +474,8 @@
     <string name="gaming_mode_notifications_all_title">Tampilkan toast dan notifikasi</string>
     <string name="gaming_mode_dynamic_title">Mode dinamis</string>
     <string name="gaming_mode_dynamic_summary">Mencoba mendeteksi dan menambahkan aplikasi permainan secara otomatis</string>
+    <string name="gaming_mode_hide_incall_ui_title">Sembunyikan layar antarmuka panggilan</string>
+    <string name="gaming_mode_hide_incall_ui_summary">Sembunyikan antarmuka panggilan dan aktifkan mode speaker untuk panggilan saat mode permainan aktif</string>
     <string name="cutout_main">Potongan Tampilan</string>
     <string name="cutout_main_summary">Mereka benar-benar berhemat dengan yang satu ini</string>
     <string name="display_cutout_style_title">Gaya potongan</string>
@@ -580,6 +590,7 @@
     <string name="fod_recog_animation">Animasi pengenalan FOD</string>
     <string name="fod_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
     <string name="fod_recog_animation_effect_title">Efek animasi pengenalan</string>
+    <string name="fod_recog_animation_effect_summary">Pilih efek animasi sidik jari</string>
     <string name="fod_recog_animation_miui_normal">Bawaan MIUI</string>
     <string name="fod_recog_animation_miui_aod">AOD MIUI</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
@@ -614,4 +625,9 @@
     <string name="fod_pressed_color_green">Hijau</string>
     <string name="fod_pressed_color_yellow">Kuning</string>
     <string name="fod_pressed_color_light_yellow">Kuning Cerah</string>
+    <string name="qs_datausage_title">Penggunaan data</string>
+    <string name="qs_datausage_daily">Penggunaan harian</string>
+    <string name="qs_datausage_monthly">Penggunaan bulanan</string>
+    <string name="show_app_volume_title">Tampilkan volume aplikasi</string>
+    <string name="show_app_volume_summary">Tampilkan volume aplikasi di panel volume</string>
 </resources>

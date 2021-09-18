@@ -365,6 +365,10 @@
     <string name="less_boring_heads_up_summary">只显示不在前台运行的电话和短信的浮动通知</string>
     <string name="notification_guts_kill_app_button_title">强制关闭应用按钮</string>
     <string name="notification_guts_kill_app_button_summary">在状态栏通知的长按菜单中显示强制关闭应用按钮</string>
+    <string name="notification_headers_title">通知标题</string>
+    <string name="notification_headers_summary">在通知栏中显示通知标题\n需要重启系统界面</string>
+    <string name="center_notification_headers_title">通知标题剧中</string>
+    <string name="center_notification_headers_summary">是否要将通知标题居中\n需要重启系统界面</string>
     <string name="carrier_label_settings_title">运营商名称</string>
     <string name="carrier_label_settings_summary">自定义运营商名称</string>
     <string name="custom_carrier_label_title">自定义运营商名称</string>
@@ -390,6 +394,10 @@
     <string name="theming_settings_dashboard_icons_plain_accent">纯色（强调色）</string>
     <string name="theming_settings_dashboard_icons_tinted_accent_bg">默认背景（强调色）</string>
     <string name="theming_settings_dashboard_icons_tinted_bg">默认背景（纯色）</string>
+    <string name="system_theme_style_title">系统主题</string>
+    <string name="system_theme_style_summary">设置自定义主题样式</string>
+    <string name="theme_customization_system_icon_title">状态栏图标样式</string>
+    <string name="theme_customization_system_icon_summary">设置状态栏图标样式</string>
     <string name="use_old_mobiletype_title">小型移动数据图标</string>
     <string name="use_old_mobiletype_summary">在信号图标上方显示网络类型</string>
     <string name="volume_panel_on_left_title">音量面板居左</string>
@@ -466,6 +474,8 @@
     <string name="gaming_mode_notifications_all_title">显示 Toast 和通知</string>
     <string name="gaming_mode_dynamic_title">动态模式</string>
     <string name="gaming_mode_dynamic_summary">尝试自动检测并添加游戏应用</string>
+    <string name="gaming_mode_hide_incall_ui_title">隐藏通话界面</string>
+    <string name="gaming_mode_hide_incall_ui_summary">在游戏模式时隐藏通话界面并开启扬声器</string>
     <string name="cutout_main">刘海设置</string>
     <string name="cutout_main_summary">他们在这个上真的偷工减料</string>
     <string name="display_cutout_style_title">刘海样式</string>
@@ -575,11 +585,12 @@
     <string name="switch_retro">Retro</string>
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_android12">Android 12</string>
-    <string name="statusbar_icons_style">状态栏图标颜色</string>
-    <string name="statusbar_icons_style_summary">选择状态栏图标样式 (需要重启系统界面)</string>
+    <string name="statusbar_icons_style">状态栏图标样式</string>
+    <string name="statusbar_icons_style_summary">切换状态栏图标样式 (需要重启系统界面)</string>
     <string name="fod_recog_animation">屏幕指纹识别动画</string>
     <string name="fod_recog_animation_summary">在识别指纹时显示动画</string>
     <string name="fod_recog_animation_effect_title">屏幕指纹识别动画效果</string>
+    <string name="fod_recog_animation_effect_summary">选择指纹动画效果</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
@@ -614,4 +625,9 @@
     <string name="fod_pressed_color_green">Green</string>
     <string name="fod_pressed_color_yellow">Yellow</string>
     <string name="fod_pressed_color_light_yellow">Light Yellow</string>
+    <string name="qs_datausage_title">数据使用量</string>
+    <string name="qs_datausage_daily">每日用量</string>
+    <string name="qs_datausage_monthly">每月用量</string>
+    <string name="show_app_volume_title">显示应用音量</string>
+    <string name="show_app_volume_summary">在音量面板中显示应用音量</string>
 </resources>

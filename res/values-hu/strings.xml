@@ -365,6 +365,10 @@
     <string name="less_boring_heads_up_summary">Csak a Tárcsázó és az Üzenetek alkalmazáshoz jelenít meg feluró értesítéseket</string>
     <string name="notification_guts_kill_app_button_title">\'Alkalmazás-leállítás\' gomb</string>
     <string name="notification_guts_kill_app_button_summary">Az \'Alkalmazás-leállítás\' gomb megjelenítése az értesítés hosszan nyomási menüjében</string>
+    <string name="notification_headers_title">Értesítésszámlálók</string>
+    <string name="notification_headers_summary">Számlálók megjelenítése az értesítési sávban\nRendszerfelület-újraindítás szükséges</string>
+    <string name="center_notification_headers_title">Értesítésszámlálók középen</string>
+    <string name="center_notification_headers_summary">Az értesítésszámlálók középre helyezéséhez\nRendszerfelület-újraindítás szükséges</string>
     <string name="carrier_label_settings_title">Szolgáltatói felirat</string>
     <string name="carrier_label_settings_summary">Adjon meg egyéni szolgáltatónevet</string>
     <string name="custom_carrier_label_title">Egyéni szolgáltatónév</string>
@@ -390,6 +394,10 @@
     <string name="theming_settings_dashboard_icons_plain_accent">Egyszerű kiemelt</string>
     <string name="theming_settings_dashboard_icons_tinted_accent_bg">Kitöltött-kiemelt háttér</string>
     <string name="theming_settings_dashboard_icons_tinted_bg">Kitöltött háttér</string>
+    <string name="system_theme_style_title">Rendszertéma</string>
+    <string name="system_theme_style_summary">Egyéni témastílus beállítása</string>
+    <string name="theme_customization_system_icon_title">Állapotsori ikonstílus</string>
+    <string name="theme_customization_system_icon_summary">Egyéni állapotsor-ikonstílus beállítása</string>
     <string name="use_old_mobiletype_title">Kicsi mobiltípus-ikon</string>
     <string name="use_old_mobiletype_summary">Megjeleníti a mobiltípus-ikont a térerőkijelzés tetején</string>
     <string name="volume_panel_on_left_title">Hangerőpanel a bal oldalon</string>
@@ -466,6 +474,8 @@
     <string name="gaming_mode_notifications_all_title">Buborékszövegek és értesítések megjelenítése</string>
     <string name="gaming_mode_dynamic_title">Dinamikus mód</string>
     <string name="gaming_mode_dynamic_summary">Megkísérli automatikusan felismerni és hozzáadni a játékprogramokat</string>
+    <string name="gaming_mode_hide_incall_ui_title">Bejövő hívás felületének elrejtése</string>
+    <string name="gaming_mode_hide_incall_ui_summary">Elrejtheti a bejövő hívások felhasználói felületét, és engedélyezheti a hangszóró-módot, amikor a játékmód aktív</string>
     <string name="cutout_main">Kijelzőkivágás</string>
     <string name="cutout_main_summary">Ezzel ténylegesen levághatóak a sarkok</string>
     <string name="display_cutout_style_title">Kivágási stílus</string>
@@ -580,6 +590,7 @@
     <string name="fod_recog_animation">Ujjlenyomat-felismerési animáció</string>
     <string name="fod_recog_animation_summary">Ujjlenyomat-felismeréskor jelenítse meg az animációt</string>
     <string name="fod_recog_animation_effect_title">Felismerési animáció</string>
+    <string name="fod_recog_animation_effect_summary">Itt választhat képernyőbe épített ujjlenyomat-felismerési animációeffektust</string>
     <string name="fod_recog_animation_miui_normal">MIUI alapértelmezett</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
@@ -614,4 +625,9 @@
     <string name="fod_pressed_color_green">Zöld</string>
     <string name="fod_pressed_color_yellow">Sárga</string>
     <string name="fod_pressed_color_light_yellow">Halványsárga</string>
+    <string name="qs_datausage_title">Adathasználat</string>
+    <string name="qs_datausage_daily">Napi használat</string>
+    <string name="qs_datausage_monthly">Havi használat</string>
+    <string name="show_app_volume_title">Alkalmazás-hangerő megjelenítése</string>
+    <string name="show_app_volume_summary">A hangerőszabályozón jelenjen meg az alkalmazás-hangerő</string>
 </resources>

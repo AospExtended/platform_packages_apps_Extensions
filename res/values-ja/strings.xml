@@ -365,6 +365,10 @@
     <string name="less_boring_heads_up_summary">ダイヤラーやメッセージングアプリがフォアグラウンドではない場合は Heads Up のみを表示する</string>
     <string name="notification_guts_kill_app_button_title">アプリ終了ボタン</string>
     <string name="notification_guts_kill_app_button_summary">通知の長押しメニューにアプリ終了ボタンを表示する</string>
+    <string name="notification_headers_title">通知のヘッダー</string>
+    <string name="notification_headers_summary">通知の影にヘッダーを表示します。\nシステム UI の再起動が必要です。</string>
+    <string name="center_notification_headers_title">中央の通知ヘッダー</string>
+    <string name="center_notification_headers_summary">中央揃えの通知ヘッダーに切り替えるか選択する (システム UI の再起動が必要です)</string>
     <string name="carrier_label_settings_title">キャリアラベル</string>
     <string name="carrier_label_settings_summary">キャリアラベルを編集する</string>
     <string name="custom_carrier_label_title">カスタムキャリアラベル</string>
@@ -390,6 +394,10 @@
     <string name="theming_settings_dashboard_icons_plain_accent">無地のアクセント</string>
     <string name="theming_settings_dashboard_icons_tinted_accent_bg">色付きのアクセントの背景</string>
     <string name="theming_settings_dashboard_icons_tinted_bg">色付きの背景</string>
+    <string name="system_theme_style_title">システムテーマ</string>
+    <string name="system_theme_style_summary">カスタムのテーマスタイルを設定する</string>
+    <string name="theme_customization_system_icon_title">ステータスバーのアイコンのスタイル</string>
+    <string name="theme_customization_system_icon_summary">カスタムのステータスバーのアイコンのスタイルを設定する</string>
     <string name="use_old_mobiletype_title">小さな電波アイコン</string>
     <string name="use_old_mobiletype_summary">電波強度表示の上に通信種別を表示する</string>
     <string name="volume_panel_on_left_title">音量パネルの左側表示</string>
@@ -466,6 +474,8 @@
     <string name="gaming_mode_notifications_all_title">トーストと通知を表示</string>
     <string name="gaming_mode_dynamic_title">ダイナミックモード</string>
     <string name="gaming_mode_dynamic_summary">ゲームアプリを自動的に判別して追加しようとする</string>
+    <string name="gaming_mode_hide_incall_ui_title">通話 UI の画面を隠す</string>
+    <string name="gaming_mode_hide_incall_ui_summary">ゲームモード有効中は着信 UI を隠して通話のスピーカーモードを有効にする</string>
     <string name="cutout_main">画面の切り欠き</string>
     <string name="cutout_main_summary">彼らは本当にこれでコーナーを切りました</string>
     <string name="display_cutout_style_title">切り取りのスタイル</string>
@@ -580,6 +590,7 @@
     <string name="fod_recog_animation">指紋認証アニメーション</string>
     <string name="fod_recog_animation_summary">指紋認証中にアニメーションを表示する</string>
     <string name="fod_recog_animation_effect_title">認識アニメーション効果</string>
+    <string name="fod_recog_animation_effect_summary">認識アニメーション効果を選択する</string>
     <string name="fod_recog_animation_miui_normal">MIUI 既定</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
@@ -614,4 +625,9 @@
     <string name="fod_pressed_color_green">グリーン</string>
     <string name="fod_pressed_color_yellow">イエロー</string>
     <string name="fod_pressed_color_light_yellow">ライトイエロー</string>
+    <string name="qs_datausage_title">データ使用量</string>
+    <string name="qs_datausage_daily">毎日の使用量</string>
+    <string name="qs_datausage_monthly">毎月の使用量</string>
+    <string name="show_app_volume_title">アプリの音量を表示</string>
+    <string name="show_app_volume_summary">音量パネルにアプリ音量を表示させる (標準の音量パネルでのみ機能します)</string>
 </resources>

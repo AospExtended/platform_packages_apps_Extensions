@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+      Copyright (C) 2016 AospExtended ROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="extensions_title">Tillägg</string>
+    <string name="add">Lägg till</string>
+    <string name="advanced">Avancerat</string>
+    <string name="cancel">Avbryt</string>
+    <string name="choose_app">Välj app</string>
+    <string name="general_category">General</string>
+    <string name="gestures_category">Gester</string>
+    <string name="music_category">Musik</string>
+    <string name="security_category">Säkerhet</string>
+    <string name="hardware_category">Hårdvara</string>
+    <string name="icons_category">Ikoner</string>
+    <string name="light_category">Ljus</string>
+    <string name="dlg_ok">OK</string>
+    <string name="attention">Observera</string>
+    <string name="loading">Laddar\u2026</string>
+    <string name="reset">Återställ</string>
+    <string name="reset_colors">Återställ färger</string>
+    <string name="reset_android">Android</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Ikon</string>
+    <string name="color_title">Färg</string>
+    <string name="colors_title">Färger</string>
+    <string name="status_bar_category">Statusfält</string>
+    <string name="status_bar_category_summary">Anpassa ditt statusfält</string>
+    <string name="notifications_panel_category">QS-panel</string>
+    <string name="notifications_panel_category_summary">Anpassa din QS-panel och aviseringar</string>
+    <string name="system_category">System</string>
+    <string name="lockscreen_category">Låsskärm</string>
+    <string name="lockscreen_category_summary">Anpassa din låsskärm</string>
+    <string name="navigation_and_recents_category">Navigering</string>
+    <string name="build_tweaks_summary_title">Förläng din enhet!</string>
+    <string name="system_animations">Systemanimationer</string>
+    <string name="fod_category">FOD</string>
+    <string name="general_tweaks_title">Allmänna modifikationer</string>
+    <string name="notifications_title">Aviseringar</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerera</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Studsa</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Förutse</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+    <string name="power_menu_title">Avstängningsmeny</string>
+    <string name="powermenu_screenshot">Skärmdump</string>
+    <string name="powermenu_torch">Ficklampa</string>
+    <string name="powermenu_advanced">Avancerade alternativ för omstart</string>
+    <string name="powermenu_restart">Starta om</string>
+    <string name="powermenu_airplane">Flygplan</string>
+    <string name="powermenu_settings">Inställningar</string>
+    <string name="powermenu_soundpanel">Ljudpanel</string>
+    <string name="powermenu_users">Användare</string>
+    <string name="powermenu_logout">Logga ut</string>
+    <string name="powermenu_emergency">Nödläge</string>
+    <string name="double_tap_to_sleep_title">Statusfält</string>
+    <string name="torch_power_button_gesture_none">Inaktiverad</string>
+    <string name="volume_rocker_music_controls_title">Musikkontroll</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Kompakt</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Sida vid sida</string>
+    <string name="picker_activities">Aktiviteter</string>
+    <string name="select_custom_app_title">Välj anpassad app</string>
+    <string name="profile_applist_title">Applikationer</string>
+    <string name="add_heads_up_package">Lägg till app</string>
+    <string name="heads_up_blacklist_title">Svartlista</string>
+    <string name="profile_choose_app">Välj app</string>
+    <string name="dialog_delete_title">Ta bort</string>
+    <string name="dialog_delete_message">Ta bort valt objekt?</string>
+    <string name="heads_up_time_out_2sec">2 sekunder</string>
+    <string name="heads_up_time_out_4sec">4 sekunder</string>
+    <string name="heads_up_time_out_5sec">5 sekunder</string>
+    <string name="heads_up_time_out_6sec">6 sekunder</string>
+    <string name="heads_up_time_out_8sec">8 sekunder</string>
+    <string name="heads_up_time_out_10sec">10 sekunder</string>
+    <string name="heads_up_snooze_1min">1 minut</string>
+    <string name="heads_up_snooze_5min">5 minuter</string>
+    <string name="heads_up_snooze_10min">10 minuter</string>
+    <string name="heads_up_snooze_15min">15 minuter</string>
+    <string name="heads_up_snooze_20min">20 minuter</string>
+    <string name="quick_pulldown_none">Inaktiverad</string>
+    <string name="status_bar_clock_title">Klockinställningar</string>
+    <string name="status_bar_clock">Klocka &amp; Datum</string>
+    <string name="clock_enabled">Aktiverad</string>
+    <string name="clock_disabled">Inaktiverad</string>
+    <string name="status_bar_clock_style_reset">Återställ färg</string>
+    <string name="status_bar_am_pm_title">FM/EM</string>
+    <string name="enable_clock_weekday">Veckodag</string>
+    <string name="dont_show">Visa inte</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_style">Datumstil</string>
+    <string name="clock_date_format">Datumformat</string>
+    <string name="clock_date_string_edittext_summary">Ange sträng</string>
+    <string name="show_network_traffic_up">Uppladdning</string>
+    <string name="show_network_traffic_down">Nerladdning</string>
+    <string name="show_network_traffic_all">Både och</string>
+    <string name="cursor_section_header">Markör</string>
+    <string name="volume_key_cursor_control_off">Inaktiverad</string>
+    <string name="smart_pixels_title">Smarta pixlar</string>
+    <string name="battery_light_enable">Batteriljus</string>
+    <string name="battery_light_low_color">Låg batterinivå</string>
+    <string name="battery_light_medium_color">Medium batteri</string>
+    <string name="battery_light_full_color">Nästan fullt batteri</string>
+    <string name="battery_light_reallyfull_color">Fullt (100) batteri</string>
+</resources>

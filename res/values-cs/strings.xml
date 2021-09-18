@@ -365,6 +365,10 @@
     <string name="less_boring_heads_up_summary">Zobrazit plovoucí oznámení pouze pro aplikaci pro volání nebo zasílání zpráv, pokud neběží v popředí</string>
     <string name="notification_guts_kill_app_button_title">Tlačítko „Ukončit aplikaci“</string>
     <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko „Ukončit aplikaci“ při dlouhém stisku v nabídce oznámení</string>
+    <string name="notification_headers_title">Záhlaví oznámení</string>
+    <string name="notification_headers_summary">Zobrazit záhlaví ve stínu oznámení\nVyžaduje restart SystemUI</string>
+    <string name="center_notification_headers_title">Vycentrovat záhlaví oznámení</string>
+    <string name="center_notification_headers_summary">Vycentrovat záhlaví oznámení(vyžaduje restart SystemUI)</string>
     <string name="carrier_label_settings_title">Název operátora</string>
     <string name="carrier_label_settings_summary">Přizpůsobit název operátora</string>
     <string name="custom_carrier_label_title">Vlastní název operátora</string>
@@ -390,6 +394,10 @@
     <string name="theming_settings_dashboard_icons_plain_accent">Klasické s odstínem</string>
     <string name="theming_settings_dashboard_icons_tinted_accent_bg">Zvýraznění pozadí s odstínem</string>
     <string name="theming_settings_dashboard_icons_tinted_bg">Zvýraznění pozadí</string>
+    <string name="system_theme_style_title">Motiv systému</string>
+    <string name="system_theme_style_summary">Nastavit vlastní styl motivu</string>
+    <string name="theme_customization_system_icon_title">Ikony ve stavovém řádku</string>
+    <string name="theme_customization_system_icon_summary">Nastavit vlastní styl ikony ve stavovém řádku</string>
     <string name="use_old_mobiletype_title">Malý typ ikony mobilní sítě</string>
     <string name="use_old_mobiletype_summary">Zobrazit typ ikony mobilní sítě v horní části indikátoru signálu</string>
     <string name="volume_panel_on_left_title">Zobrazit panel hlasitosti vlevo</string>
@@ -466,6 +474,8 @@
     <string name="gaming_mode_notifications_all_title">Zobrazit oznámení Toast a oznámení</string>
     <string name="gaming_mode_dynamic_title">Dynamický režim</string>
     <string name="gaming_mode_dynamic_summary">Zkusit rozpoznat a přidat herní aplikace automaticky</string>
+    <string name="gaming_mode_hide_incall_ui_title">Skrýt UI příchozího hovoru</string>
+    <string name="gaming_mode_hide_incall_ui_summary">Při aktivním herním režimu skrýt UI příchozího hovoru a zapnout režim reproduktoru</string>
     <string name="cutout_main">Výřez displeje</string>
     <string name="cutout_main_summary">Dvakrát měř, jednou řež</string>
     <string name="display_cutout_style_title">Styl výřezu</string>
@@ -580,6 +590,7 @@
     <string name="fod_recog_animation">Animace rozpoznání otisku prstu</string>
     <string name="fod_recog_animation_summary">Zobrazit animaci při skenování otisku prstu</string>
     <string name="fod_recog_animation_effect_title">Efekt animace rozpoznávání otisku prstu</string>
+    <string name="fod_recog_animation_effect_summary">Vybrat animace rozpoznávání otisku prstu</string>
     <string name="fod_recog_animation_miui_normal">MIUI – výchozí</string>
     <string name="fod_recog_animation_miui_aod">MIUI – AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
@@ -614,4 +625,9 @@
     <string name="fod_pressed_color_green">Zelená</string>
     <string name="fod_pressed_color_yellow">Žlutá</string>
     <string name="fod_pressed_color_light_yellow">Světle žlutá</string>
+    <string name="qs_datausage_title">Využití dat</string>
+    <string name="qs_datausage_daily">Denní využití</string>
+    <string name="qs_datausage_monthly">Měsíční využití</string>
+    <string name="show_app_volume_title">Zobrazit hlasitost aplikace</string>
+    <string name="show_app_volume_summary">Zobrazit hlasitost aplikace v panelu hlasitosti</string>
 </resources>

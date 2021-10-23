@@ -30,8 +30,6 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import org.aospextended.extensions.preference.CardviewPreference;
-
 public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
@@ -47,14 +45,6 @@ public class System extends SettingsPreferenceFragment implements
 
         ContentResolver resolver = getActivity().getContentResolver();
 
-        Preference mBattery = findPreference(PREF_BATTERY);
-        if (mBattery != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_enableSmartPixels)
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            getPreferenceScreen().removePreference(mBattery);
-        }
     }
 
 
@@ -66,7 +56,6 @@ public class System extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
-        themePreferences(getPreferenceScreen());
     }
 
     @Override
@@ -77,24 +66,5 @@ public class System extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         final String key = preference.getKey();
         return true;
-    }
-
-    private void themePreferences(PreferenceGroup prefGroup) {
-        themePreference(prefGroup);
-        for (int i = 0; i < prefGroup.getPreferenceCount(); i++) {
-            Preference pref = prefGroup.getPreference(i);
-            if (pref instanceof PreferenceGroup) {
-                themePreferences(prefGroup);
-            } else {
-                themePreference(pref);
-            }
-        }
-    }
-
-    private void themePreference(Preference pref) {
-        if (pref instanceof CardviewPreference) {
-            CardviewPreference card = (CardviewPreference) pref;
-            card.updateTheme();
-        }
     }
 }

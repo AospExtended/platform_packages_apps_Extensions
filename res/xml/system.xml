@@ -19,46 +19,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="battery"
-            android:fragment="org.aospextended.extensions.fragments.Battery"
-            android:icon="@drawable/ic_sub_battery"
-            android:title="@string/battery_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="battery_tweaks"
-            android:fragment="org.aospextended.extensions.fragments.BatteryTweaks"
-            android:icon="@drawable/ic_sub_battery_tweaks"
-            android:title="@string/battery_tweaks_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="customisation"
-            android:fragment="org.aospextended.extensions.fragments.Customisation"
-            android:icon="@drawable/ic_sub_customisation"
-            android:title="@string/customisation_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="buttons"
-            android:fragment="org.aospextended.extensions.fragments.Buttons"
-            android:icon="@drawable/ic_sub_buttons"
-            android:title="@string/buttons_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="animations"
-            android:fragment="org.aospextended.extensions.fragments.Animations"
-            android:icon="@drawable/ic_sub_animations"
-            android:title="@string/animations_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="general_tweaks"
-            android:fragment="org.aospextended.extensions.fragments.GeneralTweaks"
-            android:icon="@drawable/ic_sub_general_tweaks"
-            android:title="@string/general_tweaks_title" />
-
-        <org.aospextended.extensions.preference.CardviewPreference
-            android:key="gaming_mode"
-            android:fragment="org.aospextended.extensions.fragments.GamingMode"
-            android:icon="@drawable/ic_sub_gaming"
-            android:title="@string/gaming_mode_title" />
 
 </PreferenceScreen>

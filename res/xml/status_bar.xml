@@ -19,49 +19,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="battery_bar_category"
-            android:fragment="org.aospextended.extensions.fragments.BatterySettings"
-            android:icon="@drawable/ic_sub_battery_bar"
-            android:title="@string/battery_settings_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="carrier_label"
-            android:fragment="org.aospextended.extensions.fragments.CarrierLabel"
-            android:icon="@drawable/ic_sub_carrierlabel"
-            android:title="@string/carrier_label_settings_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="status_bar_clock"
-            android:fragment="org.aospextended.extensions.fragments.ClockDateSettings"
-            android:icon="@drawable/ic_sub_status_bar_clock"
-            android:title="@string/status_bar_clock_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_category"
-            android:icon="@drawable/ic_sub_statusbar_items" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-         </org.aospextended.extensions.preference.CardviewPreference>
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="traffic"
-            android:fragment="org.aospextended.extensions.fragments.Traffic"
-            android:icon="@drawable/ic_sub_traffic"
-            android:title="@string/traffic_title" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="cutout_settings"
-            android:fragment="org.aospextended.extensions.fragments.CutoutFragment"
-            android:icon="@drawable/ic_sub_cutout"
-            android:title="@string/cutout_main" />
-
-         <org.aospextended.extensions.preference.CardviewPreference
-            android:key="misc_extensions"
-            android:fragment="org.aospextended.extensions.fragments.MiscExtensions"
-            android:icon="@drawable/ic_sub_misc_extensions"
-            android:title="@string/misc_extensions_title" />
 
 </PreferenceScreen>

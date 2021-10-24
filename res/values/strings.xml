@@ -36,7 +36,6 @@
     <string name="colors_title">Colors</string>
 
     <!-- Extensions categories -->
-    <string name="recents_category">Recents</string>
     <string name="status_bar_category">Statusbar</string>
     <string name="notifications_panel_category">QS panel</string>
     <string name="system_category">System</string>

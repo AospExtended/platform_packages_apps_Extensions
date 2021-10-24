@@ -35,7 +35,6 @@ public class NavigationAndRecents extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.navigation_and_recents);
-        setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }

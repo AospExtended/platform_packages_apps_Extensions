@@ -38,7 +38,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.status_bar);
-        setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
 

@@ -41,7 +41,6 @@ public class System extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.system);
-        setRetainInstance(true);
 
         ContentResolver resolver = getActivity().getContentResolver();
 

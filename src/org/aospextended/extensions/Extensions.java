@@ -16,6 +16,7 @@
 
 package org.aospextended.extensions;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -41,8 +42,11 @@ import android.widget.Toast;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.viewpager.widget.ViewPager;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
@@ -59,6 +63,9 @@ import org.aospextended.extensions.categories.NavigationAndRecents;
 import org.aospextended.extensions.categories.NotificationsPanel;
 import org.aospextended.extensions.categories.StatusBar;
 import org.aospextended.extensions.categories.System;
+
+import org.aospextended.extensions.navigation.BubbleNavigationConstraintView;
+import org.aospextended.extensions.navigation.BubbleNavigationChangeListener;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -78,42 +85,91 @@ public class Extensions extends SettingsPreferenceFragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         Resources res = getResources();
-        Window win = getActivity().getWindow();
-
-        win.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        win.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-        win.setNavigationBarColor(res.getColor(R.color.bottombar_bg));
-        win.setNavigationBarDividerColor(res.getColor(R.color.bottombar_bg));
 
         View view = inflater.inflate(R.layout.layout_extensions, container, false);
 
-        final ExpandableBottomBar bottomNavigation = (ExpandableBottomBar) view.findViewById(R.id.bottom_navigation);
+        BubbleNavigationConstraintView bubbleNavigationConstraintView =  (BubbleNavigationConstraintView) view.findViewById(R.id.floating_top_bar_navigation);
+        ViewPager viewPager = view.findViewById(R.id.viewpager);
+        PagerAdapter mPagerAdapter = new PagerAdapter(getFragmentManager());
+        viewPager.setAdapter(mPagerAdapter);
 
-        bottomNavigation.setOnItemSelectedListener((mView, menuItem, byUser) -> {
-            if (menuItem.getId() == R.id.status_bar_category) {
-                switchFrag(new StatusBar());
-            } else if (menuItem.getId() == R.id.notifications_panel_category) {
-                switchFrag(new NotificationsPanel());
-            } else if (menuItem.getId() == R.id.navigation_and_recents_category) {
-                switchFrag(new NavigationAndRecents());
-            } else if (menuItem.getId() == R.id.lockscreen_category) {
-                switchFrag(new Lockscreen());
-            } else if (menuItem.getId() == R.id.system_category) {
-                switchFrag(new System());
+        bubbleNavigationConstraintView.setNavigationChangeListener(new BubbleNavigationChangeListener() {
+            @Override
+            public void onNavigationChanged(View view, int position) {
+                if (view.getId() == R.id.status_bar_category) {
+                    viewPager.setCurrentItem(position, true);
+                } else if (view.getId() == R.id.notifications_panel_category) {
+                    viewPager.setCurrentItem(position, true);
+                } else if (view.getId() == R.id.navigation_and_recents_category) {
+                    viewPager.setCurrentItem(position, true);
+                } else if (view.getId() == R.id.lockscreen_category) {
+                    viewPager.setCurrentItem(position, true);
+                } else if (view.getId() == R.id.system_category) {
+                    viewPager.setCurrentItem(position, true);
+                }
             }
-            return null;
+        });
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int i, float v, int i1) {
+            }
+
+            @Override
+            public void onPageSelected(int i) {
+                bubbleNavigationConstraintView.setCurrentActiveItem(i);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int i) {
+            }
         });
 
         setHasOptionsMenu(true);
-        Fragment fragment = (Fragment) getFragmentManager().findFragmentById(R.id.fragment_frame);
-        if (fragment == null) {
-            getFragmentManager().beginTransaction().replace(R.id.fragment_frame, new StatusBar()).commit();
-        }
+
         return view;
     }
 
-    private void switchFrag(Fragment fragment) {
-        getFragmentManager().beginTransaction().replace(R.id.fragment_frame, fragment).commit();
+    class PagerAdapter extends FragmentPagerAdapter {
+
+        String titles[] = getTitles();
+        private Fragment frags[] = new Fragment[titles.length];
+
+        PagerAdapter(FragmentManager fm) {
+            super(fm);
+            frags[0] = new StatusBar();
+            frags[1] = new NotificationsPanel();
+            frags[2] = new NavigationAndRecents();
+            frags[3] = new Lockscreen();
+            frags[4] = new System();
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return frags[position];
+        }
+
+        @Override
+        public int getCount() {
+            return frags.length;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return titles[position];
+        }
+    }
+
+    private String[] getTitles() {
+        String titleString[];
+        titleString = new String[]{
+            getString(R.string.status_bar_category),
+            getString(R.string.notifications_panel_category),
+            getString(R.string.navigation_and_recents_category),
+            getString(R.string.lockscreen_category),
+            getString(R.string.system_category)};
+
+        return titleString;
     }
 
     @Override

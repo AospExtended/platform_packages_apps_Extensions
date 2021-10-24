@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015-2020 AospExtended ROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+<declare-styleable name="BubbleToggleView">
+        <attr name="extensions_icon" format="reference" />
+        <attr name="extensions_iconWidth" format="dimension" />
+        <attr name="extensions_iconHeight" format="dimension" />
+        <attr name="extensions_shape" format="reference" />
+        <attr name="extensions_shapeColor" format="color" />
+        <attr name="extensions_showShapeAlways" format="boolean" />
+        <attr name="extensions_title" format="string" />
+        <attr name="extensions_titleSize" format="dimension" />
+        <attr name="extensions_colorActive" format="color" />
+        <attr name="extensions_colorInactive" format="color" />
+        <attr name="extensions_active" format="boolean" />
+        <attr name="extensions_duration" format="integer" />
+        <attr name="extensions_padding" format="dimension" />
+        <attr name="extensions_titlePadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="BubbleNavigationConstraintView">
+        <attr name="extensions_mode">
+            <enum name="spread" value="0" />
+            <enum name="inside" value="1" />
+            <enum name="packed" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DialogSeekBar">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="defaultQsValue" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
+</resources>

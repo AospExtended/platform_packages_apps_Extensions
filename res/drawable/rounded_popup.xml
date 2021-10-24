@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?android:attr/colorBackgroundFloating"/>
+    <corners android:radius="8dp" />
+    <!--    <corners android:radius="@*android:dimen/config_dialogCornerRadius" /> -->
+    tools:ignore="NewApi" />
+</shape>

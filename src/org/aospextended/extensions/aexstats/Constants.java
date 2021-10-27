@@ -12,7 +12,7 @@ public class Constants {
     public static final String SUCCESS = "success";
     public static final String FAILURE = "failure";
     public static final String IS_FIRST_LAUNCH = "isFirstLaunch";
-    public static final String LAST_BUILD_DATE = "lastBuild";
+    public static final String LAST_VERSION_INCREMENTAL = "lastVersionIncremental";
     public static final String LAST_EXTENDED_FINGERPRINT = "lastBuildFingerprint";
 
     public static final String KEY_DEVICE = "ro.aex.device";

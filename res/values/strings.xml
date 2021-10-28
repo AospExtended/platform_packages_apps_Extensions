@@ -423,7 +423,7 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_title">Battery Bar</string>
     <string name="battery_bar_summary">Display and customize battery bar near status bar or navigation bar</string>
     <string name="battery_bar">Battery bar location</string>
     <string name="battery_bar_no_navbar">Battery bar location</string>
@@ -457,7 +457,7 @@
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier label</string>
+    <string name="carrier_label_settings_title">Carrier Label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>

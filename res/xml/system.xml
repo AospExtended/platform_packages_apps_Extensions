@@ -20,10 +20,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
      <org.aospextended.support.preference.CardviewPreference
-        android:key="general_tweaks"
-        android:fragment="org.aospextended.extensions.fragments.GeneralTweaks"
-        android:icon="@drawable/ic_general_tweaks"
-        android:title="@string/general_tweaks_title" />
+        android:key="battery"
+        android:fragment="org.aospextended.extensions.fragments.Battery"
+        android:icon="@drawable/ic_battery"
+        android:title="@string/battery_title" />
 
      <org.aospextended.support.preference.CardviewPreference
         android:key="buttons"
@@ -32,9 +32,9 @@
         android:title="@string/buttons_title" />
 
      <org.aospextended.support.preference.CardviewPreference
-        android:key="battery"
-        android:fragment="org.aospextended.extensions.fragments.Battery"
-        android:icon="@drawable/ic_battery"
-        android:title="@string/battery_title" />
+        android:key="general_tweaks"
+        android:fragment="org.aospextended.extensions.fragments.GeneralTweaks"
+        android:icon="@drawable/ic_general_tweaks"
+        android:title="@string/general_tweaks_title" />
 
 </PreferenceScreen>

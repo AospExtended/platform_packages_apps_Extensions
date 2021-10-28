@@ -16,16 +16,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <org.aospextended.support.preference.CardviewPreference
-            android:key="quick_settings"
-            android:fragment="org.aospextended.extensions.fragments.QuickSettings"
-            android:icon="@drawable/ic_quicksettings"
-            android:title="@string/quick_settings_title" />
+    <org.aospextended.support.preference.CardviewPreference
+        android:key="notifications"
+        android:fragment="org.aospextended.extensions.fragments.Notifications"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/notifications_title" />
 
-         <org.aospextended.support.preference.CardviewPreference
-            android:key="notifications"
-            android:fragment="org.aospextended.extensions.fragments.Notifications"
-            android:icon="@drawable/ic_notification"
-            android:title="@string/notifications_title" />
+    <org.aospextended.support.preference.CardviewPreference
+        android:key="quick_settings"
+        android:fragment="org.aospextended.extensions.fragments.QuickSettings"
+        android:icon="@drawable/ic_quicksettings"
+        android:title="@string/quick_settings_title" />
 
 </PreferenceScreen>

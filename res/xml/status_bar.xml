@@ -20,6 +20,24 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <org.aospextended.support.preference.CardviewPreference
+        android:key="battery_bar_category"
+        android:fragment="org.aospextended.extensions.fragments.BatteryBar"
+        android:icon="@drawable/ic_battery_bar"
+        android:title="@string/battery_bar_title" />
+
+   <org.aospextended.support.preference.CardviewPreference
+        android:key="carrier_label"
+        android:fragment="org.aospextended.extensions.fragments.CarrierLabel"
+        android:icon="@drawable/ic_carrierlabel"
+        android:title="@string/carrier_label_settings_title" />
+
+    <org.aospextended.support.preference.CardviewPreference
+        android:key="status_bar_clock"
+        android:fragment="org.aospextended.extensions.fragments.ClockDateSettings"
+        android:icon="@drawable/ic_status_bar_clock"
+        android:title="@string/status_bar_clock_title" />
+
+    <org.aospextended.support.preference.CardviewPreference
         android:key="systemui_tuner_statusbar"
         android:title="@string/statusbar_items_category"
         android:icon="@drawable/ic_statusbar_items" >
@@ -29,28 +47,10 @@
     </org.aospextended.support.preference.CardviewPreference>
 
     <org.aospextended.support.preference.CardviewPreference
-        android:key="status_bar_clock"
-        android:fragment="org.aospextended.extensions.fragments.ClockDateSettings"
-        android:icon="@drawable/ic_status_bar_clock"
-        android:title="@string/status_bar_clock_title" />
-
-    <org.aospextended.support.preference.CardviewPreference
-        android:key="battery_bar_category"
-        android:fragment="org.aospextended.extensions.fragments.BatteryBar"
-        android:icon="@drawable/ic_battery_bar"
-        android:title="@string/battery_bar_title" />
-
-    <org.aospextended.support.preference.CardviewPreference
         android:key="traffic"
         android:fragment="org.aospextended.extensions.fragments.Traffic"
         android:icon="@drawable/ic_traffic"
         android:title="@string/traffic_title" />
-
-     <org.aospextended.support.preference.CardviewPreference
-        android:key="carrier_label"
-        android:fragment="org.aospextended.extensions.fragments.CarrierLabel"
-        android:icon="@drawable/ic_carrierlabel"
-        android:title="@string/carrier_label_settings_title" />
 
     <org.aospextended.support.preference.CardviewPreference
         android:key="misc_extensions"

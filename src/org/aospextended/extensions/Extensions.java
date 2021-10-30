@@ -51,7 +51,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import github.com.st235.lib_expandablebottombar.ExpandableBottomBar;
 
 import org.aospextended.extensions.aexstats.Constants;
 import org.aospextended.extensions.aexstats.RequestInterface;

@@ -512,4 +512,8 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
+    <!-- Call strength icons in QS -->
+    <string name="show_qs_call_strength_icon_title">Show call strength icon(s)</string>
+    <string name="show_qs_call_strength_icon_summary">Show call strength icons in QuickSettings panel when available</string>
+
 </resources>

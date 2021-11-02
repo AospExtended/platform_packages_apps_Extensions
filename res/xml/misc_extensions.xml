@@ -62,6 +62,13 @@
              android:summary="@string/flag_combined_status_bar_signal_icons_summary"
              android:defaultValue="false" />
 
+         <org.aospextended.support.preference.SecureSettingSwitchPreference
+            android:key="hide_qs_call_strength"
+            android:title="@string/show_qs_call_strength_icon_title"
+            android:summary="@string/show_qs_call_strength_icon_summary"
+            android:dependency="flag_combined_status_bar_signal_icons"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

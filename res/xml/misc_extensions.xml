@@ -38,6 +38,12 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+     <org.aospextended.support.preference.SystemSettingSwitchPreference
+        android:key="status_bar_brightness_control"
+        android:title="@string/status_bar_toggle_brightness"
+        android:summary="@string/status_bar_toggle_brightness_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 

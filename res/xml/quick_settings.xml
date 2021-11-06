@@ -43,6 +43,12 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
+        <org.aospextended.support.preference.SystemSettingSwitchPreference
+            android:key="use_tiles_on_secure_keyguard"
+            android:title="@string/use_tiles_on_secure_keyguard_title"
+            android:summary="@string/use_tiles_on_secure_keyguard_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

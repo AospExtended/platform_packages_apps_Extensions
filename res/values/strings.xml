@@ -535,4 +535,8 @@
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">Udfps haptic feedback</string>
     <string name="udfps_haptic_feedback_summary">Vibrate when touching udfps icon</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
 </resources>

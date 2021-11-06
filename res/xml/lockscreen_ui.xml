@@ -33,6 +33,12 @@
         android:summary="@string/fprint_error_vib_summary"
         android:persistent="true" />
 
+    <org.aospextended.support.preference.SystemSettingSwitchPreference
+        android:key="udfps_haptic_feedback"
+        android:title="@string/udfps_haptic_feedback_title"
+        android:summary="@string/udfps_haptic_feedback_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -535,4 +535,9 @@
     <!-- Tiles on secure keyguard -->
     <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
     <string name="use_tiles_on_secure_keyguard_summary">Ask to unlock lockscreen when using sensitive tiles</string>
+
+    <!-- Combined signal icons -->
+    <string name="flag_combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="flag_combined_status_bar_signal_icons_summary">Enable combined signal icons in statusbar</string>
+
 </resources>

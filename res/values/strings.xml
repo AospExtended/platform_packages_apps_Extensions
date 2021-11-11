@@ -512,4 +512,7 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
+    <!-- Combined signal icons -->
+    <string name="flag_combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="flag_combined_status_bar_signal_icons_summary">Enable combined signal icons in statusbar</string>
 </resources>

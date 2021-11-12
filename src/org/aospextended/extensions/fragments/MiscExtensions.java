@@ -87,15 +87,14 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
-	    mShowAexLogo = (SwitchPreference) findPreference(KEY_STATUS_BAR_LOGO);
+        mShowAexLogo = (SwitchPreference) findPreference(KEY_STATUS_BAR_LOGO);
         mShowAexLogo.setChecked((Settings.System.getInt(getContentResolver(),
              Settings.System.STATUS_BAR_LOGO, 0) == 1));
         mShowAexLogo.setOnPreferenceChangeListener(this);
 
         mEnableCombinedSignalIcons = (SwitchPreference) findPreference(COMBINED_SIGNAL_ICONS);
-        String def = Settings.System.getString(getContentResolver(),
-                 COMBINED_SIGNAL_ICONS);
-        mEnableCombinedSignalIcons.setChecked(def != null && Integer.parseInt(def) == 1);
+        mEnableCombinedSignalIcons.setChecked((Settings.Secure.getInt(getContentResolver(),
+             Settings.Secure.SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS, 0) == 1));
         mEnableCombinedSignalIcons.setOnPreferenceChangeListener(this);
 
         mLocationIndicator = (SecureSettingSwitchPreference) findPreference(LOCATION_INDICATOR);
@@ -132,8 +131,8 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
             return true;
         } else if  (preference == mEnableCombinedSignalIcons) {
             boolean value = (Boolean) objValue;
-            Settings.System.putString(getActivity().getContentResolver(),
-                    COMBINED_SIGNAL_ICONS, value ? "1" : "0");
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS, value ? 1 : 0);
             AEXUtils.showSystemUiRestartDialog(getActivity());
             return true;
         }

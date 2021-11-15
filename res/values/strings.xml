@@ -575,4 +575,9 @@
 
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
+
+    <!-- Location privacy indicator -->
+    <string name="location_privacy_indicator_title">Location access indicator</string>
+    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip\nNeeds a reboot to take effect</string>
+    <string name="location_privacy_indicator_summary_off">Show location in status bar icons\nNeeds a reboot to take effect</string>
 </resources>

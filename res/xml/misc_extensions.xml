@@ -69,6 +69,13 @@
             android:summary="@string/bluetooth_battery_summary"
             android:defaultValue="true"/>
 
+         <org.aospextended.support.preference.SecureSettingSwitchPreference
+            android:key="enable_location_privacy_indicator"
+            android:title="@string/location_privacy_indicator_title"
+            android:summaryOn="@string/location_privacy_indicator_summary_on"
+            android:summaryOff="@string/location_privacy_indicator_summary_off"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

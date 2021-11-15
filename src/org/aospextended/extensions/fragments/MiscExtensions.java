@@ -33,6 +33,7 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
+import android.provider.DeviceConfig;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.WindowManagerGlobal;
@@ -50,14 +51,19 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.util.aospextended.AEXUtils;
 import com.android.settings.Utils;
 
+import org.aospextended.support.preference.SecureSettingSwitchPreference;
+
 public class MiscExtensions extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
+    private static final String LOCATION_DEVICE_CONFIG = "location_indicators_enabled";
+    private static final String LOCATION_INDICATOR = "enable_location_privacy_indicator";
 
     private static final String COMBINED_SIGNAL_ICONS = "combined_status_bar_signal_icons";
 
     private SwitchPreference mShowAexLogo;
     private SwitchPreference mEnableCombinedSignalIcons;
+    private SecureSettingSwitchPreference mLocationIndicator;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -78,6 +84,13 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
                  COMBINED_SIGNAL_ICONS);
         mEnableCombinedSignalIcons.setChecked(def != null && Integer.parseInt(def) == 1);
         mEnableCombinedSignalIcons.setOnPreferenceChangeListener(this);
+
+        mLocationIndicator = (SecureSettingSwitchPreference) findPreference(LOCATION_INDICATOR);
+        boolean locIndicator = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+                LOCATION_DEVICE_CONFIG, false);
+        mLocationIndicator.setDefaultValue(locIndicator);
+        mLocationIndicator.setChecked(Settings.Secure.getInt(resolver,
+                LOCATION_INDICATOR, locIndicator ? 1 : 0) == 1);
     }
 
     @Override

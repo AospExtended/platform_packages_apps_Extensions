@@ -67,6 +67,12 @@
             android:summary="@string/qs_running_services_summary"
             android:defaultValue="false" />
 
+        <org.aospextended.support.preference.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:title="@string/qs_show_battery_estimate_title"
+            android:summary="@string/qs_show_battery_estimate_summary"
+            android:defaultValue="true"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2017 AospExtended ROM Project
  *
@@ -25,6 +26,7 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
 import androidx.preference.Preference;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceCategory;
@@ -45,13 +47,17 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.aospextended.AEXUtils;
 import com.android.settings.Utils;
 
 public class MiscExtensions extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
 
+    private static final String COMBINED_SIGNAL_ICONS = "combined_status_bar_signal_icons";
+
     private SwitchPreference mShowAexLogo;
+    private SwitchPreference mEnableCombinedSignalIcons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,6 +72,12 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         mShowAexLogo.setChecked((Settings.System.getInt(getContentResolver(),
              Settings.System.STATUS_BAR_LOGO, 0) == 1));
         mShowAexLogo.setOnPreferenceChangeListener(this);
+
+        mEnableCombinedSignalIcons = (SwitchPreference) findPreference(COMBINED_SIGNAL_ICONS);
+        String def = Settings.System.getString(getContentResolver(),
+                 COMBINED_SIGNAL_ICONS);
+        mEnableCombinedSignalIcons.setChecked(def != null && Integer.parseInt(def) == 1);
+        mEnableCombinedSignalIcons.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -84,6 +96,12 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
+            return true;
+        } else if  (preference == mEnableCombinedSignalIcons) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putString(getActivity().getContentResolver(),
+                    COMBINED_SIGNAL_ICONS, value ? "1" : "0");
+            AEXUtils.showSystemUiRestartDialog(getActivity());
             return true;
         }
         return false;

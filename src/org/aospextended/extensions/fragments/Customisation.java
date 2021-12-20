@@ -53,12 +53,16 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.android.internal.util.aospextended.ThemeUtils;
+
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
+import org.aospextended.extensions.preference.FontListPreference;
 import org.aospextended.support.colorpicker.ColorPickerPreference;
+import org.aospextended.support.preference.CardviewPreference;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -70,9 +74,13 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
 
+    private static final String SYSTEM_FONT_STYLE = "android.theme.customization.font";
+
     private Context mContext;
+    private ThemeUtils mThemeUtils;
 
     private ColorPickerPreference mMonetColor;
+    private FontListPreference mFontPreference;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -81,6 +89,7 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         addPreferencesFromResource(R.xml.customisation);
 
         mContext = getActivity();
+        mThemeUtils = new ThemeUtils(mContext);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen screen = getPreferenceScreen();
@@ -91,6 +100,10 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         mMonetColor.setNewPreviewColor(intColor);
         mMonetColor.setSummary(hexColor);
         mMonetColor.setOnPreferenceChangeListener(this);
+
+        mFontPreference = (FontListPreference) screen.findPreference(SYSTEM_FONT_STYLE);
+        mFontPreference.setOnPreferenceChangeListener(this);
+        updateState((ListPreference) mFontPreference);
     }
 
     @Override
@@ -101,6 +114,7 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
     @Override
     public void onResume() {
         super.onResume();
+        updateState((ListPreference) mFontPreference);
     }
 
     @Override
@@ -114,7 +128,27 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
             Settings.Secure.putInt(resolver,
                 MONET_ENGINE_COLOR_OVERRIDE, intHex);
             return true;
+        } else if (preference == mFontPreference) {
+            mThemeUtils.setOverlayEnabled(SYSTEM_FONT_STYLE, (String) newValue);
+            return true;
         }
         return false;
+    }
+
+    public void updateState(ListPreference preference) {
+        String currentPackageName = mThemeUtils.getOverlayInfos(preference.getKey()).stream()
+                .filter(info -> info.isEnabled())
+                .map(info -> info.packageName)
+                .findFirst()
+                .orElse("Default");
+
+        List<String> pkgs = mThemeUtils.getOverlayPackagesForCategory(preference.getKey());
+        List<String> labels = mThemeUtils.getLabels(preference.getKey());
+
+
+        preference.setEntries(labels.toArray(new String[labels.size()]));
+        preference.setEntryValues(pkgs.toArray(new String[pkgs.size()]));
+        preference.setValue("Default".equals(currentPackageName) ? pkgs.get(0) : currentPackageName);
+        preference.setSummary("Default".equals(currentPackageName) ? "Default" : labels.get(pkgs.indexOf(currentPackageName)));
     }
 }

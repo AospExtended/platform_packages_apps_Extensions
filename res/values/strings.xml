@@ -47,6 +47,7 @@
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="listview">ListView</string>
     <string name="light_category">Lights</string>
+    <string name="udfps_category">Udfps</string>
 
     <!-- Frags -->
     <!-- Buttons -->
@@ -561,4 +562,15 @@
 
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">Device default</string>
+
+    <!-- Udfps animations -->
+    <string name="udfps_recog_animation">Udfps animation</string>
+    <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="udfps_recog_animation_effect_title">Udfps animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+
+    <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">Udfps icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+
 </resources>

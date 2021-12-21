@@ -24,4 +24,6 @@
     <color name="default_inactive_color">@*android:color/system_neutral2_500</color>
     <color name="default_shape_inactive_color">@*android:color/system_neutral2_700</color>
     <color name="tab_bg">@*android:color/surface_variant_dark</color>
+
+    <color name="option_border_default">#ffffff</color>
 </resources>

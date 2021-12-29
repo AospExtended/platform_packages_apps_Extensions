@@ -473,6 +473,9 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
     <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Monet Engine</string>
+    <string name="monet_engine_summary">Customise monet parameters</string>
     <string name="monet_engine_custom_color_title">Use custom color</string>
     <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
     <string name="monet_engine_color_override_title">Custom color</string>

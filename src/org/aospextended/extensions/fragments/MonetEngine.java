@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 AospExtended ROM Project
+ * Copyright (C) 2021 AospExtended ROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -64,22 +64,31 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Customisation extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class MonetEngine extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    private static final String TAG = "Customisation";
+    private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
 
     private Context mContext;
+
+    private ColorPickerPreference mMonetColor;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.customisation);
+        addPreferencesFromResource(R.xml.monet_settings);
 
         mContext = getActivity();
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen screen = getPreferenceScreen();
+
+        mMonetColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_COLOR_OVERRIDE);
+        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
+        String hexColor = String.format("#%08x", (0xffffff & intColor));
+        mMonetColor.setNewPreviewColor(intColor);
+        mMonetColor.setSummary(hexColor);
+        mMonetColor.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -94,6 +103,16 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mMonetColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer
+                .parseInt(String.valueOf(newValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.Secure.putInt(resolver,
+                MONET_ENGINE_COLOR_OVERRIDE, intHex);
+            return true;
+        }
         return false;
     }
 }

@@ -58,7 +58,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
+import org.aospextended.extensions.preference.FontListPreference;
 import org.aospextended.support.colorpicker.ColorPickerPreference;
+import org.aospextended.support.preference.CardviewPreference;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -81,6 +83,7 @@ public class Customisation extends SettingsPreferenceFragment implements OnPrefe
         addPreferencesFromResource(R.xml.customisation);
 
         mContext = getActivity();
+        mThemeUtils = new ThemeUtils(mContext);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen screen = getPreferenceScreen();

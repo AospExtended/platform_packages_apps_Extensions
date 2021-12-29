@@ -27,4 +27,5 @@
     <color name="bottom_inactive">#99000000</color>
     <color name="bottombar_ripple">#1f000000</color>
 
+    <color name="option_border_default">@color/edit_background_base</color>
 </resources>

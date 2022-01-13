@@ -51,5 +51,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen"
+        android:title="@string/lockscreen">
+
+    <org.aospextended.support.preference.SystemSettingSwitchPreference
+               android:key="ls_smol_clock" 
+               android:title="@string/small_clock"
+               android:summary="@string/small_clock_summary"
+               android:defaultValue="false"/>
+
+     </PreferenceCategory>
 </PreferenceScreen>
 

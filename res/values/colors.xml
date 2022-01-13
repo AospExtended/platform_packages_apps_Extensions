@@ -30,4 +30,5 @@
     <color name="google_grey700">#5f6368</color>
     <color name="edit_background_base">@color/google_grey700</color>
     <color name="option_border_default">@color/edit_background_base</color>
+
 </resources>

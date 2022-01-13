@@ -47,6 +47,7 @@
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="listview">ListView</string>
     <string name="light_category">Lights</string>
+    <string name="Lockscreen_category">Lockscreen</string>
 
     <!-- Frags -->
     <!-- Buttons -->
@@ -564,4 +565,9 @@
 
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">Device default</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen">Lockscreen</string>
+    <string name="small_clock">Always use small clock</string>
+    <string name="small_clock_summary">Fully disable big clock and always use small clock</string>
 </resources>

@@ -57,13 +57,16 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
 
     private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
     private static final String LOCATION_DEVICE_CONFIG = "location_indicators_enabled";
+    private static final String CAMERA_DEVICE_CONFIG = "camera_indicators_enabled";
     private static final String LOCATION_INDICATOR = "enable_location_privacy_indicator";
+    private static final String CAMERA_INDICATOR = "enable_camera_privacy_indicator";
 
     private static final String COMBINED_SIGNAL_ICONS = "combined_status_bar_signal_icons";
 
     private SwitchPreference mShowAexLogo;
     private SwitchPreference mEnableCombinedSignalIcons;
     private SecureSettingSwitchPreference mLocationIndicator;
+    private SecureSettingSwitchPreference mCamIndicator;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -91,6 +94,13 @@ public class MiscExtensions extends SettingsPreferenceFragment implements OnPref
         mLocationIndicator.setDefaultValue(locIndicator);
         mLocationIndicator.setChecked(Settings.Secure.getInt(resolver,
                 LOCATION_INDICATOR, locIndicator ? 1 : 0) == 1);
+
+        mCamIndicator = (SecureSettingSwitchPreference) findPreference(CAMERA_INDICATOR);
+        boolean camIndicator = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+                CAMERA_DEVICE_CONFIG, false);
+        mCamIndicator.setDefaultValue(camIndicator);
+        mCamIndicator.setChecked(Settings.Secure.getInt(resolver,
+                CAMERA_INDICATOR, camIndicator ? 1 : 0) == 1);
     }
 
     @Override

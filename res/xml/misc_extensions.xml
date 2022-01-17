@@ -76,6 +76,13 @@
             android:summaryOff="@string/location_privacy_indicator_summary_off"
             android:defaultValue="false" />
 
+         <org.aospextended.support.preference.SecureSettingSwitchPreference
+            android:key="enable_camera_privacy_indicator"
+            android:title="@string/camera_privacy_indicator_title"
+            android:summaryOn="@string/camera_privacy_indicator_summary_on"
+            android:summaryOff="@string/camera_privacy_indicator_summary_off"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

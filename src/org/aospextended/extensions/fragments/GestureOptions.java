@@ -56,6 +56,7 @@ public class GestureOptions extends GestureSettings implements
     private static final String KEY_PREVENT_RINGING = "gesture_prevent_ringing_summary";
     private static final String KEY_GESTURE_GLOBAL_ACTIONS_PANEL = "gesture_global_actions_panel_summary";
     private static final String KEY_GESTURE_COLUMBUS = "gesture_columbus";
+    private static final String KEY_GESTURE_ADAPTIVE_PLAYBACK = "gesture_adaptive_playback_summary";
 
     private ContentResolver mContentResolver;
     private SwitchPreference mDoubleTapStatusBarToSleep;
@@ -115,6 +116,7 @@ public class GestureOptions extends GestureSettings implements
                     keys.add(KEY_PREVENT_RINGING);
                     keys.add(KEY_GESTURE_GLOBAL_ACTIONS_PANEL);
                     keys.add(KEY_GESTURE_COLUMBUS);
+                    keys.add(KEY_GESTURE_ADAPTIVE_PLAYBACK);
                     return keys;
                 }
             };

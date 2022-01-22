@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1930dc95_02f8ab88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-01-22T12:44:15Z",
+      "side": 1,
+      "message": "http://gerrit.aospextended.com/c/AospExtended/platform_packages_apps_Extensions/+/3637",
+      "revId": "d4956bb02f1d7270e417d0b858ed5afcc1de68b1",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "da50b6de_05eff7d8",

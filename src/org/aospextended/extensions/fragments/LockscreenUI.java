@@ -58,10 +58,13 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 
+    private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
+
     private FingerprintManager mFingerprintManager;
     private SystemSettingSwitchPreference mFingerprintSuccessVib;
     private SystemSettingSwitchPreference mFingerprintErrorVib;
     private SystemSettingSwitchPreference mUdfpsHapticFeedback;
+    private SystemSettingSwitchPreference mRippleEffect;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,6 +83,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mFingerprintSuccessVib = findPreference(FINGERPRINT_SUCCESS_VIB);
         mFingerprintErrorVib = findPreference(FINGERPRINT_ERROR_VIB);
         mUdfpsHapticFeedback = findPreference(UDFPS_HAPTIC_FEEDBACK);
+        mRippleEffect = findPreference(KEY_RIPPLE_EFFECT);
 
         if (mPm.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT) &&
                  mFingerprintManager != null) {
@@ -92,6 +96,9 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
                 mFingerprintErrorVib.setChecked((Settings.System.getInt(getContentResolver(),
                         Settings.System.FP_ERROR_VIBRATE, 1) == 1));
                 mFingerprintErrorVib.setOnPreferenceChangeListener(this);
+                mRippleEffect.setChecked((Settings.System.getInt(getContentResolver(),
+                        Settings.System.ENABLE_RIPPLE_EFFECT, 1) == 1));
+                mRippleEffect.setOnPreferenceChangeListener(this);
                 if (UdfpsUtils.hasUdfpsSupport(getActivity())) {
                     mUdfpsHapticFeedback.setChecked((Settings.System.getInt(getContentResolver(),
                             Settings.System.UDFPS_HAPTIC_FEEDBACK, 1) == 1));
@@ -131,6 +138,11 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.UDFPS_HAPTIC_FEEDBACK, value ? 1 : 0);
+            return true;
+        } else if (preference == mRippleEffect) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ENABLE_RIPPLE_EFFECT, value ? 1 : 0);
             return true;
         }
         return false;

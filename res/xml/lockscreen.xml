@@ -21,9 +21,12 @@
 
      <org.aospextended.support.preference.CardviewPreference
          android:key="lockscreen_shortcuts"
-         android:fragment="org.aospextended.extensions.fragments.LockscreenShortcuts"
          android:icon="@drawable/ic_lockscreen_shortcuts"
-         android:title="@string/lockscreen_shortcuts" />
+         android:title="@string/lockscreen_shortcuts">
+         <intent android:action="android.intent.action.MAIN"
+              android:targetPackage="com.android.systemui"
+              android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+     </org.aospextended.support.preference.CardviewPreference>
 
      <org.aospextended.support.preference.CardviewPreference
          android:key="lockscreen_ui"

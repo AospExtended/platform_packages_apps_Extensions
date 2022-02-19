@@ -40,11 +40,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.content.res.ResourcesCompat;
 import androidx.core.graphics.ColorUtils;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.Preference;
@@ -68,7 +66,6 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import org.json.JSONException;
@@ -90,7 +87,6 @@ public class IconShapes extends SettingsPreferenceFragment {
 
         mThemeUtils = new ThemeUtils(getActivity());
         mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, "android");
-        Collections.sort(mPkgs);
     }
 
     @Override
@@ -204,6 +200,6 @@ public class IconShapes extends SettingsPreferenceFragment {
     }
 
     public void enableOverlays(int position) {
-        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position));
+        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "android");
     }
 }

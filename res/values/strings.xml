@@ -47,7 +47,7 @@
     <string name="build_tweaks_summary_title">Extend your device!</string>
     <string name="listview">ListView</string>
     <string name="light_category">Lights</string>
-    <string name="udfps_category">Udfps</string>
+    <string name="udfps_category">UDFPS</string>
 
     <!-- Frags -->
     <!-- Buttons -->
@@ -489,9 +489,9 @@
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
-    <!-- Udfps Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">Udfps haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching udfps icon</string>
+    <!-- UDFPS Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
 
     <!-- Tiles on secure keyguard -->
     <string name="use_tiles_on_secure_keyguard_title">Require unlocking to use sensitive tiles</string>
@@ -596,14 +596,14 @@
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
-    <!-- Udfps animations -->
-    <string name="udfps_recog_animation">Udfps animation</string>
+    <!-- UDFPS animations -->
+    <string name="udfps_recog_animation">UDFPS animation</string>
     <string name="udfps_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="udfps_recog_animation_effect_title">Udfps animation effect</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS animation effect</string>
     <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
 
-    <!-- Udfps icon picker -->
-    <string name="udfps_icon_picker_title">Udfps icon picker</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
 
     <!-- Volume panel on left switch -->

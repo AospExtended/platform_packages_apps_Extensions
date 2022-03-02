@@ -606,4 +606,6 @@
     <string name="udfps_icon_picker_title">Udfps icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
 
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>

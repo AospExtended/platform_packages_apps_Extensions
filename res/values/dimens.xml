@@ -22,5 +22,7 @@
     <dimen name="default_nav_item_text_padding">8dp</dimen>
     <dimen name="default_nav_item_title_max_width">80dp</dimen>
     <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
 
 </resources>

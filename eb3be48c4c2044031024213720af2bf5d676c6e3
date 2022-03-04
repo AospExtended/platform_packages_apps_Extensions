@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a3356ea_a8108f83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000046
+      },
+      "writtenOn": "2022-03-04T11:37:26Z",
+      "side": 1,
+      "message": "breaks icon pack category in customization menu ",
+      "revId": "eb3be48c4c2044031024213720af2bf5d676c6e3",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    }
+  ]
+}

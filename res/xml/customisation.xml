@@ -78,6 +78,12 @@
             android:summary="@string/udfps_recog_animation_effect_summary"
             android:fragment="org.aospextended.extensions.fragments.UdfpsAnimation"/>
 
+       <!-- UDFPS Night light -->
+        <org.aospextended.support.preference.SystemSettingSwitchPreference
+            android:key="fod_night_light"
+            android:title="@string/fod_night_light_title"
+            android:summary="@string/fod_night_light_summary"
+            android:defaultValue="@*android:bool/disable_fod_night_light"  />
     </PreferenceCategory>
 
 </PreferenceScreen>

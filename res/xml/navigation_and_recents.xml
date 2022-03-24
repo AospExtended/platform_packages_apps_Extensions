@@ -27,8 +27,9 @@
 
          <org.aospextended.support.preference.CardviewPreference
             android:key="gesture_settings"
-            android:fragment="org.aospextended.extensions.fragments.GestureOptions"
             android:icon="@drawable/ic_gestures"
-            android:title="@string/gestures_category" />
+            android:title="@string/gestures_category"
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController" />
 
 </PreferenceScreen>

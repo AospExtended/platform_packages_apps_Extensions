@@ -620,4 +620,8 @@
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
+
+    <!-- QQS Footer Actions -->
+    <string name="show_qqs_footer_actions_title">Show footer actions on QQS</string>
+    <string name="show_qqs_footer_actions_summary">Show footer actions in collapsed quick settings panel</string>
 </resources>

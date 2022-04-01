@@ -73,6 +73,12 @@
             android:summary="@string/qs_show_battery_estimate_summary"
             android:defaultValue="true"/>
 
+        <org.aospextended.support.preference.SecureSettingSwitchPreference
+            android:key="sysui_qqs_footer_actions"
+            android:title="@string/show_qqs_footer_actions_title"
+            android:summary="@string/show_qqs_footer_actions_summary"
+            android:defaultValue="false"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
